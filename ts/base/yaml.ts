@@ -20,6 +20,7 @@
 
 import * as fs from 'fs';
 // import {Action} from './rules';
+let yjs = require('yamljs');
 
 
 export function toYaml(file: string, actions: {[name: string]: string[]},
@@ -38,4 +39,19 @@ export function toYaml(file: string, actions: {[name: string]: string[]},
     output.push(out.join('\n'));
   }
   fs.writeFileSync(file, output.join('\n\n') + '\n');
+}
+
+
+export function fromYaml(file: string) {
+  let str = fs.readFileSync(file, 'utf8');
+  let lines = str.split('\n');
+  let result = [];
+  for (let line of lines) {
+    if (line.match(/^\s+- /)) {
+      result.push(line.replace(/^(\s+- )/, '$1\'') + '\'');
+    } else {
+      result.push(line);
+    }
+  }
+  return yjs.parse(result.join('\n'));
 }
