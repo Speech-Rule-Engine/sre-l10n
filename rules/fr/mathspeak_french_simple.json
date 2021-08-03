@@ -1,0 +1,446 @@
+{
+  "collapsed": [
+    "%1"
+  ],
+  "blank-cell-empty": [
+    "\"vide\""
+  ],
+  "blank-line-empty": [
+    "\"vide\""
+  ],
+  "font": [
+    "%1",
+    "%2"
+  ],
+  "font-identifier-short": [
+    "%1",
+    "%2"
+  ],
+  "font-identifier": [
+    "%1",
+    "%2"
+  ],
+  "mixed-number": [
+    "%1",
+    "\"et\"",
+    "%2"
+  ],
+  "number-with-chars": [
+    "\"nombre\"",
+    "%1"
+  ],
+  "number-as-upper-word": [
+    "\"MotMajuscule\"",
+    "%1"
+  ],
+  "number-baseline": [
+    "\"position de base\"",
+    "%1"
+  ],
+  "number-baseline-brief": [
+    "\"base\"",
+    "%1"
+  ],
+  "number-baseline-font": [
+    "\"position de base\"",
+    "%1",
+    "%2"
+  ],
+  "number-baseline-font-brief": [
+    "\"base\"",
+    "%1",
+    "%2"
+  ],
+  "negative-number": [
+    "\"négatif\"",
+    "%1"
+  ],
+  "negative": [
+    "\"négatif\"",
+    "%1"
+  ],
+  "division": [
+    "%1",
+    "\"divisé par\"",
+    "%2"
+  ],
+  "subtraction": [
+    "%1 (separator:\"moins\")"
+  ],
+  "fences-neutral": [
+    "\"début valeur absolue\"",
+    "%1",
+    "\"fin valeur absolue\""
+  ],
+  "fences-neutral-sbrief": [
+    "\"valeur absolue\"",
+    "%1",
+    "\"fin valeur absolue\""
+  ],
+  "fences-metric": [
+    "%1",
+    "%2",
+    "%3"
+  ],
+  "empty-set": [
+    "\"ensemble vide\""
+  ],
+  "fences-set": [
+    "\"début ensemble\"",
+    "%1",
+    "\"fin ensemble\""
+  ],
+  "fences-set-sbrief": [
+    "\"ensemble\"",
+    "%1",
+    "\"fin ensemble\""
+  ],
+  "factorial": [
+    "\"factorielle\""
+  ],
+  "minus": [
+    "\"moins\""
+  ],
+  "continued-fraction-outer": [
+    "\"fraction continue\"",
+    "%1",
+    "\"sur\"",
+    "%2"
+  ],
+  "continued-fraction-outer-brief": [
+    "\"frac continue\"",
+    "%1",
+    "\"sur\"",
+    "%2"
+  ],
+  "continued-fraction-inner": [
+    "\"début fraction\"",
+    "%1",
+    "\"sur\"",
+    "%2"
+  ],
+  "continued-fraction-inner-brief": [
+    "\"début frac\"",
+    "%1",
+    "\"sur\"",
+    "%2"
+  ],
+  "continued-fraction-inner-sbrief": [
+    "\"frac\"",
+    "%1",
+    "\"sur\"",
+    "%2"
+  ],
+  "limboth": [
+    "%1",
+    "\"début\"",
+    "%2",
+    "%3",
+    "\"début\"",
+    "%4",
+    "%5"
+  ],
+  "limlower": [
+    "%1",
+    "\"début\"",
+    "%2",
+    "%3"
+  ],
+  "limupper": [
+    "%1",
+    "\"début\"",
+    "%2",
+    "%3"
+  ],
+  "limboth-end": [
+    "%1",
+    "\"début\"",
+    "%2",
+    "%3",
+    "\"début\"",
+    "%4",
+    "%5",
+    "\"fin scripts\""
+  ],
+  "limlower-end": [
+    "%1",
+    "\"début\"",
+    "%2",
+    "%3",
+    "\"fin scripts\""
+  ],
+  "limupper-end": [
+    "%1",
+    "\"début\"",
+    "%2",
+    "%3",
+    "\"fin scripts\""
+  ],
+  "integral": [
+    "%1",
+    "\"indice inférieur\"",
+    "%2",
+    "\"indice supérieur\"",
+    "%3",
+    "\"position de base\""
+  ],
+  "integral-brief": [
+    "%1",
+    "\"inf\"",
+    "%2",
+    "\"sup\"",
+    "%3",
+    "\"position de base\""
+  ],
+  "logarithm-base": [
+    "%1",
+    "\"base\"",
+    "%2"
+  ],
+  "square": [
+    "%1",
+    "\"au carré\""
+  ],
+  "cube": [
+    "%1",
+    "\"cubique\""
+  ],
+  "prime": [
+    "%1",
+    "%2"
+  ],
+  "double-prime": [
+    "\"double prime\""
+  ],
+  "triple-prime": [
+    "\"triple prime\""
+  ],
+  "quadruple-prime": [
+    "\"quadruple prime\""
+  ],
+  "counted-prime": [
+    "%1",
+    "\"prime\""
+  ],
+  "counted-prime-multichar": [
+    "%1",
+    "\"prime\""
+  ],
+  "overscore": [
+    "\"suscrire\"",
+    "%1",
+    "\"avec\"",
+    "%2"
+  ],
+  "double-overscore": [
+    "\"sus-suscrire\"",
+    "%1",
+    "\"avec\"",
+    "%2"
+  ],
+  "underscore": [
+    "\"souscrire\"",
+    "%1",
+    "\"avec\"",
+    "%2"
+  ],
+  "double-underscore": [
+    "\"sous-souscrire\"",
+    "%1",
+    "\"avec\"",
+    "%2"
+  ],
+  "matrix": [
+    "\"début matrice\"",
+    "%1",
+    "\"par\"",
+    "%2",
+    "%3 (context:\"rangée \")",
+    "\"fin matrice\""
+  ],
+  "matrix-sbrief": [
+    "\"matrice\"",
+    "%1",
+    "\"par\"",
+    "%2",
+    "%3 (context:\"rangée \")",
+    "\"fin matrice\""
+  ],
+  "matrix-row": [
+    "%1 (context:\"colonne\", pause:200)"
+  ],
+  "row-with-label": [
+    "\"avec étiquette\"",
+    "%1",
+    "\"fin étiquette\" (pause:200)",
+    "%2 (context:\"colonne\")"
+  ],
+  "row-with-label-brief": [
+    "\"étiquette\"",
+    "%1",
+    "%2 (context:\"colonne\")"
+  ],
+  "row-with-text-label": [
+    "\"étiquette\"",
+    "%1",
+    "%2 (context:\"colonne\")"
+  ],
+  "empty-row": [
+    "\"vide\""
+  ],
+  "empty-cell": [
+    "\"vide\" (pause:300)"
+  ],
+  "determinant": [
+    "\"début déterminant\"",
+    "%1",
+    "\"par\"",
+    "%2",
+    "\"\"",
+    "%3 (context:\"rangée \")",
+    "\"fin déterminant\""
+  ],
+  "determinant-sbrief": [
+    "\"déterminant\"",
+    "%1",
+    "\"par\"",
+    "%2",
+    "%3 (context:\"rangée \")",
+    "\"fin déterminant\""
+  ],
+  "determinant-simple": [
+    "\"début déterminant\"",
+    "%1",
+    "\"par\"",
+    "%2",
+    "%3 (context:\"rangée\")",
+    "\"fin déterminant\""
+  ],
+  "determinant-simple-sbrief": [
+    "\"déterminant\"",
+    "%1",
+    "\"par\"",
+    "%2",
+    "%3 (context:\"rangée\")",
+    "\"fin déterminant\""
+  ],
+  "layout": [
+    "\"début tableau\"",
+    "%1 (context:\"rangée \")",
+    "\"fin tableau\""
+  ],
+  "layout-sbrief": [
+    "\"tableau\"",
+    "%1 (context:\"rangée \")",
+    "\"fin tableau\""
+  ],
+  "binomial": [
+    "\"début binomiale\"",
+    "%1",
+    "\"parmi\"",
+    "%2",
+    "\"fin binomiale\""
+  ],
+  "binomial-sbrief": [
+    "\"binomiale\"",
+    "%1",
+    "\"parmi\"",
+    "%2",
+    "\"fin binomiale\""
+  ],
+  "cases": [
+    "\"début tableau\"",
+    "%1",
+    "\"élargie\"",
+    "%2 (context:\"rangée \")",
+    "\"fin tableau\""
+  ],
+  "cases-sbrief": [
+    "\"tableau\"",
+    "%1",
+    "\"élargie\"",
+    "%2 (context:\"rangée \")",
+    "\"fin tableau\""
+  ],
+  "line-with-label": [
+    "\"avec etiquette\"",
+    "%1",
+    "\"fin etiquette\" (pause:200)",
+    "%2"
+  ],
+  "line-with-label-brief": [
+    "\"etiquette\"",
+    "%1 (pause:200)",
+    "%2"
+  ],
+  "line-with-text-label": [
+    "\"etiquette\"",
+    "%1",
+    "%2"
+  ],
+  "empty-line": [
+    "\"vide\""
+  ],
+  "empty-line-with-label": [
+    "\"avec etiquette\"",
+    "%1",
+    "\"fin etiquette\" (pause:200)",
+    "\"vide\""
+  ],
+  "empty-line-with-label-brief": [
+    "\"etiquette\"",
+    "%1 (pause:200)",
+    "\"vide\""
+  ],
+  "enclose": [
+    "\"début enfermer en\"",
+    "%1",
+    "%2",
+    "\"fin enfermer\""
+  ],
+  "overbar-enclose": [
+    "\"début trait suscrit\"",
+    "%1",
+    "\"fin trait suscrit\""
+  ],
+  "underbar-enclose": [
+    "\"début trait souscrit\"",
+    "%1",
+    "\"fin trait souscrit\""
+  ],
+  "leftbar": [
+    "\"barre verticale\"",
+    "%1"
+  ],
+  "rightbar": [
+    "%1",
+    "\"barre verticale\""
+  ],
+  "crossout": [
+    "\"début biffé\"",
+    "%1",
+    "\"fin biffé\""
+  ],
+  "cancel": [
+    "\"début biffé\"",
+    "%1",
+    "\"avec\"",
+    "%2",
+    "\"fin biffé\""
+  ],
+  "cancel-reverse": [
+    "\"début biffé\"",
+    "%1",
+    "\"avec\"",
+    "%2",
+    "\"fin biffé\""
+  ],
+  "unit-square": [
+    "%1",
+    "\"carré\""
+  ],
+  "unit-cubic": [
+    "%1",
+    "\"cube\""
+  ]
+}

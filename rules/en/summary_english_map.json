@@ -1,0 +1,281 @@
+{
+  "abstr-identifier-long": {},
+  "abstr-identifier": {},
+  "abstr-number-long": {},
+  "abstr-number": {},
+  "abstr-mixed-number-long": {},
+  "abstr-mixed-number": {},
+  "abstr-text": {},
+  "abstr-function": {},
+  "abstr-function-brief": {},
+  "abstr-lim": {},
+  "abstr-lim-brief": {},
+  "abstr-fraction": {},
+  "abstr-fraction-brief": {},
+  "abstr-continued-fraction": {},
+  "abstr-continued-fraction-brief": {},
+  "abstr-sqrt": {},
+  "abstr-sqrt-nested": {},
+  "abstr-root-end": {
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "attributes": {
+        "engine": "modality=speech"
+      }
+    }
+  },
+  "abstr-root": {
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "attributes": {
+        "engine": "modality=speech"
+      }
+    }
+  },
+  "abstr-root-brief": {},
+  "abstr-root-nested-end": {
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "attributes": {
+        "engine": "modality=speech"
+      }
+    }
+  },
+  "abstr-root-nested": {
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "attributes": {
+        "engine": "modality=speech"
+      }
+    }
+  },
+  "abstr-root-nested-brief": {},
+  "abstr-superscript": {},
+  "abstr-subscript": {},
+  "abstr-subsup": {},
+  "abstr-infixop": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    }
+  },
+  "abstr-infixop-var": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    }
+  },
+  "abstr-infixop-brief": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    }
+  },
+  "abstr-addition": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    }
+  },
+  "abstr-addition-brief": {},
+  "abstr-addition-var": {},
+  "abstr-multiplication": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    }
+  },
+  "abstr-multiplication-brief": {},
+  "abstr-multiplication-var": {},
+  "abstr-vector": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    }
+  },
+  "abstr-vector-brief": {},
+  "abstr-vector-var": {},
+  "abstr-binomial": {},
+  "abstr-determinant": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    }
+  },
+  "abstr-determinant-brief": {},
+  "abstr-determinant-var": {},
+  "abstr-squarematrix": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    }
+  },
+  "abstr-squarematrix-brief": {},
+  "abstr-rowvector": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/row/children/*)"
+    }
+  },
+  "abstr-rowvector-brief": {},
+  "abstr-rowvector-var": {},
+  "abstr-matrix": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(children/*)"
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(children/*[1]/children/*)"
+    }
+  },
+  "abstr-matrix-brief": {},
+  "abstr-matrix-var": {},
+  "abstr-cases": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(children/*)"
+    }
+  },
+  "abstr-cases-brief": {},
+  "abstr-cases-var": {},
+  "abstr-punctuated": {
+    "%1": {
+      "type": "NODE",
+      "content": "content/*[1]"
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(children/*) - count(content/*)"
+    }
+  },
+  "abstr-punctuated-brief": {
+    "%1": {
+      "type": "NODE",
+      "content": "content/*[1]"
+    }
+  },
+  "abstr-punctuated-var": {
+    "%1": {
+      "type": "NODE",
+      "content": "content/*[1]"
+    }
+  },
+  "abstr-bigop": {
+    "%1": {
+      "type": "NODE",
+      "content": "content/*[1]"
+    }
+  },
+  "abstr-integral": {},
+  "abstr-relation": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    }
+  },
+  "abstr-relation-seq": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    }
+  },
+  "abstr-relation-seq-brief": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    }
+  },
+  "abstr-relation-var": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    }
+  },
+  "abstr-multirel": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    }
+  },
+  "abstr-multirel-brief": {},
+  "abstr-multirel-var": {},
+  "abstr-table": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(children/*)"
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(children/*[1]/children/*)"
+    }
+  },
+  "abstr-line": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    }
+  },
+  "abstr-row": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(preceding-sibling::..)"
+    },
+    "%3": {
+      "type": "TEXT",
+      "content": "count(children/*)"
+    }
+  },
+  "abstr-cell": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "numerator": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Zähler\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "denominator": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Nenner\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "base": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Basis\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "exponent": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Exponent\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "subscript": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Index\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "overscript": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Oberer Grenzwert\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "underscript": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Unterer Grenzwert\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "radicand": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Radikand\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "index": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Wurzelexponent\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "leftsub": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"linker unterer Index\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "leftsub-counted": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"linker unterer Index\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "leftsuper": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"linker oberer Index\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "leftsuper-counted": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"linker oberer Index\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "rightsub": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"rechter unterer Index\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "rightsub-counted": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"rechter unterer Index\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "rightsuper": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"rechter oberer Index\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "rightsuper-counted": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"rechter oberer Index\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "choice": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Grundgesamtheit\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "select": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Stichprobengröße\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "row": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Zeile\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "cell": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "../.."
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Spalte\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "cell-simple": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Spalte\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  }
+}

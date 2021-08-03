@@ -1,0 +1,768 @@
+# For details on the format see https:///speechruleengine.org/yaml.md
+
+# 
+# %1: 
+collapsed:
+  - %1
+
+# 
+blank-cell-empty:
+  - "vuoto"
+
+# 
+blank-line-empty:
+  - "vuoto"
+
+# 
+# %1: 
+# %2: 
+font:
+  - %1
+  - %2
+
+# 
+# %1: 
+# %2: 
+font-identifier-short:
+  - %1
+  - %2
+
+# 
+# %1: 
+# %2: 
+font-identifier:
+  - %1
+  - %2
+
+# 
+# %1: 
+# %2: 
+mixed-number:
+  - %1
+  - "e"
+  - %2
+
+# 
+# %1: 
+number-with-chars:
+  - "numero"
+  - %1
+
+# 
+# %1: 
+number-with-chars-brief:
+  - "num"
+  - %1
+
+# 
+# %1: 
+number-as-upper-word:
+  - "parolaMaiuscolo"
+  - %1
+
+# 
+# %1: 
+number-baseline:
+  - "linea di base"
+  - %1
+
+# 
+# %1: 
+number-baseline-brief:
+  - "base"
+  - %1
+
+# 
+# %1: 
+# %2: 
+number-baseline-font:
+  - "linea di base"
+  - %1
+  - %2
+
+# 
+# %1: 
+# %2: 
+number-baseline-font-brief:
+  - "base"
+  - %1
+  - %2
+
+# 
+# %1: 
+negative-number:
+  - "meno"
+  - %1
+
+# 
+# %1: 
+negative:
+  - "meno"
+  - %1
+
+# 
+# %1: 
+# %2: 
+division:
+  - %1
+  - "diviso per"
+  - %2
+
+# 
+# %1: 
+subtraction:
+  - %1 (separator:"meno")
+
+# 
+# %1: 
+fences-neutral:
+  - "inizio valore assoluto"
+  - %1
+  - "fine valore assoluto"
+
+# 
+# %1: 
+fences-neutral-sbrief:
+  - "valore assoluto"
+  - %1
+  - "fine valore assoluto"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+fences-metric:
+  - %1
+  - %2
+  - %3
+
+# 
+empty-set:
+  - "insieme vuoto"
+
+# 
+# %1: 
+fences-set:
+  - "inizio insieme"
+  - %1
+  - "fine insieme"
+
+# 
+# %1: 
+fences-set-sbrief:
+  - "insieme"
+  - %1
+  - "fine insieme"
+
+# 
+factorial:
+  - "fattoriale"
+
+# 
+minus:
+  - "meno"
+
+# 
+# %1: 
+vulgar-fraction:
+  - %1 (grammar:gender="m")
+
+# 
+# %1: 
+# %2: 
+continued-fraction-outer:
+  - "continuo frazione"
+  - %1
+  - "fratto"
+  - %2
+
+# 
+# %1: 
+# %2: 
+continued-fraction-outer-brief:
+  - "continuo frazione"
+  - %1
+  - "fratto"
+  - %2
+
+# 
+# %1: 
+# %2: 
+continued-fraction-inner:
+  - "inizio frazione"
+  - %1
+  - "fratto"
+  - %2
+
+# 
+# %1: 
+# %2: 
+continued-fraction-inner-brief:
+  - "inizio frazione"
+  - %1
+  - "fratto"
+  - %2
+
+# 
+# %1: 
+# %2: 
+continued-fraction-inner-sbrief:
+  - "frazione"
+  - %1
+  - "fratto"
+  - %2
+
+# 
+# %1: 
+# %2: 
+# %3: 
+# %4: 
+# %5: 
+limboth:
+  - %1
+  - %2
+  - %3
+  - %4
+  - %5
+
+# 
+# %1: 
+# %2: 
+# %3: 
+limlower:
+  - %1
+  - %2
+  - %3
+
+# 
+# %1: 
+# %2: 
+# %3: 
+limupper:
+  - %1
+  - %2
+  - %3
+
+# 
+# %1: 
+# %2: 
+# %3: 
+# %4: 
+# %5: 
+limboth-end:
+  - %1
+  - %2
+  - %3
+  - %4
+  - %5
+  - "fine script"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+limlower-end:
+  - %1
+  - %2
+  - %3
+  - "fine script"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+limupper-end:
+  - %1
+  - %2
+  - %3
+  - "fine script"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+integral:
+  - %1
+  - "pedice"
+  - %2
+  - "apice"
+  - %3
+  - "linea di base"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+integral-brief:
+  - %1
+  - "sub"
+  - %2
+  - "sup"
+  - %3
+  - "base"
+
+# 
+# %1: 
+# %2: 
+logarithm-base:
+  - %1
+  - "base"
+  - %2
+
+# 
+squared-masculine:
+  - "quadrato"
+
+# 
+squared-feminine:
+  - "quadrata"
+
+# 
+# %1: 
+square:
+  - %1
+  - %2
+
+# 
+# %1: 
+cube:
+  - %1
+  - "cubo"
+
+# 
+# %1: 
+# %2: 
+prime:
+  - %1
+  - %2
+
+# 
+double-prime:
+  - "doppio primo"
+
+# 
+triple-prime:
+  - "triplo primo"
+
+# 
+quadruple-prime:
+  - "quattro volte primo"
+
+# 
+# %1: 
+counted-prime:
+  - %1
+  - "primo"
+
+# 
+# %1: 
+counted-prime-multichar:
+  - %1
+  - "primo"
+
+# 
+# %1: 
+# %2: 
+overscore:
+  - "modificante sopra"
+  - %1
+  - "con"
+  - %2
+
+# 
+# %1: 
+# %2: 
+overscore-brief:
+  - "mod sopra"
+  - %1
+  - "con"
+  - %2
+
+# 
+# %1: 
+# %2: 
+double-overscore:
+  - "modificante sopra sopra"
+  - %1
+  - "con"
+  - %2
+
+# 
+# %1: 
+# %2: 
+double-overscore-brief:
+  - "mod sopra sopra"
+  - %1
+  - "con"
+  - %2
+
+# 
+# %1: 
+# %2: 
+underscore:
+  - "modificanteSotto"
+  - %1
+  - "con"
+  - %2
+
+# 
+# %1: 
+# %2: 
+underscore-brief:
+  - "modSotto"
+  - %1
+  - "con"
+  - %2
+
+# 
+# %1: 
+# %2: 
+double-underscore:
+  - "modificanteSotto sotto"
+  - %1
+  - "con"
+  - %2
+
+# 
+# %1: 
+# %2: 
+double-underscore-brief:
+  - "modSotto sotto"
+  - %1
+  - "con"
+  - %2
+
+# 
+# %1: 
+overbar:
+  - %1
+  - "con barra sopra"
+
+# 
+# %1: 
+underbar:
+  - %1
+  - "con barra sotto"
+
+# 
+# %1: 
+overtilde:
+  - %1
+  - "con tilde sopra"
+
+# 
+# %1: 
+undertilde:
+  - %1
+  - "con tilde sotto"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+matrix:
+  - "inizio"
+  - %1
+  - "per"
+  - %2
+  - "matrice"
+  - %3 (context:"riga ")
+  - "fine matrice"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+matrix-sbrief:
+  - %1
+  - "per"
+  - %2
+  - "matrice"
+  - %3 (context:"riga ")
+  - "fine matrice"
+
+# 
+# %1: 
+matrix-row:
+  - %1 (context:"colonna", pause:200)
+
+# 
+# %1: 
+# %2: 
+row-with-label:
+  - "con etichetta"
+  - %1
+  - "fine etichetta" (pause:200)
+  - %2 (context:"colonna")
+
+# 
+# %1: 
+# %2: 
+row-with-label-brief:
+  - "etichetta"
+  - %1
+  - %2 (context:"colonna")
+
+# 
+# %1: 
+# %2: 
+row-with-text-label:
+  - "etichetta"
+  - %1
+  - %2 (context:"colonna")
+
+# 
+empty-row:
+  - "vuoto"
+
+# 
+empty-cell:
+  - "vuoto" (pause:300)
+
+# 
+# %1: 
+# %2: 
+# %3: 
+determinant:
+  - "inizio"
+  - %1
+  - "per"
+  - %2
+  - "determinante"
+  - %3 (context:"riga ")
+  - "fine determinante"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+determinant-sbrief:
+  - %1
+  - "per"
+  - %2
+  - "determinante"
+  - %3 (context:"riga ")
+  - "fine determinante"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+determinant-simple:
+  - "inizio"
+  - %1
+  - "per"
+  - %2
+  - "determinante"
+  - %3 (context:"riga")
+  - "fine determinante"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+determinant-simple-sbrief:
+  - %1
+  - "per"
+  - %2
+  - "determinante"
+  - %3 (context:"riga")
+  - "fine determinante"
+
+# 
+# %1: 
+layout:
+  - "inizio layout"
+  - %1 (context:"row ")
+  - "fine layout"
+
+# 
+# %1: 
+layout-sbrief:
+  - "layout"
+  - %1 (context:"row ")
+  - "fine layout"
+
+# 
+# %1: 
+# %2: 
+binomial:
+  - "inizio binomiale o matrice"
+  - %1
+  - "scelta"
+  - %2
+  - "fine binomiale o matrice"
+
+# 
+# %1: 
+# %2: 
+binomial-sbrief:
+  - "bInomiale o matrice"
+  - %1
+  - "scelta"
+  - %2
+  - "fine binomiale o matrice"
+
+# 
+# %1: 
+# %2: 
+cases:
+  - "inizio layout"
+  - "allargato"
+  - %1
+  - %2 (context:"row ")
+  - "fine layout"
+
+# 
+# %1: 
+# %2: 
+cases-sbrief:
+  - "layout"
+  - "allargato"
+  - %1
+  - %2 (context:"row ")
+  - "fine layout"
+
+# 
+# %1: 
+# %2: 
+line-with-label:
+  - "con etichetta"
+  - %1
+  - "fine etichetta" (pause:200)
+  - %2
+
+# 
+# %1: 
+# %2: 
+line-with-label-brief:
+  - "etichetta"
+  - %1 (pause:200)
+  - %2
+
+# 
+# %1: 
+# %2: 
+line-with-text-label:
+  - "etichetta"
+  - %1
+  - %2
+
+# 
+empty-line:
+  - "vuoto"
+
+# 
+# %1: 
+empty-line-with-label:
+  - "con etichetta"
+  - %1
+  - "fine etichetta" (pause:200)
+  - "vuoto"
+
+# 
+# %1: 
+empty-line-with-label-brief:
+  - "etichetta"
+  - %1 (pause:200)
+  - "vuoto"
+
+# 
+# %1: 
+# %2: 
+enclose:
+  - "inizio chiuso"
+  - %1
+  - %2
+  - "fine chiuso"
+
+# 
+# %1: 
+leftbar:
+  - "barra vericale"
+  - %1
+
+# 
+# %1: 
+rightbar:
+  - %1
+  - "barra vericale"
+
+# 
+# %1: 
+crossout:
+  - "cancellato"
+  - %1
+  - "fine cancellato"
+
+# 
+# %1: 
+# %2: 
+cancel:
+  - "cancellato"
+  - %1
+  - "con"
+  - %2
+  - "fine cancellato"
+
+# 
+# %1: 
+# %2: 
+cancel-reverse:
+  - "cancellato"
+  - %1
+  - "con"
+  - %2
+  - "fine cancellato"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+multi-inference:
+  - "regola di inferenza"
+  - %1
+  - "con conclusione"
+  - %2
+  - "e"
+  - %3
+  - "premesse"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+inference:
+  - "regola di inferenza"
+  - %1
+  - "con conclusione"
+  - %2
+  - "e"
+  - %3
+  - "premessa"
+
+# 
+# %1: 
+premise:
+  - %1 (context:"premise ")
+
+# 
+# %1: 
+conclusion:
+  - %1
+
+# 
+# %1: 
+label:
+  - "etichetta"
+  - %1
+
+# 
+# %1: 
+axiom:
+  - "assioma"
+  - %1
+
+# 
+empty-axiom:
+  - "assioma vuoto"

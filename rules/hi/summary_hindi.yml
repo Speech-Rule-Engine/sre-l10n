@@ -1,0 +1,364 @@
+# For details on the format see https:///speechruleengine.org/yaml.md
+
+# A long collapsed identifier.
+# LaTeX Example: $\mathit{abcdefg}$
+abstr-identifier-long:
+  - "दीर्घ तत्समक"
+
+# 
+abstr-identifier:
+  - "तत्समक"
+
+# 
+abstr-number-long:
+  - "दीर्घ संख्या"
+
+# 
+abstr-number:
+  - "संख्या"
+
+# 
+abstr-mixed-number-long:
+  - "दीर्घ मिश्र संख्या"
+
+# 
+abstr-mixed-number:
+  - "मिश्र संख्या"
+
+# 
+abstr-text:
+  - "पाठ"
+
+# 
+abstr-function:
+  - "फलन व्यंजक"
+
+# 
+abstr-function-brief:
+  - "फलन"
+
+# 
+abstr-lim:
+  - "फलन सीमा"
+
+# 
+abstr-lim-brief:
+  - "सीमा"
+
+# 
+abstr-fraction:
+  - "भिन्न"
+
+# 
+abstr-fraction-brief:
+  - "अपूर्णांश"
+
+# 
+abstr-continued-fraction:
+  - "सतत भिन्न"
+
+# 
+abstr-continued-fraction-brief:
+  - "सतत अपूर्णांश"
+
+# 
+abstr-sqrt:
+  - "वर्ग मूल"
+
+# 
+abstr-sqrt-nested:
+  - "नीड़ित वर्ग मूल"
+
+# 
+# %1: 
+abstr-root-end:
+  - "वां मूल"
+  - %1
+  - "मूलांक समाप्त"
+
+# 
+# %1: 
+abstr-root:
+  - %1
+  - "वां मूल"
+
+# 
+abstr-root-brief:
+  - "मूल"
+
+# 
+# %1: 
+abstr-root-nested-end:
+  - "नीड़ित मूल्यांक"
+  - %1
+  - "मूलांक समाप्त"
+
+# 
+# %1: 
+abstr-root-nested:
+  - "नीड़ित मूल्यांक"
+  - %1
+
+# 
+abstr-root-nested-brief:
+  - "नीड़ित मूल"
+
+# 
+abstr-superscript:
+  - "घातांक"
+
+# 
+abstr-subscript:
+  - "पादांक"
+
+# 
+abstr-subsup:
+  - "पादांक वाला घातांक"
+
+# 
+# %1: 
+# %2: 
+abstr-infixop:
+  - %1
+  - "अवयव"
+  - "के साथ"
+  - %2
+
+# 
+# %1: 
+abstr-infixop-var:
+  - "चल तादात के अवयवों के साथ"
+  - %1
+
+# 
+# %1: 
+abstr-infixop-brief:
+  - %1
+
+# 
+# %1: 
+abstr-addition:
+  - %1
+  - "पद"
+  - "के साथ योग"
+
+# 
+abstr-addition-brief:
+  - "योग"
+
+# 
+abstr-addition-var:
+  - "चल तादात के पदों का योग"
+
+# 
+# %1: 
+abstr-multiplication:
+  - %1
+  - "गुणनखंड"
+  - "के साथ गुणनफल"
+
+# 
+abstr-multiplication-brief:
+  - "गुणनफल"
+
+# 
+abstr-multiplication-var:
+  - "चल तादात के गुणनखंडो का गुणनफल"
+
+# 
+# %1: 
+abstr-vector:
+  - %1
+  - "विमीय सदिश"
+
+# 
+abstr-vector-brief:
+  - "सदिश"
+
+# 
+abstr-vector-var:
+  - "एन विमीय सदिश"
+
+# 
+abstr-binomial:
+  - "द्विपद"
+
+# 
+# %1: 
+abstr-determinant:
+  - %1
+  - "विमीय सारणिक"
+
+# 
+abstr-determinant-brief:
+  - "सारणिक"
+
+# 
+abstr-determinant-var:
+  - "एन विमीय सारणिक"
+
+# 
+# %1: 
+abstr-squarematrix:
+  - %1
+  - "विमीय वर्ग आव्यूह"
+
+# 
+abstr-squarematrix-brief:
+  - "वर्ग आव्यूह"
+
+# 
+# %1: 
+abstr-rowvector:
+  - %1
+  - "विमीय पंक्ति सदिश"
+
+# 
+abstr-rowvector-brief:
+  - "पंक्ति सदिश"
+
+# 
+abstr-rowvector-var:
+  - "एन विमीय पंक्ति सदिश"
+
+# 
+# %1: 
+# %2: 
+abstr-matrix:
+  - %1
+  - "गुणा"
+  - %2
+  - "आव्यूह"
+
+# 
+abstr-matrix-brief:
+  - "आव्यूह"
+
+# 
+abstr-matrix-var:
+  - "एन गुणा एम आव्यूह"
+
+# 
+# %1: 
+abstr-cases:
+  - %1
+  - "फलन उपशर्त"
+  - "के साथ"
+  - "फलन उपशर्त कथन"
+
+# 
+abstr-cases-brief:
+  - "फलन उपशर्त कथन"
+
+# 
+abstr-cases-var:
+  - "चल तादात की फलन उपशर्तों वाला फलन उपशर्त कथन"
+
+# 
+# %1: 
+# %2: 
+abstr-punctuated:
+  - %1
+  - "लम्बाई की"
+  - %2
+  - "विभाजित सूचि"
+
+# 
+# %1: 
+abstr-punctuated-brief:
+  - %1
+  - "विभाजित सूचि"
+
+# 
+# %1: 
+abstr-punctuated-var:
+  - "चल लम्बाई की"
+  - %1
+  - "विभाजित सूचि"
+
+# 
+# %1: 
+abstr-bigop:
+  - %1
+
+# 
+abstr-integral:
+  - "समाकल"
+
+# 
+# %1: 
+abstr-relation:
+  - %1
+
+# 
+# %1: 
+# %2: 
+abstr-relation-seq:
+  - %1
+  - "अवयव"
+  - "के साथ"
+  - %2
+  - "अनुक्रम"
+
+# 
+# %1: 
+abstr-relation-seq-brief:
+  - %1
+  - "अनुक्रम"
+
+# 
+# %1: 
+abstr-relation-var:
+  - "चल तादात के अवयवों के साथ"
+  - %1
+  - "अनुक्रम"
+
+# 
+# %1: 
+abstr-multirel:
+  - %1
+  - "अवयव"
+  - "के साथ"
+  - "संबंधानुक्रम"
+
+# 
+abstr-multirel-brief:
+  - "संबंधानुक्रम"
+
+# 
+abstr-multirel-var:
+  - "चल तादात के अवयवों का संबंधानुक्रम"
+
+# 
+# %1: 
+# %2: 
+abstr-table:
+  - %1
+  - "पक्तियां और"
+  - %2
+  - "स्तंभ"
+  - "के साथ सारणी"
+
+# 
+# %1: 
+abstr-line:
+  - %1
+  - "में"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+abstr-row:
+  - "में"
+  - %1
+  - %2
+  - "के साथ"
+  - %3
+  - "स्तंभ"
+
+# 
+# %1: 
+abstr-cell:
+  - %1
+  - "में"

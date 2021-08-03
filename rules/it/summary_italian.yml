@@ -1,0 +1,440 @@
+# For details on the format see https:///speechruleengine.org/yaml.md
+
+# 
+collapsed-masculine:
+  - "collassato"
+
+# 
+collapsed-feminine:
+  - "collassata"
+
+# A long collapsed identifier.
+# LaTeX Example: $\mathit{abcdefg}$
+abstr-identifier-long:
+  - "identificatore lungo"
+  - %1 (grammar:gender="m")
+
+# 
+abstr-identifier:
+  - "identificatore"
+  - %1 (grammar:gender="m")
+
+# 
+abstr-number-long:
+  - "intero lungo"
+  - %1 (grammar:gender="m")
+
+# 
+abstr-number:
+  - "numero"
+  - %1 (grammar:gender="m")
+
+# 
+abstr-mixed-number-long:
+  - "numero misto lungo"
+  - %1 (grammar:gender="m")
+
+# 
+abstr-mixed-number:
+  - "numero misto"
+  - %1 (grammar:gender="m")
+
+# 
+abstr-text:
+  - "testo"
+  - %1 (grammar:gender="m")
+
+# 
+abstr-function:
+  - "espressione funzionale"
+  - %1 (grammar:gender="f")
+
+# 
+abstr-function-brief:
+  - "funzione"
+  - %1 (grammar:gender="f")
+
+# 
+abstr-lim:
+  - "funzione limite"
+  - %1 (grammar:gender="f")
+
+# 
+abstr-lim-brief:
+  - "limite"
+  - %1 (grammar:gender="f")
+
+# 
+abstr-fraction:
+  - "frazione"
+  - %1 (grammar:gender="f")
+
+# 
+abstr-fraction-brief:
+  - "frazione"
+  - %1 (grammar:gender="f")
+
+# 
+abstr-continued-fraction:
+  - "frazione continua"
+  - %1 (grammar:gender="f")
+
+# 
+abstr-continued-fraction-brief:
+  - "frazione continua"
+  - %1 (grammar:gender="f")
+
+# 
+abstr-sqrt:
+  - "radice quadrata"
+  - %1 (grammar:gender="f")
+
+# 
+abstr-sqrt-nested:
+  - "radice quadrata doppia"
+  - %1 (grammar:gender="f")
+
+# 
+# %1: 
+abstr-root-end:
+  - "radice di indice"
+  - %1
+  - "indice finale"
+  - %2 (grammar:gender="f")
+
+# 
+# %1: 
+abstr-root:
+  - "radice di indice"
+  - %1
+  - %2 (grammar:gender="f")
+
+# 
+abstr-root-brief:
+  - "radice "
+  - %1 (grammar:gender="f")
+
+# 
+# %1: 
+abstr-root-nested-end:
+  - "radicale doppio di indice"
+  - %1
+  - "indice finale"
+  - %2 (grammar:gender="m")
+
+# 
+# %1: 
+abstr-root-nested:
+  - "radicale doppio di indice"
+  - %1
+  - %2 (grammar:gender="m")
+
+# 
+abstr-root-nested-brief:
+  - "radicale doppio"
+  - %1 (grammar:gender="m")
+
+# 
+abstr-superscript:
+  - "potenza"
+  - %1 (grammar:gender="f")
+
+# 
+abstr-subscript:
+  - "pedice"
+  - %1 (grammar:gender="m")
+
+# 
+abstr-subsup:
+  - "potenza con pedice"
+  - %1 (grammar:gender="f")
+
+# 
+# %1: 
+# %2: 
+abstr-infixop:
+  - %1
+  - "con"
+  - %2
+  - "elementi"
+  - %3 (grammar:gender="m")
+
+# 
+# %1: 
+abstr-infixop-var:
+  - %1
+  - "con numero variabile di elementi"
+  - %2 (grammar:gender="m")
+
+# 
+# %1: 
+abstr-infixop-brief:
+  - %1
+  - %2 (grammar:gender="m")
+
+# 
+# %1: 
+abstr-addition:
+  - "somma con"
+  - %1
+  - "addendi"
+  - %2 (grammar:gender="f")
+
+# 
+abstr-addition-brief:
+  - "somma"
+  - %1 (grammar:gender="f")
+
+# 
+abstr-addition-var:
+  - "somma con numero variabile di addendi"
+  - %1 (grammar:gender="f")
+
+# 
+# %1: 
+abstr-multiplication:
+  - "prodotto di"
+  - %1
+  - "fattori"
+  - %2 (grammar:gender="m")
+
+# 
+abstr-multiplication-brief:
+  - "prodotto"
+  - %1 (grammar:gender="m")
+
+# 
+abstr-multiplication-var:
+  - "prodotto con numero variabile di fattori"
+  - %1 (grammar:gender="m")
+
+# 
+# %1: 
+abstr-vector:
+  - %1
+  - "vettore dimensionale"
+  - %2 (grammar:gender="m")
+
+# 
+abstr-vector-brief:
+  - "vettore"
+
+# 
+abstr-vector-var:
+  - "vettore di dimensione n"
+  - %1 (grammar:gender="m")
+
+# 
+abstr-binomial:
+  - "binomiale"
+  - %1 (grammar:gender="m")
+
+# 
+# %1: 
+abstr-determinant:
+  - %1
+  - "derminante dimensionale"
+  - %2 (grammar:gender="m")
+
+# 
+abstr-determinant-brief:
+  - "determinante"
+  - %1 (grammar:gender="m")
+
+# 
+abstr-determinant-var:
+  - "determinante di dimensione n"
+  - %1 (grammar:gender="m")
+
+# 
+# %1: 
+abstr-squarematrix:
+  - %1
+  - "matrice quadrata dimensionale"
+  - %2 (grammar:gender="f")
+
+# 
+abstr-squarematrix-brief:
+  - "matrice quadrata"
+  - %1 (grammar:gender="f")
+
+# 
+# %1: 
+abstr-rowvector:
+  - %1
+  - "vettore riga dimensionale"
+  - %2 (grammar:gender="m")
+
+# 
+abstr-rowvector-brief:
+  - "vettore riga"
+  - %1 (grammar:gender="f")
+
+# 
+abstr-rowvector-var:
+  - "vettore riga di dimensione n"
+  - %1 (grammar:gender="f")
+
+# 
+# %1: 
+# %2: 
+abstr-matrix:
+  - %1
+  - "per"
+  - %2
+  - "matrice"
+  - %3 (grammar:gender="f")
+
+# 
+abstr-matrix-brief:
+  - "matrice"
+  - %1 (grammar:gender="f")
+
+# 
+abstr-matrix-var:
+  - "matrice dimensionale n pr m"
+  - %1 (grammar:gender="f")
+
+# 
+# %1: 
+abstr-cases:
+  - "comando switch"
+  - "con"
+  - %1
+  - "casi"
+  - %2 (grammar:gender="m")
+
+# 
+abstr-cases-brief:
+  - "comando switch"
+  - %1 (grammar:gender="m")
+
+# 
+abstr-cases-var:
+  - "comando di switch con numero variabile di casi"
+  - %1 (grammar:gender="m")
+
+# 
+# %1: 
+# %2: 
+abstr-punctuated:
+  - %1
+  - "lista separata"
+  - "di lunghezza"
+  - %2
+  - %3 (grammar:gender="f")
+
+# 
+# %1: 
+abstr-punctuated-brief:
+  - %1
+  - "lista separata"
+  - %2 (grammar:gender="f")
+
+# 
+# %1: 
+abstr-punctuated-var:
+  - %1
+  - "lista separata"
+  - "di lunghezza variabile"
+  - %2 (grammar:gender="f")
+
+# 
+# %1: 
+abstr-bigop:
+  - %1
+  - %2 (grammar:gender="m")
+
+# 
+abstr-integral:
+  - "integrale"
+  - %1 (grammar:gender="f")
+
+# 
+# %1: 
+abstr-relation:
+  - %1
+  - %2 (grammar:gender="m")
+
+# 
+# %1: 
+# %2: 
+abstr-relation-seq:
+  - %1
+  - "sequenza"
+  - "con"
+  - %2
+  - "elementi"
+  - %3 (grammar:gender="f")
+
+# 
+# %1: 
+abstr-relation-seq-brief:
+  - %1
+  - "sequenza"
+  - %2 (grammar:gender="f")
+
+# 
+# %1: 
+abstr-relation-var:
+  - %1
+  - "sequenza"
+  - "con numero variabile di elementi"
+  - %2 (grammar:gender="f")
+
+# 
+# %1: 
+abstr-multirel:
+  - "sequenza di relazione"
+  - "con"
+  - %1
+  - "elementi"
+  - %2 (grammar:gender="f")
+
+# 
+abstr-multirel-brief:
+  - "sequenza di relazione"
+  - %1 (grammar:gender="f")
+
+# 
+abstr-multirel-var:
+  - "sequenza di relazione con numero variabile di elementi"
+  - %1 (grammar:gender="f")
+
+# 
+# %1: 
+# %2: 
+abstr-table:
+  - "tavola con"
+  - %1
+  - "righe e"
+  - %2
+  - "colonne"
+  - %3 (grammar:gender="f")
+
+# 
+# %1: 
+abstr-line:
+  - "in"
+  - %1
+  - %2 (grammar:gender="m")
+
+# 
+# %1: 
+# %2: 
+# %3: 
+abstr-row:
+  - "in"
+  - %1
+  - %2
+  - "con"
+  - %3
+  - "colonne"
+  - %4 (grammar:gender="f")
+
+# 
+# %1: 
+abstr-cell:
+  - "in"
+  - %1
+  - %2 (grammar:gender="f")

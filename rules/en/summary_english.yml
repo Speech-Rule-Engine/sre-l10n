@@ -1,0 +1,364 @@
+# For details on the format see https:///speechruleengine.org/yaml.md
+
+# A long collapsed identifier.
+# LaTeX Example: $\mathit{abcdefg}$
+abstr-identifier-long:
+  - "long identifier"
+
+# 
+abstr-identifier:
+  - "identifier"
+
+# 
+abstr-number-long:
+  - "long number"
+
+# 
+abstr-number:
+  - "number"
+
+# 
+abstr-mixed-number-long:
+  - "long mixed number"
+
+# 
+abstr-mixed-number:
+  - "mixed number"
+
+# 
+abstr-text:
+  - "text"
+
+# 
+abstr-function:
+  - "functional expression"
+
+# 
+abstr-function-brief:
+  - "function"
+
+# 
+abstr-lim:
+  - "limit function"
+
+# 
+abstr-lim-brief:
+  - "lim"
+
+# 
+abstr-fraction:
+  - "fraction"
+
+# 
+abstr-fraction-brief:
+  - "frac"
+
+# 
+abstr-continued-fraction:
+  - "continued fraction"
+
+# 
+abstr-continued-fraction-brief:
+  - "continued frac"
+
+# 
+abstr-sqrt:
+  - "square root"
+
+# 
+abstr-sqrt-nested:
+  - "nested square root"
+
+# 
+# %1: 
+abstr-root-end:
+  - "root of index"
+  - %1
+  - "endindex"
+
+# 
+# %1: 
+abstr-root:
+  - "root of index"
+  - %1
+
+# 
+abstr-root-brief:
+  - "root"
+
+# 
+# %1: 
+abstr-root-nested-end:
+  - "nested root of index"
+  - %1
+  - "endindex"
+
+# 
+# %1: 
+abstr-root-nested:
+  - "nested root of index"
+  - %1
+
+# 
+abstr-root-nested-brief:
+  - "nested root"
+
+# 
+abstr-superscript:
+  - "power"
+
+# 
+abstr-subscript:
+  - "subscript"
+
+# 
+abstr-subsup:
+  - "power with subscript"
+
+# 
+# %1: 
+# %2: 
+abstr-infixop:
+  - %1
+  - "with"
+  - %2
+  - "elements"
+
+# 
+# %1: 
+abstr-infixop-var:
+  - %1
+  - "with variable number of elements"
+
+# 
+# %1: 
+abstr-infixop-brief:
+  - %1
+
+# 
+# %1: 
+abstr-addition:
+  - "sum with"
+  - %1
+  - "summands"
+
+# 
+abstr-addition-brief:
+  - "sum"
+
+# 
+abstr-addition-var:
+  - "sum with variable number of summands"
+
+# 
+# %1: 
+abstr-multiplication:
+  - "product with"
+  - %1
+  - "factors"
+
+# 
+abstr-multiplication-brief:
+  - "product"
+
+# 
+abstr-multiplication-var:
+  - "product with variable number of factors"
+
+# 
+# %1: 
+abstr-vector:
+  - %1
+  - "dimensional vector"
+
+# 
+abstr-vector-brief:
+  - "vector"
+
+# 
+abstr-vector-var:
+  - "n dimensional vector"
+
+# 
+abstr-binomial:
+  - "binomial"
+
+# 
+# %1: 
+abstr-determinant:
+  - %1
+  - "dimensional determinant"
+
+# 
+abstr-determinant-brief:
+  - "determinant"
+
+# 
+abstr-determinant-var:
+  - "n dimensional determinant"
+
+# 
+# %1: 
+abstr-squarematrix:
+  - %1
+  - "dimensional square matrix"
+
+# 
+abstr-squarematrix-brief:
+  - "square matrix"
+
+# 
+# %1: 
+abstr-rowvector:
+  - %1
+  - "dimensional row vector"
+
+# 
+abstr-rowvector-brief:
+  - "row vector"
+
+# 
+abstr-rowvector-var:
+  - "n dimensional row vector"
+
+# 
+# %1: 
+# %2: 
+abstr-matrix:
+  - %1
+  - "by"
+  - %2
+  - "matrix"
+
+# 
+abstr-matrix-brief:
+  - "matrix"
+
+# 
+abstr-matrix-var:
+  - "n by m dimensional matrix"
+
+# 
+# %1: 
+abstr-cases:
+  - "case statement"
+  - "with"
+  - %1
+  - "cases"
+
+# 
+abstr-cases-brief:
+  - "case statement"
+
+# 
+abstr-cases-var:
+  - "case statement with variable number of cases"
+
+# 
+# %1: 
+# %2: 
+abstr-punctuated:
+  - %1
+  - "separated list"
+  - "of length"
+  - %2
+
+# 
+# %1: 
+abstr-punctuated-brief:
+  - %1
+  - "separated list"
+
+# 
+# %1: 
+abstr-punctuated-var:
+  - %1
+  - "separated list"
+  - "of variable length"
+
+# 
+# %1: 
+abstr-bigop:
+  - %1
+
+# 
+abstr-integral:
+  - "integral"
+
+# 
+# %1: 
+abstr-relation:
+  - %1
+
+# 
+# %1: 
+# %2: 
+abstr-relation-seq:
+  - %1
+  - "sequence"
+  - "with"
+  - %2
+  - "elements"
+
+# 
+# %1: 
+abstr-relation-seq-brief:
+  - %1
+  - "sequence"
+
+# 
+# %1: 
+abstr-relation-var:
+  - %1
+  - "sequence"
+  - "with variable number of elements"
+
+# 
+# %1: 
+abstr-multirel:
+  - "relation sequence"
+  - "with"
+  - %1
+  - "elements"
+
+# 
+abstr-multirel-brief:
+  - "relation sequence"
+
+# 
+abstr-multirel-var:
+  - "relation sequence with variable number of elements"
+
+# 
+# %1: 
+# %2: 
+abstr-table:
+  - "table with"
+  - %1
+  - "rows and"
+  - %2
+  - "columns"
+
+# 
+# %1: 
+abstr-line:
+  - "in"
+  - %1
+
+# 
+# %1: 
+# %2: 
+# %3: 
+abstr-row:
+  - "in"
+  - %1
+  - %2
+  - "with"
+  - %3
+  - "columns"
+
+# 
+# %1: 
+abstr-cell:
+  - "in"
+  - %1

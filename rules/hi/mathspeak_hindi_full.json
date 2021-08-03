@@ -1,0 +1,1767 @@
+{
+  "collapsed": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"निपातित\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "attributes": {
+          "engine": "modality=summary"
+        },
+        "grammar": {
+          "collapsed": true
+        }
+      }
+    ]
+  },
+  "blank-cell-empty": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"रिक्त\""
+      }
+    ]
+  },
+  "blank-line-empty": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"रिक्त\""
+      }
+    ]
+  },
+  "font": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@font",
+        "grammar": {
+          "localFont": true
+        }
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "ignoreFont": "@font"
+        }
+      }
+    ]
+  },
+  "font-identifier-short": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@font",
+        "grammar": {
+          "localFont": true
+        }
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "ignoreFont": "@font"
+        }
+      }
+    ]
+  },
+  "font-identifier": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@font",
+        "grammar": {
+          "localFont": true
+        }
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "ignoreFont": "@font"
+        }
+      }
+    ]
+  },
+  "mixed-number": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"पूर्णांक\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "number-with-chars": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"संख्या\""
+      },
+      {
+        "type": "MULTI",
+        "content": "CQFspaceoutNumber",
+        "grammar": {
+          "protected": true
+        }
+      }
+    ]
+  },
+  "number-with-chars-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"संख्या\""
+      },
+      {
+        "type": "MULTI",
+        "content": "CQFspaceoutNumber",
+        "grammar": {
+          "protected": true
+        }
+      }
+    ]
+  },
+  "number-as-upper-word": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"ऊपर का शब्द\""
+      },
+      {
+        "type": "MULTI",
+        "content": "CQFspaceoutNumber"
+      }
+    ]
+  },
+  "number-baseline": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"आधार रेखा\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "baseline": true
+        }
+      }
+    ]
+  },
+  "number-baseline-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"आधार\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "baseline": true
+        }
+      }
+    ]
+  },
+  "number-baseline-font": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"आधार रेखा\""
+      },
+      {
+        "type": "TEXT",
+        "content": "@font",
+        "grammar": {
+          "localFont": true
+        }
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "ignoreFont": "@font"
+        }
+      }
+    ]
+  },
+  "number-baseline-font-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"आधार\""
+      },
+      {
+        "type": "TEXT",
+        "content": "@font",
+        "grammar": {
+          "localFont": true
+        }
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "ignoreFont": "@font"
+        }
+      }
+    ]
+  },
+  "negative-number": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"ऋण\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "negative": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"बाकी\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "division": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"divided by\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "subtraction": {
+    "components": [
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "separator": "\"बाकी\""
+        }
+      }
+    ]
+  },
+  "fences-neutral": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"निरपेक्ष मान आरंभ\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"निरपेक्ष मान समाप्त\""
+      }
+    ]
+  },
+  "fences-neutral-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"निरपेक्ष मान\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"निरपेक्ष मान समाप्त\""
+      }
+    ]
+  },
+  "fences-metric": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[2]"
+      }
+    ]
+  },
+  "empty-set": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"रिक्त समुच्चय\""
+      }
+    ]
+  },
+  "fences-set": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"समुच्चय आरंभ\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"समुच्चय समाप्त\""
+      }
+    ]
+  },
+  "fences-set-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"समुच्चय\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"समुच्चय समाप्त\""
+      }
+    ]
+  },
+  "factorial": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"क्रमगुणित\""
+      }
+    ]
+  },
+  "minus": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"बाकी\""
+      }
+    ]
+  },
+  "continued-fraction-outer": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"भिन्न चालू\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"ऊपर\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "continued-fraction-outer-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"भिन्न चालू\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"ऊपर\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "continued-fraction-inner": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"आरंभ भिन्न\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"ऊपर\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "continued-fraction-inner-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"आरंभ भिन्न\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"ऊपर\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "continued-fraction-inner-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"भिन्न\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"ऊपर\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "limboth": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFunderscript"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFoverscript"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[3]"
+      }
+    ]
+  },
+  "limlower": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFunderscript"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "limupper": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFoverscript"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "limboth-end": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFunderscript"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFoverscript"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[3]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"लिपि समाप्त\""
+      }
+    ]
+  },
+  "limlower-end": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFunderscript"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"लिपि समाप्त\""
+      }
+    ]
+  },
+  "limupper-end": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFoverscript"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"लिपि समाप्त\""
+      }
+    ]
+  },
+  "integral": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"पादांक\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"उर्ध्वान्क\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[3]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"आधार रेखा\""
+      }
+    ]
+  },
+  "integral-brief": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"अधो\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"उर्ध्व\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[3]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"आधार\""
+      }
+    ]
+  },
+  "square": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"वर्ग\""
+      }
+    ]
+  },
+  "cube": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"घन\""
+      }
+    ]
+  },
+  "prime": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "double-prime": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"डबल प्राइम\""
+      }
+    ]
+  },
+  "triple-prime": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"तिगुना प्राइम\""
+      }
+    ]
+  },
+  "quadruple-prime": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"चौगुना प्राइम\""
+      }
+    ]
+  },
+  "counted-prime": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "count(children/*)",
+        "grammar": {
+          "numbers2alpha": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"प्राइम\""
+      }
+    ]
+  },
+  "counted-prime-multichar": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "string-length(text())",
+        "grammar": {
+          "numbers2alpha": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"प्राइम\""
+      }
+    ]
+  },
+  "overscore": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"ऊपर संशोधित\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"के साथ\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "overscore-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"ऊपर संशोधित\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"के साथ\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "double-overscore": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"ऊपर के ऊपर संशोधित\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"के साथ\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "double-overscore-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"ऊपर के ऊपर संशोधित\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"के साथ\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "underscore": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"निचे संशोधित\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"के साथ\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "underscore-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"निचे संशोधित\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"के साथ\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "double-underscore": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"निचे के निचे संशोधित\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"के साथ\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "double-underscore-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"निचे के निचे संशोधित\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"के साथ\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "overbar": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"उर्ध्व दंड\""
+      }
+    ]
+  },
+  "underbar": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"अधो दंड\""
+      }
+    ]
+  },
+  "overtilde": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"उर्ध्व अंतर-चिह्न\""
+      }
+    ]
+  },
+  "undertilde": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"अधो अंतर-चिह्न\""
+      }
+    ]
+  },
+  "matrix": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"आरंभ\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"बाय\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"आव्यूह\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"पंक्ति \""
+        },
+        "grammar": {
+          "gender": "\"f\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"आव्यूह समाप्त\""
+      }
+    ]
+  },
+  "matrix-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"बाय\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"आव्यूह\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"पंक्ति \""
+        },
+        "grammar": {
+          "gender": "\"f\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"आव्यूह समाप्त\""
+      }
+    ]
+  },
+  "matrix-row": {
+    "components": [
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"स्तंभ\"",
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "row-with-label": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"लेबल के साथ\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"लेबल समाप्त\"",
+        "attributes": {
+          "pause": "200"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"स्तंभ\""
+        }
+      }
+    ]
+  },
+  "row-with-label-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"लेबल\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"स्तंभ\""
+        }
+      }
+    ]
+  },
+  "row-with-text-label": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"लेबल\""
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFRemoveParens"
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"स्तंभ\""
+        }
+      }
+    ]
+  },
+  "empty-row": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"रिक्त\""
+      }
+    ]
+  },
+  "empty-cell": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"रिक्त\"",
+        "attributes": {
+          "pause": "300"
+        }
+      }
+    ]
+  },
+  "determinant": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"आरंभ\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"बाय\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"सारणिक\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"पंक्ति \""
+        },
+        "grammar": {
+          "gender": "\"f\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"सारणिक समाप्त\""
+      }
+    ]
+  },
+  "determinant-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"बाय\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"सारणिक\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"पंक्ति \""
+        },
+        "grammar": {
+          "gender": "\"f\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"सारणिक समाप्त\""
+      }
+    ]
+  },
+  "determinant-simple": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"आरंभ\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"बाय\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"सारणिक\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"पंक्ति\""
+        },
+        "grammar": {
+          "simpleDet": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"सारणिक समाप्त\""
+      }
+    ]
+  },
+  "determinant-simple-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"बाय\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"सारणिक\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"पंक्ति\""
+        },
+        "grammar": {
+          "simpleDet": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"सारणिक समाप्त\""
+      }
+    ]
+  },
+  "layout": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"खाका आरंभ\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"पंक्ति \""
+        },
+        "grammar": {
+          "gender": "\"f\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"खाका समाप्त\""
+      }
+    ]
+  },
+  "layout-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"खाका\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"पंक्ति \""
+        },
+        "grammar": {
+          "gender": "\"f\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"खाका समाप्त\""
+      }
+    ]
+  },
+  "binomial": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"द्विपद अथवा आव्यूह आरंभ\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"चयन करें\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"द्विपद अथवा आव्यूह समाप्त\""
+      }
+    ]
+  },
+  "binomial-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"द्विपद अथवा आव्यूह\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"चयन करें\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"द्विपद अथवा आव्यूह समाप्त\""
+      }
+    ]
+  },
+  "cases": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"खाका आरंभ\""
+      },
+      {
+        "type": "TEXT",
+        "content": "\"विस्तारित\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"पंक्ति \""
+        },
+        "grammar": {
+          "gender": "\"f\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"खाका समाप्त\""
+      }
+    ]
+  },
+  "cases-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"खाका\""
+      },
+      {
+        "type": "TEXT",
+        "content": "\"विस्तारित\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"पंक्ति \""
+        },
+        "grammar": {
+          "gender": "\"f\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"खाका समाप्त\""
+      }
+    ]
+  },
+  "line-with-label": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"लेबल के साथ\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"लेबल समाप्त\"",
+        "attributes": {
+          "pause": "200"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*"
+      }
+    ]
+  },
+  "line-with-label-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"लेबल\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]",
+        "attributes": {
+          "pause": "200"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*"
+      }
+    ]
+  },
+  "line-with-text-label": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"लेबल\""
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFRemoveParens"
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*"
+      }
+    ]
+  },
+  "empty-line": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"रिक्त\""
+      }
+    ]
+  },
+  "empty-line-with-label": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"लेबल के साथ\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"लेबल समाप्त\"",
+        "attributes": {
+          "pause": "200"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"रिक्त\""
+      }
+    ]
+  },
+  "empty-line-with-label-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"लेबल\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]",
+        "attributes": {
+          "pause": "200"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"रिक्त\""
+      }
+    ]
+  },
+  "enclose": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"घेरे का आरंभ\""
+      },
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localEnclose": true
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"घेरा समाप्त\""
+      }
+    ]
+  },
+  "leftbar": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"ऊर्ध्वाधर दंड\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "rightbar": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"ऊर्ध्वाधर दंड\""
+      }
+    ]
+  },
+  "crossout": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"मिटाया हुआ\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"मिटाया हुआ समाप्त\""
+      }
+    ]
+  },
+  "cancel": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"मिटाया हुआ\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"के साथ\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"मिटाया हुआ समाप्त\""
+      }
+    ]
+  },
+  "cancel-reverse": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"मिटाया हुआ\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"के साथ\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"मिटाया हुआ समाप्त\""
+      }
+    ]
+  },
+  "multi-inference": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"अनुमान नियम\""
+      },
+      {
+        "type": "MULTI",
+        "content": "content/*"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"निष्कर्ष के साथ\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"और\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[2]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"पूर्वपक्ष\""
+      }
+    ]
+  },
+  "inference": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"अनुमान नियम\""
+      },
+      {
+        "type": "MULTI",
+        "content": "content/*"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"निष्कर्ष के साथ\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"और\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[2]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"पूर्वपक्ष\""
+      }
+    ]
+  },
+  "premise": {
+    "components": [
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"premise \""
+        }
+      }
+    ]
+  },
+  "conclusion": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "label": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"सूचक पर्चा\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "axiom": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"अभिगृहीत\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "empty-axiom": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"रिक्त अभिगृहीत\""
+      }
+    ]
+  }
+}

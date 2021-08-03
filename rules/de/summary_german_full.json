@@ -1,0 +1,817 @@
+{
+  "abstr-identifier-long": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"langer Bezeichner\""
+      }
+    ]
+  },
+  "abstr-identifier": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Bezeichner\""
+      }
+    ]
+  },
+  "abstr-number-long": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"lange Zahl\""
+      }
+    ]
+  },
+  "abstr-number": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Zahl\""
+      }
+    ]
+  },
+  "abstr-mixed-number-long": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"langer gemischter Bruch\""
+      }
+    ]
+  },
+  "abstr-mixed-number": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"gemischter Bruch\""
+      }
+    ]
+  },
+  "abstr-text": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Text\""
+      }
+    ]
+  },
+  "abstr-function": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Funktionsausdruck\""
+      }
+    ]
+  },
+  "abstr-function-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Funktion\""
+      }
+    ]
+  },
+  "abstr-lim": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Grenzwertfunktion\""
+      }
+    ]
+  },
+  "abstr-lim-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Grenzwert\""
+      }
+    ]
+  },
+  "abstr-fraction": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Bruch\""
+      }
+    ]
+  },
+  "abstr-fraction-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Bruch\""
+      }
+    ]
+  },
+  "abstr-continued-fraction": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Kettenbruch\""
+      }
+    ]
+  },
+  "abstr-continued-fraction-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Kettenbruch\""
+      }
+    ]
+  },
+  "abstr-sqrt": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Quadratwurzel\""
+      }
+    ]
+  },
+  "abstr-sqrt-nested": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"verschachtelte Quadratwurzel\""
+      }
+    ]
+  },
+  "abstr-root-end": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Wurzel mit Exponent\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "engine": "modality=speech"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Ende Exponent\""
+      }
+    ]
+  },
+  "abstr-root": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Wurzel mit Exponent\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "engine": "modality=speech"
+        }
+      }
+    ]
+  },
+  "abstr-root-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Wurzel\""
+      }
+    ]
+  },
+  "abstr-root-nested-end": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"verschachtelte Wurzel mit Exponent\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "engine": "modality=speech"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Ende Exponent\""
+      }
+    ]
+  },
+  "abstr-root-nested": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"verschachtelte Wurzel mit Exponent\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "engine": "modality=speech"
+        }
+      }
+    ]
+  },
+  "abstr-root-nested-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"verschachtelte Wurzel\""
+      }
+    ]
+  },
+  "abstr-superscript": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Potenz\""
+      }
+    ]
+  },
+  "abstr-subscript": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Index\""
+      }
+    ]
+  },
+  "abstr-subsup": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Potenz mit Index\""
+      }
+    ]
+  },
+  "abstr-infixop": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"mit\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Elementen\""
+      }
+    ]
+  },
+  "abstr-infixop-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"mit veränderlicher Anzahl an Elementen\""
+      }
+    ]
+  },
+  "abstr-infixop-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      }
+    ]
+  },
+  "abstr-addition": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Summe mit\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Summanden\""
+      }
+    ]
+  },
+  "abstr-addition-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Summe\""
+      }
+    ]
+  },
+  "abstr-addition-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Summe mit veränderlicher Anzahl an Summanden\""
+      }
+    ]
+  },
+  "abstr-multiplication": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Produkt mit\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Faktoren\""
+      }
+    ]
+  },
+  "abstr-multiplication-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Produkt\""
+      }
+    ]
+  },
+  "abstr-multiplication-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Produkt mit veränderlicher Anzahl an Faktoren\""
+      }
+    ]
+  },
+  "abstr-vector": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"dimensionaler Vektor\""
+      }
+    ]
+  },
+  "abstr-vector-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Vektor\""
+      }
+    ]
+  },
+  "abstr-vector-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"n dimensionaler Vektor\""
+      }
+    ]
+  },
+  "abstr-binomial": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Binomialkoeffizient\""
+      }
+    ]
+  },
+  "abstr-determinant": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"dimensionale Determinante\""
+      }
+    ]
+  },
+  "abstr-determinant-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Determinante\""
+      }
+    ]
+  },
+  "abstr-determinant-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"n dimensionale Determinante\""
+      }
+    ]
+  },
+  "abstr-squarematrix": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"dimensionale quadratische Matrize\""
+      }
+    ]
+  },
+  "abstr-squarematrix-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"quadratische Matrize\""
+      }
+    ]
+  },
+  "abstr-rowvector": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "count(./children/row/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"dimensionaler Zeilenvektor\""
+      }
+    ]
+  },
+  "abstr-rowvector-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Zeilenvektor\""
+      }
+    ]
+  },
+  "abstr-rowvector-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"n dimensionaler Zeilenvektor\""
+      }
+    ]
+  },
+  "abstr-matrix": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"mal\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Matrize\""
+      }
+    ]
+  },
+  "abstr-matrix-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Matrize\""
+      }
+    ]
+  },
+  "abstr-matrix-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"n mal m dimensionale Matrize\""
+      }
+    ]
+  },
+  "abstr-cases": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Fallunterscheidung\""
+      },
+      {
+        "type": "TEXT",
+        "content": "\"mit\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Fällen\""
+      }
+    ]
+  },
+  "abstr-cases-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Fallunterscheidung\""
+      }
+    ]
+  },
+  "abstr-cases-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Fallunterscheidung mit veränderlicher Anzahl an Fällen\""
+      }
+    ]
+  },
+  "abstr-punctuated": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"mit\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"getrennte Liste der Länge\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*) - count(content/*)"
+      }
+    ]
+  },
+  "abstr-punctuated-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"mit\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"getrennte Liste\""
+      }
+    ]
+  },
+  "abstr-punctuated-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"mit\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"getrennte Liste\""
+      },
+      {
+        "type": "TEXT",
+        "content": "\"veränderlicher Länge\""
+      }
+    ]
+  },
+  "abstr-bigop": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      }
+    ]
+  },
+  "abstr-integral": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Integral\""
+      }
+    ]
+  },
+  "abstr-relation": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      }
+    ]
+  },
+  "abstr-relation-seq": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "attributes": {
+          "join": "\"\""
+        },
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"ssequenz\""
+      },
+      {
+        "type": "TEXT",
+        "content": "\"mit\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Elementen\""
+      }
+    ]
+  },
+  "abstr-relation-seq-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "attributes": {
+          "join": "\"\""
+        },
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"ssequenz\""
+      }
+    ]
+  },
+  "abstr-relation-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "attributes": {
+          "join": "\"\""
+        },
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"ssequenz\""
+      },
+      {
+        "type": "TEXT",
+        "content": "\"mit veränderlicher Anzahl an Elementen\""
+      }
+    ]
+  },
+  "abstr-multirel": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Relationsequenz\""
+      },
+      {
+        "type": "TEXT",
+        "content": "\"mit\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Elementen\""
+      }
+    ]
+  },
+  "abstr-multirel-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Relationsequenz\""
+      }
+    ]
+  },
+  "abstr-multirel-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Relationsequenz mit veränderlicher Anzahl an Elementen\""
+      }
+    ]
+  },
+  "abstr-table": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Tabelle mit\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Zeilen und\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Spalten\""
+      }
+    ]
+  },
+  "abstr-line": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"in\""
+      },
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      }
+    ]
+  },
+  "abstr-row": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"in\""
+      },
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "count(preceding-sibling::..)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"mit\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Spalten\""
+      }
+    ]
+  },
+  "abstr-cell": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"in\""
+      },
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      }
+    ]
+  }
+}

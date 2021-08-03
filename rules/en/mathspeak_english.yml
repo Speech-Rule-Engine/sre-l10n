@@ -1,0 +1,767 @@
+# For details on the format see https:///speechruleengine.org/yaml.md
+
+# 
+# %1: 
+collapsed:
+  - "collapsed"
+  - %1
+
+# 
+blank-cell-empty:
+  - "Blank"
+
+# 
+blank-line-empty:
+  - "Blank"
+
+# 
+# %1: 
+# %2: 
+font:
+  - %1
+  - %2
+
+# 
+# %1: 
+# %2: 
+font-identifier-short:
+  - %1
+  - %2
+
+# 
+# %1: 
+# %2: 
+font-identifier:
+  - %1
+  - %2
+
+# 
+# %1: 
+german-font:
+  - "German"
+  - %1
+
+# 
+# %1: 
+german-font-bold:
+  - "bold German"
+  - %1
+
+# 
+# %1: 
+# %2: 
+mixed-number:
+  - %1
+  - "and"
+  - %2
+
+# 
+# %1: 
+number-with-chars:
+  - "Number"
+  - %1
+
+# 
+# %1: 
+number-with-chars-brief:
+  - "Num"
+  - %1
+
+# 
+# %1: 
+number-as-upper-word:
+  - "UpperWord"
+  - %1
+
+# 
+# %1: 
+number-baseline:
+  - "Baseline"
+  - %1
+
+# 
+# %1: 
+number-baseline-brief:
+  - "Base"
+  - %1
+
+# 
+# %1: 
+# %2: 
+number-baseline-font:
+  - "Baseline"
+  - %1
+  - %2
+
+# 
+# %1: 
+# %2: 
+number-baseline-font-brief:
+  - "Base"
+  - %1
+  - %2
+
+# 
+# %1: 
+negative-number:
+  - "negative"
+  - %1
+
+# 
+# %1: 
+negative:
+  - "minus"
+  - %1
+
+# 
+# %1: 
+# %2: 
+division:
+  - %1
+  - "divided by"
+  - %2
+
+# 
+# %1: 
+subtraction:
+  - %1 (separator:"minus")
+
+# 
+# %1: 
+fences-neutral:
+  - "StartAbsoluteValue"
+  - %1
+  - "EndAbsoluteValue"
+
+# 
+# %1: 
+fences-neutral-sbrief:
+  - "AbsoluteValue"
+  - %1
+  - "EndAbsoluteValue"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+fences-metric:
+  - "StartMetric"
+  - %1
+  - "EndMetric"
+
+# 
+# %1: 
+fences-metric-sbrief:
+  - "Metric"
+  - %1
+  - "EndMetric"
+
+# 
+empty-set:
+  - "empty set"
+
+# 
+# %1: 
+fences-set:
+  - "StartSet"
+  - %1
+  - "EndSet"
+
+# 
+# %1: 
+fences-set-sbrief:
+  - "Set"
+  - %1
+  - "EndSet"
+
+# 
+factorial:
+  - "factorial"
+
+# 
+minus:
+  - "minus"
+
+# 
+# %1: 
+# %2: 
+continued-fraction-outer:
+  - "ContinuedFraction"
+  - %1
+  - "Over"
+  - %2
+
+# 
+# %1: 
+# %2: 
+continued-fraction-outer-brief:
+  - "ContinuedFrac"
+  - %1
+  - "Over"
+  - %2
+
+# 
+# %1: 
+# %2: 
+continued-fraction-inner:
+  - "StartFraction"
+  - %1
+  - "Over"
+  - %2
+
+# 
+# %1: 
+# %2: 
+continued-fraction-inner-brief:
+  - "StartFrac"
+  - %1
+  - "Over"
+  - %2
+
+# 
+# %1: 
+# %2: 
+continued-fraction-inner-sbrief:
+  - "Frac"
+  - %1
+  - "Over"
+  - %2
+
+# 
+# %1: 
+# %2: 
+# %3: 
+# %4: 
+# %5: 
+limboth:
+  - %1
+  - %2
+  - %3
+  - %4
+  - %5
+
+# 
+# %1: 
+# %2: 
+# %3: 
+limlower:
+  - %1
+  - %2
+  - %3
+
+# 
+# %1: 
+# %2: 
+# %3: 
+limupper:
+  - %1
+  - %2
+  - %3
+
+# 
+# %1: 
+# %2: 
+# %3: 
+# %4: 
+# %5: 
+limboth-end:
+  - %1
+  - %2
+  - %3
+  - %4
+  - %5
+  - "Endscripts"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+limlower-end:
+  - %1
+  - %2
+  - %3
+  - "Endscripts"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+limupper-end:
+  - %1
+  - %2
+  - %3
+  - "Endscripts"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+integral:
+  - %1
+  - "Subscript"
+  - %2
+  - "Superscript"
+  - %3
+  - "Baseline"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+integral-brief:
+  - %1
+  - "Sub"
+  - %2
+  - "Sup"
+  - %3
+  - "Base"
+
+# 
+# %1: 
+square:
+  - %1
+  - "squared"
+
+# 
+# %1: 
+cube:
+  - %1
+  - "cubed"
+
+# 
+# %1: 
+# %2: 
+prime:
+  - %1
+  - %2
+
+# 
+double-prime:
+  - "double prime"
+
+# 
+triple-prime:
+  - "triple prime"
+
+# 
+quadruple-prime:
+  - "quadruple prime"
+
+# 
+# %1: 
+counted-prime:
+  - %1
+  - "prime"
+
+# 
+# %1: 
+counted-prime-multichar:
+  - %1
+  - "prime"
+
+# 
+# %1: 
+# %2: 
+overscore:
+  - "ModifyingAbove"
+  - %1
+  - "With"
+  - %2
+
+# 
+# %1: 
+# %2: 
+overscore-brief:
+  - "ModAbove"
+  - %1
+  - "With"
+  - %2
+
+# 
+# %1: 
+# %2: 
+double-overscore:
+  - "ModifyingAbove Above"
+  - %1
+  - "With"
+  - %2
+
+# 
+# %1: 
+# %2: 
+double-overscore-brief:
+  - "ModAbove Above"
+  - %1
+  - "With"
+  - %2
+
+# 
+# %1: 
+# %2: 
+underscore:
+  - "ModifyingBelow"
+  - %1
+  - "With"
+  - %2
+
+# 
+# %1: 
+# %2: 
+underscore-brief:
+  - "ModBelow"
+  - %1
+  - "With"
+  - %2
+
+# 
+# %1: 
+# %2: 
+double-underscore:
+  - "ModifyingBelow Below"
+  - %1
+  - "With"
+  - %2
+
+# 
+# %1: 
+# %2: 
+double-underscore-brief:
+  - "ModBelow Below"
+  - %1
+  - "With"
+  - %2
+
+# 
+# %1: 
+overbar:
+  - %1
+  - "overbar"
+
+# 
+# %1: 
+underbar:
+  - %1
+  - "underbar"
+
+# 
+# %1: 
+overtilde:
+  - %1
+  - "overtilde"
+
+# 
+# %1: 
+undertilde:
+  - %1
+  - "undertilde"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+matrix:
+  - "Start"
+  - %1
+  - "By"
+  - %2
+  - "Matrix"
+  - %3 (context:"Row ")
+  - "EndMatrix"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+matrix-sbrief:
+  - %1
+  - "By"
+  - %2
+  - "Matrix"
+  - %3 (context:"Row ")
+  - "EndMatrix"
+
+# 
+# %1: 
+matrix-row:
+  - %1 (context:"Column", pause:200)
+
+# 
+# %1: 
+# %2: 
+row-with-label:
+  - "with Label"
+  - %1
+  - "EndLabel" (pause:200)
+  - %2 (context:"Column")
+
+# 
+# %1: 
+# %2: 
+row-with-label-brief:
+  - "Label"
+  - %1
+  - %2 (context:"Column")
+
+# 
+# %1: 
+# %2: 
+row-with-text-label:
+  - "Label"
+  - %1
+  - %2 (context:"Column")
+
+# 
+empty-row:
+  - "Blank"
+
+# 
+empty-cell:
+  - "Blank" (pause:300)
+
+# 
+# %1: 
+# %2: 
+# %3: 
+determinant:
+  - "Start"
+  - %1
+  - "By"
+  - %2
+  - "Determinant"
+  - %3 (context:"Row ")
+  - "EndDeterminant"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+determinant-sbrief:
+  - %1
+  - "By"
+  - %2
+  - "Determinant"
+  - %3 (context:"Row ")
+  - "EndDeterminant"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+determinant-simple:
+  - "Start"
+  - %1
+  - "By"
+  - %2
+  - "Determinant"
+  - %3 (context:"Row")
+  - "EndDeterminant"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+determinant-simple-sbrief:
+  - %1
+  - "By"
+  - %2
+  - "Determinant"
+  - %3 (context:"Row")
+  - "EndDeterminant"
+
+# 
+# %1: 
+layout:
+  - "StartLayout"
+  - %1 (context:"Row ")
+  - "EndLayout"
+
+# 
+# %1: 
+layout-sbrief:
+  - "Layout"
+  - %1 (context:"Row ")
+  - "EndLayout"
+
+# 
+# %1: 
+# %2: 
+binomial:
+  - "StartBinomialOrMatrix"
+  - %1
+  - "Choose"
+  - %2
+  - "EndBinomialOrMatrix"
+
+# 
+# %1: 
+# %2: 
+binomial-sbrief:
+  - "BinomialOrMatrix"
+  - %1
+  - "Choose"
+  - %2
+  - "EndBinomialOrMatrix"
+
+# 
+# %1: 
+# %2: 
+cases:
+  - "StartLayout"
+  - "Enlarged"
+  - %1
+  - %2 (context:"Row ")
+  - "EndLayout"
+
+# 
+# %1: 
+# %2: 
+cases-sbrief:
+  - "Layout"
+  - "Enlarged"
+  - %1
+  - %2 (context:"Row ")
+  - "EndLayout"
+
+# 
+# %1: 
+# %2: 
+line-with-label:
+  - "with Label"
+  - %1
+  - "EndLabel" (pause:200)
+  - %2
+
+# 
+# %1: 
+# %2: 
+line-with-label-brief:
+  - "Label"
+  - %1 (pause:200)
+  - %2
+
+# 
+# %1: 
+# %2: 
+line-with-text-label:
+  - "Label"
+  - %1
+  - %2
+
+# 
+empty-line:
+  - "Blank"
+
+# 
+# %1: 
+empty-line-with-label:
+  - "with Label"
+  - %1
+  - "EndLabel" (pause:200)
+  - "Blank"
+
+# 
+# %1: 
+empty-line-with-label-brief:
+  - "Label"
+  - %1 (pause:200)
+  - "Blank"
+
+# 
+# %1: 
+# %2: 
+enclose:
+  - "StartEnclose"
+  - %1
+  - %2
+  - "EndEnclose"
+
+# 
+# %1: 
+leftbar:
+  - "vertical bar"
+  - %1
+
+# 
+# %1: 
+rightbar:
+  - %1
+  - "vertical bar"
+
+# 
+# %1: 
+crossout:
+  - "CrossOut"
+  - %1
+  - "EndCrossOut"
+
+# 
+# %1: 
+# %2: 
+cancel:
+  - "CrossOut"
+  - %1
+  - "With"
+  - %2
+  - "EndCrossOut"
+
+# 
+# %1: 
+# %2: 
+cancel-reverse:
+  - "CrossOut"
+  - %1
+  - "With"
+  - %2
+  - "EndCrossOut"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+multi-inference:
+  - "inference rule"
+  - %1
+  - "with conclusion"
+  - %2
+  - "and"
+  - %3
+  - "premises"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+inference:
+  - "inference rule"
+  - %1
+  - "with conclusion"
+  - %2
+  - "and"
+  - %3
+  - "premise"
+
+# 
+# %1: 
+premise:
+  - %1 (context:"premise ")
+
+# 
+# %1: 
+conclusion:
+  - %1
+
+# 
+# %1: 
+label:
+  - "label"
+  - %1
+
+# 
+# %1: 
+axiom:
+  - "axiom"
+  - %1
+
+# 
+empty-axiom:
+  - "empty axiom"

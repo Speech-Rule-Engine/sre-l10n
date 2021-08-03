@@ -1,0 +1,936 @@
+{
+  "collapsed": [
+    "%1"
+  ],
+  "font": [
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "font-identifier": [
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "ellipsis": [
+    "\"et ainsi de suite\""
+  ],
+  "ellipsis-andsoon": [
+    "\"et ainsi de suite jusqu'à\""
+  ],
+  "vbar-evaluated": [
+    "%1 (pause:short)",
+    "\"évalué à\"",
+    "%2 (pause:short)"
+  ],
+  "vbar-evaluated-both": [
+    "%1 (pause:short)",
+    "\"évalué à\"",
+    "%2 (pause:short)",
+    "\"moins la même expression évaluée à\"",
+    "%3 (pause:short)"
+  ],
+  "vbar-such-that": [
+    "\"tel que\""
+  ],
+  "vbar-divides": [
+    "\"diviseur de\""
+  ],
+  "vbar-always-divides": [
+    "\"diviseur de\""
+  ],
+  "vbar-given": [
+    "\"sachant\""
+  ],
+  "set-member": [
+    "\"est un\""
+  ],
+  "set-member-member": [
+    "\"appartient à\""
+  ],
+  "set-member-element": [
+    "\"est un élément de\""
+  ],
+  "set-member-belongs": [
+    "\"est dans\""
+  ],
+  "set-not-member": [
+    "\"n'est pas un\""
+  ],
+  "set-not-member-member": [
+    "\"n'appartient pas à\""
+  ],
+  "set-not-member-element": [
+    "\"n'est pas un élément de\""
+  ],
+  "set-not-member-belongs": [
+    "\"n'est pas dans\""
+  ],
+  "appl": [
+    "%1",
+    "\"de\"",
+    "%2 (pause:short)"
+  ],
+  "appl-simple": [
+    "%1",
+    "\"de\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "appl-simple-fenced": [
+    "%1",
+    "\"de\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "appl-times": [
+    "%1",
+    "\"fois\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix": [
+    "%1",
+    "%2"
+  ],
+  "function-prefix-simple-arg": [
+    "%1",
+    "%2"
+  ],
+  "function-prefix-embell": [
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-fenced-or-frac-arg": [
+    "%1",
+    "\"de\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-subscript": [
+    "%1",
+    "\"de\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "function-ln": [
+    "%1",
+    "%2"
+  ],
+  "function-ln-pause": [
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "function-ln-of": [
+    "%1",
+    "\"de\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-as-exp": [
+    "%1",
+    "\"de\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-subscript-as-exp": [
+    "%1",
+    "\"de\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-hyper": [
+    "%1",
+    "\"de\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-inverse": [
+    "%1",
+    "\"inverse de\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-reciprocal": [
+    "\"la reciproque de\"",
+    "%1 (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-reciprocal-simple": [
+    "\"la reciproque de\"",
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "appl-triginverse": [
+    "%1",
+    "\"de\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-arc-simple": [
+    "\"arc\"",
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-arc-simple-fenced": [
+    "\"arc\"",
+    "%1 (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-arc": [
+    "\"arc\"",
+    "%1",
+    "\"de\"",
+    "%2 (pause:short)"
+  ],
+  "function-inverse": [
+    "%1",
+    "\"inverse\""
+  ],
+  "function-reciprocal": [
+    "\"la reciproque de\"",
+    "%1"
+  ],
+  "superscript": [
+    "%1",
+    "\"à l'exposant\" (pause:short)",
+    "%2 (pause:short)",
+    "\"fin exposant\" (pause:short)"
+  ],
+  "superscript-simple-exponent": [
+    "%1",
+    "\"à la puissance\"",
+    "%2 (pause:medium)"
+  ],
+  "superscript-simple-exponent-end": [
+    "%1",
+    "\"à la puissance\"",
+    "%2 (pause:medium)"
+  ],
+  "superscript-simple-function": [
+    "%1"
+  ],
+  "superscript-ordinal-letter": [
+    "%1",
+    "\"à la\"",
+    "%2",
+    "\"puissance\" (pause:medium)"
+  ],
+  "superscript-ordinal-number": [
+    "%1",
+    "\"à la\"",
+    "%2",
+    "\"puissance\" (pause:medium)"
+  ],
+  "superscript-ordinal-cap": [
+    "%1",
+    "\"à la puissance\"",
+    "%2 (pause:medium)"
+  ],
+  "exponent": [
+    "%1 (join:\"-\")",
+    "\"ième\""
+  ],
+  "exponent-number": [
+    "%1"
+  ],
+  "exponent-ordinal": [
+    "%1"
+  ],
+  "exponent-ordinal-zero": [
+    "\"zero\""
+  ],
+  "square": [
+    "%1",
+    "\"au carré\""
+  ],
+  "cube": [
+    "%1",
+    "\"au cube\""
+  ],
+  "fences-points": [
+    "\"le point avec coordonées\"",
+    "%1"
+  ],
+  "fences-interval": [
+    "\"un intervalle de\"",
+    "%1",
+    "\"à\"",
+    "%2 (pause:short)",
+    "%3"
+  ],
+  "interval-open": [
+    "\"sans inclure\"",
+    "%1",
+    "\"ni\"",
+    "%2"
+  ],
+  "interval-closed-open": [
+    "\"avec\"",
+    "%1",
+    "\"inclus\" (pause:short)",
+    "\"mais sans inclure\"",
+    "%2"
+  ],
+  "interval-open-closed": [
+    "\"sans inclure\"",
+    "%1 (pause:short)",
+    "\"mais avec\"",
+    "%2",
+    "\"inclus\""
+  ],
+  "interval-closed": [
+    "\"avec\"",
+    "%1",
+    "\"et\"",
+    "%2",
+    "\"inclus\""
+  ],
+  "interval-open-inf-r": [
+    "\"sans inclure\"",
+    "%1"
+  ],
+  "interval-open-inf-l": [
+    "\"sans inclure\"",
+    "%1"
+  ],
+  "interval-closed-open-inf": [
+    "\"avec\"",
+    "%1",
+    "\"inclus\""
+  ],
+  "interval-open-closed-inf": [
+    "\"avec\"",
+    "%1",
+    "\"inclus\""
+  ],
+  "set-empty": [
+    "\"ensemble vide\""
+  ],
+  "set-extended": [
+    "\"ensemble des\"",
+    "%1",
+    "\"tel que\"",
+    "%2"
+  ],
+  "set-collection": [
+    "\"ensemble\"",
+    "%1"
+  ],
+  "set-extended-woall": [
+    "\"ensemble de\"",
+    "%1",
+    "\"tel que\"",
+    "%2"
+  ],
+  "subscript": [
+    "%1",
+    "\"sub\"",
+    "%2 (pause:short)"
+  ],
+  "logarithm-base": [
+    "%1",
+    "\"base\"",
+    "%2"
+  ],
+  "subscript-index": [
+    "%1",
+    "\"sub\"",
+    "%2"
+  ],
+  "fraction": [
+    "\"fraction avec numérateur\"",
+    "%1 (pause:short)",
+    "\"et dénominateur\"",
+    "%2 (pause:short)"
+  ],
+  "fraction-none": [
+    "\"fraction avec numérateur\"",
+    "%1 (pause:short)",
+    "\"et dénominateur\"",
+    "%2 (pause:short)"
+  ],
+  "simple-fraction": [
+    "%1",
+    "\"sur\"",
+    "%2 (pause:short)"
+  ],
+  "simple-vulgar-fraction": [
+    "%1",
+    "\"sur\"",
+    "%2 (pause:short)"
+  ],
+  "simple-text-fraction": [
+    "%1",
+    "\"sur\"",
+    "%2 (pause:short)"
+  ],
+  "vulgar-fraction": [
+    "%1"
+  ],
+  "fraction-over": [
+    "%1",
+    "\"sur\"",
+    "%2 (pause:short)"
+  ],
+  "fraction-overendfrac": [
+    "%1",
+    "\"sur\"",
+    "%2 (pause:short)",
+    "\"fin fraction\" (pause:short)"
+  ],
+  "fraction-fracover": [
+    "\"fraction\"",
+    "%1",
+    "\"sur\"",
+    "%2 (pause:short)"
+  ],
+  "fraction-per": [
+    "%1",
+    "\"par\"",
+    "%2 (pause:short)"
+  ],
+  "fraction-generalendfrac": [
+    "\"fraction avec numérateur\"",
+    "%1 (pause:short)",
+    "\"et dénominateur\"",
+    "%2 (pause:short)",
+    "\"fin fraction\" (pause:short)"
+  ],
+  "fraction-general": [
+    "\"fraction avec numérateur\"",
+    "%1 (pause:short)",
+    "\"et dénominateur\"",
+    "%2 (pause:short)"
+  ],
+  "simple-vulgar-fraction-ordinal": [
+    "%1"
+  ],
+  "fraction-endfrac": [
+    "%1",
+    "\"fin fraction\" (pause:short)"
+  ],
+  "vulgar-fraction-endfrac": [
+    "%1",
+    "\"sur\"",
+    "%2 (pause:short)"
+  ],
+  "simple-vulgar-fraction-endfrac": [
+    "%1"
+  ],
+  "sqrt": [
+    "\"la racine carrée de\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-nested": [
+    "\"la racine carrée de\"",
+    "%1 (pause:short)"
+  ],
+  "negative-sqrt": [
+    "\"la racine carrée négative de\"",
+    "%1 (pause:short)"
+  ],
+  "negative-sqrt-default": [
+    "\"la racine carrée négative de\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-plus-minus": [
+    "\"la racine carrée positive de\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-nested-plus-minus": [
+    "\"la racine carrée positive de\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-plus-minus-posnegsqrootend": [
+    "\"la racine carrée positive de\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-nested-plus-minus-posnegsqrootend": [
+    "\"la racine carrée positive de\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-endroot": [
+    "%1",
+    "\"fin racine\" (pause:short)"
+  ],
+  "negative-sqrt-endroot": [
+    "%1",
+    "\"fin racine\" (pause:short)"
+  ],
+  "sqrt-posnegsqrootend": [
+    "%1",
+    "\"fin racine\" (pause:short)"
+  ],
+  "negative-sqrt-posnegsqrootend": [
+    "%1",
+    "\"fin racine\" (pause:short)"
+  ],
+  "cubic": [
+    "\"la racine cubique de\"",
+    "%1 (pause:short)"
+  ],
+  "cubic-nested": [
+    "\"la racine cubique de\"",
+    "%1 (pause:short)"
+  ],
+  "root": [
+    "\"la\"",
+    "%1",
+    "\"racine de\"",
+    "%2 (pause:short)"
+  ],
+  "root-nested": [
+    "\"la\"",
+    "%1",
+    "\"racine de\"",
+    "%2 (pause:short)"
+  ],
+  "root-endroot": [
+    "%1",
+    "\"fin racine\" (pause:short)"
+  ],
+  "root-posnegsqrootend": [
+    "%1",
+    "\"fin racine\" (pause:short)"
+  ],
+  "negative": [
+    "\"négatif\"",
+    "%1"
+  ],
+  "positive": [
+    "\"positif\"",
+    "%1"
+  ],
+  "angle-measure": [
+    "\"la mesure de l'\" (join:\"\")",
+    "%1",
+    "%2"
+  ],
+  "set-prefix-operators": [
+    "\"le\"",
+    "%1",
+    "\"de\""
+  ],
+  "division": [
+    "%1",
+    "\"divisé par\"",
+    "%2"
+  ],
+  "natural-numbers": [
+    "\"les nombres entier naturel\""
+  ],
+  "integers": [
+    "\"les nombres entiers\""
+  ],
+  "rational-numbers": [
+    "\"les Nombres rationnels\""
+  ],
+  "real-numbers": [
+    "\"les nombres réels\""
+  ],
+  "complex-numbers": [
+    "\"les nombres complexes\""
+  ],
+  "natural-numbers-with-zero": [
+    "\"les nombres entiers naturel avec zero\""
+  ],
+  "positive-integers": [
+    "\"les nombres entiers positif\""
+  ],
+  "negative-integers": [
+    "\"les nombres entiers négatif\""
+  ],
+  "positive-rational-numbers": [
+    "\"les nombres rationnels positif\""
+  ],
+  "negative-rational-numbers": [
+    "\"les nombres rationnels négatif\""
+  ],
+  "fences-neutral": [
+    "\"la valeur absolue de\"",
+    "%1 (pause:short)"
+  ],
+  "fences-neutral-absend": [
+    "\"la valeur absolue de\"",
+    "%1 (pause:short)",
+    "\"fin de valeur absolue\" (pause:short)"
+  ],
+  "fences-neutral-cardinality": [
+    "\"la cardinalité de\"",
+    "%1 (pause:short)"
+  ],
+  "fences-neutral-determinant": [
+    "\"le déterminant de\"",
+    "%1 (pause:short)"
+  ],
+  "matrix": [
+    "\"la matrice de dimension\"",
+    "%1",
+    "\"par\"",
+    "%2 (pause:long)",
+    "%3 (context:\"Rangée-:\", pause:long)"
+  ],
+  "matrix-simple": [
+    "\"la matrice de dimension\"",
+    "%1",
+    "\"par\"",
+    "%2 (pause:long)",
+    "%3 (context:\"Rangée-:\", pause:long)"
+  ],
+  "matrix-trivial": [
+    "\"la matrice de dimension 1 par 1 avec élément\"",
+    "%1 (pause:long)"
+  ],
+  "determinant": [
+    "\"le déterminant de la matrice de dimension\"",
+    "%1",
+    "\"par\"",
+    "%2 (pause:long)",
+    "%3 (context:\"Rangée-:\", pause:long)"
+  ],
+  "determinant-simple": [
+    "\"le déterminant de la matrice de dimension\"",
+    "%1",
+    "\"par\"",
+    "%2 (pause:long)",
+    "%3 (context:\"Rangée-:\", pause:long)"
+  ],
+  "matrix-vector": [
+    "\"la matrice colonne de dimension\"",
+    "%1",
+    "\"par\"",
+    "%2 (pause:long)",
+    "%3 (context:\"Rangée-:\", pause:long)"
+  ],
+  "matrix-vector-simple": [
+    "\"la matrice colonne de dimension\"",
+    "%1",
+    "\"par\"",
+    "%2 (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "matrix-vector-simple-silentcolnum": [
+    "\"la matrice colonne de dimension\"",
+    "%1",
+    "\"par\"",
+    "%2 (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "matrix-row-vector": [
+    "\"la matrice ligne de dimension\"",
+    "%1",
+    "\"par\"",
+    "%2 (pause:long)",
+    "%3 (context:\"Colonne-:\", pause:long)"
+  ],
+  "matrix-row-vector-simple": [
+    "\"la matrice ligne de dimension\"",
+    "%1",
+    "\"par\"",
+    "%2 (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "matrix-row-vector-simple-silentcolnum": [
+    "\"la matrice ligne de dimension\"",
+    "%1",
+    "\"par\"",
+    "%2 (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "matrix-row": [
+    "%1 (context:\"Colonne-,- \", pause:long)"
+  ],
+  "matrix-end-matrix": [
+    "%1",
+    "\"fin matrice\""
+  ],
+  "matrix-end-vector": [
+    "%1",
+    "\"fin matrice\""
+  ],
+  "matrix-end-determinant": [
+    "%1",
+    "\"fin déterminant\""
+  ],
+  "vector": [
+    "\"le vecteur colonne de dimension\"",
+    "%1",
+    "\"par\"",
+    "%2 (pause:long)",
+    "%3 (context:\"Rangée-:\", pause:long)"
+  ],
+  "vector-simple": [
+    "\"le vecteur colonne de dimension\"",
+    "%1",
+    "\"par\"",
+    "%2 (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "row-vector": [
+    "\"le vecteur ligne de dimension\"",
+    "%1",
+    "\"par\"",
+    "%2 (pause:long)",
+    "%3 (context:\"Colonne-:\", pause:long)"
+  ],
+  "row-vector-simple": [
+    "\"le vecteur ligne de dimension\"",
+    "%1",
+    "\"par\"",
+    "%2 (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "vector-end-matrix": [
+    "%1",
+    "\"fin matrice\""
+  ],
+  "vector-end-vector": [
+    "%1",
+    "\"fin vecteur\""
+  ],
+  "vector-end-vector-endvector": [
+    "%1",
+    "\"fin vecteur\""
+  ],
+  "vector-end-determinant": [
+    "%1",
+    "\"fin déterminant\""
+  ],
+  "binomial": [
+    "%1",
+    "\"parmi\"",
+    "%2"
+  ],
+  "lines-summary": [
+    "%1",
+    "\"lignes\"",
+    "%2"
+  ],
+  "cases-summary": [
+    "%1",
+    "\"cas\"",
+    "%2"
+  ],
+  "lines": [
+    "%1 (context:\"Ligne-:\", pause:long)"
+  ],
+  "blank-cell": [
+    "\"vide\""
+  ],
+  "blank-line": [
+    "\"vide\""
+  ],
+  "blank-cell-empty": [
+    "\"vide\""
+  ],
+  "blank-line-empty": [
+    "\"vide\""
+  ],
+  "cases": [
+    "%1 (context:\"Cas-:\", pause:long)"
+  ],
+  "lines-cases-summary": [
+    "%1",
+    "\"cas\"",
+    "%2"
+  ],
+  "lines-cases": [
+    "%1 (context:\"Cas-:\", pause:long)"
+  ],
+  "lines-equations-summary": [
+    "%1",
+    "\"équations\"",
+    "%2"
+  ],
+  "lines-equations": [
+    "%1 (context:\"Équation-:\", pause:long)"
+  ],
+  "lines-steps-summary": [
+    "%1",
+    "\" étapes\"",
+    "%2"
+  ],
+  "lines-steps": [
+    "%1 (context:\" Étape-:\", pause:long)"
+  ],
+  "lines-rows-summary": [
+    "%1",
+    "\"colonnes\"",
+    "%2"
+  ],
+  "lines-rows": [
+    "%1 (context:\"Rangée-:\", pause:long)"
+  ],
+  "lines-constraints-summary": [
+    "%1",
+    "\"contraintes\"",
+    "%2"
+  ],
+  "lines-constraints": [
+    "%1 (context:\"Contrainte-:\", pause:long)"
+  ],
+  "bigop": [
+    "\"le\"",
+    "%1",
+    "\"de\"",
+    "%2 (pause:short)"
+  ],
+  "limboth": [
+    "%1",
+    "\"de\"",
+    "%2",
+    "\"à\"",
+    "%3"
+  ],
+  "limlower": [
+    "%1",
+    "\"sur\"",
+    "%2 (pause:short)"
+  ],
+  "limupper": [
+    "%1",
+    "\"sous\"",
+    "%2 (pause:short)"
+  ],
+  "integral": [
+    "\"le\"",
+    "%1",
+    "\"de\"",
+    "%2 (pause:short)"
+  ],
+  "overscript": [
+    "%1",
+    "\"sous\"",
+    "%2 (pause:short)"
+  ],
+  "overscript-limits": [
+    "%1",
+    "\"à\"",
+    "%2"
+  ],
+  "underscript": [
+    "%1",
+    "\"sur\"",
+    "%2 (pause:short)"
+  ],
+  "underscript-limits": [
+    "%1",
+    "\"de\"",
+    "%2"
+  ],
+  "mixed-number": [
+    "%1",
+    "\"et\"",
+    "%2"
+  ],
+  "number-with-chars": [
+    "\"nombre\"",
+    "%1"
+  ],
+  "decimal-period": [
+    "\"la décimale\"",
+    "%1",
+    "\"virgule suivi par les chiffres répétés\"",
+    "%2"
+  ],
+  "decimal-period-float": [
+    "\"la décimale\"",
+    "%1",
+    "\"suivi par les chiffres répétés\"",
+    "%2"
+  ],
+  "decimal-period-singular": [
+    "\"la décimale\"",
+    "%1",
+    "\"virgule suivi par le chiffre répété\"",
+    "%2"
+  ],
+  "decimal-period-singular-float": [
+    "\"la décimale\"",
+    "%1",
+    "\"suivi par le chiffre répété\"",
+    "%2"
+  ],
+  "decimal-point": [
+    "\"point\""
+  ],
+  "line-segment": [
+    "\"le segment\"",
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "conjugate": [
+    "\"le complexe conjugué de\"",
+    "%1"
+  ],
+  "defined-by": [
+    "\"est défini par\" (pause:short)"
+  ],
+  "adorned-sign": [
+    "\"signe\"",
+    "%1",
+    "\"avec\"",
+    "%2",
+    "\"dessus\""
+  ],
+  "factorial": [
+    "\"factorielle\""
+  ],
+  "left-super": [
+    "\"exposant gauche\"",
+    "%1"
+  ],
+  "left-super-list": [
+    "\"exposant gauche\"",
+    "%1"
+  ],
+  "left-sub": [
+    "\"indice gauche\"",
+    "%1"
+  ],
+  "left-sub-list": [
+    "\"indice gauche\"",
+    "%1"
+  ],
+  "right-super": [
+    "\"exposant droite\"",
+    "%1"
+  ],
+  "right-super-list": [
+    "\"exposant droite\"",
+    "%1"
+  ],
+  "right-sub": [
+    "\"indice droite\"",
+    "%1"
+  ],
+  "right-sub-list": [
+    "\"indice droite\"",
+    "%1"
+  ],
+  "choose": [
+    "\"combinaison de\"",
+    "%1",
+    "\"parmi\"",
+    "%2"
+  ],
+  "permute": [
+    "\"permutation de\"",
+    "%1",
+    "\"parmi\"",
+    "%2"
+  ],
+  "unit-square": [
+    "%1",
+    "\"carré\""
+  ],
+  "unit-cubic": [
+    "%1",
+    "\"cube\""
+  ],
+  "unit-reciprocal": [
+    "\"réciproque\"",
+    "%1"
+  ],
+  "unit-reciprocal-singular": [
+    "\"par\"",
+    "%1 (grammar:singular)"
+  ],
+  "unit-reciprocal-multi": [
+    "\"par\"",
+    "%1 (grammar:singular)"
+  ],
+  "unit-divide": [
+    "%1",
+    "\"par\"",
+    "%2 (grammar:singular)"
+  ]
+}

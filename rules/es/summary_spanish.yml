@@ -1,0 +1,364 @@
+# For details on the format see https:///speechruleengine.org/yaml.md
+
+# A long collapsed identifier.
+# LaTeX Example: $\mathit{abcdefg}$
+abstr-identifier-long:
+  - "identificador largo"
+
+# 
+abstr-identifier:
+  - "identificador"
+
+# 
+abstr-number-long:
+  - "número largo"
+
+# 
+abstr-number:
+  - "número"
+
+# 
+abstr-mixed-number-long:
+  - "número largo mixto"
+
+# 
+abstr-mixed-number:
+  - "número mixto"
+
+# 
+abstr-text:
+  - "texto"
+
+# 
+abstr-function:
+  - "expresión funcional"
+
+# 
+abstr-function-brief:
+  - "función"
+
+# 
+abstr-lim:
+  - "función de límite"
+
+# 
+abstr-lim-brief:
+  - "límite"
+
+# 
+abstr-fraction:
+  - "fracción"
+
+# 
+abstr-fraction-brief:
+  - "frac"
+
+# 
+abstr-continued-fraction:
+  - "fracción continua"
+
+# 
+abstr-continued-fraction-brief:
+  - "frac continua"
+
+# 
+abstr-sqrt:
+  - "raíz cuadrada"
+
+# 
+abstr-sqrt-nested:
+  - "raíz cuadrada anidada"
+
+# 
+# %1: 
+abstr-root-end:
+  - "raíz del índice"
+  - %1
+  - "finalizar índice"
+
+# 
+# %1: 
+abstr-root:
+  - "raíz del índice"
+  - %1
+
+# 
+abstr-root-brief:
+  - "raíz"
+
+# 
+# %1: 
+abstr-root-nested-end:
+  - "raíz anidada del índice"
+  - %1
+  - "finalizar índice"
+
+# 
+# %1: 
+abstr-root-nested:
+  - "raíz anidada del índice"
+  - %1
+
+# 
+abstr-root-nested-brief:
+  - "raíz anidada"
+
+# 
+abstr-superscript:
+  - "potencia"
+
+# 
+abstr-subscript:
+  - "subíndice"
+
+# 
+abstr-subsup:
+  - "potencia con subíndice"
+
+# 
+# %1: 
+# %2: 
+abstr-infixop:
+  - %1
+  - "con"
+  - %2
+  - "elementos"
+
+# 
+# %1: 
+abstr-infixop-var:
+  - %1
+  - "con una cantidad variable de elementos"
+
+# 
+# %1: 
+abstr-infixop-brief:
+  - %1
+
+# 
+# %1: 
+abstr-addition:
+  - "suma con"
+  - %1
+  - "sumandos"
+
+# 
+abstr-addition-brief:
+  - "suma"
+
+# 
+abstr-addition-var:
+  - "suma con número variable de sumandos"
+
+# 
+# %1: 
+abstr-multiplication:
+  - "producto con"
+  - %1
+  - "factores"
+
+# 
+abstr-multiplication-brief:
+  - "producto"
+
+# 
+abstr-multiplication-var:
+  - "producto con una cantidad variable de factores"
+
+# 
+# %1: 
+abstr-vector:
+  - "vector de dimensión"
+  - %1
+
+# 
+abstr-vector-brief:
+  - "vector"
+
+# 
+abstr-vector-var:
+  - "vector de dimensión n"
+
+# 
+abstr-binomial:
+  - "binomio"
+
+# 
+# %1: 
+abstr-determinant:
+  - "determinante de dimensión"
+  - %1
+
+# 
+abstr-determinant-brief:
+  - "determinante"
+
+# 
+abstr-determinant-var:
+  - "determinante de dimensión n"
+
+# 
+# %1: 
+abstr-squarematrix:
+  - "matriz cuadrada de dimensión"
+  - %1
+
+# 
+abstr-squarematrix-brief:
+  - "matriz cuadrada"
+
+# 
+# %1: 
+abstr-rowvector:
+  - "vector fila de dimensión"
+  - %1
+
+# 
+abstr-rowvector-brief:
+  - "vector fila"
+
+# 
+abstr-rowvector-var:
+  - "vector fila de dimensión n"
+
+# 
+# %1: 
+# %2: 
+abstr-matrix:
+  - %1
+  - "por"
+  - %2
+  - "matriz"
+
+# 
+abstr-matrix-brief:
+  - "matriz"
+
+# 
+abstr-matrix-var:
+  - "matriz de dimensión n por m"
+
+# 
+# %1: 
+abstr-cases:
+  - "declaración de caso"
+  - "con"
+  - %1
+  - "casos"
+
+# 
+abstr-cases-brief:
+  - "declaración de caso"
+
+# 
+abstr-cases-var:
+  - "declaración de caso con número variable de casos"
+
+# 
+# %1: 
+# %2: 
+abstr-punctuated:
+  - "lista separada por"
+  - %1
+  - "de longitud"
+  - %2
+
+# 
+# %1: 
+abstr-punctuated-brief:
+  - "lista separada por"
+  - %1
+
+# 
+# %1: 
+abstr-punctuated-var:
+  - "lista separada por"
+  - %1
+  - "de longitud variable"
+
+# 
+# %1: 
+abstr-bigop:
+  - %1
+
+# 
+abstr-integral:
+  - "integral"
+
+# 
+# %1: 
+abstr-relation:
+  - %1
+
+# 
+# %1: 
+# %2: 
+abstr-relation-seq:
+  - "secuencia de"
+  - %1
+  - "con"
+  - %2
+  - "elementos"
+
+# 
+# %1: 
+abstr-relation-seq-brief:
+  - "secuencia de"
+  - %1
+
+# 
+# %1: 
+abstr-relation-var:
+  - "secuencia de"
+  - %1
+  - "con una cantidad variable de elementos"
+
+# 
+# %1: 
+abstr-multirel:
+  - "secuencia de relación"
+  - "con"
+  - %1
+  - "elementos"
+
+# 
+abstr-multirel-brief:
+  - "secuencia de relación"
+
+# 
+abstr-multirel-var:
+  - "secuencia de relación con número variable de elementos"
+
+# 
+# %1: 
+# %2: 
+abstr-table:
+  - "mesa con"
+  - %1
+  - "filas y"
+  - %2
+  - "columnas"
+
+# 
+# %1: 
+abstr-line:
+  - "en"
+  - %1
+
+# 
+# %1: 
+# %2: 
+# %3: 
+abstr-row:
+  - "en"
+  - %1
+  - %2
+  - "con"
+  - %3
+  - "columnas"
+
+# 
+# %1: 
+abstr-cell:
+  - "en"
+  - %1

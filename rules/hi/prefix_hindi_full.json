@@ -1,0 +1,279 @@
+{
+  "numerator": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"अंश\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "denominator": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"हर\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "base": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"आधार\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "exponent": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"घातांक\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "subscript": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"पादांक\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "overscript": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"उर्ध्वान्क\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "underscript": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"निम्नांक\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "radicand": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"करणीगत राशि\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "index": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"मूलांक\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "leftsub": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"वाम पादांक\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "leftsub-counted": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"वाम पादांक\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "leftsuper": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"वाम उर्ध्वान्क\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "leftsuper-counted": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"वाम उर्ध्वान्क\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "rightsub": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"दक्षिण पादांक\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "rightsub-counted": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"दक्षिण पादांक\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "rightsuper": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"दक्षिण उर्ध्वान्क\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "rightsuper-counted": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"दक्षिण उर्ध्वान्क\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "choice": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"विकल्प तादात\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "select": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"चयन तादात\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "row": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"पंक्ति\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "cell": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "../.."
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"स्तंभ\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "cell-simple": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"स्तंभ\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  }
+}

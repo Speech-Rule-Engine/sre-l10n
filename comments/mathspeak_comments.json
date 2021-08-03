@@ -1,0 +1,1991 @@
+{
+  "collapsed": {
+    "rule": "collapsed",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "blank-cell-empty": {
+    "rule": "blank-cell-empty",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "blank-line-empty": {
+    "rule": "blank-line-empty",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "font": {
+    "rule": "font",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "font-number": {
+    "rule": "font-number",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "font-identifier-short": {
+    "rule": "font-identifier-short",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "font-identifier": {
+    "rule": "font-identifier",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "font-double-struck": {
+    "rule": "font-double-struck",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "font-number-double-struck": {
+    "rule": "font-number-double-struck",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "mixed-number": {
+    "rule": "mixed-number",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "number-with-chars": {
+    "rule": "number-with-chars",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "number-as-upper-word": {
+    "rule": "number-as-upper-word",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "number-baseline": {
+    "rule": "number-baseline",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "number-baseline-brief": {
+    "rule": "number-baseline-brief",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "number-baseline-font": {
+    "rule": "number-baseline-font",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "number-baseline-font-brief": {
+    "rule": "number-baseline-font-brief",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "negative-number": {
+    "rule": "negative-number",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "negative": {
+    "rule": "negative",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "division": {
+    "rule": "division",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "subtraction": {
+    "rule": "subtraction",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "fences-neutral": {
+    "rule": "fences-neutral",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "fences-neutral-sbrief": {
+    "rule": "fences-neutral-sbrief",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "fences-metric": {
+    "rule": "fences-metric",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "empty-set": {
+    "rule": "empty-set",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "fences-set": {
+    "rule": "fences-set",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "fences-set-sbrief": {
+    "rule": "fences-set-sbrief",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "factorial": {
+    "rule": "factorial",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "minus": {
+    "rule": "minus",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "vulgar-fraction": {
+    "rule": "vulgar-fraction",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "continued-fraction-outer": {
+    "rule": "continued-fraction-outer",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "continued-fraction-inner": {
+    "rule": "continued-fraction-inner",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "continued-fraction-inner-sbrief": {
+    "rule": "continued-fraction-inner-sbrief",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "limboth": {
+    "rule": "limboth",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": "",
+      "%4": "",
+      "%5": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "limlower": {
+    "rule": "limlower",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "limupper": {
+    "rule": "limupper",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "limboth-end": {
+    "rule": "limboth-end",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": "",
+      "%4": "",
+      "%5": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "limlower-end": {
+    "rule": "limlower-end",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "limupper-end": {
+    "rule": "limupper-end",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "integral": {
+    "rule": "integral",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "integral-brief": {
+    "rule": "integral-brief",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "square": {
+    "rule": "square",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "cube": {
+    "rule": "cube",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "prime": {
+    "rule": "prime",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "double-prime": {
+    "rule": "double-prime",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "triple-prime": {
+    "rule": "triple-prime",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "quadruple-prime": {
+    "rule": "quadruple-prime",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "counted-prime": {
+    "rule": "counted-prime",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "counted-prime-multichar": {
+    "rule": "counted-prime-multichar",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "overscore": {
+    "rule": "overscore",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "overscore-brief": {
+    "rule": "overscore-brief",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "double-overscore": {
+    "rule": "double-overscore",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "double-overscore-brief": {
+    "rule": "double-overscore-brief",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "underscore": {
+    "rule": "underscore",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "underscore-brief": {
+    "rule": "underscore-brief",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "double-underscore": {
+    "rule": "double-underscore",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "double-underscore-brief": {
+    "rule": "double-underscore-brief",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "overbar": {
+    "rule": "overbar",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "underbar": {
+    "rule": "underbar",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "overtilde": {
+    "rule": "overtilde",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "undertilde": {
+    "rule": "undertilde",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "matrix": {
+    "rule": "matrix",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "matrix-sbrief": {
+    "rule": "matrix-sbrief",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "matrix-row": {
+    "rule": "matrix-row",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "row-with-label": {
+    "rule": "row-with-label",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "row-with-label-brief": {
+    "rule": "row-with-label-brief",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "row-with-text-label": {
+    "rule": "row-with-text-label",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "empty-row": {
+    "rule": "empty-row",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "empty-cell": {
+    "rule": "empty-cell",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "determinant": {
+    "rule": "determinant",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "determinant-sbrief": {
+    "rule": "determinant-sbrief",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "determinant-simple": {
+    "rule": "determinant-simple",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "determinant-simple-sbrief": {
+    "rule": "determinant-simple-sbrief",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "layout": {
+    "rule": "layout",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "layout-sbrief": {
+    "rule": "layout-sbrief",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "binomial": {
+    "rule": "binomial",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "binomial-brief": {
+    "rule": "binomial-brief",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "binomial-sbrief": {
+    "rule": "binomial-sbrief",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "cases": {
+    "rule": "cases",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "cases-brief": {
+    "rule": "cases-brief",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "cases-sbrief": {
+    "rule": "cases-sbrief",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "line-with-label": {
+    "rule": "line-with-label",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "line-with-label-brief": {
+    "rule": "line-with-label-brief",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "line-with-text-label": {
+    "rule": "line-with-text-label",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "empty-line": {
+    "rule": "empty-line",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "empty-line-with-label": {
+    "rule": "empty-line-with-label",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "empty-line-with-label-brief": {
+    "rule": "empty-line-with-label-brief",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "enclose": {
+    "rule": "enclose",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "leftbar": {
+    "rule": "leftbar",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "rightbar": {
+    "rule": "rightbar",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "crossout": {
+    "rule": "crossout",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "cancel": {
+    "rule": "cancel",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "cancel-reverse": {
+    "rule": "cancel-reverse",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "multi-inference": {
+    "rule": "multi-inference",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "inference": {
+    "rule": "inference",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "premise": {
+    "rule": "premise",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "conclusion": {
+    "rule": "conclusion",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "label": {
+    "rule": "label",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "axiom": {
+    "rule": "axiom",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "empty-axiom": {
+    "rule": "empty-axiom",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "german-font": {
+    "rule": "german-font",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "en"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "german-font-bold": {
+    "rule": "german-font-bold",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "en"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "number-with-chars-brief": {
+    "rule": "number-with-chars-brief",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "en",
+      "es",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "fences-metric-sbrief": {
+    "rule": "fences-metric-sbrief",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "en"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "continued-fraction-outer-brief": {
+    "rule": "continued-fraction-outer-brief",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "continued-fraction-inner-brief": {
+    "rule": "continued-fraction-inner-brief",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "text": {
+    "rule": "text",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "es"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "unit-singular": {
+    "rule": "unit-singular",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "es"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "unit-plural": {
+    "rule": "unit-plural",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "es"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "unit-square": {
+    "rule": "unit-square",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "es",
+      "fr"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "unit-cubic": {
+    "rule": "unit-cubic",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "es",
+      "fr"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "reciprocal": {
+    "rule": "reciprocal",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "es"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "per": {
+    "rule": "per",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "es"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "unit-combine": {
+    "rule": "unit-combine",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "es"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "unit-combine-mult": {
+    "rule": "unit-combine-mult",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "es"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "unit-combine-singular": {
+    "rule": "unit-combine-singular",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "es"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "unit-combine-singular-first": {
+    "rule": "unit-combine-singular-first",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": [
+      "es"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "unit-combine-singular-final": {
+    "rule": "unit-combine-singular-final",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "es"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "unit-divide": {
+    "rule": "unit-divide",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "es"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "logarithm-base": {
+    "rule": "logarithm-base",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "fr",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "overbar-enclose": {
+    "rule": "overbar-enclose",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "fr"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "underbar-enclose": {
+    "rule": "underbar-enclose",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "fr"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "squared-masculine": {
+    "rule": "squared-masculine",
+    "parameters": {},
+    "locales": [
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "squared-feminine": {
+    "rule": "squared-feminine",
+    "parameters": {},
+    "locales": [
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  }
+}

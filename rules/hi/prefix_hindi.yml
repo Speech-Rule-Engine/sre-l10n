@@ -1,0 +1,105 @@
+# For details on the format see https:///speechruleengine.org/yaml.md
+
+# 
+numerator:
+  - "अंश" (pause:200)
+
+# 
+denominator:
+  - "हर" (pause:200)
+
+# 
+base:
+  - "आधार" (pause:200)
+
+# 
+exponent:
+  - "घातांक" (pause:200)
+
+# 
+subscript:
+  - "पादांक" (pause:200)
+
+# 
+overscript:
+  - "उर्ध्वान्क" (pause:200)
+
+# 
+underscript:
+  - "निम्नांक" (pause:200)
+
+# 
+radicand:
+  - "करणीगत राशि" (pause:200)
+
+# 
+index:
+  - "मूलांक" (pause:200)
+
+# 
+leftsub:
+  - "वाम पादांक" (pause:200)
+
+# 
+# %1: 
+leftsub-counted:
+  - %1
+  - "वाम पादांक" (pause:200)
+
+# 
+leftsuper:
+  - "वाम उर्ध्वान्क" (pause:200)
+
+# 
+# %1: 
+leftsuper-counted:
+  - %1
+  - "वाम उर्ध्वान्क" (pause:200)
+
+# 
+rightsub:
+  - "दक्षिण पादांक" (pause:200)
+
+# 
+# %1: 
+rightsub-counted:
+  - %1
+  - "दक्षिण पादांक" (pause:200)
+
+# 
+rightsuper:
+  - "दक्षिण उर्ध्वान्क" (pause:200)
+
+# 
+# %1: 
+rightsuper-counted:
+  - %1
+  - "दक्षिण उर्ध्वान्क" (pause:200)
+
+# 
+choice:
+  - "विकल्प तादात" (pause:200)
+
+# 
+select:
+  - "चयन तादात" (pause:200)
+
+# 
+# %1: 
+row:
+  - %1 (grammar:gender="f")
+  - "पंक्ति" (pause:200)
+
+# 
+# %1: 
+# %2: 
+cell:
+  - %1
+  - %2
+  - "स्तंभ" (pause:200)
+
+# 
+# %1: 
+cell-simple:
+  - %1
+  - "स्तंभ" (pause:200)

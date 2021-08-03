@@ -1,0 +1,105 @@
+# For details on the format see https:///speechruleengine.org/yaml.md
+
+# 
+numerator:
+  - "numeratore" (pause:200)
+
+# 
+denominator:
+  - "denominatore" (pause:200)
+
+# 
+base:
+  - "base" (pause:200)
+
+# 
+exponent:
+  - "esponente" (pause:200)
+
+# 
+subscript:
+  - "pedice" (pause:200)
+
+# 
+overscript:
+  - "apice" (pause:200)
+
+# 
+underscript:
+  - "sottoscritto" (pause:200)
+
+# 
+radicand:
+  - "radicando" (pause:200)
+
+# 
+index:
+  - "indice" (pause:200)
+
+# 
+leftsub:
+  - "pedice sinistro" (pause:200)
+
+# 
+# %1: 
+leftsub-counted:
+  - %1 (grammar:gender="m")
+  - "pedice sinistro" (pause:200)
+
+# 
+leftsuper:
+  - "apice sinistro" (pause:200)
+
+# 
+# %1: 
+leftsuper-counted:
+  - %1 (grammar:gender="m")
+  - "apice sinistro" (pause:200)
+
+# 
+rightsub:
+  - "pedice destro" (pause:200)
+
+# 
+# %1: 
+rightsub-counted:
+  - %1 (grammar:gender="m")
+  - "pedice destro" (pause:200)
+
+# 
+rightsuper:
+  - "apice destro" (pause:200)
+
+# 
+# %1: 
+rightsuper-counted:
+  - %1 (grammar:gender="m")
+  - "apice destro" (pause:200)
+
+# 
+choice:
+  - "quantità scelta" (pause:200)
+
+# 
+select:
+  - "quantità selezione" (pause:200)
+
+# 
+# %1: 
+row:
+  - %1 (grammar:gender="f")
+  - "riga" (pause:200)
+
+# 
+# %1: 
+# %2: 
+cell:
+  - %1
+  - %2 (grammar:gender="f")
+  - "colonna" (pause:200)
+
+# 
+# %1: 
+cell-simple:
+  - %1 (grammar:gender="f")
+  - "colonna" (pause:200)

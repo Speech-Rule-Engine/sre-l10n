@@ -1,0 +1,260 @@
+{
+  "abstr-identifier-long": [
+    "\"long identifier\""
+  ],
+  "abstr-identifier": [
+    "\"identifier\""
+  ],
+  "abstr-number-long": [
+    "\"long number\""
+  ],
+  "abstr-number": [
+    "\"number\""
+  ],
+  "abstr-mixed-number-long": [
+    "\"long mixed number\""
+  ],
+  "abstr-mixed-number": [
+    "\"mixed number\""
+  ],
+  "abstr-text": [
+    "\"text\""
+  ],
+  "abstr-function": [
+    "\"functional expression\""
+  ],
+  "abstr-function-brief": [
+    "\"function\""
+  ],
+  "abstr-lim": [
+    "\"limit function\""
+  ],
+  "abstr-lim-brief": [
+    "\"lim\""
+  ],
+  "abstr-fraction": [
+    "\"fraction\""
+  ],
+  "abstr-fraction-brief": [
+    "\"frac\""
+  ],
+  "abstr-continued-fraction": [
+    "\"continued fraction\""
+  ],
+  "abstr-continued-fraction-brief": [
+    "\"continued frac\""
+  ],
+  "abstr-sqrt": [
+    "\"square root\""
+  ],
+  "abstr-sqrt-nested": [
+    "\"nested square root\""
+  ],
+  "abstr-root-end": [
+    "\"root of index\"",
+    "%1",
+    "\"endindex\""
+  ],
+  "abstr-root": [
+    "\"root of index\"",
+    "%1"
+  ],
+  "abstr-root-brief": [
+    "\"root\""
+  ],
+  "abstr-root-nested-end": [
+    "\"nested root of index\"",
+    "%1",
+    "\"endindex\""
+  ],
+  "abstr-root-nested": [
+    "\"nested root of index\"",
+    "%1"
+  ],
+  "abstr-root-nested-brief": [
+    "\"nested root\""
+  ],
+  "abstr-superscript": [
+    "\"power\""
+  ],
+  "abstr-subscript": [
+    "\"subscript\""
+  ],
+  "abstr-subsup": [
+    "\"power with subscript\""
+  ],
+  "abstr-infixop": [
+    "%1",
+    "\"with\"",
+    "%2",
+    "\"elements\""
+  ],
+  "abstr-infixop-var": [
+    "%1",
+    "\"with variable number of elements\""
+  ],
+  "abstr-infixop-brief": [
+    "%1"
+  ],
+  "abstr-addition": [
+    "\"sum with\"",
+    "%1",
+    "\"summands\""
+  ],
+  "abstr-addition-brief": [
+    "\"sum\""
+  ],
+  "abstr-addition-var": [
+    "\"sum with variable number of summands\""
+  ],
+  "abstr-multiplication": [
+    "\"product with\"",
+    "%1",
+    "\"factors\""
+  ],
+  "abstr-multiplication-brief": [
+    "\"product\""
+  ],
+  "abstr-multiplication-var": [
+    "\"product with variable number of factors\""
+  ],
+  "abstr-vector": [
+    "%1",
+    "\"dimensional vector\""
+  ],
+  "abstr-vector-brief": [
+    "\"vector\""
+  ],
+  "abstr-vector-var": [
+    "\"n dimensional vector\""
+  ],
+  "abstr-binomial": [
+    "\"binomial\""
+  ],
+  "abstr-determinant": [
+    "%1",
+    "\"dimensional determinant\""
+  ],
+  "abstr-determinant-brief": [
+    "\"determinant\""
+  ],
+  "abstr-determinant-var": [
+    "\"n dimensional determinant\""
+  ],
+  "abstr-squarematrix": [
+    "%1",
+    "\"dimensional square matrix\""
+  ],
+  "abstr-squarematrix-brief": [
+    "\"square matrix\""
+  ],
+  "abstr-rowvector": [
+    "%1",
+    "\"dimensional row vector\""
+  ],
+  "abstr-rowvector-brief": [
+    "\"row vector\""
+  ],
+  "abstr-rowvector-var": [
+    "\"n dimensional row vector\""
+  ],
+  "abstr-matrix": [
+    "%1",
+    "\"by\"",
+    "%2",
+    "\"matrix\""
+  ],
+  "abstr-matrix-brief": [
+    "\"matrix\""
+  ],
+  "abstr-matrix-var": [
+    "\"n by m dimensional matrix\""
+  ],
+  "abstr-cases": [
+    "\"case statement\"",
+    "\"with\"",
+    "%1",
+    "\"cases\""
+  ],
+  "abstr-cases-brief": [
+    "\"case statement\""
+  ],
+  "abstr-cases-var": [
+    "\"case statement with variable number of cases\""
+  ],
+  "abstr-punctuated": [
+    "%1",
+    "\"separated list\"",
+    "\"of length\"",
+    "%2"
+  ],
+  "abstr-punctuated-brief": [
+    "%1",
+    "\"separated list\""
+  ],
+  "abstr-punctuated-var": [
+    "%1",
+    "\"separated list\"",
+    "\"of variable length\""
+  ],
+  "abstr-bigop": [
+    "%1"
+  ],
+  "abstr-integral": [
+    "\"integral\""
+  ],
+  "abstr-relation": [
+    "%1"
+  ],
+  "abstr-relation-seq": [
+    "%1",
+    "\"sequence\"",
+    "\"with\"",
+    "%2",
+    "\"elements\""
+  ],
+  "abstr-relation-seq-brief": [
+    "%1",
+    "\"sequence\""
+  ],
+  "abstr-relation-var": [
+    "%1",
+    "\"sequence\"",
+    "\"with variable number of elements\""
+  ],
+  "abstr-multirel": [
+    "\"relation sequence\"",
+    "\"with\"",
+    "%1",
+    "\"elements\""
+  ],
+  "abstr-multirel-brief": [
+    "\"relation sequence\""
+  ],
+  "abstr-multirel-var": [
+    "\"relation sequence with variable number of elements\""
+  ],
+  "abstr-table": [
+    "\"table with\"",
+    "%1",
+    "\"rows and\"",
+    "%2",
+    "\"columns\""
+  ],
+  "abstr-line": [
+    "\"in\"",
+    "%1"
+  ],
+  "abstr-row": [
+    "\"in\"",
+    "%1",
+    "%2",
+    "\"with\"",
+    "%3",
+    "\"columns\""
+  ],
+  "abstr-cell": [
+    "\"in\"",
+    "%1"
+  ]
+}

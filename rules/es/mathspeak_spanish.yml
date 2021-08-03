@@ -1,0 +1,776 @@
+# For details on the format see https:///speechruleengine.org/yaml.md
+
+# 
+# %1: 
+collapsed:
+  - %1
+  - "plegado"
+
+# 
+blank-cell-empty:
+  - "espacio"
+
+# 
+blank-line-empty:
+  - "espacio"
+
+# 
+# %1: 
+# %2: 
+font:
+  - %1
+  - %2
+
+# 
+# %1: 
+# %2: 
+font-identifier-short:
+  - %1
+  - %2
+
+# 
+# %1: 
+# %2: 
+font-identifier:
+  - %1
+  - %2
+
+# 
+# %1: 
+# %2: 
+mixed-number:
+  - %1
+  - "más"
+  - %2
+
+# 
+# %1: 
+number-with-chars:
+  - "número"
+  - %1
+
+# 
+# %1: 
+number-with-chars-brief:
+  - "núm"
+  - %1
+
+# 
+# %1: 
+number-as-upper-word:
+  - "mayúscula"
+  - %1
+
+# 
+# %1: 
+number-baseline:
+  - "línea base"
+  - %1
+
+# 
+# %1: 
+number-baseline-brief:
+  - "base"
+  - %1
+
+# 
+# %1: 
+# %2: 
+number-baseline-font:
+  - "línea base"
+  - %1
+  - %2
+
+# 
+# %1: 
+# %2: 
+number-baseline-font-brief:
+  - "base"
+  - %1
+  - %2
+
+# 
+# %1: 
+negative-number:
+  - "menos"
+  - %1
+
+# 
+# %1: 
+negative:
+  - "menos"
+  - %1
+
+# 
+# %1: 
+# %2: 
+division:
+  - %1
+  - "dividido"
+  - %2
+
+# 
+# %1: 
+subtraction:
+  - %1 (separator:"menos")
+
+# 
+# %1: 
+fences-neutral:
+  - "empezar valor absoluto"
+  - %1
+  - "finalizar valor absoluto"
+
+# 
+# %1: 
+fences-neutral-sbrief:
+  - "valor absoluto"
+  - %1
+  - "finalizar valor absoluto"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+fences-metric:
+  - %1
+  - %2
+  - %3
+
+# 
+empty-set:
+  - "conjunto vacío"
+
+# 
+# %1: 
+fences-set:
+  - "empezar llave"
+  - %1
+  - "finalizar llave"
+
+# 
+# %1: 
+fences-set-sbrief:
+  - "llave"
+  - %1
+  - "finalizar llave"
+
+# 
+# %1: 
+text:
+  - %1
+
+# 
+factorial:
+  - "factorial"
+
+# 
+minus:
+  - "menos"
+
+# 
+# %1: 
+# %2: 
+continued-fraction-outer:
+  - "fracción continua"
+  - %1
+  - "entre"
+  - %2
+
+# 
+# %1: 
+# %2: 
+continued-fraction-outer-brief:
+  - "frac continua"
+  - %1
+  - "entre"
+  - %2
+
+# 
+# %1: 
+# %2: 
+continued-fraction-inner:
+  - "empezar fracción"
+  - %1
+  - "entre"
+  - %2
+
+# 
+# %1: 
+# %2: 
+continued-fraction-inner-brief:
+  - "empezar frac"
+  - %1
+  - "entre"
+  - %2
+
+# 
+# %1: 
+# %2: 
+continued-fraction-inner-sbrief:
+  - "frac"
+  - %1
+  - "entre"
+  - %2
+
+# 
+# %1: 
+# %2: 
+# %3: 
+# %4: 
+# %5: 
+limboth:
+  - %1
+  - %2
+  - %3
+  - %4
+  - %5
+
+# 
+# %1: 
+# %2: 
+# %3: 
+limlower:
+  - %1
+  - %2
+  - %3
+
+# 
+# %1: 
+# %2: 
+# %3: 
+limupper:
+  - %1
+  - %2
+  - %3
+
+# 
+# %1: 
+# %2: 
+# %3: 
+# %4: 
+# %5: 
+limboth-end:
+  - %1
+  - %2
+  - %3
+  - %4
+  - %5
+  - "finalizar índices"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+limlower-end:
+  - %1
+  - %2
+  - %3
+  - "finalizar índices"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+limupper-end:
+  - %1
+  - %2
+  - %3
+  - "finalizar índices"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+integral:
+  - %1
+  - "definida"
+  - "subíndice"
+  - %2
+  - "superíndice"
+  - %3
+  - "línea base"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+integral-brief:
+  - %1
+  - "Sub"
+  - %2
+  - "Sup"
+  - %3
+  - "Base"
+
+# 
+# %1: 
+square:
+  - %1
+  - "al cuadrado"
+
+# 
+# %1: 
+cube:
+  - %1
+  - "al cubo"
+
+# 
+# %1: 
+# %2: 
+prime:
+  - %1
+  - %2
+
+# 
+double-prime:
+  - "dos prima"
+
+# 
+triple-prime:
+  - "tres prima"
+
+# 
+quadruple-prime:
+  - "cuatro prima"
+
+# 
+# %1: 
+counted-prime:
+  - %1
+  - "prima"
+
+# 
+# %1: 
+counted-prime-multichar:
+  - %1
+  - "prima"
+
+# 
+# %1: 
+# %2: 
+overscore:
+  - "modificando superior"
+  - %1
+  - "con"
+  - %2
+
+# 
+# %1: 
+# %2: 
+overscore-brief:
+  - "mod superior"
+  - %1
+  - "con"
+  - %2
+
+# 
+# %1: 
+# %2: 
+double-overscore:
+  - "modificando superior superior"
+  - %1
+  - "con"
+  - %2
+
+# 
+# %1: 
+# %2: 
+double-overscore-brief:
+  - "mod superior superior"
+  - %1
+  - "con"
+  - %2
+
+# 
+# %1: 
+# %2: 
+underscore:
+  - "modificando inferior"
+  - %1
+  - "con"
+  - %2
+
+# 
+# %1: 
+# %2: 
+underscore-brief:
+  - "mod inferior"
+  - %1
+  - "con"
+  - %2
+
+# 
+# %1: 
+# %2: 
+double-underscore:
+  - "modificando inferior inferior"
+  - %1
+  - "con"
+  - %2
+
+# 
+# %1: 
+# %2: 
+double-underscore-brief:
+  - "mod inferior inferior"
+  - %1
+  - "con"
+  - %2
+
+# 
+# %1: 
+overbar:
+  - %1
+  - "barra"
+
+# 
+# %1: 
+underbar:
+  - %1
+  - "subbarra"
+
+# 
+# %1: 
+overtilde:
+  - %1
+  - "tilde"
+
+# 
+# %1: 
+undertilde:
+  - %1
+  - "subtilde"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+matrix:
+  - "empezar matriz"
+  - %1
+  - "por"
+  - %2
+  - %3 (context:"fila ")
+  - "finalizar matriz"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+matrix-sbrief:
+  - "matriz"
+  - %1
+  - "por"
+  - %2
+  - %3 (context:" ")
+  - "finalizar matriz"
+
+# 
+# %1: 
+matrix-row:
+  - %1 (context:"columna", pause:200)
+
+# 
+# %1: 
+# %2: 
+row-with-label:
+  - "con etiqueta"
+  - %1
+  - "finalizar etiqueta" (pause:200)
+  - %2 (context:"columna")
+
+# 
+# %1: 
+# %2: 
+row-with-label-brief:
+  - "etiqueta"
+  - %1
+  - %2 (context:"columna")
+
+# 
+# %1: 
+# %2: 
+row-with-text-label:
+  - "etiqueta"
+  - %1
+  - %2 (context:"columna")
+
+# 
+empty-row:
+  - "espacio"
+
+# 
+empty-cell:
+  - "espacio" (pause:300)
+
+# 
+# %1: 
+# %2: 
+# %3: 
+determinant:
+  - "empezar determinante"
+  - %1
+  - "por"
+  - %2
+  - %3 (context:"fila ")
+  - "finalizar determinante"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+determinant-sbrief:
+  - "determinante"
+  - %1
+  - "por"
+  - %2
+  - %3 (context:"fila ")
+  - "finalizar determinante"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+determinant-simple:
+  - "empezar determinante"
+  - %1
+  - "por"
+  - %2
+  - %3 (context:"fila")
+  - "finalizar determinante"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+determinant-simple-sbrief:
+  - "determinante"
+  - %1
+  - "por"
+  - %2
+  - %3 (context:"fila")
+  - "finalizar determinante"
+
+# 
+# %1: 
+layout:
+  - "empezar esquema"
+  - %1 (context:"fila ")
+  - "finalizar esquema"
+
+# 
+# %1: 
+layout-sbrief:
+  - "esquema"
+  - %1 (context:"fila ")
+  - "finalizar esquema"
+
+# 
+# %1: 
+# %2: 
+binomial:
+  - "empezar binomial"
+  - %1
+  - "en"
+  - %2
+  - "finalizar binomial"
+
+# 
+# %1: 
+# %2: 
+binomial-sbrief:
+  - "binomial"
+  - %1
+  - "en"
+  - %2
+  - "finalizar binomial"
+
+# 
+# %1: 
+# %2: 
+cases:
+  - "empezar esquema"
+  - %1
+  - "alargada"
+  - %2 (context:"fila ")
+  - "finalizar esquema"
+
+# 
+# %1: 
+# %2: 
+cases-sbrief:
+  - "esquema"
+  - %1
+  - "alargada"
+  - %2 (context:"fila ")
+  - "finalizar esquema"
+
+# 
+# %1: 
+# %2: 
+line-with-label:
+  - "con etiqueta"
+  - %1
+  - "finalizar etiqueta" (pause:200)
+  - %2
+
+# 
+# %1: 
+# %2: 
+line-with-label-brief:
+  - "etiqueta"
+  - %1 (pause:200)
+  - %2
+
+# 
+# %1: 
+# %2: 
+line-with-text-label:
+  - "etiqueta"
+  - %1
+  - %2
+
+# 
+empty-line:
+  - "espacio"
+
+# 
+# %1: 
+empty-line-with-label:
+  - "con etiqueta"
+  - %1
+  - "finalizar etiqueta" (pause:200)
+  - "espacio"
+
+# 
+# %1: 
+empty-line-with-label-brief:
+  - "etiqueta"
+  - %1 (pause:200)
+  - "espacio"
+
+# 
+# %1: 
+# %2: 
+enclose:
+  - "empezar rodear"
+  - %1
+  - %2
+  - "finalizar rodear"
+
+# 
+# %1: 
+leftbar:
+  - "barra vertical"
+  - %1
+
+# 
+# %1: 
+rightbar:
+  - %1
+  - "barra vertical"
+
+# 
+# %1: 
+crossout:
+  - "tachado"
+  - %1
+  - "finalizar tachado"
+
+# 
+# %1: 
+# %2: 
+cancel:
+  - "tachado"
+  - %1
+  - "con"
+  - %2
+  - "finalizar tachado"
+
+# 
+# %1: 
+# %2: 
+cancel-reverse:
+  - "tachado"
+  - %1
+  - "con"
+  - %2
+  - "finalizar tachado"
+
+# 
+# %1: 
+unit-singular:
+  - %1
+
+# 
+# %1: 
+unit-plural:
+  - %1 (grammar:plural)
+
+# 
+# %1: 
+unit-square:
+  - %1
+  - "cuadrado"
+
+# 
+# %1: 
+unit-cubic:
+  - %1
+  - "cúbico"
+
+# 
+# %1: 
+reciprocal:
+  - "recíproco"
+  - %1
+
+# 
+# %1: 
+per:
+  - "por"
+  - %1
+
+# 
+# %1: 
+unit-combine:
+  - %1
+
+# 
+# %1: 
+unit-combine-mult:
+  - %1
+
+# 
+# %1: 
+# %2: 
+unit-combine-singular:
+  - %1
+  - "por"
+  - %2 (grammar:!singular)
+
+# 
+# %1: 
+# %2: 
+# %3: 
+unit-combine-singular-first:
+  - %1
+  - %2 (grammar:singular)
+  - "por"
+  - %3
+
+# 
+# %1: 
+# %2: 
+unit-combine-singular-final:
+  - %1
+  - %2 (grammar:singular)
+
+# 
+# %1: 
+# %2: 
+unit-divide:
+  - %1
+  - "por"
+  - %2 (grammar:singular)

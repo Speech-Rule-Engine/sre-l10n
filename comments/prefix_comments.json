@@ -1,0 +1,347 @@
+{
+  "numerator": {
+    "rule": "numerator",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "denominator": {
+    "rule": "denominator",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "base": {
+    "rule": "base",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "exponent": {
+    "rule": "exponent",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "subscript": {
+    "rule": "subscript",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "overscript": {
+    "rule": "overscript",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "underscript": {
+    "rule": "underscript",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "radicand": {
+    "rule": "radicand",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "index": {
+    "rule": "index",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "leftsub": {
+    "rule": "leftsub",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "leftsub-counted": {
+    "rule": "leftsub-counted",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "leftsuper": {
+    "rule": "leftsuper",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "leftsuper-counted": {
+    "rule": "leftsuper-counted",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "rightsub": {
+    "rule": "rightsub",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "rightsub-counted": {
+    "rule": "rightsub-counted",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "rightsuper": {
+    "rule": "rightsuper",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "rightsuper-counted": {
+    "rule": "rightsuper-counted",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "choice": {
+    "rule": "choice",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "select": {
+    "rule": "select",
+    "parameters": {},
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "row": {
+    "rule": "row",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "cell": {
+    "rule": "cell",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  },
+  "cell-simple": {
+    "rule": "cell-simple",
+    "parameters": {
+      "%1": ""
+    },
+    "locales": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it"
+    ],
+    "description": "",
+    "latex": "",
+    "example": ""
+  }
+}

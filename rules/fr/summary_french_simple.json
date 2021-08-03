@@ -1,0 +1,336 @@
+{
+  "collapsed-masculine": [
+    "\"compressé\""
+  ],
+  "collapsed-feminine": [
+    "\"compressée\""
+  ],
+  "abstr-identifier-long": [
+    "\"identifiant long\"",
+    "%1 (grammar:gender=\"m\")"
+  ],
+  "abstr-identifier": [
+    "\"identifiant\"",
+    "%1 (grammar:gender=\"m\")"
+  ],
+  "abstr-number-long": [
+    "\"nombre long\"",
+    "%1 (grammar:gender=\"m\")"
+  ],
+  "abstr-number": [
+    "\"nombre\"",
+    "%1 (grammar:gender=\"m\")"
+  ],
+  "abstr-mixed-number-long": [
+    "\"nombre fractionnaire long\"",
+    "%1 (grammar:gender=\"m\")"
+  ],
+  "abstr-mixed-number": [
+    "\"nombre fractionnaire\"",
+    "%1 (grammar:gender=\"m\")"
+  ],
+  "abstr-text": [
+    "\"texte\"",
+    "%1 (grammar:gender=\"m\")"
+  ],
+  "abstr-function": [
+    "\"expression fonctionnelle\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-function-brief": [
+    "\"fonction\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-lim": [
+    "\"fonction de limitation\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-lim-brief": [
+    "\"lim\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-fraction": [
+    "\"fraction\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-fraction-brief": [
+    "\"frac\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-continued-fraction": [
+    "\"fraction continue\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-continued-fraction-brief": [
+    "\"frac continue\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-sqrt": [
+    "\"racine carrée\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-sqrt-nested": [
+    "\"racine carrée imbriquée\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-root-end": [
+    "\"racine d'indice\"",
+    "%1",
+    "\"fin indice\"",
+    "%2 (grammar:gender=\"f\")"
+  ],
+  "abstr-root": [
+    "\"racine d'indice\"",
+    "%1",
+    "%2 (grammar:gender=\"f\")"
+  ],
+  "abstr-root-brief": [
+    "\"racine\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-root-nested-end": [
+    "\"racine imbriquée d'indice\"",
+    "%1",
+    "\"fin indice\"",
+    "%2 (grammar:gender=\"f\")"
+  ],
+  "abstr-root-nested": [
+    "\"racine imbriquée d'indice\"",
+    "%1",
+    "%2 (grammar:gender=\"f\")"
+  ],
+  "abstr-root-nested-brief": [
+    "\"racine imbriquée\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-superscript": [
+    "\"puissance\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-subscript": [
+    "\"indice\"",
+    "%1 (grammar:gender=\"m\")"
+  ],
+  "abstr-subsup": [
+    "\"puissance avec index\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-infixop": [
+    "%1",
+    "\"avec\"",
+    "%2",
+    "\"éléments\"",
+    "%3 (grammar:gender=\"m\")"
+  ],
+  "abstr-infixop-var": [
+    "%1",
+    "\"avec un nombre d'éléments variable\"",
+    "%2 (grammar:gender=\"m\")"
+  ],
+  "abstr-infixop-brief": [
+    "%1",
+    "%2 (grammar:gender=\"m\")"
+  ],
+  "abstr-addition": [
+    "\"somme avec\"",
+    "%1",
+    "\"opérandes\"",
+    "%2 (grammar:gender=\"f\")"
+  ],
+  "abstr-addition-brief": [
+    "\"somme\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-addition-var": [
+    "\"somme avec un nombre variable d'opérandes\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-multiplication": [
+    "\"produit avec\"",
+    "%1",
+    "\"facteurs\"",
+    "%2 (grammar:gender=\"m\")"
+  ],
+  "abstr-multiplication-brief": [
+    "\"produit\"",
+    "%1 (grammar:gender=\"m\")"
+  ],
+  "abstr-multiplication-var": [
+    "\"produit avec un nombre de facteurs variable\"",
+    "%1 (grammar:gender=\"m\")"
+  ],
+  "abstr-vector": [
+    "\"vecteur de dimension\"",
+    "%1",
+    "%2 (grammar:gender=\"m\")"
+  ],
+  "abstr-vector-brief": [
+    "\"vecteur\"",
+    "%1 (grammar:gender=\"m\")"
+  ],
+  "abstr-vector-var": [
+    "\"vecteur colonne de dimension n\"",
+    "%1 (grammar:gender=\"m\")"
+  ],
+  "abstr-binomial": [
+    "\"binomial\"",
+    "%1 (grammar:gender=\"m\")"
+  ],
+  "abstr-determinant": [
+    "\"déterminant de dimension\"",
+    "%1",
+    "%2 (grammar:gender=\"m\")"
+  ],
+  "abstr-determinant-brief": [
+    "\"déterminant\"",
+    "%1 (grammar:gender=\"m\")"
+  ],
+  "abstr-determinant-var": [
+    "\"déterminant de dimension n\"",
+    "%1 (grammar:gender=\"m\")"
+  ],
+  "abstr-squarematrix": [
+    "\"matrice carrée de dimension\"",
+    "%1",
+    "%2 (grammar:gender=\"f\")"
+  ],
+  "abstr-squarematrix-brief": [
+    "\"matrice carrée\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-rowvector": [
+    "\"vecteur ligne de dimension\"",
+    "%1",
+    "%2 (grammar:gender=\"m\")"
+  ],
+  "abstr-rowvector-brief": [
+    "\"vecteur ligne\"",
+    "%1 (grammar:gender=\"m\")"
+  ],
+  "abstr-rowvector-var": [
+    "\"vecteur ligne de dimension n\""
+  ],
+  "abstr-matrix": [
+    "\"matrice\"",
+    "%1",
+    "\"par\"",
+    "%2",
+    "%3 (grammar:gender=\"f\")"
+  ],
+  "abstr-matrix-brief": [
+    "\"matrice\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-matrix-var": [
+    "\"matrice de dimension n par m\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-cases": [
+    "\"déclaration de cas\"",
+    "\"avec\"",
+    "%1",
+    "\"cas\"",
+    "%2 (grammar:gender=\"f\")"
+  ],
+  "abstr-cases-brief": [
+    "\"déclaration de cas\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-cases-var": [
+    "\"déclaration de cas variable\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-punctuated": [
+    "\"liste de longueur\"",
+    "%1",
+    "\"séparée par des\"",
+    "%2 (join:\"\")",
+    "\"s\"",
+    "%3 (grammar:gender=\"f\")"
+  ],
+  "abstr-punctuated-brief": [
+    "\"liste séparée par des\"",
+    "%1 (join:\"\")",
+    "\"s\"",
+    "%2 (grammar:gender=\"f\")"
+  ],
+  "abstr-punctuated-var": [
+    "\"liste de longueur variable séparée par des\"",
+    "%1 (join:\"\")",
+    "\"s\"",
+    "%2 (grammar:gender=\"f\")"
+  ],
+  "abstr-bigop": [
+    "%1",
+    "%2 (grammar:gender=\"m\")"
+  ],
+  "abstr-integral": [
+    "\"intégrale\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-relation": [
+    "%1",
+    "%2 (grammar:gender=\"m\")"
+  ],
+  "abstr-relation-seq": [
+    "%1",
+    "\"séquence\"",
+    "\"avec\"",
+    "%2",
+    "\"éléments\"",
+    "%3 (grammar:gender=\"f\")"
+  ],
+  "abstr-relation-seq-brief": [
+    "%1",
+    "\"séquence\"",
+    "%2 (grammar:gender=\"f\")"
+  ],
+  "abstr-relation-var": [
+    "%1",
+    "\"séquence\"",
+    "\"avec un nombre de éléments variable\"",
+    "%2 (grammar:gender=\"f\")"
+  ],
+  "abstr-multirel": [
+    "\"séquence de relation\"",
+    "\"avec\"",
+    "%1",
+    "\"éléments\"",
+    "%2 (grammar:gender=\"f\")"
+  ],
+  "abstr-multirel-brief": [
+    "\"séquence de relation\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-multirel-var": [
+    "\"séquence de relation avec un nombre de éléments variable\"",
+    "%1 (grammar:gender=\"f\")"
+  ],
+  "abstr-table": [
+    "\"table avec\"",
+    "%1",
+    "\"lignes et\"",
+    "%2",
+    "\"colonnes\"",
+    "%3 (grammar:gender=\"f\")"
+  ],
+  "abstr-line": [
+    "\"dans\"",
+    "%1",
+    "%2 (grammar:gender=\"m\")"
+  ],
+  "abstr-row": [
+    "\"dans\"",
+    "%1",
+    "%2",
+    "\"avec\"",
+    "%3",
+    "\"colonnes\"",
+    "%4 (grammar:gender=\"f\")"
+  ],
+  "abstr-cell": [
+    "\"dans\"",
+    "%1",
+    "%2 (grammar:gender=\"f\")"
+  ]
+}

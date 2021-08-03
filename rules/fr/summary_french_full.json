@@ -1,0 +1,1309 @@
+{
+  "collapsed-masculine": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"compressé\""
+      }
+    ]
+  },
+  "collapsed-feminine": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"compressée\""
+      }
+    ]
+  },
+  "abstr-identifier-long": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"identifiant long\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-identifier": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"identifiant\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-number-long": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"nombre long\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-number": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"nombre\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-mixed-number-long": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"nombre fractionnaire long\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-mixed-number": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"nombre fractionnaire\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-text": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"texte\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-function": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"expression fonctionnelle\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-function-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"fonction\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-lim": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"fonction de limitation\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-lim-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"lim\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-fraction": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"fraction\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-fraction-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"frac\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-continued-fraction": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"fraction continue\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-continued-fraction-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"frac continue\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-sqrt": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"racine carrée\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-sqrt-nested": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"racine carrée imbriquée\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-root-end": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"racine d'indice\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "engine": "modality=speech"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"fin indice\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-root": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"racine d'indice\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "engine": "modality=speech"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-root-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"racine\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-root-nested-end": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"racine imbriquée d'indice\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "engine": "modality=speech"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"fin indice\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-root-nested": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"racine imbriquée d'indice\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "engine": "modality=speech"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-root-nested-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"racine imbriquée\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-superscript": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"puissance\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-subscript": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"indice\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-subsup": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"puissance avec index\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-infixop": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"avec\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"éléments\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-infixop-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"avec un nombre d'éléments variable\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-infixop-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-addition": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"somme avec\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"opérandes\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-addition-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"somme\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-addition-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"somme avec un nombre variable d'opérandes\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-multiplication": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"produit avec\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"facteurs\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-multiplication-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"produit\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-multiplication-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"produit avec un nombre de facteurs variable\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-vector": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"vecteur de dimension\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-vector-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"vecteur\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-vector-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"vecteur colonne de dimension n\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-binomial": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"binomial\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-determinant": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"déterminant de dimension\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-determinant-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"déterminant\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-determinant-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"déterminant de dimension n\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-squarematrix": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"matrice carrée de dimension\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-squarematrix-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"matrice carrée\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-rowvector": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"vecteur ligne de dimension\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(./children/row/children/*)"
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-rowvector-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"vecteur ligne\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-rowvector-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"vecteur ligne de dimension n\""
+      }
+    ]
+  },
+  "abstr-matrix": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"matrice\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"par\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-matrix-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"matrice\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-matrix-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"matrice de dimension n par m\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-cases": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"déclaration de cas\""
+      },
+      {
+        "type": "TEXT",
+        "content": "\"avec\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"cas\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-cases-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"déclaration de cas\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-cases-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"déclaration de cas variable\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-punctuated": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"liste de longueur\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*) - count(content/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"séparée par des\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]",
+        "attributes": {
+          "join": "\"\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"s\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-punctuated-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"liste séparée par des\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]",
+        "attributes": {
+          "join": "\"\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"s\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-punctuated-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"liste de longueur variable séparée par des\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]",
+        "attributes": {
+          "join": "\"\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"s\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-bigop": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-integral": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"intégrale\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-relation": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-relation-seq": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"séquence\""
+      },
+      {
+        "type": "TEXT",
+        "content": "\"avec\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"éléments\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-relation-seq-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"séquence\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-relation-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"séquence\""
+      },
+      {
+        "type": "TEXT",
+        "content": "\"avec un nombre de éléments variable\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-multirel": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"séquence de relation\""
+      },
+      {
+        "type": "TEXT",
+        "content": "\"avec\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"éléments\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-multirel-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"séquence de relation\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-multirel-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"séquence de relation avec un nombre de éléments variable\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-table": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"table avec\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"lignes et\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"colonnes\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-line": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"dans\""
+      },
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      }
+    ]
+  },
+  "abstr-row": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"dans\""
+      },
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "count(preceding-sibling::..)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"avec\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"colonnes\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  },
+  "abstr-cell": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"dans\""
+      },
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      }
+    ]
+  }
+}

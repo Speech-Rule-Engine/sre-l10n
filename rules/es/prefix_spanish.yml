@@ -1,0 +1,105 @@
+# For details on the format see https:///speechruleengine.org/yaml.md
+
+# 
+numerator:
+  - "numerador" (pause:200)
+
+# 
+denominator:
+  - "denominador" (pause:200)
+
+# 
+base:
+  - "base" (pause:200)
+
+# 
+exponent:
+  - "exponente" (pause:200)
+
+# 
+subscript:
+  - "subíndice" (pause:200)
+
+# 
+overscript:
+  - "sobreíndice" (pause:200)
+
+# 
+underscript:
+  - "bajoíndice" (pause:200)
+
+# 
+radicand:
+  - "radicand" (pause:200)
+
+# 
+index:
+  - "índice" (pause:200)
+
+# 
+leftsub:
+  - "subíndice izquierdo" (pause:200)
+
+# 
+# %1: 
+leftsub-counted:
+  - %1 (grammar:gender="m")
+  - "subíndice izquierdo" (pause:200)
+
+# 
+leftsuper:
+  - "superíndice izquierdo" (pause:200)
+
+# 
+# %1: 
+leftsuper-counted:
+  - %1 (grammar:gender="m")
+  - "superíndice izquierdo" (pause:200)
+
+# 
+rightsub:
+  - "subíndice derecho" (pause:200)
+
+# 
+# %1: 
+rightsub-counted:
+  - %1 (grammar:gender="m")
+  - "subíndice derecho" (pause:200)
+
+# 
+rightsuper:
+  - "superíndice derecho" (pause:200)
+
+# 
+# %1: 
+rightsuper-counted:
+  - %1 (grammar:gender="m")
+  - "superíndice derecho" (pause:200)
+
+# 
+choice:
+  - "cantidad de elección" (pause:200)
+
+# 
+select:
+  - "cantidad de selección" (pause:200)
+
+# 
+# %1: 
+row:
+  - %1 (grammar:gender="f")
+  - "fila" (pause:200)
+
+# 
+# %1: 
+# %2: 
+cell:
+  - %1
+  - %2 (grammar:gender="f")
+  - "columna" (pause:200)
+
+# 
+# %1: 
+cell-simple:
+  - %1 (grammar:gender="f")
+  - "columna" (pause:200)

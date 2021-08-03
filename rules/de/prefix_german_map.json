@@ -1,0 +1,63 @@
+{
+  "numerator": {},
+  "denominator": {},
+  "base": {},
+  "exponent": {},
+  "subscript": {},
+  "overscript": {},
+  "underscript": {},
+  "radicand": {},
+  "index": {},
+  "leftsub": {},
+  "leftsub-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    }
+  },
+  "leftsuper": {},
+  "leftsuper-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    }
+  },
+  "rightsub": {},
+  "rightsub-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    }
+  },
+  "rightsuper": {},
+  "rightsuper-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    }
+  },
+  "choice": {},
+  "select": {},
+  "row": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    }
+  },
+  "cell": {
+    "%1": {
+      "type": "NODE",
+      "content": "../.."
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    }
+  },
+  "cell-simple": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    }
+  }
+}

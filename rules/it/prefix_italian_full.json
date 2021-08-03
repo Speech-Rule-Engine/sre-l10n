@@ -1,0 +1,297 @@
+{
+  "numerator": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"numeratore\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "denominator": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"denominatore\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "base": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"base\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "exponent": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"esponente\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "subscript": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"pedice\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "overscript": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"apice\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "underscript": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"sottoscritto\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "radicand": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"radicando\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "index": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"indice\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "leftsub": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"pedice sinistro\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "leftsub-counted": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"pedice sinistro\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "leftsuper": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"apice sinistro\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "leftsuper-counted": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"apice sinistro\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "rightsub": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"pedice destro\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "rightsub-counted": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"pedice destro\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "rightsuper": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"apice destro\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "rightsuper-counted": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition",
+        "grammar": {
+          "gender": "\"m\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"apice destro\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "choice": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"quantità scelta\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "select": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"quantità selezione\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "row": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"riga\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "cell": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "../.."
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"colonna\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "cell-simple": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFordinalPosition",
+        "grammar": {
+          "gender": "\"f\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"colonna\"",
+        "attributes": {
+          "pause": "200"
+        }
+      }
+    ]
+  }
+}

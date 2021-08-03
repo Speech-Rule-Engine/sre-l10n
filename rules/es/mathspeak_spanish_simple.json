@@ -1,0 +1,511 @@
+{
+  "collapsed": [
+    "%1",
+    "\"plegado\""
+  ],
+  "blank-cell-empty": [
+    "\"espacio\""
+  ],
+  "blank-line-empty": [
+    "\"espacio\""
+  ],
+  "font": [
+    "%1",
+    "%2"
+  ],
+  "font-identifier-short": [
+    "%1",
+    "%2"
+  ],
+  "font-identifier": [
+    "%1",
+    "%2"
+  ],
+  "mixed-number": [
+    "%1",
+    "\"más\"",
+    "%2"
+  ],
+  "number-with-chars": [
+    "\"número\"",
+    "%1"
+  ],
+  "number-with-chars-brief": [
+    "\"núm\"",
+    "%1"
+  ],
+  "number-as-upper-word": [
+    "\"mayúscula\"",
+    "%1"
+  ],
+  "number-baseline": [
+    "\"línea base\"",
+    "%1"
+  ],
+  "number-baseline-brief": [
+    "\"base\"",
+    "%1"
+  ],
+  "number-baseline-font": [
+    "\"línea base\"",
+    "%1",
+    "%2"
+  ],
+  "number-baseline-font-brief": [
+    "\"base\"",
+    "%1",
+    "%2"
+  ],
+  "negative-number": [
+    "\"menos\"",
+    "%1"
+  ],
+  "negative": [
+    "\"menos\"",
+    "%1"
+  ],
+  "division": [
+    "%1",
+    "\"dividido\"",
+    "%2"
+  ],
+  "subtraction": [
+    "%1 (separator:\"menos\")"
+  ],
+  "fences-neutral": [
+    "\"empezar valor absoluto\"",
+    "%1",
+    "\"finalizar valor absoluto\""
+  ],
+  "fences-neutral-sbrief": [
+    "\"valor absoluto\"",
+    "%1",
+    "\"finalizar valor absoluto\""
+  ],
+  "fences-metric": [
+    "%1",
+    "%2",
+    "%3"
+  ],
+  "empty-set": [
+    "\"conjunto vacío\""
+  ],
+  "fences-set": [
+    "\"empezar llave\"",
+    "%1",
+    "\"finalizar llave\""
+  ],
+  "fences-set-sbrief": [
+    "\"llave\"",
+    "%1",
+    "\"finalizar llave\""
+  ],
+  "text": [
+    "%1"
+  ],
+  "factorial": [
+    "\"factorial\""
+  ],
+  "minus": [
+    "\"menos\""
+  ],
+  "continued-fraction-outer": [
+    "\"fracción continua\"",
+    "%1",
+    "\"entre\"",
+    "%2"
+  ],
+  "continued-fraction-outer-brief": [
+    "\"frac continua\"",
+    "%1",
+    "\"entre\"",
+    "%2"
+  ],
+  "continued-fraction-inner": [
+    "\"empezar fracción\"",
+    "%1",
+    "\"entre\"",
+    "%2"
+  ],
+  "continued-fraction-inner-brief": [
+    "\"empezar frac\"",
+    "%1",
+    "\"entre\"",
+    "%2"
+  ],
+  "continued-fraction-inner-sbrief": [
+    "\"frac\"",
+    "%1",
+    "\"entre\"",
+    "%2"
+  ],
+  "limboth": [
+    "%1",
+    "%2",
+    "%3",
+    "%4",
+    "%5"
+  ],
+  "limlower": [
+    "%1",
+    "%2",
+    "%3"
+  ],
+  "limupper": [
+    "%1",
+    "%2",
+    "%3"
+  ],
+  "limboth-end": [
+    "%1",
+    "%2",
+    "%3",
+    "%4",
+    "%5",
+    "\"finalizar índices\""
+  ],
+  "limlower-end": [
+    "%1",
+    "%2",
+    "%3",
+    "\"finalizar índices\""
+  ],
+  "limupper-end": [
+    "%1",
+    "%2",
+    "%3",
+    "\"finalizar índices\""
+  ],
+  "integral": [
+    "%1",
+    "\"definida\"",
+    "\"subíndice\"",
+    "%2",
+    "\"superíndice\"",
+    "%3",
+    "\"línea base\""
+  ],
+  "integral-brief": [
+    "%1",
+    "\"Sub\"",
+    "%2",
+    "\"Sup\"",
+    "%3",
+    "\"Base\""
+  ],
+  "square": [
+    "%1",
+    "\"al cuadrado\""
+  ],
+  "cube": [
+    "%1",
+    "\"al cubo\""
+  ],
+  "prime": [
+    "%1",
+    "%2"
+  ],
+  "double-prime": [
+    "\"dos prima\""
+  ],
+  "triple-prime": [
+    "\"tres prima\""
+  ],
+  "quadruple-prime": [
+    "\"cuatro prima\""
+  ],
+  "counted-prime": [
+    "%1",
+    "\"prima\""
+  ],
+  "counted-prime-multichar": [
+    "%1",
+    "\"prima\""
+  ],
+  "overscore": [
+    "\"modificando superior\"",
+    "%1",
+    "\"con\"",
+    "%2"
+  ],
+  "overscore-brief": [
+    "\"mod superior\"",
+    "%1",
+    "\"con\"",
+    "%2"
+  ],
+  "double-overscore": [
+    "\"modificando superior superior\"",
+    "%1",
+    "\"con\"",
+    "%2"
+  ],
+  "double-overscore-brief": [
+    "\"mod superior superior\"",
+    "%1",
+    "\"con\"",
+    "%2"
+  ],
+  "underscore": [
+    "\"modificando inferior\"",
+    "%1",
+    "\"con\"",
+    "%2"
+  ],
+  "underscore-brief": [
+    "\"mod inferior\"",
+    "%1",
+    "\"con\"",
+    "%2"
+  ],
+  "double-underscore": [
+    "\"modificando inferior inferior\"",
+    "%1",
+    "\"con\"",
+    "%2"
+  ],
+  "double-underscore-brief": [
+    "\"mod inferior inferior\"",
+    "%1",
+    "\"con\"",
+    "%2"
+  ],
+  "overbar": [
+    "%1",
+    "\"barra\""
+  ],
+  "underbar": [
+    "%1",
+    "\"subbarra\""
+  ],
+  "overtilde": [
+    "%1",
+    "\"tilde\""
+  ],
+  "undertilde": [
+    "%1",
+    "\"subtilde\""
+  ],
+  "matrix": [
+    "\"empezar matriz\"",
+    "%1",
+    "\"por\"",
+    "%2",
+    "%3 (context:\"fila \")",
+    "\"finalizar matriz\""
+  ],
+  "matrix-sbrief": [
+    "\"matriz\"",
+    "%1",
+    "\"por\"",
+    "%2",
+    "%3 (context:\" \")",
+    "\"finalizar matriz\""
+  ],
+  "matrix-row": [
+    "%1 (context:\"columna\", pause:200)"
+  ],
+  "row-with-label": [
+    "\"con etiqueta\"",
+    "%1",
+    "\"finalizar etiqueta\" (pause:200)",
+    "%2 (context:\"columna\")"
+  ],
+  "row-with-label-brief": [
+    "\"etiqueta\"",
+    "%1",
+    "%2 (context:\"columna\")"
+  ],
+  "row-with-text-label": [
+    "\"etiqueta\"",
+    "%1",
+    "%2 (context:\"columna\")"
+  ],
+  "empty-row": [
+    "\"espacio\""
+  ],
+  "empty-cell": [
+    "\"espacio\" (pause:300)"
+  ],
+  "determinant": [
+    "\"empezar determinante\"",
+    "%1",
+    "\"por\"",
+    "%2",
+    "%3 (context:\"fila \")",
+    "\"finalizar determinante\""
+  ],
+  "determinant-sbrief": [
+    "\"determinante\"",
+    "%1",
+    "\"por\"",
+    "%2",
+    "%3 (context:\"fila \")",
+    "\"finalizar determinante\""
+  ],
+  "determinant-simple": [
+    "\"empezar determinante\"",
+    "%1",
+    "\"por\"",
+    "%2",
+    "%3 (context:\"fila\")",
+    "\"finalizar determinante\""
+  ],
+  "determinant-simple-sbrief": [
+    "\"determinante\"",
+    "%1",
+    "\"por\"",
+    "%2",
+    "%3 (context:\"fila\")",
+    "\"finalizar determinante\""
+  ],
+  "layout": [
+    "\"empezar esquema\"",
+    "%1 (context:\"fila \")",
+    "\"finalizar esquema\""
+  ],
+  "layout-sbrief": [
+    "\"esquema\"",
+    "%1 (context:\"fila \")",
+    "\"finalizar esquema\""
+  ],
+  "binomial": [
+    "\"empezar binomial\"",
+    "%1",
+    "\"en\"",
+    "%2",
+    "\"finalizar binomial\""
+  ],
+  "binomial-sbrief": [
+    "\"binomial\"",
+    "%1",
+    "\"en\"",
+    "%2",
+    "\"finalizar binomial\""
+  ],
+  "cases": [
+    "\"empezar esquema\"",
+    "%1",
+    "\"alargada\"",
+    "%2 (context:\"fila \")",
+    "\"finalizar esquema\""
+  ],
+  "cases-sbrief": [
+    "\"esquema\"",
+    "%1",
+    "\"alargada\"",
+    "%2 (context:\"fila \")",
+    "\"finalizar esquema\""
+  ],
+  "line-with-label": [
+    "\"con etiqueta\"",
+    "%1",
+    "\"finalizar etiqueta\" (pause:200)",
+    "%2"
+  ],
+  "line-with-label-brief": [
+    "\"etiqueta\"",
+    "%1 (pause:200)",
+    "%2"
+  ],
+  "line-with-text-label": [
+    "\"etiqueta\"",
+    "%1",
+    "%2"
+  ],
+  "empty-line": [
+    "\"espacio\""
+  ],
+  "empty-line-with-label": [
+    "\"con etiqueta\"",
+    "%1",
+    "\"finalizar etiqueta\" (pause:200)",
+    "\"espacio\""
+  ],
+  "empty-line-with-label-brief": [
+    "\"etiqueta\"",
+    "%1 (pause:200)",
+    "\"espacio\""
+  ],
+  "enclose": [
+    "\"empezar rodear\"",
+    "%1",
+    "%2",
+    "\"finalizar rodear\""
+  ],
+  "leftbar": [
+    "\"barra vertical\"",
+    "%1"
+  ],
+  "rightbar": [
+    "%1",
+    "\"barra vertical\""
+  ],
+  "crossout": [
+    "\"tachado\"",
+    "%1",
+    "\"finalizar tachado\""
+  ],
+  "cancel": [
+    "\"tachado\"",
+    "%1",
+    "\"con\"",
+    "%2",
+    "\"finalizar tachado\""
+  ],
+  "cancel-reverse": [
+    "\"tachado\"",
+    "%1",
+    "\"con\"",
+    "%2",
+    "\"finalizar tachado\""
+  ],
+  "unit-singular": [
+    "%1"
+  ],
+  "unit-plural": [
+    "%1 (grammar:plural)"
+  ],
+  "unit-square": [
+    "%1",
+    "\"cuadrado\""
+  ],
+  "unit-cubic": [
+    "%1",
+    "\"cúbico\""
+  ],
+  "reciprocal": [
+    "\"recíproco\"",
+    "%1"
+  ],
+  "per": [
+    "\"por\"",
+    "%1"
+  ],
+  "unit-combine": [
+    "%1"
+  ],
+  "unit-combine-mult": [
+    "%1"
+  ],
+  "unit-combine-singular": [
+    "%1",
+    "\"por\"",
+    "%2 (grammar:!singular)"
+  ],
+  "unit-combine-singular-first": [
+    "%1",
+    "%2 (grammar:singular)",
+    "\"por\"",
+    "%3"
+  ],
+  "unit-combine-singular-final": [
+    "%1",
+    "%2 (grammar:singular)"
+  ],
+  "unit-divide": [
+    "%1",
+    "\"por\"",
+    "%2 (grammar:singular)"
+  ]
+}

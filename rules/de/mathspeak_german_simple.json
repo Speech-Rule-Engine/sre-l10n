@@ -1,0 +1,509 @@
+{
+  "collapsed": [
+    "%1",
+    "\"kollabiert\""
+  ],
+  "blank-cell-empty": [
+    "\"leer\""
+  ],
+  "blank-line-empty": [
+    "\"leer\""
+  ],
+  "font": [
+    "%1",
+    "%2"
+  ],
+  "font-number": [
+    "%1",
+    "%2"
+  ],
+  "font-identifier-short": [
+    "%1",
+    "%2"
+  ],
+  "font-identifier": [
+    "%1",
+    "%2"
+  ],
+  "font-double-struck": [
+    "%1",
+    "%2"
+  ],
+  "font-number-double-struck": [
+    "%1",
+    "%2"
+  ],
+  "mixed-number": [
+    "%1",
+    "%2"
+  ],
+  "number-with-chars": [
+    "\"Zahl\"",
+    "%1"
+  ],
+  "number-as-upper-word": [
+    "\"Wort groß\"",
+    "%1"
+  ],
+  "number-baseline": [
+    "\"Grundlinie\"",
+    "%1"
+  ],
+  "number-baseline-brief": [
+    "\"Grund\"",
+    "%1"
+  ],
+  "number-baseline-font": [
+    "\"Grundlinie\"",
+    "%1",
+    "%2"
+  ],
+  "number-baseline-font-brief": [
+    "\"Grund\"",
+    "%1",
+    "%2"
+  ],
+  "negative-number": [
+    "\"minus\"",
+    "%1"
+  ],
+  "negative": [
+    "\"minus\"",
+    "%1"
+  ],
+  "division": [
+    "%1",
+    "\"geteilt durch\"",
+    "%2"
+  ],
+  "subtraction": [
+    "%1 (separator:\"minus\")"
+  ],
+  "fences-neutral": [
+    "\"Anfang Betrag\"",
+    "%1",
+    "\"Ende Betrag\""
+  ],
+  "fences-neutral-sbrief": [
+    "\"Betrag\"",
+    "%1",
+    "\"Ende Betrag\""
+  ],
+  "fences-metric": [
+    "%1",
+    "%2",
+    "%3"
+  ],
+  "empty-set": [
+    "\"leere Menge\""
+  ],
+  "fences-set": [
+    "\"Anfang Menge\"",
+    "%1",
+    "\"Ende Menge\""
+  ],
+  "fences-set-sbrief": [
+    "\"Menge\"",
+    "%1",
+    "\"Ende Menge\""
+  ],
+  "factorial": [
+    "\"Fakultät\""
+  ],
+  "minus": [
+    "\"minus\""
+  ],
+  "vulgar-fraction": [
+    "%1"
+  ],
+  "continued-fraction-outer": [
+    "\"Kettenbruch\"",
+    "%1",
+    "\"durch\"",
+    "%2"
+  ],
+  "continued-fraction-inner": [
+    "\"Anfang Bruch\"",
+    "%1",
+    "\"durch\"",
+    "%2"
+  ],
+  "continued-fraction-inner-sbrief": [
+    "\"Bruch\"",
+    "%1",
+    "\"durch\"",
+    "%2"
+  ],
+  "limboth": [
+    "%1",
+    "%2",
+    "%3",
+    "%4",
+    "%5"
+  ],
+  "limlower": [
+    "%1",
+    "%2",
+    "%3"
+  ],
+  "limupper": [
+    "%1",
+    "%2",
+    "%3"
+  ],
+  "limboth-end": [
+    "%1",
+    "%2",
+    "%3",
+    "%4",
+    "%5",
+    "\"Ende Überschrift\""
+  ],
+  "limlower-end": [
+    "%1",
+    "%2",
+    "%3",
+    "\"Ende Unterschrift\""
+  ],
+  "limupper-end": [
+    "%1",
+    "%2",
+    "%3",
+    "\"Ende Überschrift\""
+  ],
+  "integral": [
+    "%1",
+    "\"Index\"",
+    "%2",
+    "\"Hoch\"",
+    "%3",
+    "\"Grundlinie\""
+  ],
+  "integral-brief": [
+    "%1",
+    "\"Index\"",
+    "%2",
+    "\"Hoch\"",
+    "%3",
+    "\"Base\""
+  ],
+  "square": [
+    "%1",
+    "\"Quadrat\""
+  ],
+  "cube": [
+    "%1",
+    "\"Kubik\""
+  ],
+  "prime": [
+    "%1",
+    "%2"
+  ],
+  "double-prime": [
+    "\"zwei Strich\""
+  ],
+  "triple-prime": [
+    "\"drei Strich\""
+  ],
+  "quadruple-prime": [
+    "\"vier Strich\""
+  ],
+  "counted-prime": [
+    "%1",
+    "\"Strich\""
+  ],
+  "counted-prime-multichar": [
+    "%1",
+    "\"Strich\""
+  ],
+  "overscore": [
+    "\"modifiziert oben\"",
+    "%1",
+    "\"mit\"",
+    "%2"
+  ],
+  "overscore-brief": [
+    "\"mod oben\"",
+    "%1",
+    "\"mit\"",
+    "%2"
+  ],
+  "double-overscore": [
+    "\"modifiziert oben oben\"",
+    "%1",
+    "\"mit\"",
+    "%2"
+  ],
+  "double-overscore-brief": [
+    "\"mod oben oben\"",
+    "%1",
+    "\"mit\"",
+    "%2"
+  ],
+  "underscore": [
+    "\"modifiziert unten\"",
+    "%1",
+    "\"mit\"",
+    "%2"
+  ],
+  "underscore-brief": [
+    "\"mod unten\"",
+    "%1",
+    "\"mit\"",
+    "%2"
+  ],
+  "double-underscore": [
+    "\"modifiziert unten unten\"",
+    "%1",
+    "\"mit\"",
+    "%2"
+  ],
+  "double-underscore-brief": [
+    "\"mod unten unten\"",
+    "%1",
+    "\"mit\"",
+    "%2"
+  ],
+  "overbar": [
+    "%1",
+    "\"Überstrich\""
+  ],
+  "underbar": [
+    "%1",
+    "\"Unterstrich\""
+  ],
+  "overtilde": [
+    "%1",
+    "\"Tilde oben\""
+  ],
+  "undertilde": [
+    "%1",
+    "\"Tilde unten\""
+  ],
+  "matrix": [
+    "\"Anfang\"",
+    "%1",
+    "\"mal\"",
+    "%2",
+    "\"Matrize\"",
+    "%3 (context:\"Zeile \")",
+    "\"Ende Matrize\""
+  ],
+  "matrix-sbrief": [
+    "%1",
+    "\"mal\"",
+    "%2",
+    "\"Matrize\"",
+    "%3 (context:\"Zeile \")",
+    "\"Ende Matrize\""
+  ],
+  "matrix-row": [
+    "%1 (context:\"Spalte\", pause:200)"
+  ],
+  "row-with-label": [
+    "\"mit Bezeichner\"",
+    "%1",
+    "\"Ende Bezeichner\" (pause:200)",
+    "%2 (context:\"Spalte\")"
+  ],
+  "row-with-label-brief": [
+    "\"Bezeichner\"",
+    "%1",
+    "%2 (context:\"Spalte\")"
+  ],
+  "row-with-text-label": [
+    "\"Bezeichner\"",
+    "%1",
+    "%2 (context:\"Spalte\")"
+  ],
+  "empty-row": [
+    "\"leer\""
+  ],
+  "empty-cell": [
+    "\"leer\" (pause:300)"
+  ],
+  "determinant": [
+    "\"Anfang\"",
+    "%1",
+    "\"mal\"",
+    "%2",
+    "\"Determinante\"",
+    "%3 (context:\"Zeile \")",
+    "\"Ende Determinante\""
+  ],
+  "determinant-sbrief": [
+    "%1",
+    "\"mal\"",
+    "%2",
+    "\"Determinante\"",
+    "%3 (context:\"Zeile \")",
+    "\"Ende Determinante\""
+  ],
+  "determinant-simple": [
+    "\"Anfang\"",
+    "%1",
+    "\"mal\"",
+    "%2",
+    "\"Determinante\"",
+    "%3 (context:\"Zeile\")",
+    "\"Ende Determinante\""
+  ],
+  "determinant-simple-sbrief": [
+    "%1",
+    "\"mal\"",
+    "%2",
+    "\"Determinante\"",
+    "%3 (context:\"Zeile\")",
+    "\"Ende Determinante\""
+  ],
+  "layout": [
+    "\"Anfang Anordnung\"",
+    "%1 (context:\"Zeile \")",
+    "\"Ende Anordnung\""
+  ],
+  "layout-sbrief": [
+    "\"Anordnung\"",
+    "%1 (context:\"Zeile \")",
+    "\"Ende Anordnung\""
+  ],
+  "binomial": [
+    "\"Anfang Binomialkoeffizient\"",
+    "%1",
+    "\"aus\"",
+    "%2",
+    "\"Ende Binomialkoeffizient\""
+  ],
+  "binomial-brief": [
+    "\"Anfang Binomial\"",
+    "%1",
+    "\"aus\"",
+    "%2",
+    "\"Ende Binomial\""
+  ],
+  "binomial-sbrief": [
+    "\"Binomial\"",
+    "%1",
+    "\"aus\"",
+    "%2",
+    "\"Ende Binomial\""
+  ],
+  "cases": [
+    "\"Anfang Fallunterscheidung\"",
+    "\"große\"",
+    "%1",
+    "%2 (context:\"Zeile \")",
+    "\"Ende Fallunterscheidung\""
+  ],
+  "cases-brief": [
+    "\"Anfang Fälle\"",
+    "\"große\"",
+    "%1",
+    "%2 (context:\"Zeile \")",
+    "\"Ende Fälle\""
+  ],
+  "cases-sbrief": [
+    "\"Fälle\"",
+    "\"große\"",
+    "%1",
+    "%2 (context:\"Zeile \")",
+    "\"Ende Fälle\""
+  ],
+  "line-with-label": [
+    "\"mit Bezeichner\"",
+    "%1",
+    "\"Ende Bezeichner\" (pause:200)",
+    "%2"
+  ],
+  "line-with-label-brief": [
+    "\"Bezeichner\"",
+    "%1 (pause:200)",
+    "%2"
+  ],
+  "line-with-text-label": [
+    "\"Bezeichner\"",
+    "%1",
+    "%2"
+  ],
+  "empty-line": [
+    "\"leer\""
+  ],
+  "empty-line-with-label": [
+    "\"mit Bezeichner\"",
+    "%1",
+    "\"Ende Bezeichner\" (pause:200)",
+    "\"leer\""
+  ],
+  "empty-line-with-label-brief": [
+    "\"Bezeichner\"",
+    "%1 (pause:200)",
+    "\"leer\""
+  ],
+  "enclose": [
+    "\"Anfang Umschließung\"",
+    "%1",
+    "%2",
+    "\"Ende Umschließung\""
+  ],
+  "leftbar": [
+    "\"senkrechter Strich\"",
+    "%1"
+  ],
+  "rightbar": [
+    "%1",
+    "\"senkrechter Strich\""
+  ],
+  "crossout": [
+    "\"durchgestrichen\"",
+    "%1",
+    "\"Ende duchgestrichen\""
+  ],
+  "cancel": [
+    "\"durchgestrichen\"",
+    "%1",
+    "\"mit\"",
+    "%2",
+    "\"Ende duchgestrichen\""
+  ],
+  "cancel-reverse": [
+    "\"durchgestrichen\"",
+    "%1",
+    "\"mit\"",
+    "%2",
+    "\"Ende duchgestrichen\""
+  ],
+  "multi-inference": [
+    "\"Schlussregel\"",
+    "%1",
+    "\"mit Folgerung\"",
+    "%2",
+    "\"aus\"",
+    "%3",
+    "\"Prämissen\""
+  ],
+  "inference": [
+    "\"Schlussregel\"",
+    "%1",
+    "\"mit Folgerung\"",
+    "%2",
+    "\"aus\"",
+    "%3",
+    "\"Prämisse\""
+  ],
+  "premise": [
+    "%1 (context:\"Prämisse \")"
+  ],
+  "conclusion": [
+    "%1"
+  ],
+  "label": [
+    "\"Regel\"",
+    "%1"
+  ],
+  "axiom": [
+    "\"Axiom\"",
+    "%1"
+  ],
+  "empty-axiom": [
+    "\"leeres Axiom\""
+  ]
+}

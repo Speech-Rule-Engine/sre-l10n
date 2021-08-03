@@ -1,0 +1,800 @@
+{
+  "abstr-identifier-long": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"long identifier\""
+      }
+    ]
+  },
+  "abstr-identifier": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"identifier\""
+      }
+    ]
+  },
+  "abstr-number-long": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"long number\""
+      }
+    ]
+  },
+  "abstr-number": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"number\""
+      }
+    ]
+  },
+  "abstr-mixed-number-long": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"long mixed number\""
+      }
+    ]
+  },
+  "abstr-mixed-number": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"mixed number\""
+      }
+    ]
+  },
+  "abstr-text": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"text\""
+      }
+    ]
+  },
+  "abstr-function": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"functional expression\""
+      }
+    ]
+  },
+  "abstr-function-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"function\""
+      }
+    ]
+  },
+  "abstr-lim": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"limit function\""
+      }
+    ]
+  },
+  "abstr-lim-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"lim\""
+      }
+    ]
+  },
+  "abstr-fraction": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"fraction\""
+      }
+    ]
+  },
+  "abstr-fraction-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"frac\""
+      }
+    ]
+  },
+  "abstr-continued-fraction": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"continued fraction\""
+      }
+    ]
+  },
+  "abstr-continued-fraction-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"continued frac\""
+      }
+    ]
+  },
+  "abstr-sqrt": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"square root\""
+      }
+    ]
+  },
+  "abstr-sqrt-nested": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"nested square root\""
+      }
+    ]
+  },
+  "abstr-root-end": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"root of index\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "engine": "modality=speech"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"endindex\""
+      }
+    ]
+  },
+  "abstr-root": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"root of index\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "engine": "modality=speech"
+        }
+      }
+    ]
+  },
+  "abstr-root-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"root\""
+      }
+    ]
+  },
+  "abstr-root-nested-end": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"nested root of index\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "engine": "modality=speech"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"endindex\""
+      }
+    ]
+  },
+  "abstr-root-nested": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"nested root of index\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "engine": "modality=speech"
+        }
+      }
+    ]
+  },
+  "abstr-root-nested-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"nested root\""
+      }
+    ]
+  },
+  "abstr-superscript": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"power\""
+      }
+    ]
+  },
+  "abstr-subscript": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"subscript\""
+      }
+    ]
+  },
+  "abstr-subsup": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"power with subscript\""
+      }
+    ]
+  },
+  "abstr-infixop": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"with\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"elements\""
+      }
+    ]
+  },
+  "abstr-infixop-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"with variable number of elements\""
+      }
+    ]
+  },
+  "abstr-infixop-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      }
+    ]
+  },
+  "abstr-addition": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"sum with\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"summands\""
+      }
+    ]
+  },
+  "abstr-addition-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"sum\""
+      }
+    ]
+  },
+  "abstr-addition-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"sum with variable number of summands\""
+      }
+    ]
+  },
+  "abstr-multiplication": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"product with\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"factors\""
+      }
+    ]
+  },
+  "abstr-multiplication-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"product\""
+      }
+    ]
+  },
+  "abstr-multiplication-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"product with variable number of factors\""
+      }
+    ]
+  },
+  "abstr-vector": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"dimensional vector\""
+      }
+    ]
+  },
+  "abstr-vector-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"vector\""
+      }
+    ]
+  },
+  "abstr-vector-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"n dimensional vector\""
+      }
+    ]
+  },
+  "abstr-binomial": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"binomial\""
+      }
+    ]
+  },
+  "abstr-determinant": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"dimensional determinant\""
+      }
+    ]
+  },
+  "abstr-determinant-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"determinant\""
+      }
+    ]
+  },
+  "abstr-determinant-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"n dimensional determinant\""
+      }
+    ]
+  },
+  "abstr-squarematrix": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"dimensional square matrix\""
+      }
+    ]
+  },
+  "abstr-squarematrix-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"square matrix\""
+      }
+    ]
+  },
+  "abstr-rowvector": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "count(./children/row/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"dimensional row vector\""
+      }
+    ]
+  },
+  "abstr-rowvector-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"row vector\""
+      }
+    ]
+  },
+  "abstr-rowvector-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"n dimensional row vector\""
+      }
+    ]
+  },
+  "abstr-matrix": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"by\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"matrix\""
+      }
+    ]
+  },
+  "abstr-matrix-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"matrix\""
+      }
+    ]
+  },
+  "abstr-matrix-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"n by m dimensional matrix\""
+      }
+    ]
+  },
+  "abstr-cases": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"case statement\""
+      },
+      {
+        "type": "TEXT",
+        "content": "\"with\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"cases\""
+      }
+    ]
+  },
+  "abstr-cases-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"case statement\""
+      }
+    ]
+  },
+  "abstr-cases-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"case statement with variable number of cases\""
+      }
+    ]
+  },
+  "abstr-punctuated": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"separated list\""
+      },
+      {
+        "type": "TEXT",
+        "content": "\"of length\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*) - count(content/*)"
+      }
+    ]
+  },
+  "abstr-punctuated-brief": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"separated list\""
+      }
+    ]
+  },
+  "abstr-punctuated-var": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"separated list\""
+      },
+      {
+        "type": "TEXT",
+        "content": "\"of variable length\""
+      }
+    ]
+  },
+  "abstr-bigop": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      }
+    ]
+  },
+  "abstr-integral": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"integral\""
+      }
+    ]
+  },
+  "abstr-relation": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      }
+    ]
+  },
+  "abstr-relation-seq": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"sequence\""
+      },
+      {
+        "type": "TEXT",
+        "content": "\"with\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"elements\""
+      }
+    ]
+  },
+  "abstr-relation-seq-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"sequence\""
+      }
+    ]
+  },
+  "abstr-relation-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"sequence\""
+      },
+      {
+        "type": "TEXT",
+        "content": "\"with variable number of elements\""
+      }
+    ]
+  },
+  "abstr-multirel": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"relation sequence\""
+      },
+      {
+        "type": "TEXT",
+        "content": "\"with\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(./children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"elements\""
+      }
+    ]
+  },
+  "abstr-multirel-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"relation sequence\""
+      }
+    ]
+  },
+  "abstr-multirel-var": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"relation sequence with variable number of elements\""
+      }
+    ]
+  },
+  "abstr-table": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"table with\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"rows and\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"columns\""
+      }
+    ]
+  },
+  "abstr-line": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"in\""
+      },
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      }
+    ]
+  },
+  "abstr-row": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"in\""
+      },
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "count(preceding-sibling::..)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"with\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"columns\""
+      }
+    ]
+  },
+  "abstr-cell": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"in\""
+      },
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localRole": true
+        }
+      }
+    ]
+  }
+}

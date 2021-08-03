@@ -1,0 +1,84 @@
+{
+  "numerator": {},
+  "denominator": {},
+  "base": {},
+  "exponent": {},
+  "subscript": {},
+  "overscript": {},
+  "underscript": {},
+  "radicand": {},
+  "index": {},
+  "leftsub": {},
+  "leftsub-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "leftsuper": {},
+  "leftsuper-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "rightsub": {},
+  "rightsub-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "rightsuper": {},
+  "rightsuper-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "choice": {},
+  "select": {},
+  "row": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "cell": {
+    "%1": {
+      "type": "NODE",
+      "content": "../.."
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "cell-simple": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  }
+}

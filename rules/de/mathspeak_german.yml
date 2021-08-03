@@ -1,0 +1,769 @@
+# For details on the format see https:///speechruleengine.org/yaml.md
+
+# 
+# %1: 
+collapsed:
+  - %1
+  - "kollabiert"
+
+# 
+blank-cell-empty:
+  - "leer"
+
+# 
+blank-line-empty:
+  - "leer"
+
+# 
+# %1: 
+# %2: 
+font:
+  - %1
+  - %2
+
+# 
+# %1: 
+# %2: 
+font-number:
+  - %1
+  - %2
+
+# 
+# %1: 
+# %2: 
+font-identifier-short:
+  - %1
+  - %2
+
+# 
+# %1: 
+# %2: 
+font-identifier:
+  - %1
+  - %2
+
+# 
+# %1: 
+# %2: 
+font-double-struck:
+  - %1
+  - %2
+
+# 
+# %1: 
+# %2: 
+font-number-double-struck:
+  - %1
+  - %2
+
+# 
+# %1: 
+# %2: 
+mixed-number:
+  - %1
+  - %2
+
+# 
+# %1: 
+number-with-chars:
+  - "Zahl"
+  - %1
+
+# 
+# %1: 
+number-as-upper-word:
+  - "Wort groß"
+  - %1
+
+# 
+# %1: 
+number-baseline:
+  - "Grundlinie"
+  - %1
+
+# 
+# %1: 
+number-baseline-brief:
+  - "Grund"
+  - %1
+
+# 
+# %1: 
+# %2: 
+number-baseline-font:
+  - "Grundlinie"
+  - %1
+  - %2
+
+# 
+# %1: 
+# %2: 
+number-baseline-font-brief:
+  - "Grund"
+  - %1
+  - %2
+
+# 
+# %1: 
+negative-number:
+  - "minus"
+  - %1
+
+# 
+# %1: 
+negative:
+  - "minus"
+  - %1
+
+# 
+# %1: 
+# %2: 
+division:
+  - %1
+  - "geteilt durch"
+  - %2
+
+# 
+# %1: 
+subtraction:
+  - %1 (separator:"minus")
+
+# 
+# %1: 
+fences-neutral:
+  - "Anfang Betrag"
+  - %1
+  - "Ende Betrag"
+
+# 
+# %1: 
+fences-neutral-sbrief:
+  - "Betrag"
+  - %1
+  - "Ende Betrag"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+fences-metric:
+  - %1
+  - %2
+  - %3
+
+# 
+empty-set:
+  - "leere Menge"
+
+# 
+# %1: 
+fences-set:
+  - "Anfang Menge"
+  - %1
+  - "Ende Menge"
+
+# 
+# %1: 
+fences-set-sbrief:
+  - "Menge"
+  - %1
+  - "Ende Menge"
+
+# 
+factorial:
+  - "Fakultät"
+
+# 
+minus:
+  - "minus"
+
+# 
+# %1: 
+vulgar-fraction:
+  - %1
+
+# 
+# %1: 
+# %2: 
+continued-fraction-outer:
+  - "Kettenbruch"
+  - %1
+  - "durch"
+  - %2
+
+# 
+# %1: 
+# %2: 
+continued-fraction-inner:
+  - "Anfang Bruch"
+  - %1
+  - "durch"
+  - %2
+
+# 
+# %1: 
+# %2: 
+continued-fraction-inner-sbrief:
+  - "Bruch"
+  - %1
+  - "durch"
+  - %2
+
+# 
+# %1: 
+# %2: 
+# %3: 
+# %4: 
+# %5: 
+limboth:
+  - %1
+  - %2
+  - %3
+  - %4
+  - %5
+
+# 
+# %1: 
+# %2: 
+# %3: 
+limlower:
+  - %1
+  - %2
+  - %3
+
+# 
+# %1: 
+# %2: 
+# %3: 
+limupper:
+  - %1
+  - %2
+  - %3
+
+# 
+# %1: 
+# %2: 
+# %3: 
+# %4: 
+# %5: 
+limboth-end:
+  - %1
+  - %2
+  - %3
+  - %4
+  - %5
+  - "Ende Überschrift"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+limlower-end:
+  - %1
+  - %2
+  - %3
+  - "Ende Unterschrift"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+limupper-end:
+  - %1
+  - %2
+  - %3
+  - "Ende Überschrift"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+integral:
+  - %1
+  - "Index"
+  - %2
+  - "Hoch"
+  - %3
+  - "Grundlinie"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+integral-brief:
+  - %1
+  - "Index"
+  - %2
+  - "Hoch"
+  - %3
+  - "Base"
+
+# 
+# %1: 
+square:
+  - %1
+  - "Quadrat"
+
+# 
+# %1: 
+cube:
+  - %1
+  - "Kubik"
+
+# 
+# %1: 
+# %2: 
+prime:
+  - %1
+  - %2
+
+# 
+double-prime:
+  - "zwei Strich"
+
+# 
+triple-prime:
+  - "drei Strich"
+
+# 
+quadruple-prime:
+  - "vier Strich"
+
+# 
+# %1: 
+counted-prime:
+  - %1
+  - "Strich"
+
+# 
+# %1: 
+counted-prime-multichar:
+  - %1
+  - "Strich"
+
+# 
+# %1: 
+# %2: 
+overscore:
+  - "modifiziert oben"
+  - %1
+  - "mit"
+  - %2
+
+# 
+# %1: 
+# %2: 
+overscore-brief:
+  - "mod oben"
+  - %1
+  - "mit"
+  - %2
+
+# 
+# %1: 
+# %2: 
+double-overscore:
+  - "modifiziert oben oben"
+  - %1
+  - "mit"
+  - %2
+
+# 
+# %1: 
+# %2: 
+double-overscore-brief:
+  - "mod oben oben"
+  - %1
+  - "mit"
+  - %2
+
+# 
+# %1: 
+# %2: 
+underscore:
+  - "modifiziert unten"
+  - %1
+  - "mit"
+  - %2
+
+# 
+# %1: 
+# %2: 
+underscore-brief:
+  - "mod unten"
+  - %1
+  - "mit"
+  - %2
+
+# 
+# %1: 
+# %2: 
+double-underscore:
+  - "modifiziert unten unten"
+  - %1
+  - "mit"
+  - %2
+
+# 
+# %1: 
+# %2: 
+double-underscore-brief:
+  - "mod unten unten"
+  - %1
+  - "mit"
+  - %2
+
+# 
+# %1: 
+overbar:
+  - %1
+  - "Überstrich"
+
+# 
+# %1: 
+underbar:
+  - %1
+  - "Unterstrich"
+
+# 
+# %1: 
+overtilde:
+  - %1
+  - "Tilde oben"
+
+# 
+# %1: 
+undertilde:
+  - %1
+  - "Tilde unten"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+matrix:
+  - "Anfang"
+  - %1
+  - "mal"
+  - %2
+  - "Matrize"
+  - %3 (context:"Zeile ")
+  - "Ende Matrize"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+matrix-sbrief:
+  - %1
+  - "mal"
+  - %2
+  - "Matrize"
+  - %3 (context:"Zeile ")
+  - "Ende Matrize"
+
+# 
+# %1: 
+matrix-row:
+  - %1 (context:"Spalte", pause:200)
+
+# 
+# %1: 
+# %2: 
+row-with-label:
+  - "mit Bezeichner"
+  - %1
+  - "Ende Bezeichner" (pause:200)
+  - %2 (context:"Spalte")
+
+# 
+# %1: 
+# %2: 
+row-with-label-brief:
+  - "Bezeichner"
+  - %1
+  - %2 (context:"Spalte")
+
+# 
+# %1: 
+# %2: 
+row-with-text-label:
+  - "Bezeichner"
+  - %1
+  - %2 (context:"Spalte")
+
+# 
+empty-row:
+  - "leer"
+
+# 
+empty-cell:
+  - "leer" (pause:300)
+
+# 
+# %1: 
+# %2: 
+# %3: 
+determinant:
+  - "Anfang"
+  - %1
+  - "mal"
+  - %2
+  - "Determinante"
+  - %3 (context:"Zeile ")
+  - "Ende Determinante"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+determinant-sbrief:
+  - %1
+  - "mal"
+  - %2
+  - "Determinante"
+  - %3 (context:"Zeile ")
+  - "Ende Determinante"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+determinant-simple:
+  - "Anfang"
+  - %1
+  - "mal"
+  - %2
+  - "Determinante"
+  - %3 (context:"Zeile")
+  - "Ende Determinante"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+determinant-simple-sbrief:
+  - %1
+  - "mal"
+  - %2
+  - "Determinante"
+  - %3 (context:"Zeile")
+  - "Ende Determinante"
+
+# 
+# %1: 
+layout:
+  - "Anfang Anordnung"
+  - %1 (context:"Zeile ")
+  - "Ende Anordnung"
+
+# 
+# %1: 
+layout-sbrief:
+  - "Anordnung"
+  - %1 (context:"Zeile ")
+  - "Ende Anordnung"
+
+# 
+# %1: 
+# %2: 
+binomial:
+  - "Anfang Binomialkoeffizient"
+  - %1
+  - "aus"
+  - %2
+  - "Ende Binomialkoeffizient"
+
+# 
+# %1: 
+# %2: 
+binomial-brief:
+  - "Anfang Binomial"
+  - %1
+  - "aus"
+  - %2
+  - "Ende Binomial"
+
+# 
+# %1: 
+# %2: 
+binomial-sbrief:
+  - "Binomial"
+  - %1
+  - "aus"
+  - %2
+  - "Ende Binomial"
+
+# 
+# %1: 
+# %2: 
+cases:
+  - "Anfang Fallunterscheidung"
+  - "große"
+  - %1
+  - %2 (context:"Zeile ")
+  - "Ende Fallunterscheidung"
+
+# 
+# %1: 
+# %2: 
+cases-brief:
+  - "Anfang Fälle"
+  - "große"
+  - %1
+  - %2 (context:"Zeile ")
+  - "Ende Fälle"
+
+# 
+# %1: 
+# %2: 
+cases-sbrief:
+  - "Fälle"
+  - "große"
+  - %1
+  - %2 (context:"Zeile ")
+  - "Ende Fälle"
+
+# 
+# %1: 
+# %2: 
+line-with-label:
+  - "mit Bezeichner"
+  - %1
+  - "Ende Bezeichner" (pause:200)
+  - %2
+
+# 
+# %1: 
+# %2: 
+line-with-label-brief:
+  - "Bezeichner"
+  - %1 (pause:200)
+  - %2
+
+# 
+# %1: 
+# %2: 
+line-with-text-label:
+  - "Bezeichner"
+  - %1
+  - %2
+
+# 
+empty-line:
+  - "leer"
+
+# 
+# %1: 
+empty-line-with-label:
+  - "mit Bezeichner"
+  - %1
+  - "Ende Bezeichner" (pause:200)
+  - "leer"
+
+# 
+# %1: 
+empty-line-with-label-brief:
+  - "Bezeichner"
+  - %1 (pause:200)
+  - "leer"
+
+# 
+# %1: 
+# %2: 
+enclose:
+  - "Anfang Umschließung"
+  - %1
+  - %2
+  - "Ende Umschließung"
+
+# 
+# %1: 
+leftbar:
+  - "senkrechter Strich"
+  - %1
+
+# 
+# %1: 
+rightbar:
+  - %1
+  - "senkrechter Strich"
+
+# 
+# %1: 
+crossout:
+  - "durchgestrichen"
+  - %1
+  - "Ende duchgestrichen"
+
+# 
+# %1: 
+# %2: 
+cancel:
+  - "durchgestrichen"
+  - %1
+  - "mit"
+  - %2
+  - "Ende duchgestrichen"
+
+# 
+# %1: 
+# %2: 
+cancel-reverse:
+  - "durchgestrichen"
+  - %1
+  - "mit"
+  - %2
+  - "Ende duchgestrichen"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+multi-inference:
+  - "Schlussregel"
+  - %1
+  - "mit Folgerung"
+  - %2
+  - "aus"
+  - %3
+  - "Prämissen"
+
+# 
+# %1: 
+# %2: 
+# %3: 
+inference:
+  - "Schlussregel"
+  - %1
+  - "mit Folgerung"
+  - %2
+  - "aus"
+  - %3
+  - "Prämisse"
+
+# 
+# %1: 
+premise:
+  - %1 (context:"Prämisse ")
+
+# 
+# %1: 
+conclusion:
+  - %1
+
+# 
+# %1: 
+label:
+  - "Regel"
+  - %1
+
+# 
+# %1: 
+axiom:
+  - "Axiom"
+  - %1
+
+# 
+empty-axiom:
+  - "leeres Axiom"

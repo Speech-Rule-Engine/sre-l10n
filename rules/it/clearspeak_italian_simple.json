@@ -1,0 +1,988 @@
+{
+  "collapsed": [
+    "%1"
+  ],
+  "font": [
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "font-identifier": [
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "ellipsis": [
+    "\"e così via\""
+  ],
+  "ellipsis-andsoon": [
+    "\"e così via fino a\""
+  ],
+  "vbar-evaluated": [
+    "%1 (pause:short)",
+    "\"valutato a\"",
+    "%2 (pause:short)"
+  ],
+  "vbar-evaluated-both": [
+    "%1 (pause:short)",
+    "\"valutato a\"",
+    "%2 (pause:short)",
+    "\"meno la stessa espressione valutata a\"",
+    "%3 (pause:short)"
+  ],
+  "vbar-such-that": [
+    "\"tale che\""
+  ],
+  "vbar-divides": [
+    "\"divide\""
+  ],
+  "vbar-always-divides": [
+    "\"divide\""
+  ],
+  "vbar-given": [
+    "\"dato\""
+  ],
+  "set-member": [
+    "\"in\""
+  ],
+  "set-member-member": [
+    "\"membro di\""
+  ],
+  "set-member-element": [
+    "\"elemento di\""
+  ],
+  "set-member-belongs": [
+    "\"appartenente a\""
+  ],
+  "set-not-member": [
+    "\"non in\""
+  ],
+  "set-not-member-member": [
+    "\"non membro di\""
+  ],
+  "set-not-member-element": [
+    "\"non elemento di\""
+  ],
+  "set-not-member-belongs": [
+    "\"non appartiene a \""
+  ],
+  "appl": [
+    "%1",
+    "\"di\"",
+    "%2 (pause:short)"
+  ],
+  "appl-simple": [
+    "%1",
+    "\"di\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "appl-simple-fenced": [
+    "%1",
+    "\"di\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "appl-times": [
+    "%1",
+    "\"per\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix": [
+    "%1",
+    "\"di\"",
+    "%2"
+  ],
+  "function-prefix-det": [
+    "%1",
+    "\"della\"",
+    "%2"
+  ],
+  "function-prefix-simple-arg": [
+    "%1",
+    "\"di\"",
+    "%2"
+  ],
+  "function-prefix-embell": [
+    "%1",
+    "\"di\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-fenced-or-frac-arg": [
+    "%1",
+    "\"di\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-subscript": [
+    "%1",
+    "\"di\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "function-ln": [
+    "%1",
+    "\"di\"",
+    "%2"
+  ],
+  "function-ln-pause": [
+    "%1",
+    "\"di\"",
+    "%2 (pause:short)"
+  ],
+  "function-ln-of": [
+    "%1",
+    "\"di\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-as-exp": [
+    "%1",
+    "\"di\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-subscript-as-exp": [
+    "%1",
+    "\"di\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-hyper": [
+    "%1",
+    "\"di\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-inverse": [
+    "\"inverso del\"",
+    "%1",
+    "\"di\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-reciprocal": [
+    "\"il reciproco del\"",
+    "%1 (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-reciprocal-simple": [
+    "\"il reciproco del\"",
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "appl-triginverse": [
+    "%1",
+    "\"di\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-arc-simple": [
+    "\"arco\"",
+    "%1",
+    "\"di\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-arc-simple-fenced": [
+    "\"arco\"",
+    "%1",
+    "\"di\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-arc": [
+    "\"arco\"",
+    "%1",
+    "\"di\"",
+    "%2 (pause:short)"
+  ],
+  "function-inverse": [
+    "%1",
+    "\"inversa\""
+  ],
+  "superscript-prefix-function": [
+    "\"potenza\"",
+    "%1",
+    "\"di\"",
+    "%2"
+  ],
+  "function-reciprocal": [
+    "\"riciproco di\"",
+    "%1"
+  ],
+  "superscript": [
+    "%1",
+    "\"elevato all'esponente\" (pause:short)",
+    "%2 (pause:short)",
+    "\"fine esponente\" (pause:short)"
+  ],
+  "superscript-simple-exponent": [
+    "%1",
+    "\"elevato alla\"",
+    "%2 (pause:medium)"
+  ],
+  "superscript-simple-exponent-end": [
+    "%1",
+    "\"elevato alla\"",
+    "%2 (pause:medium)"
+  ],
+  "superscript-ordinal": [
+    "%1",
+    "\"alla\"",
+    "%2",
+    "\"potenza\" (pause:short)"
+  ],
+  "superscript-non-ordinal": [
+    "%1",
+    "\"alla\"",
+    "%2 (pause:short)"
+  ],
+  "superscript-simple-function": [
+    "%1"
+  ],
+  "superscript-ordinal-number": [
+    "%1",
+    "\"alla\"",
+    "%2 (pause:short)"
+  ],
+  "superscript-ordinal-negative": [
+    "%1",
+    "\"alla\"",
+    "%2 (pause:short)"
+  ],
+  "superscript-ordinal-default": [
+    "%1",
+    "\"elevato all'esponente\" (pause:short)",
+    "%2 (pause:short)",
+    "\"fine esponente\" (pause:short)"
+  ],
+  "superscript-ordinal-power-number": [
+    "%1",
+    "\"alla\"",
+    "%2",
+    "\"potenza\" (pause:short)"
+  ],
+  "superscript-ordinal-power-negative": [
+    "%1",
+    "\"alla\"",
+    "%2 (pause:short)"
+  ],
+  "superscript-ordinal-power-identifier": [
+    "%1",
+    "\"alla\"",
+    "%2",
+    "\"potenza\" (pause:short)"
+  ],
+  "superscript-ordinal-power-default": [
+    "%1",
+    "\"elevato all'esponente\" (pause:short)",
+    "%2 (pause:short)",
+    "\"fine esponente\" (pause:short)"
+  ],
+  "superscript-power": [
+    "%1",
+    "\"elevato all'esponente\"",
+    "%2 (pause:short)"
+  ],
+  "superscript-power-default": [
+    "%1",
+    "\"elevato all'esponente\" (pause:short)",
+    "%2 (pause:short)",
+    "\"fine esponente\" (pause:short)"
+  ],
+  "exponent": [
+    "%1 (join:\"-\")",
+    "\"esima\""
+  ],
+  "exponent-number": [
+    "%1"
+  ],
+  "exponent-ordinal": [
+    "%1"
+  ],
+  "exponent-ordinal-zero": [
+    "\"zero\""
+  ],
+  "exponent-ordinalpower": [
+    "%1"
+  ],
+  "exponent-ordinalpower-zero": [
+    "\"zero\""
+  ],
+  "squared-masculine": [
+    "\"quadrato\""
+  ],
+  "squared-feminine": [
+    "\"quadrata\""
+  ],
+  "square": [
+    "%1",
+    "%2"
+  ],
+  "cube": [
+    "%1",
+    "\"cubo\""
+  ],
+  "fences-points": [
+    "\"punto con coordinate\"",
+    "%1"
+  ],
+  "fences-interval": [
+    "\"l'intervallo da\"",
+    "%1",
+    "\"a\"",
+    "%2 (pause:short)",
+    "%3"
+  ],
+  "interval-open": [
+    "\"che non include\"",
+    "%1",
+    "\"o\"",
+    "%2"
+  ],
+  "interval-closed-open": [
+    "\"che include\"",
+    "%1 (pause:short)",
+    "\"ma che non include\"",
+    "%2"
+  ],
+  "interval-open-closed": [
+    "\"che non include\"",
+    "%1 (pause:short)",
+    "\"ma che comprende\"",
+    "%2"
+  ],
+  "interval-closed": [
+    "\"che include\"",
+    "%1",
+    "\"e\"",
+    "%2"
+  ],
+  "interval-open-inf-r": [
+    "\"che non include\"",
+    "%1"
+  ],
+  "interval-open-inf-l": [
+    "\"che non include\"",
+    "%1"
+  ],
+  "interval-closed-open-inf": [
+    "\"che include\"",
+    "%1"
+  ],
+  "interval-open-closed-inf": [
+    "\"che include\"",
+    "%1"
+  ],
+  "set-empty": [
+    "\"l'insieme vuoto\""
+  ],
+  "set-extended": [
+    "\"l'insieme di tutti\"",
+    "%1",
+    "\"tale che\"",
+    "%2"
+  ],
+  "set-collection": [
+    "\"l'insieme\"",
+    "%1"
+  ],
+  "set-extended-woall": [
+    "\"l'insieme di\"",
+    "%1",
+    "\"tale che\"",
+    "%2"
+  ],
+  "subscript": [
+    "%1",
+    "\"pedice\"",
+    "%2 (pause:short)"
+  ],
+  "logarithm-base": [
+    "%1",
+    "\"base\"",
+    "%2"
+  ],
+  "subscript-index": [
+    "%1",
+    "\"pedice\"",
+    "%2"
+  ],
+  "fraction": [
+    "\"frazione con numeratore\"",
+    "%1 (pause:short)",
+    "\"e denominatore\"",
+    "%2 (pause:short)"
+  ],
+  "fraction-none": [
+    "\"frazione con numeratore\"",
+    "%1 (pause:short)",
+    "\"e denominatore\"",
+    "%2 (pause:short)"
+  ],
+  "simple-fraction": [
+    "%1",
+    "\"fratto\"",
+    "%2 (pause:short)"
+  ],
+  "simple-vulgar-fraction": [
+    "%1",
+    "\"fratto\"",
+    "%2 (pause:short)"
+  ],
+  "simple-text-fraction": [
+    "%1",
+    "\"fratto\"",
+    "%2 (pause:short)"
+  ],
+  "vulgar-fraction": [
+    "%1 (grammar:gender=\"m\")"
+  ],
+  "fraction-over": [
+    "%1",
+    "\"fratto\"",
+    "%2 (pause:short)"
+  ],
+  "fraction-overendfrac": [
+    "%1",
+    "\"fratto\"",
+    "%2 (pause:short)",
+    "\"fine frazione\" (pause:short)"
+  ],
+  "fraction-fracover": [
+    "\"frazione\"",
+    "%1",
+    "\"fratto\"",
+    "%2 (pause:short)"
+  ],
+  "fraction-per": [
+    "%1",
+    "\"per\"",
+    "%2 (pause:short)"
+  ],
+  "fraction-generalendfrac": [
+    "\"frazione con numeratore\"",
+    "%1 (pause:short)",
+    "\"e denominatore\"",
+    "%2 (pause:short)",
+    "\"fine frazione\" (pause:short)"
+  ],
+  "fraction-general": [
+    "\"frazione con numeratore\"",
+    "%1 (pause:short)",
+    "\"e denominatore\"",
+    "%2 (pause:short)"
+  ],
+  "simple-vulgar-fraction-ordinal": [
+    "%1 (grammar:gender=\"m\")"
+  ],
+  "fraction-endfrac": [
+    "%1",
+    "\"fine frazione\" (pause:short)"
+  ],
+  "vulgar-fraction-endfrac": [
+    "%1",
+    "\"fratto\"",
+    "%2 (pause:short)"
+  ],
+  "simple-vulgar-fraction-endfrac": [
+    "%1 (grammar:gender=\"m\")"
+  ],
+  "sqrt": [
+    "\"radice quadrata di\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-nested": [
+    "\"radice quadrata di\"",
+    "%1 (pause:short)"
+  ],
+  "negative-sqrt": [
+    "\"meno radice quadrata di\"",
+    "%1 (pause:short)"
+  ],
+  "negative-sqrt-default": [
+    "\"meno radice quadrata di\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-plus-minus": [
+    "\"più radice quadrata di\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-nested-plus-minus": [
+    "\"più radice quadrata di\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-plus-minus-posnegsqrootend": [
+    "\"più radice quadrata di\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-nested-plus-minus-posnegsqrootend": [
+    "\"più radice quadrata di\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-endroot": [
+    "%1",
+    "\"fine radice\" (pause:short)"
+  ],
+  "negative-sqrt-endroot": [
+    "%1",
+    "\"fine radice\" (pause:short)"
+  ],
+  "sqrt-posnegsqrootend": [
+    "%1",
+    "\"fine radice\" (pause:short)"
+  ],
+  "negative-sqrt-posnegsqrootend": [
+    "%1",
+    "\"fine radice\" (pause:short)"
+  ],
+  "cubic": [
+    "\"radice cubica di\"",
+    "%1 (pause:short)"
+  ],
+  "cubic-nested": [
+    "\"radice cubica di\"",
+    "%1 (pause:short)"
+  ],
+  "root": [
+    "\"radice\"",
+    "%1 (grammar:gender=\"f\")",
+    "\"di\"",
+    "%2 (pause:short)"
+  ],
+  "root-nested": [
+    "\"radice\"",
+    "%1 (grammar:gender=\"f\")",
+    "\"di\"",
+    "%2 (pause:short)"
+  ],
+  "root-endroot": [
+    "%1",
+    "\"fine radice\" (pause:short)"
+  ],
+  "root-posnegsqrootend": [
+    "%1",
+    "\"fine radice\" (pause:short)"
+  ],
+  "negative": [
+    "\"meno\"",
+    "%1"
+  ],
+  "positive": [
+    "\"più\"",
+    "%1"
+  ],
+  "angle-measure": [
+    "\"misura di\"",
+    "%1",
+    "%2"
+  ],
+  "set-prefix-operators": [
+    "\"il\"",
+    "%1",
+    "\"di\""
+  ],
+  "division": [
+    "%1",
+    "\"diviso per\"",
+    "%2"
+  ],
+  "operators-after-power": [
+    "%1"
+  ],
+  "natural-numbers": [
+    "\"i numeri naturali\""
+  ],
+  "integers": [
+    "\"gli interi\""
+  ],
+  "rational-numbers": [
+    "\"i numeri razionali\""
+  ],
+  "real-numbers": [
+    "\"i numeri reali\""
+  ],
+  "complex-numbers": [
+    "\"i numeri complessi\""
+  ],
+  "natural-numbers-with-zero": [
+    "\"i numeri naturali con lo zero\""
+  ],
+  "positive-integers": [
+    "\"gli interi positivi\""
+  ],
+  "negative-integers": [
+    "\"gli interi negativi\""
+  ],
+  "positive-rational-numbers": [
+    "\"i numeri razionali positivi\""
+  ],
+  "negative-rational-numbers": [
+    "\"i numeri razionali negativi\""
+  ],
+  "fences-neutral": [
+    "\"valore assoluto di\"",
+    "%1 (pause:short)"
+  ],
+  "fences-neutral-absend": [
+    "\"valore assoluto di\"",
+    "%1 (pause:short)",
+    "\"fine valore assoluto\" (pause:short)"
+  ],
+  "fences-neutral-cardinality": [
+    "\"cardinalità di\"",
+    "%1 (pause:short)"
+  ],
+  "fences-neutral-determinant": [
+    "\"determinante della\"",
+    "%1 (pause:short)"
+  ],
+  "matrix": [
+    "\"matrice\"",
+    "%1",
+    "\"per\"",
+    "%2 (pause:long)",
+    "%3 (context:\"Riga-:\", pause:long)"
+  ],
+  "matrix-simple": [
+    "\"matrice\"",
+    "%1",
+    "\"per\"",
+    "%2 (pause:long)",
+    "%3 (context:\"Riga-:\", pause:long)"
+  ],
+  "matrix-trivial": [
+    "\"matrice 1 per 1 con valore\"",
+    "%1 (pause:long)"
+  ],
+  "determinant": [
+    "\"determinante della matrice\"",
+    "%1",
+    "\"per\"",
+    "%2 (pause:long)",
+    "%3 (context:\"Riga-:\", pause:long)"
+  ],
+  "determinant-simple": [
+    "\"determinante della matrice\"",
+    "%1",
+    "\"per\"",
+    "%2 (pause:long)",
+    "%3 (context:\"Riga-:\", pause:long)"
+  ],
+  "matrix-vector": [
+    "\"matrice colonna\"",
+    "%1",
+    "\"per\"",
+    "%2 (pause:long)",
+    "%3 (context:\"Riga-:\", pause:long)"
+  ],
+  "matrix-vector-simple": [
+    "\"matrice colonna\"",
+    "%1",
+    "\"per\"",
+    "%2 (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "matrix-vector-simple-silentcolnum": [
+    "\"matrice colonna\"",
+    "%1",
+    "\"per\"",
+    "%2 (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "matrix-row-vector": [
+    "\"matrice riga\"",
+    "%1",
+    "\"per\"",
+    "%2 (pause:long)",
+    "%3 (context:\"Colonna-:\", pause:long)"
+  ],
+  "matrix-row-vector-simple": [
+    "\"matrice riga\"",
+    "%1",
+    "\"per\"",
+    "%2 (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "matrix-row-vector-simple-silentcolnum": [
+    "\"matrice riga\"",
+    "%1",
+    "\"per\"",
+    "%2 (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "matrix-row": [
+    "%1 (context:\"Colonna-,- \", pause:long)"
+  ],
+  "matrix-end-matrix": [
+    "%1",
+    "\"fine matrice\""
+  ],
+  "matrix-end-vector": [
+    "%1",
+    "\"fine matrice\""
+  ],
+  "matrix-end-determinant": [
+    "%1",
+    "\"fine determinante\""
+  ],
+  "vector": [
+    "\"vettore colonna\"",
+    "%1",
+    "\"per\"",
+    "%2 (pause:long)",
+    "%3 (context:\"Riga-:\", pause:long)"
+  ],
+  "vector-simple": [
+    "\"vettore colonna\"",
+    "%1",
+    "\"per\"",
+    "%2 (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "row-vector": [
+    "\"vettore riga\"",
+    "%1",
+    "\"per\"",
+    "%2 (pause:long)",
+    "%3 (context:\"Colonna-:\", pause:long)"
+  ],
+  "row-vector-simple": [
+    "\"vettore riga\"",
+    "%1",
+    "\"per\"",
+    "%2 (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "vector-end-matrix": [
+    "%1",
+    "\"fine matrice\""
+  ],
+  "vector-end-vector": [
+    "%1",
+    "\"fine vettore\""
+  ],
+  "vector-end-vector-endvector": [
+    "%1",
+    "\"fine vettore\""
+  ],
+  "vector-end-determinant": [
+    "%1",
+    "\"fine determinante\""
+  ],
+  "binomial": [
+    "\"coefficiente binomiale\"",
+    "%1",
+    "\"su\"",
+    "%2"
+  ],
+  "lines-summary": [
+    "%1",
+    "\"linee\"",
+    "%2"
+  ],
+  "cases-summary": [
+    "%1",
+    "\"casi\"",
+    "%2"
+  ],
+  "lines": [
+    "%1 (context:\"Riga-:\", pause:long)"
+  ],
+  "blank-cell": [
+    "\"vuoto\""
+  ],
+  "blank-line": [
+    "\"vuota\""
+  ],
+  "blank-cell-empty": [
+    "\"vuota\""
+  ],
+  "blank-line-empty": [
+    "\"vuota\""
+  ],
+  "cases": [
+    "%1 (context:\"Caso-:\", pause:long)"
+  ],
+  "lines-cases-summary": [
+    "%1",
+    "\"caso\"",
+    "%2"
+  ],
+  "lines-cases": [
+    "%1 (context:\"Caso-:\", pause:long)"
+  ],
+  "lines-equations-summary": [
+    "%1",
+    "\"equazioni\"",
+    "%2"
+  ],
+  "lines-equations": [
+    "%1 (context:\"Equazioni-:\", pause:long)"
+  ],
+  "lines-steps-summary": [
+    "%1",
+    "\"passi\"",
+    "%2"
+  ],
+  "lines-steps": [
+    "%1 (context:\"Passo-:\", pause:long)"
+  ],
+  "lines-rows-summary": [
+    "%1",
+    "\"riga\"",
+    "%2"
+  ],
+  "lines-rows": [
+    "%1 (context:\"Riga-:\", pause:long)"
+  ],
+  "lines-constraints-summary": [
+    "%1",
+    "\"vincoli\"",
+    "%2"
+  ],
+  "lines-constraints": [
+    "%1 (context:\"Vincoli-:\", pause:long)"
+  ],
+  "bigop": [
+    "\"il\"",
+    "%1",
+    "\"di\"",
+    "%2 (pause:short)"
+  ],
+  "limboth": [
+    "%1",
+    "\"da\"",
+    "%2",
+    "\"a\"",
+    "%3"
+  ],
+  "limlower": [
+    "%1",
+    "\"sopra\"",
+    "%2 (pause:short)"
+  ],
+  "limupper": [
+    "%1",
+    "\"sotto\"",
+    "%2 (pause:short)"
+  ],
+  "integral": [
+    "\"il\"",
+    "%1",
+    "\"di\"",
+    "%2 (pause:short)"
+  ],
+  "overscript": [
+    "%1",
+    "\"sotto\"",
+    "%2 (pause:short)"
+  ],
+  "overscript-limits": [
+    "%1",
+    "\"a\"",
+    "%2"
+  ],
+  "underscript": [
+    "%1",
+    "\"sopra\"",
+    "%2 (pause:short)"
+  ],
+  "underscript-limits": [
+    "%1",
+    "\"da\"",
+    "%2"
+  ],
+  "mixed-number": [
+    "%1",
+    "\"e\"",
+    "%2"
+  ],
+  "number-with-chars": [
+    "\"numero\"",
+    "%1"
+  ],
+  "decimal-period": [
+    "\"decimale periodico\"",
+    "%1",
+    "\"virgola\"",
+    "%2",
+    "\"periodico\""
+  ],
+  "decimal-period-float": [
+    "\"decimale periodico\"",
+    "%1",
+    "\"seguito da\"",
+    "%2",
+    "\"periodico\""
+  ],
+  "decimal-point": [
+    "\"punto\""
+  ],
+  "line-segment": [
+    "\"linea segmento\"",
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "conjugate": [
+    "\"coniugato complesso di\"",
+    "%1"
+  ],
+  "defined-by": [
+    "\"è definito essere\" (pause:short)"
+  ],
+  "adorned-sign": [
+    "\"segno\"",
+    "%1",
+    "\"con\"",
+    "%2",
+    "\"sopra esso\""
+  ],
+  "factorial": [
+    "\"fattoriale\""
+  ],
+  "left-super": [
+    "\"sub sinistro\"",
+    "%1"
+  ],
+  "left-super-list": [
+    "\"sub sinistro\"",
+    "%1"
+  ],
+  "left-sub": [
+    "\"sub sotto\"",
+    "%1"
+  ],
+  "left-sub-list": [
+    "\"sub sotto\"",
+    "%1"
+  ],
+  "right-super": [
+    "\"sub sopra\"",
+    "%1"
+  ],
+  "right-super-list": [
+    "\"sub sopra\"",
+    "%1"
+  ],
+  "right-sub": [
+    "\"sub destro\"",
+    "%1"
+  ],
+  "right-sub-list": [
+    "\"sub destro\"",
+    "%1"
+  ],
+  "choose": [
+    "\"combinazione di\"",
+    "%1",
+    "\"per\"",
+    "%2"
+  ],
+  "permute": [
+    "\"permutazione di\"",
+    "%1",
+    "\"per\"",
+    "%2"
+  ],
+  "unit-square": [
+    "%1",
+    "\"quadrato\""
+  ],
+  "unit-cubic": [
+    "%1",
+    "\"cubico\""
+  ],
+  "unit-divide": [
+    "%1",
+    "\"al\"",
+    "%2 (grammar:singular)"
+  ]
+}

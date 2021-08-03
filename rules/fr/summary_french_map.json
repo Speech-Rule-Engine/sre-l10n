@@ -1,0 +1,808 @@
+{
+  "collapsed-masculine": {},
+  "collapsed-feminine": {},
+  "abstr-identifier-long": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-identifier": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-number-long": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-number": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-mixed-number-long": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-mixed-number": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-text": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-function": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-function-brief": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-lim": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-lim-brief": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-fraction": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-fraction-brief": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-continued-fraction": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-continued-fraction-brief": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-sqrt": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-sqrt-nested": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-root-end": {
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "attributes": {
+        "engine": "modality=speech"
+      }
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-root": {
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "attributes": {
+        "engine": "modality=speech"
+      }
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-root-brief": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-root-nested-end": {
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "attributes": {
+        "engine": "modality=speech"
+      }
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-root-nested": {
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "attributes": {
+        "engine": "modality=speech"
+      }
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-root-nested-brief": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-superscript": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-subscript": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-subsup": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-infixop": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "%3": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-infixop-var": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-infixop-brief": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-addition": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-addition-brief": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-addition-var": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-multiplication": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-multiplication-brief": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-multiplication-var": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-vector": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-vector-brief": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-vector-var": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-binomial": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-determinant": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-determinant-brief": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-determinant-var": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-squarematrix": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-squarematrix-brief": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-rowvector": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/row/children/*)"
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-rowvector-brief": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-rowvector-var": {},
+  "abstr-matrix": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(children/*)"
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(children/*[1]/children/*)"
+    },
+    "%3": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-matrix-brief": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-matrix-var": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-cases": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(children/*)"
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-cases-brief": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-cases-var": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-punctuated": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(children/*) - count(content/*)"
+    },
+    "%2": {
+      "type": "NODE",
+      "content": "content/*[1]",
+      "attributes": {
+        "join": "\"\""
+      }
+    },
+    "%3": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-punctuated-brief": {
+    "%1": {
+      "type": "NODE",
+      "content": "content/*[1]",
+      "attributes": {
+        "join": "\"\""
+      }
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-punctuated-var": {
+    "%1": {
+      "type": "NODE",
+      "content": "content/*[1]",
+      "attributes": {
+        "join": "\"\""
+      }
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-bigop": {
+    "%1": {
+      "type": "NODE",
+      "content": "content/*[1]"
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-integral": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-relation": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-relation-seq": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "%3": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-relation-seq-brief": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-relation-var": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-multirel": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-multirel-brief": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-multirel-var": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-table": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(children/*)"
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(children/*[1]/children/*)"
+    },
+    "%3": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-line": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    }
+  },
+  "abstr-row": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(preceding-sibling::..)"
+    },
+    "%3": {
+      "type": "TEXT",
+      "content": "count(children/*)"
+    },
+    "%4": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  },
+  "abstr-cell": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "%2": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    }
+  }
+}
