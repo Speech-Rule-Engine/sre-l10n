@@ -7,11 +7,11 @@ collapsed:
 
 # 
 blank-cell-empty:
-  - "vide"
+  - $1: "vide"
 
 # 
 blank-line-empty:
-  - "vide"
+  - $1: "vide"
 
 # 
 # %1: 
@@ -39,38 +39,38 @@ font-identifier:
 # %2: 
 mixed-number:
   - %1
-  - "et"
+  - $1: "et"
   - %2
 
 # 
 # %1: 
 number-with-chars:
-  - "nombre"
+  - $1: "nombre"
   - %1
 
 # 
 # %1: 
 number-as-upper-word:
-  - "MotMajuscule"
+  - $1: "MotMajuscule"
   - %1
 
 # 
 # %1: 
 number-baseline:
-  - "position de base"
+  - $1: "position de base"
   - %1
 
 # 
 # %1: 
 number-baseline-brief:
-  - "base"
+  - $1: "base"
   - %1
 
 # 
 # %1: 
 # %2: 
 number-baseline-font:
-  - "position de base"
+  - $1: "position de base"
   - %1
   - %2
 
@@ -78,20 +78,20 @@ number-baseline-font:
 # %1: 
 # %2: 
 number-baseline-font-brief:
-  - "base"
+  - $1: "base"
   - %1
   - %2
 
 # 
 # %1: 
 negative-number:
-  - "négatif"
+  - $1: "négatif"
   - %1
 
 # 
 # %1: 
 negative:
-  - "négatif"
+  - $1: "négatif"
   - %1
 
 # 
@@ -99,7 +99,7 @@ negative:
 # %2: 
 division:
   - %1
-  - "divisé par"
+  - $1: "divisé par"
   - %2
 
 # 
@@ -110,16 +110,16 @@ subtraction:
 # 
 # %1: 
 fences-neutral:
-  - "début valeur absolue"
+  - $1: "début valeur absolue"
   - %1
-  - "fin valeur absolue"
+  - $2: "fin valeur absolue"
 
 # 
 # %1: 
 fences-neutral-sbrief:
-  - "valeur absolue"
+  - $1: "valeur absolue"
   - %1
-  - "fin valeur absolue"
+  - $2: "fin valeur absolue"
 
 # 
 # %1: 
@@ -132,73 +132,73 @@ fences-metric:
 
 # 
 empty-set:
-  - "ensemble vide"
+  - $1: "ensemble vide"
 
 # 
 # %1: 
 fences-set:
-  - "début ensemble"
+  - $1: "début ensemble"
   - %1
-  - "fin ensemble"
+  - $2: "fin ensemble"
 
 # 
 # %1: 
 fences-set-sbrief:
-  - "ensemble"
+  - $1: "ensemble"
   - %1
-  - "fin ensemble"
+  - $2: "fin ensemble"
 
 # 
 factorial:
-  - "factorielle"
+  - $1: "factorielle"
 
 # 
 minus:
-  - "moins"
+  - $1: "moins"
 
 # 
 # %1: 
 # %2: 
 continued-fraction-outer:
-  - "fraction continue"
+  - $1: "fraction continue"
   - %1
-  - "sur"
+  - $2: "sur"
   - %2
 
 # 
 # %1: 
 # %2: 
 continued-fraction-outer-brief:
-  - "frac continue"
+  - $1: "frac continue"
   - %1
-  - "sur"
+  - $2: "sur"
   - %2
 
 # 
 # %1: 
 # %2: 
 continued-fraction-inner:
-  - "début fraction"
+  - $1: "début fraction"
   - %1
-  - "sur"
+  - $2: "sur"
   - %2
 
 # 
 # %1: 
 # %2: 
 continued-fraction-inner-brief:
-  - "début frac"
+  - $1: "début frac"
   - %1
-  - "sur"
+  - $2: "sur"
   - %2
 
 # 
 # %1: 
 # %2: 
 continued-fraction-inner-sbrief:
-  - "frac"
+  - $1: "frac"
   - %1
-  - "sur"
+  - $2: "sur"
   - %2
 
 # 
@@ -209,10 +209,10 @@ continued-fraction-inner-sbrief:
 # %5: 
 limboth:
   - %1
-  - "début"
+  - $1: "début"
   - %2
   - %3
-  - "début"
+  - $2: "début"
   - %4
   - %5
 
@@ -222,7 +222,7 @@ limboth:
 # %3: 
 limlower:
   - %1
-  - "début"
+  - $1: "début"
   - %2
   - %3
 
@@ -232,7 +232,7 @@ limlower:
 # %3: 
 limupper:
   - %1
-  - "début"
+  - $1: "début"
   - %2
   - %3
 
@@ -244,13 +244,13 @@ limupper:
 # %5: 
 limboth-end:
   - %1
-  - "début"
+  - $1: "début"
   - %2
   - %3
-  - "début"
+  - $2: "début"
   - %4
   - %5
-  - "fin scripts"
+  - $3: "fin scripts"
 
 # 
 # %1: 
@@ -258,10 +258,10 @@ limboth-end:
 # %3: 
 limlower-end:
   - %1
-  - "début"
+  - $1: "début"
   - %2
   - %3
-  - "fin scripts"
+  - $2: "fin scripts"
 
 # 
 # %1: 
@@ -269,10 +269,10 @@ limlower-end:
 # %3: 
 limupper-end:
   - %1
-  - "début"
+  - $1: "début"
   - %2
   - %3
-  - "fin scripts"
+  - $2: "fin scripts"
 
 # 
 # %1: 
@@ -280,11 +280,11 @@ limupper-end:
 # %3: 
 integral:
   - %1
-  - "indice inférieur"
+  - $1: "indice inférieur"
   - %2
-  - "indice supérieur"
+  - $2: "indice supérieur"
   - %3
-  - "position de base"
+  - $3: "position de base"
 
 # 
 # %1: 
@@ -292,31 +292,31 @@ integral:
 # %3: 
 integral-brief:
   - %1
-  - "inf"
+  - $1: "inf"
   - %2
-  - "sup"
+  - $2: "sup"
   - %3
-  - "position de base"
+  - $3: "position de base"
 
 # 
 # %1: 
 # %2: 
 logarithm-base:
   - %1
-  - "base"
+  - $1: "base"
   - %2
 
 # 
 # %1: 
 square:
   - %1
-  - "au carré"
+  - $1: "au carré"
 
 # 
 # %1: 
 cube:
   - %1
-  - "cubique"
+  - $1: "cubique"
 
 # 
 # %1: 
@@ -327,62 +327,62 @@ prime:
 
 # 
 double-prime:
-  - "double prime"
+  - $1: "double prime"
 
 # 
 triple-prime:
-  - "triple prime"
+  - $1: "triple prime"
 
 # 
 quadruple-prime:
-  - "quadruple prime"
+  - $1: "quadruple prime"
 
 # 
 # %1: 
 counted-prime:
   - %1
-  - "prime"
+  - $1: "prime"
 
 # 
 # %1: 
 counted-prime-multichar:
   - %1
-  - "prime"
+  - $1: "prime"
 
 # 
 # %1: 
 # %2: 
 overscore:
-  - "suscrire"
+  - $1: "suscrire"
   - %1
-  - "avec"
+  - $2: "avec"
   - %2
 
 # 
 # %1: 
 # %2: 
 double-overscore:
-  - "sus-suscrire"
+  - $1: "sus-suscrire"
   - %1
-  - "avec"
+  - $2: "avec"
   - %2
 
 # 
 # %1: 
 # %2: 
 underscore:
-  - "souscrire"
+  - $1: "souscrire"
   - %1
-  - "avec"
+  - $2: "avec"
   - %2
 
 # 
 # %1: 
 # %2: 
 double-underscore:
-  - "sous-souscrire"
+  - $1: "sous-souscrire"
   - %1
-  - "avec"
+  - $2: "avec"
   - %2
 
 # 
@@ -390,24 +390,24 @@ double-underscore:
 # %2: 
 # %3: 
 matrix:
-  - "début matrice"
+  - $1: "début matrice"
   - %1
-  - "par"
+  - $2: "par"
   - %2
   - %3 (context:"rangée ")
-  - "fin matrice"
+  - $3: "fin matrice"
 
 # 
 # %1: 
 # %2: 
 # %3: 
 matrix-sbrief:
-  - "matrice"
+  - $1: "matrice"
   - %1
-  - "par"
+  - $2: "par"
   - %2
   - %3 (context:"rangée ")
-  - "fin matrice"
+  - $3: "fin matrice"
 
 # 
 # %1: 
@@ -418,16 +418,16 @@ matrix-row:
 # %1: 
 # %2: 
 row-with-label:
-  - "avec étiquette"
+  - $1: "avec étiquette"
   - %1
-  - "fin étiquette" (pause:200)
+  - $2: "fin étiquette" (pause:200)
   - %2 (context:"colonne")
 
 # 
 # %1: 
 # %2: 
 row-with-label-brief:
-  - "étiquette"
+  - $1: "étiquette"
   - %1
   - %2 (context:"colonne")
 
@@ -435,135 +435,135 @@ row-with-label-brief:
 # %1: 
 # %2: 
 row-with-text-label:
-  - "étiquette"
+  - $1: "étiquette"
   - %1
   - %2 (context:"colonne")
 
 # 
 empty-row:
-  - "vide"
+  - $1: "vide"
 
 # 
 empty-cell:
-  - "vide" (pause:300)
+  - $1: "vide" (pause:300)
 
 # 
 # %1: 
 # %2: 
 # %3: 
 determinant:
-  - "début déterminant"
+  - $1: "début déterminant"
   - %1
-  - "par"
+  - $2: "par"
   - %2
-  - ""
+  - $3: ""
   - %3 (context:"rangée ")
-  - "fin déterminant"
+  - $4: "fin déterminant"
 
 # 
 # %1: 
 # %2: 
 # %3: 
 determinant-sbrief:
-  - "déterminant"
+  - $1: "déterminant"
   - %1
-  - "par"
+  - $2: "par"
   - %2
   - %3 (context:"rangée ")
-  - "fin déterminant"
+  - $3: "fin déterminant"
 
 # 
 # %1: 
 # %2: 
 # %3: 
 determinant-simple:
-  - "début déterminant"
+  - $1: "début déterminant"
   - %1
-  - "par"
+  - $2: "par"
   - %2
   - %3 (context:"rangée")
-  - "fin déterminant"
+  - $3: "fin déterminant"
 
 # 
 # %1: 
 # %2: 
 # %3: 
 determinant-simple-sbrief:
-  - "déterminant"
+  - $1: "déterminant"
   - %1
-  - "par"
+  - $2: "par"
   - %2
   - %3 (context:"rangée")
-  - "fin déterminant"
+  - $3: "fin déterminant"
 
 # 
 # %1: 
 layout:
-  - "début tableau"
+  - $1: "début tableau"
   - %1 (context:"rangée ")
-  - "fin tableau"
+  - $2: "fin tableau"
 
 # 
 # %1: 
 layout-sbrief:
-  - "tableau"
+  - $1: "tableau"
   - %1 (context:"rangée ")
-  - "fin tableau"
+  - $2: "fin tableau"
 
 # 
 # %1: 
 # %2: 
 binomial:
-  - "début binomiale"
+  - $1: "début binomiale"
   - %1
-  - "parmi"
+  - $2: "parmi"
   - %2
-  - "fin binomiale"
+  - $3: "fin binomiale"
 
 # 
 # %1: 
 # %2: 
 binomial-sbrief:
-  - "binomiale"
+  - $1: "binomiale"
   - %1
-  - "parmi"
+  - $2: "parmi"
   - %2
-  - "fin binomiale"
+  - $3: "fin binomiale"
 
 # 
 # %1: 
 # %2: 
 cases:
-  - "début tableau"
+  - $1: "début tableau"
   - %1
-  - "élargie"
+  - $2: "élargie"
   - %2 (context:"rangée ")
-  - "fin tableau"
+  - $3: "fin tableau"
 
 # 
 # %1: 
 # %2: 
 cases-sbrief:
-  - "tableau"
+  - $1: "tableau"
   - %1
-  - "élargie"
+  - $2: "élargie"
   - %2 (context:"rangée ")
-  - "fin tableau"
+  - $3: "fin tableau"
 
 # 
 # %1: 
 # %2: 
 line-with-label:
-  - "avec etiquette"
+  - $1: "avec etiquette"
   - %1
-  - "fin etiquette" (pause:200)
+  - $2: "fin etiquette" (pause:200)
   - %2
 
 # 
 # %1: 
 # %2: 
 line-with-label-brief:
-  - "etiquette"
+  - $1: "etiquette"
   - %1 (pause:200)
   - %2
 
@@ -571,99 +571,99 @@ line-with-label-brief:
 # %1: 
 # %2: 
 line-with-text-label:
-  - "etiquette"
+  - $1: "etiquette"
   - %1
   - %2
 
 # 
 empty-line:
-  - "vide"
+  - $1: "vide"
 
 # 
 # %1: 
 empty-line-with-label:
-  - "avec etiquette"
+  - $1: "avec etiquette"
   - %1
-  - "fin etiquette" (pause:200)
-  - "vide"
+  - $2: "fin etiquette" (pause:200)
+  - $3: "vide"
 
 # 
 # %1: 
 empty-line-with-label-brief:
-  - "etiquette"
+  - $1: "etiquette"
   - %1 (pause:200)
-  - "vide"
+  - $2: "vide"
 
 # 
 # %1: 
 # %2: 
 enclose:
-  - "début enfermer en"
+  - $1: "début enfermer en"
   - %1
   - %2
-  - "fin enfermer"
+  - $2: "fin enfermer"
 
 # 
 # %1: 
 overbar-enclose:
-  - "début trait suscrit"
+  - $1: "début trait suscrit"
   - %1
-  - "fin trait suscrit"
+  - $2: "fin trait suscrit"
 
 # 
 # %1: 
 underbar-enclose:
-  - "début trait souscrit"
+  - $1: "début trait souscrit"
   - %1
-  - "fin trait souscrit"
+  - $2: "fin trait souscrit"
 
 # 
 # %1: 
 leftbar:
-  - "barre verticale"
+  - $1: "barre verticale"
   - %1
 
 # 
 # %1: 
 rightbar:
   - %1
-  - "barre verticale"
+  - $1: "barre verticale"
 
 # 
 # %1: 
 crossout:
-  - "début biffé"
+  - $1: "début biffé"
   - %1
-  - "fin biffé"
+  - $2: "fin biffé"
 
 # 
 # %1: 
 # %2: 
 cancel:
-  - "début biffé"
+  - $1: "début biffé"
   - %1
-  - "avec"
+  - $2: "avec"
   - %2
-  - "fin biffé"
+  - $3: "fin biffé"
 
 # 
 # %1: 
 # %2: 
 cancel-reverse:
-  - "début biffé"
+  - $1: "début biffé"
   - %1
-  - "avec"
+  - $2: "avec"
   - %2
-  - "fin biffé"
+  - $3: "fin biffé"
 
 # 
 # %1: 
 unit-square:
   - %1
-  - "carré"
+  - $1: "carré"
 
 # 
 # %1: 
 unit-cubic:
   - %1
-  - "cube"
+  - $1: "cube"

@@ -4,15 +4,15 @@
 # %1: 
 collapsed:
   - %1
-  - "plegado"
+  - $1: "plegado"
 
 # 
 blank-cell-empty:
-  - "espacio"
+  - $1: "espacio"
 
 # 
 blank-line-empty:
-  - "espacio"
+  - $1: "espacio"
 
 # 
 # %1: 
@@ -40,44 +40,44 @@ font-identifier:
 # %2: 
 mixed-number:
   - %1
-  - "más"
+  - $1: "más"
   - %2
 
 # 
 # %1: 
 number-with-chars:
-  - "número"
+  - $1: "número"
   - %1
 
 # 
 # %1: 
 number-with-chars-brief:
-  - "núm"
+  - $1: "núm"
   - %1
 
 # 
 # %1: 
 number-as-upper-word:
-  - "mayúscula"
+  - $1: "mayúscula"
   - %1
 
 # 
 # %1: 
 number-baseline:
-  - "línea base"
+  - $1: "línea base"
   - %1
 
 # 
 # %1: 
 number-baseline-brief:
-  - "base"
+  - $1: "base"
   - %1
 
 # 
 # %1: 
 # %2: 
 number-baseline-font:
-  - "línea base"
+  - $1: "línea base"
   - %1
   - %2
 
@@ -85,20 +85,20 @@ number-baseline-font:
 # %1: 
 # %2: 
 number-baseline-font-brief:
-  - "base"
+  - $1: "base"
   - %1
   - %2
 
 # 
 # %1: 
 negative-number:
-  - "menos"
+  - $1: "menos"
   - %1
 
 # 
 # %1: 
 negative:
-  - "menos"
+  - $1: "menos"
   - %1
 
 # 
@@ -106,7 +106,7 @@ negative:
 # %2: 
 division:
   - %1
-  - "dividido"
+  - $1: "dividido"
   - %2
 
 # 
@@ -117,16 +117,16 @@ subtraction:
 # 
 # %1: 
 fences-neutral:
-  - "empezar valor absoluto"
+  - $1: "empezar valor absoluto"
   - %1
-  - "finalizar valor absoluto"
+  - $2: "finalizar valor absoluto"
 
 # 
 # %1: 
 fences-neutral-sbrief:
-  - "valor absoluto"
+  - $1: "valor absoluto"
   - %1
-  - "finalizar valor absoluto"
+  - $2: "finalizar valor absoluto"
 
 # 
 # %1: 
@@ -139,21 +139,21 @@ fences-metric:
 
 # 
 empty-set:
-  - "conjunto vacío"
+  - $1: "conjunto vacío"
 
 # 
 # %1: 
 fences-set:
-  - "empezar llave"
+  - $1: "empezar llave"
   - %1
-  - "finalizar llave"
+  - $2: "finalizar llave"
 
 # 
 # %1: 
 fences-set-sbrief:
-  - "llave"
+  - $1: "llave"
   - %1
-  - "finalizar llave"
+  - $2: "finalizar llave"
 
 # 
 # %1: 
@@ -162,55 +162,55 @@ text:
 
 # 
 factorial:
-  - "factorial"
+  - $1: "factorial"
 
 # 
 minus:
-  - "menos"
+  - $1: "menos"
 
 # 
 # %1: 
 # %2: 
 continued-fraction-outer:
-  - "fracción continua"
+  - $1: "fracción continua"
   - %1
-  - "entre"
+  - $2: "entre"
   - %2
 
 # 
 # %1: 
 # %2: 
 continued-fraction-outer-brief:
-  - "frac continua"
+  - $1: "frac continua"
   - %1
-  - "entre"
+  - $2: "entre"
   - %2
 
 # 
 # %1: 
 # %2: 
 continued-fraction-inner:
-  - "empezar fracción"
+  - $1: "empezar fracción"
   - %1
-  - "entre"
+  - $2: "entre"
   - %2
 
 # 
 # %1: 
 # %2: 
 continued-fraction-inner-brief:
-  - "empezar frac"
+  - $1: "empezar frac"
   - %1
-  - "entre"
+  - $2: "entre"
   - %2
 
 # 
 # %1: 
 # %2: 
 continued-fraction-inner-sbrief:
-  - "frac"
+  - $1: "frac"
   - %1
-  - "entre"
+  - $2: "entre"
   - %2
 
 # 
@@ -256,7 +256,7 @@ limboth-end:
   - %3
   - %4
   - %5
-  - "finalizar índices"
+  - $1: "finalizar índices"
 
 # 
 # %1: 
@@ -266,7 +266,7 @@ limlower-end:
   - %1
   - %2
   - %3
-  - "finalizar índices"
+  - $1: "finalizar índices"
 
 # 
 # %1: 
@@ -276,7 +276,7 @@ limupper-end:
   - %1
   - %2
   - %3
-  - "finalizar índices"
+  - $1: "finalizar índices"
 
 # 
 # %1: 
@@ -284,12 +284,12 @@ limupper-end:
 # %3: 
 integral:
   - %1
-  - "definida"
-  - "subíndice"
+  - $1: "definida"
+  - $2: "subíndice"
   - %2
-  - "superíndice"
+  - $3: "superíndice"
   - %3
-  - "línea base"
+  - $4: "línea base"
 
 # 
 # %1: 
@@ -297,23 +297,23 @@ integral:
 # %3: 
 integral-brief:
   - %1
-  - "Sub"
+  - $1: "Sub"
   - %2
-  - "Sup"
+  - $2: "Sup"
   - %3
-  - "Base"
+  - $3: "Base"
 
 # 
 # %1: 
 square:
   - %1
-  - "al cuadrado"
+  - $1: "al cuadrado"
 
 # 
 # %1: 
 cube:
   - %1
-  - "al cubo"
+  - $1: "al cubo"
 
 # 
 # %1: 
@@ -324,147 +324,147 @@ prime:
 
 # 
 double-prime:
-  - "dos prima"
+  - $1: "dos prima"
 
 # 
 triple-prime:
-  - "tres prima"
+  - $1: "tres prima"
 
 # 
 quadruple-prime:
-  - "cuatro prima"
+  - $1: "cuatro prima"
 
 # 
 # %1: 
 counted-prime:
   - %1
-  - "prima"
+  - $1: "prima"
 
 # 
 # %1: 
 counted-prime-multichar:
   - %1
-  - "prima"
+  - $1: "prima"
 
 # 
 # %1: 
 # %2: 
 overscore:
-  - "modificando superior"
+  - $1: "modificando superior"
   - %1
-  - "con"
+  - $2: "con"
   - %2
 
 # 
 # %1: 
 # %2: 
 overscore-brief:
-  - "mod superior"
+  - $1: "mod superior"
   - %1
-  - "con"
+  - $2: "con"
   - %2
 
 # 
 # %1: 
 # %2: 
 double-overscore:
-  - "modificando superior superior"
+  - $1: "modificando superior superior"
   - %1
-  - "con"
+  - $2: "con"
   - %2
 
 # 
 # %1: 
 # %2: 
 double-overscore-brief:
-  - "mod superior superior"
+  - $1: "mod superior superior"
   - %1
-  - "con"
+  - $2: "con"
   - %2
 
 # 
 # %1: 
 # %2: 
 underscore:
-  - "modificando inferior"
+  - $1: "modificando inferior"
   - %1
-  - "con"
+  - $2: "con"
   - %2
 
 # 
 # %1: 
 # %2: 
 underscore-brief:
-  - "mod inferior"
+  - $1: "mod inferior"
   - %1
-  - "con"
+  - $2: "con"
   - %2
 
 # 
 # %1: 
 # %2: 
 double-underscore:
-  - "modificando inferior inferior"
+  - $1: "modificando inferior inferior"
   - %1
-  - "con"
+  - $2: "con"
   - %2
 
 # 
 # %1: 
 # %2: 
 double-underscore-brief:
-  - "mod inferior inferior"
+  - $1: "mod inferior inferior"
   - %1
-  - "con"
+  - $2: "con"
   - %2
 
 # 
 # %1: 
 overbar:
   - %1
-  - "barra"
+  - $1: "barra"
 
 # 
 # %1: 
 underbar:
   - %1
-  - "subbarra"
+  - $1: "subbarra"
 
 # 
 # %1: 
 overtilde:
   - %1
-  - "tilde"
+  - $1: "tilde"
 
 # 
 # %1: 
 undertilde:
   - %1
-  - "subtilde"
+  - $1: "subtilde"
 
 # 
 # %1: 
 # %2: 
 # %3: 
 matrix:
-  - "empezar matriz"
+  - $1: "empezar matriz"
   - %1
-  - "por"
+  - $2: "por"
   - %2
   - %3 (context:"fila ")
-  - "finalizar matriz"
+  - $3: "finalizar matriz"
 
 # 
 # %1: 
 # %2: 
 # %3: 
 matrix-sbrief:
-  - "matriz"
+  - $1: "matriz"
   - %1
-  - "por"
+  - $2: "por"
   - %2
   - %3 (context:" ")
-  - "finalizar matriz"
+  - $3: "finalizar matriz"
 
 # 
 # %1: 
@@ -475,16 +475,16 @@ matrix-row:
 # %1: 
 # %2: 
 row-with-label:
-  - "con etiqueta"
+  - $1: "con etiqueta"
   - %1
-  - "finalizar etiqueta" (pause:200)
+  - $2: "finalizar etiqueta" (pause:200)
   - %2 (context:"columna")
 
 # 
 # %1: 
 # %2: 
 row-with-label-brief:
-  - "etiqueta"
+  - $1: "etiqueta"
   - %1
   - %2 (context:"columna")
 
@@ -492,134 +492,134 @@ row-with-label-brief:
 # %1: 
 # %2: 
 row-with-text-label:
-  - "etiqueta"
+  - $1: "etiqueta"
   - %1
   - %2 (context:"columna")
 
 # 
 empty-row:
-  - "espacio"
+  - $1: "espacio"
 
 # 
 empty-cell:
-  - "espacio" (pause:300)
+  - $1: "espacio" (pause:300)
 
 # 
 # %1: 
 # %2: 
 # %3: 
 determinant:
-  - "empezar determinante"
+  - $1: "empezar determinante"
   - %1
-  - "por"
+  - $2: "por"
   - %2
   - %3 (context:"fila ")
-  - "finalizar determinante"
+  - $3: "finalizar determinante"
 
 # 
 # %1: 
 # %2: 
 # %3: 
 determinant-sbrief:
-  - "determinante"
+  - $1: "determinante"
   - %1
-  - "por"
+  - $2: "por"
   - %2
   - %3 (context:"fila ")
-  - "finalizar determinante"
+  - $3: "finalizar determinante"
 
 # 
 # %1: 
 # %2: 
 # %3: 
 determinant-simple:
-  - "empezar determinante"
+  - $1: "empezar determinante"
   - %1
-  - "por"
+  - $2: "por"
   - %2
   - %3 (context:"fila")
-  - "finalizar determinante"
+  - $3: "finalizar determinante"
 
 # 
 # %1: 
 # %2: 
 # %3: 
 determinant-simple-sbrief:
-  - "determinante"
+  - $1: "determinante"
   - %1
-  - "por"
+  - $2: "por"
   - %2
   - %3 (context:"fila")
-  - "finalizar determinante"
+  - $3: "finalizar determinante"
 
 # 
 # %1: 
 layout:
-  - "empezar esquema"
+  - $1: "empezar esquema"
   - %1 (context:"fila ")
-  - "finalizar esquema"
+  - $2: "finalizar esquema"
 
 # 
 # %1: 
 layout-sbrief:
-  - "esquema"
+  - $1: "esquema"
   - %1 (context:"fila ")
-  - "finalizar esquema"
+  - $2: "finalizar esquema"
 
 # 
 # %1: 
 # %2: 
 binomial:
-  - "empezar binomial"
+  - $1: "empezar binomial"
   - %1
-  - "en"
+  - $2: "en"
   - %2
-  - "finalizar binomial"
+  - $3: "finalizar binomial"
 
 # 
 # %1: 
 # %2: 
 binomial-sbrief:
-  - "binomial"
+  - $1: "binomial"
   - %1
-  - "en"
+  - $2: "en"
   - %2
-  - "finalizar binomial"
+  - $3: "finalizar binomial"
 
 # 
 # %1: 
 # %2: 
 cases:
-  - "empezar esquema"
+  - $1: "empezar esquema"
   - %1
-  - "alargada"
+  - $2: "alargada"
   - %2 (context:"fila ")
-  - "finalizar esquema"
+  - $3: "finalizar esquema"
 
 # 
 # %1: 
 # %2: 
 cases-sbrief:
-  - "esquema"
+  - $1: "esquema"
   - %1
-  - "alargada"
+  - $2: "alargada"
   - %2 (context:"fila ")
-  - "finalizar esquema"
+  - $3: "finalizar esquema"
 
 # 
 # %1: 
 # %2: 
 line-with-label:
-  - "con etiqueta"
+  - $1: "con etiqueta"
   - %1
-  - "finalizar etiqueta" (pause:200)
+  - $2: "finalizar etiqueta" (pause:200)
   - %2
 
 # 
 # %1: 
 # %2: 
 line-with-label-brief:
-  - "etiqueta"
+  - $1: "etiqueta"
   - %1 (pause:200)
   - %2
 
@@ -627,76 +627,76 @@ line-with-label-brief:
 # %1: 
 # %2: 
 line-with-text-label:
-  - "etiqueta"
+  - $1: "etiqueta"
   - %1
   - %2
 
 # 
 empty-line:
-  - "espacio"
+  - $1: "espacio"
 
 # 
 # %1: 
 empty-line-with-label:
-  - "con etiqueta"
+  - $1: "con etiqueta"
   - %1
-  - "finalizar etiqueta" (pause:200)
-  - "espacio"
+  - $2: "finalizar etiqueta" (pause:200)
+  - $3: "espacio"
 
 # 
 # %1: 
 empty-line-with-label-brief:
-  - "etiqueta"
+  - $1: "etiqueta"
   - %1 (pause:200)
-  - "espacio"
+  - $2: "espacio"
 
 # 
 # %1: 
 # %2: 
 enclose:
-  - "empezar rodear"
+  - $1: "empezar rodear"
   - %1
   - %2
-  - "finalizar rodear"
+  - $2: "finalizar rodear"
 
 # 
 # %1: 
 leftbar:
-  - "barra vertical"
+  - $1: "barra vertical"
   - %1
 
 # 
 # %1: 
 rightbar:
   - %1
-  - "barra vertical"
+  - $1: "barra vertical"
 
 # 
 # %1: 
 crossout:
-  - "tachado"
+  - $1: "tachado"
   - %1
-  - "finalizar tachado"
+  - $2: "finalizar tachado"
 
 # 
 # %1: 
 # %2: 
 cancel:
-  - "tachado"
+  - $1: "tachado"
   - %1
-  - "con"
+  - $2: "con"
   - %2
-  - "finalizar tachado"
+  - $3: "finalizar tachado"
 
 # 
 # %1: 
 # %2: 
 cancel-reverse:
-  - "tachado"
+  - $1: "tachado"
   - %1
-  - "con"
+  - $2: "con"
   - %2
-  - "finalizar tachado"
+  - $3: "finalizar tachado"
 
 # 
 # %1: 
@@ -712,24 +712,24 @@ unit-plural:
 # %1: 
 unit-square:
   - %1
-  - "cuadrado"
+  - $1: "cuadrado"
 
 # 
 # %1: 
 unit-cubic:
   - %1
-  - "cúbico"
+  - $1: "cúbico"
 
 # 
 # %1: 
 reciprocal:
-  - "recíproco"
+  - $1: "recíproco"
   - %1
 
 # 
 # %1: 
 per:
-  - "por"
+  - $1: "por"
   - %1
 
 # 
@@ -747,7 +747,7 @@ unit-combine-mult:
 # %2: 
 unit-combine-singular:
   - %1
-  - "por"
+  - $1: "por"
   - %2 (grammar:!singular)
 
 # 
@@ -757,7 +757,7 @@ unit-combine-singular:
 unit-combine-singular-first:
   - %1
   - %2 (grammar:singular)
-  - "por"
+  - $1: "por"
   - %3
 
 # 
@@ -772,5 +772,5 @@ unit-combine-singular-final:
 # %2: 
 unit-divide:
   - %1
-  - "por"
+  - $1: "por"
   - %2 (grammar:singular)

@@ -1,31 +1,128 @@
 {
-  "abstr-identifier-long": {},
-  "abstr-identifier": {},
-  "abstr-number-long": {},
-  "abstr-number": {},
-  "abstr-mixed-number-long": {},
-  "abstr-mixed-number": {},
-  "abstr-text": {},
-  "abstr-function": {},
-  "abstr-function-brief": {},
-  "abstr-lim": {},
-  "abstr-lim-brief": {},
-  "abstr-fraction": {},
-  "abstr-fraction-brief": {},
-  "abstr-continued-fraction": {},
-  "abstr-continued-fraction-brief": {},
-  "abstr-sqrt": {},
-  "abstr-sqrt-nested": {},
+  "abstr-identifier-long": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"langer Bezeichner\""
+    }
+  },
+  "abstr-identifier": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Bezeichner\""
+    }
+  },
+  "abstr-number-long": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"lange Zahl\""
+    }
+  },
+  "abstr-number": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Zahl\""
+    }
+  },
+  "abstr-mixed-number-long": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"langer gemischter Bruch\""
+    }
+  },
+  "abstr-mixed-number": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"gemischter Bruch\""
+    }
+  },
+  "abstr-text": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Text\""
+    }
+  },
+  "abstr-function": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Funktionsausdruck\""
+    }
+  },
+  "abstr-function-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Funktion\""
+    }
+  },
+  "abstr-lim": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Grenzwertfunktion\""
+    }
+  },
+  "abstr-lim-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Grenzwert\""
+    }
+  },
+  "abstr-fraction": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Bruch\""
+    }
+  },
+  "abstr-fraction-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Bruch\""
+    }
+  },
+  "abstr-continued-fraction": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Kettenbruch\""
+    }
+  },
+  "abstr-continued-fraction-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Kettenbruch\""
+    }
+  },
+  "abstr-sqrt": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Quadratwurzel\""
+    }
+  },
+  "abstr-sqrt-nested": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"verschachtelte Quadratwurzel\""
+    }
+  },
   "abstr-root-end": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Wurzel mit Exponent\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
       "attributes": {
         "engine": "modality=speech"
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Ende Exponent\""
     }
   },
   "abstr-root": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Wurzel mit Exponent\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -34,17 +131,34 @@
       }
     }
   },
-  "abstr-root-brief": {},
+  "abstr-root-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Wurzel\""
+    }
+  },
   "abstr-root-nested-end": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"verschachtelte Wurzel mit Exponent\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
       "attributes": {
         "engine": "modality=speech"
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Ende Exponent\""
     }
   },
   "abstr-root-nested": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"verschachtelte Wurzel mit Exponent\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -53,10 +167,30 @@
       }
     }
   },
-  "abstr-root-nested-brief": {},
-  "abstr-superscript": {},
-  "abstr-subscript": {},
-  "abstr-subsup": {},
+  "abstr-root-nested-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"verschachtelte Wurzel\""
+    }
+  },
+  "abstr-superscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Potenz\""
+    }
+  },
+  "abstr-subscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Index\""
+    }
+  },
+  "abstr-subsup": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Potenz mit Index\""
+    }
+  },
   "abstr-infixop": {
     "%1": {
       "type": "TEXT",
@@ -65,9 +199,17 @@
         "localRole": true
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mit\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Elementen\""
     }
   },
   "abstr-infixop-var": {
@@ -77,6 +219,10 @@
       "grammar": {
         "localRole": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mit veränderlicher Anzahl an Elementen\""
     }
   },
   "abstr-infixop-brief": {
@@ -89,77 +235,217 @@
     }
   },
   "abstr-addition": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Summe mit\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Summanden\""
     }
   },
-  "abstr-addition-brief": {},
-  "abstr-addition-var": {},
+  "abstr-addition-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Summe\""
+    }
+  },
+  "abstr-addition-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Summe mit veränderlicher Anzahl an Summanden\""
+    }
+  },
   "abstr-multiplication": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Produkt mit\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Faktoren\""
     }
   },
-  "abstr-multiplication-brief": {},
-  "abstr-multiplication-var": {},
+  "abstr-multiplication-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Produkt\""
+    }
+  },
+  "abstr-multiplication-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Produkt mit veränderlicher Anzahl an Faktoren\""
+    }
+  },
   "abstr-vector": {
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"dimensionaler Vektor\""
     }
   },
-  "abstr-vector-brief": {},
-  "abstr-vector-var": {},
-  "abstr-binomial": {},
+  "abstr-vector-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Vektor\""
+    }
+  },
+  "abstr-vector-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n dimensionaler Vektor\""
+    }
+  },
+  "abstr-binomial": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Binomialkoeffizient\""
+    }
+  },
   "abstr-determinant": {
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"dimensionale Determinante\""
     }
   },
-  "abstr-determinant-brief": {},
-  "abstr-determinant-var": {},
+  "abstr-determinant-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Determinante\""
+    }
+  },
+  "abstr-determinant-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n dimensionale Determinante\""
+    }
+  },
   "abstr-squarematrix": {
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"dimensionale quadratische Matrize\""
     }
   },
-  "abstr-squarematrix-brief": {},
+  "abstr-squarematrix-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"quadratische Matrize\""
+    }
+  },
   "abstr-rowvector": {
     "%1": {
       "type": "TEXT",
       "content": "count(./children/row/children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"dimensionaler Zeilenvektor\""
     }
   },
-  "abstr-rowvector-brief": {},
-  "abstr-rowvector-var": {},
+  "abstr-rowvector-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Zeilenvektor\""
+    }
+  },
+  "abstr-rowvector-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n dimensionaler Zeilenvektor\""
+    }
+  },
   "abstr-matrix": {
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mal\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Matrize\""
     }
   },
-  "abstr-matrix-brief": {},
-  "abstr-matrix-var": {},
+  "abstr-matrix-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Matrize\""
+    }
+  },
+  "abstr-matrix-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n mal m dimensionale Matrize\""
+    }
+  },
   "abstr-cases": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Fallunterscheidung\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mit\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Fällen\""
     }
   },
-  "abstr-cases-brief": {},
-  "abstr-cases-var": {},
+  "abstr-cases-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Fallunterscheidung\""
+    }
+  },
+  "abstr-cases-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Fallunterscheidung mit veränderlicher Anzahl an Fällen\""
+    }
+  },
   "abstr-punctuated": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mit\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"getrennte Liste der Länge\""
     },
     "%2": {
       "type": "TEXT",
@@ -167,15 +453,35 @@
     }
   },
   "abstr-punctuated-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mit\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"getrennte Liste\""
     }
   },
   "abstr-punctuated-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mit\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"getrennte Liste\""
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"veränderlicher Länge\""
     }
   },
   "abstr-bigop": {
@@ -184,7 +490,12 @@
       "content": "content/*[1]"
     }
   },
-  "abstr-integral": {},
+  "abstr-integral": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Integral\""
+    }
+  },
   "abstr-relation": {
     "%1": {
       "type": "TEXT",
@@ -205,9 +516,21 @@
         "localRole": true
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ssequenz\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mit\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Elementen\""
     }
   },
   "abstr-relation-seq-brief": {
@@ -220,6 +543,10 @@
       "grammar": {
         "localRole": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ssequenz\""
     }
   },
   "abstr-relation-var": {
@@ -232,27 +559,73 @@
       "grammar": {
         "localRole": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ssequenz\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mit veränderlicher Anzahl an Elementen\""
     }
   },
   "abstr-multirel": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Relationsequenz\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mit\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Elementen\""
     }
   },
-  "abstr-multirel-brief": {},
-  "abstr-multirel-var": {},
+  "abstr-multirel-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Relationsequenz\""
+    }
+  },
+  "abstr-multirel-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Relationsequenz mit veränderlicher Anzahl an Elementen\""
+    }
+  },
   "abstr-table": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Tabelle mit\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Zeilen und\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Spalten\""
     }
   },
   "abstr-line": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"in\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@role",
@@ -262,6 +635,10 @@
     }
   },
   "abstr-row": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"in\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@role",
@@ -273,12 +650,24 @@
       "type": "TEXT",
       "content": "count(preceding-sibling::..)"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mit\""
+    },
     "%3": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Spalten\""
     }
   },
   "abstr-cell": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"in\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@role",

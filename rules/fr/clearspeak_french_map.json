@@ -49,8 +49,18 @@
       }
     }
   },
-  "ellipsis": {},
-  "ellipsis-andsoon": {},
+  "ellipsis": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"et ainsi de suite\""
+    }
+  },
+  "ellipsis-andsoon": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"et ainsi de suite jusqu'à\""
+    }
+  },
   "vbar-evaluated": {
     "%1": {
       "type": "NODE",
@@ -58,6 +68,10 @@
       "attributes": {
         "pause": "short"
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"évalué à\""
     },
     "%2": {
       "type": "NODE",
@@ -75,12 +89,20 @@
         "pause": "short"
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"évalué à\""
+    },
     "%2": {
       "type": "NODE",
       "content": "content/*[1]/children/*[2]",
       "attributes": {
         "pause": "short"
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"moins la même expression évaluée à\""
     },
     "%3": {
       "type": "NODE",
@@ -90,22 +112,86 @@
       }
     }
   },
-  "vbar-such-that": {},
-  "vbar-divides": {},
-  "vbar-always-divides": {},
-  "vbar-given": {},
-  "set-member": {},
-  "set-member-member": {},
-  "set-member-element": {},
-  "set-member-belongs": {},
-  "set-not-member": {},
-  "set-not-member-member": {},
-  "set-not-member-element": {},
-  "set-not-member-belongs": {},
+  "vbar-such-that": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"tel que\""
+    }
+  },
+  "vbar-divides": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"diviseur de\""
+    }
+  },
+  "vbar-always-divides": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"diviseur de\""
+    }
+  },
+  "vbar-given": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sachant\""
+    }
+  },
+  "set-member": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"est un\""
+    }
+  },
+  "set-member-member": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"appartient à\""
+    }
+  },
+  "set-member-element": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"est un élément de\""
+    }
+  },
+  "set-member-belongs": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"est dans\""
+    }
+  },
+  "set-not-member": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n'est pas un\""
+    }
+  },
+  "set-not-member-member": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n'appartient pas à\""
+    }
+  },
+  "set-not-member-element": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n'est pas un élément de\""
+    }
+  },
+  "set-not-member-belongs": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n'est pas dans\""
+    }
+  },
   "appl": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"de\""
     },
     "%2": {
       "type": "NODE",
@@ -120,6 +206,13 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"de\"",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]",
@@ -132,6 +225,13 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"de\"",
+      "attributes": {
+        "pause": "short"
+      }
     },
     "%2": {
       "type": "NODE",
@@ -151,6 +251,10 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fois\""
     },
     "%2": {
       "type": "NODE",
@@ -210,6 +314,10 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"de\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]",
@@ -228,6 +336,13 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"de\"",
+      "attributes": {
+        "pause": "short"
+      }
     },
     "%2": {
       "type": "NODE",
@@ -265,6 +380,10 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"de\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]",
@@ -278,6 +397,13 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"de\"",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]",
@@ -290,6 +416,13 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"de\"",
+      "attributes": {
+        "pause": "short"
+      }
     },
     "%2": {
       "type": "NODE",
@@ -310,6 +443,10 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"de\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]",
@@ -329,6 +466,10 @@
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"inverse de\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]",
@@ -343,6 +484,10 @@
       "attributes": {
         "pause": "short"
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la reciproque de\""
     },
     "%1": {
       "type": "NODE",
@@ -365,6 +510,10 @@
       "attributes": {
         "pause": "short"
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la reciproque de\""
     },
     "%1": {
       "type": "NODE",
@@ -389,6 +538,10 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"de\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]",
@@ -403,6 +556,10 @@
       "attributes": {
         "pause": "short"
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"arc\""
     },
     "%1": {
       "type": "NODE",
@@ -422,6 +579,10 @@
       "attributes": {
         "pause": "short"
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"arc\""
     },
     "%1": {
       "type": "NODE",
@@ -445,9 +606,17 @@
         "pause": "short"
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"arc\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"de\""
     },
     "%2": {
       "type": "NODE",
@@ -461,9 +630,17 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"inverse\""
     }
   },
   "function-reciprocal": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la reciproque de\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -474,9 +651,23 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"à l'exposant\"",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]",
+      "attributes": {
+        "pause": "short"
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"fin exposant\"",
       "attributes": {
         "pause": "short"
       }
@@ -486,6 +677,10 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"à la puissance\""
     },
     "%2": {
       "type": "NODE",
@@ -499,6 +694,10 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"à la puissance\""
     },
     "%2": {
       "type": "NODE",
@@ -522,11 +721,22 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"à la\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]",
       "grammar": {
         "ordinal": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"puissance\"",
+      "attributes": {
+        "pause": "medium"
       }
     }
   },
@@ -535,11 +745,22 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"à la\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]",
       "grammar": {
         "ordinal": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"puissance\"",
+      "attributes": {
+        "pause": "medium"
       }
     }
   },
@@ -547,6 +768,10 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"à la puissance\""
     },
     "%2": {
       "type": "NODE",
@@ -563,6 +788,10 @@
       "attributes": {
         "join": "\"-\""
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ième\""
     }
   },
   "exponent-number": {
@@ -577,29 +806,54 @@
       "content": "CSFwordOrdinal"
     }
   },
-  "exponent-ordinal-zero": {},
+  "exponent-ordinal-zero": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"zero\""
+    }
+  },
   "square": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"au carré\""
     }
   },
   "cube": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"au cube\""
     }
   },
   "fences-points": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"le point avec coordonées\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
     }
   },
   "fences-interval": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"un intervalle de\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"à\""
     },
     "%2": {
       "type": "NODE",
@@ -617,9 +871,17 @@
     }
   },
   "interval-open": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sans inclure\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"ni\""
     },
     "%2": {
       "type": "NODE",
@@ -627,9 +889,24 @@
     }
   },
   "interval-closed-open": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"avec\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"inclus\"",
+      "attributes": {
+        "pause": "short"
+      }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"mais sans inclure\""
     },
     "%2": {
       "type": "NODE",
@@ -637,6 +914,10 @@
     }
   },
   "interval-open-closed": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sans inclure\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]",
@@ -644,50 +925,107 @@
         "pause": "short"
       }
     },
-    "%2": {
-      "type": "NODE",
-      "content": "children/*[1]/children/*[3]"
-    }
-  },
-  "interval-closed": {
-    "%1": {
-      "type": "NODE",
-      "content": "children/*[1]/children/*[1]"
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mais avec\""
     },
     "%2": {
       "type": "NODE",
       "content": "children/*[1]/children/*[3]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"inclus\""
+    }
+  },
+  "interval-closed": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"avec\""
+    },
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]/children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"et\""
+    },
+    "%2": {
+      "type": "NODE",
+      "content": "children/*[1]/children/*[3]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"inclus\""
     }
   },
   "interval-open-inf-r": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sans inclure\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
     }
   },
   "interval-open-inf-l": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sans inclure\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[3]"
     }
   },
   "interval-closed-open-inf": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"avec\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"inclus\""
     }
   },
   "interval-open-closed-inf": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"avec\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[3]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"inclus\""
     }
   },
-  "set-empty": {},
+  "set-empty": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ensemble vide\""
+    }
+  },
   "set-extended": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ensemble des\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"tel que\""
     },
     "%2": {
       "type": "NODE",
@@ -695,15 +1033,27 @@
     }
   },
   "set-collection": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ensemble\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
     }
   },
   "set-extended-woall": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ensemble de\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"tel que\""
     },
     "%2": {
       "type": "NODE",
@@ -721,6 +1071,10 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sub\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]",
@@ -734,6 +1088,10 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"base\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]"
@@ -743,6 +1101,10 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sub\""
     },
     "%2": {
       "type": "NODE",
@@ -756,12 +1118,20 @@
         "pause": "short"
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fraction avec numérateur\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
       "attributes": {
         "pause": "short"
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"et dénominateur\""
     },
     "%2": {
       "type": "NODE",
@@ -778,12 +1148,20 @@
         "pause": "short"
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fraction avec numérateur\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
       "attributes": {
         "pause": "short"
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"et dénominateur\""
     },
     "%2": {
       "type": "NODE",
@@ -804,6 +1182,10 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sur\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]",
@@ -823,6 +1205,10 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sur\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]",
@@ -841,6 +1227,10 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sur\""
     },
     "%2": {
       "type": "NODE",
@@ -867,6 +1257,10 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sur\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]",
@@ -886,9 +1280,20 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sur\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]",
+      "attributes": {
+        "pause": "short"
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"fin fraction\"",
       "attributes": {
         "pause": "short"
       }
@@ -901,9 +1306,17 @@
         "pause": "short"
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fraction\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"sur\""
     },
     "%2": {
       "type": "NODE",
@@ -924,6 +1337,10 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"par\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]",
@@ -939,6 +1356,10 @@
         "pause": "short"
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fraction avec numérateur\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -946,9 +1367,20 @@
         "pause": "short"
       }
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"et dénominateur\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]",
+      "attributes": {
+        "pause": "short"
+      }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"fin fraction\"",
       "attributes": {
         "pause": "short"
       }
@@ -961,12 +1393,20 @@
         "pause": "short"
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fraction avec numérateur\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
       "attributes": {
         "pause": "short"
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"et dénominateur\""
     },
     "%2": {
       "type": "NODE",
@@ -995,6 +1435,13 @@
       "grammar": {
         "endfrac": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fin fraction\"",
+      "attributes": {
+        "pause": "short"
+      }
     }
   },
   "vulgar-fraction-endfrac": {
@@ -1007,6 +1454,10 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sur\""
     },
     "%2": {
       "type": "NODE",
@@ -1023,6 +1474,10 @@
     }
   },
   "sqrt": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la racine carrée de\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -1041,6 +1496,10 @@
         "pause": "\"short\""
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la racine carrée de\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -1053,6 +1512,10 @@
     }
   },
   "negative-sqrt": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la racine carrée négative de\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]",
@@ -1071,6 +1534,10 @@
         "pause": "\"short\""
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la racine carrée négative de\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]",
@@ -1083,6 +1550,10 @@
     }
   },
   "sqrt-plus-minus": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la racine carrée positive de\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -1101,6 +1572,10 @@
         "pause": "\"short\""
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la racine carrée positive de\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -1113,6 +1588,10 @@
     }
   },
   "sqrt-plus-minus-posnegsqrootend": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la racine carrée positive de\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -1130,6 +1609,10 @@
       "attributes": {
         "pause": "\"short\""
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la racine carrée positive de\""
     },
     "%1": {
       "type": "NODE",
@@ -1149,6 +1632,13 @@
       "grammar": {
         "EndRoot": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fin racine\"",
+      "attributes": {
+        "pause": "short"
+      }
     }
   },
   "negative-sqrt-endroot": {
@@ -1157,6 +1647,13 @@
       "content": ".",
       "grammar": {
         "EndRoot": true
+      }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fin racine\"",
+      "attributes": {
+        "pause": "short"
       }
     }
   },
@@ -1167,6 +1664,13 @@
       "grammar": {
         "EndRoot": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fin racine\"",
+      "attributes": {
+        "pause": "short"
+      }
     }
   },
   "negative-sqrt-posnegsqrootend": {
@@ -1176,9 +1680,20 @@
       "grammar": {
         "EndRoot": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fin racine\"",
+      "attributes": {
+        "pause": "short"
+      }
     }
   },
   "cubic": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la racine cubique de\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[2]",
@@ -1197,6 +1712,10 @@
         "pause": "short"
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la racine cubique de\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[2]",
@@ -1209,12 +1728,20 @@
     }
   },
   "root": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
       "grammar": {
         "ordinal": true
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"racine de\""
     },
     "%2": {
       "type": "NODE",
@@ -1234,12 +1761,20 @@
         "pause": "short"
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
       "grammar": {
         "ordinal": true
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"racine de\""
     },
     "%2": {
       "type": "NODE",
@@ -1259,6 +1794,13 @@
       "grammar": {
         "EndRoot": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fin racine\"",
+      "attributes": {
+        "pause": "short"
+      }
     }
   },
   "root-posnegsqrootend": {
@@ -1268,21 +1810,43 @@
       "grammar": {
         "EndRoot": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fin racine\"",
+      "attributes": {
+        "pause": "short"
+      }
     }
   },
   "negative": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"négatif\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
     }
   },
   "positive": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"positif\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
     }
   },
   "angle-measure": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la mesure de l'\"",
+      "attributes": {
+        "join": "\"\""
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
@@ -1296,12 +1860,20 @@
     }
   },
   "set-prefix-operators": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"le\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
       "grammar": {
         "prefix": false
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"de\""
     }
   },
   "division": {
@@ -1309,27 +1881,85 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"divisé par\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]"
     }
   },
-  "natural-numbers": {},
-  "integers": {},
-  "rational-numbers": {},
-  "real-numbers": {},
-  "complex-numbers": {},
-  "natural-numbers-with-zero": {},
-  "positive-integers": {},
-  "negative-integers": {},
-  "positive-rational-numbers": {},
-  "negative-rational-numbers": {},
+  "natural-numbers": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"les nombres entier naturel\""
+    }
+  },
+  "integers": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"les nombres entiers\""
+    }
+  },
+  "rational-numbers": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"les Nombres rationnels\""
+    }
+  },
+  "real-numbers": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"les nombres réels\""
+    }
+  },
+  "complex-numbers": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"les nombres complexes\""
+    }
+  },
+  "natural-numbers-with-zero": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"les nombres entiers naturel avec zero\""
+    }
+  },
+  "positive-integers": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"les nombres entiers positif\""
+    }
+  },
+  "negative-integers": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"les nombres entiers négatif\""
+    }
+  },
+  "positive-rational-numbers": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"les nombres rationnels positif\""
+    }
+  },
+  "negative-rational-numbers": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"les nombres rationnels négatif\""
+    }
+  },
   "fences-neutral": {
     "%0": {
       "type": "PERSONALITY",
       "attributes": {
         "pause": "short"
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la valeur absolue de\""
     },
     "%1": {
       "type": "NODE",
@@ -1346,9 +1976,20 @@
         "pause": "short"
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la valeur absolue de\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
+      "attributes": {
+        "pause": "short"
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"fin de valeur absolue\"",
       "attributes": {
         "pause": "short"
       }
@@ -1360,6 +2001,10 @@
       "attributes": {
         "pause": "short"
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la cardinalité de\""
     },
     "%1": {
       "type": "NODE",
@@ -1376,6 +2021,10 @@
         "pause": "short"
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"le déterminant de\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -1385,9 +2034,17 @@
     }
   },
   "matrix": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la matrice de dimension\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"par\""
     },
     "%2": {
       "type": "TEXT",
@@ -1407,9 +2064,17 @@
     }
   },
   "matrix-simple": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la matrice de dimension\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"par\""
     },
     "%2": {
       "type": "TEXT",
@@ -1432,6 +2097,10 @@
     }
   },
   "matrix-trivial": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la matrice de dimension 1 par 1 avec élément\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -1441,9 +2110,17 @@
     }
   },
   "determinant": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"le déterminant de la matrice de dimension\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"par\""
     },
     "%2": {
       "type": "TEXT",
@@ -1466,9 +2143,17 @@
     }
   },
   "determinant-simple": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"le déterminant de la matrice de dimension\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"par\""
     },
     "%2": {
       "type": "TEXT",
@@ -1488,9 +2173,17 @@
     }
   },
   "matrix-vector": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la matrice colonne de dimension\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"par\""
     },
     "%2": {
       "type": "TEXT",
@@ -1513,9 +2206,17 @@
     }
   },
   "matrix-vector-simple": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la matrice colonne de dimension\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"par\""
     },
     "%2": {
       "type": "TEXT",
@@ -1538,9 +2239,17 @@
     }
   },
   "matrix-vector-simple-silentcolnum": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la matrice colonne de dimension\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"par\""
     },
     "%2": {
       "type": "TEXT",
@@ -1563,9 +2272,17 @@
     }
   },
   "matrix-row-vector": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la matrice ligne de dimension\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"par\""
     },
     "%2": {
       "type": "TEXT",
@@ -1588,9 +2305,17 @@
     }
   },
   "matrix-row-vector-simple": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la matrice ligne de dimension\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"par\""
     },
     "%2": {
       "type": "TEXT",
@@ -1613,9 +2338,17 @@
     }
   },
   "matrix-row-vector-simple-silentcolnum": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la matrice ligne de dimension\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"par\""
     },
     "%2": {
       "type": "TEXT",
@@ -1657,6 +2390,10 @@
       "grammar": {
         "EndMatrix": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fin matrice\""
     }
   },
   "matrix-end-vector": {
@@ -1666,6 +2403,10 @@
       "grammar": {
         "EndMatrix": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fin matrice\""
     }
   },
   "matrix-end-determinant": {
@@ -1675,12 +2416,24 @@
       "grammar": {
         "EndMatrix": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fin déterminant\""
     }
   },
   "vector": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"le vecteur colonne de dimension\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"par\""
     },
     "%2": {
       "type": "TEXT",
@@ -1703,9 +2456,17 @@
     }
   },
   "vector-simple": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"le vecteur colonne de dimension\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"par\""
     },
     "%2": {
       "type": "TEXT",
@@ -1728,9 +2489,17 @@
     }
   },
   "row-vector": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"le vecteur ligne de dimension\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"par\""
     },
     "%2": {
       "type": "TEXT",
@@ -1753,9 +2522,17 @@
     }
   },
   "row-vector-simple": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"le vecteur ligne de dimension\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"par\""
     },
     "%2": {
       "type": "TEXT",
@@ -1784,6 +2561,10 @@
       "grammar": {
         "EndMatrix": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fin matrice\""
     }
   },
   "vector-end-vector": {
@@ -1793,6 +2574,10 @@
       "grammar": {
         "EndMatrix": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fin vecteur\""
     }
   },
   "vector-end-vector-endvector": {
@@ -1802,6 +2587,10 @@
       "grammar": {
         "EndMatrix": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fin vecteur\""
     }
   },
   "vector-end-determinant": {
@@ -1811,12 +2600,20 @@
       "grammar": {
         "EndMatrix": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fin déterminant\""
     }
   },
   "binomial": {
     "%1": {
       "type": "NODE",
       "content": "children/*[2]/children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"parmi\""
     },
     "%2": {
       "type": "NODE",
@@ -1833,6 +2630,10 @@
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"lignes\""
     },
     "%2": {
       "type": "NODE",
@@ -1852,6 +2653,10 @@
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"cas\""
     },
     "%2": {
       "type": "NODE",
@@ -1880,10 +2685,30 @@
       }
     }
   },
-  "blank-cell": {},
-  "blank-line": {},
-  "blank-cell-empty": {},
-  "blank-line-empty": {},
+  "blank-cell": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vide\""
+    }
+  },
+  "blank-line": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vide\""
+    }
+  },
+  "blank-cell-empty": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vide\""
+    }
+  },
+  "blank-line-empty": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vide\""
+    }
+  },
   "cases": {
     "%0": {
       "type": "PERSONALITY",
@@ -1913,6 +2738,10 @@
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"cas\""
     },
     "%2": {
       "type": "NODE",
@@ -1952,6 +2781,10 @@
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"équations\""
+    },
     "%2": {
       "type": "NODE",
       "content": ".",
@@ -1989,6 +2822,10 @@
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\" étapes\""
     },
     "%2": {
       "type": "NODE",
@@ -2028,6 +2865,10 @@
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"colonnes\""
+    },
     "%2": {
       "type": "NODE",
       "content": ".",
@@ -2066,6 +2907,10 @@
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"contraintes\""
+    },
     "%2": {
       "type": "NODE",
       "content": ".",
@@ -2094,9 +2939,17 @@
     }
   },
   "bigop": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"le\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"de\""
     },
     "%2": {
       "type": "NODE",
@@ -2111,9 +2964,17 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"de\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"à\""
     },
     "%3": {
       "type": "NODE",
@@ -2124,6 +2985,10 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sur\""
     },
     "%2": {
       "type": "NODE",
@@ -2138,6 +3003,10 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sous\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]",
@@ -2147,9 +3016,17 @@
     }
   },
   "integral": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"le\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"de\""
     },
     "%2": {
       "type": "NODE",
@@ -2164,6 +3041,10 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sous\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]",
@@ -2177,6 +3058,10 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"à\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]"
@@ -2186,6 +3071,10 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sur\""
     },
     "%2": {
       "type": "NODE",
@@ -2200,6 +3089,10 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"de\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]"
@@ -2210,12 +3103,20 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"et\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]"
     }
   },
   "number-with-chars": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"nombre\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "CQFspaceoutNumber",
@@ -2225,12 +3126,20 @@
     }
   },
   "decimal-period": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la décimale\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
       "grammar": {
         "spaceout": true
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"virgule suivi par les chiffres répétés\""
     },
     "%2": {
       "type": "NODE",
@@ -2241,12 +3150,20 @@
     }
   },
   "decimal-period-float": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la décimale\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
       "grammar": {
         "spaceout": true
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"suivi par les chiffres répétés\""
     },
     "%2": {
       "type": "NODE",
@@ -2257,12 +3174,20 @@
     }
   },
   "decimal-period-singular": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la décimale\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
       "grammar": {
         "spaceout": true
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"virgule suivi par le chiffre répété\""
     },
     "%2": {
       "type": "NODE",
@@ -2273,12 +3198,20 @@
     }
   },
   "decimal-period-singular-float": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"la décimale\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
       "grammar": {
         "spaceout": true
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"suivi par le chiffre répété\""
     },
     "%2": {
       "type": "NODE",
@@ -2288,8 +3221,17 @@
       }
     }
   },
-  "decimal-point": {},
+  "decimal-point": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"point\""
+    }
+  },
   "line-segment": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"le segment\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
@@ -2303,78 +3245,147 @@
     }
   },
   "conjugate": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"le complexe conjugué de\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
     }
   },
-  "defined-by": {},
+  "defined-by": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"est défini par\"",
+      "attributes": {
+        "pause": "short"
+      }
+    }
+  },
   "adorned-sign": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"signe\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"avec\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"dessus\""
     }
   },
-  "factorial": {},
+  "factorial": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"factorielle\""
+    }
+  },
   "left-super": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"exposant gauche\""
+    },
     "%1": {
       "type": "NODE",
       "content": "text()"
     }
   },
   "left-super-list": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"exposant gauche\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "children/*"
     }
   },
   "left-sub": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"indice gauche\""
+    },
     "%1": {
       "type": "NODE",
       "content": "text()"
     }
   },
   "left-sub-list": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"indice gauche\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "children/*"
     }
   },
   "right-super": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"exposant droite\""
+    },
     "%1": {
       "type": "NODE",
       "content": "text()"
     }
   },
   "right-super-list": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"exposant droite\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "children/*"
     }
   },
   "right-sub": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"indice droite\""
+    },
     "%1": {
       "type": "NODE",
       "content": "text()"
     }
   },
   "right-sub-list": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"indice droite\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "children/*"
     }
   },
   "choose": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"combinaison de\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[2]",
       "grammar": {
         "combinatorics": true
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"parmi\""
     },
     "%2": {
       "type": "NODE",
@@ -2385,12 +3396,20 @@
     }
   },
   "permute": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"permutation de\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[2]",
       "grammar": {
         "combinatorics": true
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"parmi\""
     },
     "%2": {
       "type": "NODE",
@@ -2404,21 +3423,37 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"carré\""
     }
   },
   "unit-cubic": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"cube\""
     }
   },
   "unit-reciprocal": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"réciproque\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
     }
   },
   "unit-reciprocal-singular": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"par\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -2428,6 +3463,10 @@
     }
   },
   "unit-reciprocal-multi": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"par\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -2440,6 +3479,10 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"par\""
     },
     "%2": {
       "type": "NODE",

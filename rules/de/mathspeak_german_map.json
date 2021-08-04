@@ -9,10 +9,24 @@
       "grammar": {
         "collapsed": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"kollabiert\""
     }
   },
-  "blank-cell-empty": {},
-  "blank-line-empty": {},
+  "blank-cell-empty": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"leer\""
+    }
+  },
+  "blank-line-empty": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"leer\""
+    }
+  },
   "font": {
     "%1": {
       "type": "TEXT",
@@ -120,6 +134,10 @@
     }
   },
   "number-with-chars": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Zahl\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "CQFspaceoutNumber",
@@ -129,12 +147,20 @@
     }
   },
   "number-as-upper-word": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Wort groß\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "CSFspaceoutText"
     }
   },
   "number-baseline": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Grundlinie\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -144,6 +170,10 @@
     }
   },
   "number-baseline-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Grund\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -153,6 +183,10 @@
     }
   },
   "number-baseline-font": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Grundlinie\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@font",
@@ -169,6 +203,10 @@
     }
   },
   "number-baseline-font-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Grund\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@font",
@@ -185,12 +223,20 @@
     }
   },
   "negative-number": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"minus\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
     }
   },
   "negative": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"minus\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -200,6 +246,10 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"geteilt durch\""
     },
     "%2": {
       "type": "NODE",
@@ -216,15 +266,31 @@
     }
   },
   "fences-neutral": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Anfang Betrag\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Ende Betrag\""
     }
   },
   "fences-neutral-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Betrag\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Ende Betrag\""
     }
   },
   "fences-metric": {
@@ -241,21 +307,52 @@
       "content": "content/*[2]"
     }
   },
-  "empty-set": {},
+  "empty-set": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"leere Menge\""
+    }
+  },
   "fences-set": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Anfang Menge\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Ende Menge\""
     }
   },
   "fences-set-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Menge\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Ende Menge\""
     }
   },
-  "factorial": {},
-  "minus": {},
+  "factorial": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Fakultät\""
+    }
+  },
+  "minus": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"minus\""
+    }
+  },
   "vulgar-fraction": {
     "%1": {
       "type": "TEXT",
@@ -266,9 +363,17 @@
     }
   },
   "continued-fraction-outer": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Kettenbruch\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"durch\""
     },
     "%2": {
       "type": "NODE",
@@ -276,9 +381,17 @@
     }
   },
   "continued-fraction-inner": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Anfang Bruch\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"durch\""
     },
     "%2": {
       "type": "NODE",
@@ -286,9 +399,17 @@
     }
   },
   "continued-fraction-inner-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Bruch\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"durch\""
     },
     "%2": {
       "type": "NODE",
@@ -365,6 +486,10 @@
     "%5": {
       "type": "NODE",
       "content": "children/*[3]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Ende Überschrift\""
     }
   },
   "limlower-end": {
@@ -379,6 +504,10 @@
     "%3": {
       "type": "NODE",
       "content": "children/*[2]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Ende Unterschrift\""
     }
   },
   "limupper-end": {
@@ -393,6 +522,10 @@
     "%3": {
       "type": "NODE",
       "content": "children/*[2]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Ende Überschrift\""
     }
   },
   "integral": {
@@ -400,13 +533,25 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Index\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Hoch\""
+    },
     "%3": {
       "type": "NODE",
       "content": "children/*[3]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Grundlinie\""
     }
   },
   "integral-brief": {
@@ -414,25 +559,45 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Index\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Hoch\""
+    },
     "%3": {
       "type": "NODE",
       "content": "children/*[3]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Base\""
     }
   },
   "square": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Quadrat\""
     }
   },
   "cube": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Kubik\""
     }
   },
   "prime": {
@@ -445,9 +610,24 @@
       "content": "children/*[2]"
     }
   },
-  "double-prime": {},
-  "triple-prime": {},
-  "quadruple-prime": {},
+  "double-prime": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"zwei Strich\""
+    }
+  },
+  "triple-prime": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"drei Strich\""
+    }
+  },
+  "quadruple-prime": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vier Strich\""
+    }
+  },
   "counted-prime": {
     "%1": {
       "type": "TEXT",
@@ -455,6 +635,10 @@
       "grammar": {
         "numbers2alpha": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Strich\""
     }
   },
   "counted-prime-multichar": {
@@ -464,12 +648,24 @@
       "grammar": {
         "numbers2alpha": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Strich\""
     }
   },
   "overscore": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"modifiziert oben\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mit\""
     },
     "%2": {
       "type": "NODE",
@@ -477,9 +673,17 @@
     }
   },
   "overscore-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mod oben\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mit\""
     },
     "%2": {
       "type": "NODE",
@@ -487,9 +691,17 @@
     }
   },
   "double-overscore": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"modifiziert oben oben\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mit\""
     },
     "%2": {
       "type": "NODE",
@@ -497,9 +709,17 @@
     }
   },
   "double-overscore-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mod oben oben\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mit\""
     },
     "%2": {
       "type": "NODE",
@@ -507,9 +727,17 @@
     }
   },
   "underscore": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"modifiziert unten\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mit\""
     },
     "%2": {
       "type": "NODE",
@@ -517,9 +745,17 @@
     }
   },
   "underscore-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mod unten\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mit\""
     },
     "%2": {
       "type": "NODE",
@@ -527,9 +763,17 @@
     }
   },
   "double-underscore": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"modifiziert unten unten\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mit\""
     },
     "%2": {
       "type": "NODE",
@@ -537,9 +781,17 @@
     }
   },
   "double-underscore-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mod unten unten\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mit\""
     },
     "%2": {
       "type": "NODE",
@@ -550,34 +802,62 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Überstrich\""
     }
   },
   "underbar": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Unterstrich\""
     }
   },
   "overtilde": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Tilde oben\""
     }
   },
   "undertilde": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Tilde unten\""
     }
   },
   "matrix": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Anfang\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mal\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Matrize\""
     },
     "%3": {
       "type": "MULTI",
@@ -586,6 +866,10 @@
         "ctxtFunc": "CTFordinalCounter",
         "context": "\"Zeile \""
       }
+    },
+    "$4": {
+      "type": "TEXT",
+      "content": "\"Ende Matrize\""
     }
   },
   "matrix-sbrief": {
@@ -593,9 +877,17 @@
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mal\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Matrize\""
     },
     "%3": {
       "type": "MULTI",
@@ -604,6 +896,10 @@
         "ctxtFunc": "CTFordinalCounter",
         "context": "\"Zeile \""
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Ende Matrize\""
     }
   },
   "matrix-row": {
@@ -618,9 +914,20 @@
     }
   },
   "row-with-label": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mit Bezeichner\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Ende Bezeichner\"",
+      "attributes": {
+        "pause": "200"
+      }
     },
     "%2": {
       "type": "MULTI",
@@ -632,6 +939,10 @@
     }
   },
   "row-with-label-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Bezeichner\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
@@ -646,6 +957,10 @@
     }
   },
   "row-with-text-label": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Bezeichner\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "CSFRemoveParens"
@@ -659,16 +974,41 @@
       }
     }
   },
-  "empty-row": {},
-  "empty-cell": {},
+  "empty-row": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"leer\""
+    }
+  },
+  "empty-cell": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"leer\"",
+      "attributes": {
+        "pause": "300"
+      }
+    }
+  },
   "determinant": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Anfang\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mal\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Determinante\""
     },
     "%3": {
       "type": "MULTI",
@@ -677,6 +1017,10 @@
         "ctxtFunc": "CTFordinalCounter",
         "context": "\"Zeile \""
       }
+    },
+    "$4": {
+      "type": "TEXT",
+      "content": "\"Ende Determinante\""
     }
   },
   "determinant-sbrief": {
@@ -684,9 +1028,17 @@
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mal\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Determinante\""
     },
     "%3": {
       "type": "MULTI",
@@ -695,16 +1047,32 @@
         "ctxtFunc": "CTFordinalCounter",
         "context": "\"Zeile \""
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Ende Determinante\""
     }
   },
   "determinant-simple": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Anfang\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mal\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Determinante\""
     },
     "%3": {
       "type": "MULTI",
@@ -716,6 +1084,10 @@
       "grammar": {
         "simpleDet": true
       }
+    },
+    "$4": {
+      "type": "TEXT",
+      "content": "\"Ende Determinante\""
     }
   },
   "determinant-simple-sbrief": {
@@ -723,9 +1095,17 @@
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mal\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Determinante\""
     },
     "%3": {
       "type": "MULTI",
@@ -737,9 +1117,17 @@
       "grammar": {
         "simpleDet": true
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Ende Determinante\""
     }
   },
   "layout": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Anfang Anordnung\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "children/*",
@@ -747,9 +1135,17 @@
         "ctxtFunc": "CTFordinalCounter",
         "context": "\"Zeile \""
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Ende Anordnung\""
     }
   },
   "layout-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Anordnung\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "children/*",
@@ -757,39 +1153,87 @@
         "ctxtFunc": "CTFordinalCounter",
         "context": "\"Zeile \""
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Ende Anordnung\""
     }
   },
   "binomial": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Anfang Binomialkoeffizient\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[2]/children/*[1]"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"aus\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Ende Binomialkoeffizient\""
     }
   },
   "binomial-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Anfang Binomial\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[2]/children/*[1]"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"aus\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Ende Binomial\""
     }
   },
   "binomial-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Binomial\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[2]/children/*[1]"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"aus\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Ende Binomial\""
     }
   },
   "cases": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Anfang Fallunterscheidung\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"große\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
@@ -801,9 +1245,21 @@
         "ctxtFunc": "CTFordinalCounter",
         "context": "\"Zeile \""
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Ende Fallunterscheidung\""
     }
   },
   "cases-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Anfang Fälle\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"große\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
@@ -815,9 +1271,21 @@
         "ctxtFunc": "CTFordinalCounter",
         "context": "\"Zeile \""
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Ende Fälle\""
     }
   },
   "cases-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Fälle\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"große\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
@@ -829,12 +1297,27 @@
         "ctxtFunc": "CTFordinalCounter",
         "context": "\"Zeile \""
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Ende Fälle\""
     }
   },
   "line-with-label": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mit Bezeichner\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Ende Bezeichner\"",
+      "attributes": {
+        "pause": "200"
+      }
     },
     "%2": {
       "type": "MULTI",
@@ -842,6 +1325,10 @@
     }
   },
   "line-with-label-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Bezeichner\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]",
@@ -855,6 +1342,10 @@
     }
   },
   "line-with-text-label": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Bezeichner\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "CSFRemoveParens"
@@ -864,23 +1355,55 @@
       "content": "children/*"
     }
   },
-  "empty-line": {},
+  "empty-line": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"leer\""
+    }
+  },
   "empty-line-with-label": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mit Bezeichner\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Ende Bezeichner\"",
+      "attributes": {
+        "pause": "200"
+      }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"leer\""
     }
   },
   "empty-line-with-label-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Bezeichner\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]",
       "attributes": {
         "pause": "200"
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"leer\""
     }
   },
   "enclose": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Anfang Umschließung\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@role",
@@ -891,9 +1414,17 @@
     "%2": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Ende Umschließung\""
     }
   },
   "leftbar": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"senkrechter Strich\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -903,60 +1434,128 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"senkrechter Strich\""
     }
   },
   "crossout": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"durchgestrichen\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Ende duchgestrichen\""
     }
   },
   "cancel": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"durchgestrichen\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mit\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Ende duchgestrichen\""
     }
   },
   "cancel-reverse": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"durchgestrichen\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[2]/children/*[1]"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mit\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Ende duchgestrichen\""
     }
   },
   "multi-inference": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Schlussregel\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "content/*"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mit Folgerung\""
     },
     "%2": {
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"aus\""
+    },
     "%3": {
       "type": "TEXT",
       "content": "count(children/*[2]/children/*)"
+    },
+    "$4": {
+      "type": "TEXT",
+      "content": "\"Prämissen\""
     }
   },
   "inference": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Schlussregel\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "content/*"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"mit Folgerung\""
     },
     "%2": {
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"aus\""
+    },
     "%3": {
       "type": "TEXT",
       "content": "count(children/*[2]/children/*)"
+    },
+    "$4": {
+      "type": "TEXT",
+      "content": "\"Prämisse\""
     }
   },
   "premise": {
@@ -976,16 +1575,29 @@
     }
   },
   "label": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Regel\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
     }
   },
   "axiom": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Axiom\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "children/*[1]"
     }
   },
-  "empty-axiom": {}
+  "empty-axiom": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"leeres Axiom\""
+    }
+  }
 }

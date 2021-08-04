@@ -9,10 +9,24 @@
       "grammar": {
         "collapsed": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"plegado\""
     }
   },
-  "blank-cell-empty": {},
-  "blank-line-empty": {},
+  "blank-cell-empty": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"espacio\""
+    }
+  },
+  "blank-line-empty": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"espacio\""
+    }
+  },
   "font": {
     "%1": {
       "type": "TEXT",
@@ -66,12 +80,20 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"más\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]"
     }
   },
   "number-with-chars": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"número\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "CQFspaceoutNumber",
@@ -81,6 +103,10 @@
     }
   },
   "number-with-chars-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"núm\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "CQFspaceoutNumber",
@@ -90,12 +116,20 @@
     }
   },
   "number-as-upper-word": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mayúscula\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "CSFspaceoutText"
     }
   },
   "number-baseline": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"línea base\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -105,12 +139,20 @@
     }
   },
   "number-baseline-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"base\""
+    },
     "%1": {
       "type": "NODE",
       "content": "text()"
     }
   },
   "number-baseline-font": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"línea base\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@font",
@@ -127,6 +169,10 @@
     }
   },
   "number-baseline-font-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"base\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@font",
@@ -143,12 +189,20 @@
     }
   },
   "negative-number": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"menos\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
     }
   },
   "negative": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"menos\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -158,6 +212,10 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"dividido\""
     },
     "%2": {
       "type": "NODE",
@@ -174,15 +232,31 @@
     }
   },
   "fences-neutral": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"empezar valor absoluto\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"finalizar valor absoluto\""
     }
   },
   "fences-neutral-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"valor absoluto\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"finalizar valor absoluto\""
     }
   },
   "fences-metric": {
@@ -199,17 +273,38 @@
       "content": "content/*[2]"
     }
   },
-  "empty-set": {},
+  "empty-set": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"conjunto vacío\""
+    }
+  },
   "fences-set": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"empezar llave\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"finalizar llave\""
     }
   },
   "fences-set-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"llave\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"finalizar llave\""
     }
   },
   "text": {
@@ -221,12 +316,30 @@
       }
     }
   },
-  "factorial": {},
-  "minus": {},
+  "factorial": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"factorial\""
+    }
+  },
+  "minus": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"menos\""
+    }
+  },
   "continued-fraction-outer": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fracción continua\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"entre\""
     },
     "%2": {
       "type": "NODE",
@@ -234,9 +347,17 @@
     }
   },
   "continued-fraction-outer-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"frac continua\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"entre\""
     },
     "%2": {
       "type": "NODE",
@@ -244,9 +365,17 @@
     }
   },
   "continued-fraction-inner": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"empezar fracción\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"entre\""
     },
     "%2": {
       "type": "NODE",
@@ -254,9 +383,17 @@
     }
   },
   "continued-fraction-inner-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"empezar frac\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"entre\""
     },
     "%2": {
       "type": "NODE",
@@ -264,9 +401,17 @@
     }
   },
   "continued-fraction-inner-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"frac\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"entre\""
     },
     "%2": {
       "type": "NODE",
@@ -343,6 +488,10 @@
     "%5": {
       "type": "NODE",
       "content": "children/*[3]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"finalizar índices\""
     }
   },
   "limlower-end": {
@@ -357,6 +506,10 @@
     "%3": {
       "type": "NODE",
       "content": "children/*[2]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"finalizar índices\""
     }
   },
   "limupper-end": {
@@ -371,6 +524,10 @@
     "%3": {
       "type": "NODE",
       "content": "children/*[2]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"finalizar índices\""
     }
   },
   "integral": {
@@ -378,13 +535,29 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"definida\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"subíndice\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]"
     },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"superíndice\""
+    },
     "%3": {
       "type": "NODE",
       "content": "children/*[3]"
+    },
+    "$4": {
+      "type": "TEXT",
+      "content": "\"línea base\""
     }
   },
   "integral-brief": {
@@ -392,25 +565,45 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Sub\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Sup\""
+    },
     "%3": {
       "type": "NODE",
       "content": "children/*[3]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"Base\""
     }
   },
   "square": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"al cuadrado\""
     }
   },
   "cube": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"al cubo\""
     }
   },
   "prime": {
@@ -423,9 +616,24 @@
       "content": "children/*[2]"
     }
   },
-  "double-prime": {},
-  "triple-prime": {},
-  "quadruple-prime": {},
+  "double-prime": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"dos prima\""
+    }
+  },
+  "triple-prime": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"tres prima\""
+    }
+  },
+  "quadruple-prime": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"cuatro prima\""
+    }
+  },
   "counted-prime": {
     "%1": {
       "type": "TEXT",
@@ -433,6 +641,10 @@
       "grammar": {
         "numbers2alpha": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"prima\""
     }
   },
   "counted-prime-multichar": {
@@ -442,12 +654,24 @@
       "grammar": {
         "numbers2alpha": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"prima\""
     }
   },
   "overscore": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"modificando superior\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"con\""
     },
     "%2": {
       "type": "NODE",
@@ -455,9 +679,17 @@
     }
   },
   "overscore-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mod superior\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"con\""
     },
     "%2": {
       "type": "NODE",
@@ -465,9 +697,17 @@
     }
   },
   "double-overscore": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"modificando superior superior\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"con\""
     },
     "%2": {
       "type": "NODE",
@@ -475,9 +715,17 @@
     }
   },
   "double-overscore-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mod superior superior\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"con\""
     },
     "%2": {
       "type": "NODE",
@@ -485,9 +733,17 @@
     }
   },
   "underscore": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"modificando inferior\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"con\""
     },
     "%2": {
       "type": "NODE",
@@ -495,9 +751,17 @@
     }
   },
   "underscore-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mod inferior\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"con\""
     },
     "%2": {
       "type": "NODE",
@@ -505,9 +769,17 @@
     }
   },
   "double-underscore": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"modificando inferior inferior\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"con\""
     },
     "%2": {
       "type": "NODE",
@@ -515,9 +787,17 @@
     }
   },
   "double-underscore-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mod inferior inferior\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"con\""
     },
     "%2": {
       "type": "NODE",
@@ -528,30 +808,54 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"barra\""
     }
   },
   "underbar": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"subbarra\""
     }
   },
   "overtilde": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"tilde\""
     }
   },
   "undertilde": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"subtilde\""
     }
   },
   "matrix": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"empezar matriz\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"por\""
     },
     "%2": {
       "type": "TEXT",
@@ -564,12 +868,24 @@
         "ctxtFunc": "CTFwordCounter",
         "context": "\"fila \""
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"finalizar matriz\""
     }
   },
   "matrix-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"matriz\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"por\""
     },
     "%2": {
       "type": "TEXT",
@@ -582,6 +898,10 @@
         "ctxtFunc": "CTFwordCounter",
         "context": "\" \""
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"finalizar matriz\""
     }
   },
   "matrix-row": {
@@ -596,9 +916,20 @@
     }
   },
   "row-with-label": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"con etiqueta\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"finalizar etiqueta\"",
+      "attributes": {
+        "pause": "200"
+      }
     },
     "%2": {
       "type": "MULTI",
@@ -610,6 +941,10 @@
     }
   },
   "row-with-label-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"etiqueta\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
@@ -624,6 +959,10 @@
     }
   },
   "row-with-text-label": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"etiqueta\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "CSFRemoveParens"
@@ -637,12 +976,33 @@
       }
     }
   },
-  "empty-row": {},
-  "empty-cell": {},
+  "empty-row": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"espacio\""
+    }
+  },
+  "empty-cell": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"espacio\"",
+      "attributes": {
+        "pause": "300"
+      }
+    }
+  },
   "determinant": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"empezar determinante\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"por\""
     },
     "%2": {
       "type": "TEXT",
@@ -655,12 +1015,24 @@
         "ctxtFunc": "CTFwordCounter",
         "context": "\"fila \""
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"finalizar determinante\""
     }
   },
   "determinant-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"determinante\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"por\""
     },
     "%2": {
       "type": "TEXT",
@@ -673,12 +1045,24 @@
         "ctxtFunc": "CTFwordCounter",
         "context": "\"fila \""
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"finalizar determinante\""
     }
   },
   "determinant-simple": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"empezar determinante\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"por\""
     },
     "%2": {
       "type": "TEXT",
@@ -694,12 +1078,24 @@
       "grammar": {
         "simpleDet": true
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"finalizar determinante\""
     }
   },
   "determinant-simple-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"determinante\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"por\""
     },
     "%2": {
       "type": "TEXT",
@@ -715,9 +1111,17 @@
       "grammar": {
         "simpleDet": true
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"finalizar determinante\""
     }
   },
   "layout": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"empezar esquema\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "children/*",
@@ -725,9 +1129,17 @@
         "ctxtFunc": "CTFwordCounter",
         "context": "\"fila \""
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"finalizar esquema\""
     }
   },
   "layout-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"esquema\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "children/*",
@@ -735,32 +1147,68 @@
         "ctxtFunc": "CTFwordCounter",
         "context": "\"fila \""
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"finalizar esquema\""
     }
   },
   "binomial": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"empezar binomial\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"en\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]/children/*[1]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"finalizar binomial\""
     }
   },
   "binomial-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"binomial\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"en\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]/children/*[1]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"finalizar binomial\""
     }
   },
   "cases": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"empezar esquema\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"alargada\""
     },
     "%2": {
       "type": "MULTI",
@@ -769,12 +1217,24 @@
         "ctxtFunc": "CTFwordCounter",
         "context": "\"fila \""
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"finalizar esquema\""
     }
   },
   "cases-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"esquema\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"alargada\""
     },
     "%2": {
       "type": "MULTI",
@@ -783,12 +1243,27 @@
         "ctxtFunc": "CTFwordCounter",
         "context": "\"fila \""
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"finalizar esquema\""
     }
   },
   "line-with-label": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"con etiqueta\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"finalizar etiqueta\"",
+      "attributes": {
+        "pause": "200"
+      }
     },
     "%2": {
       "type": "MULTI",
@@ -796,6 +1271,10 @@
     }
   },
   "line-with-label-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"etiqueta\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]",
@@ -809,6 +1288,10 @@
     }
   },
   "line-with-text-label": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"etiqueta\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "CSFRemoveParens"
@@ -818,23 +1301,55 @@
       "content": "children/*"
     }
   },
-  "empty-line": {},
+  "empty-line": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"espacio\""
+    }
+  },
   "empty-line-with-label": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"con etiqueta\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"finalizar etiqueta\"",
+      "attributes": {
+        "pause": "200"
+      }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"espacio\""
     }
   },
   "empty-line-with-label-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"etiqueta\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]",
       "attributes": {
         "pause": "200"
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"espacio\""
     }
   },
   "enclose": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"empezar rodear\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@role",
@@ -845,9 +1360,17 @@
     "%2": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"finalizar rodear\""
     }
   },
   "leftbar": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"barra vertical\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -857,32 +1380,68 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"barra vertical\""
     }
   },
   "crossout": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"tachado\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"finalizar tachado\""
     }
   },
   "cancel": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"tachado\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"con\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"finalizar tachado\""
     }
   },
   "cancel-reverse": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"tachado\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[2]/children/*[1]"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"con\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"finalizar tachado\""
     }
   },
   "unit-singular": {
@@ -910,21 +1469,37 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"cuadrado\""
     }
   },
   "unit-cubic": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"cúbico\""
     }
   },
   "reciprocal": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"recíproco\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
     }
   },
   "per": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"por\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -953,6 +1528,10 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"por\""
+    },
     "%2": {
       "type": "MULTI",
       "content": "children/*[position()>1]",
@@ -975,6 +1554,10 @@
       "grammar": {
         "singular": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"por\""
     },
     "%3": {
       "type": "MULTI",
@@ -1001,6 +1584,10 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"por\""
     },
     "%2": {
       "type": "NODE",

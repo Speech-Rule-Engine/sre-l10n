@@ -2,93 +2,93 @@
 
 # 
 numerator:
-  - "Numerator" (pause:200)
+  - $1: "Numerator" (pause:200)
 
 # 
 denominator:
-  - "Denominator" (pause:200)
+  - $1: "Denominator" (pause:200)
 
 # 
 base:
-  - "Base" (pause:200)
+  - $1: "Base" (pause:200)
 
 # 
 exponent:
-  - "Exponent" (pause:200)
+  - $1: "Exponent" (pause:200)
 
 # 
 subscript:
-  - "Subscript" (pause:200)
+  - $1: "Subscript" (pause:200)
 
 # 
 overscript:
-  - "Overscript" (pause:200)
+  - $1: "Overscript" (pause:200)
 
 # 
 underscript:
-  - "Underscript" (pause:200)
+  - $1: "Underscript" (pause:200)
 
 # 
 radicand:
-  - "Radicand" (pause:200)
+  - $1: "Radicand" (pause:200)
 
 # 
 index:
-  - "Index" (pause:200)
+  - $1: "Index" (pause:200)
 
 # 
 leftsub:
-  - "Left Subscript" (pause:200)
+  - $1: "Left Subscript" (pause:200)
 
 # 
 # %1: 
 leftsub-counted:
   - %1
-  - "Left Subscript" (pause:200)
+  - $1: "Left Subscript" (pause:200)
 
 # 
 leftsuper:
-  - "Left Superscript" (pause:200)
+  - $1: "Left Superscript" (pause:200)
 
 # 
 # %1: 
 leftsuper-counted:
   - %1
-  - "Left Superscript" (pause:200)
+  - $1: "Left Superscript" (pause:200)
 
 # 
 rightsub:
-  - "Right Subscript" (pause:200)
+  - $1: "Right Subscript" (pause:200)
 
 # 
 # %1: 
 rightsub-counted:
   - %1
-  - "Right Subscript" (pause:200)
+  - $1: "Right Subscript" (pause:200)
 
 # 
 rightsuper:
-  - "Right Superscript" (pause:200)
+  - $1: "Right Superscript" (pause:200)
 
 # 
 # %1: 
 rightsuper-counted:
   - %1
-  - "Right Superscript" (pause:200)
+  - $1: "Right Superscript" (pause:200)
 
 # 
 choice:
-  - "Choice Quantity" (pause:200)
+  - $1: "Choice Quantity" (pause:200)
 
 # 
 select:
-  - "Selection Quantity" (pause:200)
+  - $1: "Selection Quantity" (pause:200)
 
 # 
 # %1: 
 row:
   - %1
-  - "Row" (pause:200)
+  - $1: "Row" (pause:200)
 
 # 
 # %1: 
@@ -96,10 +96,10 @@ row:
 cell:
   - %1
   - %2
-  - "Column" (pause:200)
+  - $1: "Column" (pause:200)
 
 # 
 # %1: 
 cell-simple:
   - %1
-  - "Column" (pause:200)
+  - $1: "Column" (pause:200)

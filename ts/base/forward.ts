@@ -152,13 +152,10 @@ export class ActionSet extends BaseSet {
     let simple = [];
     let map: {[key: string]: Component} = {};
     let ncount = 1;
-    // let tcount = 1;
+    let tcount = 1;
     let position = 0;
     for (let comp of action.components) {
-      if (comp.localizable()) {
-        // simple.push(this.cleanComp(comp.clone()));
-        simple.push(this.cleanComp(comp.clone()));
-      } else if (comp.type === 'PERSONALITY') {
+      if (comp.type === 'PERSONALITY') {
         if (position !== 0) {
           console.warn('WARNING: Non-leading personality annotation!');
         } else {
@@ -167,8 +164,14 @@ export class ActionSet extends BaseSet {
         }
       } else {
         let newComp = comp.clone();
-        let param = `%${ncount++}`;
-        newComp.content = param;
+        let param = '';
+        if (comp.localizable()) {
+          param = `$${tcount++}`;
+          newComp.content = `${param}: ${newComp.content}`;
+        } else {
+          param = `%${ncount++}`;
+          newComp.content = param;
+        }
         map[param] = comp;
         simple.push(this.cleanComp(newComp));
       }
@@ -241,13 +244,28 @@ export class ReturnSet extends BaseSet {
       let comp = Component.fromString('[t] ' + cstr);
       let real = map[comp.content];
       if (!real) {
-        comps.push(comp);
-        continue;
+        // We have a textual component.
+        let match = comp.content.match(/^\s*(\$\d+)\s*:{0,1}\s*/);
+        if (!match) {
+          // New textual component. Push as given.
+          comps.push(comp);
+          continue;
+        }
+        comp.content = comp.content.replace(match[0], '');
+        real = map[match[1]];
+        if (!real) {
+          // New textual component with a new hash parameter (e.g., introduced
+          // manually). Ignore parameter and push as is.
+          comps.push(comp);
+          continue;
+        }
+        // Replace old textual content with the new one.
+        real.content = comp.content;
       }
-      // Attributes
+      // Merge old and new attributes
       real.attributes = this.syncAttributes(
         comp.attributes, real.attributes, Object.keys(attributes));
-      // Grammar
+      // Merge old and new grammar
       real.grammar = this.syncAttributes(
         comp.grammar, real.grammar, Object.keys(grammar));
       comps.push(new Component(real));
@@ -267,7 +285,7 @@ export class ReturnSet extends BaseSet {
       if (key === 'separator' && dst['sepFunc']) {
         continue;
       }
-      if (!src[key]) {
+      if (src[key] === undefined) {
         delete dst[key];
       }
     }

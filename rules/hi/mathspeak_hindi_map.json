@@ -1,5 +1,9 @@
 {
   "collapsed": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"निपातित\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -11,8 +15,18 @@
       }
     }
   },
-  "blank-cell-empty": {},
-  "blank-line-empty": {},
+  "blank-cell-empty": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"रिक्त\""
+    }
+  },
+  "blank-line-empty": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"रिक्त\""
+    }
+  },
   "font": {
     "%1": {
       "type": "TEXT",
@@ -66,12 +80,20 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"पूर्णांक\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]"
     }
   },
   "number-with-chars": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"संख्या\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "CQFspaceoutNumber",
@@ -81,6 +103,10 @@
     }
   },
   "number-with-chars-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"संख्या\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "CQFspaceoutNumber",
@@ -90,12 +116,20 @@
     }
   },
   "number-as-upper-word": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ऊपर का शब्द\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "CQFspaceoutNumber"
     }
   },
   "number-baseline": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"आधार रेखा\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -105,6 +139,10 @@
     }
   },
   "number-baseline-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"आधार\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -114,6 +152,10 @@
     }
   },
   "number-baseline-font": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"आधार रेखा\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@font",
@@ -130,6 +172,10 @@
     }
   },
   "number-baseline-font-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"आधार\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@font",
@@ -146,12 +192,20 @@
     }
   },
   "negative-number": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ऋण\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
     }
   },
   "negative": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"बाकी\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -161,6 +215,10 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"divided by\""
     },
     "%2": {
       "type": "NODE",
@@ -177,15 +235,31 @@
     }
   },
   "fences-neutral": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"निरपेक्ष मान आरंभ\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"निरपेक्ष मान समाप्त\""
     }
   },
   "fences-neutral-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"निरपेक्ष मान\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"निरपेक्ष मान समाप्त\""
     }
   },
   "fences-metric": {
@@ -202,25 +276,64 @@
       "content": "content/*[2]"
     }
   },
-  "empty-set": {},
+  "empty-set": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"रिक्त समुच्चय\""
+    }
+  },
   "fences-set": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"समुच्चय आरंभ\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"समुच्चय समाप्त\""
     }
   },
   "fences-set-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"समुच्चय\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"समुच्चय समाप्त\""
     }
   },
-  "factorial": {},
-  "minus": {},
+  "factorial": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"क्रमगुणित\""
+    }
+  },
+  "minus": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"बाकी\""
+    }
+  },
   "continued-fraction-outer": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"भिन्न चालू\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"ऊपर\""
     },
     "%2": {
       "type": "NODE",
@@ -228,9 +341,17 @@
     }
   },
   "continued-fraction-outer-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"भिन्न चालू\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"ऊपर\""
     },
     "%2": {
       "type": "NODE",
@@ -238,9 +359,17 @@
     }
   },
   "continued-fraction-inner": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"आरंभ भिन्न\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"ऊपर\""
     },
     "%2": {
       "type": "NODE",
@@ -248,9 +377,17 @@
     }
   },
   "continued-fraction-inner-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"आरंभ भिन्न\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"ऊपर\""
     },
     "%2": {
       "type": "NODE",
@@ -258,9 +395,17 @@
     }
   },
   "continued-fraction-inner-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"भिन्न\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"ऊपर\""
     },
     "%2": {
       "type": "NODE",
@@ -337,6 +482,10 @@
     "%5": {
       "type": "NODE",
       "content": "children/*[3]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"लिपि समाप्त\""
     }
   },
   "limlower-end": {
@@ -351,6 +500,10 @@
     "%3": {
       "type": "NODE",
       "content": "children/*[2]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"लिपि समाप्त\""
     }
   },
   "limupper-end": {
@@ -365,6 +518,10 @@
     "%3": {
       "type": "NODE",
       "content": "children/*[2]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"लिपि समाप्त\""
     }
   },
   "integral": {
@@ -372,13 +529,25 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"पादांक\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"उर्ध्वान्क\""
+    },
     "%3": {
       "type": "NODE",
       "content": "children/*[3]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"आधार रेखा\""
     }
   },
   "integral-brief": {
@@ -386,25 +555,45 @@
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"अधो\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"उर्ध्व\""
+    },
     "%3": {
       "type": "NODE",
       "content": "children/*[3]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"आधार\""
     }
   },
   "square": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"वर्ग\""
     }
   },
   "cube": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"घन\""
     }
   },
   "prime": {
@@ -417,9 +606,24 @@
       "content": "children/*[2]"
     }
   },
-  "double-prime": {},
-  "triple-prime": {},
-  "quadruple-prime": {},
+  "double-prime": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"डबल प्राइम\""
+    }
+  },
+  "triple-prime": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"तिगुना प्राइम\""
+    }
+  },
+  "quadruple-prime": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"चौगुना प्राइम\""
+    }
+  },
   "counted-prime": {
     "%1": {
       "type": "TEXT",
@@ -427,6 +631,10 @@
       "grammar": {
         "numbers2alpha": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"प्राइम\""
     }
   },
   "counted-prime-multichar": {
@@ -436,12 +644,24 @@
       "grammar": {
         "numbers2alpha": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"प्राइम\""
     }
   },
   "overscore": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ऊपर संशोधित\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"के साथ\""
     },
     "%2": {
       "type": "NODE",
@@ -449,9 +669,17 @@
     }
   },
   "overscore-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ऊपर संशोधित\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"के साथ\""
     },
     "%2": {
       "type": "NODE",
@@ -459,9 +687,17 @@
     }
   },
   "double-overscore": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ऊपर के ऊपर संशोधित\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"के साथ\""
     },
     "%2": {
       "type": "NODE",
@@ -469,9 +705,17 @@
     }
   },
   "double-overscore-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ऊपर के ऊपर संशोधित\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"के साथ\""
     },
     "%2": {
       "type": "NODE",
@@ -479,9 +723,17 @@
     }
   },
   "underscore": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"निचे संशोधित\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"के साथ\""
     },
     "%2": {
       "type": "NODE",
@@ -489,9 +741,17 @@
     }
   },
   "underscore-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"निचे संशोधित\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"के साथ\""
     },
     "%2": {
       "type": "NODE",
@@ -499,9 +759,17 @@
     }
   },
   "double-underscore": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"निचे के निचे संशोधित\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"के साथ\""
     },
     "%2": {
       "type": "NODE",
@@ -509,9 +777,17 @@
     }
   },
   "double-underscore-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"निचे के निचे संशोधित\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"के साथ\""
     },
     "%2": {
       "type": "NODE",
@@ -522,34 +798,62 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"उर्ध्व दंड\""
     }
   },
   "underbar": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"अधो दंड\""
     }
   },
   "overtilde": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"उर्ध्व अंतर-चिह्न\""
     }
   },
   "undertilde": {
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"अधो अंतर-चिह्न\""
     }
   },
   "matrix": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"आरंभ\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"बाय\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"आव्यूह\""
     },
     "%3": {
       "type": "MULTI",
@@ -561,6 +865,10 @@
       "grammar": {
         "gender": "\"f\""
       }
+    },
+    "$4": {
+      "type": "TEXT",
+      "content": "\"आव्यूह समाप्त\""
     }
   },
   "matrix-sbrief": {
@@ -568,9 +876,17 @@
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"बाय\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"आव्यूह\""
     },
     "%3": {
       "type": "MULTI",
@@ -582,6 +898,10 @@
       "grammar": {
         "gender": "\"f\""
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"आव्यूह समाप्त\""
     }
   },
   "matrix-row": {
@@ -596,9 +916,20 @@
     }
   },
   "row-with-label": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"लेबल के साथ\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"लेबल समाप्त\"",
+      "attributes": {
+        "pause": "200"
+      }
     },
     "%2": {
       "type": "MULTI",
@@ -610,6 +941,10 @@
     }
   },
   "row-with-label-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"लेबल\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
@@ -624,6 +959,10 @@
     }
   },
   "row-with-text-label": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"लेबल\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "CSFRemoveParens"
@@ -637,16 +976,41 @@
       }
     }
   },
-  "empty-row": {},
-  "empty-cell": {},
+  "empty-row": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"रिक्त\""
+    }
+  },
+  "empty-cell": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"रिक्त\"",
+      "attributes": {
+        "pause": "300"
+      }
+    }
+  },
   "determinant": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"आरंभ\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"बाय\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"सारणिक\""
     },
     "%3": {
       "type": "MULTI",
@@ -658,6 +1022,10 @@
       "grammar": {
         "gender": "\"f\""
       }
+    },
+    "$4": {
+      "type": "TEXT",
+      "content": "\"सारणिक समाप्त\""
     }
   },
   "determinant-sbrief": {
@@ -665,9 +1033,17 @@
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"बाय\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"सारणिक\""
     },
     "%3": {
       "type": "MULTI",
@@ -679,16 +1055,32 @@
       "grammar": {
         "gender": "\"f\""
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"सारणिक समाप्त\""
     }
   },
   "determinant-simple": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"आरंभ\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"बाय\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"सारणिक\""
     },
     "%3": {
       "type": "MULTI",
@@ -700,6 +1092,10 @@
       "grammar": {
         "simpleDet": true
       }
+    },
+    "$4": {
+      "type": "TEXT",
+      "content": "\"सारणिक समाप्त\""
     }
   },
   "determinant-simple-sbrief": {
@@ -707,9 +1103,17 @@
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"बाय\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"सारणिक\""
     },
     "%3": {
       "type": "MULTI",
@@ -721,9 +1125,17 @@
       "grammar": {
         "simpleDet": true
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"सारणिक समाप्त\""
     }
   },
   "layout": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"खाका आरंभ\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "children/*",
@@ -734,9 +1146,17 @@
       "grammar": {
         "gender": "\"f\""
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"खाका समाप्त\""
     }
   },
   "layout-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"खाका\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "children/*",
@@ -747,29 +1167,65 @@
       "grammar": {
         "gender": "\"f\""
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"खाका समाप्त\""
     }
   },
   "binomial": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"द्विपद अथवा आव्यूह आरंभ\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"चयन करें\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]/children/*[1]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"द्विपद अथवा आव्यूह समाप्त\""
     }
   },
   "binomial-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"द्विपद अथवा आव्यूह\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"चयन करें\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]/children/*[1]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"द्विपद अथवा आव्यूह समाप्त\""
     }
   },
   "cases": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"खाका आरंभ\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"विस्तारित\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
@@ -784,9 +1240,21 @@
       "grammar": {
         "gender": "\"f\""
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"खाका समाप्त\""
     }
   },
   "cases-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"खाका\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"विस्तारित\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
@@ -801,12 +1269,27 @@
       "grammar": {
         "gender": "\"f\""
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"खाका समाप्त\""
     }
   },
   "line-with-label": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"लेबल के साथ\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"लेबल समाप्त\"",
+      "attributes": {
+        "pause": "200"
+      }
     },
     "%2": {
       "type": "MULTI",
@@ -814,6 +1297,10 @@
     }
   },
   "line-with-label-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"लेबल\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]",
@@ -827,6 +1314,10 @@
     }
   },
   "line-with-text-label": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"लेबल\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "CSFRemoveParens"
@@ -836,23 +1327,55 @@
       "content": "children/*"
     }
   },
-  "empty-line": {},
+  "empty-line": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"रिक्त\""
+    }
+  },
   "empty-line-with-label": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"लेबल के साथ\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"लेबल समाप्त\"",
+      "attributes": {
+        "pause": "200"
+      }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"रिक्त\""
     }
   },
   "empty-line-with-label-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"लेबल\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]",
       "attributes": {
         "pause": "200"
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"रिक्त\""
     }
   },
   "enclose": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"घेरे का आरंभ\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@role",
@@ -863,9 +1386,17 @@
     "%2": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"घेरा समाप्त\""
     }
   },
   "leftbar": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ऊर्ध्वाधर दंड\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -875,60 +1406,128 @@
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ऊर्ध्वाधर दंड\""
     }
   },
   "crossout": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"मिटाया हुआ\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"मिटाया हुआ समाप्त\""
     }
   },
   "cancel": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"मिटाया हुआ\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"के साथ\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[2]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"मिटाया हुआ समाप्त\""
     }
   },
   "cancel-reverse": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"मिटाया हुआ\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[2]/children/*[1]"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"के साथ\""
+    },
     "%2": {
       "type": "NODE",
       "content": "children/*[1]"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"मिटाया हुआ समाप्त\""
     }
   },
   "multi-inference": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"अनुमान नियम\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "content/*"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"निष्कर्ष के साथ\""
     },
     "%2": {
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"और\""
+    },
     "%3": {
       "type": "TEXT",
       "content": "count(children/*[2]/children/*)"
+    },
+    "$4": {
+      "type": "TEXT",
+      "content": "\"पूर्वपक्ष\""
     }
   },
   "inference": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"अनुमान नियम\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "content/*"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"निष्कर्ष के साथ\""
     },
     "%2": {
       "type": "NODE",
       "content": "children/*[1]"
     },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"और\""
+    },
     "%3": {
       "type": "TEXT",
       "content": "count(children/*[2]/children/*)"
+    },
+    "$4": {
+      "type": "TEXT",
+      "content": "\"पूर्वपक्ष\""
     }
   },
   "premise": {
@@ -948,16 +1547,29 @@
     }
   },
   "label": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"सूचक पर्चा\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
     }
   },
   "axiom": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"अभिगृहीत\""
+    },
     "%1": {
       "type": "MULTI",
       "content": "children/*[1]"
     }
   },
-  "empty-axiom": {}
+  "empty-axiom": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"रिक्त अभिगृहीत\""
+    }
+  }
 }

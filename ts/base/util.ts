@@ -43,6 +43,18 @@ export interface JsonRules {
 
 export type LocaleRules = {[key: string]: JsonRules};
 
+export const sreDomains = ['clearspeak', 'mathspeak', 'prefix', 'summary'];
+
+export const sreLocales: {[iso: string]: string} = {
+  'de': 'german',
+  'en': 'english',
+  'es': 'spanish',
+  'fr': 'french',
+  'hi': 'hindi',
+  'it': 'italian'
+};
+
+
 /**
  * Loads and parses a JSON file.
  *
@@ -58,17 +70,6 @@ function loadJson(file: string): JsonRules {
   }
 }
 
-
-export const sreDomains = ['clearspeak', 'mathspeak', 'prefix', 'summary'];
-
-export const sreLocales: {[iso: string]: string} = {
-  'de': 'german',
-  'en': 'english',
-  'es': 'spanish',
-  'fr': 'french',
-  'hi': 'hindi',
-  'it': 'italian'
-};
 
 /**
  * Loads rule actions for a particular locale and domain.
@@ -198,6 +199,11 @@ export function loadComments(domain: string) {
 }
 
 
+/**
+ * Loads a yaml file for a locale and domain.
+ * @param iso The iso code of the locale.
+ * @param domain The domain to load.
+ */
 export function loadYaml(iso: string, domain: string) {
   let current = sreLocales[iso] || 'base';
   let str = '';

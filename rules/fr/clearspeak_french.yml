@@ -21,18 +21,18 @@ font-identifier:
 
 # 
 ellipsis:
-  - "et ainsi de suite"
+  - $1: "et ainsi de suite"
 
 # 
 ellipsis-andsoon:
-  - "et ainsi de suite jusqu'à"
+  - $1: "et ainsi de suite jusqu'à"
 
 # 
 # %1: 
 # %2: 
 vbar-evaluated:
   - %1 (pause:short)
-  - "évalué à"
+  - $1: "évalué à"
   - %2 (pause:short)
 
 # 
@@ -41,65 +41,65 @@ vbar-evaluated:
 # %3: 
 vbar-evaluated-both:
   - %1 (pause:short)
-  - "évalué à"
+  - $1: "évalué à"
   - %2 (pause:short)
-  - "moins la même expression évaluée à"
+  - $2: "moins la même expression évaluée à"
   - %3 (pause:short)
 
 # 
 vbar-such-that:
-  - "tel que"
+  - $1: "tel que"
 
 # 
 vbar-divides:
-  - "diviseur de"
+  - $1: "diviseur de"
 
 # 
 vbar-always-divides:
-  - "diviseur de"
+  - $1: "diviseur de"
 
 # 
 vbar-given:
-  - "sachant"
+  - $1: "sachant"
 
 # 
 set-member:
-  - "est un"
+  - $1: "est un"
 
 # 
 set-member-member:
-  - "appartient à"
+  - $1: "appartient à"
 
 # 
 set-member-element:
-  - "est un élément de"
+  - $1: "est un élément de"
 
 # 
 set-member-belongs:
-  - "est dans"
+  - $1: "est dans"
 
 # 
 set-not-member:
-  - "n'est pas un"
+  - $1: "n'est pas un"
 
 # 
 set-not-member-member:
-  - "n'appartient pas à"
+  - $1: "n'appartient pas à"
 
 # 
 set-not-member-element:
-  - "n'est pas un élément de"
+  - $1: "n'est pas un élément de"
 
 # 
 set-not-member-belongs:
-  - "n'est pas dans"
+  - $1: "n'est pas dans"
 
 # 
 # %1: 
 # %2: 
 appl:
   - %1
-  - "de"
+  - $1: "de"
   - %2 (pause:short)
 
 # 
@@ -107,7 +107,7 @@ appl:
 # %2: 
 appl-simple:
   - %1
-  - "de" (pause:short)
+  - $1: "de" (pause:short)
   - %2 (pause:short)
 
 # 
@@ -115,7 +115,7 @@ appl-simple:
 # %2: 
 appl-simple-fenced:
   - %1
-  - "de" (pause:short)
+  - $1: "de" (pause:short)
   - %2 (pause:short)
 
 # 
@@ -124,7 +124,7 @@ appl-simple-fenced:
 # %3: 
 appl-times:
   - %1
-  - "fois"
+  - $1: "fois"
   - %2 (pause:short)
 
 # 
@@ -155,7 +155,7 @@ function-prefix-embell:
 # %3: 
 function-prefix-fenced-or-frac-arg:
   - %1
-  - "de"
+  - $1: "de"
   - %2 (pause:short)
 
 # 
@@ -164,7 +164,7 @@ function-prefix-fenced-or-frac-arg:
 # %3: 
 function-prefix-subscript:
   - %1
-  - "de" (pause:short)
+  - $1: "de" (pause:short)
   - %2 (pause:short)
 
 # 
@@ -186,7 +186,7 @@ function-ln-pause:
 # %2: 
 function-ln-of:
   - %1
-  - "de"
+  - $1: "de"
   - %2 (pause:short)
 
 # 
@@ -194,7 +194,7 @@ function-ln-of:
 # %2: 
 function-prefix-as-exp:
   - %1
-  - "de" (pause:short)
+  - $1: "de" (pause:short)
   - %2 (pause:short)
 
 # 
@@ -202,7 +202,7 @@ function-prefix-as-exp:
 # %2: 
 function-prefix-subscript-as-exp:
   - %1
-  - "de" (pause:short)
+  - $1: "de" (pause:short)
   - %2 (pause:short)
 
 # 
@@ -211,7 +211,7 @@ function-prefix-subscript-as-exp:
 # %3: 
 function-prefix-hyper:
   - %1
-  - "de"
+  - $1: "de"
   - %2 (pause:short)
 
 # 
@@ -220,7 +220,7 @@ function-prefix-hyper:
 # %3: 
 function-prefix-inverse:
   - %1
-  - "inverse de"
+  - $1: "inverse de"
   - %2 (pause:short)
 
 # 
@@ -228,7 +228,7 @@ function-prefix-inverse:
 # %2: 
 # %3: 
 function-prefix-reciprocal:
-  - "la reciproque de"
+  - $1: "la reciproque de"
   - %1 (pause:short)
   - %2 (pause:short)
 
@@ -237,7 +237,7 @@ function-prefix-reciprocal:
 # %2: 
 # %3: 
 function-prefix-reciprocal-simple:
-  - "la reciproque de"
+  - $1: "la reciproque de"
   - %1
   - %2 (pause:short)
 
@@ -247,7 +247,7 @@ function-prefix-reciprocal-simple:
 # %3: 
 appl-triginverse:
   - %1
-  - "de"
+  - $1: "de"
   - %2 (pause:short)
 
 # 
@@ -255,7 +255,7 @@ appl-triginverse:
 # %2: 
 # %3: 
 function-prefix-arc-simple:
-  - "arc"
+  - $1: "arc"
   - %1
   - %2 (pause:short)
 
@@ -264,7 +264,7 @@ function-prefix-arc-simple:
 # %2: 
 # %3: 
 function-prefix-arc-simple-fenced:
-  - "arc"
+  - $1: "arc"
   - %1 (pause:short)
   - %2 (pause:short)
 
@@ -273,21 +273,21 @@ function-prefix-arc-simple-fenced:
 # %2: 
 # %3: 
 function-prefix-arc:
-  - "arc"
+  - $1: "arc"
   - %1
-  - "de"
+  - $2: "de"
   - %2 (pause:short)
 
 # 
 # %1: 
 function-inverse:
   - %1
-  - "inverse"
+  - $1: "inverse"
 
 # 
 # %1: 
 function-reciprocal:
-  - "la reciproque de"
+  - $1: "la reciproque de"
   - %1
 
 # 
@@ -295,16 +295,16 @@ function-reciprocal:
 # %2: 
 superscript:
   - %1
-  - "à l'exposant" (pause:short)
+  - $1: "à l'exposant" (pause:short)
   - %2 (pause:short)
-  - "fin exposant" (pause:short)
+  - $2: "fin exposant" (pause:short)
 
 # 
 # %1: 
 # %2: 
 superscript-simple-exponent:
   - %1
-  - "à la puissance"
+  - $1: "à la puissance"
   - %2 (pause:medium)
 
 # 
@@ -312,7 +312,7 @@ superscript-simple-exponent:
 # %2: 
 superscript-simple-exponent-end:
   - %1
-  - "à la puissance"
+  - $1: "à la puissance"
   - %2 (pause:medium)
 
 # 
@@ -326,32 +326,32 @@ superscript-simple-function:
 # %2: 
 superscript-ordinal-letter:
   - %1
-  - "à la"
+  - $1: "à la"
   - %2
-  - "puissance" (pause:medium)
+  - $2: "puissance" (pause:medium)
 
 # 
 # %1: 
 # %2: 
 superscript-ordinal-number:
   - %1
-  - "à la"
+  - $1: "à la"
   - %2
-  - "puissance" (pause:medium)
+  - $2: "puissance" (pause:medium)
 
 # 
 # %1: 
 # %2: 
 superscript-ordinal-cap:
   - %1
-  - "à la puissance"
+  - $1: "à la puissance"
   - %2 (pause:medium)
 
 # 
 # %1: 
 exponent:
   - %1 (join:"-")
-  - "ième"
+  - $1: "ième"
 
 # 
 # %1: 
@@ -365,24 +365,24 @@ exponent-ordinal:
 
 # 
 exponent-ordinal-zero:
-  - "zero"
+  - $1: "zero"
 
 # 
 # %1: 
 square:
   - %1
-  - "au carré"
+  - $1: "au carré"
 
 # 
 # %1: 
 cube:
   - %1
-  - "au cube"
+  - $1: "au cube"
 
 # 
 # %1: 
 fences-points:
-  - "le point avec coordonées"
+  - $1: "le point avec coordonées"
   - %1
 
 # 
@@ -390,9 +390,9 @@ fences-points:
 # %2: 
 # %3: 
 fences-interval:
-  - "un intervalle de"
+  - $1: "un intervalle de"
   - %1
-  - "à"
+  - $2: "à"
   - %2 (pause:short)
   - %3
 
@@ -400,93 +400,93 @@ fences-interval:
 # %1: 
 # %2: 
 interval-open:
-  - "sans inclure"
+  - $1: "sans inclure"
   - %1
-  - "ni"
+  - $2: "ni"
   - %2
 
 # 
 # %1: 
 # %2: 
 interval-closed-open:
-  - "avec"
+  - $1: "avec"
   - %1
-  - "inclus" (pause:short)
-  - "mais sans inclure"
+  - $2: "inclus" (pause:short)
+  - $3: "mais sans inclure"
   - %2
 
 # 
 # %1: 
 # %2: 
 interval-open-closed:
-  - "sans inclure"
+  - $1: "sans inclure"
   - %1 (pause:short)
-  - "mais avec"
+  - $2: "mais avec"
   - %2
-  - "inclus"
+  - $3: "inclus"
 
 # 
 # %1: 
 # %2: 
 interval-closed:
-  - "avec"
+  - $1: "avec"
   - %1
-  - "et"
+  - $2: "et"
   - %2
-  - "inclus"
+  - $3: "inclus"
 
 # 
 # %1: 
 interval-open-inf-r:
-  - "sans inclure"
+  - $1: "sans inclure"
   - %1
 
 # 
 # %1: 
 interval-open-inf-l:
-  - "sans inclure"
+  - $1: "sans inclure"
   - %1
 
 # 
 # %1: 
 interval-closed-open-inf:
-  - "avec"
+  - $1: "avec"
   - %1
-  - "inclus"
+  - $2: "inclus"
 
 # 
 # %1: 
 interval-open-closed-inf:
-  - "avec"
+  - $1: "avec"
   - %1
-  - "inclus"
+  - $2: "inclus"
 
 # 
 set-empty:
-  - "ensemble vide"
+  - $1: "ensemble vide"
 
 # 
 # %1: 
 # %2: 
 set-extended:
-  - "ensemble des"
+  - $1: "ensemble des"
   - %1
-  - "tel que"
+  - $2: "tel que"
   - %2
 
 # 
 # %1: 
 set-collection:
-  - "ensemble"
+  - $1: "ensemble"
   - %1
 
 # 
 # %1: 
 # %2: 
 set-extended-woall:
-  - "ensemble de"
+  - $1: "ensemble de"
   - %1
-  - "tel que"
+  - $2: "tel que"
   - %2
 
 # 
@@ -495,7 +495,7 @@ set-extended-woall:
 # %3: 
 subscript:
   - %1
-  - "sub"
+  - $1: "sub"
   - %2 (pause:short)
 
 # 
@@ -503,7 +503,7 @@ subscript:
 # %2: 
 logarithm-base:
   - %1
-  - "base"
+  - $1: "base"
   - %2
 
 # 
@@ -511,7 +511,7 @@ logarithm-base:
 # %2: 
 subscript-index:
   - %1
-  - "sub"
+  - $1: "sub"
   - %2
 
 # 
@@ -519,9 +519,9 @@ subscript-index:
 # %2: 
 # %3: 
 fraction:
-  - "fraction avec numérateur"
+  - $1: "fraction avec numérateur"
   - %1 (pause:short)
-  - "et dénominateur"
+  - $2: "et dénominateur"
   - %2 (pause:short)
 
 # 
@@ -529,9 +529,9 @@ fraction:
 # %2: 
 # %3: 
 fraction-none:
-  - "fraction avec numérateur"
+  - $1: "fraction avec numérateur"
   - %1 (pause:short)
-  - "et dénominateur"
+  - $2: "et dénominateur"
   - %2 (pause:short)
 
 # 
@@ -540,7 +540,7 @@ fraction-none:
 # %3: 
 simple-fraction:
   - %1
-  - "sur"
+  - $1: "sur"
   - %2 (pause:short)
 
 # 
@@ -549,7 +549,7 @@ simple-fraction:
 # %3: 
 simple-vulgar-fraction:
   - %1
-  - "sur"
+  - $1: "sur"
   - %2 (pause:short)
 
 # 
@@ -558,7 +558,7 @@ simple-vulgar-fraction:
 # %3: 
 simple-text-fraction:
   - %1
-  - "sur"
+  - $1: "sur"
   - %2 (pause:short)
 
 # 
@@ -572,7 +572,7 @@ vulgar-fraction:
 # %3: 
 fraction-over:
   - %1
-  - "sur"
+  - $1: "sur"
   - %2 (pause:short)
 
 # 
@@ -581,18 +581,18 @@ fraction-over:
 # %3: 
 fraction-overendfrac:
   - %1
-  - "sur"
+  - $1: "sur"
   - %2 (pause:short)
-  - "fin fraction" (pause:short)
+  - $2: "fin fraction" (pause:short)
 
 # 
 # %1: 
 # %2: 
 # %3: 
 fraction-fracover:
-  - "fraction"
+  - $1: "fraction"
   - %1
-  - "sur"
+  - $2: "sur"
   - %2 (pause:short)
 
 # 
@@ -601,7 +601,7 @@ fraction-fracover:
 # %3: 
 fraction-per:
   - %1
-  - "par"
+  - $1: "par"
   - %2 (pause:short)
 
 # 
@@ -609,20 +609,20 @@ fraction-per:
 # %2: 
 # %3: 
 fraction-generalendfrac:
-  - "fraction avec numérateur"
+  - $1: "fraction avec numérateur"
   - %1 (pause:short)
-  - "et dénominateur"
+  - $2: "et dénominateur"
   - %2 (pause:short)
-  - "fin fraction" (pause:short)
+  - $3: "fin fraction" (pause:short)
 
 # 
 # %1: 
 # %2: 
 # %3: 
 fraction-general:
-  - "fraction avec numérateur"
+  - $1: "fraction avec numérateur"
   - %1 (pause:short)
-  - "et dénominateur"
+  - $2: "et dénominateur"
   - %2 (pause:short)
 
 # 
@@ -635,7 +635,7 @@ simple-vulgar-fraction-ordinal:
 # %2: 
 fraction-endfrac:
   - %1
-  - "fin fraction" (pause:short)
+  - $1: "fin fraction" (pause:short)
 
 # 
 # %1: 
@@ -643,7 +643,7 @@ fraction-endfrac:
 # %3: 
 vulgar-fraction-endfrac:
   - %1
-  - "sur"
+  - $1: "sur"
   - %2 (pause:short)
 
 # 
@@ -654,99 +654,99 @@ simple-vulgar-fraction-endfrac:
 # 
 # %1: 
 sqrt:
-  - "la racine carrée de"
+  - $1: "la racine carrée de"
   - %1 (pause:short)
 
 # 
 # %1: 
 # %2: 
 sqrt-nested:
-  - "la racine carrée de"
+  - $1: "la racine carrée de"
   - %1 (pause:short)
 
 # 
 # %1: 
 negative-sqrt:
-  - "la racine carrée négative de"
+  - $1: "la racine carrée négative de"
   - %1 (pause:short)
 
 # 
 # %1: 
 # %2: 
 negative-sqrt-default:
-  - "la racine carrée négative de"
+  - $1: "la racine carrée négative de"
   - %1 (pause:short)
 
 # 
 # %1: 
 sqrt-plus-minus:
-  - "la racine carrée positive de"
+  - $1: "la racine carrée positive de"
   - %1 (pause:short)
 
 # 
 # %1: 
 # %2: 
 sqrt-nested-plus-minus:
-  - "la racine carrée positive de"
+  - $1: "la racine carrée positive de"
   - %1 (pause:short)
 
 # 
 # %1: 
 sqrt-plus-minus-posnegsqrootend:
-  - "la racine carrée positive de"
+  - $1: "la racine carrée positive de"
   - %1 (pause:short)
 
 # 
 # %1: 
 # %2: 
 sqrt-nested-plus-minus-posnegsqrootend:
-  - "la racine carrée positive de"
+  - $1: "la racine carrée positive de"
   - %1 (pause:short)
 
 # 
 # %1: 
 sqrt-endroot:
   - %1
-  - "fin racine" (pause:short)
+  - $1: "fin racine" (pause:short)
 
 # 
 # %1: 
 negative-sqrt-endroot:
   - %1
-  - "fin racine" (pause:short)
+  - $1: "fin racine" (pause:short)
 
 # 
 # %1: 
 sqrt-posnegsqrootend:
   - %1
-  - "fin racine" (pause:short)
+  - $1: "fin racine" (pause:short)
 
 # 
 # %1: 
 negative-sqrt-posnegsqrootend:
   - %1
-  - "fin racine" (pause:short)
+  - $1: "fin racine" (pause:short)
 
 # 
 # %1: 
 cubic:
-  - "la racine cubique de"
+  - $1: "la racine cubique de"
   - %1 (pause:short)
 
 # 
 # %1: 
 # %2: 
 cubic-nested:
-  - "la racine cubique de"
+  - $1: "la racine cubique de"
   - %1 (pause:short)
 
 # 
 # %1: 
 # %2: 
 root:
-  - "la"
+  - $1: "la"
   - %1
-  - "racine de"
+  - $2: "racine de"
   - %2 (pause:short)
 
 # 
@@ -754,124 +754,124 @@ root:
 # %2: 
 # %3: 
 root-nested:
-  - "la"
+  - $1: "la"
   - %1
-  - "racine de"
+  - $2: "racine de"
   - %2 (pause:short)
 
 # 
 # %1: 
 root-endroot:
   - %1
-  - "fin racine" (pause:short)
+  - $1: "fin racine" (pause:short)
 
 # 
 # %1: 
 root-posnegsqrootend:
   - %1
-  - "fin racine" (pause:short)
+  - $1: "fin racine" (pause:short)
 
 # 
 # %1: 
 negative:
-  - "négatif"
+  - $1: "négatif"
   - %1
 
 # 
 # %1: 
 positive:
-  - "positif"
+  - $1: "positif"
   - %1
 
 # 
 # %1: 
 angle-measure:
-  - "la mesure de l'" (join:"")
+  - $1: "la mesure de l'" (join:"")
   - %1
   - %2
 
 # 
 # %1: 
 set-prefix-operators:
-  - "le"
+  - $1: "le"
   - %1
-  - "de"
+  - $2: "de"
 
 # 
 # %1: 
 # %2: 
 division:
   - %1
-  - "divisé par"
+  - $1: "divisé par"
   - %2
 
 # 
 natural-numbers:
-  - "les nombres entier naturel"
+  - $1: "les nombres entier naturel"
 
 # 
 integers:
-  - "les nombres entiers"
+  - $1: "les nombres entiers"
 
 # 
 rational-numbers:
-  - "les Nombres rationnels"
+  - $1: "les Nombres rationnels"
 
 # 
 real-numbers:
-  - "les nombres réels"
+  - $1: "les nombres réels"
 
 # 
 complex-numbers:
-  - "les nombres complexes"
+  - $1: "les nombres complexes"
 
 # 
 natural-numbers-with-zero:
-  - "les nombres entiers naturel avec zero"
+  - $1: "les nombres entiers naturel avec zero"
 
 # 
 positive-integers:
-  - "les nombres entiers positif"
+  - $1: "les nombres entiers positif"
 
 # 
 negative-integers:
-  - "les nombres entiers négatif"
+  - $1: "les nombres entiers négatif"
 
 # 
 positive-rational-numbers:
-  - "les nombres rationnels positif"
+  - $1: "les nombres rationnels positif"
 
 # 
 negative-rational-numbers:
-  - "les nombres rationnels négatif"
+  - $1: "les nombres rationnels négatif"
 
 # 
 # %1: 
 # %2: 
 fences-neutral:
-  - "la valeur absolue de"
+  - $1: "la valeur absolue de"
   - %1 (pause:short)
 
 # 
 # %1: 
 # %2: 
 fences-neutral-absend:
-  - "la valeur absolue de"
+  - $1: "la valeur absolue de"
   - %1 (pause:short)
-  - "fin de valeur absolue" (pause:short)
+  - $2: "fin de valeur absolue" (pause:short)
 
 # 
 # %1: 
 # %2: 
 fences-neutral-cardinality:
-  - "la cardinalité de"
+  - $1: "la cardinalité de"
   - %1 (pause:short)
 
 # 
 # %1: 
 # %2: 
 fences-neutral-determinant:
-  - "le déterminant de"
+  - $1: "le déterminant de"
   - %1 (pause:short)
 
 # 
@@ -879,9 +879,9 @@ fences-neutral-determinant:
 # %2: 
 # %3: 
 matrix:
-  - "la matrice de dimension"
+  - $1: "la matrice de dimension"
   - %1
-  - "par"
+  - $2: "par"
   - %2 (pause:long)
   - %3 (context:"Rangée-:", pause:long)
 
@@ -890,16 +890,16 @@ matrix:
 # %2: 
 # %3: 
 matrix-simple:
-  - "la matrice de dimension"
+  - $1: "la matrice de dimension"
   - %1
-  - "par"
+  - $2: "par"
   - %2 (pause:long)
   - %3 (context:"Rangée-:", pause:long)
 
 # 
 # %1: 
 matrix-trivial:
-  - "la matrice de dimension 1 par 1 avec élément"
+  - $1: "la matrice de dimension 1 par 1 avec élément"
   - %1 (pause:long)
 
 # 
@@ -907,9 +907,9 @@ matrix-trivial:
 # %2: 
 # %3: 
 determinant:
-  - "le déterminant de la matrice de dimension"
+  - $1: "le déterminant de la matrice de dimension"
   - %1
-  - "par"
+  - $2: "par"
   - %2 (pause:long)
   - %3 (context:"Rangée-:", pause:long)
 
@@ -918,9 +918,9 @@ determinant:
 # %2: 
 # %3: 
 determinant-simple:
-  - "le déterminant de la matrice de dimension"
+  - $1: "le déterminant de la matrice de dimension"
   - %1
-  - "par"
+  - $2: "par"
   - %2 (pause:long)
   - %3 (context:"Rangée-:", pause:long)
 
@@ -929,9 +929,9 @@ determinant-simple:
 # %2: 
 # %3: 
 matrix-vector:
-  - "la matrice colonne de dimension"
+  - $1: "la matrice colonne de dimension"
   - %1
-  - "par"
+  - $2: "par"
   - %2 (pause:long)
   - %3 (context:"Rangée-:", pause:long)
 
@@ -940,9 +940,9 @@ matrix-vector:
 # %2: 
 # %3: 
 matrix-vector-simple:
-  - "la matrice colonne de dimension"
+  - $1: "la matrice colonne de dimension"
   - %1
-  - "par"
+  - $2: "par"
   - %2 (pause:long)
   - %3 (pause:long)
 
@@ -951,9 +951,9 @@ matrix-vector-simple:
 # %2: 
 # %3: 
 matrix-vector-simple-silentcolnum:
-  - "la matrice colonne de dimension"
+  - $1: "la matrice colonne de dimension"
   - %1
-  - "par"
+  - $2: "par"
   - %2 (pause:long)
   - %3 (pause:long)
 
@@ -962,9 +962,9 @@ matrix-vector-simple-silentcolnum:
 # %2: 
 # %3: 
 matrix-row-vector:
-  - "la matrice ligne de dimension"
+  - $1: "la matrice ligne de dimension"
   - %1
-  - "par"
+  - $2: "par"
   - %2 (pause:long)
   - %3 (context:"Colonne-:", pause:long)
 
@@ -973,9 +973,9 @@ matrix-row-vector:
 # %2: 
 # %3: 
 matrix-row-vector-simple:
-  - "la matrice ligne de dimension"
+  - $1: "la matrice ligne de dimension"
   - %1
-  - "par"
+  - $2: "par"
   - %2 (pause:long)
   - %3 (pause:long)
 
@@ -984,9 +984,9 @@ matrix-row-vector-simple:
 # %2: 
 # %3: 
 matrix-row-vector-simple-silentcolnum:
-  - "la matrice ligne de dimension"
+  - $1: "la matrice ligne de dimension"
   - %1
-  - "par"
+  - $2: "par"
   - %2 (pause:long)
   - %3 (pause:long)
 
@@ -999,28 +999,28 @@ matrix-row:
 # %1: 
 matrix-end-matrix:
   - %1
-  - "fin matrice"
+  - $1: "fin matrice"
 
 # 
 # %1: 
 matrix-end-vector:
   - %1
-  - "fin matrice"
+  - $1: "fin matrice"
 
 # 
 # %1: 
 matrix-end-determinant:
   - %1
-  - "fin déterminant"
+  - $1: "fin déterminant"
 
 # 
 # %1: 
 # %2: 
 # %3: 
 vector:
-  - "le vecteur colonne de dimension"
+  - $1: "le vecteur colonne de dimension"
   - %1
-  - "par"
+  - $2: "par"
   - %2 (pause:long)
   - %3 (context:"Rangée-:", pause:long)
 
@@ -1029,9 +1029,9 @@ vector:
 # %2: 
 # %3: 
 vector-simple:
-  - "le vecteur colonne de dimension"
+  - $1: "le vecteur colonne de dimension"
   - %1
-  - "par"
+  - $2: "par"
   - %2 (pause:long)
   - %3 (pause:long)
 
@@ -1040,9 +1040,9 @@ vector-simple:
 # %2: 
 # %3: 
 row-vector:
-  - "le vecteur ligne de dimension"
+  - $1: "le vecteur ligne de dimension"
   - %1
-  - "par"
+  - $2: "par"
   - %2 (pause:long)
   - %3 (context:"Colonne-:", pause:long)
 
@@ -1051,9 +1051,9 @@ row-vector:
 # %2: 
 # %3: 
 row-vector-simple:
-  - "le vecteur ligne de dimension"
+  - $1: "le vecteur ligne de dimension"
   - %1
-  - "par"
+  - $2: "par"
   - %2 (pause:long)
   - %3 (pause:long)
 
@@ -1061,32 +1061,32 @@ row-vector-simple:
 # %1: 
 vector-end-matrix:
   - %1
-  - "fin matrice"
+  - $1: "fin matrice"
 
 # 
 # %1: 
 vector-end-vector:
   - %1
-  - "fin vecteur"
+  - $1: "fin vecteur"
 
 # 
 # %1: 
 vector-end-vector-endvector:
   - %1
-  - "fin vecteur"
+  - $1: "fin vecteur"
 
 # 
 # %1: 
 vector-end-determinant:
   - %1
-  - "fin déterminant"
+  - $1: "fin déterminant"
 
 # 
 # %1: 
 # %2: 
 binomial:
   - %1
-  - "parmi"
+  - $1: "parmi"
   - %2
 
 # 
@@ -1095,7 +1095,7 @@ binomial:
 # %3: 
 lines-summary:
   - %1
-  - "lignes"
+  - $1: "lignes"
   - %2
 
 # 
@@ -1104,7 +1104,7 @@ lines-summary:
 # %3: 
 cases-summary:
   - %1
-  - "cas"
+  - $1: "cas"
   - %2
 
 # 
@@ -1115,19 +1115,19 @@ lines:
 
 # 
 blank-cell:
-  - "vide"
+  - $1: "vide"
 
 # 
 blank-line:
-  - "vide"
+  - $1: "vide"
 
 # 
 blank-cell-empty:
-  - "vide"
+  - $1: "vide"
 
 # 
 blank-line-empty:
-  - "vide"
+  - $1: "vide"
 
 # 
 # %1: 
@@ -1141,7 +1141,7 @@ cases:
 # %3: 
 lines-cases-summary:
   - %1
-  - "cas"
+  - $1: "cas"
   - %2
 
 # 
@@ -1156,7 +1156,7 @@ lines-cases:
 # %3: 
 lines-equations-summary:
   - %1
-  - "équations"
+  - $1: "équations"
   - %2
 
 # 
@@ -1171,7 +1171,7 @@ lines-equations:
 # %3: 
 lines-steps-summary:
   - %1
-  - " étapes"
+  - $1: " étapes"
   - %2
 
 # 
@@ -1186,7 +1186,7 @@ lines-steps:
 # %3: 
 lines-rows-summary:
   - %1
-  - "colonnes"
+  - $1: "colonnes"
   - %2
 
 # 
@@ -1201,7 +1201,7 @@ lines-rows:
 # %3: 
 lines-constraints-summary:
   - %1
-  - "contraintes"
+  - $1: "contraintes"
   - %2
 
 # 
@@ -1214,9 +1214,9 @@ lines-constraints:
 # %1: 
 # %2: 
 bigop:
-  - "le"
+  - $1: "le"
   - %1
-  - "de"
+  - $2: "de"
   - %2 (pause:short)
 
 # 
@@ -1225,9 +1225,9 @@ bigop:
 # %3: 
 limboth:
   - %1
-  - "de"
+  - $1: "de"
   - %2
-  - "à"
+  - $2: "à"
   - %3
 
 # 
@@ -1235,7 +1235,7 @@ limboth:
 # %2: 
 limlower:
   - %1
-  - "sur"
+  - $1: "sur"
   - %2 (pause:short)
 
 # 
@@ -1243,16 +1243,16 @@ limlower:
 # %2: 
 limupper:
   - %1
-  - "sous"
+  - $1: "sous"
   - %2 (pause:short)
 
 # 
 # %1: 
 # %2: 
 integral:
-  - "le"
+  - $1: "le"
   - %1
-  - "de"
+  - $2: "de"
   - %2 (pause:short)
 
 # 
@@ -1260,7 +1260,7 @@ integral:
 # %2: 
 overscript:
   - %1
-  - "sous"
+  - $1: "sous"
   - %2 (pause:short)
 
 # 
@@ -1268,7 +1268,7 @@ overscript:
 # %2: 
 overscript-limits:
   - %1
-  - "à"
+  - $1: "à"
   - %2
 
 # 
@@ -1276,7 +1276,7 @@ overscript-limits:
 # %2: 
 underscript:
   - %1
-  - "sur"
+  - $1: "sur"
   - %2 (pause:short)
 
 # 
@@ -1284,7 +1284,7 @@ underscript:
 # %2: 
 underscript-limits:
   - %1
-  - "de"
+  - $1: "de"
   - %2
 
 # 
@@ -1292,181 +1292,181 @@ underscript-limits:
 # %2: 
 mixed-number:
   - %1
-  - "et"
+  - $1: "et"
   - %2
 
 # 
 # %1: 
 number-with-chars:
-  - "nombre"
+  - $1: "nombre"
   - %1
 
 # 
 # %1: 
 # %2: 
 decimal-period:
-  - "la décimale"
+  - $1: "la décimale"
   - %1
-  - "virgule suivi par les chiffres répétés"
+  - $2: "virgule suivi par les chiffres répétés"
   - %2
 
 # 
 # %1: 
 # %2: 
 decimal-period-float:
-  - "la décimale"
+  - $1: "la décimale"
   - %1
-  - "suivi par les chiffres répétés"
+  - $2: "suivi par les chiffres répétés"
   - %2
 
 # 
 # %1: 
 # %2: 
 decimal-period-singular:
-  - "la décimale"
+  - $1: "la décimale"
   - %1
-  - "virgule suivi par le chiffre répété"
+  - $2: "virgule suivi par le chiffre répété"
   - %2
 
 # 
 # %1: 
 # %2: 
 decimal-period-singular-float:
-  - "la décimale"
+  - $1: "la décimale"
   - %1
-  - "suivi par le chiffre répété"
+  - $2: "suivi par le chiffre répété"
   - %2
 
 # 
 decimal-point:
-  - "point"
+  - $1: "point"
 
 # 
 # %1: 
 # %2: 
 line-segment:
-  - "le segment"
+  - $1: "le segment"
   - %1
   - %2 (pause:short)
 
 # 
 # %1: 
 conjugate:
-  - "le complexe conjugué de"
+  - $1: "le complexe conjugué de"
   - %1
 
 # 
 defined-by:
-  - "est défini par" (pause:short)
+  - $1: "est défini par" (pause:short)
 
 # 
 # %1: 
 # %2: 
 adorned-sign:
-  - "signe"
+  - $1: "signe"
   - %1
-  - "avec"
+  - $2: "avec"
   - %2
-  - "dessus"
+  - $3: "dessus"
 
 # 
 factorial:
-  - "factorielle"
+  - $1: "factorielle"
 
 # 
 # %1: 
 left-super:
-  - "exposant gauche"
+  - $1: "exposant gauche"
   - %1
 
 # 
 # %1: 
 left-super-list:
-  - "exposant gauche"
+  - $1: "exposant gauche"
   - %1
 
 # 
 # %1: 
 left-sub:
-  - "indice gauche"
+  - $1: "indice gauche"
   - %1
 
 # 
 # %1: 
 left-sub-list:
-  - "indice gauche"
+  - $1: "indice gauche"
   - %1
 
 # 
 # %1: 
 right-super:
-  - "exposant droite"
+  - $1: "exposant droite"
   - %1
 
 # 
 # %1: 
 right-super-list:
-  - "exposant droite"
+  - $1: "exposant droite"
   - %1
 
 # 
 # %1: 
 right-sub:
-  - "indice droite"
+  - $1: "indice droite"
   - %1
 
 # 
 # %1: 
 right-sub-list:
-  - "indice droite"
+  - $1: "indice droite"
   - %1
 
 # 
 # %1: 
 # %2: 
 choose:
-  - "combinaison de"
+  - $1: "combinaison de"
   - %1
-  - "parmi"
+  - $2: "parmi"
   - %2
 
 # 
 # %1: 
 # %2: 
 permute:
-  - "permutation de"
+  - $1: "permutation de"
   - %1
-  - "parmi"
+  - $2: "parmi"
   - %2
 
 # 
 # %1: 
 unit-square:
   - %1
-  - "carré"
+  - $1: "carré"
 
 # 
 # %1: 
 unit-cubic:
   - %1
-  - "cube"
+  - $1: "cube"
 
 # 
 # %1: 
 unit-reciprocal:
-  - "réciproque"
+  - $1: "réciproque"
   - %1
 
 # 
 # %1: 
 unit-reciprocal-singular:
-  - "par"
+  - $1: "par"
   - %1 (grammar:singular)
 
 # 
 # %1: 
 unit-reciprocal-multi:
-  - "par"
+  - $1: "par"
   - %1 (grammar:singular)
 
 # 
@@ -1474,5 +1474,5 @@ unit-reciprocal-multi:
 # %2: 
 unit-divide:
   - %1
-  - "par"
+  - $1: "par"
   - %2 (grammar:singular)

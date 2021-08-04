@@ -1,7 +1,21 @@
 {
-  "collapsed-masculine": {},
-  "collapsed-feminine": {},
+  "collapsed-masculine": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"collassato\""
+    }
+  },
+  "collapsed-feminine": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"collassata\""
+    }
+  },
   "abstr-identifier-long": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"identificatore lungo\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -11,6 +25,10 @@
     }
   },
   "abstr-identifier": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"identificatore\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -20,6 +38,10 @@
     }
   },
   "abstr-number-long": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"intero lungo\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -29,6 +51,10 @@
     }
   },
   "abstr-number": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"numero\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -38,6 +64,10 @@
     }
   },
   "abstr-mixed-number-long": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"numero misto lungo\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -47,6 +77,10 @@
     }
   },
   "abstr-mixed-number": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"numero misto\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -56,6 +90,10 @@
     }
   },
   "abstr-text": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"testo\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -65,6 +103,10 @@
     }
   },
   "abstr-function": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"espressione funzionale\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -74,6 +116,10 @@
     }
   },
   "abstr-function-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"funzione\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -83,6 +129,10 @@
     }
   },
   "abstr-lim": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"funzione limite\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -92,6 +142,10 @@
     }
   },
   "abstr-lim-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"limite\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -101,6 +155,10 @@
     }
   },
   "abstr-fraction": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"frazione\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -110,6 +168,10 @@
     }
   },
   "abstr-fraction-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"frazione\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -119,6 +181,10 @@
     }
   },
   "abstr-continued-fraction": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"frazione continua\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -128,6 +194,10 @@
     }
   },
   "abstr-continued-fraction-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"frazione continua\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -137,6 +207,10 @@
     }
   },
   "abstr-sqrt": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"radice quadrata\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -146,6 +220,10 @@
     }
   },
   "abstr-sqrt-nested": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"radice quadrata doppia\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -155,12 +233,20 @@
     }
   },
   "abstr-root-end": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"radice di indice\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
       "attributes": {
         "engine": "modality=speech"
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"indice finale\""
     },
     "%2": {
       "type": "NODE",
@@ -171,6 +257,10 @@
     }
   },
   "abstr-root": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"radice di indice\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -187,6 +277,10 @@
     }
   },
   "abstr-root-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"radice \""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -196,12 +290,20 @@
     }
   },
   "abstr-root-nested-end": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"radicale doppio di indice\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
       "attributes": {
         "engine": "modality=speech"
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"indice finale\""
     },
     "%2": {
       "type": "NODE",
@@ -212,6 +314,10 @@
     }
   },
   "abstr-root-nested": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"radicale doppio di indice\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -228,6 +334,10 @@
     }
   },
   "abstr-root-nested-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"radicale doppio\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -237,6 +347,10 @@
     }
   },
   "abstr-superscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"potenza\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -246,6 +360,10 @@
     }
   },
   "abstr-subscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"pedice\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -255,6 +373,10 @@
     }
   },
   "abstr-subsup": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"potenza con pedice\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -271,9 +393,17 @@
         "localRole": true
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"con\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"elementi\""
     },
     "%3": {
       "type": "NODE",
@@ -290,6 +420,10 @@
       "grammar": {
         "localRole": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"con numero variabile di elementi\""
     },
     "%2": {
       "type": "NODE",
@@ -316,9 +450,17 @@
     }
   },
   "abstr-addition": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"somma con\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"addendi\""
     },
     "%2": {
       "type": "NODE",
@@ -329,6 +471,10 @@
     }
   },
   "abstr-addition-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"somma\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -338,6 +484,10 @@
     }
   },
   "abstr-addition-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"somma con numero variabile di addendi\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -347,9 +497,17 @@
     }
   },
   "abstr-multiplication": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"prodotto di\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"fattori\""
     },
     "%2": {
       "type": "NODE",
@@ -360,6 +518,10 @@
     }
   },
   "abstr-multiplication-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"prodotto\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -369,6 +531,10 @@
     }
   },
   "abstr-multiplication-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"prodotto con numero variabile di fattori\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -382,6 +548,10 @@
       "type": "TEXT",
       "content": "count(./children/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vettore dimensionale\""
+    },
     "%2": {
       "type": "NODE",
       "content": ".",
@@ -390,8 +560,17 @@
       }
     }
   },
-  "abstr-vector-brief": {},
+  "abstr-vector-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vettore\""
+    }
+  },
   "abstr-vector-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vettore di dimensione n\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -401,6 +580,10 @@
     }
   },
   "abstr-binomial": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"binomiale\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -414,6 +597,10 @@
       "type": "TEXT",
       "content": "count(./children/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"derminante dimensionale\""
+    },
     "%2": {
       "type": "NODE",
       "content": ".",
@@ -423,6 +610,10 @@
     }
   },
   "abstr-determinant-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"determinante\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -432,6 +623,10 @@
     }
   },
   "abstr-determinant-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"determinante di dimensione n\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -445,6 +640,10 @@
       "type": "TEXT",
       "content": "count(./children/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"matrice quadrata dimensionale\""
+    },
     "%2": {
       "type": "NODE",
       "content": ".",
@@ -454,6 +653,10 @@
     }
   },
   "abstr-squarematrix-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"matrice quadrata\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -467,6 +670,10 @@
       "type": "TEXT",
       "content": "count(./children/row/children/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vettore riga dimensionale\""
+    },
     "%2": {
       "type": "NODE",
       "content": ".",
@@ -476,6 +683,10 @@
     }
   },
   "abstr-rowvector-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vettore riga\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -485,6 +696,10 @@
     }
   },
   "abstr-rowvector-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vettore riga di dimensione n\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -498,9 +713,17 @@
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"per\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"matrice\""
     },
     "%3": {
       "type": "NODE",
@@ -511,6 +734,10 @@
     }
   },
   "abstr-matrix-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"matrice\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -520,6 +747,10 @@
     }
   },
   "abstr-matrix-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"matrice dimensionale n pr m\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -529,9 +760,21 @@
     }
   },
   "abstr-cases": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"comando switch\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"con\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"casi\""
     },
     "%2": {
       "type": "NODE",
@@ -542,6 +785,10 @@
     }
   },
   "abstr-cases-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"comando switch\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -551,6 +798,10 @@
     }
   },
   "abstr-cases-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"comando di switch con numero variabile di casi\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -563,6 +814,14 @@
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"lista separata\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"di lunghezza\""
     },
     "%2": {
       "type": "TEXT",
@@ -581,6 +840,10 @@
       "type": "NODE",
       "content": "content/*[1]"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"lista separata\""
+    },
     "%2": {
       "type": "NODE",
       "content": ".",
@@ -593,6 +856,14 @@
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"lista separata\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"di lunghezza variabile\""
     },
     "%2": {
       "type": "NODE",
@@ -616,6 +887,10 @@
     }
   },
   "abstr-integral": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"integrale\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -648,9 +923,21 @@
         "localRole": true
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sequenza\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"con\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"elementi\""
     },
     "%3": {
       "type": "NODE",
@@ -668,6 +955,10 @@
         "localRole": true
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sequenza\""
+    },
     "%2": {
       "type": "NODE",
       "content": ".",
@@ -684,6 +975,14 @@
         "localRole": true
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sequenza\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"con numero variabile di elementi\""
+    },
     "%2": {
       "type": "NODE",
       "content": ".",
@@ -693,9 +992,21 @@
     }
   },
   "abstr-multirel": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sequenza di relazione\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"con\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"elementi\""
     },
     "%2": {
       "type": "NODE",
@@ -706,6 +1017,10 @@
     }
   },
   "abstr-multirel-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sequenza di relazione\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -715,6 +1030,10 @@
     }
   },
   "abstr-multirel-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sequenza di relazione con numero variabile di elementi\""
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -724,13 +1043,25 @@
     }
   },
   "abstr-table": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"tavola con\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"righe e\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"colonne\""
     },
     "%3": {
       "type": "NODE",
@@ -741,6 +1072,10 @@
     }
   },
   "abstr-line": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"in\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@role",
@@ -757,6 +1092,10 @@
     }
   },
   "abstr-row": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"in\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@role",
@@ -768,9 +1107,17 @@
       "type": "TEXT",
       "content": "count(preceding-sibling::..)"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"con\""
+    },
     "%3": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"colonne\""
     },
     "%4": {
       "type": "NODE",
@@ -781,6 +1128,10 @@
     }
   },
   "abstr-cell": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"in\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@role",

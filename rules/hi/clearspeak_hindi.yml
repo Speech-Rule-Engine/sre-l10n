@@ -3,7 +3,7 @@
 # 
 # %1: 
 collapsed:
-  - "संकुचित"
+  - $1: "संकुचित"
   - %1
 
 # 
@@ -22,11 +22,11 @@ font-identifier:
 
 # 
 ellipsis:
-  - "आदि, आदि"
+  - $1: "आदि, आदि"
 
 # 
 ellipsis-andsoon:
-  - "आदि आदि आदि"
+  - $1: "आदि आदि आदि"
 
 # 
 # %1: 
@@ -34,7 +34,7 @@ ellipsis-andsoon:
 vbar-evaluated:
   - %1 (pause:short)
   - %2
-  - "पर मूल्यांकित" (pause:short)
+  - $1: "पर मूल्यांकित" (pause:short)
 
 # 
 # %1: 
@@ -43,17 +43,17 @@ vbar-evaluated:
 vbar-evaluated-both:
   - %1 (pause:short)
   - %2
-  - "पर मूल्यांकित" (pause:short)
-  - "घटाव का चिह्न उसी व्यंजक जो"
+  - $1: "पर मूल्यांकित" (pause:short)
+  - $2: "घटाव का चिह्न उसी व्यंजक जो"
   - %3
-  - "पर मूल्यांकित" (pause:short)
+  - $3: "पर मूल्यांकित" (pause:short)
 
 # 
 # %1: 
 # %2: 
 vbar-args-such-that:
   - %1
-  - "जैसा की"
+  - $1: "जैसा की"
   - %2
 
 # 
@@ -62,7 +62,7 @@ vbar-args-such-that:
 vbar-args-divides:
   - %1 (pause:short)
   - %2
-  - "से विभाज्य है"
+  - $1: "से विभाज्य है"
 
 # 
 # %1: 
@@ -70,14 +70,14 @@ vbar-args-divides:
 vbar-args-always-divides:
   - %1 (pause:short)
   - %2
-  - "से विभाज्य है"
+  - $1: "से विभाज्य है"
 
 # 
 # %1: 
 # %2: 
 vbar-args-given:
   - %1
-  - "यदि निश्चित है"
+  - $1: "यदि निश्चित है"
   - %2
 
 # 
@@ -96,7 +96,7 @@ element:
 element-in-set:
   - %1
   - %2
-  - "सभीं"
+  - $1: "सभीं"
   - %3
 
 # 
@@ -110,42 +110,42 @@ element-in-set-woall:
 
 # 
 set-member:
-  - "में"
+  - $1: "में"
 
 # 
 set-member-member:
-  - "में"
+  - $1: "में"
 
 # 
 set-member-element:
-  - "में"
+  - $1: "में"
 
 # 
 set-member-belongs:
-  - "में"
+  - $1: "में"
 
 # 
 set-not-member:
-  - "में नही"
+  - $1: "में नही"
 
 # 
 set-not-member-member:
-  - "में नही"
+  - $1: "में नही"
 
 # 
 set-not-member-element:
-  - "में नही"
+  - $1: "में नही"
 
 # 
 set-not-member-belongs:
-  - "में नही"
+  - $1: "में नही"
 
 # 
 # %1: 
 # %2: 
 appl:
   - %1
-  - "का फलन"
+  - $1: "का फलन"
   - %2 (pause:short)
 
 # 
@@ -153,7 +153,7 @@ appl:
 # %2: 
 appl-simple:
   - %1
-  - "का फलन" (pause:short)
+  - $1: "का फलन" (pause:short)
   - %2 (pause:short)
 
 # 
@@ -161,7 +161,7 @@ appl-simple:
 # %2: 
 appl-simple-fenced:
   - %1
-  - "का फलन" (pause:short)
+  - $1: "का फलन" (pause:short)
   - %2 (pause:short)
 
 # 
@@ -169,7 +169,7 @@ appl-simple-fenced:
 # %2: 
 appl-simple-inverse:
   - %1
-  - "का प्रतिफलन"
+  - $1: "का प्रतिफलन"
   - %2 (pause:short)
 
 # 
@@ -178,7 +178,7 @@ appl-simple-inverse:
 # %3: 
 appl-times:
   - %1
-  - "गुना"
+  - $1: "गुना"
   - %2 (pause:short)
 
 # 
@@ -209,7 +209,7 @@ function-prefix-embell:
 # %3: 
 function-prefix-fenced-or-frac-arg:
   - %1
-  - "का फलन"
+  - $1: "का फलन"
   - %2 (pause:short)
 
 # 
@@ -218,7 +218,7 @@ function-prefix-fenced-or-frac-arg:
 # %3: 
 function-prefix-subscript:
   - %1
-  - "का फलन" (pause:short)
+  - $1: "का फलन" (pause:short)
   - %2 (pause:short)
 
 # 
@@ -240,7 +240,7 @@ function-ln-pause:
 # %2: 
 function-ln-of:
   - %1
-  - "का फलन"
+  - $1: "का फलन"
   - %2 (pause:short)
 
 # 
@@ -248,7 +248,7 @@ function-ln-of:
 # %2: 
 function-prefix-as-exp:
   - %1
-  - "का फलन" (pause:short)
+  - $1: "का फलन" (pause:short)
   - %2 (pause:short)
 
 # 
@@ -256,7 +256,7 @@ function-prefix-as-exp:
 # %2: 
 function-prefix-subscript-as-exp:
   - %1
-  - "का फलन" (pause:short)
+  - $1: "का फलन" (pause:short)
   - %2 (pause:short)
 
 # 
@@ -265,7 +265,7 @@ function-prefix-subscript-as-exp:
 # %3: 
 function-prefix-hyper:
   - %1
-  - "का फलन"
+  - $1: "का फलन"
   - %2 (pause:short)
 
 # 
@@ -273,9 +273,9 @@ function-prefix-hyper:
 # %2: 
 # %3: 
 function-prefix-inverse:
-  - "व्युत्क्रम"
+  - $1: "व्युत्क्रम"
   - %1
-  - "का फलन"
+  - $2: "का फलन"
   - %2 (pause:short)
 
 # 
@@ -284,7 +284,7 @@ function-prefix-inverse:
 # %3: 
 appl-triginverse:
   - %1
-  - "का फलन"
+  - $1: "का फलन"
   - %2 (pause:short)
 
 # 
@@ -292,7 +292,7 @@ appl-triginverse:
 # %2: 
 # %3: 
 function-prefix-arc-simple:
-  - "चाप"
+  - $1: "चाप"
   - %1
   - %2 (pause:short)
 
@@ -301,7 +301,7 @@ function-prefix-arc-simple:
 # %2: 
 # %3: 
 function-prefix-arc-simple-fenced:
-  - "चाप"
+  - $1: "चाप"
   - %1 (pause:short)
   - %2 (pause:short)
 
@@ -310,16 +310,16 @@ function-prefix-arc-simple-fenced:
 # %2: 
 # %3: 
 function-prefix-arc:
-  - "चाप"
+  - $1: "चाप"
   - %1
-  - "का फलन"
+  - $2: "का फलन"
   - %2 (pause:short)
 
 # 
 # %1: 
 function-inverse:
   - %1
-  - "प्रतिलोम"
+  - $1: "प्रतिलोम"
 
 # 
 # %1: 
@@ -327,52 +327,52 @@ function-inverse:
 superscript-prefix-function:
   - %1
   - %2
-  - "घातांक"
+  - $1: "घातांक"
 
 # 
 # %1: 
 # %2: 
 superscript:
   - %1
-  - "का घात" (pause:short)
+  - $1: "का घात" (pause:short)
   - %2 (pause:short)
-  - "घातांक समाप्त" (pause:short)
+  - $2: "घातांक समाप्त" (pause:short)
 
 # 
 # %1: 
 # %2: 
 superscript-simple-exponent:
   - %1
-  - "का घात"
+  - $1: "का घात"
   - %2
-  - "घातांक" (pause:short)
+  - $2: "घातांक" (pause:short)
 
 # 
 # %1: 
 # %2: 
 superscript-simple-exponent-end:
   - %1
-  - "का घात"
+  - $1: "का घात"
   - %2
-  - "घातांक"
+  - $2: "घातांक"
 
 # 
 # %1: 
 # %2: 
 superscript-ordinal:
   - %1
-  - "का घात"
+  - $1: "का घात"
   - %2
-  - "घातांक" (pause:short)
+  - $2: "घातांक" (pause:short)
 
 # 
 # %1: 
 # %2: 
 superscript-non-ordinal:
   - %1
-  - "का घात"
+  - $1: "का घात"
   - %2
-  - "घातांक" (pause:short)
+  - $2: "घातांक" (pause:short)
 
 # 
 # %1: 
@@ -380,7 +380,7 @@ superscript-non-ordinal:
 superscript-simple-function:
   - %1
   - %2
-  - "घातांक" (pause:short)
+  - $1: "घातांक" (pause:short)
 
 # 
 # %1: 
@@ -392,7 +392,7 @@ superscript-simple-function-none:
 # %2: 
 superscript-ordinal-number:
   - %1
-  - "का घात"
+  - $1: "का घात"
   - %2 (pause:short)
 
 # 
@@ -400,7 +400,7 @@ superscript-ordinal-number:
 # %2: 
 superscript-ordinal-negative:
   - %1
-  - "का घात"
+  - $1: "का घात"
   - %2 (pause:short)
 
 # 
@@ -408,52 +408,52 @@ superscript-ordinal-negative:
 # %2: 
 superscript-ordinal-default:
   - %1
-  - "का घात" (pause:short)
+  - $1: "का घात" (pause:short)
   - %2 (pause:short)
-  - "घातांक समाप्त" (pause:short)
+  - $2: "घातांक समाप्त" (pause:short)
 
 # 
 # %1: 
 # %2: 
 superscript-ordinal-power-number:
   - %1
-  - "का घात"
+  - $1: "का घात"
   - %2
-  - "घातांक" (pause:short)
+  - $2: "घातांक" (pause:short)
 
 # 
 # %1: 
 # %2: 
 superscript-ordinal-power-negative:
   - %1
-  - "का घात"
+  - $1: "का घात"
   - %2
-  - "घातांक" (pause:short)
+  - $2: "घातांक" (pause:short)
 
 # 
 # %1: 
 # %2: 
 superscript-ordinal-power-identifier:
   - %1
-  - "का घात"
+  - $1: "का घात"
   - %2
-  - "घातांक" (pause:short)
+  - $2: "घातांक" (pause:short)
 
 # 
 # %1: 
 # %2: 
 superscript-ordinal-power-default:
   - %1
-  - "का घात" (pause:short)
+  - $1: "का घात" (pause:short)
   - %2 (pause:short)
-  - "घातांक समाप्त" (pause:short)
+  - $2: "घातांक समाप्त" (pause:short)
 
 # 
 # %1: 
 # %2: 
 superscript-power:
   - %1
-  - "का घात"
+  - $1: "का घात"
   - %2 (pause:short)
 
 # 
@@ -461,15 +461,15 @@ superscript-power:
 # %2: 
 superscript-power-default:
   - %1
-  - "का घात" (pause:short)
+  - $1: "का घात" (pause:short)
   - %2 (pause:short)
-  - "घातांक समाप्त" (pause:short)
+  - $2: "घातांक समाप्त" (pause:short)
 
 # 
 # %1: 
 exponent:
   - %1 (join:"-")
-  - "वां"
+  - $1: "वां"
 
 # 
 # %1: 
@@ -483,7 +483,7 @@ exponent-ordinal:
 
 # 
 exponent-ordinal-zero:
-  - "शून्य"
+  - $1: "शून्य"
 
 # 
 # %1: 
@@ -492,24 +492,24 @@ exponent-ordinalpower:
 
 # 
 exponent-ordinalpower-zero:
-  - "शून्य"
+  - $1: "शून्य"
 
 # 
 # %1: 
 square:
   - %1
-  - "वर्गित"
+  - $1: "वर्गित"
 
 # 
 # %1: 
 cube:
   - %1
-  - "घनित"
+  - $1: "घनित"
 
 # 
 # %1: 
 fences-points:
-  - "निर्देशांक वाला बिंदु"
+  - $1: "निर्देशांक वाला बिंदु"
   - %1
 
 # 
@@ -518,9 +518,9 @@ fences-points:
 # %3: 
 fences-interval:
   - %1
-  - "से"
+  - $1: "से"
   - %2
-  - "तक का अन्तराल" (pause:short)
+  - $2: "तक का अन्तराल" (pause:short)
   - %3
 
 # 
@@ -528,80 +528,80 @@ fences-interval:
 # %2: 
 interval-open:
   - %1
-  - "अथवा"
+  - $1: "अथवा"
   - %2
-  - "असम्मिलित"
+  - $2: "असम्मिलित"
 
 # 
 # %1: 
 # %2: 
 interval-closed-open:
   - %1
-  - "सम्मिलित" (pause:short)
-  - "परन्तु"
+  - $1: "सम्मिलित" (pause:short)
+  - $2: "परन्तु"
   - %2
-  - "असम्मिलित"
+  - $3: "असम्मिलित"
 
 # 
 # %1: 
 # %2: 
 interval-open-closed:
   - %1
-  - "असम्मिलित" (pause:short)
-  - "परन्तु"
+  - $1: "असम्मिलित" (pause:short)
+  - $2: "परन्तु"
   - %2
-  - "सम्मिलित"
+  - $3: "सम्मिलित"
 
 # 
 # %1: 
 # %2: 
 interval-closed:
   - %1
-  - "और"
+  - $1: "और"
   - %2
-  - "सम्मिलित"
+  - $2: "सम्मिलित"
 
 # 
 # %1: 
 interval-open-inf-r:
   - %1
-  - "असम्मिलित"
+  - $1: "असम्मिलित"
 
 # 
 # %1: 
 interval-open-inf-l:
   - %1
-  - "असम्मिलित"
+  - $1: "असम्मिलित"
 
 # 
 # %1: 
 interval-closed-open-inf:
   - %1
-  - "सम्मिलित"
+  - $1: "सम्मिलित"
 
 # 
 # %1: 
 interval-open-closed-inf:
   - %1
-  - "सम्मिलित"
+  - $1: "सम्मिलित"
 
 # 
 set-empty:
-  - "रिक्त समुच्चय"
+  - $1: "रिक्त समुच्चय"
 
 # 
 # %1: 
 # %2: 
 set-extended:
   - %1
-  - "का समुच्चय"
-  - "जिस में"
+  - $1: "का समुच्चय"
+  - $2: "जिस में"
   - %2
 
 # 
 # %1: 
 set-collection:
-  - "समुच्चय"
+  - $1: "समुच्चय"
   - %1
 
 # 
@@ -610,7 +610,7 @@ set-collection:
 # %3: 
 subscript:
   - %1
-  - "पाद"
+  - $1: "पाद"
   - %2 (pause:short)
 
 # 
@@ -618,7 +618,7 @@ subscript:
 # %2: 
 logarithm-base:
   - %1
-  - "आधार"
+  - $1: "आधार"
   - %2
 
 # 
@@ -626,7 +626,7 @@ logarithm-base:
 # %2: 
 subscript-index:
   - %1
-  - "पाद"
+  - $1: "पाद"
   - %2
 
 # 
@@ -634,9 +634,9 @@ subscript-index:
 # %2: 
 # %3: 
 fraction:
-  - "भिन्न जिसका अंश"
+  - $1: "भिन्न जिसका अंश"
   - %1 (pause:short)
-  - "और हर"
+  - $2: "और हर"
   - %2 (pause:short)
 
 # 
@@ -644,9 +644,9 @@ fraction:
 # %2: 
 # %3: 
 fraction-none:
-  - "भिन्न जिसका अंश"
+  - $1: "भिन्न जिसका अंश"
   - %1 (pause:short)
-  - "और हर"
+  - $2: "और हर"
   - %2 (pause:short)
 
 # 
@@ -655,7 +655,7 @@ fraction-none:
 # %3: 
 simple-fraction:
   - %1
-  - "के हर में"
+  - $1: "के हर में"
   - %2 (pause:short)
 
 # 
@@ -664,7 +664,7 @@ simple-fraction:
 # %3: 
 simple-vulgar-fraction:
   - %1
-  - "के हर में"
+  - $1: "के हर में"
   - %2 (pause:short)
 
 # 
@@ -673,7 +673,7 @@ simple-vulgar-fraction:
 # %3: 
 simple-text-fraction:
   - %1
-  - "के हर में"
+  - $1: "के हर में"
   - %2 (pause:short)
 
 # 
@@ -687,7 +687,7 @@ vulgar-fraction:
 # %3: 
 fraction-over:
   - %1
-  - "के हर में"
+  - $1: "के हर में"
   - %2 (pause:short)
 
 # 
@@ -696,18 +696,18 @@ fraction-over:
 # %3: 
 fraction-overendfrac:
   - %1
-  - "के हर में"
+  - $1: "के हर में"
   - %2 (pause:short)
-  - "भिन्न समाप्त" (pause:short)
+  - $2: "भिन्न समाप्त" (pause:short)
 
 # 
 # %1: 
 # %2: 
 # %3: 
 fraction-fracover:
-  - "भिन्न"
+  - $1: "भिन्न"
   - %1
-  - "के हर में"
+  - $2: "के हर में"
   - %2 (pause:short)
 
 # 
@@ -716,7 +716,7 @@ fraction-fracover:
 # %3: 
 fraction-per:
   - %1
-  - "प्रति"
+  - $1: "प्रति"
   - %2 (pause:short)
 
 # 
@@ -724,20 +724,20 @@ fraction-per:
 # %2: 
 # %3: 
 fraction-generalendfrac:
-  - "भिन्न जिसका अंश"
+  - $1: "भिन्न जिसका अंश"
   - %1 (pause:short)
-  - "और हर"
+  - $2: "और हर"
   - %2 (pause:short)
-  - "भिन्न समाप्त" (pause:short)
+  - $3: "भिन्न समाप्त" (pause:short)
 
 # 
 # %1: 
 # %2: 
 # %3: 
 fraction-general:
-  - "भिन्न जिसका अंश"
+  - $1: "भिन्न जिसका अंश"
   - %1 (pause:short)
-  - "और हर"
+  - $2: "और हर"
   - %2 (pause:short)
 
 # 
@@ -750,7 +750,7 @@ simple-vulgar-fraction-ordinal:
 # %2: 
 fraction-endfrac:
   - %1
-  - "भिन्न समाप्त" (pause:short)
+  - $1: "भिन्न समाप्त" (pause:short)
 
 # 
 # %1: 
@@ -758,7 +758,7 @@ fraction-endfrac:
 # %3: 
 vulgar-fraction-endfrac:
   - %1
-  - "के हर में"
+  - $1: "के हर में"
   - %2 (pause:short)
 
 # 
@@ -770,90 +770,90 @@ simple-vulgar-fraction-endfrac:
 # %1: 
 sqrt:
   - %1
-  - "का वर्गमूल" (pause:short)
+  - $1: "का वर्गमूल" (pause:short)
 
 # 
 # %1: 
 # %2: 
 sqrt-nested:
   - %1
-  - "का वर्गमूल" (pause:short)
+  - $1: "का वर्गमूल" (pause:short)
 
 # 
 # %1: 
 negative-sqrt:
   - %1
-  - "का ऋणात्मक वर्गमूल" (pause:short)
+  - $1: "का ऋणात्मक वर्गमूल" (pause:short)
 
 # 
 # %1: 
 # %2: 
 negative-sqrt-default:
   - %1
-  - "का ऋणात्मक वर्गमूल" (pause:short)
+  - $1: "का ऋणात्मक वर्गमूल" (pause:short)
 
 # 
 # %1: 
 sqrt-plus-minus:
   - %1
-  - "का धनात्मक वर्गमूल" (pause:short)
+  - $1: "का धनात्मक वर्गमूल" (pause:short)
 
 # 
 # %1: 
 # %2: 
 sqrt-nested-plus-minus:
   - %1
-  - "का धनात्मक वर्गमूल" (pause:short)
+  - $1: "का धनात्मक वर्गमूल" (pause:short)
 
 # 
 # %1: 
 sqrt-plus-minus-posnegsqrootend:
   - %1
-  - "का धनात्मक वर्गमूल" (pause:short)
+  - $1: "का धनात्मक वर्गमूल" (pause:short)
 
 # 
 # %1: 
 # %2: 
 sqrt-nested-plus-minus-posnegsqrootend:
   - %1
-  - "का धनात्मक वर्गमूल" (pause:short)
+  - $1: "का धनात्मक वर्गमूल" (pause:short)
 
 # 
 # %1: 
 sqrt-endroot:
   - %1
-  - "मूल समाप्त" (pause:short)
+  - $1: "मूल समाप्त" (pause:short)
 
 # 
 # %1: 
 negative-sqrt-endroot:
   - %1
-  - "मूल समाप्त" (pause:short)
+  - $1: "मूल समाप्त" (pause:short)
 
 # 
 # %1: 
 sqrt-posnegsqrootend:
   - %1
-  - "मूल समाप्त" (pause:short)
+  - $1: "मूल समाप्त" (pause:short)
 
 # 
 # %1: 
 negative-sqrt-posnegsqrootend:
   - %1
-  - "मूल समाप्त" (pause:short)
+  - $1: "मूल समाप्त" (pause:short)
 
 # 
 # %1: 
 cubic:
   - %1
-  - "का घनमूल" (pause:short)
+  - $1: "का घनमूल" (pause:short)
 
 # 
 # %1: 
 # %2: 
 cubic-nested:
   - %1
-  - "का घनमूल" (pause:short)
+  - $1: "का घनमूल" (pause:short)
 
 # 
 # %1: 
@@ -861,7 +861,7 @@ cubic-nested:
 root:
   - %1
   - %2
-  - "का मूल" (pause:short)
+  - $1: "का मूल" (pause:short)
 
 # 
 # %1: 
@@ -870,30 +870,30 @@ root:
 root-nested:
   - %1
   - %2
-  - "का मूल" (pause:short)
+  - $1: "का मूल" (pause:short)
 
 # 
 # %1: 
 root-endroot:
   - %1
-  - "मूल समाप्त" (pause:short)
+  - $1: "मूल समाप्त" (pause:short)
 
 # 
 # %1: 
 root-posnegsqrootend:
   - %1
-  - "मूल समाप्त" (pause:short)
+  - $1: "मूल समाप्त" (pause:short)
 
 # 
 # %1: 
 negative:
-  - "ऋण"
+  - $1: "ऋण"
   - %1
 
 # 
 # %1: 
 positive:
-  - "धनात्मक"
+  - $1: "धनात्मक"
   - %1
 
 # 
@@ -901,20 +901,20 @@ positive:
 angle-measure:
   - %1
   - %2
-  - "का मापन"
+  - $1: "का मापन"
 
 # 
 # %1: 
 set-prefix-operators:
   - %1
-  - "का फलन"
+  - $1: "का फलन"
 
 # 
 # %1: 
 # %2: 
 division:
   - %1
-  - "द्वारा विभाजित"
+  - $1: "द्वारा विभाजित"
   - %2
 
 # 
@@ -924,72 +924,72 @@ operators-after-power:
 
 # 
 natural-numbers:
-  - "प्राकृत संख्याएं"
+  - $1: "प्राकृत संख्याएं"
 
 # 
 integers:
-  - "पूर्णांक"
+  - $1: "पूर्णांक"
 
 # 
 rational-numbers:
-  - "परिमेय संख्याएं"
+  - $1: "परिमेय संख्याएं"
 
 # 
 real-numbers:
-  - "वास्तविक संख्याएं"
+  - $1: "वास्तविक संख्याएं"
 
 # 
 complex-numbers:
-  - "सम्मिश्र संख्याएं"
+  - $1: "सम्मिश्र संख्याएं"
 
 # 
 natural-numbers-with-zero:
-  - "शून्य सहित प्राकृत संख्याएं"
+  - $1: "शून्य सहित प्राकृत संख्याएं"
 
 # 
 positive-integers:
-  - "धनात्मक पूर्णांक"
+  - $1: "धनात्मक पूर्णांक"
 
 # 
 negative-integers:
-  - "ऋणात्मक पूर्णांक"
+  - $1: "ऋणात्मक पूर्णांक"
 
 # 
 positive-rational-numbers:
-  - "धनात्मक परिमेय संख्याएं"
+  - $1: "धनात्मक परिमेय संख्याएं"
 
 # 
 negative-rational-numbers:
-  - "ऋणात्मक परिमेय संख्याएं"
+  - $1: "ऋणात्मक परिमेय संख्याएं"
 
 # 
 # %1: 
 # %2: 
 fences-neutral:
   - %1
-  - "का निरपेक्ष मान" (pause:short)
+  - $1: "का निरपेक्ष मान" (pause:short)
 
 # 
 # %1: 
 # %2: 
 fences-neutral-absend:
-  - "निरपेक्ष मान प्रारम्भ"
+  - $1: "निरपेक्ष मान प्रारम्भ"
   - %1 (pause:short)
-  - "निरपेक्ष मान समाप्त" (pause:short)
+  - $2: "निरपेक्ष मान समाप्त" (pause:short)
 
 # 
 # %1: 
 # %2: 
 fences-neutral-cardinality:
   - %1
-  - "की गणनीयता" (pause:short)
+  - $1: "की गणनीयता" (pause:short)
 
 # 
 # %1: 
 # %2: 
 fences-neutral-determinant:
   - %1
-  - "का सारणिक" (pause:short)
+  - $1: "का सारणिक" (pause:short)
 
 # 
 # %1: 
@@ -997,9 +997,9 @@ fences-neutral-determinant:
 # %3: 
 matrix:
   - %1
-  - "बाय"
+  - $1: "बाय"
   - %2
-  - "आव्यूह" (pause:long)
+  - $2: "आव्यूह" (pause:long)
   - %3 (context:"पंक्ति-:", pause:long)
 
 # 
@@ -1008,15 +1008,15 @@ matrix:
 # %3: 
 matrix-simple:
   - %1
-  - "बाय"
+  - $1: "बाय"
   - %2
-  - "आव्यूह" (pause:long)
+  - $2: "आव्यूह" (pause:long)
   - %3 (context:"पंक्ति-:", pause:long)
 
 # 
 # %1: 
 matrix-trivial:
-  - "१ बाय १ आव्यूह में भर्ती"
+  - $1: "१ बाय १ आव्यूह में भर्ती"
   - %1 (pause:long)
 
 # 
@@ -1025,10 +1025,10 @@ matrix-trivial:
 # %3: 
 determinant:
   - %1
-  - "बाय"
+  - $1: "बाय"
   - %2
-  - "आव्यूह"
-  - "का सारणिक" (pause:long)
+  - $2: "आव्यूह"
+  - $3: "का सारणिक" (pause:long)
   - %3 (context:"पंक्ति-:", pause:long)
 
 # 
@@ -1037,10 +1037,10 @@ determinant:
 # %3: 
 determinant-simple:
   - %1
-  - "बाय"
+  - $1: "बाय"
   - %2
-  - "आव्यूह"
-  - "का सारणिक" (pause:long)
+  - $2: "आव्यूह"
+  - $3: "का सारणिक" (pause:long)
   - %3 (context:"पंक्ति-:", pause:long)
 
 # 
@@ -1049,9 +1049,9 @@ determinant-simple:
 # %3: 
 matrix-vector:
   - %1
-  - "बाय"
+  - $1: "बाय"
   - %2
-  - "स्तंभ आव्यूह" (pause:long)
+  - $2: "स्तंभ आव्यूह" (pause:long)
   - %3 (context:"पंक्ति-:", pause:long)
 
 # 
@@ -1060,9 +1060,9 @@ matrix-vector:
 # %3: 
 matrix-vector-simple:
   - %1
-  - "बाय"
+  - $1: "बाय"
   - %2
-  - "स्तंभ आव्यूह" (pause:long)
+  - $2: "स्तंभ आव्यूह" (pause:long)
   - %3 (pause:long)
 
 # 
@@ -1071,9 +1071,9 @@ matrix-vector-simple:
 # %3: 
 matrix-vector-simple-silentcolnum:
   - %1
-  - "बाय"
+  - $1: "बाय"
   - %2
-  - "स्तंभ आव्यूह" (pause:long)
+  - $2: "स्तंभ आव्यूह" (pause:long)
   - %3 (pause:long)
 
 # 
@@ -1082,9 +1082,9 @@ matrix-vector-simple-silentcolnum:
 # %3: 
 matrix-row-vector:
   - %1
-  - "बाय"
+  - $1: "बाय"
   - %2
-  - "पंक्ति आव्यूह" (pause:long)
+  - $2: "पंक्ति आव्यूह" (pause:long)
   - %3 (context:"स्तंभ-:", pause:long)
 
 # 
@@ -1093,9 +1093,9 @@ matrix-row-vector:
 # %3: 
 matrix-row-vector-simple:
   - %1
-  - "बाय"
+  - $1: "बाय"
   - %2
-  - "पंक्ति आव्यूह" (pause:long)
+  - $2: "पंक्ति आव्यूह" (pause:long)
   - %3 (pause:long)
 
 # 
@@ -1104,9 +1104,9 @@ matrix-row-vector-simple:
 # %3: 
 matrix-row-vector-simple-silentcolnum:
   - %1
-  - "बाय"
+  - $1: "बाय"
   - %2
-  - "पंक्ति आव्यूह" (pause:long)
+  - $2: "पंक्ति आव्यूह" (pause:long)
   - %3 (pause:long)
 
 # 
@@ -1118,19 +1118,19 @@ matrix-row:
 # %1: 
 matrix-end-matrix:
   - %1
-  - "आव्यूह समाप्त"
+  - $1: "आव्यूह समाप्त"
 
 # 
 # %1: 
 matrix-end-vector:
   - %1
-  - "आव्यूह समाप्त"
+  - $1: "आव्यूह समाप्त"
 
 # 
 # %1: 
 matrix-end-determinant:
   - %1
-  - "सारणिक समाप्त"
+  - $1: "सारणिक समाप्त"
 
 # 
 # %1: 
@@ -1138,9 +1138,9 @@ matrix-end-determinant:
 # %3: 
 vector:
   - %1
-  - "बाय"
+  - $1: "बाय"
   - %2
-  - "स्तंभ सदिश" (pause:long)
+  - $2: "स्तंभ सदिश" (pause:long)
   - %3 (context:"पंक्ति-:", pause:long)
 
 # 
@@ -1149,9 +1149,9 @@ vector:
 # %3: 
 vector-simple:
   - %1
-  - "बाय"
+  - $1: "बाय"
   - %2
-  - "स्तंभ सदिश" (pause:long)
+  - $2: "स्तंभ सदिश" (pause:long)
   - %3 (pause:long)
 
 # 
@@ -1160,9 +1160,9 @@ vector-simple:
 # %3: 
 row-vector:
   - %1
-  - "बाय"
+  - $1: "बाय"
   - %2
-  - "पंक्ति सदिश" (pause:long)
+  - $2: "पंक्ति सदिश" (pause:long)
   - %3 (context:"स्तंभ-:", pause:long)
 
 # 
@@ -1171,41 +1171,41 @@ row-vector:
 # %3: 
 row-vector-simple:
   - %1
-  - "बाय"
+  - $1: "बाय"
   - %2
-  - "पंक्ति सदिश" (pause:long)
+  - $2: "पंक्ति सदिश" (pause:long)
   - %3 (pause:long)
 
 # 
 # %1: 
 vector-end-matrix:
   - %1
-  - "आव्यूह समाप्त"
+  - $1: "आव्यूह समाप्त"
 
 # 
 # %1: 
 vector-end-vector:
   - %1
-  - "सदिश समाप्त"
+  - $1: "सदिश समाप्त"
 
 # 
 # %1: 
 vector-end-vector-endvector:
   - %1
-  - "सदिश समाप्त"
+  - $1: "सदिश समाप्त"
 
 # 
 # %1: 
 vector-end-determinant:
   - %1
-  - "सारणिक समाप्त"
+  - $1: "सारणिक समाप्त"
 
 # 
 # %1: 
 # %2: 
 binomial:
   - %1
-  - "चयन करें"
+  - $1: "चयन करें"
   - %2
 
 # 
@@ -1214,7 +1214,7 @@ binomial:
 # %3: 
 lines-summary:
   - %1
-  - "रेखाएं"
+  - $1: "रेखाएं"
   - %2
 
 # 
@@ -1223,7 +1223,7 @@ lines-summary:
 # %3: 
 cases-summary:
   - %1
-  - "फलन उपशर्त"
+  - $1: "फलन उपशर्त"
   - %2
 
 # 
@@ -1234,19 +1234,19 @@ lines:
 
 # 
 blank-cell:
-  - "रिक्त"
+  - $1: "रिक्त"
 
 # 
 blank-line:
-  - "रिक्त"
+  - $1: "रिक्त"
 
 # 
 blank-cell-empty:
-  - "रिक्त"
+  - $1: "रिक्त"
 
 # 
 blank-line-empty:
-  - "रिक्त"
+  - $1: "रिक्त"
 
 # 
 # %1: 
@@ -1260,7 +1260,7 @@ cases:
 # %3: 
 lines-cases-summary:
   - %1
-  - "फलन उपशर्त"
+  - $1: "फलन उपशर्त"
   - %2
 
 # 
@@ -1275,7 +1275,7 @@ lines-cases:
 # %3: 
 lines-equations-summary:
   - %1
-  - "समीकरण"
+  - $1: "समीकरण"
   - %2
 
 # 
@@ -1290,7 +1290,7 @@ lines-equations:
 # %3: 
 lines-steps-summary:
   - %1
-  - "चरण"
+  - $1: "चरण"
   - %2
 
 # 
@@ -1305,7 +1305,7 @@ lines-steps:
 # %3: 
 lines-rows-summary:
   - %1
-  - "पंक्तियाँ"
+  - $1: "पंक्तियाँ"
   - %2
 
 # 
@@ -1320,7 +1320,7 @@ lines-rows:
 # %3: 
 lines-constraints-summary:
   - %1
-  - "व्यवरोध"
+  - $1: "व्यवरोध"
   - %2
 
 # 
@@ -1334,7 +1334,7 @@ lines-constraints:
 # %2: 
 bigop:
   - %1
-  - "का फलन"
+  - $1: "का फलन"
   - %2 (pause:short)
 
 # 
@@ -1343,9 +1343,9 @@ bigop:
 # %3: 
 limboth:
   - %1
-  - "से"
+  - $1: "से"
   - %2
-  - "से"
+  - $2: "से"
   - %3
 
 # 
@@ -1353,7 +1353,7 @@ limboth:
 # %2: 
 limlower:
   - %1
-  - "के हर में"
+  - $1: "के हर में"
   - %2 (pause:short)
 
 # 
@@ -1361,7 +1361,7 @@ limlower:
 # %2: 
 limupper:
   - %1
-  - "के निचे"
+  - $1: "के निचे"
   - %2 (pause:short)
 
 # 
@@ -1369,7 +1369,7 @@ limupper:
 # %2: 
 integral:
   - %1
-  - "का फलन"
+  - $1: "का फलन"
   - %2 (pause:short)
 
 # 
@@ -1377,7 +1377,7 @@ integral:
 # %2: 
 overscript:
   - %1
-  - "के निचे"
+  - $1: "के निचे"
   - %2 (pause:short)
 
 # 
@@ -1385,7 +1385,7 @@ overscript:
 # %2: 
 overscript-limits:
   - %1
-  - "से"
+  - $1: "से"
   - %2
 
 # 
@@ -1393,7 +1393,7 @@ overscript-limits:
 # %2: 
 underscript:
   - %1
-  - "के हर में"
+  - $1: "के हर में"
   - %2 (pause:short)
 
 # 
@@ -1401,7 +1401,7 @@ underscript:
 # %2: 
 underscript-limits:
   - %1
-  - "से"
+  - $1: "से"
   - %2
 
 # 
@@ -1409,60 +1409,60 @@ underscript-limits:
 # %2: 
 mixed-number:
   - %1
-  - "पूर्णांक"
+  - $1: "पूर्णांक"
   - %2
 
 # 
 # %1: 
 number-with-chars:
-  - "संख्या"
+  - $1: "संख्या"
   - %1
 
 # 
 # %1: 
 # %2: 
 decimal-period:
-  - "पुनरावर्तित दशमलव"
+  - $1: "पुनरावर्तित दशमलव"
   - %1
-  - "दशमलव के बाद पुनरावर्तित अंक"
+  - $2: "दशमलव के बाद पुनरावर्तित अंक"
   - %2
 
 # 
 # %1: 
 # %2: 
 decimal-period-float:
-  - "पुनरावर्तित दशमलव"
+  - $1: "पुनरावर्तित दशमलव"
   - %1
-  - "के बाद पुनरावर्तित अंक"
+  - $2: "के बाद पुनरावर्तित अंक"
   - %2
 
 # 
 # %1: 
 # %2: 
 decimal-period-singular:
-  - "पुनरावर्तित दशमलव"
+  - $1: "पुनरावर्तित दशमलव"
   - %1
-  - "दशमलव के बाद पुनरावर्तित अंक"
+  - $2: "दशमलव के बाद पुनरावर्तित अंक"
   - %2
 
 # 
 # %1: 
 # %2: 
 decimal-period-singular-float:
-  - "पुनरावर्तित दशमलव"
+  - $1: "पुनरावर्तित दशमलव"
   - %1
-  - "के बाद पुनरावर्तित अंक"
+  - $2: "के बाद पुनरावर्तित अंक"
   - %2
 
 # 
 decimal-point:
-  - "दशमलव"
+  - $1: "दशमलव"
 
 # 
 # %1: 
 # %2: 
 line-segment:
-  - "रेखाखंड"
+  - $1: "रेखाखंड"
   - %1
   - %2 (pause:short)
 
@@ -1470,71 +1470,71 @@ line-segment:
 # %1: 
 conjugate:
   - %1
-  - "का सम्मिश्र संयुग्मी"
+  - $1: "का सम्मिश्र संयुग्मी"
 
 # 
 defined-by:
-  - "की व्याख्या की जाती है" (pause:short)
+  - $1: "की व्याख्या की जाती है" (pause:short)
 
 # 
 # %1: 
 # %2: 
 adorned-sign:
   - %1
-  - "चिन्ह और"
+  - $1: "चिन्ह और"
   - %2
-  - "इस पर"
+  - $2: "इस पर"
 
 # 
 factorial:
-  - "क्रमगुणित"
+  - $1: "क्रमगुणित"
 
 # 
 # %1: 
 left-super:
-  - "वाम उर्ध्व"
+  - $1: "वाम उर्ध्व"
   - %1
 
 # 
 # %1: 
 left-super-list:
-  - "वाम उर्ध्व"
+  - $1: "वाम उर्ध्व"
   - %1
 
 # 
 # %1: 
 left-sub:
-  - "वाम पाद"
+  - $1: "वाम पाद"
   - %1
 
 # 
 # %1: 
 left-sub-list:
-  - "वाम पाद"
+  - $1: "वाम पाद"
   - %1
 
 # 
 # %1: 
 right-super:
-  - "दक्षिण उर्ध्व"
+  - $1: "दक्षिण उर्ध्व"
   - %1
 
 # 
 # %1: 
 right-super-list:
-  - "दक्षिण उर्ध्व"
+  - $1: "दक्षिण उर्ध्व"
   - %1
 
 # 
 # %1: 
 right-sub:
-  - "दक्षिण पाद"
+  - $1: "दक्षिण पाद"
   - %1
 
 # 
 # %1: 
 right-sub-list:
-  - "दक्षिण पाद"
+  - $1: "दक्षिण पाद"
   - %1
 
 # 
@@ -1542,7 +1542,7 @@ right-sub-list:
 # %2: 
 choose:
   - %1
-  - "चयन करें"
+  - $1: "चयन करें"
   - %2
 
 # 
@@ -1550,31 +1550,31 @@ choose:
 # %2: 
 permute:
   - %1
-  - "क्रमचय"
+  - $1: "क्रमचय"
   - %2
 
 # 
 # %1: 
 unit-square:
-  - "वर्ग"
+  - $1: "वर्ग"
   - %1
 
 # 
 # %1: 
 unit-cubic:
-  - "घन"
+  - $1: "घन"
   - %1
 
 # 
 # %1: 
 unit-reciprocal:
-  - "व्युत्क्रम"
+  - $1: "व्युत्क्रम"
   - %1
 
 # 
 # %1: 
 unit-reciprocal-singular:
-  - "प्रति"
+  - $1: "प्रति"
   - %1 (grammar:singular)
 
 # 
@@ -1582,5 +1582,5 @@ unit-reciprocal-singular:
 # %2: 
 unit-divide:
   - %1
-  - "प्रति"
+  - $1: "प्रति"
   - %2 (grammar:singular)

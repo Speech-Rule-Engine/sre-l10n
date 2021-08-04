@@ -3,10 +3,10 @@
     "%1"
   ],
   "blank-cell-empty": [
-    "\"vuoto\""
+    "$1: \"vuoto\""
   ],
   "blank-line-empty": [
-    "\"vuoto\""
+    "$1: \"vuoto\""
   ],
   "font": [
     "%1",
@@ -22,64 +22,64 @@
   ],
   "mixed-number": [
     "%1",
-    "\"e\"",
+    "$1: \"e\"",
     "%2"
   ],
   "number-with-chars": [
-    "\"numero\"",
+    "$1: \"numero\"",
     "%1"
   ],
   "number-with-chars-brief": [
-    "\"num\"",
+    "$1: \"num\"",
     "%1"
   ],
   "number-as-upper-word": [
-    "\"parolaMaiuscolo\"",
+    "$1: \"parolaMaiuscolo\"",
     "%1"
   ],
   "number-baseline": [
-    "\"linea di base\"",
+    "$1: \"linea di base\"",
     "%1"
   ],
   "number-baseline-brief": [
-    "\"base\"",
+    "$1: \"base\"",
     "%1"
   ],
   "number-baseline-font": [
-    "\"linea di base\"",
+    "$1: \"linea di base\"",
     "%1",
     "%2"
   ],
   "number-baseline-font-brief": [
-    "\"base\"",
+    "$1: \"base\"",
     "%1",
     "%2"
   ],
   "negative-number": [
-    "\"meno\"",
+    "$1: \"meno\"",
     "%1"
   ],
   "negative": [
-    "\"meno\"",
+    "$1: \"meno\"",
     "%1"
   ],
   "division": [
     "%1",
-    "\"diviso per\"",
+    "$1: \"diviso per\"",
     "%2"
   ],
   "subtraction": [
     "%1 (separator:\"meno\")"
   ],
   "fences-neutral": [
-    "\"inizio valore assoluto\"",
+    "$1: \"inizio valore assoluto\"",
     "%1",
-    "\"fine valore assoluto\""
+    "$2: \"fine valore assoluto\""
   ],
   "fences-neutral-sbrief": [
-    "\"valore assoluto\"",
+    "$1: \"valore assoluto\"",
     "%1",
-    "\"fine valore assoluto\""
+    "$2: \"fine valore assoluto\""
   ],
   "fences-metric": [
     "%1",
@@ -87,55 +87,55 @@
     "%3"
   ],
   "empty-set": [
-    "\"insieme vuoto\""
+    "$1: \"insieme vuoto\""
   ],
   "fences-set": [
-    "\"inizio insieme\"",
+    "$1: \"inizio insieme\"",
     "%1",
-    "\"fine insieme\""
+    "$2: \"fine insieme\""
   ],
   "fences-set-sbrief": [
-    "\"insieme\"",
+    "$1: \"insieme\"",
     "%1",
-    "\"fine insieme\""
+    "$2: \"fine insieme\""
   ],
   "factorial": [
-    "\"fattoriale\""
+    "$1: \"fattoriale\""
   ],
   "minus": [
-    "\"meno\""
+    "$1: \"meno\""
   ],
   "vulgar-fraction": [
     "%1 (grammar:gender=\"m\")"
   ],
   "continued-fraction-outer": [
-    "\"continuo frazione\"",
+    "$1: \"continuo frazione\"",
     "%1",
-    "\"fratto\"",
+    "$2: \"fratto\"",
     "%2"
   ],
   "continued-fraction-outer-brief": [
-    "\"continuo frazione\"",
+    "$1: \"continuo frazione\"",
     "%1",
-    "\"fratto\"",
+    "$2: \"fratto\"",
     "%2"
   ],
   "continued-fraction-inner": [
-    "\"inizio frazione\"",
+    "$1: \"inizio frazione\"",
     "%1",
-    "\"fratto\"",
+    "$2: \"fratto\"",
     "%2"
   ],
   "continued-fraction-inner-brief": [
-    "\"inizio frazione\"",
+    "$1: \"inizio frazione\"",
     "%1",
-    "\"fratto\"",
+    "$2: \"fratto\"",
     "%2"
   ],
   "continued-fraction-inner-sbrief": [
-    "\"frazione\"",
+    "$1: \"frazione\"",
     "%1",
-    "\"fratto\"",
+    "$2: \"fratto\"",
     "%2"
   ],
   "limboth": [
@@ -161,46 +161,46 @@
     "%3",
     "%4",
     "%5",
-    "\"fine script\""
+    "$1: \"fine script\""
   ],
   "limlower-end": [
     "%1",
     "%2",
     "%3",
-    "\"fine script\""
+    "$1: \"fine script\""
   ],
   "limupper-end": [
     "%1",
     "%2",
     "%3",
-    "\"fine script\""
+    "$1: \"fine script\""
   ],
   "integral": [
     "%1",
-    "\"pedice\"",
+    "$1: \"pedice\"",
     "%2",
-    "\"apice\"",
+    "$2: \"apice\"",
     "%3",
-    "\"linea di base\""
+    "$3: \"linea di base\""
   ],
   "integral-brief": [
     "%1",
-    "\"sub\"",
+    "$1: \"sub\"",
     "%2",
-    "\"sup\"",
+    "$2: \"sup\"",
     "%3",
-    "\"base\""
+    "$3: \"base\""
   ],
   "logarithm-base": [
     "%1",
-    "\"base\"",
+    "$1: \"base\"",
     "%2"
   ],
   "squared-masculine": [
-    "\"quadrato\""
+    "$1: \"quadrato\""
   ],
   "squared-feminine": [
-    "\"quadrata\""
+    "$1: \"quadrata\""
   ],
   "square": [
     "%1",
@@ -208,287 +208,287 @@
   ],
   "cube": [
     "%1",
-    "\"cubo\""
+    "$1: \"cubo\""
   ],
   "prime": [
     "%1",
     "%2"
   ],
   "double-prime": [
-    "\"doppio primo\""
+    "$1: \"doppio primo\""
   ],
   "triple-prime": [
-    "\"triplo primo\""
+    "$1: \"triplo primo\""
   ],
   "quadruple-prime": [
-    "\"quattro volte primo\""
+    "$1: \"quattro volte primo\""
   ],
   "counted-prime": [
     "%1",
-    "\"primo\""
+    "$1: \"primo\""
   ],
   "counted-prime-multichar": [
     "%1",
-    "\"primo\""
+    "$1: \"primo\""
   ],
   "overscore": [
-    "\"modificante sopra\"",
+    "$1: \"modificante sopra\"",
     "%1",
-    "\"con\"",
+    "$2: \"con\"",
     "%2"
   ],
   "overscore-brief": [
-    "\"mod sopra\"",
+    "$1: \"mod sopra\"",
     "%1",
-    "\"con\"",
+    "$2: \"con\"",
     "%2"
   ],
   "double-overscore": [
-    "\"modificante sopra sopra\"",
+    "$1: \"modificante sopra sopra\"",
     "%1",
-    "\"con\"",
+    "$2: \"con\"",
     "%2"
   ],
   "double-overscore-brief": [
-    "\"mod sopra sopra\"",
+    "$1: \"mod sopra sopra\"",
     "%1",
-    "\"con\"",
+    "$2: \"con\"",
     "%2"
   ],
   "underscore": [
-    "\"modificanteSotto\"",
+    "$1: \"modificanteSotto\"",
     "%1",
-    "\"con\"",
+    "$2: \"con\"",
     "%2"
   ],
   "underscore-brief": [
-    "\"modSotto\"",
+    "$1: \"modSotto\"",
     "%1",
-    "\"con\"",
+    "$2: \"con\"",
     "%2"
   ],
   "double-underscore": [
-    "\"modificanteSotto sotto\"",
+    "$1: \"modificanteSotto sotto\"",
     "%1",
-    "\"con\"",
+    "$2: \"con\"",
     "%2"
   ],
   "double-underscore-brief": [
-    "\"modSotto sotto\"",
+    "$1: \"modSotto sotto\"",
     "%1",
-    "\"con\"",
+    "$2: \"con\"",
     "%2"
   ],
   "overbar": [
     "%1",
-    "\"con barra sopra\""
+    "$1: \"con barra sopra\""
   ],
   "underbar": [
     "%1",
-    "\"con barra sotto\""
+    "$1: \"con barra sotto\""
   ],
   "overtilde": [
     "%1",
-    "\"con tilde sopra\""
+    "$1: \"con tilde sopra\""
   ],
   "undertilde": [
     "%1",
-    "\"con tilde sotto\""
+    "$1: \"con tilde sotto\""
   ],
   "matrix": [
-    "\"inizio\"",
+    "$1: \"inizio\"",
     "%1",
-    "\"per\"",
+    "$2: \"per\"",
     "%2",
-    "\"matrice\"",
+    "$3: \"matrice\"",
     "%3 (context:\"riga \")",
-    "\"fine matrice\""
+    "$4: \"fine matrice\""
   ],
   "matrix-sbrief": [
     "%1",
-    "\"per\"",
+    "$1: \"per\"",
     "%2",
-    "\"matrice\"",
+    "$2: \"matrice\"",
     "%3 (context:\"riga \")",
-    "\"fine matrice\""
+    "$3: \"fine matrice\""
   ],
   "matrix-row": [
     "%1 (context:\"colonna\", pause:200)"
   ],
   "row-with-label": [
-    "\"con etichetta\"",
+    "$1: \"con etichetta\"",
     "%1",
-    "\"fine etichetta\" (pause:200)",
+    "$2: \"fine etichetta\" (pause:200)",
     "%2 (context:\"colonna\")"
   ],
   "row-with-label-brief": [
-    "\"etichetta\"",
+    "$1: \"etichetta\"",
     "%1",
     "%2 (context:\"colonna\")"
   ],
   "row-with-text-label": [
-    "\"etichetta\"",
+    "$1: \"etichetta\"",
     "%1",
     "%2 (context:\"colonna\")"
   ],
   "empty-row": [
-    "\"vuoto\""
+    "$1: \"vuoto\""
   ],
   "empty-cell": [
-    "\"vuoto\" (pause:300)"
+    "$1: \"vuoto\" (pause:300)"
   ],
   "determinant": [
-    "\"inizio\"",
+    "$1: \"inizio\"",
     "%1",
-    "\"per\"",
+    "$2: \"per\"",
     "%2",
-    "\"determinante\"",
+    "$3: \"determinante\"",
     "%3 (context:\"riga \")",
-    "\"fine determinante\""
+    "$4: \"fine determinante\""
   ],
   "determinant-sbrief": [
     "%1",
-    "\"per\"",
+    "$1: \"per\"",
     "%2",
-    "\"determinante\"",
+    "$2: \"determinante\"",
     "%3 (context:\"riga \")",
-    "\"fine determinante\""
+    "$3: \"fine determinante\""
   ],
   "determinant-simple": [
-    "\"inizio\"",
+    "$1: \"inizio\"",
     "%1",
-    "\"per\"",
+    "$2: \"per\"",
     "%2",
-    "\"determinante\"",
+    "$3: \"determinante\"",
     "%3 (context:\"riga\")",
-    "\"fine determinante\""
+    "$4: \"fine determinante\""
   ],
   "determinant-simple-sbrief": [
     "%1",
-    "\"per\"",
+    "$1: \"per\"",
     "%2",
-    "\"determinante\"",
+    "$2: \"determinante\"",
     "%3 (context:\"riga\")",
-    "\"fine determinante\""
+    "$3: \"fine determinante\""
   ],
   "layout": [
-    "\"inizio layout\"",
+    "$1: \"inizio layout\"",
     "%1 (context:\"row \")",
-    "\"fine layout\""
+    "$2: \"fine layout\""
   ],
   "layout-sbrief": [
-    "\"layout\"",
+    "$1: \"layout\"",
     "%1 (context:\"row \")",
-    "\"fine layout\""
+    "$2: \"fine layout\""
   ],
   "binomial": [
-    "\"inizio binomiale o matrice\"",
+    "$1: \"inizio binomiale o matrice\"",
     "%1",
-    "\"scelta\"",
+    "$2: \"scelta\"",
     "%2",
-    "\"fine binomiale o matrice\""
+    "$3: \"fine binomiale o matrice\""
   ],
   "binomial-sbrief": [
-    "\"bInomiale o matrice\"",
+    "$1: \"bInomiale o matrice\"",
     "%1",
-    "\"scelta\"",
+    "$2: \"scelta\"",
     "%2",
-    "\"fine binomiale o matrice\""
+    "$3: \"fine binomiale o matrice\""
   ],
   "cases": [
-    "\"inizio layout\"",
-    "\"allargato\"",
+    "$1: \"inizio layout\"",
+    "$2: \"allargato\"",
     "%1",
     "%2 (context:\"row \")",
-    "\"fine layout\""
+    "$3: \"fine layout\""
   ],
   "cases-sbrief": [
-    "\"layout\"",
-    "\"allargato\"",
+    "$1: \"layout\"",
+    "$2: \"allargato\"",
     "%1",
     "%2 (context:\"row \")",
-    "\"fine layout\""
+    "$3: \"fine layout\""
   ],
   "line-with-label": [
-    "\"con etichetta\"",
+    "$1: \"con etichetta\"",
     "%1",
-    "\"fine etichetta\" (pause:200)",
+    "$2: \"fine etichetta\" (pause:200)",
     "%2"
   ],
   "line-with-label-brief": [
-    "\"etichetta\"",
+    "$1: \"etichetta\"",
     "%1 (pause:200)",
     "%2"
   ],
   "line-with-text-label": [
-    "\"etichetta\"",
+    "$1: \"etichetta\"",
     "%1",
     "%2"
   ],
   "empty-line": [
-    "\"vuoto\""
+    "$1: \"vuoto\""
   ],
   "empty-line-with-label": [
-    "\"con etichetta\"",
+    "$1: \"con etichetta\"",
     "%1",
-    "\"fine etichetta\" (pause:200)",
-    "\"vuoto\""
+    "$2: \"fine etichetta\" (pause:200)",
+    "$3: \"vuoto\""
   ],
   "empty-line-with-label-brief": [
-    "\"etichetta\"",
+    "$1: \"etichetta\"",
     "%1 (pause:200)",
-    "\"vuoto\""
+    "$2: \"vuoto\""
   ],
   "enclose": [
-    "\"inizio chiuso\"",
+    "$1: \"inizio chiuso\"",
     "%1",
     "%2",
-    "\"fine chiuso\""
+    "$2: \"fine chiuso\""
   ],
   "leftbar": [
-    "\"barra vericale\"",
+    "$1: \"barra vericale\"",
     "%1"
   ],
   "rightbar": [
     "%1",
-    "\"barra vericale\""
+    "$1: \"barra vericale\""
   ],
   "crossout": [
-    "\"cancellato\"",
+    "$1: \"cancellato\"",
     "%1",
-    "\"fine cancellato\""
+    "$2: \"fine cancellato\""
   ],
   "cancel": [
-    "\"cancellato\"",
+    "$1: \"cancellato\"",
     "%1",
-    "\"con\"",
+    "$2: \"con\"",
     "%2",
-    "\"fine cancellato\""
+    "$3: \"fine cancellato\""
   ],
   "cancel-reverse": [
-    "\"cancellato\"",
+    "$1: \"cancellato\"",
     "%1",
-    "\"con\"",
+    "$2: \"con\"",
     "%2",
-    "\"fine cancellato\""
+    "$3: \"fine cancellato\""
   ],
   "multi-inference": [
-    "\"regola di inferenza\"",
+    "$1: \"regola di inferenza\"",
     "%1",
-    "\"con conclusione\"",
+    "$2: \"con conclusione\"",
     "%2",
-    "\"e\"",
+    "$3: \"e\"",
     "%3",
-    "\"premesse\""
+    "$4: \"premesse\""
   ],
   "inference": [
-    "\"regola di inferenza\"",
+    "$1: \"regola di inferenza\"",
     "%1",
-    "\"con conclusione\"",
+    "$2: \"con conclusione\"",
     "%2",
-    "\"e\"",
+    "$3: \"e\"",
     "%3",
-    "\"premessa\""
+    "$4: \"premessa\""
   ],
   "premise": [
     "%1 (context:\"premise \")"
@@ -497,14 +497,14 @@
     "%1"
   ],
   "label": [
-    "\"etichetta\"",
+    "$1: \"etichetta\"",
     "%1"
   ],
   "axiom": [
-    "\"assioma\"",
+    "$1: \"assioma\"",
     "%1"
   ],
   "empty-axiom": [
-    "\"assioma vuoto\""
+    "$1: \"assioma vuoto\""
   ]
 }

@@ -1,13 +1,13 @@
 {
   "collapsed": [
-    "\"collapsed\"",
+    "$1: \"collapsed\"",
     "%1"
   ],
   "blank-cell-empty": [
-    "\"Blank\""
+    "$1: \"Blank\""
   ],
   "blank-line-empty": [
-    "\"Blank\""
+    "$1: \"Blank\""
   ],
   "font": [
     "%1",
@@ -22,131 +22,131 @@
     "%2"
   ],
   "german-font": [
-    "\"German\"",
+    "$1: \"German\"",
     "%1"
   ],
   "german-font-bold": [
-    "\"bold German\"",
+    "$1: \"bold German\"",
     "%1"
   ],
   "mixed-number": [
     "%1",
-    "\"and\"",
+    "$1: \"and\"",
     "%2"
   ],
   "number-with-chars": [
-    "\"Number\"",
+    "$1: \"Number\"",
     "%1"
   ],
   "number-with-chars-brief": [
-    "\"Num\"",
+    "$1: \"Num\"",
     "%1"
   ],
   "number-as-upper-word": [
-    "\"UpperWord\"",
+    "$1: \"UpperWord\"",
     "%1"
   ],
   "number-baseline": [
-    "\"Baseline\"",
+    "$1: \"Baseline\"",
     "%1"
   ],
   "number-baseline-brief": [
-    "\"Base\"",
+    "$1: \"Base\"",
     "%1"
   ],
   "number-baseline-font": [
-    "\"Baseline\"",
+    "$1: \"Baseline\"",
     "%1",
     "%2"
   ],
   "number-baseline-font-brief": [
-    "\"Base\"",
+    "$1: \"Base\"",
     "%1",
     "%2"
   ],
   "negative-number": [
-    "\"negative\"",
+    "$1: \"negative\"",
     "%1"
   ],
   "negative": [
-    "\"minus\"",
+    "$1: \"minus\"",
     "%1"
   ],
   "division": [
     "%1",
-    "\"divided by\"",
+    "$1: \"divided by\"",
     "%2"
   ],
   "subtraction": [
     "%1 (separator:\"minus\")"
   ],
   "fences-neutral": [
-    "\"StartAbsoluteValue\"",
+    "$1: \"StartAbsoluteValue\"",
     "%1",
-    "\"EndAbsoluteValue\""
+    "$2: \"EndAbsoluteValue\""
   ],
   "fences-neutral-sbrief": [
-    "\"AbsoluteValue\"",
+    "$1: \"AbsoluteValue\"",
     "%1",
-    "\"EndAbsoluteValue\""
+    "$2: \"EndAbsoluteValue\""
   ],
   "fences-metric": [
-    "\"StartMetric\"",
+    "$1: \"StartMetric\"",
     "%1",
-    "\"EndMetric\""
+    "$2: \"EndMetric\""
   ],
   "fences-metric-sbrief": [
-    "\"Metric\"",
+    "$1: \"Metric\"",
     "%1",
-    "\"EndMetric\""
+    "$2: \"EndMetric\""
   ],
   "empty-set": [
-    "\"empty set\""
+    "$1: \"empty set\""
   ],
   "fences-set": [
-    "\"StartSet\"",
+    "$1: \"StartSet\"",
     "%1",
-    "\"EndSet\""
+    "$2: \"EndSet\""
   ],
   "fences-set-sbrief": [
-    "\"Set\"",
+    "$1: \"Set\"",
     "%1",
-    "\"EndSet\""
+    "$2: \"EndSet\""
   ],
   "factorial": [
-    "\"factorial\""
+    "$1: \"factorial\""
   ],
   "minus": [
-    "\"minus\""
+    "$1: \"minus\""
   ],
   "continued-fraction-outer": [
-    "\"ContinuedFraction\"",
+    "$1: \"ContinuedFraction\"",
     "%1",
-    "\"Over\"",
+    "$2: \"Over\"",
     "%2"
   ],
   "continued-fraction-outer-brief": [
-    "\"ContinuedFrac\"",
+    "$1: \"ContinuedFrac\"",
     "%1",
-    "\"Over\"",
+    "$2: \"Over\"",
     "%2"
   ],
   "continued-fraction-inner": [
-    "\"StartFraction\"",
+    "$1: \"StartFraction\"",
     "%1",
-    "\"Over\"",
+    "$2: \"Over\"",
     "%2"
   ],
   "continued-fraction-inner-brief": [
-    "\"StartFrac\"",
+    "$1: \"StartFrac\"",
     "%1",
-    "\"Over\"",
+    "$2: \"Over\"",
     "%2"
   ],
   "continued-fraction-inner-sbrief": [
-    "\"Frac\"",
+    "$1: \"Frac\"",
     "%1",
-    "\"Over\"",
+    "$2: \"Over\"",
     "%2"
   ],
   "limboth": [
@@ -172,323 +172,323 @@
     "%3",
     "%4",
     "%5",
-    "\"Endscripts\""
+    "$1: \"Endscripts\""
   ],
   "limlower-end": [
     "%1",
     "%2",
     "%3",
-    "\"Endscripts\""
+    "$1: \"Endscripts\""
   ],
   "limupper-end": [
     "%1",
     "%2",
     "%3",
-    "\"Endscripts\""
+    "$1: \"Endscripts\""
   ],
   "integral": [
     "%1",
-    "\"Subscript\"",
+    "$1: \"Subscript\"",
     "%2",
-    "\"Superscript\"",
+    "$2: \"Superscript\"",
     "%3",
-    "\"Baseline\""
+    "$3: \"Baseline\""
   ],
   "integral-brief": [
     "%1",
-    "\"Sub\"",
+    "$1: \"Sub\"",
     "%2",
-    "\"Sup\"",
+    "$2: \"Sup\"",
     "%3",
-    "\"Base\""
+    "$3: \"Base\""
   ],
   "square": [
     "%1",
-    "\"squared\""
+    "$1: \"squared\""
   ],
   "cube": [
     "%1",
-    "\"cubed\""
+    "$1: \"cubed\""
   ],
   "prime": [
     "%1",
     "%2"
   ],
   "double-prime": [
-    "\"double prime\""
+    "$1: \"double prime\""
   ],
   "triple-prime": [
-    "\"triple prime\""
+    "$1: \"triple prime\""
   ],
   "quadruple-prime": [
-    "\"quadruple prime\""
+    "$1: \"quadruple prime\""
   ],
   "counted-prime": [
     "%1",
-    "\"prime\""
+    "$1: \"prime\""
   ],
   "counted-prime-multichar": [
     "%1",
-    "\"prime\""
+    "$1: \"prime\""
   ],
   "overscore": [
-    "\"ModifyingAbove\"",
+    "$1: \"ModifyingAbove\"",
     "%1",
-    "\"With\"",
+    "$2: \"With\"",
     "%2"
   ],
   "overscore-brief": [
-    "\"ModAbove\"",
+    "$1: \"ModAbove\"",
     "%1",
-    "\"With\"",
+    "$2: \"With\"",
     "%2"
   ],
   "double-overscore": [
-    "\"ModifyingAbove Above\"",
+    "$1: \"ModifyingAbove Above\"",
     "%1",
-    "\"With\"",
+    "$2: \"With\"",
     "%2"
   ],
   "double-overscore-brief": [
-    "\"ModAbove Above\"",
+    "$1: \"ModAbove Above\"",
     "%1",
-    "\"With\"",
+    "$2: \"With\"",
     "%2"
   ],
   "underscore": [
-    "\"ModifyingBelow\"",
+    "$1: \"ModifyingBelow\"",
     "%1",
-    "\"With\"",
+    "$2: \"With\"",
     "%2"
   ],
   "underscore-brief": [
-    "\"ModBelow\"",
+    "$1: \"ModBelow\"",
     "%1",
-    "\"With\"",
+    "$2: \"With\"",
     "%2"
   ],
   "double-underscore": [
-    "\"ModifyingBelow Below\"",
+    "$1: \"ModifyingBelow Below\"",
     "%1",
-    "\"With\"",
+    "$2: \"With\"",
     "%2"
   ],
   "double-underscore-brief": [
-    "\"ModBelow Below\"",
+    "$1: \"ModBelow Below\"",
     "%1",
-    "\"With\"",
+    "$2: \"With\"",
     "%2"
   ],
   "overbar": [
     "%1",
-    "\"overbar\""
+    "$1: \"overbar\""
   ],
   "underbar": [
     "%1",
-    "\"underbar\""
+    "$1: \"underbar\""
   ],
   "overtilde": [
     "%1",
-    "\"overtilde\""
+    "$1: \"overtilde\""
   ],
   "undertilde": [
     "%1",
-    "\"undertilde\""
+    "$1: \"undertilde\""
   ],
   "matrix": [
-    "\"Start\"",
+    "$1: \"Start\"",
     "%1",
-    "\"By\"",
+    "$2: \"By\"",
     "%2",
-    "\"Matrix\"",
+    "$3: \"Matrix\"",
     "%3 (context:\"Row \")",
-    "\"EndMatrix\""
+    "$4: \"EndMatrix\""
   ],
   "matrix-sbrief": [
     "%1",
-    "\"By\"",
+    "$1: \"By\"",
     "%2",
-    "\"Matrix\"",
+    "$2: \"Matrix\"",
     "%3 (context:\"Row \")",
-    "\"EndMatrix\""
+    "$3: \"EndMatrix\""
   ],
   "matrix-row": [
     "%1 (context:\"Column\", pause:200)"
   ],
   "row-with-label": [
-    "\"with Label\"",
+    "$1: \"with Label\"",
     "%1",
-    "\"EndLabel\" (pause:200)",
+    "$2: \"EndLabel\" (pause:200)",
     "%2 (context:\"Column\")"
   ],
   "row-with-label-brief": [
-    "\"Label\"",
+    "$1: \"Label\"",
     "%1",
     "%2 (context:\"Column\")"
   ],
   "row-with-text-label": [
-    "\"Label\"",
+    "$1: \"Label\"",
     "%1",
     "%2 (context:\"Column\")"
   ],
   "empty-row": [
-    "\"Blank\""
+    "$1: \"Blank\""
   ],
   "empty-cell": [
-    "\"Blank\" (pause:300)"
+    "$1: \"Blank\" (pause:300)"
   ],
   "determinant": [
-    "\"Start\"",
+    "$1: \"Start\"",
     "%1",
-    "\"By\"",
+    "$2: \"By\"",
     "%2",
-    "\"Determinant\"",
+    "$3: \"Determinant\"",
     "%3 (context:\"Row \")",
-    "\"EndDeterminant\""
+    "$4: \"EndDeterminant\""
   ],
   "determinant-sbrief": [
     "%1",
-    "\"By\"",
+    "$1: \"By\"",
     "%2",
-    "\"Determinant\"",
+    "$2: \"Determinant\"",
     "%3 (context:\"Row \")",
-    "\"EndDeterminant\""
+    "$3: \"EndDeterminant\""
   ],
   "determinant-simple": [
-    "\"Start\"",
+    "$1: \"Start\"",
     "%1",
-    "\"By\"",
+    "$2: \"By\"",
     "%2",
-    "\"Determinant\"",
+    "$3: \"Determinant\"",
     "%3 (context:\"Row\")",
-    "\"EndDeterminant\""
+    "$4: \"EndDeterminant\""
   ],
   "determinant-simple-sbrief": [
     "%1",
-    "\"By\"",
+    "$1: \"By\"",
     "%2",
-    "\"Determinant\"",
+    "$2: \"Determinant\"",
     "%3 (context:\"Row\")",
-    "\"EndDeterminant\""
+    "$3: \"EndDeterminant\""
   ],
   "layout": [
-    "\"StartLayout\"",
+    "$1: \"StartLayout\"",
     "%1 (context:\"Row \")",
-    "\"EndLayout\""
+    "$2: \"EndLayout\""
   ],
   "layout-sbrief": [
-    "\"Layout\"",
+    "$1: \"Layout\"",
     "%1 (context:\"Row \")",
-    "\"EndLayout\""
+    "$2: \"EndLayout\""
   ],
   "binomial": [
-    "\"StartBinomialOrMatrix\"",
+    "$1: \"StartBinomialOrMatrix\"",
     "%1",
-    "\"Choose\"",
+    "$2: \"Choose\"",
     "%2",
-    "\"EndBinomialOrMatrix\""
+    "$3: \"EndBinomialOrMatrix\""
   ],
   "binomial-sbrief": [
-    "\"BinomialOrMatrix\"",
+    "$1: \"BinomialOrMatrix\"",
     "%1",
-    "\"Choose\"",
+    "$2: \"Choose\"",
     "%2",
-    "\"EndBinomialOrMatrix\""
+    "$3: \"EndBinomialOrMatrix\""
   ],
   "cases": [
-    "\"StartLayout\"",
-    "\"Enlarged\"",
+    "$1: \"StartLayout\"",
+    "$2: \"Enlarged\"",
     "%1",
     "%2 (context:\"Row \")",
-    "\"EndLayout\""
+    "$3: \"EndLayout\""
   ],
   "cases-sbrief": [
-    "\"Layout\"",
-    "\"Enlarged\"",
+    "$1: \"Layout\"",
+    "$2: \"Enlarged\"",
     "%1",
     "%2 (context:\"Row \")",
-    "\"EndLayout\""
+    "$3: \"EndLayout\""
   ],
   "line-with-label": [
-    "\"with Label\"",
+    "$1: \"with Label\"",
     "%1",
-    "\"EndLabel\" (pause:200)",
+    "$2: \"EndLabel\" (pause:200)",
     "%2"
   ],
   "line-with-label-brief": [
-    "\"Label\"",
+    "$1: \"Label\"",
     "%1 (pause:200)",
     "%2"
   ],
   "line-with-text-label": [
-    "\"Label\"",
+    "$1: \"Label\"",
     "%1",
     "%2"
   ],
   "empty-line": [
-    "\"Blank\""
+    "$1: \"Blank\""
   ],
   "empty-line-with-label": [
-    "\"with Label\"",
+    "$1: \"with Label\"",
     "%1",
-    "\"EndLabel\" (pause:200)",
-    "\"Blank\""
+    "$2: \"EndLabel\" (pause:200)",
+    "$3: \"Blank\""
   ],
   "empty-line-with-label-brief": [
-    "\"Label\"",
+    "$1: \"Label\"",
     "%1 (pause:200)",
-    "\"Blank\""
+    "$2: \"Blank\""
   ],
   "enclose": [
-    "\"StartEnclose\"",
+    "$1: \"StartEnclose\"",
     "%1",
     "%2",
-    "\"EndEnclose\""
+    "$2: \"EndEnclose\""
   ],
   "leftbar": [
-    "\"vertical bar\"",
+    "$1: \"vertical bar\"",
     "%1"
   ],
   "rightbar": [
     "%1",
-    "\"vertical bar\""
+    "$1: \"vertical bar\""
   ],
   "crossout": [
-    "\"CrossOut\"",
+    "$1: \"CrossOut\"",
     "%1",
-    "\"EndCrossOut\""
+    "$2: \"EndCrossOut\""
   ],
   "cancel": [
-    "\"CrossOut\"",
+    "$1: \"CrossOut\"",
     "%1",
-    "\"With\"",
+    "$2: \"With\"",
     "%2",
-    "\"EndCrossOut\""
+    "$3: \"EndCrossOut\""
   ],
   "cancel-reverse": [
-    "\"CrossOut\"",
+    "$1: \"CrossOut\"",
     "%1",
-    "\"With\"",
+    "$2: \"With\"",
     "%2",
-    "\"EndCrossOut\""
+    "$3: \"EndCrossOut\""
   ],
   "multi-inference": [
-    "\"inference rule\"",
+    "$1: \"inference rule\"",
     "%1",
-    "\"with conclusion\"",
+    "$2: \"with conclusion\"",
     "%2",
-    "\"and\"",
+    "$3: \"and\"",
     "%3",
-    "\"premises\""
+    "$4: \"premises\""
   ],
   "inference": [
-    "\"inference rule\"",
+    "$1: \"inference rule\"",
     "%1",
-    "\"with conclusion\"",
+    "$2: \"with conclusion\"",
     "%2",
-    "\"and\"",
+    "$3: \"and\"",
     "%3",
-    "\"premise\""
+    "$4: \"premise\""
   ],
   "premise": [
     "%1 (context:\"premise \")"
@@ -497,14 +497,14 @@
     "%1"
   ],
   "label": [
-    "\"label\"",
+    "$1: \"label\"",
     "%1"
   ],
   "axiom": [
-    "\"axiom\"",
+    "$1: \"axiom\"",
     "%1"
   ],
   "empty-axiom": [
-    "\"empty axiom\""
+    "$1: \"empty axiom\""
   ]
 }

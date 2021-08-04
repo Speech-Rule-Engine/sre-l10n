@@ -3,16 +3,16 @@
 # 
 # %1: 
 collapsed:
-  - "collapsed"
+  - $1: "collapsed"
   - %1
 
 # 
 blank-cell-empty:
-  - "Blank"
+  - $1: "Blank"
 
 # 
 blank-line-empty:
-  - "Blank"
+  - $1: "Blank"
 
 # 
 # %1: 
@@ -38,13 +38,13 @@ font-identifier:
 # 
 # %1: 
 german-font:
-  - "German"
+  - $1: "German"
   - %1
 
 # 
 # %1: 
 german-font-bold:
-  - "bold German"
+  - $1: "bold German"
   - %1
 
 # 
@@ -52,44 +52,44 @@ german-font-bold:
 # %2: 
 mixed-number:
   - %1
-  - "and"
+  - $1: "and"
   - %2
 
 # 
 # %1: 
 number-with-chars:
-  - "Number"
+  - $1: "Number"
   - %1
 
 # 
 # %1: 
 number-with-chars-brief:
-  - "Num"
+  - $1: "Num"
   - %1
 
 # 
 # %1: 
 number-as-upper-word:
-  - "UpperWord"
+  - $1: "UpperWord"
   - %1
 
 # 
 # %1: 
 number-baseline:
-  - "Baseline"
+  - $1: "Baseline"
   - %1
 
 # 
 # %1: 
 number-baseline-brief:
-  - "Base"
+  - $1: "Base"
   - %1
 
 # 
 # %1: 
 # %2: 
 number-baseline-font:
-  - "Baseline"
+  - $1: "Baseline"
   - %1
   - %2
 
@@ -97,20 +97,20 @@ number-baseline-font:
 # %1: 
 # %2: 
 number-baseline-font-brief:
-  - "Base"
+  - $1: "Base"
   - %1
   - %2
 
 # 
 # %1: 
 negative-number:
-  - "negative"
+  - $1: "negative"
   - %1
 
 # 
 # %1: 
 negative:
-  - "minus"
+  - $1: "minus"
   - %1
 
 # 
@@ -118,7 +118,7 @@ negative:
 # %2: 
 division:
   - %1
-  - "divided by"
+  - $1: "divided by"
   - %2
 
 # 
@@ -129,102 +129,102 @@ subtraction:
 # 
 # %1: 
 fences-neutral:
-  - "StartAbsoluteValue"
+  - $1: "StartAbsoluteValue"
   - %1
-  - "EndAbsoluteValue"
+  - $2: "EndAbsoluteValue"
 
 # 
 # %1: 
 fences-neutral-sbrief:
-  - "AbsoluteValue"
+  - $1: "AbsoluteValue"
   - %1
-  - "EndAbsoluteValue"
+  - $2: "EndAbsoluteValue"
 
 # 
 # %1: 
 # %2: 
 # %3: 
 fences-metric:
-  - "StartMetric"
+  - $1: "StartMetric"
   - %1
-  - "EndMetric"
+  - $2: "EndMetric"
 
 # 
 # %1: 
 fences-metric-sbrief:
-  - "Metric"
+  - $1: "Metric"
   - %1
-  - "EndMetric"
+  - $2: "EndMetric"
 
 # 
 empty-set:
-  - "empty set"
+  - $1: "empty set"
 
 # 
 # %1: 
 fences-set:
-  - "StartSet"
+  - $1: "StartSet"
   - %1
-  - "EndSet"
+  - $2: "EndSet"
 
 # 
 # %1: 
 fences-set-sbrief:
-  - "Set"
+  - $1: "Set"
   - %1
-  - "EndSet"
+  - $2: "EndSet"
 
 # 
 factorial:
-  - "factorial"
+  - $1: "factorial"
 
 # 
 minus:
-  - "minus"
+  - $1: "minus"
 
 # 
 # %1: 
 # %2: 
 continued-fraction-outer:
-  - "ContinuedFraction"
+  - $1: "ContinuedFraction"
   - %1
-  - "Over"
+  - $2: "Over"
   - %2
 
 # 
 # %1: 
 # %2: 
 continued-fraction-outer-brief:
-  - "ContinuedFrac"
+  - $1: "ContinuedFrac"
   - %1
-  - "Over"
+  - $2: "Over"
   - %2
 
 # 
 # %1: 
 # %2: 
 continued-fraction-inner:
-  - "StartFraction"
+  - $1: "StartFraction"
   - %1
-  - "Over"
+  - $2: "Over"
   - %2
 
 # 
 # %1: 
 # %2: 
 continued-fraction-inner-brief:
-  - "StartFrac"
+  - $1: "StartFrac"
   - %1
-  - "Over"
+  - $2: "Over"
   - %2
 
 # 
 # %1: 
 # %2: 
 continued-fraction-inner-sbrief:
-  - "Frac"
+  - $1: "Frac"
   - %1
-  - "Over"
+  - $2: "Over"
   - %2
 
 # 
@@ -270,7 +270,7 @@ limboth-end:
   - %3
   - %4
   - %5
-  - "Endscripts"
+  - $1: "Endscripts"
 
 # 
 # %1: 
@@ -280,7 +280,7 @@ limlower-end:
   - %1
   - %2
   - %3
-  - "Endscripts"
+  - $1: "Endscripts"
 
 # 
 # %1: 
@@ -290,7 +290,7 @@ limupper-end:
   - %1
   - %2
   - %3
-  - "Endscripts"
+  - $1: "Endscripts"
 
 # 
 # %1: 
@@ -298,11 +298,11 @@ limupper-end:
 # %3: 
 integral:
   - %1
-  - "Subscript"
+  - $1: "Subscript"
   - %2
-  - "Superscript"
+  - $2: "Superscript"
   - %3
-  - "Baseline"
+  - $3: "Baseline"
 
 # 
 # %1: 
@@ -310,23 +310,23 @@ integral:
 # %3: 
 integral-brief:
   - %1
-  - "Sub"
+  - $1: "Sub"
   - %2
-  - "Sup"
+  - $2: "Sup"
   - %3
-  - "Base"
+  - $3: "Base"
 
 # 
 # %1: 
 square:
   - %1
-  - "squared"
+  - $1: "squared"
 
 # 
 # %1: 
 cube:
   - %1
-  - "cubed"
+  - $1: "cubed"
 
 # 
 # %1: 
@@ -337,136 +337,136 @@ prime:
 
 # 
 double-prime:
-  - "double prime"
+  - $1: "double prime"
 
 # 
 triple-prime:
-  - "triple prime"
+  - $1: "triple prime"
 
 # 
 quadruple-prime:
-  - "quadruple prime"
+  - $1: "quadruple prime"
 
 # 
 # %1: 
 counted-prime:
   - %1
-  - "prime"
+  - $1: "prime"
 
 # 
 # %1: 
 counted-prime-multichar:
   - %1
-  - "prime"
+  - $1: "prime"
 
 # 
 # %1: 
 # %2: 
 overscore:
-  - "ModifyingAbove"
+  - $1: "ModifyingAbove"
   - %1
-  - "With"
+  - $2: "With"
   - %2
 
 # 
 # %1: 
 # %2: 
 overscore-brief:
-  - "ModAbove"
+  - $1: "ModAbove"
   - %1
-  - "With"
+  - $2: "With"
   - %2
 
 # 
 # %1: 
 # %2: 
 double-overscore:
-  - "ModifyingAbove Above"
+  - $1: "ModifyingAbove Above"
   - %1
-  - "With"
+  - $2: "With"
   - %2
 
 # 
 # %1: 
 # %2: 
 double-overscore-brief:
-  - "ModAbove Above"
+  - $1: "ModAbove Above"
   - %1
-  - "With"
+  - $2: "With"
   - %2
 
 # 
 # %1: 
 # %2: 
 underscore:
-  - "ModifyingBelow"
+  - $1: "ModifyingBelow"
   - %1
-  - "With"
+  - $2: "With"
   - %2
 
 # 
 # %1: 
 # %2: 
 underscore-brief:
-  - "ModBelow"
+  - $1: "ModBelow"
   - %1
-  - "With"
+  - $2: "With"
   - %2
 
 # 
 # %1: 
 # %2: 
 double-underscore:
-  - "ModifyingBelow Below"
+  - $1: "ModifyingBelow Below"
   - %1
-  - "With"
+  - $2: "With"
   - %2
 
 # 
 # %1: 
 # %2: 
 double-underscore-brief:
-  - "ModBelow Below"
+  - $1: "ModBelow Below"
   - %1
-  - "With"
+  - $2: "With"
   - %2
 
 # 
 # %1: 
 overbar:
   - %1
-  - "overbar"
+  - $1: "overbar"
 
 # 
 # %1: 
 underbar:
   - %1
-  - "underbar"
+  - $1: "underbar"
 
 # 
 # %1: 
 overtilde:
   - %1
-  - "overtilde"
+  - $1: "overtilde"
 
 # 
 # %1: 
 undertilde:
   - %1
-  - "undertilde"
+  - $1: "undertilde"
 
 # 
 # %1: 
 # %2: 
 # %3: 
 matrix:
-  - "Start"
+  - $1: "Start"
   - %1
-  - "By"
+  - $2: "By"
   - %2
-  - "Matrix"
+  - $3: "Matrix"
   - %3 (context:"Row ")
-  - "EndMatrix"
+  - $4: "EndMatrix"
 
 # 
 # %1: 
@@ -474,11 +474,11 @@ matrix:
 # %3: 
 matrix-sbrief:
   - %1
-  - "By"
+  - $1: "By"
   - %2
-  - "Matrix"
+  - $2: "Matrix"
   - %3 (context:"Row ")
-  - "EndMatrix"
+  - $3: "EndMatrix"
 
 # 
 # %1: 
@@ -489,16 +489,16 @@ matrix-row:
 # %1: 
 # %2: 
 row-with-label:
-  - "with Label"
+  - $1: "with Label"
   - %1
-  - "EndLabel" (pause:200)
+  - $2: "EndLabel" (pause:200)
   - %2 (context:"Column")
 
 # 
 # %1: 
 # %2: 
 row-with-label-brief:
-  - "Label"
+  - $1: "Label"
   - %1
   - %2 (context:"Column")
 
@@ -506,30 +506,30 @@ row-with-label-brief:
 # %1: 
 # %2: 
 row-with-text-label:
-  - "Label"
+  - $1: "Label"
   - %1
   - %2 (context:"Column")
 
 # 
 empty-row:
-  - "Blank"
+  - $1: "Blank"
 
 # 
 empty-cell:
-  - "Blank" (pause:300)
+  - $1: "Blank" (pause:300)
 
 # 
 # %1: 
 # %2: 
 # %3: 
 determinant:
-  - "Start"
+  - $1: "Start"
   - %1
-  - "By"
+  - $2: "By"
   - %2
-  - "Determinant"
+  - $3: "Determinant"
   - %3 (context:"Row ")
-  - "EndDeterminant"
+  - $4: "EndDeterminant"
 
 # 
 # %1: 
@@ -537,24 +537,24 @@ determinant:
 # %3: 
 determinant-sbrief:
   - %1
-  - "By"
+  - $1: "By"
   - %2
-  - "Determinant"
+  - $2: "Determinant"
   - %3 (context:"Row ")
-  - "EndDeterminant"
+  - $3: "EndDeterminant"
 
 # 
 # %1: 
 # %2: 
 # %3: 
 determinant-simple:
-  - "Start"
+  - $1: "Start"
   - %1
-  - "By"
+  - $2: "By"
   - %2
-  - "Determinant"
+  - $3: "Determinant"
   - %3 (context:"Row")
-  - "EndDeterminant"
+  - $4: "EndDeterminant"
 
 # 
 # %1: 
@@ -562,80 +562,80 @@ determinant-simple:
 # %3: 
 determinant-simple-sbrief:
   - %1
-  - "By"
+  - $1: "By"
   - %2
-  - "Determinant"
+  - $2: "Determinant"
   - %3 (context:"Row")
-  - "EndDeterminant"
+  - $3: "EndDeterminant"
 
 # 
 # %1: 
 layout:
-  - "StartLayout"
+  - $1: "StartLayout"
   - %1 (context:"Row ")
-  - "EndLayout"
+  - $2: "EndLayout"
 
 # 
 # %1: 
 layout-sbrief:
-  - "Layout"
+  - $1: "Layout"
   - %1 (context:"Row ")
-  - "EndLayout"
+  - $2: "EndLayout"
 
 # 
 # %1: 
 # %2: 
 binomial:
-  - "StartBinomialOrMatrix"
+  - $1: "StartBinomialOrMatrix"
   - %1
-  - "Choose"
+  - $2: "Choose"
   - %2
-  - "EndBinomialOrMatrix"
+  - $3: "EndBinomialOrMatrix"
 
 # 
 # %1: 
 # %2: 
 binomial-sbrief:
-  - "BinomialOrMatrix"
+  - $1: "BinomialOrMatrix"
   - %1
-  - "Choose"
+  - $2: "Choose"
   - %2
-  - "EndBinomialOrMatrix"
+  - $3: "EndBinomialOrMatrix"
 
 # 
 # %1: 
 # %2: 
 cases:
-  - "StartLayout"
-  - "Enlarged"
+  - $1: "StartLayout"
+  - $2: "Enlarged"
   - %1
   - %2 (context:"Row ")
-  - "EndLayout"
+  - $3: "EndLayout"
 
 # 
 # %1: 
 # %2: 
 cases-sbrief:
-  - "Layout"
-  - "Enlarged"
+  - $1: "Layout"
+  - $2: "Enlarged"
   - %1
   - %2 (context:"Row ")
-  - "EndLayout"
+  - $3: "EndLayout"
 
 # 
 # %1: 
 # %2: 
 line-with-label:
-  - "with Label"
+  - $1: "with Label"
   - %1
-  - "EndLabel" (pause:200)
+  - $2: "EndLabel" (pause:200)
   - %2
 
 # 
 # %1: 
 # %2: 
 line-with-label-brief:
-  - "Label"
+  - $1: "Label"
   - %1 (pause:200)
   - %2
 
@@ -643,102 +643,102 @@ line-with-label-brief:
 # %1: 
 # %2: 
 line-with-text-label:
-  - "Label"
+  - $1: "Label"
   - %1
   - %2
 
 # 
 empty-line:
-  - "Blank"
+  - $1: "Blank"
 
 # 
 # %1: 
 empty-line-with-label:
-  - "with Label"
+  - $1: "with Label"
   - %1
-  - "EndLabel" (pause:200)
-  - "Blank"
+  - $2: "EndLabel" (pause:200)
+  - $3: "Blank"
 
 # 
 # %1: 
 empty-line-with-label-brief:
-  - "Label"
+  - $1: "Label"
   - %1 (pause:200)
-  - "Blank"
+  - $2: "Blank"
 
 # 
 # %1: 
 # %2: 
 enclose:
-  - "StartEnclose"
+  - $1: "StartEnclose"
   - %1
   - %2
-  - "EndEnclose"
+  - $2: "EndEnclose"
 
 # 
 # %1: 
 leftbar:
-  - "vertical bar"
+  - $1: "vertical bar"
   - %1
 
 # 
 # %1: 
 rightbar:
   - %1
-  - "vertical bar"
+  - $1: "vertical bar"
 
 # 
 # %1: 
 crossout:
-  - "CrossOut"
+  - $1: "CrossOut"
   - %1
-  - "EndCrossOut"
+  - $2: "EndCrossOut"
 
 # 
 # %1: 
 # %2: 
 cancel:
-  - "CrossOut"
+  - $1: "CrossOut"
   - %1
-  - "With"
+  - $2: "With"
   - %2
-  - "EndCrossOut"
+  - $3: "EndCrossOut"
 
 # 
 # %1: 
 # %2: 
 cancel-reverse:
-  - "CrossOut"
+  - $1: "CrossOut"
   - %1
-  - "With"
+  - $2: "With"
   - %2
-  - "EndCrossOut"
+  - $3: "EndCrossOut"
 
 # 
 # %1: 
 # %2: 
 # %3: 
 multi-inference:
-  - "inference rule"
+  - $1: "inference rule"
   - %1
-  - "with conclusion"
+  - $2: "with conclusion"
   - %2
-  - "and"
+  - $3: "and"
   - %3
-  - "premises"
+  - $4: "premises"
 
 # 
 # %1: 
 # %2: 
 # %3: 
 inference:
-  - "inference rule"
+  - $1: "inference rule"
   - %1
-  - "with conclusion"
+  - $2: "with conclusion"
   - %2
-  - "and"
+  - $3: "and"
   - %3
-  - "premise"
+  - $4: "premise"
 
 # 
 # %1: 
@@ -753,15 +753,15 @@ conclusion:
 # 
 # %1: 
 label:
-  - "label"
+  - $1: "label"
   - %1
 
 # 
 # %1: 
 axiom:
-  - "axiom"
+  - $1: "axiom"
   - %1
 
 # 
 empty-axiom:
-  - "empty axiom"
+  - $1: "empty axiom"

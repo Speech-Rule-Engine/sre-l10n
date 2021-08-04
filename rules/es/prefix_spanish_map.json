@@ -1,14 +1,94 @@
 {
-  "numerator": {},
-  "denominator": {},
-  "base": {},
-  "exponent": {},
-  "subscript": {},
-  "overscript": {},
-  "underscript": {},
-  "radicand": {},
-  "index": {},
-  "leftsub": {},
+  "numerator": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"numerador\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "denominator": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"denominador\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "base": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"base\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "exponent": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"exponente\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "subscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"subíndice\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "overscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sobreíndice\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "underscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"bajoíndice\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "radicand": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"radicand\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "index": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"índice\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "leftsub": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"subíndice izquierdo\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
   "leftsub-counted": {
     "%1": {
       "type": "TEXT",
@@ -16,9 +96,24 @@
       "grammar": {
         "gender": "\"m\""
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"subíndice izquierdo\"",
+      "attributes": {
+        "pause": "200"
+      }
     }
   },
-  "leftsuper": {},
+  "leftsuper": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"superíndice izquierdo\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
   "leftsuper-counted": {
     "%1": {
       "type": "TEXT",
@@ -26,9 +121,24 @@
       "grammar": {
         "gender": "\"m\""
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"superíndice izquierdo\"",
+      "attributes": {
+        "pause": "200"
+      }
     }
   },
-  "rightsub": {},
+  "rightsub": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"subíndice derecho\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
   "rightsub-counted": {
     "%1": {
       "type": "TEXT",
@@ -36,9 +146,24 @@
       "grammar": {
         "gender": "\"m\""
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"subíndice derecho\"",
+      "attributes": {
+        "pause": "200"
+      }
     }
   },
-  "rightsuper": {},
+  "rightsuper": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"superíndice derecho\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
   "rightsuper-counted": {
     "%1": {
       "type": "TEXT",
@@ -46,16 +171,46 @@
       "grammar": {
         "gender": "\"m\""
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"superíndice derecho\"",
+      "attributes": {
+        "pause": "200"
+      }
     }
   },
-  "choice": {},
-  "select": {},
+  "choice": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"cantidad de elección\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "select": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"cantidad de selección\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
   "row": {
     "%1": {
       "type": "TEXT",
       "content": "CSFordinalPosition",
       "grammar": {
         "gender": "\"f\""
+      }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fila\"",
+      "attributes": {
+        "pause": "200"
       }
     }
   },
@@ -70,6 +225,13 @@
       "grammar": {
         "gender": "\"f\""
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"columna\"",
+      "attributes": {
+        "pause": "200"
+      }
     }
   },
   "cell-simple": {
@@ -78,6 +240,13 @@
       "content": "CSFordinalPosition",
       "grammar": {
         "gender": "\"f\""
+      }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"columna\"",
+      "attributes": {
+        "pause": "200"
       }
     }
   }

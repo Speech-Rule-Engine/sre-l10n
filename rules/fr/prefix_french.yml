@@ -2,93 +2,93 @@
 
 # 
 numerator:
-  - "numérateur" (pause:200)
+  - $1: "numérateur" (pause:200)
 
 # 
 denominator:
-  - "dénominateur" (pause:200)
+  - $1: "dénominateur" (pause:200)
 
 # 
 base:
-  - "base" (pause:200)
+  - $1: "base" (pause:200)
 
 # 
 exponent:
-  - "exposant" (pause:200)
+  - $1: "exposant" (pause:200)
 
 # 
 subscript:
-  - "indice" (pause:200)
+  - $1: "indice" (pause:200)
 
 # 
 overscript:
-  - "indice suscrit" (pause:200)
+  - $1: "indice suscrit" (pause:200)
 
 # 
 underscript:
-  - "indice souscrit" (pause:200)
+  - $1: "indice souscrit" (pause:200)
 
 # 
 radicand:
-  - "radicande" (pause:200)
+  - $1: "radicande" (pause:200)
 
 # 
 index:
-  - "indice" (pause:200)
+  - $1: "indice" (pause:200)
 
 # 
 leftsub:
-  - "indice inférieur gauche" (pause:200)
+  - $1: "indice inférieur gauche" (pause:200)
 
 # 
 # %1: 
 leftsub-counted:
   - %1 (grammar:gender="m")
-  - "indice inférieur gauche" (pause:200)
+  - $1: "indice inférieur gauche" (pause:200)
 
 # 
 leftsuper:
-  - "indice supérieur gauche" (pause:200)
+  - $1: "indice supérieur gauche" (pause:200)
 
 # 
 # %1: 
 leftsuper-counted:
   - %1 (grammar:gender="m")
-  - "indice supérieur gauche" (pause:200)
+  - $1: "indice supérieur gauche" (pause:200)
 
 # 
 rightsub:
-  - "indice inférieur droite" (pause:200)
+  - $1: "indice inférieur droite" (pause:200)
 
 # 
 # %1: 
 rightsub-counted:
   - %1 (grammar:gender="m")
-  - "indice inférieur droite" (pause:200)
+  - $1: "indice inférieur droite" (pause:200)
 
 # 
 rightsuper:
-  - "indice supérieur droite" (pause:200)
+  - $1: "indice supérieur droite" (pause:200)
 
 # 
 # %1: 
 rightsuper-counted:
   - %1 (grammar:gender="m")
-  - "indice supérieur droite" (pause:200)
+  - $1: "indice supérieur droite" (pause:200)
 
 # 
 choice:
-  - "nombre d'éléments disponibles" (pause:200)
+  - $1: "nombre d'éléments disponibles" (pause:200)
 
 # 
 select:
-  - "nombre d'éléments choisis" (pause:200)
+  - $1: "nombre d'éléments choisis" (pause:200)
 
 # 
 # %1: 
 row:
   - %1 (grammar:gender="f")
-  - "rangée" (pause:200)
+  - $1: "rangée" (pause:200)
 
 # 
 # %1: 
@@ -96,10 +96,10 @@ row:
 cell:
   - %1
   - %2 (grammar:gender="f")
-  - "colonne" (pause:200)
+  - $1: "colonne" (pause:200)
 
 # 
 # %1: 
 cell-simple:
   - %1 (grammar:gender="f")
-  - "colonne" (pause:200)
+  - $1: "colonne" (pause:200)

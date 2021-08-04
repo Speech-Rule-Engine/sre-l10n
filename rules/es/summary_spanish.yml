@@ -3,132 +3,132 @@
 # A long collapsed identifier.
 # LaTeX Example: $\mathit{abcdefg}$
 abstr-identifier-long:
-  - "identificador largo"
+  - $1: "identificador largo"
 
 # 
 abstr-identifier:
-  - "identificador"
+  - $1: "identificador"
 
 # 
 abstr-number-long:
-  - "número largo"
+  - $1: "número largo"
 
 # 
 abstr-number:
-  - "número"
+  - $1: "número"
 
 # 
 abstr-mixed-number-long:
-  - "número largo mixto"
+  - $1: "número largo mixto"
 
 # 
 abstr-mixed-number:
-  - "número mixto"
+  - $1: "número mixto"
 
 # 
 abstr-text:
-  - "texto"
+  - $1: "texto"
 
 # 
 abstr-function:
-  - "expresión funcional"
+  - $1: "expresión funcional"
 
 # 
 abstr-function-brief:
-  - "función"
+  - $1: "función"
 
 # 
 abstr-lim:
-  - "función de límite"
+  - $1: "función de límite"
 
 # 
 abstr-lim-brief:
-  - "límite"
+  - $1: "límite"
 
 # 
 abstr-fraction:
-  - "fracción"
+  - $1: "fracción"
 
 # 
 abstr-fraction-brief:
-  - "frac"
+  - $1: "frac"
 
 # 
 abstr-continued-fraction:
-  - "fracción continua"
+  - $1: "fracción continua"
 
 # 
 abstr-continued-fraction-brief:
-  - "frac continua"
+  - $1: "frac continua"
 
 # 
 abstr-sqrt:
-  - "raíz cuadrada"
+  - $1: "raíz cuadrada"
 
 # 
 abstr-sqrt-nested:
-  - "raíz cuadrada anidada"
+  - $1: "raíz cuadrada anidada"
 
 # 
 # %1: 
 abstr-root-end:
-  - "raíz del índice"
+  - $1: "raíz del índice"
   - %1
-  - "finalizar índice"
+  - $2: "finalizar índice"
 
 # 
 # %1: 
 abstr-root:
-  - "raíz del índice"
+  - $1: "raíz del índice"
   - %1
 
 # 
 abstr-root-brief:
-  - "raíz"
+  - $1: "raíz"
 
 # 
 # %1: 
 abstr-root-nested-end:
-  - "raíz anidada del índice"
+  - $1: "raíz anidada del índice"
   - %1
-  - "finalizar índice"
+  - $2: "finalizar índice"
 
 # 
 # %1: 
 abstr-root-nested:
-  - "raíz anidada del índice"
+  - $1: "raíz anidada del índice"
   - %1
 
 # 
 abstr-root-nested-brief:
-  - "raíz anidada"
+  - $1: "raíz anidada"
 
 # 
 abstr-superscript:
-  - "potencia"
+  - $1: "potencia"
 
 # 
 abstr-subscript:
-  - "subíndice"
+  - $1: "subíndice"
 
 # 
 abstr-subsup:
-  - "potencia con subíndice"
+  - $1: "potencia con subíndice"
 
 # 
 # %1: 
 # %2: 
 abstr-infixop:
   - %1
-  - "con"
+  - $1: "con"
   - %2
-  - "elementos"
+  - $2: "elementos"
 
 # 
 # %1: 
 abstr-infixop-var:
   - %1
-  - "con una cantidad variable de elementos"
+  - $1: "con una cantidad variable de elementos"
 
 # 
 # %1: 
@@ -138,143 +138,143 @@ abstr-infixop-brief:
 # 
 # %1: 
 abstr-addition:
-  - "suma con"
+  - $1: "suma con"
   - %1
-  - "sumandos"
+  - $2: "sumandos"
 
 # 
 abstr-addition-brief:
-  - "suma"
+  - $1: "suma"
 
 # 
 abstr-addition-var:
-  - "suma con número variable de sumandos"
+  - $1: "suma con número variable de sumandos"
 
 # 
 # %1: 
 abstr-multiplication:
-  - "producto con"
+  - $1: "producto con"
   - %1
-  - "factores"
+  - $2: "factores"
 
 # 
 abstr-multiplication-brief:
-  - "producto"
+  - $1: "producto"
 
 # 
 abstr-multiplication-var:
-  - "producto con una cantidad variable de factores"
+  - $1: "producto con una cantidad variable de factores"
 
 # 
 # %1: 
 abstr-vector:
-  - "vector de dimensión"
+  - $1: "vector de dimensión"
   - %1
 
 # 
 abstr-vector-brief:
-  - "vector"
+  - $1: "vector"
 
 # 
 abstr-vector-var:
-  - "vector de dimensión n"
+  - $1: "vector de dimensión n"
 
 # 
 abstr-binomial:
-  - "binomio"
+  - $1: "binomio"
 
 # 
 # %1: 
 abstr-determinant:
-  - "determinante de dimensión"
+  - $1: "determinante de dimensión"
   - %1
 
 # 
 abstr-determinant-brief:
-  - "determinante"
+  - $1: "determinante"
 
 # 
 abstr-determinant-var:
-  - "determinante de dimensión n"
+  - $1: "determinante de dimensión n"
 
 # 
 # %1: 
 abstr-squarematrix:
-  - "matriz cuadrada de dimensión"
+  - $1: "matriz cuadrada de dimensión"
   - %1
 
 # 
 abstr-squarematrix-brief:
-  - "matriz cuadrada"
+  - $1: "matriz cuadrada"
 
 # 
 # %1: 
 abstr-rowvector:
-  - "vector fila de dimensión"
+  - $1: "vector fila de dimensión"
   - %1
 
 # 
 abstr-rowvector-brief:
-  - "vector fila"
+  - $1: "vector fila"
 
 # 
 abstr-rowvector-var:
-  - "vector fila de dimensión n"
+  - $1: "vector fila de dimensión n"
 
 # 
 # %1: 
 # %2: 
 abstr-matrix:
   - %1
-  - "por"
+  - $1: "por"
   - %2
-  - "matriz"
+  - $2: "matriz"
 
 # 
 abstr-matrix-brief:
-  - "matriz"
+  - $1: "matriz"
 
 # 
 abstr-matrix-var:
-  - "matriz de dimensión n por m"
+  - $1: "matriz de dimensión n por m"
 
 # 
 # %1: 
 abstr-cases:
-  - "declaración de caso"
-  - "con"
+  - $1: "declaración de caso"
+  - $2: "con"
   - %1
-  - "casos"
+  - $3: "casos"
 
 # 
 abstr-cases-brief:
-  - "declaración de caso"
+  - $1: "declaración de caso"
 
 # 
 abstr-cases-var:
-  - "declaración de caso con número variable de casos"
+  - $1: "declaración de caso con número variable de casos"
 
 # 
 # %1: 
 # %2: 
 abstr-punctuated:
-  - "lista separada por"
+  - $1: "lista separada por"
   - %1
-  - "de longitud"
+  - $2: "de longitud"
   - %2
 
 # 
 # %1: 
 abstr-punctuated-brief:
-  - "lista separada por"
+  - $1: "lista separada por"
   - %1
 
 # 
 # %1: 
 abstr-punctuated-var:
-  - "lista separada por"
+  - $1: "lista separada por"
   - %1
-  - "de longitud variable"
+  - $2: "de longitud variable"
 
 # 
 # %1: 
@@ -283,7 +283,7 @@ abstr-bigop:
 
 # 
 abstr-integral:
-  - "integral"
+  - $1: "integral"
 
 # 
 # %1: 
@@ -294,55 +294,55 @@ abstr-relation:
 # %1: 
 # %2: 
 abstr-relation-seq:
-  - "secuencia de"
+  - $1: "secuencia de"
   - %1
-  - "con"
+  - $2: "con"
   - %2
-  - "elementos"
+  - $3: "elementos"
 
 # 
 # %1: 
 abstr-relation-seq-brief:
-  - "secuencia de"
+  - $1: "secuencia de"
   - %1
 
 # 
 # %1: 
 abstr-relation-var:
-  - "secuencia de"
+  - $1: "secuencia de"
   - %1
-  - "con una cantidad variable de elementos"
+  - $2: "con una cantidad variable de elementos"
 
 # 
 # %1: 
 abstr-multirel:
-  - "secuencia de relación"
-  - "con"
+  - $1: "secuencia de relación"
+  - $2: "con"
   - %1
-  - "elementos"
+  - $3: "elementos"
 
 # 
 abstr-multirel-brief:
-  - "secuencia de relación"
+  - $1: "secuencia de relación"
 
 # 
 abstr-multirel-var:
-  - "secuencia de relación con número variable de elementos"
+  - $1: "secuencia de relación con número variable de elementos"
 
 # 
 # %1: 
 # %2: 
 abstr-table:
-  - "mesa con"
+  - $1: "mesa con"
   - %1
-  - "filas y"
+  - $2: "filas y"
   - %2
-  - "columnas"
+  - $3: "columnas"
 
 # 
 # %1: 
 abstr-line:
-  - "en"
+  - $1: "en"
   - %1
 
 # 
@@ -350,15 +350,15 @@ abstr-line:
 # %2: 
 # %3: 
 abstr-row:
-  - "en"
+  - $1: "en"
   - %1
   - %2
-  - "con"
+  - $2: "con"
   - %3
-  - "columnas"
+  - $3: "columnas"
 
 # 
 # %1: 
 abstr-cell:
-  - "en"
+  - $1: "en"
   - %1

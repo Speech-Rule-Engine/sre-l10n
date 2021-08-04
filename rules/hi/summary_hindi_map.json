@@ -1,28 +1,121 @@
 {
-  "abstr-identifier-long": {},
-  "abstr-identifier": {},
-  "abstr-number-long": {},
-  "abstr-number": {},
-  "abstr-mixed-number-long": {},
-  "abstr-mixed-number": {},
-  "abstr-text": {},
-  "abstr-function": {},
-  "abstr-function-brief": {},
-  "abstr-lim": {},
-  "abstr-lim-brief": {},
-  "abstr-fraction": {},
-  "abstr-fraction-brief": {},
-  "abstr-continued-fraction": {},
-  "abstr-continued-fraction-brief": {},
-  "abstr-sqrt": {},
-  "abstr-sqrt-nested": {},
+  "abstr-identifier-long": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"दीर्घ तत्समक\""
+    }
+  },
+  "abstr-identifier": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"तत्समक\""
+    }
+  },
+  "abstr-number-long": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"दीर्घ संख्या\""
+    }
+  },
+  "abstr-number": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"संख्या\""
+    }
+  },
+  "abstr-mixed-number-long": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"दीर्घ मिश्र संख्या\""
+    }
+  },
+  "abstr-mixed-number": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"मिश्र संख्या\""
+    }
+  },
+  "abstr-text": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"पाठ\""
+    }
+  },
+  "abstr-function": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"फलन व्यंजक\""
+    }
+  },
+  "abstr-function-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"फलन\""
+    }
+  },
+  "abstr-lim": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"फलन सीमा\""
+    }
+  },
+  "abstr-lim-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"सीमा\""
+    }
+  },
+  "abstr-fraction": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"भिन्न\""
+    }
+  },
+  "abstr-fraction-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"अपूर्णांश\""
+    }
+  },
+  "abstr-continued-fraction": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"सतत भिन्न\""
+    }
+  },
+  "abstr-continued-fraction-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"सतत अपूर्णांश\""
+    }
+  },
+  "abstr-sqrt": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"वर्ग मूल\""
+    }
+  },
+  "abstr-sqrt-nested": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"नीड़ित वर्ग मूल\""
+    }
+  },
   "abstr-root-end": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"वां मूल\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
       "attributes": {
         "engine": "modality=speech"
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"मूलांक समाप्त\""
     }
   },
   "abstr-root": {
@@ -32,19 +125,40 @@
       "attributes": {
         "engine": "modality=speech"
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"वां मूल\""
     }
   },
-  "abstr-root-brief": {},
+  "abstr-root-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"मूल\""
+    }
+  },
   "abstr-root-nested-end": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"नीड़ित मूल्यांक\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
       "attributes": {
         "engine": "modality=speech"
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"मूलांक समाप्त\""
     }
   },
   "abstr-root-nested": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"नीड़ित मूल्यांक\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -53,14 +167,42 @@
       }
     }
   },
-  "abstr-root-nested-brief": {},
-  "abstr-superscript": {},
-  "abstr-subscript": {},
-  "abstr-subsup": {},
+  "abstr-root-nested-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"नीड़ित मूल\""
+    }
+  },
+  "abstr-superscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"घातांक\""
+    }
+  },
+  "abstr-subscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"पादांक\""
+    }
+  },
+  "abstr-subsup": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"पादांक वाला घातांक\""
+    }
+  },
   "abstr-infixop": {
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"अवयव\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"के साथ\""
     },
     "%2": {
       "type": "TEXT",
@@ -71,6 +213,10 @@
     }
   },
   "abstr-infixop-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"चल तादात के अवयवों के साथ\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@role",
@@ -92,90 +238,242 @@
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"पद\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"के साथ योग\""
     }
   },
-  "abstr-addition-brief": {},
-  "abstr-addition-var": {},
+  "abstr-addition-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"योग\""
+    }
+  },
+  "abstr-addition-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"चल तादात के पदों का योग\""
+    }
+  },
   "abstr-multiplication": {
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"गुणनखंड\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"के साथ गुणनफल\""
     }
   },
-  "abstr-multiplication-brief": {},
-  "abstr-multiplication-var": {},
+  "abstr-multiplication-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"गुणनफल\""
+    }
+  },
+  "abstr-multiplication-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"चल तादात के गुणनखंडो का गुणनफल\""
+    }
+  },
   "abstr-vector": {
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"विमीय सदिश\""
     }
   },
-  "abstr-vector-brief": {},
-  "abstr-vector-var": {},
-  "abstr-binomial": {},
+  "abstr-vector-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"सदिश\""
+    }
+  },
+  "abstr-vector-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"एन विमीय सदिश\""
+    }
+  },
+  "abstr-binomial": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"द्विपद\""
+    }
+  },
   "abstr-determinant": {
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"विमीय सारणिक\""
     }
   },
-  "abstr-determinant-brief": {},
-  "abstr-determinant-var": {},
+  "abstr-determinant-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"सारणिक\""
+    }
+  },
+  "abstr-determinant-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"एन विमीय सारणिक\""
+    }
+  },
   "abstr-squarematrix": {
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"विमीय वर्ग आव्यूह\""
     }
   },
-  "abstr-squarematrix-brief": {},
+  "abstr-squarematrix-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"वर्ग आव्यूह\""
+    }
+  },
   "abstr-rowvector": {
     "%1": {
       "type": "TEXT",
       "content": "count(./children/row/children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"विमीय पंक्ति सदिश\""
     }
   },
-  "abstr-rowvector-brief": {},
-  "abstr-rowvector-var": {},
+  "abstr-rowvector-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"पंक्ति सदिश\""
+    }
+  },
+  "abstr-rowvector-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"एन विमीय पंक्ति सदिश\""
+    }
+  },
   "abstr-matrix": {
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"गुणा\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"आव्यूह\""
     }
   },
-  "abstr-matrix-brief": {},
-  "abstr-matrix-var": {},
+  "abstr-matrix-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"आव्यूह\""
+    }
+  },
+  "abstr-matrix-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"एन गुणा एम आव्यूह\""
+    }
+  },
   "abstr-cases": {
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"फलन उपशर्त\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"के साथ\""
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"फलन उपशर्त कथन\""
     }
   },
-  "abstr-cases-brief": {},
-  "abstr-cases-var": {},
+  "abstr-cases-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"फलन उपशर्त कथन\""
+    }
+  },
+  "abstr-cases-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"चल तादात की फलन उपशर्तों वाला फलन उपशर्त कथन\""
+    }
+  },
   "abstr-punctuated": {
     "%1": {
       "type": "TEXT",
       "content": "count(children/*) - count(content/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"लम्बाई की\""
+    },
     "%2": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"विभाजित सूचि\""
     }
   },
   "abstr-punctuated-brief": {
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"विभाजित सूचि\""
     }
   },
   "abstr-punctuated-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"चल लम्बाई की\""
+    },
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"विभाजित सूचि\""
     }
   },
   "abstr-bigop": {
@@ -184,7 +482,12 @@
       "content": "content/*[1]"
     }
   },
-  "abstr-integral": {},
+  "abstr-integral": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"समाकल\""
+    }
+  },
   "abstr-relation": {
     "%1": {
       "type": "TEXT",
@@ -199,12 +502,24 @@
       "type": "TEXT",
       "content": "count(./children/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"अवयव\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"के साथ\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "@role",
       "grammar": {
         "localRole": true
       }
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"अनुक्रम\""
     }
   },
   "abstr-relation-seq-brief": {
@@ -214,33 +529,79 @@
       "grammar": {
         "localRole": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"अनुक्रम\""
     }
   },
   "abstr-relation-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"चल तादात के अवयवों के साथ\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@role",
       "grammar": {
         "localRole": true
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"अनुक्रम\""
     }
   },
   "abstr-multirel": {
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"अवयव\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"के साथ\""
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"संबंधानुक्रम\""
     }
   },
-  "abstr-multirel-brief": {},
-  "abstr-multirel-var": {},
+  "abstr-multirel-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"संबंधानुक्रम\""
+    }
+  },
+  "abstr-multirel-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"चल तादात के अवयवों का संबंधानुक्रम\""
+    }
+  },
   "abstr-table": {
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"पक्तियां और\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"स्तंभ\""
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"के साथ सारणी\""
     }
   },
   "abstr-line": {
@@ -250,9 +611,17 @@
       "grammar": {
         "localRole": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"में\""
     }
   },
   "abstr-row": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"में\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@role",
@@ -264,9 +633,17 @@
       "type": "TEXT",
       "content": "count(preceding-sibling::..)"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"के साथ\""
+    },
     "%3": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"स्तंभ\""
     }
   },
   "abstr-cell": {
@@ -276,6 +653,10 @@
       "grammar": {
         "localRole": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"में\""
     }
   }
 }

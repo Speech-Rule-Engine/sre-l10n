@@ -1,76 +1,76 @@
 {
   "numerator": [
-    "\"numeratore\" (pause:200)"
+    "$1: \"numeratore\" (pause:200)"
   ],
   "denominator": [
-    "\"denominatore\" (pause:200)"
+    "$1: \"denominatore\" (pause:200)"
   ],
   "base": [
-    "\"base\" (pause:200)"
+    "$1: \"base\" (pause:200)"
   ],
   "exponent": [
-    "\"esponente\" (pause:200)"
+    "$1: \"esponente\" (pause:200)"
   ],
   "subscript": [
-    "\"pedice\" (pause:200)"
+    "$1: \"pedice\" (pause:200)"
   ],
   "overscript": [
-    "\"apice\" (pause:200)"
+    "$1: \"apice\" (pause:200)"
   ],
   "underscript": [
-    "\"sottoscritto\" (pause:200)"
+    "$1: \"sottoscritto\" (pause:200)"
   ],
   "radicand": [
-    "\"radicando\" (pause:200)"
+    "$1: \"radicando\" (pause:200)"
   ],
   "index": [
-    "\"indice\" (pause:200)"
+    "$1: \"indice\" (pause:200)"
   ],
   "leftsub": [
-    "\"pedice sinistro\" (pause:200)"
+    "$1: \"pedice sinistro\" (pause:200)"
   ],
   "leftsub-counted": [
     "%1 (grammar:gender=\"m\")",
-    "\"pedice sinistro\" (pause:200)"
+    "$1: \"pedice sinistro\" (pause:200)"
   ],
   "leftsuper": [
-    "\"apice sinistro\" (pause:200)"
+    "$1: \"apice sinistro\" (pause:200)"
   ],
   "leftsuper-counted": [
     "%1 (grammar:gender=\"m\")",
-    "\"apice sinistro\" (pause:200)"
+    "$1: \"apice sinistro\" (pause:200)"
   ],
   "rightsub": [
-    "\"pedice destro\" (pause:200)"
+    "$1: \"pedice destro\" (pause:200)"
   ],
   "rightsub-counted": [
     "%1 (grammar:gender=\"m\")",
-    "\"pedice destro\" (pause:200)"
+    "$1: \"pedice destro\" (pause:200)"
   ],
   "rightsuper": [
-    "\"apice destro\" (pause:200)"
+    "$1: \"apice destro\" (pause:200)"
   ],
   "rightsuper-counted": [
     "%1 (grammar:gender=\"m\")",
-    "\"apice destro\" (pause:200)"
+    "$1: \"apice destro\" (pause:200)"
   ],
   "choice": [
-    "\"quantità scelta\" (pause:200)"
+    "$1: \"quantità scelta\" (pause:200)"
   ],
   "select": [
-    "\"quantità selezione\" (pause:200)"
+    "$1: \"quantità selezione\" (pause:200)"
   ],
   "row": [
     "%1 (grammar:gender=\"f\")",
-    "\"riga\" (pause:200)"
+    "$1: \"riga\" (pause:200)"
   ],
   "cell": [
     "%1",
     "%2 (grammar:gender=\"f\")",
-    "\"colonna\" (pause:200)"
+    "$1: \"colonna\" (pause:200)"
   ],
   "cell-simple": [
     "%1 (grammar:gender=\"f\")",
-    "\"colonna\" (pause:200)"
+    "$1: \"colonna\" (pause:200)"
   ]
 }

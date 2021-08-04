@@ -1,31 +1,128 @@
 {
-  "abstr-identifier-long": {},
-  "abstr-identifier": {},
-  "abstr-number-long": {},
-  "abstr-number": {},
-  "abstr-mixed-number-long": {},
-  "abstr-mixed-number": {},
-  "abstr-text": {},
-  "abstr-function": {},
-  "abstr-function-brief": {},
-  "abstr-lim": {},
-  "abstr-lim-brief": {},
-  "abstr-fraction": {},
-  "abstr-fraction-brief": {},
-  "abstr-continued-fraction": {},
-  "abstr-continued-fraction-brief": {},
-  "abstr-sqrt": {},
-  "abstr-sqrt-nested": {},
+  "abstr-identifier-long": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"long identifier\""
+    }
+  },
+  "abstr-identifier": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"identifier\""
+    }
+  },
+  "abstr-number-long": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"long number\""
+    }
+  },
+  "abstr-number": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"number\""
+    }
+  },
+  "abstr-mixed-number-long": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"long mixed number\""
+    }
+  },
+  "abstr-mixed-number": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mixed number\""
+    }
+  },
+  "abstr-text": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"text\""
+    }
+  },
+  "abstr-function": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"functional expression\""
+    }
+  },
+  "abstr-function-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"function\""
+    }
+  },
+  "abstr-lim": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"limit function\""
+    }
+  },
+  "abstr-lim-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"lim\""
+    }
+  },
+  "abstr-fraction": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fraction\""
+    }
+  },
+  "abstr-fraction-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"frac\""
+    }
+  },
+  "abstr-continued-fraction": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"continued fraction\""
+    }
+  },
+  "abstr-continued-fraction-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"continued frac\""
+    }
+  },
+  "abstr-sqrt": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"square root\""
+    }
+  },
+  "abstr-sqrt-nested": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"nested square root\""
+    }
+  },
   "abstr-root-end": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"root of index\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
       "attributes": {
         "engine": "modality=speech"
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"endindex\""
     }
   },
   "abstr-root": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"root of index\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -34,17 +131,34 @@
       }
     }
   },
-  "abstr-root-brief": {},
+  "abstr-root-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"root\""
+    }
+  },
   "abstr-root-nested-end": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"nested root of index\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
       "attributes": {
         "engine": "modality=speech"
       }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"endindex\""
     }
   },
   "abstr-root-nested": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"nested root of index\""
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -53,10 +167,30 @@
       }
     }
   },
-  "abstr-root-nested-brief": {},
-  "abstr-superscript": {},
-  "abstr-subscript": {},
-  "abstr-subsup": {},
+  "abstr-root-nested-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"nested root\""
+    }
+  },
+  "abstr-superscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"power\""
+    }
+  },
+  "abstr-subscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"subscript\""
+    }
+  },
+  "abstr-subsup": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"power with subscript\""
+    }
+  },
   "abstr-infixop": {
     "%1": {
       "type": "TEXT",
@@ -65,9 +199,17 @@
         "localRole": true
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"with\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"elements\""
     }
   },
   "abstr-infixop-var": {
@@ -77,6 +219,10 @@
       "grammar": {
         "localRole": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"with variable number of elements\""
     }
   },
   "abstr-infixop-brief": {
@@ -89,77 +235,217 @@
     }
   },
   "abstr-addition": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sum with\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"summands\""
     }
   },
-  "abstr-addition-brief": {},
-  "abstr-addition-var": {},
+  "abstr-addition-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sum\""
+    }
+  },
+  "abstr-addition-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sum with variable number of summands\""
+    }
+  },
   "abstr-multiplication": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"product with\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"factors\""
     }
   },
-  "abstr-multiplication-brief": {},
-  "abstr-multiplication-var": {},
+  "abstr-multiplication-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"product\""
+    }
+  },
+  "abstr-multiplication-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"product with variable number of factors\""
+    }
+  },
   "abstr-vector": {
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"dimensional vector\""
     }
   },
-  "abstr-vector-brief": {},
-  "abstr-vector-var": {},
-  "abstr-binomial": {},
+  "abstr-vector-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vector\""
+    }
+  },
+  "abstr-vector-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n dimensional vector\""
+    }
+  },
+  "abstr-binomial": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"binomial\""
+    }
+  },
   "abstr-determinant": {
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"dimensional determinant\""
     }
   },
-  "abstr-determinant-brief": {},
-  "abstr-determinant-var": {},
+  "abstr-determinant-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"determinant\""
+    }
+  },
+  "abstr-determinant-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n dimensional determinant\""
+    }
+  },
   "abstr-squarematrix": {
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"dimensional square matrix\""
     }
   },
-  "abstr-squarematrix-brief": {},
+  "abstr-squarematrix-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"square matrix\""
+    }
+  },
   "abstr-rowvector": {
     "%1": {
       "type": "TEXT",
       "content": "count(./children/row/children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"dimensional row vector\""
     }
   },
-  "abstr-rowvector-brief": {},
-  "abstr-rowvector-var": {},
+  "abstr-rowvector-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"row vector\""
+    }
+  },
+  "abstr-rowvector-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n dimensional row vector\""
+    }
+  },
   "abstr-matrix": {
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"by\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"matrix\""
     }
   },
-  "abstr-matrix-brief": {},
-  "abstr-matrix-var": {},
+  "abstr-matrix-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"matrix\""
+    }
+  },
+  "abstr-matrix-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n by m dimensional matrix\""
+    }
+  },
   "abstr-cases": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"case statement\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"with\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"cases\""
     }
   },
-  "abstr-cases-brief": {},
-  "abstr-cases-var": {},
+  "abstr-cases-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"case statement\""
+    }
+  },
+  "abstr-cases-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"case statement with variable number of cases\""
+    }
+  },
   "abstr-punctuated": {
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"separated list\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"of length\""
     },
     "%2": {
       "type": "TEXT",
@@ -170,12 +456,24 @@
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"separated list\""
     }
   },
   "abstr-punctuated-var": {
     "%1": {
       "type": "NODE",
       "content": "content/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"separated list\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"of variable length\""
     }
   },
   "abstr-bigop": {
@@ -184,7 +482,12 @@
       "content": "content/*[1]"
     }
   },
-  "abstr-integral": {},
+  "abstr-integral": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"integral\""
+    }
+  },
   "abstr-relation": {
     "%1": {
       "type": "TEXT",
@@ -202,9 +505,21 @@
         "localRole": true
       }
     },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sequence\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"with\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"elements\""
     }
   },
   "abstr-relation-seq-brief": {
@@ -214,6 +529,10 @@
       "grammar": {
         "localRole": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sequence\""
     }
   },
   "abstr-relation-var": {
@@ -223,27 +542,73 @@
       "grammar": {
         "localRole": true
       }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sequence\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"with variable number of elements\""
     }
   },
   "abstr-multirel": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"relation sequence\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"with\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(./children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"elements\""
     }
   },
-  "abstr-multirel-brief": {},
-  "abstr-multirel-var": {},
+  "abstr-multirel-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"relation sequence\""
+    }
+  },
+  "abstr-multirel-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"relation sequence with variable number of elements\""
+    }
+  },
   "abstr-table": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"table with\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"rows and\""
+    },
     "%2": {
       "type": "TEXT",
       "content": "count(children/*[1]/children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"columns\""
     }
   },
   "abstr-line": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"in\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@role",
@@ -253,6 +618,10 @@
     }
   },
   "abstr-row": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"in\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@role",
@@ -264,12 +633,24 @@
       "type": "TEXT",
       "content": "count(preceding-sibling::..)"
     },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"with\""
+    },
     "%3": {
       "type": "TEXT",
       "content": "count(children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"columns\""
     }
   },
   "abstr-cell": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"in\""
+    },
     "%1": {
       "type": "TEXT",
       "content": "@role",

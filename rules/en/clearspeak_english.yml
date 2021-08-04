@@ -3,7 +3,7 @@
 # 
 # %1: 
 collapsed:
-  - "collapsed"
+  - $1: "collapsed"
   - %1
 
 # 
@@ -23,29 +23,29 @@ font-identifier:
 # 
 # %1: 
 german-font:
-  - "German"
+  - $1: "German"
   - %1
 
 # 
 # %1: 
 german-font-bold:
-  - "bold German"
+  - $1: "bold German"
   - %1
 
 # 
 ellipsis:
-  - "and so on"
+  - $1: "and so on"
 
 # 
 ellipsis-andsoon:
-  - "and so on up to"
+  - $1: "and so on up to"
 
 # 
 # %1: 
 # %2: 
 vbar-evaluated:
   - %1 (pause:short)
-  - "evaluated at"
+  - $1: "evaluated at"
   - %2 (pause:short)
 
 # 
@@ -54,63 +54,63 @@ vbar-evaluated:
 # %3: 
 vbar-evaluated-both:
   - %1 (pause:short)
-  - "evaluated at"
+  - $1: "evaluated at"
   - %2 (pause:short)
-  - "minus the same expression evaluated at"
+  - $2: "minus the same expression evaluated at"
   - %3 (pause:short)
 
 # 
 vbar-such-that:
-  - "such that"
+  - $1: "such that"
 
 # 
 vbar-divides:
-  - "divides"
+  - $1: "divides"
 
 # 
 vbar-always-divides:
-  - "divides"
+  - $1: "divides"
 
 # 
 vbar-given:
-  - "given"
+  - $1: "given"
 
 # 
 set-member:
-  - "in"
+  - $1: "in"
 
 # 
 set-member-member:
-  - "member of"
+  - $1: "member of"
 
 # 
 set-member-element:
-  - "element of"
+  - $1: "element of"
 
 # 
 set-member-belongs:
-  - "belonging to"
+  - $1: "belonging to"
 
 # 
 set-not-member:
-  - "not in"
+  - $1: "not in"
 
 # 
 set-not-member-member:
-  - "not member of"
+  - $1: "not member of"
 
 # 
 set-not-member-element:
-  - "not element of"
+  - $1: "not element of"
 
 # 
 set-not-member-belongs:
-  - "not belonging to"
+  - $1: "not belonging to"
 
 # 
 # %1: 
 article:
-  - "the"
+  - $1: "the"
   - %1
 
 # 
@@ -118,7 +118,7 @@ article:
 # %2: 
 appl:
   - %1
-  - "of"
+  - $1: "of"
   - %2 (pause:short)
 
 # 
@@ -126,7 +126,7 @@ appl:
 # %2: 
 appl-simple:
   - %1
-  - "of" (pause:short)
+  - $1: "of" (pause:short)
   - %2 (pause:short)
 
 # 
@@ -134,7 +134,7 @@ appl-simple:
 # %2: 
 appl-simple-fenced:
   - %1
-  - "of" (pause:short)
+  - $1: "of" (pause:short)
   - %2 (pause:short)
 
 # 
@@ -143,7 +143,7 @@ appl-simple-fenced:
 # %3: 
 appl-times:
   - %1
-  - "times"
+  - $1: "times"
   - %2 (pause:short)
 
 # 
@@ -174,7 +174,7 @@ function-prefix-embell:
 # %3: 
 function-prefix-fenced-or-frac-arg:
   - %1
-  - "of"
+  - $1: "of"
   - %2 (pause:short)
 
 # 
@@ -183,7 +183,7 @@ function-prefix-fenced-or-frac-arg:
 # %3: 
 function-prefix-subscript:
   - %1
-  - "of" (pause:short)
+  - $1: "of" (pause:short)
   - %2 (pause:short)
 
 # 
@@ -205,7 +205,7 @@ function-ln-pause:
 # %2: 
 function-ln-of:
   - %1
-  - "of"
+  - $1: "of"
   - %2 (pause:short)
 
 # 
@@ -213,7 +213,7 @@ function-ln-of:
 # %2: 
 function-prefix-as-exp:
   - %1
-  - "of" (pause:short)
+  - $1: "of" (pause:short)
   - %2 (pause:short)
 
 # 
@@ -221,7 +221,7 @@ function-prefix-as-exp:
 # %2: 
 function-prefix-subscript-as-exp:
   - %1
-  - "of" (pause:short)
+  - $1: "of" (pause:short)
   - %2 (pause:short)
 
 # 
@@ -230,7 +230,7 @@ function-prefix-subscript-as-exp:
 # %3: 
 function-prefix-hyper:
   - %1
-  - "of"
+  - $1: "of"
   - %2 (pause:short)
 
 # 
@@ -238,9 +238,9 @@ function-prefix-hyper:
 # %2: 
 # %3: 
 function-prefix-inverse:
-  - "the inverse"
+  - $1: "the inverse"
   - %1
-  - "of"
+  - $2: "of"
   - %2 (pause:short)
 
 # 
@@ -249,7 +249,7 @@ function-prefix-inverse:
 # %3: 
 appl-triginverse:
   - %1
-  - "of"
+  - $1: "of"
   - %2 (pause:short)
 
 # 
@@ -257,7 +257,7 @@ appl-triginverse:
 # %2: 
 # %3: 
 function-prefix-arc-simple:
-  - "arc"
+  - $1: "arc"
   - %1
   - %2 (pause:short)
 
@@ -266,7 +266,7 @@ function-prefix-arc-simple:
 # %2: 
 # %3: 
 function-prefix-arc-simple-fenced:
-  - "arc"
+  - $1: "arc"
   - %1 (pause:short)
   - %2 (pause:short)
 
@@ -275,23 +275,23 @@ function-prefix-arc-simple-fenced:
 # %2: 
 # %3: 
 function-prefix-arc:
-  - "arc"
+  - $1: "arc"
   - %1
-  - "of"
+  - $2: "of"
   - %2 (pause:short)
 
 # 
 # %1: 
 function-inverse:
   - %1
-  - "inverse"
+  - $1: "inverse"
 
 # 
 # %1: 
 # %2: 
 superscript-prefix-function:
   - %1
-  - "power of"
+  - $1: "power of"
   - %2
 
 # 
@@ -299,52 +299,52 @@ superscript-prefix-function:
 # %2: 
 superscript:
   - %1
-  - "raised to the exponent" (pause:short)
+  - $1: "raised to the exponent" (pause:short)
   - %2 (pause:short)
-  - "end exponent" (pause:short)
+  - $2: "end exponent" (pause:short)
 
 # 
 # %1: 
 # %2: 
 superscript-simple-exponent:
   - %1
-  - "raised to the"
+  - $1: "raised to the"
   - %2
-  - "power" (pause:short)
+  - $2: "power" (pause:short)
 
 # 
 # %1: 
 # %2: 
 superscript-simple-exponent-end:
   - %1
-  - "raised to the"
+  - $1: "raised to the"
   - %2
-  - "power"
+  - $2: "power"
 
 # 
 # %1: 
 # %2: 
 superscript-ordinal:
   - %1
-  - "to the"
+  - $1: "to the"
   - %2
-  - "power" (pause:short)
+  - $2: "power" (pause:short)
 
 # 
 # %1: 
 # %2: 
 superscript-non-ordinal:
   - %1
-  - "to the"
+  - $1: "to the"
   - %2
-  - "power" (pause:short)
+  - $2: "power" (pause:short)
 
 # 
 # %1: 
 # %2: 
 superscript-simple-function:
   - %1
-  - "power of" (pause:short)
+  - $1: "power of" (pause:short)
   - %2
 
 # 
@@ -357,7 +357,7 @@ superscript-simple-function-none:
 # %2: 
 superscript-ordinal-number:
   - %1
-  - "to the"
+  - $1: "to the"
   - %2 (pause:short)
 
 # 
@@ -365,7 +365,7 @@ superscript-ordinal-number:
 # %2: 
 superscript-ordinal-negative:
   - %1
-  - "to the"
+  - $1: "to the"
   - %2 (pause:short)
 
 # 
@@ -373,52 +373,52 @@ superscript-ordinal-negative:
 # %2: 
 superscript-ordinal-default:
   - %1
-  - "raised to the exponent" (pause:short)
+  - $1: "raised to the exponent" (pause:short)
   - %2 (pause:short)
-  - "end exponent" (pause:short)
+  - $2: "end exponent" (pause:short)
 
 # 
 # %1: 
 # %2: 
 superscript-ordinal-power-number:
   - %1
-  - "to the"
+  - $1: "to the"
   - %2
-  - "power" (pause:short)
+  - $2: "power" (pause:short)
 
 # 
 # %1: 
 # %2: 
 superscript-ordinal-power-negative:
   - %1
-  - "to the"
+  - $1: "to the"
   - %2
-  - "power" (pause:short)
+  - $2: "power" (pause:short)
 
 # 
 # %1: 
 # %2: 
 superscript-ordinal-power-identifier:
   - %1
-  - "to the"
+  - $1: "to the"
   - %2
-  - "power" (pause:short)
+  - $2: "power" (pause:short)
 
 # 
 # %1: 
 # %2: 
 superscript-ordinal-power-default:
   - %1
-  - "raised to the exponent" (pause:short)
+  - $1: "raised to the exponent" (pause:short)
   - %2 (pause:short)
-  - "end exponent" (pause:short)
+  - $2: "end exponent" (pause:short)
 
 # 
 # %1: 
 # %2: 
 superscript-power:
   - %1
-  - "raised to the power"
+  - $1: "raised to the power"
   - %2 (pause:short)
 
 # 
@@ -426,15 +426,15 @@ superscript-power:
 # %2: 
 superscript-power-default:
   - %1
-  - "raised to the exponent" (pause:short)
+  - $1: "raised to the exponent" (pause:short)
   - %2 (pause:short)
-  - "end exponent" (pause:short)
+  - $2: "end exponent" (pause:short)
 
 # 
 # %1: 
 exponent:
   - %1 (join:"-")
-  - "th"
+  - $1: "th"
 
 # 
 # %1: 
@@ -448,7 +448,7 @@ exponent-ordinal:
 
 # 
 exponent-ordinal-zero:
-  - "zero"
+  - $1: "zero"
 
 # 
 # %1: 
@@ -457,24 +457,24 @@ exponent-ordinalpower:
 
 # 
 exponent-ordinalpower-zero:
-  - "zero"
+  - $1: "zero"
 
 # 
 # %1: 
 square:
   - %1
-  - "squared"
+  - $1: "squared"
 
 # 
 # %1: 
 cube:
   - %1
-  - "cubed"
+  - $1: "cubed"
 
 # 
 # %1: 
 fences-points:
-  - "the point with coordinates"
+  - $1: "the point with coordinates"
   - %1
 
 # 
@@ -482,9 +482,9 @@ fences-points:
 # %2: 
 # %3: 
 fences-interval:
-  - "the interval from"
+  - $1: "the interval from"
   - %1
-  - "to"
+  - $2: "to"
   - %2 (pause:short)
   - %3
 
@@ -492,88 +492,88 @@ fences-interval:
 # %1: 
 # %2: 
 interval-open:
-  - "not including"
+  - $1: "not including"
   - %1
-  - "or"
+  - $2: "or"
   - %2
 
 # 
 # %1: 
 # %2: 
 interval-closed-open:
-  - "including"
+  - $1: "including"
   - %1 (pause:short)
-  - "but not including"
+  - $2: "but not including"
   - %2
 
 # 
 # %1: 
 # %2: 
 interval-open-closed:
-  - "not including"
+  - $1: "not including"
   - %1 (pause:short)
-  - "but including"
+  - $2: "but including"
   - %2
 
 # 
 # %1: 
 # %2: 
 interval-closed:
-  - "including"
+  - $1: "including"
   - %1
-  - "and"
+  - $2: "and"
   - %2
 
 # 
 # %1: 
 interval-open-inf-r:
-  - "not including"
+  - $1: "not including"
   - %1
 
 # 
 # %1: 
 interval-open-inf-l:
-  - "not including"
+  - $1: "not including"
   - %1
 
 # 
 # %1: 
 interval-closed-open-inf:
-  - "including"
+  - $1: "including"
   - %1
 
 # 
 # %1: 
 interval-open-closed-inf:
-  - "including"
+  - $1: "including"
   - %1
 
 # 
 set-empty:
-  - "the empty set"
+  - $1: "the empty set"
 
 # 
 # %1: 
 # %2: 
 set-extended:
-  - "the set of all"
+  - $1: "the set of all"
   - %1
-  - "such that"
+  - $2: "such that"
   - %2
 
 # 
 # %1: 
 set-collection:
-  - "the set"
+  - $1: "the set"
   - %1
 
 # 
 # %1: 
 # %2: 
 set-extended-woall:
-  - "the set of"
+  - $1: "the set of"
   - %1
-  - "such that"
+  - $2: "such that"
   - %2
 
 # 
@@ -582,7 +582,7 @@ set-extended-woall:
 # %3: 
 subscript:
   - %1
-  - "sub"
+  - $1: "sub"
   - %2 (pause:short)
 
 # 
@@ -590,7 +590,7 @@ subscript:
 # %2: 
 logarithm-base:
   - %1
-  - "base"
+  - $1: "base"
   - %2
 
 # 
@@ -598,7 +598,7 @@ logarithm-base:
 # %2: 
 subscript-index:
   - %1
-  - "sub"
+  - $1: "sub"
   - %2
 
 # 
@@ -606,10 +606,10 @@ subscript-index:
 # %2: 
 # %3: 
 fraction:
-  - "the" (grammar:article)
-  - "fraction with numerator"
+  - $1: "the" (grammar:article)
+  - $2: "fraction with numerator"
   - %1 (pause:short)
-  - "and denominator"
+  - $3: "and denominator"
   - %2 (pause:short)
 
 # 
@@ -617,10 +617,10 @@ fraction:
 # %2: 
 # %3: 
 fraction-none:
-  - "the" (grammar:article)
-  - "fraction with numerator"
+  - $1: "the" (grammar:article)
+  - $2: "fraction with numerator"
   - %1 (pause:short)
-  - "and denominator"
+  - $3: "and denominator"
   - %2 (pause:short)
 
 # 
@@ -629,7 +629,7 @@ fraction-none:
 # %3: 
 simple-fraction:
   - %1
-  - "over"
+  - $1: "over"
   - %2 (pause:short)
 
 # 
@@ -638,7 +638,7 @@ simple-fraction:
 # %3: 
 simple-vulgar-fraction:
   - %1
-  - "over"
+  - $1: "over"
   - %2 (pause:short)
 
 # 
@@ -647,7 +647,7 @@ simple-vulgar-fraction:
 # %3: 
 simple-text-fraction:
   - %1
-  - "over"
+  - $1: "over"
   - %2 (pause:short)
 
 # 
@@ -661,7 +661,7 @@ vulgar-fraction:
 # %3: 
 fraction-over:
   - %1
-  - "over"
+  - $1: "over"
   - %2 (pause:short)
 
 # 
@@ -670,18 +670,18 @@ fraction-over:
 # %3: 
 fraction-overendfrac:
   - %1
-  - "over"
+  - $1: "over"
   - %2 (pause:short)
-  - "end fraction" (pause:short)
+  - $2: "end fraction" (pause:short)
 
 # 
 # %1: 
 # %2: 
 # %3: 
 fraction-fracover:
-  - "the fraction"
+  - $1: "the fraction"
   - %1
-  - "over"
+  - $2: "over"
   - %2 (pause:short)
 
 # 
@@ -690,7 +690,7 @@ fraction-fracover:
 # %3: 
 fraction-per:
   - %1
-  - "per"
+  - $1: "per"
   - %2 (pause:short)
 
 # 
@@ -698,20 +698,20 @@ fraction-per:
 # %2: 
 # %3: 
 fraction-generalendfrac:
-  - "the fraction with numerator"
+  - $1: "the fraction with numerator"
   - %1 (pause:short)
-  - "and denominator"
+  - $2: "and denominator"
   - %2 (pause:short)
-  - "end fraction" (pause:short)
+  - $3: "end fraction" (pause:short)
 
 # 
 # %1: 
 # %2: 
 # %3: 
 fraction-general:
-  - "the fraction with numerator"
+  - $1: "the fraction with numerator"
   - %1 (pause:short)
-  - "and denominator"
+  - $2: "and denominator"
   - %2 (pause:short)
 
 # 
@@ -724,7 +724,7 @@ simple-vulgar-fraction-ordinal:
 # %2: 
 fraction-endfrac:
   - %1
-  - "end fraction" (pause:short)
+  - $1: "end fraction" (pause:short)
 
 # 
 # %1: 
@@ -732,7 +732,7 @@ fraction-endfrac:
 # %3: 
 vulgar-fraction-endfrac:
   - %1
-  - "over"
+  - $1: "over"
   - %2 (pause:short)
 
 # 
@@ -743,90 +743,90 @@ simple-vulgar-fraction-endfrac:
 # 
 # %1: 
 sqrt:
-  - "the square root of"
+  - $1: "the square root of"
   - %1 (pause:short)
 
 # 
 # %1: 
 # %2: 
 sqrt-nested:
-  - "the square root of"
+  - $1: "the square root of"
   - %1 (pause:short)
 
 # 
 # %1: 
 negative-sqrt:
-  - "the negative square root of"
+  - $1: "the negative square root of"
   - %1 (pause:short)
 
 # 
 # %1: 
 # %2: 
 negative-sqrt-default:
-  - "the negative square root of"
+  - $1: "the negative square root of"
   - %1 (pause:short)
 
 # 
 # %1: 
 sqrt-plus-minus:
-  - "the positive square root of"
+  - $1: "the positive square root of"
   - %1 (pause:short)
 
 # 
 # %1: 
 # %2: 
 sqrt-nested-plus-minus:
-  - "the positive square root of"
+  - $1: "the positive square root of"
   - %1 (pause:short)
 
 # 
 # %1: 
 sqrt-plus-minus-posnegsqrootend:
-  - "the positive square root of"
+  - $1: "the positive square root of"
   - %1 (pause:short)
 
 # 
 # %1: 
 # %2: 
 sqrt-nested-plus-minus-posnegsqrootend:
-  - "the positive square root of"
+  - $1: "the positive square root of"
   - %1 (pause:short)
 
 # 
 # %1: 
 sqrt-endroot:
   - %1
-  - "end root" (pause:short)
+  - $1: "end root" (pause:short)
 
 # 
 # %1: 
 negative-sqrt-endroot:
   - %1
-  - "end root" (pause:short)
+  - $1: "end root" (pause:short)
 
 # 
 # %1: 
 sqrt-posnegsqrootend:
   - %1
-  - "end root" (pause:short)
+  - $1: "end root" (pause:short)
 
 # 
 # %1: 
 negative-sqrt-posnegsqrootend:
   - %1
-  - "end root" (pause:short)
+  - $1: "end root" (pause:short)
 
 # 
 # %1: 
 cubic:
-  - "the cube root of"
+  - $1: "the cube root of"
   - %1 (pause:short)
 
 # 
 # %1: 
 # %2: 
 cubic-nested:
-  - "the cube root of"
+  - $1: "the cube root of"
   - %1 (pause:short)
 
 # 
@@ -834,7 +834,7 @@ cubic-nested:
 # %2: 
 root:
   - %1
-  - "root of"
+  - $1: "root of"
   - %2 (pause:short)
 
 # 
@@ -843,37 +843,37 @@ root:
 # %3: 
 root-nested:
   - %1
-  - "root of"
+  - $1: "root of"
   - %2 (pause:short)
 
 # 
 # %1: 
 root-endroot:
   - %1
-  - "end root" (pause:short)
+  - $1: "end root" (pause:short)
 
 # 
 # %1: 
 root-posnegsqrootend:
   - %1
-  - "end root" (pause:short)
+  - $1: "end root" (pause:short)
 
 # 
 # %1: 
 negative:
-  - "negative"
+  - $1: "negative"
   - %1
 
 # 
 # %1: 
 positive:
-  - "positive"
+  - $1: "positive"
   - %1
 
 # 
 # %1: 
 angle-measure:
-  - "the measure of"
+  - $1: "the measure of"
   - %1
   - %2
 
@@ -881,14 +881,14 @@ angle-measure:
 # %1: 
 set-prefix-operators:
   - %1
-  - "of"
+  - $1: "of"
 
 # 
 # %1: 
 # %2: 
 division:
   - %1
-  - "divided by"
+  - $1: "divided by"
   - %2
 
 # 
@@ -898,98 +898,98 @@ operators-after-power:
 
 # 
 natural-numbers:
-  - "the natural numbers"
+  - $1: "the natural numbers"
 
 # 
 integers:
-  - "the integers"
+  - $1: "the integers"
 
 # 
 rational-numbers:
-  - "the rational numbers"
+  - $1: "the rational numbers"
 
 # 
 real-numbers:
-  - "the real numbers"
+  - $1: "the real numbers"
 
 # 
 complex-numbers:
-  - "the complex numbers"
+  - $1: "the complex numbers"
 
 # 
 natural-numbers-with-zero:
-  - "the natural numbers with zero"
+  - $1: "the natural numbers with zero"
 
 # 
 positive-integers:
-  - "the positive integers"
+  - $1: "the positive integers"
 
 # 
 negative-integers:
-  - "the negative integers"
+  - $1: "the negative integers"
 
 # 
 positive-rational-numbers:
-  - "the positive rational numbers"
+  - $1: "the positive rational numbers"
 
 # 
 negative-rational-numbers:
-  - "the negative rational numbers"
+  - $1: "the negative rational numbers"
 
 # 
 # %1: 
 # %2: 
 fences-neutral:
-  - "the absolute value of"
+  - $1: "the absolute value of"
   - %1 (pause:short)
 
 # 
 # %1: 
 # %2: 
 fences-neutral-absend:
-  - "the absolute value of"
+  - $1: "the absolute value of"
   - %1 (pause:short)
-  - "end absolute value" (pause:short)
+  - $2: "end absolute value" (pause:short)
 
 # 
 # %1: 
 # %2: 
 fences-neutral-cardinality:
-  - "the cardinality of"
+  - $1: "the cardinality of"
   - %1 (pause:short)
 
 # 
 # %1: 
 # %2: 
 fences-neutral-determinant:
-  - "the determinant of"
+  - $1: "the determinant of"
   - %1 (pause:short)
 
 # 
 # %1: 
 # %2: 
 fences-metric:
-  - "the metric of"
+  - $1: "the metric of"
   - %1 (pause:short)
 
 # 
 # %1: 
 # %2: 
 fences-metric-absend:
-  - "the metric of"
+  - $1: "the metric of"
   - %1 (pause:short)
-  - "end metric" (pause:short)
+  - $2: "end metric" (pause:short)
 
 # 
 # %1: 
 # %2: 
 # %3: 
 matrix:
-  - "the"
+  - $1: "the"
   - %1
-  - "by"
+  - $2: "by"
   - %2
-  - "matrix" (pause:long)
+  - $3: "matrix" (pause:long)
   - %3 (context:"Row-:", pause:long)
 
 # 
@@ -997,17 +997,17 @@ matrix:
 # %2: 
 # %3: 
 matrix-simple:
-  - "the"
+  - $1: "the"
   - %1
-  - "by"
+  - $2: "by"
   - %2
-  - "matrix" (pause:long)
+  - $3: "matrix" (pause:long)
   - %3 (context:"Row-:", pause:long)
 
 # 
 # %1: 
 matrix-trivial:
-  - "the 1 by 1 matrix with entry"
+  - $1: "the 1 by 1 matrix with entry"
   - %1 (pause:long)
 
 # 
@@ -1015,11 +1015,11 @@ matrix-trivial:
 # %2: 
 # %3: 
 determinant:
-  - "the determinant of the"
+  - $1: "the determinant of the"
   - %1
-  - "by"
+  - $2: "by"
   - %2
-  - "matrix" (pause:long)
+  - $3: "matrix" (pause:long)
   - %3 (context:"Row-:", pause:long)
 
 # 
@@ -1027,11 +1027,11 @@ determinant:
 # %2: 
 # %3: 
 determinant-simple:
-  - "the determinant of the"
+  - $1: "the determinant of the"
   - %1
-  - "by"
+  - $2: "by"
   - %2
-  - "matrix" (pause:long)
+  - $3: "matrix" (pause:long)
   - %3 (context:"Row-:", pause:long)
 
 # 
@@ -1039,11 +1039,11 @@ determinant-simple:
 # %2: 
 # %3: 
 matrix-vector:
-  - "the"
+  - $1: "the"
   - %1
-  - "by"
+  - $2: "by"
   - %2
-  - "column matrix" (pause:long)
+  - $3: "column matrix" (pause:long)
   - %3 (context:"Row-:", pause:long)
 
 # 
@@ -1051,11 +1051,11 @@ matrix-vector:
 # %2: 
 # %3: 
 matrix-vector-simple:
-  - "the"
+  - $1: "the"
   - %1
-  - "by"
+  - $2: "by"
   - %2
-  - "column matrix" (pause:long)
+  - $3: "column matrix" (pause:long)
   - %3 (pause:long)
 
 # 
@@ -1063,11 +1063,11 @@ matrix-vector-simple:
 # %2: 
 # %3: 
 matrix-vector-simple-silentcolnum:
-  - "the"
+  - $1: "the"
   - %1
-  - "by"
+  - $2: "by"
   - %2
-  - "column matrix" (pause:long)
+  - $3: "column matrix" (pause:long)
   - %3 (pause:long)
 
 # 
@@ -1075,11 +1075,11 @@ matrix-vector-simple-silentcolnum:
 # %2: 
 # %3: 
 matrix-row-vector:
-  - "the"
+  - $1: "the"
   - %1
-  - "by"
+  - $2: "by"
   - %2
-  - "row matrix" (pause:long)
+  - $3: "row matrix" (pause:long)
   - %3 (context:"Column-:", pause:long)
 
 # 
@@ -1087,11 +1087,11 @@ matrix-row-vector:
 # %2: 
 # %3: 
 matrix-row-vector-simple:
-  - "the"
+  - $1: "the"
   - %1
-  - "by"
+  - $2: "by"
   - %2
-  - "row matrix" (pause:long)
+  - $3: "row matrix" (pause:long)
   - %3 (pause:long)
 
 # 
@@ -1099,11 +1099,11 @@ matrix-row-vector-simple:
 # %2: 
 # %3: 
 matrix-row-vector-simple-silentcolnum:
-  - "the"
+  - $1: "the"
   - %1
-  - "by"
+  - $2: "by"
   - %2
-  - "row matrix" (pause:long)
+  - $3: "row matrix" (pause:long)
   - %3 (pause:long)
 
 # 
@@ -1115,30 +1115,30 @@ matrix-row:
 # %1: 
 matrix-end-matrix:
   - %1
-  - "end matrix"
+  - $1: "end matrix"
 
 # 
 # %1: 
 matrix-end-vector:
   - %1
-  - "end matrix"
+  - $1: "end matrix"
 
 # 
 # %1: 
 matrix-end-determinant:
   - %1
-  - "end determinant"
+  - $1: "end determinant"
 
 # 
 # %1: 
 # %2: 
 # %3: 
 vector:
-  - "the"
+  - $1: "the"
   - %1
-  - "by"
+  - $2: "by"
   - %2
-  - "column vector" (pause:long)
+  - $3: "column vector" (pause:long)
   - %3 (context:"Row-:", pause:long)
 
 # 
@@ -1146,11 +1146,11 @@ vector:
 # %2: 
 # %3: 
 vector-simple:
-  - "the"
+  - $1: "the"
   - %1
-  - "by"
+  - $2: "by"
   - %2
-  - "column vector" (pause:long)
+  - $3: "column vector" (pause:long)
   - %3 (pause:long)
 
 # 
@@ -1158,11 +1158,11 @@ vector-simple:
 # %2: 
 # %3: 
 row-vector:
-  - "the"
+  - $1: "the"
   - %1
-  - "by"
+  - $2: "by"
   - %2
-  - "row vector" (pause:long)
+  - $3: "row vector" (pause:long)
   - %3 (context:"Column-:", pause:long)
 
 # 
@@ -1170,43 +1170,43 @@ row-vector:
 # %2: 
 # %3: 
 row-vector-simple:
-  - "the"
+  - $1: "the"
   - %1
-  - "by"
+  - $2: "by"
   - %2
-  - "row vector" (pause:long)
+  - $3: "row vector" (pause:long)
   - %3 (pause:long)
 
 # 
 # %1: 
 vector-end-matrix:
   - %1
-  - "end matrix"
+  - $1: "end matrix"
 
 # 
 # %1: 
 vector-end-vector:
   - %1
-  - "end vector"
+  - $1: "end vector"
 
 # 
 # %1: 
 vector-end-vector-endvector:
   - %1
-  - "end vector"
+  - $1: "end vector"
 
 # 
 # %1: 
 vector-end-determinant:
   - %1
-  - "end determinant"
+  - $1: "end determinant"
 
 # 
 # %1: 
 # %2: 
 binomial:
   - %1
-  - "choose"
+  - $1: "choose"
   - %2
 
 # 
@@ -1215,7 +1215,7 @@ binomial:
 # %3: 
 lines-summary:
   - %1
-  - "lines"
+  - $1: "lines"
   - %2
 
 # 
@@ -1224,7 +1224,7 @@ lines-summary:
 # %3: 
 cases-summary:
   - %1
-  - "cases"
+  - $1: "cases"
   - %2
 
 # 
@@ -1235,19 +1235,19 @@ lines:
 
 # 
 blank-cell:
-  - "blank"
+  - $1: "blank"
 
 # 
 blank-line:
-  - "blank"
+  - $1: "blank"
 
 # 
 blank-cell-empty:
-  - "blank"
+  - $1: "blank"
 
 # 
 blank-line-empty:
-  - "blank"
+  - $1: "blank"
 
 # 
 # %1: 
@@ -1261,7 +1261,7 @@ cases:
 # %3: 
 lines-cases-summary:
   - %1
-  - "cases"
+  - $1: "cases"
   - %2
 
 # 
@@ -1276,7 +1276,7 @@ lines-cases:
 # %3: 
 lines-equations-summary:
   - %1
-  - "equations"
+  - $1: "equations"
   - %2
 
 # 
@@ -1291,7 +1291,7 @@ lines-equations:
 # %3: 
 lines-steps-summary:
   - %1
-  - "steps"
+  - $1: "steps"
   - %2
 
 # 
@@ -1306,7 +1306,7 @@ lines-steps:
 # %3: 
 lines-rows-summary:
   - %1
-  - "rows"
+  - $1: "rows"
   - %2
 
 # 
@@ -1321,7 +1321,7 @@ lines-rows:
 # %3: 
 lines-constraints-summary:
   - %1
-  - "constraints"
+  - $1: "constraints"
   - %2
 
 # 
@@ -1335,7 +1335,7 @@ lines-constraints:
 # %2: 
 bigop:
   - %1
-  - "of"
+  - $1: "of"
   - %2 (pause:short)
 
 # 
@@ -1344,9 +1344,9 @@ bigop:
 # %3: 
 limboth:
   - %1
-  - "from"
+  - $1: "from"
   - %2
-  - "to"
+  - $2: "to"
   - %3
 
 # 
@@ -1354,7 +1354,7 @@ limboth:
 # %2: 
 limlower:
   - %1
-  - "over"
+  - $1: "over"
   - %2 (pause:short)
 
 # 
@@ -1362,7 +1362,7 @@ limlower:
 # %2: 
 limupper:
   - %1
-  - "under"
+  - $1: "under"
   - %2 (pause:short)
 
 # 
@@ -1370,7 +1370,7 @@ limupper:
 # %2: 
 integral:
   - %1
-  - "of"
+  - $1: "of"
   - %2 (pause:short)
 
 # 
@@ -1378,7 +1378,7 @@ integral:
 # %2: 
 overscript:
   - %1
-  - "under"
+  - $1: "under"
   - %2 (pause:short)
 
 # 
@@ -1386,7 +1386,7 @@ overscript:
 # %2: 
 overscript-limits:
   - %1
-  - "to"
+  - $1: "to"
   - %2
 
 # 
@@ -1394,7 +1394,7 @@ overscript-limits:
 # %2: 
 underscript:
   - %1
-  - "over"
+  - $1: "over"
   - %2 (pause:short)
 
 # 
@@ -1402,7 +1402,7 @@ underscript:
 # %2: 
 underscript-limits:
   - %1
-  - "from"
+  - $1: "from"
   - %2
 
 # 
@@ -1410,132 +1410,132 @@ underscript-limits:
 # %2: 
 mixed-number:
   - %1
-  - "and"
+  - $1: "and"
   - %2
 
 # 
 # %1: 
 number-with-chars:
-  - "number"
+  - $1: "number"
   - %1
 
 # 
 # %1: 
 # %2: 
 decimal-period:
-  - "the repeating decimal"
+  - $1: "the repeating decimal"
   - %1
-  - "point followed by repeating digits"
+  - $2: "point followed by repeating digits"
   - %2
 
 # 
 # %1: 
 # %2: 
 decimal-period-float:
-  - "the repeating decimal"
+  - $1: "the repeating decimal"
   - %1
-  - "followed by repeating digits"
+  - $2: "followed by repeating digits"
   - %2
 
 # 
 # %1: 
 # %2: 
 decimal-period-singular:
-  - "the repeating decimal"
+  - $1: "the repeating decimal"
   - %1
-  - "point followed by repeating digit"
+  - $2: "point followed by repeating digit"
   - %2
 
 # 
 # %1: 
 # %2: 
 decimal-period-singular-float:
-  - "the repeating decimal"
+  - $1: "the repeating decimal"
   - %1
-  - "followed by repeating digit"
+  - $2: "followed by repeating digit"
   - %2
 
 # 
 decimal-point:
-  - "point"
+  - $1: "point"
 
 # 
 # %1: 
 # %2: 
 line-segment:
-  - "the line segment"
+  - $1: "the line segment"
   - %1
   - %2 (pause:short)
 
 # 
 # %1: 
 conjugate:
-  - "the complex conjugate of"
+  - $1: "the complex conjugate of"
   - %1
 
 # 
 defined-by:
-  - "is defined to be" (pause:short)
+  - $1: "is defined to be" (pause:short)
 
 # 
 # %1: 
 # %2: 
 adorned-sign:
   - %1
-  - "sign with"
+  - $1: "sign with"
   - %2
-  - "over it"
+  - $2: "over it"
 
 # 
 factorial:
-  - "factorial"
+  - $1: "factorial"
 
 # 
 # %1: 
 left-super:
-  - "left super"
+  - $1: "left super"
   - %1
 
 # 
 # %1: 
 left-super-list:
-  - "left super"
+  - $1: "left super"
   - %1
 
 # 
 # %1: 
 left-sub:
-  - "left sub"
+  - $1: "left sub"
   - %1
 
 # 
 # %1: 
 left-sub-list:
-  - "left sub"
+  - $1: "left sub"
   - %1
 
 # 
 # %1: 
 right-super:
-  - "right super"
+  - $1: "right super"
   - %1
 
 # 
 # %1: 
 right-super-list:
-  - "right super"
+  - $1: "right super"
   - %1
 
 # 
 # %1: 
 right-sub:
-  - "right sub"
+  - $1: "right sub"
   - %1
 
 # 
 # %1: 
 right-sub-list:
-  - "right sub"
+  - $1: "right sub"
   - %1
 
 # 
@@ -1543,7 +1543,7 @@ right-sub-list:
 # %2: 
 choose:
   - %1
-  - "choose"
+  - $1: "choose"
   - %2
 
 # 
@@ -1551,31 +1551,31 @@ choose:
 # %2: 
 permute:
   - %1
-  - "permute"
+  - $1: "permute"
   - %2
 
 # 
 # %1: 
 unit-square:
-  - "square"
+  - $1: "square"
   - %1
 
 # 
 # %1: 
 unit-cubic:
-  - "cubic"
+  - $1: "cubic"
   - %1
 
 # 
 # %1: 
 unit-reciprocal:
-  - "reciprocal"
+  - $1: "reciprocal"
   - %1
 
 # 
 # %1: 
 unit-reciprocal-singular:
-  - "per"
+  - $1: "per"
   - %1 (grammar:singular)
 
 # 
@@ -1583,14 +1583,14 @@ unit-reciprocal-singular:
 # %2: 
 unit-divide:
   - %1
-  - "per"
+  - $1: "per"
   - %2 (grammar:singular)
 
 # 
 # %1: 
 # %2: 
 enclose:
-  - "enclosed with"
+  - $1: "enclosed with"
   - %1
   - %2
 
@@ -1598,54 +1598,54 @@ enclose:
 # %1: 
 # %2: 
 enclose-end:
-  - "enclosed with"
+  - $1: "enclosed with"
   - %1
   - %2
-  - "end enclosed"
+  - $2: "end enclosed"
 
 # 
 # %1: 
 overbar:
   - %1
-  - "horizontal bar"
+  - $1: "horizontal bar"
 
 # 
 # %1: 
 underbar:
   - %1
-  - "over horizontal bar"
+  - $1: "over horizontal bar"
 
 # 
 # %1: 
 leftbar:
-  - "vertical bar"
+  - $1: "vertical bar"
   - %1
 
 # 
 # %1: 
 rightbar:
   - %1
-  - "vertical bar"
+  - $1: "vertical bar"
 
 # 
 # %1: 
 crossout:
-  - "crossed out"
+  - $1: "crossed out"
   - %1
 
 # 
 # %1: 
 crossout-end:
-  - "crossed out"
+  - $1: "crossed out"
   - %1
-  - "end crossout"
+  - $2: "end crossout"
 
 # 
 # %1: 
 # %2: 
 cancel-over:
   - %1
-  - "crossed out with"
+  - $1: "crossed out with"
   - %2
 
 # 
@@ -1653,25 +1653,25 @@ cancel-over:
 # %2: 
 cancel-under:
   - %1
-  - "crossed out with"
+  - $1: "crossed out with"
   - %2
 
 # 
 # %1: 
 # %2: 
 cancel-over-end:
-  - "crossed out"
+  - $1: "crossed out"
   - %1
-  - "with"
+  - $2: "with"
   - %2
-  - "end crossout"
+  - $3: "end crossout"
 
 # 
 # %1: 
 # %2: 
 cancel-under-end:
-  - "crossed out"
+  - $1: "crossed out"
   - %1
-  - "with"
+  - $2: "with"
   - %2
-  - "end crossout"
+  - $3: "end crossout"

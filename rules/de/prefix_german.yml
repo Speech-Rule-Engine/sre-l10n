@@ -2,93 +2,93 @@
 
 # 
 numerator:
-  - "Zähler" (pause:200)
+  - $1: "Zähler" (pause:200)
 
 # 
 denominator:
-  - "Nenner" (pause:200)
+  - $1: "Nenner" (pause:200)
 
 # 
 base:
-  - "Basis" (pause:200)
+  - $1: "Basis" (pause:200)
 
 # 
 exponent:
-  - "Exponent" (pause:200)
+  - $1: "Exponent" (pause:200)
 
 # 
 subscript:
-  - "Index" (pause:200)
+  - $1: "Index" (pause:200)
 
 # 
 overscript:
-  - "Oberer Grenzwert" (pause:200)
+  - $1: "Oberer Grenzwert" (pause:200)
 
 # 
 underscript:
-  - "Unterer Grenzwert" (pause:200)
+  - $1: "Unterer Grenzwert" (pause:200)
 
 # 
 radicand:
-  - "Radikand" (pause:200)
+  - $1: "Radikand" (pause:200)
 
 # 
 index:
-  - "Wurzelexponent" (pause:200)
+  - $1: "Wurzelexponent" (pause:200)
 
 # 
 leftsub:
-  - "linker unterer Index" (pause:200)
+  - $1: "linker unterer Index" (pause:200)
 
 # 
 # %1: 
 leftsub-counted:
   - %1
-  - "linker unterer Index" (pause:200)
+  - $1: "linker unterer Index" (pause:200)
 
 # 
 leftsuper:
-  - "linker oberer Index" (pause:200)
+  - $1: "linker oberer Index" (pause:200)
 
 # 
 # %1: 
 leftsuper-counted:
   - %1
-  - "linker oberer Index" (pause:200)
+  - $1: "linker oberer Index" (pause:200)
 
 # 
 rightsub:
-  - "rechter unterer Index" (pause:200)
+  - $1: "rechter unterer Index" (pause:200)
 
 # 
 # %1: 
 rightsub-counted:
   - %1
-  - "rechter unterer Index" (pause:200)
+  - $1: "rechter unterer Index" (pause:200)
 
 # 
 rightsuper:
-  - "rechter oberer Index" (pause:200)
+  - $1: "rechter oberer Index" (pause:200)
 
 # 
 # %1: 
 rightsuper-counted:
   - %1
-  - "rechter oberer Index" (pause:200)
+  - $1: "rechter oberer Index" (pause:200)
 
 # 
 choice:
-  - "Grundgesamtheit" (pause:200)
+  - $1: "Grundgesamtheit" (pause:200)
 
 # 
 select:
-  - "Stichprobengröße" (pause:200)
+  - $1: "Stichprobengröße" (pause:200)
 
 # 
 # %1: 
 row:
   - %1
-  - "Zeile" (pause:200)
+  - $1: "Zeile" (pause:200)
 
 # 
 # %1: 
@@ -96,10 +96,10 @@ row:
 cell:
   - %1
   - %2
-  - "Spalte" (pause:200)
+  - $1: "Spalte" (pause:200)
 
 # 
 # %1: 
 cell-simple:
   - %1
-  - "Spalte" (pause:200)
+  - $1: "Spalte" (pause:200)
