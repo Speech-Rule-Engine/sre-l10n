@@ -47,42 +47,6 @@
       }
     ]
   },
-  "font-identifier-short": {
-    "components": [
-      {
-        "type": "NODE",
-        "content": ".",
-        "grammar": {
-          "ignoreFont": "@font"
-        }
-      },
-      {
-        "type": "TEXT",
-        "content": "@font",
-        "grammar": {
-          "localFont": true
-        }
-      }
-    ]
-  },
-  "font-identifier": {
-    "components": [
-      {
-        "type": "NODE",
-        "content": ".",
-        "grammar": {
-          "ignoreFont": "@font"
-        }
-      },
-      {
-        "type": "TEXT",
-        "content": "@font",
-        "grammar": {
-          "localFont": true
-        }
-      }
-    ]
-  },
   "mixed-number": {
     "components": [
       {

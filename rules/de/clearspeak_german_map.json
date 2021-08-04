@@ -50,25 +50,6 @@
       }
     }
   },
-  "font-identifier": {
-    "%1": {
-      "type": "TEXT",
-      "content": "@font",
-      "grammar": {
-        "localFont": true
-      }
-    },
-    "%2": {
-      "type": "NODE",
-      "content": ".",
-      "attributes": {
-        "pause": "short"
-      },
-      "grammar": {
-        "ignoreFont": "@font"
-      }
-    }
-  },
   "font-double-struck": {
     "%1": {
       "type": "NODE",

@@ -13,13 +13,6 @@ font:
   - %2 (pause:short)
 
 # 
-# %1: 
-# %2: 
-font-identifier:
-  - %1
-  - %2 (pause:short)
-
-# 
 ellipsis:
   - $1: "e così via"
 

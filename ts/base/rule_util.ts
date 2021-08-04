@@ -19,7 +19,7 @@
  */
 
 import {Action} from './rules';
-import {getRuleSet, JsonRule, JsonRules, loadRules, LocaleRules, saveMathmaps} from './util';
+import {getRuleSet, JsonRule, JsonRules, loadMathmaps, LocaleRules, saveMathmaps} from './util';
 
 
 export function compareActions(act1: string, act2: string) {
@@ -137,7 +137,7 @@ export function moveRules(domain: string, names: string[]) {
     saveMathmaps(iso, domain, rule, 'actions');
     baseActions = base;
   }
-  let baseActionsSet = loadRules('base', domain, 'actions');
+  let baseActionsSet = loadMathmaps('base', domain, 'actions');
   baseActionsSet.rules = baseActions;
   saveMathmaps('base', domain, baseActionsSet, 'actions');
 }

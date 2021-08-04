@@ -34,27 +34,6 @@
       }
     ]
   },
-  "font-identifier": {
-    "components": [
-      {
-        "type": "NODE",
-        "content": ".",
-        "grammar": {
-          "ignoreFont": "@font"
-        }
-      },
-      {
-        "type": "TEXT",
-        "content": "@font",
-        "attributes": {
-          "pause": "short"
-        },
-        "grammar": {
-          "localFont": true
-        }
-      }
-    ]
-  },
   "ellipsis": {
     "components": [
       {

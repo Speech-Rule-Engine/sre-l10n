@@ -13,14 +13,6 @@
     "%1",
     "%2"
   ],
-  "font-identifier-short": [
-    "%1",
-    "%2"
-  ],
-  "font-identifier": [
-    "%1",
-    "%2"
-  ],
   "german-font": [
     "$1: \"German\"",
     "%1"

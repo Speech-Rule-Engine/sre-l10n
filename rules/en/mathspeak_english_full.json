@@ -51,42 +51,6 @@
       }
     ]
   },
-  "font-identifier-short": {
-    "components": [
-      {
-        "type": "TEXT",
-        "content": "@font",
-        "grammar": {
-          "localFont": true
-        }
-      },
-      {
-        "type": "NODE",
-        "content": ".",
-        "grammar": {
-          "ignoreFont": "@font"
-        }
-      }
-    ]
-  },
-  "font-identifier": {
-    "components": [
-      {
-        "type": "TEXT",
-        "content": "@font",
-        "grammar": {
-          "localFont": true
-        }
-      },
-      {
-        "type": "NODE",
-        "content": ".",
-        "grammar": {
-          "ignoreFont": "@font"
-        }
-      }
-    ]
-  },
   "german-font": {
     "components": [
       {

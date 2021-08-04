@@ -7,10 +7,6 @@
     "%1",
     "%2 (pause:short)"
   ],
-  "font-identifier": [
-    "%1",
-    "%2 (pause:short)"
-  ],
   "german-font": [
     "$1: \"German\"",
     "%1"

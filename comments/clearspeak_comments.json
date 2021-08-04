@@ -45,23 +45,6 @@
     "latex": "",
     "example": ""
   },
-  "font-identifier": {
-    "rule": "font-identifier",
-    "parameters": {
-      "%1": "",
-      "%2": ""
-    },
-    "locales": [
-      "de",
-      "en",
-      "fr",
-      "hi",
-      "it"
-    ],
-    "description": "",
-    "latex": "",
-    "example": ""
-  },
   "font-double-struck": {
     "rule": "font-double-struck",
     "parameters": {

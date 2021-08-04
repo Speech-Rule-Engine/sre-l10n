@@ -12,14 +12,6 @@
     "%1",
     "%2"
   ],
-  "font-identifier-short": [
-    "%1",
-    "%2"
-  ],
-  "font-identifier": [
-    "%1",
-    "%2"
-  ],
   "mixed-number": [
     "%1",
     "$1: \"et\"",

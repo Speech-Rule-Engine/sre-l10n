@@ -77,42 +77,6 @@
     "latex": "",
     "example": "kursive drei"
   },
-  "font-identifier-short": {
-    "rule": "font-identifier-short",
-    "parameters": {
-      "%1": "",
-      "%2": ""
-    },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
-    "description": "",
-    "latex": "",
-    "example": ""
-  },
-  "font-identifier": {
-    "rule": "font-identifier",
-    "parameters": {
-      "%1": "",
-      "%2": ""
-    },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
-    "description": "",
-    "latex": "",
-    "example": ""
-  },
   "font-double-struck": {
     "rule": "font-double-struck",
     "parameters": {

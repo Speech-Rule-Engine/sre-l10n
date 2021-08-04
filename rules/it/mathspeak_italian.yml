@@ -1,36 +1,24 @@
 # For details on the format see https:///speechruleengine.org/yaml.md
 
-# 
-# %1: 
+# Rule that fires if an expression is visually abstracted
+# Example: $$
+# %1: The abstracted element
 collapsed:
   - %1
 
-# 
+# Blank cell in a table or matrix
 blank-cell-empty:
   - $1: "vuoto"
 
-# 
+# Blank line in a equation list or case statement
 blank-line-empty:
   - $1: "vuoto"
 
-# 
-# %1: 
-# %2: 
+# Explicit speaking of font
+# Example: $$
+# %1: The font
+# %2: The expression
 font:
-  - %1
-  - %2
-
-# 
-# %1: 
-# %2: 
-font-identifier-short:
-  - %1
-  - %2
-
-# 
-# %1: 
-# %2: 
-font-identifier:
   - %1
   - %2
 

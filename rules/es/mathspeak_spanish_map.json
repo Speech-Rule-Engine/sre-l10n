@@ -43,38 +43,6 @@
       }
     }
   },
-  "font-identifier-short": {
-    "%1": {
-      "type": "TEXT",
-      "content": "@font",
-      "grammar": {
-        "localFont": true
-      }
-    },
-    "%2": {
-      "type": "NODE",
-      "content": ".",
-      "grammar": {
-        "ignoreFont": "@font"
-      }
-    }
-  },
-  "font-identifier": {
-    "%1": {
-      "type": "TEXT",
-      "content": "@font",
-      "grammar": {
-        "localFont": true
-      }
-    },
-    "%2": {
-      "type": "NODE",
-      "content": ".",
-      "grammar": {
-        "ignoreFont": "@font"
-      }
-    }
-  },
   "mixed-number": {
     "%1": {
       "type": "NODE",

@@ -15,13 +15,6 @@ font:
 
 # 
 # %1: 
-# %2: 
-font-identifier:
-  - %1
-  - %2 (pause:short)
-
-# 
-# %1: 
 german-font:
   - $1: "German"
   - %1

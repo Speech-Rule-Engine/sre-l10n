@@ -56,27 +56,6 @@
       }
     ]
   },
-  "font-identifier": {
-    "components": [
-      {
-        "type": "TEXT",
-        "content": "@font",
-        "grammar": {
-          "localFont": true
-        }
-      },
-      {
-        "type": "NODE",
-        "content": ".",
-        "attributes": {
-          "pause": "short"
-        },
-        "grammar": {
-          "ignoreFont": "@font"
-        }
-      }
-    ]
-  },
   "font-double-struck": {
     "components": [
       {

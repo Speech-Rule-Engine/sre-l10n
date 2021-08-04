@@ -30,25 +30,6 @@
       }
     }
   },
-  "font-identifier": {
-    "%1": {
-      "type": "NODE",
-      "content": ".",
-      "grammar": {
-        "ignoreFont": "@font"
-      }
-    },
-    "%2": {
-      "type": "TEXT",
-      "content": "@font",
-      "attributes": {
-        "pause": "short"
-      },
-      "grammar": {
-        "localFont": true
-      }
-    }
-  },
   "ellipsis": {
     "$1": {
       "type": "TEXT",
