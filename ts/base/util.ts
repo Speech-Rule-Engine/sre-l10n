@@ -106,7 +106,8 @@ export function loadMathmaps(iso: string, domain: string, kind: string = '') {
  */
 export function saveJson(file: string, json: any, dir: string = '') {
   try {
-    fs.writeFileSync(path.join(dir, file), JSON.stringify(json, null, 2));
+    fs.writeFileSync(path.join(dir, file),
+                     JSON.stringify(json, null, 2) + '\n');
   } catch (e) {
     throw new Error('Bad filename or content' + file);
   }

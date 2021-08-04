@@ -27,7 +27,8 @@ let grammar: {[attr: string]: boolean} = {
   plural: true,
   dual: true,
   case: true,
-  gender: true
+  gender: true,
+  article: true
 };
 
 let attributes: {[attr: string]: boolean} = {
@@ -150,7 +151,8 @@ export class ActionSet extends BaseSet {
       action: Action): [Component[], {[key: string]: Component}] {
     let simple = [];
     let map: {[key: string]: Component} = {};
-    let count = 1;
+    let ncount = 1;
+    // let tcount = 1;
     let position = 0;
     for (let comp of action.components) {
       if (comp.localizable()) {
@@ -160,11 +162,12 @@ export class ActionSet extends BaseSet {
         if (position !== 0) {
           console.warn('WARNING: Non-leading personality annotation!');
         } else {
+          map['%0'] = comp.clone();
           continue;
         }
       } else {
         let newComp = comp.clone();
-        let param = `%${count++}`;
+        let param = `%${ncount++}`;
         newComp.content = param;
         map[param] = comp;
         simple.push(this.cleanComp(newComp));
@@ -206,6 +209,69 @@ export class ReturnSet extends BaseSet {
     super(locale, domain);
     this.simplified = util.loadYaml(locale, domain);
     this.parameters = util.loadRules(locale, domain, 'map');
+    this.updateActions();
+  }
+
+  /**
+   * Updates the actions from the yaml input.
+   */
+  public updateActions() {
+    for (let rule of this.order) {
+      let simple = this.simplified[rule];
+      delete this.simplified[rule];
+      if (!simple) {
+        delete this.actions[rule];
+        continue;
+      }
+      this.actions[rule] = this.updateAction(simple, this.parameters[rule]);
+    }
+    let newRules = Object.keys(this.simplified);
+    if (newRules.length) {
+      console.info('New rules need to be added manually: ' + newRules);
+    }
+  }
+
+
+  private updateAction(simple: any, map: any): Action {
+    let comps = [];
+    if (map['%0']) {
+      comps.push(new Component(map['%0']));
+    }
+    for (let cstr of simple) {
+      let comp = Component.fromString('[t] ' + cstr);
+      let real = map[comp.content];
+      if (!real) {
+        comps.push(comp);
+        continue;
+      }
+      // Attributes
+      real.attributes = this.syncAttributes(
+        comp.attributes, real.attributes, Object.keys(attributes));
+      // Grammar
+      real.grammar = this.syncAttributes(
+        comp.grammar, real.grammar, Object.keys(grammar));
+      comps.push(new Component(real));
+    }
+    return new Action(comps);
+  }
+
+  // Sync the first into the second, wrt. keys
+  private syncAttributes(src: {[key: string]: (string | boolean)},
+                         dst: {[key: string]: (string | boolean)},
+                         keys: string[]) {
+    src = src || {};
+    dst = dst || {};
+    Object.assign(dst, src);
+    for (let key of keys) {
+      // separator case
+      if (key === 'separator' && dst['sepFunc']) {
+        continue;
+      }
+      if (!src[key]) {
+        delete dst[key];
+      }
+    }
+    return dst;
   }
 
   /**
