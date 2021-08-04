@@ -40,12 +40,7 @@ let attributes: {[attr: string]: boolean} = {
 
 let yamlPrefix = '# For details on the format see https:///speechruleengine.org/yaml.md';
 
-export class ActionSet {
-
-  /**
-   * The comments for this domain.
-   */
-  public comments: {[name: string]: Comment};
+abstract class BaseSet {
 
   /**
    * Original JSON rules.
@@ -79,11 +74,38 @@ export class ActionSet {
   public order: string[] = [];
 
   constructor(public locale: string, public domain: string) {
-    this.comments = getComments(domain);
-    this.json = util.loadRules(locale, domain, 'actions');
+    this.json = util.loadMathmaps(locale, domain, 'actions');
     for (let rule of this.json.rules) {
       this.order.push(rule[1]);
       this.makeAction(rule);
+    }
+  }
+
+  private makeAction([kind, name, action]: util.JsonRule) {
+    if (kind !== 'Action') {
+      throw new Error('Illegal rule type: ' + kind);
+    }
+    let act = Action.fromString(action);
+    this.actions[name] = act;
+  }
+
+}
+
+export class ActionSet extends BaseSet {
+
+  /**
+   * The comments for this domain.
+   */
+  public comments: {[name: string]: Comment};
+
+  /**
+   * @override
+   */
+  constructor(public locale: string, public domain: string) {
+    super(locale, domain);
+    this.comments = getComments(domain);
+    for (let rule of this.order) {
+      this.makeParams(rule);
     }
   }
 
@@ -107,12 +129,8 @@ export class ActionSet {
     return output.join('\n\n') + '\n';
   }
 
-  private makeAction([kind, name, action]: util.JsonRule) {
-    if (kind !== 'Action') {
-      throw new Error('Illegal rule type: ' + kind);
-    }
-    let act = Action.fromString(action);
-    this.actions[name] = act;
+  private makeParams(name: string) {
+    let act = this.actions[name];
     let [simple, map] = this.makeSimple(act);
     this.parameters[name] = map;
     let comment = this.comments[name];
@@ -164,7 +182,6 @@ export class ActionSet {
         delete component.attributes['separator'];
       }
       for (let key of Object.keys(component.attributes)) {
-        console.log(key);
         if (!attributes[key]) {
           delete component.attributes[key];
         }
@@ -178,6 +195,30 @@ export class ActionSet {
       }
     }
     return component;
+  }
+
+}
+
+
+export class ReturnSet extends BaseSet {
+
+  constructor(locale: string, domain: string) {
+    super(locale, domain);
+    this.simplified = util.loadYaml(locale, domain);
+    this.parameters = util.loadRules(locale, domain, 'map');
+  }
+
+  /**
+   * @override
+   */
+  public outputFiles() {
+    let rules: util.JsonRule[] = [];
+    for (let rule of this.order) {
+      let action = this.actions[rule];
+      rules.push(['Action', rule, action.toString()]);
+    }
+    this.json.rules = rules;
+    util.saveMathmaps(this.locale, this.domain, this.json, 'actions');
   }
 
 }

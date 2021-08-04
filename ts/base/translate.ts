@@ -19,7 +19,7 @@
  */
 
 import {readComments, writeComments} from './comment';
-import {ActionSet} from './forward';
+import {ActionSet, ReturnSet} from './forward';
 import * as util from './util';
 
 
@@ -30,8 +30,24 @@ export function translateForwardAll() {
       try {
         let acs = new ActionSet(loc, domain);
         acs.outputFiles();
-      } catch (_e) {}
+      } catch (_e) {
+        console.error(`Something went wrong for domain ${domain} in locale ${loc}`);
+      }
     }
     writeComments(domain);
+  }
+}
+
+
+export function translateBackwardAll() {
+  for (let domain of util.sreDomains) {
+    for (let loc of Object.keys(util.sreLocales)) {
+      try {
+        let acs = new ReturnSet(loc, domain);
+        acs.outputFiles();
+      } catch (_e) {
+        console.error(`Something went wrong for domain ${domain} in locale ${loc}`);
+      }
+    }
   }
 }

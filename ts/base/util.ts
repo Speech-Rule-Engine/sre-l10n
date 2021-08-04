@@ -19,6 +19,8 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import * as process from 'process';
+let yjs = require('yamljs');
+
 
 let SreDir = (process.env['SRE_JSON_PATH']) ?
   path.join(process.env['SRE_JSON_PATH'], '../..', 'mathmaps') :
@@ -71,10 +73,25 @@ export const sreLocales: {[iso: string]: string} = {
 /**
  * Loads rule actions for a particular locale and domain.
  *
- * @param {string} iso The iso of the locale.
- * @param {string} domain The domain.
+ * @param iso The iso of the locale.
+ * @param domain The domain.
+ * @param kind The kind of file to load.
  */
 export function loadRules(iso: string, domain: string, kind: string = '') {
+  let current = sreLocales[iso] || 'base';
+  let name = kind ? '_' + kind : '';
+  return loadJson(`${SreL10nLocales}/${iso}/${domain}_${current}${name}.json`);
+}
+
+
+/**
+ * Loads rule actions for a particular locale and domain.
+ *
+ * @param iso The iso of the locale.
+ * @param domain The domain.
+ * @param kind The kind of file to load.
+ */
+export function loadMathmaps(iso: string, domain: string, kind: string = '') {
   let current = sreLocales[iso] || 'base';
   let name = kind ? '_' + kind : '';
   return loadJson(`${SreDir}/${iso}/rules/${domain}_${current}${name}.json`);
@@ -118,7 +135,7 @@ export function getRuleSet(domain: string, kind: string = '') {
   let result: LocaleRules = {};
   for (let iso of Object.keys(sreLocales)) {
     try {
-      result[iso] = loadRules(iso, domain, kind);
+      result[iso] = loadMathmaps(iso, domain, kind);
     } catch (_e) {}
   }
   return result;
@@ -126,10 +143,11 @@ export function getRuleSet(domain: string, kind: string = '') {
 
 
 /**
- * Saves Rules Json to a mathmaps.
- * @param {string} file The filename.
- * @param {any} json The JSON structure.
- * @param {string = ''} dir An optional directory prefix.
+ * Saves Rules Json to the locale directory.
+ * @param iso The locale iso.
+ * @param domain The domain of the rule set.
+ * @param json The JSON for the rules.
+ * @param kind The kind of file to save.
  */
 export function saveL10n(
   iso: string, domain: string, json: any, kind: string = '') {
@@ -176,5 +194,27 @@ export function saveComments(domain: string, json: any) {
 export function loadComments(domain: string) {
   fs.mkdirSync(`${SreL10nLocales}`, {recursive: true});
   return loadJson(`${SreL10nComments}/${domain}_comments.json`);
+}
+
+
+export function loadYaml(iso: string, domain: string) {
+  let current = sreLocales[iso] || 'base';
+  let str = '';
+  try {
+    str = fs.readFileSync(`${SreL10nLocales}/${iso}/${domain}_${current}.yml`, 'utf8');
+  } catch (e) {
+    throw new Error('Bad filename for yaml');
+  }
+  let lines = str.split('\n');
+  let result = [];
+  for (let line of lines) {
+    line = line.replace(/'/g, '\'\'');
+    if (line.match(/^\s+- /)) {
+      result.push(line.replace(/^(\s+- )/, '$1\'') + '\'');
+    } else {
+      result.push(line);
+    }
+  }
+  return yjs.parse(result.join('\n'));
 }
 
