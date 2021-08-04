@@ -385,14 +385,14 @@
     "%2"
   ],
   "fraction": [
-    "\"the\"",
+    "\"the\" (grammar:article)",
     "\"fraction with numerator\"",
     "%1 (pause:short)",
     "\"and denominator\"",
     "%2 (pause:short)"
   ],
   "fraction-none": [
-    "\"the\"",
+    "\"the\" (grammar:article)",
     "\"fraction with numerator\"",
     "%1 (pause:short)",
     "\"and denominator\"",

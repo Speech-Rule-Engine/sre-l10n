@@ -111,13 +111,13 @@ set-not-member-belongs:
 # 
 # %1: 
 function-article:
-  - "der"
+  - "der" (grammar:article)
   - %1
 
 # 
 # %1: 
 function-article-fem:
-  - "die"
+  - "die" (grammar:article)
   - %1
 
 # 
@@ -245,7 +245,7 @@ function-prefix-hyper:
 # %2: 
 # %3: 
 function-prefix-inverse:
-  - "der"
+  - "der" (grammar:article)
   - "inverse"
   - %1
   - "von"
@@ -298,7 +298,7 @@ function-inverse:
 # %1: 
 # %2: 
 superscript-prefix-function:
-  - "die"
+  - "die" (grammar:article)
   - %1
   - "Potenz von"
   - %2
@@ -391,7 +391,7 @@ superscript-non-ordinal:
 # %1: 
 # %2: 
 superscript-simple-function-ordinal:
-  - "die"
+  - "die" (grammar:article)
   - %1
   - "Potenz von" (pause:short)
   - %2
@@ -804,7 +804,7 @@ cubic-nested:
 # %1: 
 # %2: 
 root:
-  - "die"
+  - "die" (grammar:article)
   - %1
   - "Wurzel aus"
   - %2 (pause:short)
@@ -814,7 +814,7 @@ root:
 # %2: 
 # %3: 
 root-nested:
-  - "die"
+  - "die" (grammar:article)
   - %1
   - "Wurzel aus"
   - %2 (pause:short)
@@ -852,14 +852,14 @@ angle-measure:
 # 
 # %1: 
 set-prefix-operators-masculine:
-  - "der"
+  - "der" (grammar:article)
   - %1
   - "von"
 
 # 
 # %1: 
 set-prefix-operators-feminine:
-  - "die"
+  - "die" (grammar:article)
   - %1
   - "von"
 
@@ -945,7 +945,7 @@ fences-neutral-determinant:
 # %2: 
 # %3: 
 matrix:
-  - "die"
+  - "die" (grammar:article)
   - %1
   - "mal"
   - %2
@@ -957,7 +957,7 @@ matrix:
 # %2: 
 # %3: 
 matrix-simple:
-  - "die"
+  - "die" (grammar:article)
   - %1
   - "mal"
   - %2
@@ -975,7 +975,7 @@ matrix-trivial:
 # %2: 
 # %3: 
 determinant:
-  - "die"
+  - "die" (grammar:article)
   - "Determinante der"
   - %1
   - "mal"
@@ -988,7 +988,7 @@ determinant:
 # %2: 
 # %3: 
 determinant-simple:
-  - "die"
+  - "die" (grammar:article)
   - "Determinante der"
   - %1
   - "mal"
@@ -1001,7 +1001,7 @@ determinant-simple:
 # %2: 
 # %3: 
 matrix-vector:
-  - "die"
+  - "die" (grammar:article)
   - %1
   - "mal"
   - %2
@@ -1013,7 +1013,7 @@ matrix-vector:
 # %2: 
 # %3: 
 matrix-vector-simple:
-  - "die"
+  - "die" (grammar:article)
   - %1
   - "mal"
   - %2
@@ -1025,7 +1025,7 @@ matrix-vector-simple:
 # %2: 
 # %3: 
 matrix-vector-simple-silentcolnum:
-  - "die"
+  - "die" (grammar:article)
   - %1
   - "mal"
   - %2
@@ -1037,7 +1037,7 @@ matrix-vector-simple-silentcolnum:
 # %2: 
 # %3: 
 matrix-row-vector:
-  - "die"
+  - "die" (grammar:article)
   - %1
   - "mal"
   - %2
@@ -1049,7 +1049,7 @@ matrix-row-vector:
 # %2: 
 # %3: 
 matrix-row-vector-simple:
-  - "die"
+  - "die" (grammar:article)
   - %1
   - "mal"
   - %2
@@ -1061,7 +1061,7 @@ matrix-row-vector-simple:
 # %2: 
 # %3: 
 matrix-row-vector-simple-silentcolnum:
-  - "die"
+  - "die" (grammar:article)
   - %1
   - "mal"
   - %2
@@ -1096,7 +1096,7 @@ matrix-end-determinant:
 # %2: 
 # %3: 
 vector:
-  - "der"
+  - "der" (grammar:article)
   - %1
   - "mal"
   - %2
@@ -1108,7 +1108,7 @@ vector:
 # %2: 
 # %3: 
 vector-simple:
-  - "der"
+  - "der" (grammar:article)
   - %1
   - "mal"
   - %2
@@ -1120,7 +1120,7 @@ vector-simple:
 # %2: 
 # %3: 
 row-vector:
-  - "der"
+  - "der" (grammar:article)
   - %1
   - "mal"
   - %2
@@ -1132,7 +1132,7 @@ row-vector:
 # %2: 
 # %3: 
 row-vector-simple:
-  - "der"
+  - "der" (grammar:article)
   - %1
   - "mal"
   - %2

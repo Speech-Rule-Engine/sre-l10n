@@ -606,7 +606,7 @@ subscript-index:
 # %2: 
 # %3: 
 fraction:
-  - "the"
+  - "the" (grammar:article)
   - "fraction with numerator"
   - %1 (pause:short)
   - "and denominator"
@@ -617,7 +617,7 @@ fraction:
 # %2: 
 # %3: 
 fraction-none:
-  - "the"
+  - "the" (grammar:article)
   - "fraction with numerator"
   - %1 (pause:short)
   - "and denominator"
