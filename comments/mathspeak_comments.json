@@ -2,7 +2,7 @@
   "collapsed": {
     "rule": "collapsed",
     "parameters": {
-      "%1": ""
+      "%1": "The abstracted element"
     },
     "locales": [
       "de",
@@ -12,9 +12,9 @@
       "hi",
       "it"
     ],
-    "description": "",
+    "description": "Rule that fires if an expression is visually abstracted",
     "latex": "",
-    "example": ""
+    "example": "collapsed sum"
   },
   "blank-cell-empty": {
     "rule": "blank-cell-empty",
@@ -27,7 +27,7 @@
       "hi",
       "it"
     ],
-    "description": "",
+    "description": "Blank cell in a table or matrix",
     "latex": "",
     "example": ""
   },
@@ -42,15 +42,15 @@
       "hi",
       "it"
     ],
-    "description": "",
+    "description": "Blank line in a equation list or case statement",
     "latex": "",
     "example": ""
   },
   "font": {
     "rule": "font",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The font",
+      "%2": "The expression"
     },
     "locales": [
       "de",
@@ -60,22 +60,22 @@
       "hi",
       "it"
     ],
-    "description": "",
+    "description": "Explicit speaking of font",
     "latex": "",
-    "example": ""
+    "example": "bold alpha"
   },
   "font-number": {
     "rule": "font-number",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The font",
+      "%2": "The number"
     },
     "locales": [
       "de"
     ],
-    "description": "",
+    "description": "Expliti speaking of font for numbers",
     "latex": "",
-    "example": ""
+    "example": "kursive drei"
   },
   "font-identifier-short": {
     "rule": "font-identifier-short",
