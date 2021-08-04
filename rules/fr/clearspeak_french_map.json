@@ -142,6 +142,12 @@
     }
   },
   "appl-times": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -175,6 +181,12 @@
     }
   },
   "function-prefix-embell": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -188,6 +200,12 @@
     }
   },
   "function-prefix-fenced-or-frac-arg": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -201,6 +219,12 @@
     }
   },
   "function-prefix-subscript": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -276,6 +300,12 @@
     }
   },
   "function-prefix-hyper": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -289,6 +319,12 @@
     }
   },
   "function-prefix-inverse": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
@@ -302,6 +338,12 @@
     }
   },
   "function-prefix-reciprocal": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]",
@@ -318,6 +360,12 @@
     }
   },
   "function-prefix-reciprocal-simple": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
@@ -331,6 +379,12 @@
     }
   },
   "appl-triginverse": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -344,6 +398,12 @@
     }
   },
   "function-prefix-arc-simple": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
@@ -357,6 +417,12 @@
     }
   },
   "function-prefix-arc-simple-fenced": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]",
@@ -373,6 +439,12 @@
     }
   },
   "function-prefix-arc": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]"
@@ -639,6 +711,12 @@
     }
   },
   "subscript": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -672,6 +750,12 @@
     }
   },
   "fraction": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -688,6 +772,12 @@
     }
   },
   "fraction-none": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -704,6 +794,12 @@
     }
   },
   "simple-fraction": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -717,6 +813,12 @@
     }
   },
   "simple-vulgar-fraction": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -730,6 +832,12 @@
     }
   },
   "simple-text-fraction": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -749,6 +857,12 @@
     }
   },
   "fraction-over": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -762,6 +876,12 @@
     }
   },
   "fraction-overendfrac": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -775,6 +895,12 @@
     }
   },
   "fraction-fracover": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -788,6 +914,12 @@
     }
   },
   "fraction-per": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -801,6 +933,12 @@
     }
   },
   "fraction-generalendfrac": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -817,6 +955,12 @@
     }
   },
   "fraction-general": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -839,6 +983,12 @@
     }
   },
   "fraction-endfrac": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": ".",
@@ -848,6 +998,12 @@
     }
   },
   "vulgar-fraction-endfrac": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]"
@@ -879,6 +1035,12 @@
     }
   },
   "sqrt-nested": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "\"short\""
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -903,6 +1065,12 @@
     }
   },
   "negative-sqrt-default": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "\"short\""
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]/children/*[1]",
@@ -927,6 +1095,12 @@
     }
   },
   "sqrt-nested-plus-minus": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "\"short\""
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -951,6 +1125,12 @@
     }
   },
   "sqrt-nested-plus-minus-posnegsqrootend": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "\"short\""
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -1011,6 +1191,12 @@
     }
   },
   "cubic-nested": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[2]",
@@ -1042,6 +1228,12 @@
     }
   },
   "root-nested": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -1133,6 +1325,12 @@
   "positive-rational-numbers": {},
   "negative-rational-numbers": {},
   "fences-neutral": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -1142,6 +1340,12 @@
     }
   },
   "fences-neutral-absend": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -1151,6 +1355,12 @@
     }
   },
   "fences-neutral-cardinality": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -1160,6 +1370,12 @@
     }
   },
   "fences-neutral-determinant": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "NODE",
       "content": "children/*[1]",
@@ -1608,6 +1824,12 @@
     }
   },
   "lines-summary": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
@@ -1621,6 +1843,12 @@
     }
   },
   "cases-summary": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
@@ -1634,6 +1862,12 @@
     }
   },
   "lines": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "MULTI",
       "content": "children/*",
@@ -1651,6 +1885,12 @@
   "blank-cell-empty": {},
   "blank-line-empty": {},
   "cases": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "MULTI",
       "content": "children/*",
@@ -1664,6 +1904,12 @@
     }
   },
   "lines-cases-summary": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
@@ -1677,6 +1923,12 @@
     }
   },
   "lines-cases": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "MULTI",
       "content": "children/*",
@@ -1690,6 +1942,12 @@
     }
   },
   "lines-equations-summary": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
@@ -1703,6 +1961,12 @@
     }
   },
   "lines-equations": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "MULTI",
       "content": "children/*",
@@ -1716,6 +1980,12 @@
     }
   },
   "lines-steps-summary": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
@@ -1729,6 +1999,12 @@
     }
   },
   "lines-steps": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "MULTI",
       "content": "children/*",
@@ -1742,6 +2018,12 @@
     }
   },
   "lines-rows-summary": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
@@ -1755,6 +2037,12 @@
     }
   },
   "lines-rows": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "MULTI",
       "content": "children/*",
@@ -1768,6 +2056,12 @@
     }
   },
   "lines-constraints-summary": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "TEXT",
       "content": "count(children/*)"
@@ -1781,6 +2075,12 @@
     }
   },
   "lines-constraints": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
     "%1": {
       "type": "MULTI",
       "content": "children/*",
