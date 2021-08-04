@@ -1970,7 +1970,7 @@
         "type": "NODE",
         "content": "children/*[1]",
         "grammar": {
-          "EndRoot": "false"
+          "EndRoot": false
         }
       },
       {
@@ -1994,7 +1994,7 @@
         "type": "NODE",
         "content": "children/*[1]",
         "grammar": {
-          "EndRoot": "false"
+          "EndRoot": false
         }
       },
       {
@@ -2012,7 +2012,7 @@
         "type": "NODE",
         "content": "children/*[1]/children/*[1]",
         "grammar": {
-          "EndRoot": "false"
+          "EndRoot": false
         }
       },
       {
@@ -2036,7 +2036,7 @@
         "type": "NODE",
         "content": "children/*[1]/children/*[1]",
         "grammar": {
-          "EndRoot": "false"
+          "EndRoot": false
         }
       },
       {
@@ -2054,7 +2054,7 @@
         "type": "NODE",
         "content": "children/*[1]",
         "grammar": {
-          "EndRoot": "false"
+          "EndRoot": false
         }
       },
       {
@@ -2072,7 +2072,7 @@
         "type": "NODE",
         "content": "children/*[1]",
         "grammar": {
-          "EndRoot": "false"
+          "EndRoot": false
         }
       },
       {
@@ -2090,7 +2090,7 @@
         "type": "NODE",
         "content": "children/*[1]",
         "grammar": {
-          "EndRoot": "false"
+          "EndRoot": false
         }
       },
       {
@@ -2108,7 +2108,7 @@
         "type": "NODE",
         "content": "children/*[1]",
         "grammar": {
-          "EndRoot": "false"
+          "EndRoot": false
         }
       },
       {
@@ -2198,7 +2198,7 @@
         "type": "NODE",
         "content": "children/*[2]",
         "grammar": {
-          "EndRoot": "false"
+          "EndRoot": false
         }
       },
       {
@@ -2216,7 +2216,7 @@
         "type": "NODE",
         "content": "children/*[2]",
         "grammar": {
-          "EndRoot": "false"
+          "EndRoot": false
         }
       },
       {
@@ -2234,7 +2234,7 @@
         "type": "NODE",
         "content": "children/*[2]",
         "grammar": {
-          "EndRoot": "false"
+          "EndRoot": false
         }
       },
       {
@@ -2259,7 +2259,7 @@
         "type": "NODE",
         "content": "children/*[2]",
         "grammar": {
-          "EndRoot": "false"
+          "EndRoot": false
         }
       },
       {
