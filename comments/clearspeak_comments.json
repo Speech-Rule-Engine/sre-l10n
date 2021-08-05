@@ -975,7 +975,8 @@
   "square": {
     "rule": "square",
     "parameters": {
-      "%1": ""
+      "%1": "",
+      "%2": ""
     },
     "locales": {
       "de": 1,
@@ -1932,7 +1933,8 @@
   "angle-measure": {
     "rule": "angle-measure",
     "parameters": {
-      "%1": ""
+      "%1": "",
+      "%2": ""
     },
     "locales": {
       "de": 1,

@@ -688,7 +688,8 @@
   "square": {
     "rule": "square",
     "parameters": {
-      "%1": ""
+      "%1": "",
+      "%2": ""
     },
     "locales": {
       "de": 1,
