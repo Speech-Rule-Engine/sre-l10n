@@ -219,6 +219,7 @@ export class ReturnSet extends BaseSet {
    * Updates the actions from the yaml input.
    */
   public updateActions() {
+    let simpOrder = Object.keys(this.simplified);
     for (let rule of this.order) {
       let simple = this.simplified[rule];
       delete this.simplified[rule];
@@ -228,16 +229,53 @@ export class ReturnSet extends BaseSet {
       }
       this.actions[rule] = this.updateAction(simple, this.parameters[rule]);
     }
-    let newRules = Object.keys(this.simplified);
-    if (newRules.length) {
-      // Check backwards for new rules preconditions.
-      //
-      // If found insert the new action, it should automatically go to the
-      // relevant position, due to the order?
-      console.info('New rules need to be added manually: ' + newRules);
+    for (let [name, rule] of Object.entries(this.simplified)) {
+      if (this.findPrecondition(name)) {
+        // Check backwards for new rules preconditions.
+        //
+        // If found insert the new action.
+        // Add new action name into order according to it's simpOrder position.
+        //
+        // Lookup in default actions (currently english, later add base once
+        // everything is fully commented).
+        let def = this.findDefaultAction(name);
+        if (def) {
+          this.actions[name] = this.updateAction(rule, def);
+        } else {
+          this.actions[name] = this.updateAction(rule, {});
+          console.info('New actions needs to be cleaned: ' + name);
+        }
+        this.order.splice(simpOrder.indexOf(name), 0, name);
+      } else {
+        this.actions[name] = this.updateAction(rule, {});
+        console.info('New rule that needs to be added manually: ' + name);
+      }
     }
   }
 
+  private defActions: util.JsonRules = null;
+
+  private findDefaultAction(rule: string) {
+    if (!this.defActions) {
+      this.defActions = util.loadRules('en', this.domain, 'map');
+    }
+    return this.defActions[rule];
+  }
+
+  private preconds: {[rule: string]: boolean} = null;
+
+  private findPrecondition(rule: string) {
+    if (!this.preconds) {
+      this.preconds = {};
+      let inherits = this.locale;
+      while (inherits) {
+        let precs = util.loadMathmaps(inherits, this.domain);
+        precs.rules.forEach(x => this.preconds[x[1]] = true);
+        inherits = precs.inherits;
+      }
+    }
+    return this.preconds[rule];
+  }
 
   private updateAction(simple: any, map: any): Action {
     let comps = [];

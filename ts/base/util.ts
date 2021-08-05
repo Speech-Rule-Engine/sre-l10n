@@ -29,6 +29,7 @@ let SreDir = (process.env['SRE_JSON_PATH']) ?
 let SreL10n = path.join(__dirname, '..', '..');
 let SreL10nComments = path.join(SreL10n, 'comments');
 let SreL10nLocales = path.join(SreL10n, 'rules');
+let SreL10nYaml = path.join(SreL10n, 'yaml');
 
 export type JsonRule = [string, string, string];
 
@@ -168,9 +169,9 @@ export function saveL10n(
  */
 export function saveYaml(iso: string, domain: string, yaml: string) {
   let current = sreLocales[iso] || 'base';
-  fs.mkdirSync(`${SreL10nLocales}/${iso}`, {recursive: true});
+  fs.mkdirSync(`${SreL10nYaml}/${iso}`, {recursive: true});
   try {
-    fs.writeFileSync(`${SreL10nLocales}/${iso}/${domain}_${current}.yml`, yaml);
+    fs.writeFileSync(`${SreL10nYaml}/${iso}/${domain}_${current}.yml`, yaml);
   } catch (e) {
     throw new Error('Bad filename for yaml');
   }
@@ -208,7 +209,7 @@ export function loadYaml(iso: string, domain: string) {
   let current = sreLocales[iso] || 'base';
   let str = '';
   try {
-    str = fs.readFileSync(`${SreL10nLocales}/${iso}/${domain}_${current}.yml`, 'utf8');
+    str = fs.readFileSync(`${SreL10nYaml}/${iso}/${domain}_${current}.yml`, 'utf8');
   } catch (e) {
     throw new Error('Bad filename for yaml');
   }
