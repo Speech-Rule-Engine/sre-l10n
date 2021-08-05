@@ -2,75 +2,93 @@
 
 # A long collapsed identifier.
 # LaTeX Example: $\mathit{abcdefg}$
+# %1: 
 abstr-identifier-long:
   - $1: "दीर्घ तत्समक"
 
 # 
+# %1: 
 abstr-identifier:
   - $1: "तत्समक"
 
 # 
+# %1: 
 abstr-number-long:
   - $1: "दीर्घ संख्या"
 
 # 
+# %1: 
 abstr-number:
   - $1: "संख्या"
 
 # 
+# %1: 
 abstr-mixed-number-long:
   - $1: "दीर्घ मिश्र संख्या"
 
 # 
+# %1: 
 abstr-mixed-number:
   - $1: "मिश्र संख्या"
 
 # 
+# %1: 
 abstr-text:
   - $1: "पाठ"
 
 # 
+# %1: 
 abstr-function:
   - $1: "फलन व्यंजक"
 
 # 
+# %1: 
 abstr-function-brief:
   - $1: "फलन"
 
 # 
+# %1: 
 abstr-lim:
   - $1: "फलन सीमा"
 
 # 
+# %1: 
 abstr-lim-brief:
   - $1: "सीमा"
 
 # 
+# %1: 
 abstr-fraction:
   - $1: "भिन्न"
 
 # 
+# %1: 
 abstr-fraction-brief:
   - $1: "अपूर्णांश"
 
 # 
+# %1: 
 abstr-continued-fraction:
   - $1: "सतत भिन्न"
 
 # 
+# %1: 
 abstr-continued-fraction-brief:
   - $1: "सतत अपूर्णांश"
 
 # 
+# %1: 
 abstr-sqrt:
   - $1: "वर्ग मूल"
 
 # 
+# %1: 
 abstr-sqrt-nested:
   - $1: "नीड़ित वर्ग मूल"
 
 # 
 # %1: 
+# %2: 
 abstr-root-end:
   - $1: "वां मूल"
   - %1
@@ -78,16 +96,19 @@ abstr-root-end:
 
 # 
 # %1: 
+# %2: 
 abstr-root:
   - %1
   - $1: "वां मूल"
 
 # 
+# %1: 
 abstr-root-brief:
   - $1: "मूल"
 
 # 
 # %1: 
+# %2: 
 abstr-root-nested-end:
   - $1: "नीड़ित मूल्यांक"
   - %1
@@ -95,29 +116,35 @@ abstr-root-nested-end:
 
 # 
 # %1: 
+# %2: 
 abstr-root-nested:
   - $1: "नीड़ित मूल्यांक"
   - %1
 
 # 
+# %1: 
 abstr-root-nested-brief:
   - $1: "नीड़ित मूल"
 
 # 
+# %1: 
 abstr-superscript:
   - $1: "घातांक"
 
 # 
+# %1: 
 abstr-subscript:
   - $1: "पादांक"
 
 # 
+# %1: 
 abstr-subsup:
   - $1: "पादांक वाला घातांक"
 
 # 
 # %1: 
 # %2: 
+# %3: 
 abstr-infixop:
   - %1
   - $1: "अवयव"
@@ -126,94 +153,113 @@ abstr-infixop:
 
 # 
 # %1: 
+# %2: 
 abstr-infixop-var:
   - $1: "चल तादात के अवयवों के साथ"
   - %1
 
 # 
 # %1: 
+# %2: 
 abstr-infixop-brief:
   - %1
 
 # 
 # %1: 
+# %2: 
 abstr-addition:
   - %1
   - $1: "पद"
   - $2: "के साथ योग"
 
 # 
+# %1: 
 abstr-addition-brief:
   - $1: "योग"
 
 # 
+# %1: 
 abstr-addition-var:
   - $1: "चल तादात के पदों का योग"
 
 # 
 # %1: 
+# %2: 
 abstr-multiplication:
   - %1
   - $1: "गुणनखंड"
   - $2: "के साथ गुणनफल"
 
 # 
+# %1: 
 abstr-multiplication-brief:
   - $1: "गुणनफल"
 
 # 
+# %1: 
 abstr-multiplication-var:
   - $1: "चल तादात के गुणनखंडो का गुणनफल"
 
 # 
 # %1: 
+# %2: 
 abstr-vector:
   - %1
   - $1: "विमीय सदिश"
 
 # 
+# %1: 
 abstr-vector-brief:
   - $1: "सदिश"
 
 # 
+# %1: 
 abstr-vector-var:
   - $1: "एन विमीय सदिश"
 
 # 
+# %1: 
 abstr-binomial:
   - $1: "द्विपद"
 
 # 
 # %1: 
+# %2: 
 abstr-determinant:
   - %1
   - $1: "विमीय सारणिक"
 
 # 
+# %1: 
 abstr-determinant-brief:
   - $1: "सारणिक"
 
 # 
+# %1: 
 abstr-determinant-var:
   - $1: "एन विमीय सारणिक"
 
 # 
 # %1: 
+# %2: 
 abstr-squarematrix:
   - %1
   - $1: "विमीय वर्ग आव्यूह"
 
 # 
+# %1: 
 abstr-squarematrix-brief:
   - $1: "वर्ग आव्यूह"
 
 # 
 # %1: 
+# %2: 
 abstr-rowvector:
   - %1
   - $1: "विमीय पंक्ति सदिश"
 
 # 
+# %1: 
 abstr-rowvector-brief:
   - $1: "पंक्ति सदिश"
 
@@ -224,6 +270,7 @@ abstr-rowvector-var:
 # 
 # %1: 
 # %2: 
+# %3: 
 abstr-matrix:
   - %1
   - $1: "गुणा"
@@ -231,15 +278,18 @@ abstr-matrix:
   - $2: "आव्यूह"
 
 # 
+# %1: 
 abstr-matrix-brief:
   - $1: "आव्यूह"
 
 # 
+# %1: 
 abstr-matrix-var:
   - $1: "एन गुणा एम आव्यूह"
 
 # 
 # %1: 
+# %2: 
 abstr-cases:
   - %1
   - $1: "फलन उपशर्त"
@@ -247,16 +297,19 @@ abstr-cases:
   - $3: "फलन उपशर्त कथन"
 
 # 
+# %1: 
 abstr-cases-brief:
   - $1: "फलन उपशर्त कथन"
 
 # 
+# %1: 
 abstr-cases-var:
   - $1: "चल तादात की फलन उपशर्तों वाला फलन उपशर्त कथन"
 
 # 
 # %1: 
 # %2: 
+# %3: 
 abstr-punctuated:
   - %1
   - $1: "लम्बाई की"
@@ -265,12 +318,14 @@ abstr-punctuated:
 
 # 
 # %1: 
+# %2: 
 abstr-punctuated-brief:
   - %1
   - $1: "विभाजित सूचि"
 
 # 
 # %1: 
+# %2: 
 abstr-punctuated-var:
   - $1: "चल लम्बाई की"
   - %1
@@ -278,21 +333,25 @@ abstr-punctuated-var:
 
 # 
 # %1: 
+# %2: 
 abstr-bigop:
   - %1
 
 # 
+# %1: 
 abstr-integral:
   - $1: "समाकल"
 
 # 
 # %1: 
+# %2: 
 abstr-relation:
   - %1
 
 # 
 # %1: 
 # %2: 
+# %3: 
 abstr-relation-seq:
   - %1
   - $1: "अवयव"
@@ -302,12 +361,14 @@ abstr-relation-seq:
 
 # 
 # %1: 
+# %2: 
 abstr-relation-seq-brief:
   - %1
   - $1: "अनुक्रम"
 
 # 
 # %1: 
+# %2: 
 abstr-relation-var:
   - $1: "चल तादात के अवयवों के साथ"
   - %1
@@ -315,6 +376,7 @@ abstr-relation-var:
 
 # 
 # %1: 
+# %2: 
 abstr-multirel:
   - %1
   - $1: "अवयव"
@@ -322,16 +384,19 @@ abstr-multirel:
   - $3: "संबंधानुक्रम"
 
 # 
+# %1: 
 abstr-multirel-brief:
   - $1: "संबंधानुक्रम"
 
 # 
+# %1: 
 abstr-multirel-var:
   - $1: "चल तादात के अवयवों का संबंधानुक्रम"
 
 # 
 # %1: 
 # %2: 
+# %3: 
 abstr-table:
   - %1
   - $1: "पक्तियां और"
@@ -341,6 +406,7 @@ abstr-table:
 
 # 
 # %1: 
+# %2: 
 abstr-line:
   - %1
   - $1: "में"
@@ -349,6 +415,7 @@ abstr-line:
 # %1: 
 # %2: 
 # %3: 
+# %4: 
 abstr-row:
   - $1: "में"
   - %1
@@ -359,6 +426,7 @@ abstr-row:
 
 # 
 # %1: 
+# %2: 
 abstr-cell:
   - %1
   - $1: "में"

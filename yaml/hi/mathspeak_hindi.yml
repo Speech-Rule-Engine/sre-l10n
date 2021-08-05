@@ -1,7 +1,7 @@
 # For details on the format see https:///speechruleengine.org/yaml.md
 
 # Rule that fires if an expression is visually abstracted
-# Example: $$
+# Example: collapsed sum
 # %1: The abstracted element
 collapsed:
   - $1: "निपातित"
@@ -16,7 +16,7 @@ blank-line-empty:
   - $1: "रिक्त"
 
 # Explicit speaking of font
-# Example: $$
+# Example: bold alpha
 # %1: The font
 # %2: The expression
 font:
@@ -24,7 +24,7 @@ font:
   - %2
 
 # Mixed numbers
-# Example: $2 \frac{1}{3}$
+# Example: Two and one third
 # LaTeX Example: $2 \frac{1}{3}$
 # %1: The integer part
 # %2: The fraction part
@@ -34,7 +34,7 @@ mixed-number:
   - %2
 
 # A number that contains letters
-# Example: $$
+# Example: Number #A0FF
 # %1: The number
 number-with-chars:
   - $1: "संख्या"
@@ -47,28 +47,28 @@ number-with-chars-brief:
   - %1
 
 # A number that consists exclusively of characters
-# Example: $$
+# Example: A Roman numeral like VII
 # %1: The number
 number-as-upper-word:
   - $1: "ऊपर का शब्द"
   - %1
 
 # A number that follows directly an identifier has to be explicitly separated with a baseline indicator as not to be confused with a simple subscript.
-# Example: $$
+# Example: t0 is pronounced t baseline zero. In contrast a_0 is pronounced a zero.
 # %1: The number
 number-baseline:
   - $1: "आधार रेखा"
   - %1
 
 # A number that follows directly an identifier has to be explicitly separated with a brief baseline indicator as not to be confused with a simple subscript.
-# Example: $$
+# Example: t0 is pronounced t base zero. In contrast a_0 is pronounce a zero.
 # %1: The number
 number-baseline-brief:
   - $1: "आधार"
   - %1
 
 # A number with unusual font that follows directly an identifier. Has to be explicitly separated with a baseline indicator and its font.
-# Example: $$
+# Example: t baseline doublestruck zero
 # %1: The font
 # %2: The number
 number-baseline-font:
@@ -77,7 +77,7 @@ number-baseline-font:
   - %2
 
 # A number with unusual font that follows directly an identifier. Has to be explicitly separated with a brief baseline indicator and its font.
-# Example: $$
+# Example: t base doublestruck zero
 # %1: The font
 # %2: The number
 number-baseline-font-brief:
@@ -86,7 +86,7 @@ number-baseline-font-brief:
   - %2
 
 # Negative numbers or simple identifiers
-# Example: $-5, -a, -rac{1}{2}$
+# Example: negative five, negative a, negative one half
 # LaTeX Example: $-5, -a, -rac{1}{2}$
 # %1: The number
 negative-number:
@@ -94,14 +94,14 @@ negative-number:
   - %1
 
 # Minus as a prefix operator or sign of a complex expression
-# Example: $$
+# Example: Cases that are not covered by negative-number rule
 # %1: The expression
 negative:
   - $1: "बाकी"
   - %1
 
 # Linear division rule
-# Example: $a \slash b$
+# Example: a divided by b
 # LaTeX Example: $a \slash b$
 # %1: Numerator
 # %2: Denominator
@@ -111,7 +111,7 @@ division:
   - %2
 
 # Subtraction
-# Example: $a - b - c$
+# Example: a minus b minus c
 # LaTeX Example: $a - b - c$
 # %1: List of components of the subtraction
 subtraction:

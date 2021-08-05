@@ -133,7 +133,6 @@ appl-simple-fenced:
 # 
 # %1: 
 # %2: 
-# %3: 
 appl-times:
   - %1
   - $1: "times"
@@ -156,7 +155,6 @@ function-prefix-simple-arg:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-embell:
   - %1
   - %2 (pause:short)
@@ -164,7 +162,6 @@ function-prefix-embell:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-fenced-or-frac-arg:
   - %1
   - $1: "of"
@@ -173,7 +170,6 @@ function-prefix-fenced-or-frac-arg:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-subscript:
   - %1
   - $1: "of" (pause:short)
@@ -220,7 +216,6 @@ function-prefix-subscript-as-exp:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-hyper:
   - %1
   - $1: "of"
@@ -229,7 +224,6 @@ function-prefix-hyper:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-inverse:
   - $1: "the inverse"
   - %1
@@ -239,7 +233,6 @@ function-prefix-inverse:
 # 
 # %1: 
 # %2: 
-# %3: 
 appl-triginverse:
   - %1
   - $1: "of"
@@ -248,7 +241,6 @@ appl-triginverse:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-arc-simple:
   - $1: "arc"
   - %1
@@ -257,7 +249,6 @@ function-prefix-arc-simple:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-arc-simple-fenced:
   - $1: "arc"
   - %1 (pause:short)
@@ -266,7 +257,6 @@ function-prefix-arc-simple-fenced:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-arc:
   - $1: "arc"
   - %1
@@ -572,7 +562,6 @@ set-extended-woall:
 # 
 # %1: 
 # %2: 
-# %3: 
 subscript:
   - %1
   - $1: "sub"
@@ -597,7 +586,6 @@ subscript-index:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction:
   - $1: "the" (grammar:article)
   - $2: "fraction with numerator"
@@ -608,7 +596,6 @@ fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-none:
   - $1: "the" (grammar:article)
   - $2: "fraction with numerator"
@@ -619,7 +606,6 @@ fraction-none:
 # 
 # %1: 
 # %2: 
-# %3: 
 simple-fraction:
   - %1
   - $1: "over"
@@ -628,7 +614,6 @@ simple-fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 simple-vulgar-fraction:
   - %1
   - $1: "over"
@@ -637,7 +622,6 @@ simple-vulgar-fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 simple-text-fraction:
   - %1
   - $1: "over"
@@ -651,7 +635,6 @@ vulgar-fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-over:
   - %1
   - $1: "over"
@@ -660,7 +643,6 @@ fraction-over:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-overendfrac:
   - %1
   - $1: "over"
@@ -670,7 +652,6 @@ fraction-overendfrac:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-fracover:
   - $1: "the fraction"
   - %1
@@ -680,7 +661,6 @@ fraction-fracover:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-per:
   - %1
   - $1: "per"
@@ -689,7 +669,6 @@ fraction-per:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-generalendfrac:
   - $1: "the fraction with numerator"
   - %1 (pause:short)
@@ -700,7 +679,6 @@ fraction-generalendfrac:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-general:
   - $1: "the fraction with numerator"
   - %1 (pause:short)
@@ -714,7 +692,6 @@ simple-vulgar-fraction-ordinal:
 
 # 
 # %1: 
-# %2: 
 fraction-endfrac:
   - %1
   - $1: "end fraction" (pause:short)
@@ -722,7 +699,6 @@ fraction-endfrac:
 # 
 # %1: 
 # %2: 
-# %3: 
 vulgar-fraction-endfrac:
   - %1
   - $1: "over"
@@ -741,7 +717,6 @@ sqrt:
 
 # 
 # %1: 
-# %2: 
 sqrt-nested:
   - $1: "the square root of"
   - %1 (pause:short)
@@ -754,7 +729,6 @@ negative-sqrt:
 
 # 
 # %1: 
-# %2: 
 negative-sqrt-default:
   - $1: "the negative square root of"
   - %1 (pause:short)
@@ -767,7 +741,6 @@ sqrt-plus-minus:
 
 # 
 # %1: 
-# %2: 
 sqrt-nested-plus-minus:
   - $1: "the positive square root of"
   - %1 (pause:short)
@@ -780,7 +753,6 @@ sqrt-plus-minus-posnegsqrootend:
 
 # 
 # %1: 
-# %2: 
 sqrt-nested-plus-minus-posnegsqrootend:
   - $1: "the positive square root of"
   - %1 (pause:short)
@@ -817,7 +789,6 @@ cubic:
 
 # 
 # %1: 
-# %2: 
 cubic-nested:
   - $1: "the cube root of"
   - %1 (pause:short)
@@ -833,7 +804,6 @@ root:
 # 
 # %1: 
 # %2: 
-# %3: 
 root-nested:
   - %1
   - $1: "root of"
@@ -865,6 +835,7 @@ positive:
 
 # 
 # %1: 
+# %2: 
 angle-measure:
   - $1: "the measure of"
   - %1
@@ -931,14 +902,12 @@ negative-rational-numbers:
 
 # 
 # %1: 
-# %2: 
 fences-neutral:
   - $1: "the absolute value of"
   - %1 (pause:short)
 
 # 
 # %1: 
-# %2: 
 fences-neutral-absend:
   - $1: "the absolute value of"
   - %1 (pause:short)
@@ -946,14 +915,12 @@ fences-neutral-absend:
 
 # 
 # %1: 
-# %2: 
 fences-neutral-cardinality:
   - $1: "the cardinality of"
   - %1 (pause:short)
 
 # 
 # %1: 
-# %2: 
 fences-neutral-determinant:
   - $1: "the determinant of"
   - %1 (pause:short)
@@ -1203,7 +1170,6 @@ binomial:
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-summary:
   - %1
   - $1: "lines"
@@ -1212,7 +1178,6 @@ lines-summary:
 # 
 # %1: 
 # %2: 
-# %3: 
 cases-summary:
   - %1
   - $1: "cases"
@@ -1220,7 +1185,6 @@ cases-summary:
 
 # 
 # %1: 
-# %2: 
 lines:
   - %1 (context:"Line-:", pause:long)
 
@@ -1242,14 +1206,12 @@ blank-line-empty:
 
 # 
 # %1: 
-# %2: 
 cases:
   - %1 (context:"Case-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-cases-summary:
   - %1
   - $1: "cases"
@@ -1257,14 +1219,12 @@ lines-cases-summary:
 
 # 
 # %1: 
-# %2: 
 lines-cases:
   - %1 (context:"Case-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-equations-summary:
   - %1
   - $1: "equations"
@@ -1272,14 +1232,12 @@ lines-equations-summary:
 
 # 
 # %1: 
-# %2: 
 lines-equations:
   - %1 (context:"Equation-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-steps-summary:
   - %1
   - $1: "steps"
@@ -1287,14 +1245,12 @@ lines-steps-summary:
 
 # 
 # %1: 
-# %2: 
 lines-steps:
   - %1 (context:"Step-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-rows-summary:
   - %1
   - $1: "rows"
@@ -1302,14 +1258,12 @@ lines-rows-summary:
 
 # 
 # %1: 
-# %2: 
 lines-rows:
   - %1 (context:"Row-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-constraints-summary:
   - %1
   - $1: "constraints"
@@ -1317,7 +1271,6 @@ lines-constraints-summary:
 
 # 
 # %1: 
-# %2: 
 lines-constraints:
   - %1 (context:"Constraint-:", pause:long)
 

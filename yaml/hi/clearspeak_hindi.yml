@@ -168,7 +168,6 @@ appl-simple-inverse:
 # 
 # %1: 
 # %2: 
-# %3: 
 appl-times:
   - %1
   - $1: "गुना"
@@ -191,7 +190,6 @@ function-prefix-simple-arg:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-embell:
   - %1
   - %2 (pause:short)
@@ -199,7 +197,6 @@ function-prefix-embell:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-fenced-or-frac-arg:
   - %1
   - $1: "का फलन"
@@ -208,7 +205,6 @@ function-prefix-fenced-or-frac-arg:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-subscript:
   - %1
   - $1: "का फलन" (pause:short)
@@ -255,7 +251,6 @@ function-prefix-subscript-as-exp:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-hyper:
   - %1
   - $1: "का फलन"
@@ -264,7 +259,6 @@ function-prefix-hyper:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-inverse:
   - $1: "व्युत्क्रम"
   - %1
@@ -274,7 +268,6 @@ function-prefix-inverse:
 # 
 # %1: 
 # %2: 
-# %3: 
 appl-triginverse:
   - %1
   - $1: "का फलन"
@@ -283,7 +276,6 @@ appl-triginverse:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-arc-simple:
   - $1: "चाप"
   - %1
@@ -292,7 +284,6 @@ function-prefix-arc-simple:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-arc-simple-fenced:
   - $1: "चाप"
   - %1 (pause:short)
@@ -301,7 +292,6 @@ function-prefix-arc-simple-fenced:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-arc:
   - $1: "चाप"
   - %1
@@ -600,7 +590,6 @@ set-collection:
 # 
 # %1: 
 # %2: 
-# %3: 
 subscript:
   - %1
   - $1: "पाद"
@@ -625,7 +614,6 @@ subscript-index:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction:
   - $1: "भिन्न जिसका अंश"
   - %1 (pause:short)
@@ -635,7 +623,6 @@ fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-none:
   - $1: "भिन्न जिसका अंश"
   - %1 (pause:short)
@@ -645,7 +632,6 @@ fraction-none:
 # 
 # %1: 
 # %2: 
-# %3: 
 simple-fraction:
   - %1
   - $1: "के हर में"
@@ -654,7 +640,6 @@ simple-fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 simple-vulgar-fraction:
   - %1
   - $1: "के हर में"
@@ -663,7 +648,6 @@ simple-vulgar-fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 simple-text-fraction:
   - %1
   - $1: "के हर में"
@@ -677,7 +661,6 @@ vulgar-fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-over:
   - %1
   - $1: "के हर में"
@@ -686,7 +669,6 @@ fraction-over:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-overendfrac:
   - %1
   - $1: "के हर में"
@@ -696,7 +678,6 @@ fraction-overendfrac:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-fracover:
   - $1: "भिन्न"
   - %1
@@ -706,7 +687,6 @@ fraction-fracover:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-per:
   - %1
   - $1: "प्रति"
@@ -715,7 +695,6 @@ fraction-per:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-generalendfrac:
   - $1: "भिन्न जिसका अंश"
   - %1 (pause:short)
@@ -726,7 +705,6 @@ fraction-generalendfrac:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-general:
   - $1: "भिन्न जिसका अंश"
   - %1 (pause:short)
@@ -740,7 +718,6 @@ simple-vulgar-fraction-ordinal:
 
 # 
 # %1: 
-# %2: 
 fraction-endfrac:
   - %1
   - $1: "भिन्न समाप्त" (pause:short)
@@ -748,7 +725,6 @@ fraction-endfrac:
 # 
 # %1: 
 # %2: 
-# %3: 
 vulgar-fraction-endfrac:
   - %1
   - $1: "के हर में"
@@ -767,7 +743,6 @@ sqrt:
 
 # 
 # %1: 
-# %2: 
 sqrt-nested:
   - %1
   - $1: "का वर्गमूल" (pause:short)
@@ -780,7 +755,6 @@ negative-sqrt:
 
 # 
 # %1: 
-# %2: 
 negative-sqrt-default:
   - %1
   - $1: "का ऋणात्मक वर्गमूल" (pause:short)
@@ -793,7 +767,6 @@ sqrt-plus-minus:
 
 # 
 # %1: 
-# %2: 
 sqrt-nested-plus-minus:
   - %1
   - $1: "का धनात्मक वर्गमूल" (pause:short)
@@ -806,7 +779,6 @@ sqrt-plus-minus-posnegsqrootend:
 
 # 
 # %1: 
-# %2: 
 sqrt-nested-plus-minus-posnegsqrootend:
   - %1
   - $1: "का धनात्मक वर्गमूल" (pause:short)
@@ -843,7 +815,6 @@ cubic:
 
 # 
 # %1: 
-# %2: 
 cubic-nested:
   - %1
   - $1: "का घनमूल" (pause:short)
@@ -859,7 +830,6 @@ root:
 # 
 # %1: 
 # %2: 
-# %3: 
 root-nested:
   - %1
   - %2
@@ -891,6 +861,7 @@ positive:
 
 # 
 # %1: 
+# %2: 
 angle-measure:
   - %1
   - %2
@@ -957,14 +928,12 @@ negative-rational-numbers:
 
 # 
 # %1: 
-# %2: 
 fences-neutral:
   - %1
   - $1: "का निरपेक्ष मान" (pause:short)
 
 # 
 # %1: 
-# %2: 
 fences-neutral-absend:
   - $1: "निरपेक्ष मान प्रारम्भ"
   - %1 (pause:short)
@@ -972,14 +941,12 @@ fences-neutral-absend:
 
 # 
 # %1: 
-# %2: 
 fences-neutral-cardinality:
   - %1
   - $1: "की गणनीयता" (pause:short)
 
 # 
 # %1: 
-# %2: 
 fences-neutral-determinant:
   - %1
   - $1: "का सारणिक" (pause:short)
@@ -1217,7 +1184,6 @@ binomial:
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-summary:
   - %1
   - $1: "रेखाएं"
@@ -1226,7 +1192,6 @@ lines-summary:
 # 
 # %1: 
 # %2: 
-# %3: 
 cases-summary:
   - %1
   - $1: "फलन उपशर्त"
@@ -1234,7 +1199,6 @@ cases-summary:
 
 # 
 # %1: 
-# %2: 
 lines:
   - %1 (context:"रेखा-:", pause:long)
 
@@ -1256,14 +1220,12 @@ blank-line-empty:
 
 # 
 # %1: 
-# %2: 
 cases:
   - %1 (context:"फलन उपशर्त-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-cases-summary:
   - %1
   - $1: "फलन उपशर्त"
@@ -1271,14 +1233,12 @@ lines-cases-summary:
 
 # 
 # %1: 
-# %2: 
 lines-cases:
   - %1 (context:"फलन उपशर्त-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-equations-summary:
   - %1
   - $1: "समीकरण"
@@ -1286,14 +1246,12 @@ lines-equations-summary:
 
 # 
 # %1: 
-# %2: 
 lines-equations:
   - %1 (context:"समीकरण-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-steps-summary:
   - %1
   - $1: "चरण"
@@ -1301,14 +1259,12 @@ lines-steps-summary:
 
 # 
 # %1: 
-# %2: 
 lines-steps:
   - %1 (context:"चरण-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-rows-summary:
   - %1
   - $1: "पंक्तियाँ"
@@ -1316,14 +1272,12 @@ lines-rows-summary:
 
 # 
 # %1: 
-# %2: 
 lines-rows:
   - %1 (context:"पंक्ति-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-constraints-summary:
   - %1
   - $1: "व्यवरोध"
@@ -1331,7 +1285,6 @@ lines-constraints-summary:
 
 # 
 # %1: 
-# %2: 
 lines-constraints:
   - %1 (context:"व्यवरोध-:", pause:long)
 

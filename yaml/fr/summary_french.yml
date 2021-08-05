@@ -10,92 +10,110 @@ collapsed-feminine:
 
 # A long collapsed identifier.
 # LaTeX Example: $\mathit{abcdefg}$
+# %1: 
 abstr-identifier-long:
   - $1: "identifiant long"
   - %1 (grammar:gender="m")
 
 # 
+# %1: 
 abstr-identifier:
   - $1: "identifiant"
   - %1 (grammar:gender="m")
 
 # 
+# %1: 
 abstr-number-long:
   - $1: "nombre long"
   - %1 (grammar:gender="m")
 
 # 
+# %1: 
 abstr-number:
   - $1: "nombre"
   - %1 (grammar:gender="m")
 
 # 
+# %1: 
 abstr-mixed-number-long:
   - $1: "nombre fractionnaire long"
   - %1 (grammar:gender="m")
 
 # 
+# %1: 
 abstr-mixed-number:
   - $1: "nombre fractionnaire"
   - %1 (grammar:gender="m")
 
 # 
+# %1: 
 abstr-text:
   - $1: "texte"
   - %1 (grammar:gender="m")
 
 # 
+# %1: 
 abstr-function:
   - $1: "expression fonctionnelle"
   - %1 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-function-brief:
   - $1: "fonction"
   - %1 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-lim:
   - $1: "fonction de limitation"
   - %1 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-lim-brief:
   - $1: "lim"
   - %1 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-fraction:
   - $1: "fraction"
   - %1 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-fraction-brief:
   - $1: "frac"
   - %1 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-continued-fraction:
   - $1: "fraction continue"
   - %1 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-continued-fraction-brief:
   - $1: "frac continue"
   - %1 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-sqrt:
   - $1: "racine carrée"
   - %1 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-sqrt-nested:
   - $1: "racine carrée imbriquée"
   - %1 (grammar:gender="f")
 
 # 
 # %1: 
+# %2: 
 abstr-root-end:
   - $1: "racine d'indice"
   - %1
@@ -104,18 +122,21 @@ abstr-root-end:
 
 # 
 # %1: 
+# %2: 
 abstr-root:
   - $1: "racine d'indice"
   - %1
   - %2 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-root-brief:
   - $1: "racine"
   - %1 (grammar:gender="f")
 
 # 
 # %1: 
+# %2: 
 abstr-root-nested-end:
   - $1: "racine imbriquée d'indice"
   - %1
@@ -124,27 +145,32 @@ abstr-root-nested-end:
 
 # 
 # %1: 
+# %2: 
 abstr-root-nested:
   - $1: "racine imbriquée d'indice"
   - %1
   - %2 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-root-nested-brief:
   - $1: "racine imbriquée"
   - %1 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-superscript:
   - $1: "puissance"
   - %1 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-subscript:
   - $1: "indice"
   - %1 (grammar:gender="m")
 
 # 
+# %1: 
 abstr-subsup:
   - $1: "puissance avec index"
   - %1 (grammar:gender="f")
@@ -152,6 +178,7 @@ abstr-subsup:
 # 
 # %1: 
 # %2: 
+# %3: 
 abstr-infixop:
   - %1
   - $1: "avec"
@@ -161,6 +188,7 @@ abstr-infixop:
 
 # 
 # %1: 
+# %2: 
 abstr-infixop-var:
   - %1
   - $1: "avec un nombre d'éléments variable"
@@ -168,12 +196,14 @@ abstr-infixop-var:
 
 # 
 # %1: 
+# %2: 
 abstr-infixop-brief:
   - %1
   - %2 (grammar:gender="m")
 
 # 
 # %1: 
+# %2: 
 abstr-addition:
   - $1: "somme avec"
   - %1
@@ -181,17 +211,20 @@ abstr-addition:
   - %2 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-addition-brief:
   - $1: "somme"
   - %1 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-addition-var:
   - $1: "somme avec un nombre variable d'opérandes"
   - %1 (grammar:gender="f")
 
 # 
 # %1: 
+# %2: 
 abstr-multiplication:
   - $1: "produit avec"
   - %1
@@ -199,74 +232,87 @@ abstr-multiplication:
   - %2 (grammar:gender="m")
 
 # 
+# %1: 
 abstr-multiplication-brief:
   - $1: "produit"
   - %1 (grammar:gender="m")
 
 # 
+# %1: 
 abstr-multiplication-var:
   - $1: "produit avec un nombre de facteurs variable"
   - %1 (grammar:gender="m")
 
 # 
 # %1: 
+# %2: 
 abstr-vector:
   - $1: "vecteur de dimension"
   - %1
   - %2 (grammar:gender="m")
 
 # 
+# %1: 
 abstr-vector-brief:
   - $1: "vecteur"
   - %1 (grammar:gender="m")
 
 # 
+# %1: 
 abstr-vector-var:
   - $1: "vecteur colonne de dimension n"
   - %1 (grammar:gender="m")
 
 # 
+# %1: 
 abstr-binomial:
   - $1: "binomial"
   - %1 (grammar:gender="m")
 
 # 
 # %1: 
+# %2: 
 abstr-determinant:
   - $1: "déterminant de dimension"
   - %1
   - %2 (grammar:gender="m")
 
 # 
+# %1: 
 abstr-determinant-brief:
   - $1: "déterminant"
   - %1 (grammar:gender="m")
 
 # 
+# %1: 
 abstr-determinant-var:
   - $1: "déterminant de dimension n"
   - %1 (grammar:gender="m")
 
 # 
 # %1: 
+# %2: 
 abstr-squarematrix:
   - $1: "matrice carrée de dimension"
   - %1
   - %2 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-squarematrix-brief:
   - $1: "matrice carrée"
   - %1 (grammar:gender="f")
 
 # 
 # %1: 
+# %2: 
 abstr-rowvector:
   - $1: "vecteur ligne de dimension"
   - %1
   - %2 (grammar:gender="m")
 
 # 
+# %1: 
 abstr-rowvector-brief:
   - $1: "vecteur ligne"
   - %1 (grammar:gender="m")
@@ -278,6 +324,7 @@ abstr-rowvector-var:
 # 
 # %1: 
 # %2: 
+# %3: 
 abstr-matrix:
   - $1: "matrice"
   - %1
@@ -286,17 +333,20 @@ abstr-matrix:
   - %3 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-matrix-brief:
   - $1: "matrice"
   - %1 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-matrix-var:
   - $1: "matrice de dimension n par m"
   - %1 (grammar:gender="f")
 
 # 
 # %1: 
+# %2: 
 abstr-cases:
   - $1: "déclaration de cas"
   - $2: "avec"
@@ -305,11 +355,13 @@ abstr-cases:
   - %2 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-cases-brief:
   - $1: "déclaration de cas"
   - %1 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-cases-var:
   - $1: "déclaration de cas variable"
   - %1 (grammar:gender="f")
@@ -317,6 +369,7 @@ abstr-cases-var:
 # 
 # %1: 
 # %2: 
+# %3: 
 abstr-punctuated:
   - $1: "liste de longueur"
   - %1
@@ -327,6 +380,7 @@ abstr-punctuated:
 
 # 
 # %1: 
+# %2: 
 abstr-punctuated-brief:
   - $1: "liste séparée par des"
   - %1 (join:"")
@@ -335,6 +389,7 @@ abstr-punctuated-brief:
 
 # 
 # %1: 
+# %2: 
 abstr-punctuated-var:
   - $1: "liste de longueur variable séparée par des"
   - %1 (join:"")
@@ -343,17 +398,20 @@ abstr-punctuated-var:
 
 # 
 # %1: 
+# %2: 
 abstr-bigop:
   - %1
   - %2 (grammar:gender="m")
 
 # 
+# %1: 
 abstr-integral:
   - $1: "intégrale"
   - %1 (grammar:gender="f")
 
 # 
 # %1: 
+# %2: 
 abstr-relation:
   - %1
   - %2 (grammar:gender="m")
@@ -361,6 +419,7 @@ abstr-relation:
 # 
 # %1: 
 # %2: 
+# %3: 
 abstr-relation-seq:
   - %1
   - $1: "séquence"
@@ -371,6 +430,7 @@ abstr-relation-seq:
 
 # 
 # %1: 
+# %2: 
 abstr-relation-seq-brief:
   - %1
   - $1: "séquence"
@@ -378,6 +438,7 @@ abstr-relation-seq-brief:
 
 # 
 # %1: 
+# %2: 
 abstr-relation-var:
   - %1
   - $1: "séquence"
@@ -386,6 +447,7 @@ abstr-relation-var:
 
 # 
 # %1: 
+# %2: 
 abstr-multirel:
   - $1: "séquence de relation"
   - $2: "avec"
@@ -394,11 +456,13 @@ abstr-multirel:
   - %2 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-multirel-brief:
   - $1: "séquence de relation"
   - %1 (grammar:gender="f")
 
 # 
+# %1: 
 abstr-multirel-var:
   - $1: "séquence de relation avec un nombre de éléments variable"
   - %1 (grammar:gender="f")
@@ -406,6 +470,7 @@ abstr-multirel-var:
 # 
 # %1: 
 # %2: 
+# %3: 
 abstr-table:
   - $1: "table avec"
   - %1
@@ -416,6 +481,7 @@ abstr-table:
 
 # 
 # %1: 
+# %2: 
 abstr-line:
   - $1: "dans"
   - %1
@@ -425,6 +491,7 @@ abstr-line:
 # %1: 
 # %2: 
 # %3: 
+# %4: 
 abstr-row:
   - $1: "dans"
   - %1
@@ -436,6 +503,7 @@ abstr-row:
 
 # 
 # %1: 
+# %2: 
 abstr-cell:
   - $1: "dans"
   - %1

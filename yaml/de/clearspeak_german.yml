@@ -140,7 +140,6 @@ appl-simple-fenced:
 # 
 # %1: 
 # %2: 
-# %3: 
 appl-times:
   - %1
   - $1: "mal"
@@ -163,7 +162,6 @@ function-prefix-simple-arg:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-embell:
   - %1
   - %2 (pause:short)
@@ -171,7 +169,6 @@ function-prefix-embell:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-fenced-or-frac-arg:
   - %1
   - $1: "von"
@@ -180,7 +177,6 @@ function-prefix-fenced-or-frac-arg:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-subscript:
   - %1
   - $1: "von" (pause:short)
@@ -227,7 +223,6 @@ function-prefix-subscript-as-exp:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-hyper:
   - %1
   - $1: "von"
@@ -236,7 +231,6 @@ function-prefix-hyper:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-inverse:
   - $1: "der" (grammar:article)
   - $2: "inverse"
@@ -247,7 +241,6 @@ function-prefix-inverse:
 # 
 # %1: 
 # %2: 
-# %3: 
 appl-triginverse:
   - %1
   - $1: "von"
@@ -256,7 +249,6 @@ appl-triginverse:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-arc-simple:
   - $1: "Arkus" (join:"")
   - %1
@@ -265,7 +257,6 @@ function-prefix-arc-simple:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-arc-simple-fenced:
   - $1: "Arkus" (join:"")
   - %1 (pause:short)
@@ -274,7 +265,6 @@ function-prefix-arc-simple-fenced:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-arc:
   - $1: "Arkus" (join:"")
   - %1
@@ -545,7 +535,6 @@ set-extended-woall:
 # 
 # %1: 
 # %2: 
-# %3: 
 subscript:
   - %1
   - $1: "Index"
@@ -570,7 +559,6 @@ subscript-index:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction:
   - $1: "Bruch mit Zähler"
   - %1 (pause:short)
@@ -580,7 +568,6 @@ fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-none:
   - $1: "Bruch mit Zähler"
   - %1 (pause:short)
@@ -590,7 +577,6 @@ fraction-none:
 # 
 # %1: 
 # %2: 
-# %3: 
 simple-fraction:
   - %1
   - $1: "geteilt durch"
@@ -599,7 +585,6 @@ simple-fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 simple-vulgar-fraction:
   - %1
   - $1: "geteilt durch"
@@ -608,7 +593,6 @@ simple-vulgar-fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 simple-text-fraction:
   - %1
   - $1: "geteilt durch"
@@ -622,7 +606,6 @@ vulgar-fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-over:
   - %1
   - $1: "geteilt durch"
@@ -631,7 +614,6 @@ fraction-over:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-overendfrac:
   - %1
   - $1: "geteilt durch"
@@ -641,7 +623,6 @@ fraction-overendfrac:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-fracover:
   - $1: "Bruch"
   - %1
@@ -651,7 +632,6 @@ fraction-fracover:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-per:
   - %1
   - $1: "per"
@@ -660,7 +640,6 @@ fraction-per:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-generalendfrac:
   - $1: "Bruch mit Zähler"
   - %1 (pause:short)
@@ -671,7 +650,6 @@ fraction-generalendfrac:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-general:
   - $1: "Bruch mit Zähler"
   - %1 (pause:short)
@@ -685,7 +663,6 @@ simple-vulgar-fraction-ordinal:
 
 # 
 # %1: 
-# %2: 
 fraction-endfrac:
   - %1
   - $1: "Ende Bruch" (pause:short)
@@ -693,7 +670,6 @@ fraction-endfrac:
 # 
 # %1: 
 # %2: 
-# %3: 
 vulgar-fraction-endfrac:
   - %1
   - $1: "geteilt durch"
@@ -712,7 +688,6 @@ sqrt:
 
 # 
 # %1: 
-# %2: 
 sqrt-nested:
   - $1: "Quadratwurzel aus"
   - %1 (pause:short)
@@ -725,7 +700,6 @@ negative-sqrt:
 
 # 
 # %1: 
-# %2: 
 negative-sqrt-default:
   - $1: "negative Quadratwurzel aus"
   - %1 (pause:short)
@@ -738,7 +712,6 @@ sqrt-plus-minus:
 
 # 
 # %1: 
-# %2: 
 sqrt-nested-plus-minus:
   - $1: "positive Quadratwurzel aus"
   - %1 (pause:short)
@@ -751,7 +724,6 @@ sqrt-plus-minus-posnegsqrootend:
 
 # 
 # %1: 
-# %2: 
 sqrt-nested-plus-minus-posnegsqrootend:
   - $1: "positive Quadratwurzel aus"
   - %1 (pause:short)
@@ -788,7 +760,6 @@ cubic:
 
 # 
 # %1: 
-# %2: 
 cubic-nested:
   - $1: "Kubikwurzel aus"
   - %1 (pause:short)
@@ -805,7 +776,6 @@ root:
 # 
 # %1: 
 # %2: 
-# %3: 
 root-nested:
   - $1: "die" (grammar:article)
   - %1
@@ -906,14 +876,12 @@ negative-rational-numbers:
 
 # 
 # %1: 
-# %2: 
 fences-neutral:
   - $1: "der Betrag von"
   - %1 (pause:short)
 
 # 
 # %1: 
-# %2: 
 fences-neutral-absend:
   - $1: "der Betrag von"
   - %1 (pause:short)
@@ -921,14 +889,12 @@ fences-neutral-absend:
 
 # 
 # %1: 
-# %2: 
 fences-neutral-cardinality:
   - $1: "die Mächtigkeit der Menge"
   - %1 (pause:short)
 
 # 
 # %1: 
-# %2: 
 fences-neutral-determinant:
   - $1: "die Determinante von"
   - %1 (pause:short)
@@ -1180,7 +1146,6 @@ binomial:
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-summary:
   - %1
   - $1: "Zeilen"
@@ -1189,7 +1154,6 @@ lines-summary:
 # 
 # %1: 
 # %2: 
-# %3: 
 cases-summary:
   - %1
   - $1: "Fälle"
@@ -1197,7 +1161,6 @@ cases-summary:
 
 # 
 # %1: 
-# %2: 
 lines:
   - %1 (context:"Zeile-:", pause:long)
 
@@ -1219,14 +1182,12 @@ blank-line-empty:
 
 # 
 # %1: 
-# %2: 
 cases:
   - %1 (context:"Fall-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-cases-summary:
   - %1
   - $1: "Fälle"
@@ -1234,14 +1195,12 @@ lines-cases-summary:
 
 # 
 # %1: 
-# %2: 
 lines-cases:
   - %1 (context:"Fall-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-equations-summary:
   - %1
   - $1: "Gleichungen"
@@ -1249,14 +1208,12 @@ lines-equations-summary:
 
 # 
 # %1: 
-# %2: 
 lines-equations:
   - %1 (context:"Gleichung-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-steps-summary:
   - %1
   - $1: "Rechenschritte"
@@ -1264,14 +1221,12 @@ lines-steps-summary:
 
 # 
 # %1: 
-# %2: 
 lines-steps:
   - %1 (context:"Schritt-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-rows-summary:
   - %1
   - $1: "Zeilen"
@@ -1279,14 +1234,12 @@ lines-rows-summary:
 
 # 
 # %1: 
-# %2: 
 lines-rows:
   - %1 (context:"Zeile-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-constraints-summary:
   - %1
   - $1: "Bedingungen"
@@ -1294,7 +1247,6 @@ lines-constraints-summary:
 
 # 
 # %1: 
-# %2: 
 lines-constraints:
   - %1 (context:"Bedingung-:", pause:long)
 

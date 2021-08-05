@@ -114,7 +114,6 @@ appl-simple-fenced:
 # 
 # %1: 
 # %2: 
-# %3: 
 appl-times:
   - %1
   - $1: "fois"
@@ -137,7 +136,6 @@ function-prefix-simple-arg:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-embell:
   - %1
   - %2 (pause:short)
@@ -145,7 +143,6 @@ function-prefix-embell:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-fenced-or-frac-arg:
   - %1
   - $1: "de"
@@ -154,7 +151,6 @@ function-prefix-fenced-or-frac-arg:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-subscript:
   - %1
   - $1: "de" (pause:short)
@@ -201,7 +197,6 @@ function-prefix-subscript-as-exp:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-hyper:
   - %1
   - $1: "de"
@@ -210,7 +205,6 @@ function-prefix-hyper:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-inverse:
   - %1
   - $1: "inverse de"
@@ -219,7 +213,6 @@ function-prefix-inverse:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-reciprocal:
   - $1: "la reciproque de"
   - %1 (pause:short)
@@ -228,7 +221,6 @@ function-prefix-reciprocal:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-reciprocal-simple:
   - $1: "la reciproque de"
   - %1
@@ -237,7 +229,6 @@ function-prefix-reciprocal-simple:
 # 
 # %1: 
 # %2: 
-# %3: 
 appl-triginverse:
   - %1
   - $1: "de"
@@ -246,7 +237,6 @@ appl-triginverse:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-arc-simple:
   - $1: "arc"
   - %1
@@ -255,7 +245,6 @@ function-prefix-arc-simple:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-arc-simple-fenced:
   - $1: "arc"
   - %1 (pause:short)
@@ -264,7 +253,6 @@ function-prefix-arc-simple-fenced:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-arc:
   - $1: "arc"
   - %1
@@ -485,7 +473,6 @@ set-extended-woall:
 # 
 # %1: 
 # %2: 
-# %3: 
 subscript:
   - %1
   - $1: "sub"
@@ -510,7 +497,6 @@ subscript-index:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction:
   - $1: "fraction avec numérateur"
   - %1 (pause:short)
@@ -520,7 +506,6 @@ fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-none:
   - $1: "fraction avec numérateur"
   - %1 (pause:short)
@@ -530,7 +515,6 @@ fraction-none:
 # 
 # %1: 
 # %2: 
-# %3: 
 simple-fraction:
   - %1
   - $1: "sur"
@@ -539,7 +523,6 @@ simple-fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 simple-vulgar-fraction:
   - %1
   - $1: "sur"
@@ -548,7 +531,6 @@ simple-vulgar-fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 simple-text-fraction:
   - %1
   - $1: "sur"
@@ -562,7 +544,6 @@ vulgar-fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-over:
   - %1
   - $1: "sur"
@@ -571,7 +552,6 @@ fraction-over:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-overendfrac:
   - %1
   - $1: "sur"
@@ -581,7 +561,6 @@ fraction-overendfrac:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-fracover:
   - $1: "fraction"
   - %1
@@ -591,7 +570,6 @@ fraction-fracover:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-per:
   - %1
   - $1: "par"
@@ -600,7 +578,6 @@ fraction-per:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-generalendfrac:
   - $1: "fraction avec numérateur"
   - %1 (pause:short)
@@ -611,7 +588,6 @@ fraction-generalendfrac:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-general:
   - $1: "fraction avec numérateur"
   - %1 (pause:short)
@@ -625,7 +601,6 @@ simple-vulgar-fraction-ordinal:
 
 # 
 # %1: 
-# %2: 
 fraction-endfrac:
   - %1
   - $1: "fin fraction" (pause:short)
@@ -633,7 +608,6 @@ fraction-endfrac:
 # 
 # %1: 
 # %2: 
-# %3: 
 vulgar-fraction-endfrac:
   - %1
   - $1: "sur"
@@ -652,7 +626,6 @@ sqrt:
 
 # 
 # %1: 
-# %2: 
 sqrt-nested:
   - $1: "la racine carrée de"
   - %1 (pause:short)
@@ -665,7 +638,6 @@ negative-sqrt:
 
 # 
 # %1: 
-# %2: 
 negative-sqrt-default:
   - $1: "la racine carrée négative de"
   - %1 (pause:short)
@@ -678,7 +650,6 @@ sqrt-plus-minus:
 
 # 
 # %1: 
-# %2: 
 sqrt-nested-plus-minus:
   - $1: "la racine carrée positive de"
   - %1 (pause:short)
@@ -691,7 +662,6 @@ sqrt-plus-minus-posnegsqrootend:
 
 # 
 # %1: 
-# %2: 
 sqrt-nested-plus-minus-posnegsqrootend:
   - $1: "la racine carrée positive de"
   - %1 (pause:short)
@@ -728,7 +698,6 @@ cubic:
 
 # 
 # %1: 
-# %2: 
 cubic-nested:
   - $1: "la racine cubique de"
   - %1 (pause:short)
@@ -745,7 +714,6 @@ root:
 # 
 # %1: 
 # %2: 
-# %3: 
 root-nested:
   - $1: "la"
   - %1
@@ -778,6 +746,7 @@ positive:
 
 # 
 # %1: 
+# %2: 
 angle-measure:
   - $1: "la mesure de l'" (join:"")
   - %1
@@ -840,14 +809,12 @@ negative-rational-numbers:
 
 # 
 # %1: 
-# %2: 
 fences-neutral:
   - $1: "la valeur absolue de"
   - %1 (pause:short)
 
 # 
 # %1: 
-# %2: 
 fences-neutral-absend:
   - $1: "la valeur absolue de"
   - %1 (pause:short)
@@ -855,14 +822,12 @@ fences-neutral-absend:
 
 # 
 # %1: 
-# %2: 
 fences-neutral-cardinality:
   - $1: "la cardinalité de"
   - %1 (pause:short)
 
 # 
 # %1: 
-# %2: 
 fences-neutral-determinant:
   - $1: "le déterminant de"
   - %1 (pause:short)
@@ -1098,7 +1063,6 @@ binomial:
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-summary:
   - %1
   - $1: "lignes"
@@ -1107,7 +1071,6 @@ lines-summary:
 # 
 # %1: 
 # %2: 
-# %3: 
 cases-summary:
   - %1
   - $1: "cas"
@@ -1115,7 +1078,6 @@ cases-summary:
 
 # 
 # %1: 
-# %2: 
 lines:
   - %1 (context:"Ligne-:", pause:long)
 
@@ -1137,14 +1099,12 @@ blank-line-empty:
 
 # 
 # %1: 
-# %2: 
 cases:
   - %1 (context:"Cas-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-cases-summary:
   - %1
   - $1: "cas"
@@ -1152,14 +1112,12 @@ lines-cases-summary:
 
 # 
 # %1: 
-# %2: 
 lines-cases:
   - %1 (context:"Cas-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-equations-summary:
   - %1
   - $1: "équations"
@@ -1167,14 +1125,12 @@ lines-equations-summary:
 
 # 
 # %1: 
-# %2: 
 lines-equations:
   - %1 (context:"Équation-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-steps-summary:
   - %1
   - $1: " étapes"
@@ -1182,14 +1138,12 @@ lines-steps-summary:
 
 # 
 # %1: 
-# %2: 
 lines-steps:
   - %1 (context:" Étape-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-rows-summary:
   - %1
   - $1: "colonnes"
@@ -1197,14 +1151,12 @@ lines-rows-summary:
 
 # 
 # %1: 
-# %2: 
 lines-rows:
   - %1 (context:"Rangée-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-constraints-summary:
   - %1
   - $1: "contraintes"
@@ -1212,7 +1164,6 @@ lines-constraints-summary:
 
 # 
 # %1: 
-# %2: 
 lines-constraints:
   - %1 (context:"Contrainte-:", pause:long)
 

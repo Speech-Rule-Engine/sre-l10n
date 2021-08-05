@@ -114,7 +114,6 @@ appl-simple-fenced:
 # 
 # %1: 
 # %2: 
-# %3: 
 appl-times:
   - %1
   - $1: "per"
@@ -147,7 +146,6 @@ function-prefix-simple-arg:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-embell:
   - %1
   - $1: "di"
@@ -156,7 +154,6 @@ function-prefix-embell:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-fenced-or-frac-arg:
   - %1
   - $1: "di"
@@ -165,7 +162,6 @@ function-prefix-fenced-or-frac-arg:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-subscript:
   - %1
   - $1: "di" (pause:short)
@@ -214,7 +210,6 @@ function-prefix-subscript-as-exp:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-hyper:
   - %1
   - $1: "di"
@@ -223,7 +218,6 @@ function-prefix-hyper:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-inverse:
   - $1: "inverso del"
   - %1
@@ -233,7 +227,6 @@ function-prefix-inverse:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-reciprocal:
   - $1: "il reciproco del"
   - %1 (pause:short)
@@ -242,7 +235,6 @@ function-prefix-reciprocal:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-reciprocal-simple:
   - $1: "il reciproco del"
   - %1
@@ -251,7 +243,6 @@ function-prefix-reciprocal-simple:
 # 
 # %1: 
 # %2: 
-# %3: 
 appl-triginverse:
   - %1
   - $1: "di"
@@ -260,7 +251,6 @@ appl-triginverse:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-arc-simple:
   - $1: "arco"
   - %1
@@ -270,7 +260,6 @@ function-prefix-arc-simple:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-arc-simple-fenced:
   - $1: "arco"
   - %1
@@ -280,7 +269,6 @@ function-prefix-arc-simple-fenced:
 # 
 # %1: 
 # %2: 
-# %3: 
 function-prefix-arc:
   - $1: "arco"
   - %1
@@ -472,6 +460,7 @@ squared-feminine:
 
 # 
 # %1: 
+# %2: 
 square:
   - %1
   - %2
@@ -590,7 +579,6 @@ set-extended-woall:
 # 
 # %1: 
 # %2: 
-# %3: 
 subscript:
   - %1
   - $1: "pedice"
@@ -615,7 +603,6 @@ subscript-index:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction:
   - $1: "frazione con numeratore"
   - %1 (pause:short)
@@ -625,7 +612,6 @@ fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-none:
   - $1: "frazione con numeratore"
   - %1 (pause:short)
@@ -635,7 +621,6 @@ fraction-none:
 # 
 # %1: 
 # %2: 
-# %3: 
 simple-fraction:
   - %1
   - $1: "fratto"
@@ -644,7 +629,6 @@ simple-fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 simple-vulgar-fraction:
   - %1
   - $1: "fratto"
@@ -653,7 +637,6 @@ simple-vulgar-fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 simple-text-fraction:
   - %1
   - $1: "fratto"
@@ -667,7 +650,6 @@ vulgar-fraction:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-over:
   - %1
   - $1: "fratto"
@@ -676,7 +658,6 @@ fraction-over:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-overendfrac:
   - %1
   - $1: "fratto"
@@ -686,7 +667,6 @@ fraction-overendfrac:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-fracover:
   - $1: "frazione"
   - %1
@@ -696,7 +676,6 @@ fraction-fracover:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-per:
   - %1
   - $1: "per"
@@ -705,7 +684,6 @@ fraction-per:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-generalendfrac:
   - $1: "frazione con numeratore"
   - %1 (pause:short)
@@ -716,7 +694,6 @@ fraction-generalendfrac:
 # 
 # %1: 
 # %2: 
-# %3: 
 fraction-general:
   - $1: "frazione con numeratore"
   - %1 (pause:short)
@@ -730,7 +707,6 @@ simple-vulgar-fraction-ordinal:
 
 # 
 # %1: 
-# %2: 
 fraction-endfrac:
   - %1
   - $1: "fine frazione" (pause:short)
@@ -738,7 +714,6 @@ fraction-endfrac:
 # 
 # %1: 
 # %2: 
-# %3: 
 vulgar-fraction-endfrac:
   - %1
   - $1: "fratto"
@@ -757,7 +732,6 @@ sqrt:
 
 # 
 # %1: 
-# %2: 
 sqrt-nested:
   - $1: "radice quadrata di"
   - %1 (pause:short)
@@ -770,7 +744,6 @@ negative-sqrt:
 
 # 
 # %1: 
-# %2: 
 negative-sqrt-default:
   - $1: "meno radice quadrata di"
   - %1 (pause:short)
@@ -783,7 +756,6 @@ sqrt-plus-minus:
 
 # 
 # %1: 
-# %2: 
 sqrt-nested-plus-minus:
   - $1: "più radice quadrata di"
   - %1 (pause:short)
@@ -796,7 +768,6 @@ sqrt-plus-minus-posnegsqrootend:
 
 # 
 # %1: 
-# %2: 
 sqrt-nested-plus-minus-posnegsqrootend:
   - $1: "più radice quadrata di"
   - %1 (pause:short)
@@ -833,7 +804,6 @@ cubic:
 
 # 
 # %1: 
-# %2: 
 cubic-nested:
   - $1: "radice cubica di"
   - %1 (pause:short)
@@ -850,7 +820,6 @@ root:
 # 
 # %1: 
 # %2: 
-# %3: 
 root-nested:
   - $1: "radice"
   - %1 (grammar:gender="f")
@@ -883,6 +852,7 @@ positive:
 
 # 
 # %1: 
+# %2: 
 angle-measure:
   - $1: "misura di"
   - %1
@@ -950,14 +920,12 @@ negative-rational-numbers:
 
 # 
 # %1: 
-# %2: 
 fences-neutral:
   - $1: "valore assoluto di"
   - %1 (pause:short)
 
 # 
 # %1: 
-# %2: 
 fences-neutral-absend:
   - $1: "valore assoluto di"
   - %1 (pause:short)
@@ -965,14 +933,12 @@ fences-neutral-absend:
 
 # 
 # %1: 
-# %2: 
 fences-neutral-cardinality:
   - $1: "cardinalità di"
   - %1 (pause:short)
 
 # 
 # %1: 
-# %2: 
 fences-neutral-determinant:
   - $1: "determinante della"
   - %1 (pause:short)
@@ -1209,7 +1175,6 @@ binomial:
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-summary:
   - %1
   - $1: "linee"
@@ -1218,7 +1183,6 @@ lines-summary:
 # 
 # %1: 
 # %2: 
-# %3: 
 cases-summary:
   - %1
   - $1: "casi"
@@ -1226,7 +1190,6 @@ cases-summary:
 
 # 
 # %1: 
-# %2: 
 lines:
   - %1 (context:"Riga-:", pause:long)
 
@@ -1248,14 +1211,12 @@ blank-line-empty:
 
 # 
 # %1: 
-# %2: 
 cases:
   - %1 (context:"Caso-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-cases-summary:
   - %1
   - $1: "caso"
@@ -1263,14 +1224,12 @@ lines-cases-summary:
 
 # 
 # %1: 
-# %2: 
 lines-cases:
   - %1 (context:"Caso-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-equations-summary:
   - %1
   - $1: "equazioni"
@@ -1278,14 +1237,12 @@ lines-equations-summary:
 
 # 
 # %1: 
-# %2: 
 lines-equations:
   - %1 (context:"Equazioni-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-steps-summary:
   - %1
   - $1: "passi"
@@ -1293,14 +1250,12 @@ lines-steps-summary:
 
 # 
 # %1: 
-# %2: 
 lines-steps:
   - %1 (context:"Passo-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-rows-summary:
   - %1
   - $1: "riga"
@@ -1308,14 +1263,12 @@ lines-rows-summary:
 
 # 
 # %1: 
-# %2: 
 lines-rows:
   - %1 (context:"Riga-:", pause:long)
 
 # 
 # %1: 
 # %2: 
-# %3: 
 lines-constraints-summary:
   - %1
   - $1: "vincoli"
@@ -1323,7 +1276,6 @@ lines-constraints-summary:
 
 # 
 # %1: 
-# %2: 
 lines-constraints:
   - %1 (context:"Vincoli-:", pause:long)
 
