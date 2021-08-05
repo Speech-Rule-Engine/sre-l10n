@@ -145,8 +145,6 @@ fences-neutral-sbrief:
 
 # 
 # %1: 
-# %2: 
-# %3: 
 fences-metric:
   - $1: "StartMetric"
   - %1

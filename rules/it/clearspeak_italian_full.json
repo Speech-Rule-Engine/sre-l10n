@@ -2564,6 +2564,62 @@
       }
     ]
   },
+  "fences-metric": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"metrica di\"",
+        "attributes": {
+          "span": "."
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "fences-metric-absend": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"metrica di\"",
+        "attributes": {
+          "span": "content/*[1]"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"fine metrica\"",
+        "attributes": {
+          "span": "content/*[1]",
+          "pause": "short"
+        }
+      }
+    ]
+  },
   "matrix": {
     "components": [
       {

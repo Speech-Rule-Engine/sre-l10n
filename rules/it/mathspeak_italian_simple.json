@@ -74,9 +74,14 @@
     "$2: \"fine valore assoluto\""
   ],
   "fences-metric": [
+    "$1: \"inizio metrica\"",
     "%1",
-    "%2",
-    "%3"
+    "$2: \"fine metrica\""
+  ],
+  "fences-metric-sbrief": [
+    "$1: \"metrica\"",
+    "%1",
+    "$2: \"fine metrica\""
   ],
   "empty-set": [
     "$1: \"insieme vuoto\""

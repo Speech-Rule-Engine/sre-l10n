@@ -126,12 +126,17 @@ fences-neutral-sbrief:
 
 # 
 # %1: 
-# %2: 
-# %3: 
 fences-metric:
+  - $1: "début métrique"
   - %1
-  - %2
-  - %3
+  - $2: "fin métrique"
+
+# 
+# %1: 
+fences-metric-sbrief:
+  - $1: "métrique"
+  - %1
+  - $2: "fin métrique"
 
 # 
 empty-set:

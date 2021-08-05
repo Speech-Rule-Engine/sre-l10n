@@ -75,9 +75,14 @@
     "$2: \"finalizar valor absoluto\""
   ],
   "fences-metric": [
+    "$1: \"empezar métrica\"",
     "%1",
-    "%2",
-    "%3"
+    "$2: \"finalizar métrica\""
+  ],
+  "fences-metric-sbrief": [
+    "$1: \"métrica\"",
+    "%1",
+    "$2: \"finalizar métrica\""
   ],
   "empty-set": [
     "$1: \"conjunto vacío\""

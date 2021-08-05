@@ -869,6 +869,19 @@ fences-neutral-determinant:
 
 # 
 # %1: 
+fences-metric:
+  - $1: "métrique de"
+  - %1 (pause:short)
+
+# 
+# %1: 
+fences-metric-absend:
+  - $1: "métrique de"
+  - %1 (pause:short)
+  - $2: "fin de métrique" (pause:short)
+
+# 
+# %1: 
 # %2: 
 # %3: 
 matrix:

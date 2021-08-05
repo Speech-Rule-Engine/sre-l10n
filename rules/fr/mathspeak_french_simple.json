@@ -70,9 +70,14 @@
     "$2: \"fin valeur absolue\""
   ],
   "fences-metric": [
+    "$1: \"début métrique\"",
     "%1",
-    "%2",
-    "%3"
+    "$2: \"fin métrique\""
+  ],
+  "fences-metric-sbrief": [
+    "$1: \"métrique\"",
+    "%1",
+    "$2: \"fin métrique\""
   ],
   "empty-set": [
     "$1: \"ensemble vide\""

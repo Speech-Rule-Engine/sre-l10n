@@ -3694,11 +3694,14 @@
   "fences-metric": {
     "rule": "fences-metric",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": ""
     },
     "locales": [
-      "en"
+      "en",
+      "de",
+      "fr",
+      "hi",
+      "it"
     ],
     "description": "",
     "latex": "",
@@ -3707,11 +3710,14 @@
   "fences-metric-absend": {
     "rule": "fences-metric-absend",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": ""
     },
     "locales": [
-      "en"
+      "en",
+      "de",
+      "fr",
+      "hi",
+      "it"
     ],
     "description": "",
     "latex": "",

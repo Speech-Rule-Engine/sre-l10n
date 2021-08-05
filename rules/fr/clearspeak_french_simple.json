@@ -547,6 +547,15 @@
     "$1: \"le déterminant de\"",
     "%1 (pause:short)"
   ],
+  "fences-metric": [
+    "$1: \"métrique de\"",
+    "%1 (pause:short)"
+  ],
+  "fences-metric-absend": [
+    "$1: \"métrique de\"",
+    "%1 (pause:short)",
+    "$2: \"fin de métrique\" (pause:short)"
+  ],
   "matrix": [
     "$1: \"la matrice de dimension\"",
     "%1",

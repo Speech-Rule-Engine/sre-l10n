@@ -960,14 +960,12 @@ fences-neutral-determinant:
 
 # 
 # %1: 
-# %2: 
 fences-metric:
   - $1: "the metric of"
   - %1 (pause:short)
 
 # 
 # %1: 
-# %2: 
 fences-metric-absend:
   - $1: "the metric of"
   - %1 (pause:short)

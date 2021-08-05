@@ -620,6 +620,15 @@
     "%1",
     "$1: \"का सारणिक\" (pause:short)"
   ],
+  "fences-metric": [
+    "$1: \"की दूरी फलन\"",
+    "%1 (pause:short)"
+  ],
+  "fences-metric-absend": [
+    "$1: \"की दूरी फलन\"",
+    "%1 (pause:short)",
+    "$2: \"दूरी फलन समाप्त\" (pause:short)"
+  ],
   "matrix": [
     "%1",
     "$1: \"बाय\"",

@@ -227,17 +227,31 @@
     }
   },
   "fences-metric": {
-    "%1": {
-      "type": "NODE",
-      "content": "content/*[1]"
+    "$1": {
+      "type": "TEXT",
+      "content": "\"inizio metrica\""
     },
-    "%2": {
+    "%1": {
       "type": "NODE",
       "content": "children/*[1]"
     },
-    "%3": {
+    "$2": {
+      "type": "TEXT",
+      "content": "\"fine metrica\""
+    }
+  },
+  "fences-metric-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"metrica\""
+    },
+    "%1": {
       "type": "NODE",
-      "content": "content/*[2]"
+      "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"fine metrica\""
     }
   },
   "empty-set": {

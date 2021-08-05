@@ -231,17 +231,31 @@
     }
   },
   "fences-metric": {
-    "%1": {
-      "type": "NODE",
-      "content": "content/*[1]"
+    "$1": {
+      "type": "TEXT",
+      "content": "\"दूरी फलन आरंभ\""
     },
-    "%2": {
+    "%1": {
       "type": "NODE",
       "content": "children/*[1]"
     },
-    "%3": {
+    "$2": {
+      "type": "TEXT",
+      "content": "\"दूरी फलन समाप्त\""
+    }
+  },
+  "fences-metric-sbrief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"दूरी फलन\""
+    },
+    "%1": {
       "type": "NODE",
-      "content": "content/*[2]"
+      "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"दूरी फलन समाप्त\""
     }
   },
   "empty-set": {

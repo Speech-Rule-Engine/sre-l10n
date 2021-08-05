@@ -620,6 +620,15 @@
     "$1: \"determinante della\"",
     "%1 (pause:short)"
   ],
+  "fences-metric": [
+    "$1: \"metrica di\"",
+    "%1 (pause:short)"
+  ],
+  "fences-metric-absend": [
+    "$1: \"metrica di\"",
+    "%1 (pause:short)",
+    "$2: \"fine metrica\" (pause:short)"
+  ],
   "matrix": [
     "$1: \"matrice\"",
     "%1",

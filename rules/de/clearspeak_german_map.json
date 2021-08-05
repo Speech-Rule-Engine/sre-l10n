@@ -2260,6 +2260,58 @@
       }
     }
   },
+  "fences-metric": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"die Metrik von\"",
+      "attributes": {
+        "span": "."
+      }
+    },
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "attributes": {
+        "pause": "short"
+      }
+    }
+  },
+  "fences-metric-absend": {
+    "%0": {
+      "type": "PERSONALITY",
+      "attributes": {
+        "pause": "short"
+      }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"die Metrik von\"",
+      "attributes": {
+        "span": "content/*[1]"
+      }
+    },
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "attributes": {
+        "pause": "short"
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"Ende Metrik\"",
+      "attributes": {
+        "span": "content/*[1]",
+        "pause": "short"
+      }
+    }
+  },
   "matrix": {
     "$1": {
       "type": "TEXT",

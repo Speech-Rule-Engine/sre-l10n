@@ -250,16 +250,32 @@
   "fences-metric": {
     "components": [
       {
-        "type": "NODE",
-        "content": "content/*[1]"
+        "type": "TEXT",
+        "content": "\"début métrique\""
       },
       {
         "type": "NODE",
         "content": "children/*[1]"
       },
       {
+        "type": "TEXT",
+        "content": "\"fin métrique\""
+      }
+    ]
+  },
+  "fences-metric-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"métrique\""
+      },
+      {
         "type": "NODE",
-        "content": "content/*[2]"
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"fin métrique\""
       }
     ]
   },

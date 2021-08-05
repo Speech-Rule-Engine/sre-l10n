@@ -2264,6 +2264,62 @@
       }
     ]
   },
+  "fences-metric": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"métrique de\"",
+        "attributes": {
+          "span": "."
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "fences-metric-absend": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"métrique de\"",
+        "attributes": {
+          "span": "content/*[1]"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"fin de métrique\"",
+        "attributes": {
+          "span": "content/*[1]",
+          "pause": "short"
+        }
+      }
+    ]
+  },
   "matrix": {
     "components": [
       {

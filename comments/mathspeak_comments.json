@@ -331,9 +331,7 @@
   "fences-metric": {
     "rule": "fences-metric",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": ""
     },
     "locales": [
       "de",
@@ -1692,7 +1690,11 @@
     },
     "locales": [
       "en",
-      "de"
+      "de",
+      "fr",
+      "it",
+      "es",
+      "hi"
     ],
     "description": "",
     "latex": "",
