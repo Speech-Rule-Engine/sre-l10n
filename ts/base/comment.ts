@@ -75,7 +75,7 @@ export class Comment {
     let length = this.locales[locale];
     let count = 0;
     for (let [param, str] of Object.entries(this.parameters)) {
-      if (count++ === length) {
+      if (count++ > length) {
         break;
       }
       out.push(`# ${param}: ${str}`);
@@ -115,7 +115,7 @@ export class Comment {
   public prune() {
     let length = Object.keys(this.parameters).length;
     if (this.maximum > length) {
-      console.error('Not enough parameters!');
+      console.error(`Not enough parameters in ${this.rule}!`);
       return;
     }
     if (this.maximum === length) {

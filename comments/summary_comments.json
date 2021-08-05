@@ -2,400 +2,426 @@
   "abstr-identifier-long": {
     "rule": "abstr-identifier-long",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "A long collapsed identifier.",
     "latex": "\\mathit{abcdefg}",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-identifier": {
     "rule": "abstr-identifier",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-number-long": {
     "rule": "abstr-number-long",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-number": {
     "rule": "abstr-number",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-mixed-number-long": {
     "rule": "abstr-mixed-number-long",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-mixed-number": {
     "rule": "abstr-mixed-number",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-text": {
     "rule": "abstr-text",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-function": {
     "rule": "abstr-function",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-function-brief": {
     "rule": "abstr-function-brief",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-lim": {
     "rule": "abstr-lim",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-lim-brief": {
     "rule": "abstr-lim-brief",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-fraction": {
     "rule": "abstr-fraction",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-fraction-brief": {
     "rule": "abstr-fraction-brief",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-continued-fraction": {
     "rule": "abstr-continued-fraction",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-continued-fraction-brief": {
     "rule": "abstr-continued-fraction-brief",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-sqrt": {
     "rule": "abstr-sqrt",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-sqrt-nested": {
     "rule": "abstr-sqrt-nested",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-root-end": {
     "rule": "abstr-root-end",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-root": {
     "rule": "abstr-root",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-root-brief": {
     "rule": "abstr-root-brief",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-root-nested-end": {
     "rule": "abstr-root-nested-end",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-root-nested": {
     "rule": "abstr-root-nested",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-root-nested-brief": {
     "rule": "abstr-root-nested-brief",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-superscript": {
     "rule": "abstr-superscript",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-subscript": {
     "rule": "abstr-subscript",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-subsup": {
     "rule": "abstr-subsup",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-infixop": {
     "rule": "abstr-infixop",
@@ -403,333 +429,354 @@
       "%1": "",
       "%2": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 2,
+      "en": 2,
+      "es": 2,
+      "fr": 3,
+      "hi": 2,
+      "it": 3
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 3
   },
   "abstr-infixop-var": {
     "rule": "abstr-infixop-var",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-infixop-brief": {
     "rule": "abstr-infixop-brief",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-addition": {
     "rule": "abstr-addition",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-addition-brief": {
     "rule": "abstr-addition-brief",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-addition-var": {
     "rule": "abstr-addition-var",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-multiplication": {
     "rule": "abstr-multiplication",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-multiplication-brief": {
     "rule": "abstr-multiplication-brief",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-multiplication-var": {
     "rule": "abstr-multiplication-var",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-vector": {
     "rule": "abstr-vector",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-vector-brief": {
     "rule": "abstr-vector-brief",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 0
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-vector-var": {
     "rule": "abstr-vector-var",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-binomial": {
     "rule": "abstr-binomial",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-determinant": {
     "rule": "abstr-determinant",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-determinant-brief": {
     "rule": "abstr-determinant-brief",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-determinant-var": {
     "rule": "abstr-determinant-var",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-squarematrix": {
     "rule": "abstr-squarematrix",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-squarematrix-brief": {
     "rule": "abstr-squarematrix-brief",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-rowvector": {
     "rule": "abstr-rowvector",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-rowvector-brief": {
     "rule": "abstr-rowvector-brief",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-rowvector-var": {
     "rule": "abstr-rowvector-var",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 0,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-matrix": {
     "rule": "abstr-matrix",
@@ -737,94 +784,100 @@
       "%1": "",
       "%2": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 2,
+      "en": 2,
+      "es": 2,
+      "fr": 3,
+      "hi": 2,
+      "it": 3
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 3
   },
   "abstr-matrix-brief": {
     "rule": "abstr-matrix-brief",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-matrix-var": {
     "rule": "abstr-matrix-var",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-cases": {
     "rule": "abstr-cases",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-cases-brief": {
     "rule": "abstr-cases-brief",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-cases-var": {
     "rule": "abstr-cases-var",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-punctuated": {
     "rule": "abstr-punctuated",
@@ -832,100 +885,106 @@
       "%1": "",
       "%2": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 2,
+      "en": 2,
+      "es": 2,
+      "fr": 3,
+      "hi": 2,
+      "it": 3
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 3
   },
   "abstr-punctuated-brief": {
     "rule": "abstr-punctuated-brief",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-punctuated-var": {
     "rule": "abstr-punctuated-var",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-bigop": {
     "rule": "abstr-bigop",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-integral": {
     "rule": "abstr-integral",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-relation": {
     "rule": "abstr-relation",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-relation-seq": {
     "rule": "abstr-relation-seq",
@@ -933,98 +992,104 @@
       "%1": "",
       "%2": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 2,
+      "en": 2,
+      "es": 2,
+      "fr": 3,
+      "hi": 2,
+      "it": 3
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 3
   },
   "abstr-relation-seq-brief": {
     "rule": "abstr-relation-seq-brief",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-relation-var": {
     "rule": "abstr-relation-var",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-multirel": {
     "rule": "abstr-multirel",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-multirel-brief": {
     "rule": "abstr-multirel-brief",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-multirel-var": {
     "rule": "abstr-multirel-var",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 1,
+      "hi": 0,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "abstr-table": {
     "rule": "abstr-table",
@@ -1032,34 +1097,36 @@
       "%1": "",
       "%2": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 2,
+      "en": 2,
+      "es": 2,
+      "fr": 3,
+      "hi": 2,
+      "it": 3
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 3
   },
   "abstr-line": {
     "rule": "abstr-line",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "abstr-row": {
     "rule": "abstr-row",
@@ -1068,55 +1135,59 @@
       "%2": "",
       "%3": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 3,
+      "en": 3,
+      "es": 3,
+      "fr": 4,
+      "hi": 3,
+      "it": 4
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 4
   },
   "abstr-cell": {
     "rule": "abstr-cell",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 2,
+      "hi": 1,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "collapsed-masculine": {
     "rule": "collapsed-masculine",
     "parameters": {},
-    "locales": [
-      "fr",
-      "it"
-    ],
+    "locales": {
+      "fr": 0,
+      "it": 0
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 0
   },
   "collapsed-feminine": {
     "rule": "collapsed-feminine",
     "parameters": {},
-    "locales": [
-      "fr",
-      "it"
-    ],
+    "locales": {
+      "fr": 0,
+      "it": 0
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 0
   }
 }

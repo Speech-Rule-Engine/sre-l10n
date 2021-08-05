@@ -2,312 +2,332 @@
   "numerator": {
     "rule": "numerator",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 0,
+      "hi": 0,
+      "it": 0
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 0
   },
   "denominator": {
     "rule": "denominator",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 0,
+      "hi": 0,
+      "it": 0
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 0
   },
   "base": {
     "rule": "base",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 0,
+      "hi": 0,
+      "it": 0
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 0
   },
   "exponent": {
     "rule": "exponent",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 0,
+      "hi": 0,
+      "it": 0
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 0
   },
   "subscript": {
     "rule": "subscript",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 0,
+      "hi": 0,
+      "it": 0
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 0
   },
   "overscript": {
     "rule": "overscript",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 0,
+      "hi": 0,
+      "it": 0
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 0
   },
   "underscript": {
     "rule": "underscript",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 0,
+      "hi": 0,
+      "it": 0
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 0
   },
   "radicand": {
     "rule": "radicand",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 0,
+      "hi": 0,
+      "it": 0
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 0
   },
   "index": {
     "rule": "index",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 0,
+      "hi": 0,
+      "it": 0
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 0
   },
   "leftsub": {
     "rule": "leftsub",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 0,
+      "hi": 0,
+      "it": 0
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 0
   },
   "leftsub-counted": {
     "rule": "leftsub-counted",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 1,
+      "hi": 1,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "leftsuper": {
     "rule": "leftsuper",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 0,
+      "hi": 0,
+      "it": 0
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 0
   },
   "leftsuper-counted": {
     "rule": "leftsuper-counted",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 1,
+      "hi": 1,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "rightsub": {
     "rule": "rightsub",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 0,
+      "hi": 0,
+      "it": 0
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 0
   },
   "rightsub-counted": {
     "rule": "rightsub-counted",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 1,
+      "hi": 1,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "rightsuper": {
     "rule": "rightsuper",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 0,
+      "hi": 0,
+      "it": 0
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 0
   },
   "rightsuper-counted": {
     "rule": "rightsuper-counted",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 1,
+      "hi": 1,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "choice": {
     "rule": "choice",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 0,
+      "hi": 0,
+      "it": 0
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 0
   },
   "select": {
     "rule": "select",
     "parameters": {},
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 0,
+      "en": 0,
+      "es": 0,
+      "fr": 0,
+      "hi": 0,
+      "it": 0
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 0
   },
   "row": {
     "rule": "row",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 1,
+      "hi": 1,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   },
   "cell": {
     "rule": "cell",
@@ -315,33 +335,35 @@
       "%1": "",
       "%2": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 2,
+      "en": 2,
+      "es": 2,
+      "fr": 2,
+      "hi": 2,
+      "it": 2
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 2
   },
   "cell-simple": {
     "rule": "cell-simple",
     "parameters": {
       "%1": ""
     },
-    "locales": [
-      "de",
-      "en",
-      "es",
-      "fr",
-      "hi",
-      "it"
-    ],
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 1,
+      "hi": 1,
+      "it": 1
+    },
     "description": "",
     "latex": "",
-    "example": ""
+    "example": "",
+    "maximum": 1
   }
 }
