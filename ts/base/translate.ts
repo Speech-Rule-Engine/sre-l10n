@@ -22,6 +22,8 @@ import {readComments, writeComments} from './comment';
 import {ActionSet, ReturnSet} from './forward';
 import * as util from './util';
 
+export let verbose = false;
+export let update = false;
 
 export function translateForwardAll() {
   readComments();
@@ -30,7 +32,10 @@ export function translateForwardAll() {
       try {
         let acs = new ActionSet(loc, domain);
         acs.outputFiles();
-      } catch (_e) {
+      } catch (e) {
+        if (verbose) {
+          console.error(e);
+        }
         console.error(`Something went wrong for domain ${domain} in locale ${loc}`);
       }
     }
@@ -45,7 +50,10 @@ export function translateBackwardAll() {
       try {
         let acs = new ReturnSet(loc, domain);
         acs.outputFiles();
-      } catch (_e) {
+      } catch (e) {
+        if (verbose) {
+          console.error(e);
+        }
         console.error(`Something went wrong for domain ${domain} in locale ${loc}`);
       }
     }

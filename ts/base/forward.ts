@@ -120,7 +120,7 @@ export class ActionSet extends BaseSet {
   public toYaml(): string {
     let output = [yamlPrefix];
     for (let [name, components] of Object.entries(this.simplified)) {
-      let out = [this.comments[name].toYaml()];
+      let out = [this.comments[name].toYaml(this.locale)];
       out.push(`${name}:`);
       for (let comp of components) {
         out.push(`  - ${comp}`);
@@ -134,18 +134,22 @@ export class ActionSet extends BaseSet {
     let act = this.actions[name];
     let [simple, map] = this.makeSimple(act);
     this.parameters[name] = map;
-    let comment = this.comments[name];
-    if (!comment) {
-      comment = new Comment(name, Object.keys(map));
-      this.comments[name] = comment;
-    }
-    if (!comment.locales.includes(this.locale)) {
-      comment.locales.push(this.locale);
-    }
+    this.makeComments(name);
     this.simple[name] = simple;
     this.simplified[name] = simple.map(
       x => x.toString().replace(/^\[[a-z]\] /, ''));
   }
+
+  private makeComments(name: string) {
+    let comment = this.comments[name];
+    let keys = Object.keys(this.parameters[name]);
+    if (!comment) {
+      comment = new Comment(name, keys);
+      this.comments[name] = comment;
+    }
+    comment.update(this.locale, keys);
+  }
+
 
   private makeSimple(
       action: Action): [Component[], {[key: string]: Component}] {

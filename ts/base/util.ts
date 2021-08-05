@@ -55,6 +55,23 @@ export const sreLocales: {[iso: string]: string} = {
   'it': 'italian'
 };
 
+// Maps abstract locale name to directory name
+// export const abstrLocales: {[abstr: string]: string} = {
+//   'base': 'base',
+//   'romance': 'base'
+// }
+
+function constructFilename(
+  iso: string, domain: string, kind: string): [string, string] {
+  let locale = sreLocales[iso];
+  if (!locale) {
+    locale = iso === 'base' ? 'base' : 'base_romance';
+    iso = 'base';
+  }
+  let name = kind ? '_' + kind : '';
+  return [iso, `${domain}_${locale}${name}`];
+}
+
 
 /**
  * Loads and parses a JSON file.
@@ -80,9 +97,8 @@ function loadJson(file: string): JsonRules {
  * @param kind The kind of file to load.
  */
 export function loadRules(iso: string, domain: string, kind: string = '') {
-  let current = sreLocales[iso] || 'base';
-  let name = kind ? '_' + kind : '';
-  return loadJson(`${SreL10nLocales}/${iso}/${domain}_${current}${name}.json`);
+  let [dir, file] = constructFilename(iso, domain, kind);
+  return loadJson(`${SreL10nLocales}/${dir}/${file}.json`);
 }
 
 
@@ -94,9 +110,8 @@ export function loadRules(iso: string, domain: string, kind: string = '') {
  * @param kind The kind of file to load.
  */
 export function loadMathmaps(iso: string, domain: string, kind: string = '') {
-  let current = sreLocales[iso] || 'base';
-  let name = kind ? '_' + kind : '';
-  return loadJson(`${SreDir}/${iso}/rules/${domain}_${current}${name}.json`);
+  let [dir, file] = constructFilename(iso, domain, kind);
+  return loadJson(`${SreDir}/${dir}/rules/${file}.json`);
 }
 
 
@@ -124,9 +139,8 @@ export function saveJson(file: string, json: any, dir: string = '') {
  */
 export function saveMathmaps(
   iso: string, domain: string, json: any, kind: string = '') {
-  let current = sreLocales[iso] || 'base';
-  let name = kind ? '_' + kind : '';
-  saveJson(`${SreDir}/${iso}/rules/${domain}_${current}${name}.json`, json);
+  let [dir, file] = constructFilename(iso, domain, kind);
+  saveJson(`${SreDir}/${dir}/rules/${file}.json`, json);
 }
 
 
@@ -154,10 +168,9 @@ export function getRuleSet(domain: string, kind: string = '') {
  */
 export function saveL10n(
   iso: string, domain: string, json: any, kind: string = '') {
-  let current = sreLocales[iso] || 'base';
-  let name = kind ? '_' + kind : '';
-  fs.mkdirSync(`${SreL10nLocales}/${iso}`, {recursive: true});
-  saveJson(`${SreL10nLocales}/${iso}/${domain}_${current}${name}.json`, json);
+  let [dir, file] = constructFilename(iso, domain, kind);
+  fs.mkdirSync(`${SreL10nLocales}/${dir}`, {recursive: true});
+  saveJson(`${SreL10nLocales}/${dir}/${file}.json`, json);
 }
 
 
@@ -168,10 +181,10 @@ export function saveL10n(
  * @param {string = ''} dir An optional directory prefix.
  */
 export function saveYaml(iso: string, domain: string, yaml: string) {
-  let current = sreLocales[iso] || 'base';
-  fs.mkdirSync(`${SreL10nYaml}/${iso}`, {recursive: true});
+  let [dir, file] = constructFilename(iso, domain, '');
+  fs.mkdirSync(`${SreL10nYaml}/${dir}`, {recursive: true});
   try {
-    fs.writeFileSync(`${SreL10nYaml}/${iso}/${domain}_${current}.yml`, yaml);
+    fs.writeFileSync(`${SreL10nYaml}/${dir}/${file}.yml`, yaml);
   } catch (e) {
     throw new Error('Bad filename for yaml');
   }
@@ -206,10 +219,10 @@ export function loadComments(domain: string) {
  * @param domain The domain to load.
  */
 export function loadYaml(iso: string, domain: string) {
-  let current = sreLocales[iso] || 'base';
+  let [dir, file] = constructFilename(iso, domain, '');
   let str = '';
   try {
-    str = fs.readFileSync(`${SreL10nYaml}/${iso}/${domain}_${current}.yml`, 'utf8');
+    str = fs.readFileSync(`${SreL10nYaml}/${dir}/${file}.yml`, 'utf8');
   } catch (e) {
     throw new Error('Bad filename for yaml');
   }
