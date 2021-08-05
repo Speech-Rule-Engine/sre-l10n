@@ -22,76 +22,91 @@ font:
   - %1
   - %2
 
-# 
-# %1: 
-# %2: 
+# Mixed numbers
+# Example: $2 \frac{1}{3}$
+# LaTeX Example: $2 \frac{1}{3}$
+# %1: The integer part
+# %2: The fraction part
 mixed-number:
   - %1
   - $1: "et"
   - %2
 
-# 
-# %1: 
+# A number that contains letters
+# Example: $$
+# %1: The number
 number-with-chars:
   - $1: "nombre"
   - %1
 
-# 
-# %1: 
+# A number that consists exclusively of characters
+# Example: $$
+# %1: The number
 number-as-upper-word:
   - $1: "MotMajuscule"
   - %1
 
-# 
-# %1: 
+# A number that follows directly an identifier has to be explicitly separated with a baseline indicator as not to be confused with a simple subscript.
+# Example: $$
+# %1: The number
 number-baseline:
   - $1: "position de base"
   - %1
 
-# 
-# %1: 
+# A number that follows directly an identifier has to be explicitly separated with a brief baseline indicator as not to be confused with a simple subscript.
+# Example: $$
+# %1: The number
 number-baseline-brief:
   - $1: "base"
   - %1
 
-# 
-# %1: 
-# %2: 
+# A number with unusual font that follows directly an identifier. Has to be explicitly separated with a baseline indicator and its font.
+# Example: $$
+# %1: The font
+# %2: The number
 number-baseline-font:
   - $1: "position de base"
   - %1
   - %2
 
-# 
-# %1: 
-# %2: 
+# A number with unusual font that follows directly an identifier. Has to be explicitly separated with a brief baseline indicator and its font.
+# Example: $$
+# %1: The font
+# %2: The number
 number-baseline-font-brief:
   - $1: "base"
   - %1
   - %2
 
-# 
-# %1: 
+# Negative numbers or simple identifiers
+# Example: $-5, -a, -rac{1}{2}$
+# LaTeX Example: $-5, -a, -rac{1}{2}$
+# %1: The number
 negative-number:
   - $1: "négatif"
   - %1
 
-# 
-# %1: 
+# Minus as a prefix operator or sign of a complex expression
+# Example: $$
+# %1: The expression
 negative:
   - $1: "négatif"
   - %1
 
-# 
-# %1: 
-# %2: 
+# Linear division rule
+# Example: $a \slash b$
+# LaTeX Example: $a \slash b$
+# %1: Numerator
+# %2: Denominator
 division:
   - %1
   - $1: "divisé par"
   - %2
 
-# 
-# %1: 
+# Subtraction
+# Example: $a - b - c$
+# LaTeX Example: $a - b - c$
+# %1: List of components of the subtraction
 subtraction:
   - %1 (separator:"moins")
 
