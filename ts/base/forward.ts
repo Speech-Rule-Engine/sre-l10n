@@ -230,6 +230,10 @@ export class ReturnSet extends BaseSet {
     }
     let newRules = Object.keys(this.simplified);
     if (newRules.length) {
+      // Check backwards for new rules preconditions.
+      //
+      // If found insert the new action, it should automatically go to the
+      // relevant position, due to the order?
       console.info('New rules need to be added manually: ' + newRules);
     }
   }

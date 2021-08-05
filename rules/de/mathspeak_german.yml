@@ -136,9 +136,16 @@ fences-neutral-sbrief:
 # %2: 
 # %3: 
 fences-metric:
-  - %1
+  - $1: "Anfang Metrik"
   - %2
-  - %3
+  - $2: "Ende Metrik"
+
+# 
+# %1: 
+fences-metric-sbrief:
+  - $1: "Metrik"
+  - %1
+  - $2: "Ende Metrik"
 
 # 
 empty-set:
