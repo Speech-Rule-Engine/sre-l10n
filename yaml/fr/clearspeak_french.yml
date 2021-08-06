@@ -298,7 +298,6 @@ superscript-simple-exponent-end:
 
 # 
 # %1: 
-# %2: 
 superscript-simple-function:
   - %1
 

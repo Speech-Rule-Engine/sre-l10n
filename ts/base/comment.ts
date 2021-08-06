@@ -75,9 +75,10 @@ export class Comment {
     let length = this.locales[locale];
     let count = 0;
     for (let [param, str] of Object.entries(this.parameters)) {
-      if (count++ > length) {
+      if (count === length) {
         break;
       }
+      count++;
       out.push(`# ${param}: ${str}`);
     }
     return out.join('\n');

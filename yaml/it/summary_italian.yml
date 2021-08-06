@@ -252,7 +252,6 @@ abstr-vector:
   - %2 (grammar:gender="m")
 
 # 
-# %1: 
 abstr-vector-brief:
   - $1: "vettore"
 

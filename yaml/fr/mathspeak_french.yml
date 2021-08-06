@@ -338,7 +338,6 @@ logarithm-base:
 # Example: x squared
 # LaTeX Example: $x^2$
 # %1: The base of the power
-# %2: The squaring expression (only used for grammatical purposes)
 square:
   - %1
   - $1: "au carré"

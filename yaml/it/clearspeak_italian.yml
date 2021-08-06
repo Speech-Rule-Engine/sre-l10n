@@ -340,7 +340,6 @@ superscript-non-ordinal:
 
 # 
 # %1: 
-# %2: 
 superscript-simple-function:
   - %1
 
