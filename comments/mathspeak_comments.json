@@ -430,7 +430,7 @@
       "it": 1
     },
     "description": "A set expression",
-    "latex": "\\{a,b,c\}",
+    "latex": "\\{a,b,c\\}",
     "example": "begin set a , b, c end set",
     "maximum": 1
   },
@@ -448,7 +448,7 @@
       "it": 1
     },
     "description": "A set expression in super brief style",
-    "latex": "\\{a,b,c\}",
+    "latex": "\\{a,b,c\\}",
     "example": "set a , b, c end set",
     "maximum": 1
   },
@@ -777,7 +777,7 @@
   "cube": {
     "rule": "cube",
     "parameters": {
-      "%1": "The base of the power",
+      "%1": "The base of the power"
     },
     "locales": {
       "de": 1,
@@ -1263,7 +1263,7 @@
     "parameters": {
       "%1": "Number of rows",
       "%2": "Number of columns",
-      "%3": "The rows of the determinant",
+      "%3": "The rows of the determinant"
     },
     "locales": {
       "de": 3,
@@ -1283,7 +1283,7 @@
     "parameters": {
       "%1": "Number of rows",
       "%2": "Number of columns",
-      "%3": "The rows of the determinant",
+      "%3": "The rows of the determinant"
     },
     "locales": {
       "de": 3,
@@ -1303,7 +1303,7 @@
     "parameters": {
       "%1": "Number of rows",
       "%2": "Number of columns",
-      "%3": "The rows of the determinant",
+      "%3": "The rows of the determinant"
     },
     "locales": {
       "de": 3,
@@ -1323,7 +1323,7 @@
     "parameters": {
       "%1": "Number of rows",
       "%2": "Number of columns",
-      "%3": "The rows of the determinant",
+      "%3": "The rows of the determinant"
     },
     "locales": {
       "de": 3,
@@ -1572,7 +1572,7 @@
   "empty-line-with-label-brief": {
     "rule": "empty-line-with-label-brief",
     "parameters": {
-      "%1": "The label",
+      "%1": "The label"
     },
     "locales": {
       "de": 1,

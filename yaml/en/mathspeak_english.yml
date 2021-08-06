@@ -23,14 +23,14 @@ font:
   - %1
   - %2
 
-# 
-# %1: 
+# A character in fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.
+# %1: The character in fraktur font
 german-font:
   - $1: "German"
   - %1
 
-# 
-# %1: 
+# A character in bold fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.
+# %1: The character in bold fraktur font
 german-font-bold:
   - $1: "bold German"
   - %1
@@ -52,8 +52,9 @@ number-with-chars:
   - $1: "Number"
   - %1
 
-# 
-# %1: 
+# A number that contains letters in brief and super brief style
+# Example: Num #A0FF
+# %1: The number
 number-with-chars-brief:
   - $1: "Num"
   - %1
@@ -129,79 +130,97 @@ division:
 subtraction:
   - %1 (separator:"minus")
 
-# 
-# %1: 
+# Absolute value of an expression
+# Example: begin absolute value A end absolute value
+# LaTeX Example: $\| a \|$
+# %1: Content inside absolute value bars
 fences-neutral:
   - $1: "StartAbsoluteValue"
   - %1
   - $2: "EndAbsoluteValue"
 
-# 
-# %1: 
+# Absolute value of an expression in super brief style
+# Example: absolute value A end absolute value
+# LaTeX Example: $\| a\|$
+# %1: Content inside absolute value bars
 fences-neutral-sbrief:
   - $1: "AbsoluteValue"
   - %1
   - $2: "EndAbsoluteValue"
 
-# 
-# %1: 
+# Metric of an expression
+# Example: begin metric A end metric
+# LaTeX Example: $|| a ||$
+# %1: Content inside metric bars
 fences-metric:
   - $1: "StartMetric"
   - %1
   - $2: "EndMetric"
 
-# 
-# %1: 
+# Metric of an expression in super brief style
+# Example: metric A end metric
+# LaTeX Example: $|| a ||$
+# %1: Content inside metric bars
 fences-metric-sbrief:
   - $1: "Metric"
   - %1
   - $2: "EndMetric"
 
-# 
+# The empty set
 empty-set:
   - $1: "empty set"
 
-# 
-# %1: 
+# A set expression
+# Example: begin set a , b, c end set
+# LaTeX Example: $\{a,b,c\}$
+# %1: Content inside the set braces
 fences-set:
   - $1: "StartSet"
   - %1
   - $2: "EndSet"
 
-# 
-# %1: 
+# A set expression in super brief style
+# Example: set a , b, c end set
+# LaTeX Example: $\{a,b,c\}$
+# %1: Content inside the set braces
 fences-set-sbrief:
   - $1: "Set"
   - %1
   - $2: "EndSet"
 
-# 
+# A factorial expression
+# Example: x factorial
+# LaTeX Example: $x!$
 factorial:
   - $1: "factorial"
 
-# 
+# The minux sign (not as a unary operator)
 minus:
   - $1: "minus"
 
-# 
-# %1: 
-# %2: 
+# The outer part of a continuous fraction
+# Example: ContinuedFraction a Over 1 plus StartFraction b Over 2 plus StartFraction 1 plus c Over ellipsis
+# LaTeX Example: $ \frac{a}{1 + \frac{b}{2 + \frac{1 + c}{\ldots}}}$
+# %1: Enumerator of continuous fraction
+# %2: Denominator of continuous fraction
 continued-fraction-outer:
   - $1: "ContinuedFraction"
   - %1
   - $2: "Over"
   - %2
 
-# 
-# %1: 
-# %2: 
+# The outer part of a continuous fraction in brief and super brief style
+# Example: ContinuedFrac a Over 1 plus StartFraction b Over 2 plus StartFraction 1 plus c Over ellipsis
+# LaTeX Example: $ \frac{a}{1 + \frac{b}{2 + \frac{1 + c}{\ldots}}}$
+# %1: Enumerator of continuous fraction
+# %2: Denominator of continuous fraction
 continued-fraction-outer-brief:
   - $1: "ContinuedFrac"
   - %1
   - $2: "Over"
   - %2
 
-# 
+# The inner part of a continuous fraction
 # %1: 
 # %2: 
 continued-fraction-inner:
@@ -210,7 +229,7 @@ continued-fraction-inner:
   - $2: "Over"
   - %2
 
-# 
+# The inner part of a continuous fraction in brief style
 # %1: 
 # %2: 
 continued-fraction-inner-brief:
@@ -219,7 +238,7 @@ continued-fraction-inner-brief:
   - $2: "Over"
   - %2
 
-# 
+# The inner part of a continuous fraction in super brief style
 # %1: 
 # %2: 
 continued-fraction-inner-sbrief:
@@ -293,10 +312,11 @@ limupper-end:
   - %3
   - $1: "Endscripts"
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# An integral with boundaries
+# Example: integral Subscript 1 Superscript x Baseline
+# %1: The integral
+# %2: The lower limit
+# %3: The upper limit
 integral:
   - %1
   - $1: "Subscript"
@@ -305,10 +325,11 @@ integral:
   - %3
   - $3: "Baseline"
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# An integral with boundaries in brief and super brief style
+# Example: integral Sub 1 Super x Base
+# %1: The integral
+# %2: The integrand
+# %3: The integration variable
 integral-brief:
   - %1
   - $1: "Sub"
@@ -317,30 +338,39 @@ integral-brief:
   - %3
   - $3: "Base"
 
-# 
-# %1: 
+# Squaring an expression
+# Example: x squared
+# LaTeX Example: $x^2$
+# %1: The base of the power
+# %2: The squaring expression (only used for grammatical purposes)
 square:
   - %1
   - $1: "squared"
 
-# 
-# %1: 
+# Cubing an expression
+# Example: x cubed
+# LaTeX Example: $x^3$
+# %1: The base of the power
 cube:
   - %1
   - $1: "cubed"
 
-# 
-# %1: 
-# %2: 
+# Primed expression with one, two, three, multiple primes
+# Example: x prime
+# LaTeX Example: $x'$
+# %1: The base element
+# %2: The prime operator. As there are multiple prime operators they are handled seperately.
 prime:
   - %1
   - %2
 
-# 
+# A double prime. This is only pronounciation of the actual double prime
+# Example: double prime
 double-prime:
   - $1: "double prime"
 
-# 
+# A double prime. This is only pronounciation of the actual triple prime
+# Example: triple prime
 triple-prime:
   - $1: "triple prime"
 
@@ -348,118 +378,142 @@ triple-prime:
 quadruple-prime:
   - $1: "quadruple prime"
 
-# 
-# %1: 
+# A counted prime expression
+# Example: f four prime
+# LaTeX Example: $f''''$
+# %1: The counter of the primes
 counted-prime:
   - %1
   - $1: "prime"
 
-# 
-# %1: 
+# A counted prime expression. Similar to counted-prime but operates by counting single elements in a string
+# Example: f four prime
+# LaTeX Example: $f''''$
+# %1: The counter of the primes
 counted-prime-multichar:
   - %1
   - $1: "prime"
 
-# 
-# %1: 
-# %2: 
+# Expression modified above with an accent-like symbol
+# Example: modifying above b with right arrow 
+# LaTeX Example: $\stackrel{\rightarrow}{b}$
+# %1: The base element
+# %2: The modifying accent
 overscore:
   - $1: "ModifyingAbove"
   - %1
   - $2: "With"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Expression modified above with an accent-like symbol in brief and super brief style
+# Example: mod above b with right arrow 
+# LaTeX Example: $\stackrel{\rightarrow}{b}$
+# %1: The base element
+# %2: The modifying accent
 overscore-brief:
   - $1: "ModAbove"
   - %1
   - $2: "With"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Expression modified above with two accent-like symbols
+# Example: modifying above above modifying above b with right arrow with left arrow
+# LaTeX Example: $\stackrel{\leftarrow}{\stackrel{\rightarrow}{b}}$
+# %1: The base element
+# %2: The modifying accents
 double-overscore:
   - $1: "ModifyingAbove Above"
   - %1
   - $2: "With"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Expression modified above with two accent-like symbols in brief and super brief style
+# Example: mod above above mod above b with right arrow with left arrow
+# LaTeX Example: $\stackrel{\leftarrow}{\stackrel{\rightarrow}{b}}$
+# %1: The base element
+# %2: The modifying accents
 double-overscore-brief:
   - $1: "ModAbove Above"
   - %1
   - $2: "With"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Expression modified below with an accent-like symbol
+# Example: modifying below y with left arrow
+# LaTeX Example: $\underset{\leftarrow}{y}$
+# %1: The base element
+# %2: The modifying accent
 underscore:
   - $1: "ModifyingBelow"
   - %1
   - $2: "With"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Expression modified below with an accent-like symbol in brief and super brief style
+# Example: mod below y with left arrow
+# LaTeX Example: $\underset{\leftarrow}{y}$
+# %1: The base element
+# %2: The modifying accent
 underscore-brief:
   - $1: "ModBelow"
   - %1
   - $2: "With"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Expression modified below with two accent-like symbols
+# Example: modifying below below modifying below y with left arrow with right arrow
+# LaTeX Example: $\underset{\rightarrow}{\underset{\leftarrow}{y}}$
+# %1: The base element
+# %2: The modifying accents
 double-underscore:
   - $1: "ModifyingBelow Below"
   - %1
   - $2: "With"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Expression modified below with two accent-like symbols in brief and super brief style
+# Example: mod below below mod below y with left arrow with right arrow
+# LaTeX Example: $\underset{\rightarrow}{\underset{\leftarrow}{y}}$
+# %1: The base element
+# %2: The modifying accents
 double-underscore-brief:
   - $1: "ModBelow Below"
   - %1
   - $2: "With"
   - %2
 
-# 
-# %1: 
+# A bar above an expression
+# Example: x overbar
+# %1: The base expression
 overbar:
   - %1
   - $1: "overbar"
 
-# 
-# %1: 
+# A bar below an expression
+# Example: x underbar
+# %1: The base expression
 underbar:
   - %1
   - $1: "underbar"
 
-# 
-# %1: 
+# A tilde above an expression
+# Example: x overtilde
+# %1: The base expression
 overtilde:
   - %1
   - $1: "overtilde"
 
-# 
-# %1: 
+# A tilde below an expression
+# Example: x undertilde
+# %1: The base expression
 undertilde:
   - %1
   - $1: "undertilde"
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# A matrix expression
+# %1: Number of rows
+# %2: Number of columns
+# %3: The rows of the matrix
 matrix:
   - $1: "Start"
   - %1
@@ -469,10 +523,10 @@ matrix:
   - %3 (context:"Row ")
   - $4: "EndMatrix"
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# A fenced matrix
+# %1: Number of rows
+# %2: Number of columns
+# %3: The rows of the matrix
 matrix-sbrief:
   - %1
   - $1: "By"
@@ -481,48 +535,48 @@ matrix-sbrief:
   - %3 (context:"Row ")
   - $3: "EndMatrix"
 
-# 
-# %1: 
+# A row in a matrix
+# %1: The single cells of the row
 matrix-row:
   - %1 (context:"Column", pause:200)
 
-# 
-# %1: 
-# %2: 
+# A labelled row in a multi equation table.
+# %1: The label
+# %2: The cells in the row
 row-with-label:
   - $1: "with Label"
   - %1
   - $2: "EndLabel" (pause:200)
   - %2 (context:"Column")
 
-# 
-# %1: 
-# %2: 
+# A labelled row in a multi equation table in brief and super brief reference
+# %1: The label
+# %2: The cells in the row
 row-with-label-brief:
   - $1: "Label"
   - %1
   - %2 (context:"Column")
 
-# 
-# %1: 
-# %2: 
+# A row in a multi equation table labelled by text, i.e., parentheses are not spoken
+# %1: The text label
+# %2: The cells in the row
 row-with-text-label:
   - $1: "Label"
   - %1
   - %2 (context:"Column")
 
-# 
+# An empty row
 empty-row:
   - $1: "Blank"
 
-# 
+# An empty cell in a table or matrix
 empty-cell:
   - $1: "Blank" (pause:300)
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# A determinant given in barred fences
+# %1: Number of rows
+# %2: Number of columns
+# %3: The rows of the determinant
 determinant:
   - $1: "Start"
   - %1
@@ -532,10 +586,10 @@ determinant:
   - %3 (context:"Row ")
   - $4: "EndDeterminant"
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# A determinant given in barred fences read in brief or super brief style
+# %1: Number of rows
+# %2: Number of columns
+# %3: The rows of the determinant
 determinant-sbrief:
   - %1
   - $1: "By"
@@ -544,10 +598,11 @@ determinant-sbrief:
   - %3 (context:"Row ")
   - $3: "EndDeterminant"
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# A determinant given in barred fences with simple elements, i.e., columns will not be explicitly pronounced
+# LaTeX Example: $\begin{vmatrix} a & b\\ c & d\end{vmatrix}$
+# %1: Number of rows
+# %2: Number of columns
+# %3: The rows of the determinant
 determinant-simple:
   - $1: "Start"
   - %1
@@ -557,10 +612,11 @@ determinant-simple:
   - %3 (context:"Row")
   - $4: "EndDeterminant"
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# A determinant given in barred fences with simple elements, i.e., columns will not be explicitly pronounced in brief and super brief style
+# LaTeX Example: $\begin{vmatrix} a & b\\ c & d\end{vmatrix}$
+# %1: Number of rows
+# %2: Number of columns
+# %3: The rows of the determinant
 determinant-simple-sbrief:
   - %1
   - $1: "By"
@@ -569,23 +625,23 @@ determinant-simple-sbrief:
   - %3 (context:"Row")
   - $3: "EndDeterminant"
 
-# 
-# %1: 
+# A layout structure, e.g., a large equation table.
+# %1: The rows of the table
 layout:
   - $1: "StartLayout"
   - %1 (context:"Row ")
   - $2: "EndLayout"
 
-# 
-# %1: 
+# A layout structure, e.g., a large equation table. In brief and superbrief style.
+# %1: The rows of the table
 layout-sbrief:
   - $1: "Layout"
   - %1 (context:"Row ")
   - $2: "EndLayout"
 
-# 
-# %1: 
-# %2: 
+# A binomial or two dimensional vector
+# %1: Element in first row
+# %2: Element in second row
 binomial:
   - $1: "StartBinomialOrMatrix"
   - %1
@@ -593,9 +649,9 @@ binomial:
   - %2
   - $3: "EndBinomialOrMatrix"
 
-# 
-# %1: 
-# %2: 
+# A binomial or two dimensional vector in super brief style
+# %1: Element in first row
+# %2: Element in second row
 binomial-sbrief:
   - $1: "BinomialOrMatrix"
   - %1
@@ -603,9 +659,9 @@ binomial-sbrief:
   - %2
   - $3: "EndBinomialOrMatrix"
 
-# 
-# %1: 
-# %2: 
+# A case statement with singular large fence for combining cases
+# %1: The fence
+# %2: The lines of the case statement
 cases:
   - $1: "StartLayout"
   - $2: "Enlarged"
@@ -613,9 +669,9 @@ cases:
   - %2 (context:"Row ")
   - $3: "EndLayout"
 
-# 
-# %1: 
-# %2: 
+# A case statement with singular large fence for combining cases in super brief style
+# %1: The fence
+# %2: The lines of the case statement
 cases-sbrief:
   - $1: "Layout"
   - $2: "Enlarged"
@@ -623,81 +679,83 @@ cases-sbrief:
   - %2 (context:"Row ")
   - $3: "EndLayout"
 
-# 
-# %1: 
-# %2: 
+# A line (mainly in case statements) with a label
+# %1: The label
+# %2: The line
 line-with-label:
   - $1: "with Label"
   - %1
   - $2: "EndLabel" (pause:200)
   - %2
 
-# 
-# %1: 
-# %2: 
+# A line (mainly in case statements) with a label in brief and super brief style
+# %1: The label
+# %2: The line
 line-with-label-brief:
   - $1: "Label"
   - %1 (pause:200)
   - %2
 
-# 
-# %1: 
-# %2: 
+# A line (mainly in case statements) with a text label, where parentheses would not be spoken
+# %1: The text label
+# %2: The line
 line-with-text-label:
   - $1: "Label"
   - %1
   - %2
 
-# 
+# An empty line
 empty-line:
   - $1: "Blank"
 
-# 
-# %1: 
+# An empty line (mainly in case statements) with a label
+# %1: The label
 empty-line-with-label:
   - $1: "with Label"
   - %1
   - $2: "EndLabel" (pause:200)
   - $3: "Blank"
 
-# 
-# %1: 
+# An empty line (mainly in case statements) with a label in brief or super brief style
+# %1: The label
 empty-line-with-label-brief:
   - $1: "Label"
   - %1 (pause:200)
   - $2: "Blank"
 
-# 
-# %1: 
-# %2: 
+# Describes an enclosed element
+# Example: start enclose box x + y end enclose
+# LaTeX Example: $\framebox{x+y}$
+# %1: The enclosing structure (e.g., a box, circle). This programmatically translated.
+# %2: The enclosed element
 enclose:
   - $1: "StartEnclose"
   - %1
   - %2
   - $2: "EndEnclose"
 
-# 
-# %1: 
+# Elements with an attached left bar
+# %1: The enclosed element
 leftbar:
   - $1: "vertical bar"
   - %1
 
-# 
-# %1: 
+# Elements with an attached right bar
+# %1: The enclosed element
 rightbar:
   - %1
   - $1: "vertical bar"
 
-# 
-# %1: 
+# A struck out or crossed out expression
+# %1: The struck out expression
 crossout:
   - $1: "CrossOut"
   - %1
   - $2: "EndCrossOut"
 
-# 
-# %1: 
-# %2: 
+# An expression that is crossed out an replace by one above it
+# %1: The struck out expression
+# %2: The replacement expression
 cancel:
   - $1: "CrossOut"
   - %1
@@ -705,9 +763,9 @@ cancel:
   - %2
   - $3: "EndCrossOut"
 
-# 
-# %1: 
-# %2: 
+# An expression that is crossed out an replace by one below it
+# %1: The struck out expression
+# %2: The replacement expression
 cancel-reverse:
   - $1: "CrossOut"
   - %1
