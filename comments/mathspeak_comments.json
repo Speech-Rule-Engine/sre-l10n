@@ -91,7 +91,7 @@
     "locales": {
       "de": 2
     },
-    "description": "Explicit speaking of doublstruck/blackboar font",
+    "description": "Explicit speaking of doublstruck/blackboard font",
     "latex": "",
     "example": "R mit Doppelstrich",
     "maximum": 2
@@ -145,6 +145,22 @@
     "description": "A number that contains letters",
     "latex": "",
     "example": "Number #A0FF",
+    "maximum": 1
+  },
+  "number-with-chars-brief": {
+    "rule": "number-with-chars-brief",
+    "parameters": {
+      "%1": "The number"
+    },
+    "locales": {
+      "en": 1,
+      "es": 1,
+      "hi": 1,
+      "it": 1
+    },
+    "description": "A number that contains letters in brief and super brief style",
+    "latex": "",
+    "example": "Num #A0FF",
     "maximum": 1
   },
   "number-as-upper-word": {
@@ -315,7 +331,7 @@
   "fences-neutral": {
     "rule": "fences-neutral",
     "parameters": {
-      "%1": ""
+      "%1": "Content inside absolute value bars"
     },
     "locales": {
       "de": 1,
@@ -325,15 +341,15 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Absolute value of an expression",
+    "latex": "\\| a \\|",
+    "example": "begin absolute value A end absolute value",
     "maximum": 1
   },
   "fences-neutral-sbrief": {
     "rule": "fences-neutral-sbrief",
     "parameters": {
-      "%1": ""
+      "%1": "Content inside absolute value bars"
     },
     "locales": {
       "de": 1,
@@ -343,15 +359,15 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Absolute value of an expression in super brief style",
+    "latex": "\\| a\\|",
+    "example": "absolute value A end absolute value",
     "maximum": 1
   },
   "fences-metric": {
     "rule": "fences-metric",
     "parameters": {
-      "%1": ""
+      "%1": "Content inside metric bars"
     },
     "locales": {
       "de": 1,
@@ -361,9 +377,27 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Metric of an expression",
+    "latex": "|| a ||",
+    "example": "begin metric A end metric",
+    "maximum": 1
+  },
+  "fences-metric-sbrief": {
+    "rule": "fences-metric-sbrief",
+    "parameters": {
+      "%1": "Content inside metric bars"
+    },
+    "locales": {
+      "de": 1,
+      "en": 1,
+      "es": 1,
+      "fr": 1,
+      "hi": 1,
+      "it": 1
+    },
+    "description": "Metric of an expression in super brief style",
+    "latex": "|| a ||",
+    "example": "metric A end metric",
     "maximum": 1
   },
   "empty-set": {
@@ -377,7 +411,7 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "The empty set",
     "latex": "",
     "example": "",
     "maximum": 0
@@ -385,7 +419,7 @@
   "fences-set": {
     "rule": "fences-set",
     "parameters": {
-      "%1": ""
+      "%1": "Content inside the set braces"
     },
     "locales": {
       "de": 1,
@@ -395,15 +429,15 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "A set expression",
+    "latex": "\\{a,b,c\}",
+    "example": "begin set a , b, c end set",
     "maximum": 1
   },
   "fences-set-sbrief": {
     "rule": "fences-set-sbrief",
     "parameters": {
-      "%1": ""
+      "%1": "Content inside the set braces"
     },
     "locales": {
       "de": 1,
@@ -413,9 +447,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "A set expression in super brief style",
+    "latex": "\\{a,b,c\}",
+    "example": "set a , b, c end set",
     "maximum": 1
   },
   "factorial": {
@@ -429,9 +463,9 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "A factorial expression",
+    "latex": "x!",
+    "example": "x factorial",
     "maximum": 0
   },
   "minus": {
@@ -445,7 +479,7 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "The minux sign (not as a unary operator)",
     "latex": "",
     "example": "",
     "maximum": 0
@@ -453,13 +487,13 @@
   "vulgar-fraction": {
     "rule": "vulgar-fraction",
     "parameters": {
-      "%1": ""
+      "%1": "The vulgar fraction"
     },
     "locales": {
       "de": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Rule for processing a vulgar fraction",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -467,8 +501,8 @@
   "continued-fraction-outer": {
     "rule": "continued-fraction-outer",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Enumerator of continuous fraction",
+      "%2": "Denominator of continuous fraction"
     },
     "locales": {
       "de": 2,
@@ -478,9 +512,27 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "The outer part of a continuous fraction",
+    "latex": " \\frac{a}{1 + \\frac{b}{2 + \\frac{1 + c}{\\ldots}}}",
+    "example": "ContinuedFraction a Over 1 plus StartFraction b Over 2 plus StartFraction 1 plus c Over ellipsis",
+    "maximum": 2
+  },
+  "continued-fraction-outer-brief": {
+    "rule": "continued-fraction-outer-brief",
+    "parameters": {
+      "%1": "Enumerator of continuous fraction",
+      "%2": "Denominator of continuous fraction"
+    },
+    "locales": {
+      "en": 2,
+      "es": 2,
+      "fr": 2,
+      "hi": 2,
+      "it": 2
+    },
+    "description": "The outer part of a continuous fraction in brief and super brief style",
+    "latex": " \\frac{a}{1 + \\frac{b}{2 + \\frac{1 + c}{\\ldots}}}",
+    "example": "ContinuedFrac a Over 1 plus StartFraction b Over 2 plus StartFraction 1 plus c Over ellipsis",
     "maximum": 2
   },
   "continued-fraction-inner": {
@@ -497,7 +549,25 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "The inner part of a continuous fraction",
+    "latex": "",
+    "example": "",
+    "maximum": 2
+  },
+  "continued-fraction-inner-brief": {
+    "rule": "continued-fraction-inner-brief",
+    "parameters": {
+      "%1": "",
+      "%2": ""
+    },
+    "locales": {
+      "en": 2,
+      "es": 2,
+      "fr": 2,
+      "hi": 2,
+      "it": 2
+    },
+    "description": "The inner part of a continuous fraction in brief style",
     "latex": "",
     "example": "",
     "maximum": 2
@@ -516,7 +586,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "The inner part of a continuous fraction in super brief style",
     "latex": "",
     "example": "",
     "maximum": 2
@@ -648,9 +718,9 @@
   "integral": {
     "rule": "integral",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The integral",
+      "%2": "The lower limit",
+      "%3": "The upper limit"
     },
     "locales": {
       "de": 3,
@@ -660,17 +730,17 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
+    "description": "An integral with boundaries",
     "latex": "",
-    "example": "",
+    "example": "integral Subscript 1 Superscript x Baseline",
     "maximum": 3
   },
   "integral-brief": {
     "rule": "integral-brief",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The integral",
+      "%2": "The integrand",
+      "%3": "The integration variable"
     },
     "locales": {
       "de": 3,
@@ -680,16 +750,16 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
+    "description": "An integral with boundaries in brief and super brief style",
     "latex": "",
-    "example": "",
+    "example": "integral Sub 1 Super x Base",
     "maximum": 3
   },
   "square": {
     "rule": "square",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base of the power",
+      "%2": "The squaring expression (only used for grammatical purposes)"
     },
     "locales": {
       "de": 1,
@@ -699,15 +769,15 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Squaring an expression",
+    "latex": "x^2",
+    "example": "x squared",
     "maximum": 2
   },
   "cube": {
     "rule": "cube",
     "parameters": {
-      "%1": ""
+      "%1": "The base of the power",
     },
     "locales": {
       "de": 1,
@@ -717,16 +787,16 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Cubing an expression",
+    "latex": "x^3",
+    "example": "x cubed",
     "maximum": 1
   },
   "prime": {
     "rule": "prime",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base element",
+      "%2": "The prime operator. As there are multiple prime operators they are handled seperately."
     },
     "locales": {
       "de": 2,
@@ -736,9 +806,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Primed expression with one, two, three, multiple primes",
+    "latex": "x'",
+    "example": "x prime",
     "maximum": 2
   },
   "double-prime": {
@@ -752,9 +822,9 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "A double prime. This is only pronounciation of the actual double prime",
     "latex": "",
-    "example": "",
+    "example": "double prime",
     "maximum": 0
   },
   "triple-prime": {
@@ -768,9 +838,9 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "A double prime. This is only pronounciation of the actual triple prime",
     "latex": "",
-    "example": "",
+    "example": "triple prime",
     "maximum": 0
   },
   "quadruple-prime": {
@@ -792,7 +862,7 @@
   "counted-prime": {
     "rule": "counted-prime",
     "parameters": {
-      "%1": ""
+      "%1": "The counter of the primes"
     },
     "locales": {
       "de": 1,
@@ -802,15 +872,15 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "A counted prime expression",
+    "latex": "f''''",
+    "example": "f four prime",
     "maximum": 1
   },
   "counted-prime-multichar": {
     "rule": "counted-prime-multichar",
     "parameters": {
-      "%1": ""
+      "%1": "The counter of the primes"
     },
     "locales": {
       "de": 1,
@@ -820,16 +890,16 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "A counted prime expression. Similar to counted-prime but operates by counting single elements in a string",
+    "latex": "f''''",
+    "example": "f four prime",
     "maximum": 1
   },
   "overscore": {
     "rule": "overscore",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base element",
+      "%2": "The modifying accent"
     },
     "locales": {
       "de": 2,
@@ -839,16 +909,16 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Expression modified above with an accent-like symbol",
+    "latex": "\\stackrel{\\rightarrow}{b}",
+    "example": "modifying above b with right arrow ",
     "maximum": 2
   },
   "overscore-brief": {
     "rule": "overscore-brief",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base element",
+      "%2": "The modifying accent"
     },
     "locales": {
       "de": 2,
@@ -857,16 +927,16 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Expression modified above with an accent-like symbol in brief and super brief style",
+    "latex": "\\stackrel{\\rightarrow}{b}",
+    "example": "mod above b with right arrow ",
     "maximum": 2
   },
   "double-overscore": {
     "rule": "double-overscore",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base element",
+      "%2": "The modifying accents"
     },
     "locales": {
       "de": 2,
@@ -876,16 +946,16 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Expression modified above with two accent-like symbols",
+    "latex": "\\stackrel{\\leftarrow}{\\stackrel{\\rightarrow}{b}}",
+    "example": "modifying above above modifying above b with right arrow with left arrow",
     "maximum": 2
   },
   "double-overscore-brief": {
     "rule": "double-overscore-brief",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base element",
+      "%2": "The modifying accents"
     },
     "locales": {
       "de": 2,
@@ -894,16 +964,16 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Expression modified above with two accent-like symbols in brief and super brief style",
+    "latex": "\\stackrel{\\leftarrow}{\\stackrel{\\rightarrow}{b}}",
+    "example": "mod above above mod above b with right arrow with left arrow",
     "maximum": 2
   },
   "underscore": {
     "rule": "underscore",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base element",
+      "%2": "The modifying accent"
     },
     "locales": {
       "de": 2,
@@ -913,16 +983,16 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Expression modified below with an accent-like symbol",
+    "latex": "\\underset{\\leftarrow}{y}",
+    "example": "modifying below y with left arrow",
     "maximum": 2
   },
   "underscore-brief": {
     "rule": "underscore-brief",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base element",
+      "%2": "The modifying accent"
     },
     "locales": {
       "de": 2,
@@ -931,16 +1001,16 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Expression modified below with an accent-like symbol in brief and super brief style",
+    "latex": "\\underset{\\leftarrow}{y}",
+    "example": "mod below y with left arrow",
     "maximum": 2
   },
   "double-underscore": {
     "rule": "double-underscore",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base element",
+      "%2": "The modifying accents"
     },
     "locales": {
       "de": 2,
@@ -950,16 +1020,16 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Expression modified below with two accent-like symbols",
+    "latex": "\\underset{\\rightarrow}{\\underset{\\leftarrow}{y}}",
+    "example": "modifying below below modifying below y with left arrow with right arrow",
     "maximum": 2
   },
   "double-underscore-brief": {
     "rule": "double-underscore-brief",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base element",
+      "%2": "The modifying accents"
     },
     "locales": {
       "de": 2,
@@ -968,15 +1038,15 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Expression modified below with two accent-like symbols in brief and super brief style",
+    "latex": "\\underset{\\rightarrow}{\\underset{\\leftarrow}{y}}",
+    "example": "mod below below mod below y with left arrow with right arrow",
     "maximum": 2
   },
   "overbar": {
     "rule": "overbar",
     "parameters": {
-      "%1": ""
+      "%1": "The base expression"
     },
     "locales": {
       "de": 1,
@@ -985,15 +1055,15 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "A bar above an expression",
     "latex": "",
-    "example": "",
+    "example": "x overbar",
     "maximum": 1
   },
   "underbar": {
     "rule": "underbar",
     "parameters": {
-      "%1": ""
+      "%1": "The base expression"
     },
     "locales": {
       "de": 1,
@@ -1002,15 +1072,15 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "A bar below an expression",
     "latex": "",
-    "example": "",
+    "example": "x underbar",
     "maximum": 1
   },
   "overtilde": {
     "rule": "overtilde",
     "parameters": {
-      "%1": ""
+      "%1": "The base expression"
     },
     "locales": {
       "de": 1,
@@ -1019,15 +1089,15 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "A tilde above an expression",
     "latex": "",
-    "example": "",
+    "example": "x overtilde",
     "maximum": 1
   },
   "undertilde": {
     "rule": "undertilde",
     "parameters": {
-      "%1": ""
+      "%1": "The base expression"
     },
     "locales": {
       "de": 1,
@@ -1036,17 +1106,17 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "A tilde below an expression",
     "latex": "",
-    "example": "",
+    "example": "x undertilde",
     "maximum": 1
   },
   "matrix": {
     "rule": "matrix",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "Number of rows",
+      "%2": "Number of columns",
+      "%3": "The rows of the matrix"
     },
     "locales": {
       "de": 3,
@@ -1056,7 +1126,7 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
+    "description": "A matrix expression",
     "latex": "",
     "example": "",
     "maximum": 3
@@ -1064,9 +1134,9 @@
   "matrix-sbrief": {
     "rule": "matrix-sbrief",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "Number of rows",
+      "%2": "Number of columns",
+      "%3": "The rows of the matrix"
     },
     "locales": {
       "de": 3,
@@ -1076,7 +1146,7 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
+    "description": "A fenced matrix",
     "latex": "",
     "example": "",
     "maximum": 3
@@ -1084,7 +1154,7 @@
   "matrix-row": {
     "rule": "matrix-row",
     "parameters": {
-      "%1": ""
+      "%1": "The single cells of the row"
     },
     "locales": {
       "de": 1,
@@ -1094,7 +1164,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "A row in a matrix",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -1102,8 +1172,8 @@
   "row-with-label": {
     "rule": "row-with-label",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The label",
+      "%2": "The cells in the row"
     },
     "locales": {
       "de": 2,
@@ -1113,7 +1183,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "A labelled row in a multi equation table.",
     "latex": "",
     "example": "",
     "maximum": 2
@@ -1121,8 +1191,8 @@
   "row-with-label-brief": {
     "rule": "row-with-label-brief",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The label",
+      "%2": "The cells in the row"
     },
     "locales": {
       "de": 2,
@@ -1132,7 +1202,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "A labelled row in a multi equation table in brief and super brief reference",
     "latex": "",
     "example": "",
     "maximum": 2
@@ -1140,8 +1210,8 @@
   "row-with-text-label": {
     "rule": "row-with-text-label",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The text label",
+      "%2": "The cells in the row"
     },
     "locales": {
       "de": 2,
@@ -1151,7 +1221,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "A row in a multi equation table labelled by text, i.e., parentheses are not spoken",
     "latex": "",
     "example": "",
     "maximum": 2
@@ -1167,7 +1237,7 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "An empty row",
     "latex": "",
     "example": "",
     "maximum": 0
@@ -1183,7 +1253,7 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "An empty cell in a table or matrix",
     "latex": "",
     "example": "",
     "maximum": 0
@@ -1191,9 +1261,9 @@
   "determinant": {
     "rule": "determinant",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "Number of rows",
+      "%2": "Number of columns",
+      "%3": "The rows of the determinant",
     },
     "locales": {
       "de": 3,
@@ -1203,7 +1273,7 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
+    "description": "A determinant given in barred fences",
     "latex": "",
     "example": "",
     "maximum": 3
@@ -1211,9 +1281,9 @@
   "determinant-sbrief": {
     "rule": "determinant-sbrief",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "Number of rows",
+      "%2": "Number of columns",
+      "%3": "The rows of the determinant",
     },
     "locales": {
       "de": 3,
@@ -1223,7 +1293,7 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
+    "description": "A determinant given in barred fences read in brief or super brief style",
     "latex": "",
     "example": "",
     "maximum": 3
@@ -1231,9 +1301,9 @@
   "determinant-simple": {
     "rule": "determinant-simple",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "Number of rows",
+      "%2": "Number of columns",
+      "%3": "The rows of the determinant",
     },
     "locales": {
       "de": 3,
@@ -1243,17 +1313,17 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
-    "latex": "",
+    "description": "A determinant given in barred fences with simple elements, i.e., columns will not be explicitly pronounced",
+    "latex": "\\begin{vmatrix} a & b\\\\ c & d\\end{vmatrix}",
     "example": "",
     "maximum": 3
   },
   "determinant-simple-sbrief": {
     "rule": "determinant-simple-sbrief",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "Number of rows",
+      "%2": "Number of columns",
+      "%3": "The rows of the determinant",
     },
     "locales": {
       "de": 3,
@@ -1263,15 +1333,15 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
-    "latex": "",
+    "description": "A determinant given in barred fences with simple elements, i.e., columns will not be explicitly pronounced in brief and super brief style",
+    "latex": "\\begin{vmatrix} a & b\\\\ c & d\\end{vmatrix}",
     "example": "",
     "maximum": 3
   },
   "layout": {
     "rule": "layout",
     "parameters": {
-      "%1": ""
+      "%1": "The rows of the table"
     },
     "locales": {
       "de": 1,
@@ -1281,7 +1351,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "A layout structure, e.g., a large equation table.",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -1289,7 +1359,7 @@
   "layout-sbrief": {
     "rule": "layout-sbrief",
     "parameters": {
-      "%1": ""
+      "%1": "The rows of the table"
     },
     "locales": {
       "de": 1,
@@ -1299,7 +1369,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "A layout structure, e.g., a large equation table. In brief and superbrief style.",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -1307,8 +1377,8 @@
   "binomial": {
     "rule": "binomial",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Element in first row",
+      "%2": "Element in second row"
     },
     "locales": {
       "de": 2,
@@ -1318,7 +1388,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "A binomial or two dimensional vector",
     "latex": "",
     "example": "",
     "maximum": 2
@@ -1326,13 +1396,13 @@
   "binomial-brief": {
     "rule": "binomial-brief",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Element in first row",
+      "%2": "Element in second row"
     },
     "locales": {
       "de": 2
     },
-    "description": "",
+    "description": "A binomial or two dimensional vector in brief style",
     "latex": "",
     "example": "",
     "maximum": 2
@@ -1340,8 +1410,8 @@
   "binomial-sbrief": {
     "rule": "binomial-sbrief",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Element in first row",
+      "%2": "Element in second row"
     },
     "locales": {
       "de": 2,
@@ -1351,7 +1421,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "A binomial or two dimensional vector in super brief style",
     "latex": "",
     "example": "",
     "maximum": 2
@@ -1359,8 +1429,8 @@
   "cases": {
     "rule": "cases",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The fence",
+      "%2": "The lines of the case statement"
     },
     "locales": {
       "de": 2,
@@ -1370,7 +1440,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "A case statement with singular large fence for combining cases",
     "latex": "",
     "example": "",
     "maximum": 2
@@ -1378,13 +1448,13 @@
   "cases-brief": {
     "rule": "cases-brief",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The fence",
+      "%2": "The lines of the case statement"
     },
     "locales": {
       "de": 2
     },
-    "description": "",
+    "description": "A case statement with singular large fence for combining cases in brief style",
     "latex": "",
     "example": "",
     "maximum": 2
@@ -1392,8 +1462,8 @@
   "cases-sbrief": {
     "rule": "cases-sbrief",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The fence",
+      "%2": "The lines of the case statement"
     },
     "locales": {
       "de": 2,
@@ -1403,7 +1473,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "A case statement with singular large fence for combining cases in super brief style",
     "latex": "",
     "example": "",
     "maximum": 2
@@ -1411,8 +1481,8 @@
   "line-with-label": {
     "rule": "line-with-label",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The label",
+      "%2": "The line"
     },
     "locales": {
       "de": 2,
@@ -1422,7 +1492,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "A line (mainly in case statements) with a label",
     "latex": "",
     "example": "",
     "maximum": 2
@@ -1430,8 +1500,8 @@
   "line-with-label-brief": {
     "rule": "line-with-label-brief",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The label",
+      "%2": "The line"
     },
     "locales": {
       "de": 2,
@@ -1441,7 +1511,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "A line (mainly in case statements) with a label in brief and super brief style",
     "latex": "",
     "example": "",
     "maximum": 2
@@ -1449,8 +1519,8 @@
   "line-with-text-label": {
     "rule": "line-with-text-label",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The text label",
+      "%2": "The line"
     },
     "locales": {
       "de": 2,
@@ -1460,7 +1530,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "A line (mainly in case statements) with a text label, where parentheses would not be spoken",
     "latex": "",
     "example": "",
     "maximum": 2
@@ -1476,7 +1546,7 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "An empty line",
     "latex": "",
     "example": "",
     "maximum": 0
@@ -1484,7 +1554,7 @@
   "empty-line-with-label": {
     "rule": "empty-line-with-label",
     "parameters": {
-      "%1": ""
+      "%1": "The label"
     },
     "locales": {
       "de": 1,
@@ -1494,7 +1564,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "An empty line (mainly in case statements) with a label",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -1502,7 +1572,7 @@
   "empty-line-with-label-brief": {
     "rule": "empty-line-with-label-brief",
     "parameters": {
-      "%1": ""
+      "%1": "The label",
     },
     "locales": {
       "de": 1,
@@ -1512,7 +1582,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "An empty line (mainly in case statements) with a label in brief or super brief style",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -1520,8 +1590,8 @@
   "enclose": {
     "rule": "enclose",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The enclosing structure (e.g., a box, circle). This programmatically translated.",
+      "%2": "The enclosed element"
     },
     "locales": {
       "de": 2,
@@ -1531,15 +1601,15 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Describes an enclosed element",
+    "latex": "\\framebox{x+y}",
+    "example": "start enclose box x + y end enclose",
     "maximum": 2
   },
   "leftbar": {
     "rule": "leftbar",
     "parameters": {
-      "%1": ""
+      "%1": "The enclosed element"
     },
     "locales": {
       "de": 1,
@@ -1549,7 +1619,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Elements with an attached left bar",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -1557,7 +1627,7 @@
   "rightbar": {
     "rule": "rightbar",
     "parameters": {
-      "%1": ""
+      "%1": "The enclosed element"
     },
     "locales": {
       "de": 1,
@@ -1567,7 +1637,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Elements with an attached right bar",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -1575,7 +1645,7 @@
   "crossout": {
     "rule": "crossout",
     "parameters": {
-      "%1": ""
+      "%1": "The struck out expression"
     },
     "locales": {
       "de": 1,
@@ -1585,7 +1655,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "A struck out or crossed out expression",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -1593,8 +1663,8 @@
   "cancel": {
     "rule": "cancel",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The struck out expression",
+      "%2": "The replacement expression"
     },
     "locales": {
       "de": 2,
@@ -1604,7 +1674,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "An expression that is crossed out an replace by one above it",
     "latex": "",
     "example": "",
     "maximum": 2
@@ -1612,8 +1682,8 @@
   "cancel-reverse": {
     "rule": "cancel-reverse",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The struck out expression",
+      "%2": "The replacement expression"
     },
     "locales": {
       "de": 2,
@@ -1623,7 +1693,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "An expression that is crossed out an replace by one below it",
     "latex": "",
     "example": "",
     "maximum": 2
@@ -1745,12 +1815,12 @@
   "german-font": {
     "rule": "german-font",
     "parameters": {
-      "%1": ""
+      "%1": "The character in fraktur font"
     },
     "locales": {
       "en": 1
     },
-    "description": "",
+    "description": "A character in fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -1758,95 +1828,25 @@
   "german-font-bold": {
     "rule": "german-font-bold",
     "parameters": {
-      "%1": ""
+      "%1": "The character in bold fraktur font"
     },
     "locales": {
       "en": 1
     },
-    "description": "",
+    "description": "A character in bold fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.",
     "latex": "",
     "example": "",
     "maximum": 1
-  },
-  "number-with-chars-brief": {
-    "rule": "number-with-chars-brief",
-    "parameters": {
-      "%1": ""
-    },
-    "locales": {
-      "en": 1,
-      "es": 1,
-      "hi": 1,
-      "it": 1
-    },
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 1
-  },
-  "fences-metric-sbrief": {
-    "rule": "fences-metric-sbrief",
-    "parameters": {
-      "%1": ""
-    },
-    "locales": {
-      "de": 1,
-      "en": 1,
-      "es": 1,
-      "fr": 1,
-      "hi": 1,
-      "it": 1
-    },
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 1
-  },
-  "continued-fraction-outer-brief": {
-    "rule": "continued-fraction-outer-brief",
-    "parameters": {
-      "%1": "",
-      "%2": ""
-    },
-    "locales": {
-      "en": 2,
-      "es": 2,
-      "fr": 2,
-      "hi": 2,
-      "it": 2
-    },
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 2
-  },
-  "continued-fraction-inner-brief": {
-    "rule": "continued-fraction-inner-brief",
-    "parameters": {
-      "%1": "",
-      "%2": ""
-    },
-    "locales": {
-      "en": 2,
-      "es": 2,
-      "fr": 2,
-      "hi": 2,
-      "it": 2
-    },
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 2
   },
   "text": {
     "rule": "text",
     "parameters": {
-      "%1": ""
+      "%1": "The text element"
     },
     "locales": {
       "es": 1
     },
-    "description": "",
+    "description": "Text that needs to be announced or pronounced differently (e.g., not translated)",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -1854,12 +1854,12 @@
   "unit-singular": {
     "rule": "unit-singular",
     "parameters": {
-      "%1": ""
+      "%1": "The unit"
     },
     "locales": {
       "es": 1
     },
-    "description": "",
+    "description": "A unit in singular",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -1867,12 +1867,12 @@
   "unit-plural": {
     "rule": "unit-plural",
     "parameters": {
-      "%1": ""
+      "%1": "The unit"
     },
     "locales": {
       "es": 1
     },
-    "description": "",
+    "description": "A unit in plural",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -1880,13 +1880,13 @@
   "unit-square": {
     "rule": "unit-square",
     "parameters": {
-      "%1": ""
+      "%1": "The unit"
     },
     "locales": {
       "es": 1,
       "fr": 1
     },
-    "description": "",
+    "description": "A unit in plural",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -1894,7 +1894,7 @@
   "unit-cubic": {
     "rule": "unit-cubic",
     "parameters": {
-      "%1": ""
+      "%1": "The unit"
     },
     "locales": {
       "es": 1,
@@ -1908,7 +1908,7 @@
   "reciprocal": {
     "rule": "reciprocal",
     "parameters": {
-      "%1": ""
+      "%1": "The unit"
     },
     "locales": {
       "es": 1
@@ -1921,7 +1921,7 @@
   "per": {
     "rule": "per",
     "parameters": {
-      "%1": ""
+      "%1": "The unit"
     },
     "locales": {
       "es": 1
@@ -2017,14 +2017,14 @@
   "logarithm-base": {
     "rule": "logarithm-base",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The logarithm function",
+      "%2": "The bases of the logarithm"
     },
     "locales": {
       "fr": 2,
       "it": 2
     },
-    "description": "",
+    "description": "If the base of the logarithm should be spoken differently then the normal subscript",
     "latex": "",
     "example": "",
     "maximum": 2
@@ -2032,12 +2032,12 @@
   "overbar-enclose": {
     "rule": "overbar-enclose",
     "parameters": {
-      "%1": ""
+      "%1": "The enclosed expression"
     },
     "locales": {
       "fr": 1
     },
-    "description": "",
+    "description": "If an expression marked with an overbar that is spoken with start and end markers",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -2045,12 +2045,12 @@
   "underbar-enclose": {
     "rule": "underbar-enclose",
     "parameters": {
-      "%1": ""
+      "%1": "The enclosed expression"
     },
     "locales": {
       "fr": 1
     },
-    "description": "",
+    "description": "If an expression marked with an underbar that is spoken with start and end markers",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -2061,9 +2061,9 @@
     "locales": {
       "it": 0
     },
-    "description": "",
+    "description": "Squared if base is grammatically of masculine gender",
     "latex": "",
-    "example": "",
+    "example": "1 quadrato",
     "maximum": 0
   },
   "squared-feminine": {
@@ -2072,9 +2072,9 @@
     "locales": {
       "it": 0
     },
-    "description": "",
+    "description": "Squared if base is grammatically of feminine gender",
     "latex": "",
-    "example": "",
+    "example": "a quadrata",
     "maximum": 0
   }
 }
