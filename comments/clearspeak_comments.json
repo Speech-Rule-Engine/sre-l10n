@@ -2,7 +2,7 @@
   "collapsed": {
     "rule": "collapsed",
     "parameters": {
-      "%1": ""
+      "%1": "The abstracted element"
     },
     "locales": {
       "de": 1,
@@ -11,16 +11,16 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Rule that fires if an expression is visually abstracted",
     "latex": "",
-    "example": "",
+    "example": "collapsed sum",
     "maximum": 1
   },
   "font": {
     "rule": "font",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The font",
+      "%2": "The expression"
     },
     "locales": {
       "de": 2,
@@ -29,51 +29,51 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "Explicit speaking of font",
     "latex": "",
-    "example": "",
+    "example": "bold alpha",
     "maximum": 2
   },
   "font-number": {
     "rule": "font-number",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The font",
+      "%2": "The number"
     },
     "locales": {
       "de": 2
     },
-    "description": "",
+    "description": "Explicit speaking of font for numbers",
     "latex": "",
-    "example": "",
+    "example": "kursive drei",
     "maximum": 2
   },
   "font-double-struck": {
     "rule": "font-double-struck",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The expression",
+      "%2": "The font"
     },
     "locales": {
       "de": 2
     },
-    "description": "",
+    "description": "Explicit speaking of doublstruck/blackboard font",
     "latex": "",
-    "example": "",
+    "example": "R mit Doppelstrich",
     "maximum": 2
   },
   "font-number-double-struck": {
     "rule": "font-number-double-struck",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The number",
+      "%2": "The font"
     },
     "locales": {
       "de": 2
     },
-    "description": "",
+    "description": "Explicit speaking of doublstruck/blackboar font",
     "latex": "",
-    "example": "",
+    "example": "Null mit Doppelstrich",
     "maximum": 2
   },
   "ellipsis": {
@@ -3118,8 +3118,8 @@
   "mixed-number": {
     "rule": "mixed-number",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The integer part",
+      "%2": "The fraction part"
     },
     "locales": {
       "de": 2,
@@ -3128,15 +3128,15 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Mixed numbers",
+    "latex": "2 \\frac{1}{3}",
+    "example": "Two and one third",
     "maximum": 2
   },
   "number-with-chars": {
     "rule": "number-with-chars",
     "parameters": {
-      "%1": ""
+      "%1": "The number"
     },
     "locales": {
       "de": 1,
@@ -3145,9 +3145,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "A number that contains letters",
     "latex": "",
-    "example": "",
+    "example": "Number #A0FF",
     "maximum": 1
   },
   "decimal-period": {
@@ -3493,7 +3493,7 @@
   "unit-square": {
     "rule": "unit-square",
     "parameters": {
-      "%1": ""
+      "%1": "The unit"
     },
     "locales": {
       "de": 1,
@@ -3502,7 +3502,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "A unit that is squared",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -3510,7 +3510,7 @@
   "unit-cubic": {
     "rule": "unit-cubic",
     "parameters": {
-      "%1": ""
+      "%1": "The unit"
     },
     "locales": {
       "de": 1,
@@ -3519,7 +3519,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "A unit that is cubed",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -3527,7 +3527,7 @@
   "unit-reciprocal": {
     "rule": "unit-reciprocal",
     "parameters": {
-      "%1": ""
+      "%1": "The unit"
     },
     "locales": {
       "de": 1,
@@ -3535,7 +3535,7 @@
       "fr": 1,
       "hi": 1
     },
-    "description": "",
+    "description": "A unit to the power of negative one",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -3559,8 +3559,8 @@
   "unit-divide": {
     "rule": "unit-divide",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Unit in enumerator",
+      "%2": "Unit in denominator"
     },
     "locales": {
       "de": 2,
@@ -3569,7 +3569,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "A fraction of units",
     "latex": "",
     "example": "",
     "maximum": 2
@@ -3577,27 +3577,25 @@
   "german-font": {
     "rule": "german-font",
     "parameters": {
-      "%1": ""
+      "%1": "The character in fraktur font"
     },
     "locales": {
       "en": 1
     },
-    "description": "",
+    "description": "A character in fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.",
     "latex": "",
-    "example": "",
     "maximum": 1
   },
   "german-font-bold": {
     "rule": "german-font-bold",
     "parameters": {
-      "%1": ""
+      "%1": "The character in bold fraktur font"
     },
     "locales": {
       "en": 1
     },
-    "description": "",
+    "description": "A character in bold fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.",
     "latex": "",
-    "example": "",
     "maximum": 1
   },
   "set-member-member": {
@@ -4292,9 +4290,9 @@
     "locales": {
       "it": 0
     },
-    "description": "",
+    "description": "Squared if base is grammatically of masculine gender",
     "latex": "",
-    "example": "",
+    "example": "1 quadrato",
     "maximum": 0
   },
   "squared-feminine": {
@@ -4303,765 +4301,9 @@
     "locales": {
       "it": 0
     },
-    "description": "",
+    "description": "Squared if base is grammatically of feminine gender",
     "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "punctuation-lr": {
-    "rule": "punctuation-lr",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "punctuation": {
-    "rule": "punctuation",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "punctuation-l": {
-    "rule": "punctuation-l",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "punctuation-r": {
-    "rule": "punctuation-r",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "prime": {
-    "rule": "prime",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "degrees": {
-    "rule": "degrees",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "feet": {
-    "rule": "feet",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "foot": {
-    "rule": "foot",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "inches": {
-    "rule": "inches",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "inch": {
-    "rule": "inch",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "minutes": {
-    "rule": "minutes",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "minute": {
-    "rule": "minute",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "seconds": {
-    "rule": "seconds",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "second": {
-    "rule": "second",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "degrees-angle": {
-    "rule": "degrees-angle",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "degree-angle": {
-    "rule": "degree-angle",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "minutes-angle": {
-    "rule": "minutes-angle",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "minute-angle": {
-    "rule": "minute-angle",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "seconds-angle": {
-    "rule": "seconds-angle",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "second-angle": {
-    "rule": "second-angle",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "feet-length": {
-    "rule": "feet-length",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "foot-length": {
-    "rule": "foot-length",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "inches-length": {
-    "rule": "inches-length",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "inch-length": {
-    "rule": "inch-length",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "punctuated": {
-    "rule": "punctuated",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "function": {
-    "rule": "function",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "binary-operation": {
-    "rule": "binary-operation",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "function-ln-natlog": {
-    "rule": "function-ln-natlog",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "function-ln-natlog-pause": {
-    "rule": "function-ln-natlog-pause",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "function-no-inverse": {
-    "rule": "function-no-inverse",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "paren-simple": {
-    "rule": "paren-simple",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "paren-simple-exp": {
-    "rule": "paren-simple-exp",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "paren-simple-nested-func": {
-    "rule": "paren-simple-nested-func",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "paren-simple-nested-func-no-bracket": {
-    "rule": "paren-simple-nested-func-no-bracket",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "fences-open-close": {
-    "rule": "fences-open-close",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "paren-simple-nested-func-default": {
-    "rule": "paren-simple-nested-func-default",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "paren-simple-nested-func-none": {
-    "rule": "paren-simple-nested-func-none",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "fence-silent": {
-    "rule": "fence-silent",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "fences-open-close-none": {
-    "rule": "fences-open-close-none",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "fence-nesting": {
-    "rule": "fence-nesting",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "fence-no-nesting": {
-    "rule": "fence-no-nesting",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "interval-open-inf-lr": {
-    "rule": "interval-open-inf-lr",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "paren-nested-embellished-funcs": {
-    "rule": "paren-nested-embellished-funcs",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "set-collection-silentbracket": {
-    "rule": "set-collection-silentbracket",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "prefix": {
-    "rule": "prefix",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "postfix": {
-    "rule": "postfix",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "binary-operation-default": {
-    "rule": "binary-operation-default",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "binary-operation-moreimpliedtimes": {
-    "rule": "binary-operation-moreimpliedtimes",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "binary-operation-pause": {
-    "rule": "binary-operation-pause",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "binary-operation-pause-r": {
-    "rule": "binary-operation-pause-r",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "binary-operation-pause-lr": {
-    "rule": "binary-operation-pause-lr",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "implicit-times": {
-    "rule": "implicit-times",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "implicit-times-default": {
-    "rule": "implicit-times-default",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "implicit-times-simple": {
-    "rule": "implicit-times-simple",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "implicit-times-moreimpliedtimes": {
-    "rule": "implicit-times-moreimpliedtimes",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "implicit-times-none": {
-    "rule": "implicit-times-none",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "binary-operation-simple": {
-    "rule": "binary-operation-simple",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "simple-in-fraction": {
-    "rule": "simple-in-fraction",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "relseq": {
-    "rule": "relseq",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "multrel": {
-    "rule": "multrel",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "matrix-row-simple": {
-    "rule": "matrix-row-simple",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "matrix-row-simple-silentcolnum": {
-    "rule": "matrix-row-simple-silentcolnum",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "line-simple": {
-    "rule": "line-simple",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "matrix-cell": {
-    "rule": "matrix-cell",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "lines-summary-none": {
-    "rule": "lines-summary-none",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "cases-summary-none": {
-    "rule": "cases-summary-none",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "line": {
-    "rule": "line",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "row-medium": {
-    "rule": "row-medium",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "row-long": {
-    "rule": "row-long",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "row-short": {
-    "rule": "row-short",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "lines-none": {
-    "rule": "lines-none",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "overscript-accent": {
-    "rule": "overscript-accent",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "number": {
-    "rule": "number",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "number-with-spaces": {
-    "rule": "number-with-spaces",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "tensor-base": {
-    "rule": "tensor-base",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "empty-index": {
-    "rule": "empty-index",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "combinatorics": {
-    "rule": "combinatorics",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "unit-singular": {
-    "rule": "unit-singular",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "unit-plural": {
-    "rule": "unit-plural",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "unit-combine": {
-    "rule": "unit-combine",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "unit-combine-singular": {
-    "rule": "unit-combine-singular",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "currency": {
-    "rule": "currency",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "currency-position": {
-    "rule": "currency-position",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
-  "currency-prefix": {
-    "rule": "currency-prefix",
-    "parameters": {},
-    "locales": {},
-    "description": "",
-    "latex": "",
-    "example": "",
+    "example": "a quadrata",
     "maximum": 0
   }
 }

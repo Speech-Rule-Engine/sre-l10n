@@ -1886,7 +1886,7 @@
       "es": 1,
       "fr": 1
     },
-    "description": "A unit in plural",
+    "description": "A unit that is squared",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -1900,7 +1900,7 @@
       "es": 1,
       "fr": 1
     },
-    "description": "",
+    "description": "A unit that is cubed",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -1913,7 +1913,7 @@
     "locales": {
       "es": 1
     },
-    "description": "",
+    "description": "A unit to the power of negative one",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -1934,12 +1934,12 @@
   "unit-combine": {
     "rule": "unit-combine",
     "parameters": {
-      "%1": ""
+      "%1": "The list of unit expressions"
     },
     "locales": {
       "es": 1
     },
-    "description": "",
+    "description": "Combines multiple units",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -2003,13 +2003,13 @@
   "unit-divide": {
     "rule": "unit-divide",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Unit in enumerator",
+      "%2": "Unit in denominator"
     },
     "locales": {
       "es": 2
     },
-    "description": "",
+    "description": "A fraction of units",
     "latex": "",
     "example": "",
     "maximum": 2
