@@ -2,7 +2,7 @@
   "abstr-identifier-long": {
     "rule": "abstr-identifier-long",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -12,7 +12,7 @@
       "hi": 0,
       "it": 1
     },
-    "description": "A long collapsed identifier.",
+    "description": "Summary for a long identifier. Used when the expression is visually abstracted.",
     "latex": "\\mathit{abcdefg}",
     "example": "",
     "maximum": 1
@@ -20,7 +20,7 @@
   "abstr-identifier": {
     "rule": "abstr-identifier",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -30,15 +30,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
+    "description": "Summary for an identifier",
+    "latex": "x",
     "example": "",
     "maximum": 1
   },
   "abstr-number-long": {
     "rule": "abstr-number-long",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -48,15 +48,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
+    "description": "Summary of a long number. Used when the expression is visually abstracted.",
+    "latex": "123456",
     "example": "",
     "maximum": 1
   },
   "abstr-number": {
     "rule": "abstr-number",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -66,15 +66,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
+    "description": "Summary of a number",
+    "latex": "12",
     "example": "",
     "maximum": 1
   },
   "abstr-mixed-number-long": {
     "rule": "abstr-mixed-number-long",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -84,15 +84,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
+    "description": "Summary of a long mixed number. Used when the expression is visually abstracted.",
+    "latex": "120\\frac{20}{101}",
     "example": "",
     "maximum": 1
   },
   "abstr-mixed-number": {
     "rule": "abstr-mixed-number",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -102,15 +102,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
+    "description": "Summary of a mixed number",
+    "latex": "1\\frac{2}{3}",
     "example": "",
     "maximum": 1
   },
   "abstr-text": {
     "rule": "abstr-text",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -120,15 +120,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
+    "description": "Summary of an interspersed text element",
+    "latex": "x_0 + x_1 \\mtext{and so on} = y",
     "example": "",
     "maximum": 1
   },
   "abstr-function": {
     "rule": "abstr-function",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -138,15 +138,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a function",
+    "latex": "\\sin(x)",
+    "example": "Functional expression",
     "maximum": 1
   },
   "abstr-function-brief": {
     "rule": "abstr-function-brief",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -156,15 +156,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Brief summary of a function",
+    "latex": "\\sin(x)",
+    "example": "Function",
     "maximum": 1
   },
   "abstr-lim": {
     "rule": "abstr-lim",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -174,15 +174,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a limit function",
+    "latex": "\\lim_{x\\to \\infty}",
+    "example": "limit function",
     "maximum": 1
   },
   "abstr-lim-brief": {
     "rule": "abstr-lim-brief",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -192,15 +192,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Brief summary of limit function",
+    "latex": "\\lim_{x\\to \\infty}",
+    "example": "limit",
     "maximum": 1
   },
   "abstr-fraction": {
     "rule": "abstr-fraction",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -210,15 +210,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a fraction",
+    "latex": "\\frac{a}{b}",
+    "example": "fraction",
     "maximum": 1
   },
   "abstr-fraction-brief": {
     "rule": "abstr-fraction-brief",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -228,15 +228,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Brief summary of a fraction",
+    "latex": "\\frac{a}{b}",
+    "example": "frac",
     "maximum": 1
   },
   "abstr-continued-fraction": {
     "rule": "abstr-continued-fraction",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -246,15 +246,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a continued fraction",
+    "latex": "\\frac{a}{\\ldots}",
+    "example": "continued fraction",
     "maximum": 1
   },
   "abstr-continued-fraction-brief": {
     "rule": "abstr-continued-fraction-brief",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -264,15 +264,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Brief summary of a continued fraction",
+    "latex": "\\frac{a}{\\ldots}",
+    "example": "continued frac",
     "maximum": 1
   },
   "abstr-sqrt": {
     "rule": "abstr-sqrt",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -282,15 +282,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of sqare root",
+    "latex": "\\sqrt{A}",
+    "example": "square root",
     "maximum": 1
   },
   "abstr-sqrt-nested": {
     "rule": "abstr-sqrt-nested",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -300,16 +300,16 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a nested square root, irrespective of whether the inner roots are square roots or other indexed roots",
+    "latex": "\\sqrt{\\sqrt[4]{A}}",
+    "example": "nested square root",
     "maximum": 1
   },
   "abstr-root-end": {
     "rule": "abstr-root-end",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The index value.",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -319,16 +319,16 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Indicates the end of the root index. This is important if summary is used in context, e.g. for an collapsed expression.",
+    "latex": "\\sqrt[n + 1]{a} + b",
+    "example": "root of index n plus 1 end index plus b",
     "maximum": 2
   },
   "abstr-root": {
     "rule": "abstr-root",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The index of the root (term on the tip of the radical sign)",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -338,15 +338,15 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of an indexed root",
+    "latex": "\\sqrt[4]{A}",
+    "example": "root of index 4",
     "maximum": 2
   },
   "abstr-root-brief": {
     "rule": "abstr-root-brief",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -356,16 +356,16 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Brief summary of an indexed root",
+    "latex": "\\sqrt[4]{A}",
+    "example": "root",
     "maximum": 1
   },
   "abstr-root-nested-end": {
     "rule": "abstr-root-nested-end",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The index of the root (term on the tip of the radical sign)",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -375,16 +375,16 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Indicates the end of the indexed root index. This is important if summary is used in context, e.g. for an collapsed expression.",
+    "latex": "\\sqrt[n + 1]{\\sqrt{a}} + b",
+    "example": "nest root of index n plus 1 end index plus b",
     "maximum": 2
   },
   "abstr-root-nested": {
     "rule": "abstr-root-nested",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The index of the root",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -394,15 +394,15 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a nested root, irrespective of whether the inner roots are square roots or other indexed roots",
+    "latex": "\\sqrt[3]{\\sqrt[4]{A}}",
+    "example": "nested root of index 3",
     "maximum": 2
   },
   "abstr-root-nested-brief": {
     "rule": "abstr-root-nested-brief",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -412,15 +412,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Brief summary of a nested root, irrespective of whether the inner roots are square roots or other indexed roots",
+    "latex": "\\sqrt[3]{\\sqrt[4]{A}}",
+    "example": "nested root",
     "maximum": 1
   },
   "abstr-superscript": {
     "rule": "abstr-superscript",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -430,7 +430,7 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
+    "description": "Summary of an exponential expression",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -438,7 +438,7 @@
   "abstr-subscript": {
     "rule": "abstr-subscript",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -448,7 +448,7 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
+    "description": "Summary of an indexed expression",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -456,7 +456,7 @@
   "abstr-subsup": {
     "rule": "abstr-subsup",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -466,7 +466,7 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
+    "description": "Summary of an exponential expression with index",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -474,9 +474,9 @@
   "abstr-infixop": {
     "rule": "abstr-infixop",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The kind of operation.",
+      "%2": "The number of terms.",
+      "%3": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 2,
@@ -486,16 +486,16 @@
       "hi": 2,
       "it": 3
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of an infix operation giving the number of terms",
+    "latex": "a/b",
+    "example": "division with two elements",
     "maximum": 3
   },
   "abstr-infixop-var": {
     "rule": "abstr-infixop-var",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The kind of operation.",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -505,16 +505,16 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of an infix operation containing ellipses (...)",
+    "latex": "a-\\ldots- b",
+    "example": "Subtraction with a variable number of elements",
     "maximum": 2
   },
   "abstr-infixop-brief": {
     "rule": "abstr-infixop-brief",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The kind of operation.",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -524,16 +524,16 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
+    "description": "Brief summary of an infix operation, regardless of fixed or variable number of elements ",
     "latex": "",
-    "example": "",
+    "example": "Subtraction",
     "maximum": 2
   },
   "abstr-addition": {
     "rule": "abstr-addition",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The number of summands",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -543,15 +543,15 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of an addition with a fixed number of terms.",
+    "latex": "a + b + c",
+    "example": "sum with three summands",
     "maximum": 2
   },
   "abstr-addition-brief": {
     "rule": "abstr-addition-brief",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -561,15 +561,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Brief summary of an addition, regardless of fixed or variable number of elements ",
+    "latex": "a + b + c",
+    "example": "sum",
     "maximum": 1
   },
   "abstr-addition-var": {
     "rule": "abstr-addition-var",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -579,16 +579,16 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of an addition containing ellipses (...)",
+    "latex": "a + \\ldots + c",
+    "example": "sum with variable number of summands",
     "maximum": 1
   },
   "abstr-multiplication": {
     "rule": "abstr-multiplication",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The number of factors",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -598,15 +598,15 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a product with a fixed number of terms.",
+    "latex": "a * b * c",
+    "example": "product with three factors",
     "maximum": 2
   },
   "abstr-multiplication-brief": {
     "rule": "abstr-multiplication-brief",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -616,15 +616,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Brief summary of a product, regardless of fixed or variable number of elements ",
+    "latex": "a * b * c",
+    "example": "product",
     "maximum": 1
   },
   "abstr-multiplication-var": {
     "rule": "abstr-multiplication-var",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -634,16 +634,16 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a product containing ellipses (...)",
+    "latex": "a * \\ldots * c",
+    "example": "product with variable number of factors",
     "maximum": 1
   },
   "abstr-vector": {
     "rule": "abstr-vector",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Number of dimensions",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -653,15 +653,15 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a column vector",
+    "latex": "\\begin{pmatrix} a \\\\ b \\\\ c \\end{pmatrix}",
+    "example": "three dimensional vector",
     "maximum": 2
   },
   "abstr-vector-brief": {
     "rule": "abstr-vector-brief",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -671,15 +671,15 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Brief summary of a column vector",
+    "latex": "\\begin{pmatrix} a \\\\ b \\\\ c \\end{pmatrix}",
+    "example": "vector",
     "maximum": 1
   },
   "abstr-vector-var": {
     "rule": "abstr-vector-var",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -689,15 +689,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of an abstract column vector",
+    "latex": "\\begin{pmatrix} a \\\\ \\vdots \\\\ c \\end{pmatrix}",
+    "example": "n dimensional vector",
     "maximum": 1
   },
   "abstr-binomial": {
     "rule": "abstr-binomial",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -707,7 +707,7 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
+    "description": "Summary of binomial coefficient",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -715,8 +715,8 @@
   "abstr-determinant": {
     "rule": "abstr-determinant",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The dimension of the determinant.",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -726,15 +726,15 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a determinant",
+    "latex": "\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}",
+    "example": "2 dimensional determinant",
     "maximum": 2
   },
   "abstr-determinant-brief": {
     "rule": "abstr-determinant-brief",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -744,15 +744,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Brief summary of a determinant",
+    "latex": "\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}",
+    "example": "determinant",
     "maximum": 1
   },
   "abstr-determinant-var": {
     "rule": "abstr-determinant-var",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -762,16 +762,16 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a determinant with elliptic elements ( ...). Has to be recognisably square and in bar fences.",
+    "latex": "\\begin{vmatrix} a & \\cdots & b \\\\ & \\ddots & \\\\ c & \\cdots & d \\end{vmatrix}",
+    "example": "n dimensional determinant",
     "maximum": 1
   },
   "abstr-squarematrix": {
     "rule": "abstr-squarematrix",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The dimension of the square matrix.",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -781,15 +781,15 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a square matrix",
+    "latex": "\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}",
+    "example": "2 dimensional square matrix",
     "maximum": 2
   },
   "abstr-squarematrix-brief": {
     "rule": "abstr-squarematrix-brief",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -799,16 +799,16 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Brief summary of a square matrix",
+    "latex": "\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}",
+    "example": "square matrix",
     "maximum": 1
   },
   "abstr-rowvector": {
     "rule": "abstr-rowvector",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Number of dimensions",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -818,15 +818,15 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a row vector",
+    "latex": "\\begin{pmatrix} a & b & c \\end{pmatrix}",
+    "example": "three dimensional row vector",
     "maximum": 2
   },
   "abstr-rowvector-brief": {
     "rule": "abstr-rowvector-brief",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -836,15 +836,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Brief summary of a row vector",
+    "latex": "\\begin{pmatrix} a & b & c \\end{pmatrix}",
+    "example": "row vector",
     "maximum": 1
   },
   "abstr-rowvector-var": {
     "rule": "abstr-rowvector-var",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -854,17 +854,17 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of an abstract row vector",
+    "latex": "\\begin{pmatrix} a & \\vdots & c \\end{pmatrix}",
+    "example": "n dimensional row vector",
     "maximum": 1
   },
   "abstr-matrix": {
     "rule": "abstr-matrix",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The row number",
+      "%2": "The column number",
+      "%3": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 2,
@@ -874,15 +874,15 @@
       "hi": 2,
       "it": 3
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a non-square matrix",
+    "latex": "\\begin{bmatrix} a & b & c \\\\ d & e & f \\end{bmatrix}",
+    "example": "2 by 3 matrix",
     "maximum": 3
   },
   "abstr-matrix-brief": {
     "rule": "abstr-matrix-brief",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -892,15 +892,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Brief summary of a non-square matrix",
+    "latex": "\\begin{bmatrix} a & b & c \\\\ d & e & f \\end{bmatrix}",
+    "example": "matrix",
     "maximum": 1
   },
   "abstr-matrix-var": {
     "rule": "abstr-matrix-var",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -910,16 +910,16 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a matrix with elliptic elements ( ...).",
+    "latex": "\\begin{bmatrix} a & \\cdots & b \\\\ & \\ddots & \\\\ c & \\cdots & d \\end{bmatrix}",
+    "example": "n by m dimensional matrix",
     "maximum": 1
   },
   "abstr-cases": {
     "rule": "abstr-cases",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Number of cases",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -929,15 +929,15 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a case statement",
+    "latex": "\\begin{cases} a \\\\ b \\\\ c \\end{cases}",
+    "example": "Case statement with 3 cases",
     "maximum": 2
   },
   "abstr-cases-brief": {
     "rule": "abstr-cases-brief",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -947,15 +947,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Brief summary of a case statement",
+    "latex": "\\begin{cases} a \\\\ b \\\\ c \\end{cases}",
+    "example": "Case statement",
     "maximum": 1
   },
   "abstr-cases-var": {
     "rule": "abstr-cases-var",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -965,17 +965,17 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a case statement with omitted cases indicated by ellipses (...)",
+    "latex": "\\begin{cases} a \\\\ \\vdots \\\\ c \\end{cases}",
+    "example": "Case statement with variable number of cases",
     "maximum": 1
   },
   "abstr-punctuated": {
     "rule": "abstr-punctuated",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The separating punctuation",
+      "%2": "The number of separated elements",
+      "%3": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 2,
@@ -985,16 +985,16 @@
       "hi": 2,
       "it": 3
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a list of elements separated by a punctuation like comma, semi-colon, etc.",
+    "latex": "a, b, c",
+    "example": "comma separated list of length 3",
     "maximum": 3
   },
   "abstr-punctuated-brief": {
     "rule": "abstr-punctuated-brief",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The separating punctuation",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -1004,16 +1004,16 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Brief summary of a list of elements separated by a punctuation like comma, semi-colon, etc.",
+    "latex": "a, b, c",
+    "example": "comma separated list",
     "maximum": 2
   },
   "abstr-punctuated-var": {
     "rule": "abstr-punctuated-var",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The separating punctuation",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -1023,16 +1023,16 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a list of elements separated by a punctuation that contains elliptic elements (...)",
+    "latex": "a, b, \\ldots, c",
+    "example": "comma separated list of variable length",
     "maximum": 2
   },
   "abstr-bigop": {
     "rule": "abstr-bigop",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The big operator",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -1042,15 +1042,15 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a big operation, like a sum or a product",
+    "latex": "\\sum_{x=0}^\\infty x",
+    "example": "sum (or sigma summation)",
     "maximum": 2
   },
   "abstr-integral": {
     "rule": "abstr-integral",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -1060,16 +1060,16 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of an integral",
+    "latex": "\\int_{x=0}^\\infty x \\dx",
+    "example": "integral",
     "maximum": 1
   },
   "abstr-relation": {
     "rule": "abstr-relation",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The separating relation symbol",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -1079,17 +1079,17 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a binary relation with two elements",
+    "latex": "a = b",
+    "example": "equality",
     "maximum": 2
   },
   "abstr-relation-seq": {
     "rule": "abstr-relation-seq",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The separating relation symbol",
+      "%2": "The number of elements in the sequence",
+      "%3": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 2,
@@ -1099,16 +1099,16 @@
       "hi": 2,
       "it": 3
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a relation sequence with three or more elements",
+    "latex": "a = b = c",
+    "example": "equality sequence with 3 elements",
     "maximum": 3
   },
   "abstr-relation-seq-brief": {
     "rule": "abstr-relation-seq-brief",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The separating relation symbol",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -1118,16 +1118,16 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Brief summary of a relation sequence with three or more elements",
+    "latex": "a = b = c",
+    "example": "equality sequence",
     "maximum": 2
   },
   "abstr-relation-var": {
     "rule": "abstr-relation-var",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The separating relation symbol",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -1137,16 +1137,16 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a relation sequence with three or more elements containing at least one ellispis (...)",
+    "latex": "a = \\ldots = c",
+    "example": "equality sequence with variable number of elements elements",
     "maximum": 2
   },
   "abstr-multirel": {
     "rule": "abstr-multirel",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Number of elements in the relation sequence",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -1156,15 +1156,15 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a relation sequence with different relations",
+    "latex": "a < b = c > d",
+    "example": "Relation sequence with 4 elements",
     "maximum": 2
   },
   "abstr-multirel-brief": {
     "rule": "abstr-multirel-brief",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -1174,15 +1174,15 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Brief summary of a relation sequence with different relations",
+    "latex": "a < b = c > d",
+    "example": "Relation sequence",
     "maximum": 1
   },
   "abstr-multirel-var": {
     "rule": "abstr-multirel-var",
     "parameters": {
-      "%1": ""
+      "%1": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 0,
@@ -1192,17 +1192,17 @@
       "hi": 0,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a relation sequence with different relations containing at least one ellispis (...)",
+    "latex": "a > b_0 = \ldots = b_n > c",
+    "example": "Relation sequence with variable number of elements",
     "maximum": 1
   },
   "abstr-table": {
     "rule": "abstr-table",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "Number of lines/rows",
+      "%2": "Number of columns",
+      "%3": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 2,
@@ -1212,16 +1212,16 @@
       "hi": 2,
       "it": 3
     },
-    "description": "",
+    "description": "Summary of a table",
     "latex": "",
-    "example": "",
+    "example": "table with 2 rows and 3 columns",
     "maximum": 3
   },
   "abstr-line": {
     "rule": "abstr-line",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The context of the line",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -1231,18 +1231,18 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
+    "description": "Summary of a line (e.g. in a case statement)",
     "latex": "",
-    "example": "",
+    "example": "line in case statemnt",
     "maximum": 2
   },
   "abstr-row": {
     "rule": "abstr-row",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": "",
-      "%4": ""
+      "%1": "The context of the row (e.g., square matrix)",
+      "%2": "The row counter",
+      "%3": "The column counter",
+      "%4": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 3,
@@ -1252,16 +1252,16 @@
       "hi": 3,
       "it": 4
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a matrix row",
+    "latex": "\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}",
+    "example": "1st row in square matrix with two columns",
     "maximum": 4
   },
   "abstr-cell": {
     "rule": "abstr-cell",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The the context of the column (e.g., square matrix)",
+      "%2": "The summarized term. If collapsed will trigger the grammatically correct adjective."
     },
     "locales": {
       "de": 1,
@@ -1271,9 +1271,9 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a matrix cell",
+    "latex": "\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}",
+    "example": "1st column in square matrix",
     "maximum": 2
   },
   "collapsed-masculine": {
@@ -1283,7 +1283,7 @@
       "fr": 0,
       "it": 0
     },
-    "description": "",
+    "description": "The collapsed adjective in masculine gender. E.g., used for romance languages.",
     "latex": "",
     "example": "",
     "maximum": 0
@@ -1295,7 +1295,7 @@
       "fr": 0,
       "it": 0
     },
-    "description": "",
+    "description": "The collapsed adjective in feminine gender. E.g., used for romance languages.",
     "latex": "",
     "example": "",
     "maximum": 0
