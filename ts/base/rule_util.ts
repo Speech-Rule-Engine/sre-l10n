@@ -138,6 +138,6 @@ export function moveRules(domain: string, names: string[]) {
     baseActions = base;
   }
   let baseActionsSet = loadMathmaps('base', domain, 'actions');
-  baseActionsSet.rules = baseActions;
+  baseActionsSet.rules = baseActionsSet.rules.concat(baseActions);
   saveMathmaps('base', domain, baseActionsSet, 'actions');
 }

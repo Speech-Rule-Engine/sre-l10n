@@ -796,7 +796,7 @@
     "rule": "prime",
     "parameters": {
       "%1": "The base element",
-      "%2": "The prime operator. As there are multiple prime operators they are handled seperately."
+      "%2": "The prime operator. As there are multiple prime operators (from single to quadruple) they are pronounciation is handled seperately."
     },
     "locales": {
       "de": 2,
@@ -811,58 +811,10 @@
     "example": "x prime",
     "maximum": 2
   },
-  "double-prime": {
-    "rule": "double-prime",
-    "parameters": {},
-    "locales": {
-      "de": 0,
-      "en": 0,
-      "es": 0,
-      "fr": 0,
-      "hi": 0,
-      "it": 0
-    },
-    "description": "A double prime. This is only pronounciation of the actual double prime",
-    "latex": "",
-    "example": "double prime",
-    "maximum": 0
-  },
-  "triple-prime": {
-    "rule": "triple-prime",
-    "parameters": {},
-    "locales": {
-      "de": 0,
-      "en": 0,
-      "es": 0,
-      "fr": 0,
-      "hi": 0,
-      "it": 0
-    },
-    "description": "A double prime. This is only pronounciation of the actual triple prime",
-    "latex": "",
-    "example": "triple prime",
-    "maximum": 0
-  },
-  "quadruple-prime": {
-    "rule": "quadruple-prime",
-    "parameters": {},
-    "locales": {
-      "de": 0,
-      "en": 0,
-      "es": 0,
-      "fr": 0,
-      "hi": 0,
-      "it": 0
-    },
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 0
-  },
   "counted-prime": {
     "rule": "counted-prime",
     "parameters": {
-      "%1": "The counter of the primes"
+      "%1": "The number of primes"
     },
     "locales": {
       "de": 1,
@@ -872,15 +824,15 @@
       "hi": 1,
       "it": 1
     },
-    "description": "A counted prime expression",
-    "latex": "f''''",
-    "example": "f four prime",
+    "description": "A counted prime expression with counter >= 5",
+    "latex": "f'''''",
+    "example": "f five prime",
     "maximum": 1
   },
   "counted-prime-multichar": {
     "rule": "counted-prime-multichar",
     "parameters": {
-      "%1": "The counter of the primes"
+      "%1": "The number of primes"
     },
     "locales": {
       "de": 1,
@@ -890,9 +842,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "A counted prime expression. Similar to counted-prime but operates by counting single elements in a string",
-    "latex": "f''''",
-    "example": "f four prime",
+    "description": "A counted prime expression with counter >= 5. Similar to counted-prime but operates by counting single elements in a string",
+    "latex": "f'''''",
+    "example": "f five prime",
     "maximum": 1
   },
   "overscore": {
