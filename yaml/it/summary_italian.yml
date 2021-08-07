@@ -1,184 +1,224 @@
 # For details on the format see https:///speechruleengine.org/yaml.md
 
-# 
+# The collapsed adjective in masculine gender. E.g., used for romance languages.
 collapsed-masculine:
   - $1: "collassato"
 
-# 
+# The collapsed adjective in feminine gender. E.g., used for romance languages.
 collapsed-feminine:
   - $1: "collassata"
 
-# A long collapsed identifier.
+# Summary for a long identifier. Used when the expression is visually abstracted.
 # LaTeX Example: $\mathit{abcdefg}$
-# %1: 
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-identifier-long:
   - $1: "identificatore lungo"
   - %1 (grammar:gender="m")
 
-# 
-# %1: 
+# Summary for an identifier
+# LaTeX Example: $x$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-identifier:
   - $1: "identificatore"
   - %1 (grammar:gender="m")
 
-# 
-# %1: 
+# Summary of a long number. Used when the expression is visually abstracted.
+# LaTeX Example: $123456$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-number-long:
   - $1: "intero lungo"
   - %1 (grammar:gender="m")
 
-# 
-# %1: 
+# Summary of a number
+# LaTeX Example: $12$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-number:
   - $1: "numero"
   - %1 (grammar:gender="m")
 
-# 
-# %1: 
+# Summary of a long mixed number. Used when the expression is visually abstracted.
+# LaTeX Example: $120\frac{20}{101}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-mixed-number-long:
   - $1: "numero misto lungo"
   - %1 (grammar:gender="m")
 
-# 
-# %1: 
+# Summary of a mixed number
+# LaTeX Example: $1\frac{2}{3}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-mixed-number:
   - $1: "numero misto"
   - %1 (grammar:gender="m")
 
-# 
-# %1: 
+# Summary of an interspersed text element
+# LaTeX Example: $x_0 + x_1 \mtext{and so on} = y$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-text:
   - $1: "testo"
   - %1 (grammar:gender="m")
 
-# 
-# %1: 
+# Summary of a function
+# Example: Functional expression
+# LaTeX Example: $\sin(x)$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-function:
   - $1: "espressione funzionale"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
+# Brief summary of a function
+# Example: Function
+# LaTeX Example: $\sin(x)$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-function-brief:
   - $1: "funzione"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
+# Summary of a limit function
+# Example: limit function
+# LaTeX Example: $\lim_{x\to \infty}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-lim:
   - $1: "funzione limite"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
+# Brief summary of limit function
+# Example: limit
+# LaTeX Example: $\lim_{x\to \infty}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-lim-brief:
   - $1: "limite"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
+# Summary of a fraction
+# Example: fraction
+# LaTeX Example: $\frac{a}{b}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-fraction:
   - $1: "frazione"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
+# Brief summary of a fraction
+# Example: frac
+# LaTeX Example: $\frac{a}{b}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-fraction-brief:
   - $1: "frazione"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
+# Summary of a continued fraction
+# Example: continued fraction
+# LaTeX Example: $\frac{a}{\ldots}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-continued-fraction:
   - $1: "frazione continua"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
+# Brief summary of a continued fraction
+# Example: continued frac
+# LaTeX Example: $\frac{a}{\ldots}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-continued-fraction-brief:
   - $1: "frazione continua"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
+# Summary of sqare root
+# Example: square root
+# LaTeX Example: $\sqrt{A}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-sqrt:
   - $1: "radice quadrata"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
+# Summary of a nested square root, irrespective of whether the inner roots are square roots or other indexed roots
+# Example: nested square root
+# LaTeX Example: $\sqrt{\sqrt[4]{A}}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-sqrt-nested:
   - $1: "radice quadrata doppia"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
-# %2: 
+# Indicates the end of the root index. This is important if summary is used in context, e.g. for an collapsed expression.
+# Example: root of index n plus 1 end index plus b
+# LaTeX Example: $\sqrt[n + 1]{a} + b$
+# %1: The index value.
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-root-end:
   - $1: "radice di indice"
   - %1
   - $2: "indice finale"
   - %2 (grammar:gender="f")
 
-# 
-# %1: 
-# %2: 
+# Summary of an indexed root
+# Example: root of index 4
+# LaTeX Example: $\sqrt[4]{A}$
+# %1: The index of the root (term on the tip of the radical sign)
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-root:
   - $1: "radice di indice"
   - %1
   - %2 (grammar:gender="f")
 
-# 
-# %1: 
+# Brief summary of an indexed root
+# Example: root
+# LaTeX Example: $\sqrt[4]{A}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-root-brief:
   - $1: "radice "
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
-# %2: 
+# Indicates the end of the indexed root index. This is important if summary is used in context, e.g. for an collapsed expression.
+# Example: nest root of index n plus 1 end index plus b
+# LaTeX Example: $\sqrt[n + 1]{\sqrt{a}} + b$
+# %1: The index of the root (term on the tip of the radical sign)
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-root-nested-end:
   - $1: "radicale doppio di indice"
   - %1
   - $2: "indice finale"
   - %2 (grammar:gender="m")
 
-# 
-# %1: 
-# %2: 
+# Summary of a nested root, irrespective of whether the inner roots are square roots or other indexed roots
+# Example: nested root of index 3
+# LaTeX Example: $\sqrt[3]{\sqrt[4]{A}}$
+# %1: The index of the root
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-root-nested:
   - $1: "radicale doppio di indice"
   - %1
   - %2 (grammar:gender="m")
 
-# 
-# %1: 
+# Brief summary of a nested root, irrespective of whether the inner roots are square roots or other indexed roots
+# Example: nested root
+# LaTeX Example: $\sqrt[3]{\sqrt[4]{A}}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-root-nested-brief:
   - $1: "radicale doppio"
   - %1 (grammar:gender="m")
 
-# 
-# %1: 
+# Summary of an exponential expression
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-superscript:
   - $1: "potenza"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
+# Summary of an indexed expression
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-subscript:
   - $1: "pedice"
   - %1 (grammar:gender="m")
 
-# 
-# %1: 
+# Summary of an exponential expression with index
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-subsup:
   - $1: "potenza con pedice"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Summary of an infix operation giving the number of terms
+# Example: division with two elements
+# LaTeX Example: $a/b$
+# %1: The kind of operation.
+# %2: The number of terms.
+# %3: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-infixop:
   - %1
   - $1: "con"
@@ -186,145 +226,184 @@ abstr-infixop:
   - $2: "elementi"
   - %3 (grammar:gender="m")
 
-# 
-# %1: 
-# %2: 
+# Summary of an infix operation containing ellipses (...)
+# Example: Subtraction with a variable number of elements
+# LaTeX Example: $a-\ldots- b$
+# %1: The kind of operation.
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-infixop-var:
   - %1
   - $1: "con numero variabile di elementi"
   - %2 (grammar:gender="m")
 
-# 
-# %1: 
-# %2: 
+# Brief summary of an infix operation, regardless of fixed or variable number of elements 
+# Example: Subtraction
+# %1: The kind of operation.
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-infixop-brief:
   - %1
   - %2 (grammar:gender="m")
 
-# 
-# %1: 
-# %2: 
+# Summary of an addition with a fixed number of terms.
+# Example: sum with three summands
+# LaTeX Example: $a + b + c$
+# %1: The number of summands
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-addition:
   - $1: "somma con"
   - %1
   - $2: "addendi"
   - %2 (grammar:gender="f")
 
-# 
-# %1: 
+# Brief summary of an addition, regardless of fixed or variable number of elements 
+# Example: sum
+# LaTeX Example: $a + b + c$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-addition-brief:
   - $1: "somma"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
+# Summary of an addition containing ellipses (...)
+# Example: sum with variable number of summands
+# LaTeX Example: $a + \ldots + c$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-addition-var:
   - $1: "somma con numero variabile di addendi"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
-# %2: 
+# Summary of a product with a fixed number of terms.
+# Example: product with three factors
+# LaTeX Example: $a * b * c$
+# %1: The number of factors
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-multiplication:
   - $1: "prodotto di"
   - %1
   - $2: "fattori"
   - %2 (grammar:gender="m")
 
-# 
-# %1: 
+# Brief summary of a product, regardless of fixed or variable number of elements 
+# Example: product
+# LaTeX Example: $a * b * c$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-multiplication-brief:
   - $1: "prodotto"
   - %1 (grammar:gender="m")
 
-# 
-# %1: 
+# Summary of a product containing ellipses (...)
+# Example: product with variable number of factors
+# LaTeX Example: $a * \ldots * c$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-multiplication-var:
   - $1: "prodotto con numero variabile di fattori"
   - %1 (grammar:gender="m")
 
-# 
-# %1: 
-# %2: 
+# Summary of a column vector
+# Example: three dimensional vector
+# LaTeX Example: $\begin{pmatrix} a \\ b \\ c \end{pmatrix}$
+# %1: Number of dimensions
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-vector:
   - %1
   - $1: "vettore dimensionale"
   - %2 (grammar:gender="m")
 
-# 
+# Brief summary of a column vector
+# Example: vector
+# LaTeX Example: $\begin{pmatrix} a \\ b \\ c \end{pmatrix}$
 abstr-vector-brief:
   - $1: "vettore"
 
-# 
-# %1: 
+# Summary of an abstract column vector
+# Example: n dimensional vector
+# LaTeX Example: $\begin{pmatrix} a \\ \vdots \\ c \end{pmatrix}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-vector-var:
   - $1: "vettore di dimensione n"
   - %1 (grammar:gender="m")
 
-# 
-# %1: 
+# Summary of binomial coefficient
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-binomial:
   - $1: "binomiale"
   - %1 (grammar:gender="m")
 
-# 
-# %1: 
-# %2: 
+# Summary of a determinant
+# Example: 2 dimensional determinant
+# LaTeX Example: $\begin{vmatrix} a & b \\ c & d \end{vmatrix}$
+# %1: The dimension of the determinant.
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-determinant:
   - %1
   - $1: "derminante dimensionale"
   - %2 (grammar:gender="m")
 
-# 
-# %1: 
+# Brief summary of a determinant
+# Example: determinant
+# LaTeX Example: $\begin{vmatrix} a & b \\ c & d \end{vmatrix}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-determinant-brief:
   - $1: "determinante"
   - %1 (grammar:gender="m")
 
-# 
-# %1: 
+# Summary of a determinant with elliptic elements ( ...). Has to be recognisably square and in bar fences.
+# Example: n dimensional determinant
+# LaTeX Example: $\begin{vmatrix} a & \cdots & b \\ & \ddots & \\ c & \cdots & d \end{vmatrix}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-determinant-var:
   - $1: "determinante di dimensione n"
   - %1 (grammar:gender="m")
 
-# 
-# %1: 
-# %2: 
+# Summary of a square matrix
+# Example: 2 dimensional square matrix
+# LaTeX Example: $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$
+# %1: The dimension of the square matrix.
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-squarematrix:
   - %1
   - $1: "matrice quadrata dimensionale"
   - %2 (grammar:gender="f")
 
-# 
-# %1: 
+# Brief summary of a square matrix
+# Example: square matrix
+# LaTeX Example: $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-squarematrix-brief:
   - $1: "matrice quadrata"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
-# %2: 
+# Summary of a row vector
+# Example: three dimensional row vector
+# LaTeX Example: $\begin{pmatrix} a & b & c \end{pmatrix}$
+# %1: Number of dimensions
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-rowvector:
   - %1
   - $1: "vettore riga dimensionale"
   - %2 (grammar:gender="m")
 
-# 
-# %1: 
+# Brief summary of a row vector
+# Example: row vector
+# LaTeX Example: $\begin{pmatrix} a & b & c \end{pmatrix}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-rowvector-brief:
   - $1: "vettore riga"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
+# Summary of an abstract row vector
+# Example: n dimensional row vector
+# LaTeX Example: $\begin{pmatrix} a & \vdots & c \end{pmatrix}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-rowvector-var:
   - $1: "vettore riga di dimensione n"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Summary of a non-square matrix
+# Example: 2 by 3 matrix
+# LaTeX Example: $\begin{bmatrix} a & b & c \\ d & e & f \end{bmatrix}$
+# %1: The row number
+# %2: The column number
+# %3: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-matrix:
   - %1
   - $1: "per"
@@ -332,21 +411,27 @@ abstr-matrix:
   - $2: "matrice"
   - %3 (grammar:gender="f")
 
-# 
-# %1: 
+# Brief summary of a non-square matrix
+# Example: matrix
+# LaTeX Example: $\begin{bmatrix} a & b & c \\ d & e & f \end{bmatrix}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-matrix-brief:
   - $1: "matrice"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
+# Summary of a matrix with elliptic elements ( ...).
+# Example: n by m dimensional matrix
+# LaTeX Example: $\begin{bmatrix} a & \cdots & b \\ & \ddots & \\ c & \cdots & d \end{bmatrix}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-matrix-var:
   - $1: "matrice dimensionale n pr m"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
-# %2: 
+# Summary of a case statement
+# Example: Case statement with 3 cases
+# LaTeX Example: $\begin{cases} a \\ b \\ c \end{cases}$
+# %1: Number of cases
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-cases:
   - $1: "comando switch"
   - $2: "con"
@@ -354,22 +439,28 @@ abstr-cases:
   - $3: "casi"
   - %2 (grammar:gender="m")
 
-# 
-# %1: 
+# Brief summary of a case statement
+# Example: Case statement
+# LaTeX Example: $\begin{cases} a \\ b \\ c \end{cases}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-cases-brief:
   - $1: "comando switch"
   - %1 (grammar:gender="m")
 
-# 
-# %1: 
+# Summary of a case statement with omitted cases indicated by ellipses (...)
+# Example: Case statement with variable number of cases
+# LaTeX Example: $\begin{cases} a \\ \vdots \\ c \end{cases}$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-cases-var:
   - $1: "comando di switch con numero variabile di casi"
   - %1 (grammar:gender="m")
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Summary of a list of elements separated by a punctuation like comma, semi-colon, etc.
+# Example: comma separated list of length 3
+# LaTeX Example: $a, b, c$
+# %1: The separating punctuation
+# %2: The number of separated elements
+# %3: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-punctuated:
   - %1
   - $1: "lista separata"
@@ -377,47 +468,59 @@ abstr-punctuated:
   - %2
   - %3 (grammar:gender="f")
 
-# 
-# %1: 
-# %2: 
+# Brief summary of a list of elements separated by a punctuation like comma, semi-colon, etc.
+# Example: comma separated list
+# LaTeX Example: $a, b, c$
+# %1: The separating punctuation
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-punctuated-brief:
   - %1
   - $1: "lista separata"
   - %2 (grammar:gender="f")
 
-# 
-# %1: 
-# %2: 
+# Summary of a list of elements separated by a punctuation that contains elliptic elements (...)
+# Example: comma separated list of variable length
+# LaTeX Example: $a, b, \ldots, c$
+# %1: The separating punctuation
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-punctuated-var:
   - %1
   - $1: "lista separata"
   - $2: "di lunghezza variabile"
   - %2 (grammar:gender="f")
 
-# 
-# %1: 
-# %2: 
+# Summary of a big operation, like a sum or a product
+# Example: sum (or sigma summation)
+# LaTeX Example: $\sum_{x=0}^\infty x$
+# %1: The big operator
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-bigop:
   - %1
   - %2 (grammar:gender="m")
 
-# 
-# %1: 
+# Summary of an integral
+# Example: integral
+# LaTeX Example: $\int_{x=0}^\infty x \dx$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-integral:
   - $1: "integrale"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
-# %2: 
+# Summary of a binary relation with two elements
+# Example: equality
+# LaTeX Example: $a = b$
+# %1: The separating relation symbol
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-relation:
   - %1
   - %2 (grammar:gender="m")
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Summary of a relation sequence with three or more elements
+# Example: equality sequence with 3 elements
+# LaTeX Example: $a = b = c$
+# %1: The separating relation symbol
+# %2: The number of elements in the sequence
+# %3: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-relation-seq:
   - %1
   - $1: "sequenza"
@@ -426,26 +529,32 @@ abstr-relation-seq:
   - $3: "elementi"
   - %3 (grammar:gender="f")
 
-# 
-# %1: 
-# %2: 
+# Brief summary of a relation sequence with three or more elements
+# Example: equality sequence
+# LaTeX Example: $a = b = c$
+# %1: The separating relation symbol
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-relation-seq-brief:
   - %1
   - $1: "sequenza"
   - %2 (grammar:gender="f")
 
-# 
-# %1: 
-# %2: 
+# Summary of a relation sequence with three or more elements containing at least one ellispis (...)
+# Example: equality sequence with variable number of elements elements
+# LaTeX Example: $a = \ldots = c$
+# %1: The separating relation symbol
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-relation-var:
   - %1
   - $1: "sequenza"
   - $2: "con numero variabile di elementi"
   - %2 (grammar:gender="f")
 
-# 
-# %1: 
-# %2: 
+# Summary of a relation sequence with different relations
+# Example: Relation sequence with 4 elements
+# LaTeX Example: $a < b = c > d$
+# %1: Number of elements in the relation sequence
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-multirel:
   - $1: "sequenza di relazione"
   - $2: "con"
@@ -453,22 +562,27 @@ abstr-multirel:
   - $3: "elementi"
   - %2 (grammar:gender="f")
 
-# 
-# %1: 
+# Brief summary of a relation sequence with different relations
+# Example: Relation sequence
+# LaTeX Example: $a < b = c > d$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-multirel-brief:
   - $1: "sequenza di relazione"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
+# Summary of a relation sequence with different relations containing at least one ellispis (...)
+# Example: Relation sequence with variable number of elements
+# LaTeX Example: $a > b_0 = \ldots = b_n > c$
+# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-multirel-var:
   - $1: "sequenza di relazione con numero variabile di elementi"
   - %1 (grammar:gender="f")
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Summary of a table
+# Example: table with 2 rows and 3 columns
+# %1: Number of lines/rows
+# %2: Number of columns
+# %3: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-table:
   - $1: "tavola con"
   - %1
@@ -477,19 +591,22 @@ abstr-table:
   - $3: "colonne"
   - %3 (grammar:gender="f")
 
-# 
-# %1: 
-# %2: 
+# Summary of a line (e.g. in a case statement)
+# Example: line in case statemnt
+# %1: The context of the line
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-line:
   - $1: "in"
   - %1
   - %2 (grammar:gender="m")
 
-# 
-# %1: 
-# %2: 
-# %3: 
-# %4: 
+# Summary of a matrix row
+# Example: 1st row in square matrix with two columns
+# LaTeX Example: $\begin{pmatrix}a&b\\c&d\end{pmatrix}$
+# %1: The context of the row (e.g., square matrix)
+# %2: The row counter
+# %3: The column counter
+# %4: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-row:
   - $1: "in"
   - %1
@@ -499,9 +616,11 @@ abstr-row:
   - $3: "colonne"
   - %4 (grammar:gender="f")
 
-# 
-# %1: 
-# %2: 
+# Summary of a matrix cell
+# Example: 1st column in square matrix
+# LaTeX Example: $\begin{pmatrix}a&b\\c&d\end{pmatrix}$
+# %1: The the context of the column (e.g., square matrix)
+# %2: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-cell:
   - $1: "in"
   - %1

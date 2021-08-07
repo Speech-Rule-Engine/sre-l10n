@@ -1,13 +1,15 @@
 # For details on the format see https:///speechruleengine.org/yaml.md
 
-# 
-# %1: 
+# Rule that fires if an expression is visually abstracted
+# Example: collapsed sum
+# %1: The abstracted element
 collapsed:
   - %1
 
-# 
-# %1: 
-# %2: 
+# Explicit speaking of font
+# Example: bold alpha
+# %1: The font
+# %2: The expression
 font:
   - %1
   - %2 (pause:short)
@@ -449,11 +451,13 @@ exponent-ordinalpower:
 exponent-ordinalpower-zero:
   - $1: "zero"
 
-# 
+# Squared if base is grammatically of masculine gender
+# Example: 1 quadrato
 squared-masculine:
   - $1: "quadrato"
 
-# 
+# Squared if base is grammatically of feminine gender
+# Example: a quadrata
 squared-feminine:
   - $1: "quadrata"
 
@@ -1355,16 +1359,19 @@ underscript-limits:
   - $1: "da"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Mixed numbers
+# Example: Two and one third
+# LaTeX Example: $2 \frac{1}{3}$
+# %1: The integer part
+# %2: The fraction part
 mixed-number:
   - %1
   - $1: "e"
   - %2
 
-# 
-# %1: 
+# A number that contains letters
+# Example: Number #A0FF
+# %1: The number
 number-with-chars:
   - $1: "numero"
   - %1
@@ -1491,21 +1498,21 @@ permute:
   - $2: "per"
   - %2
 
-# 
-# %1: 
+# A unit that is squared
+# %1: The unit
 unit-square:
   - %1
   - $1: "quadrato"
 
-# 
-# %1: 
+# A unit that is cubed
+# %1: The unit
 unit-cubic:
   - %1
   - $1: "cubico"
 
-# 
-# %1: 
-# %2: 
+# A fraction of units
+# %1: Unit in enumerator
+# %2: Unit in denominator
 unit-divide:
   - %1
   - $1: "al"

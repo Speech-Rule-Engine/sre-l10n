@@ -1193,7 +1193,7 @@
       "it": 1
     },
     "description": "Summary of a relation sequence with different relations containing at least one ellispis (...)",
-    "latex": "a > b_0 = \ldots = b_n > c",
+    "latex": "a > b_0 = \\ldots = b_n > c",
     "example": "Relation sequence with variable number of elements",
     "maximum": 1
   },

@@ -3584,6 +3584,7 @@
     },
     "description": "A character in fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.",
     "latex": "",
+    "example": "",
     "maximum": 1
   },
   "german-font-bold": {
@@ -3596,6 +3597,7 @@
     },
     "description": "A character in bold fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.",
     "latex": "",
+    "example": "",
     "maximum": 1
   },
   "set-member-member": {

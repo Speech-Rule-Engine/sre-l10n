@@ -1,96 +1,138 @@
 # For details on the format see https:///speechruleengine.org/yaml.md
 
-# 
+# The numerator of a fraction
+# Example: Numerator a
+# LaTeX Example: $\frac{a}{b}$
 numerator:
   - $1: "numérateur" (pause:200)
 
-# 
+# The denominator of a fraction
+# Example: Denominator b
+# LaTeX Example: $\frac{a}{b}$
 denominator:
   - $1: "dénominateur" (pause:200)
 
-# 
+# The base of an exponentiation or indexed expression
+# Example: Base a
+# LaTeX Example: $a^b$
 base:
   - $1: "base" (pause:200)
 
-# 
+# The exponent in an exponentiation
+# Example: Exponent b
+# LaTeX Example: $a^b$
 exponent:
   - $1: "exposant" (pause:200)
 
-# 
+# Subscript or index
+# Example: Subscript i
+# LaTeX Example: $a_i$
 subscript:
   - $1: "indice" (pause:200)
 
-# 
+# The overscript above an operator or expression
+# Example: Overscript infinity
+# LaTeX Example: $\sum_{n=0}^{\infty}$
 overscript:
   - $1: "indice suscrit" (pause:200)
 
-# 
+# The underscript under an operator or expression
+# Example: Underscript n equals zero
+# LaTeX Example: $\sum_{n=0}^{\infty}$
 underscript:
   - $1: "indice souscrit" (pause:200)
 
-# 
+# The content of a root or square root
+# Example: Radicand A
+# LaTeX Example: $\sqrt{A}$
 radicand:
   - $1: "radicande" (pause:200)
 
-# 
+# The index of a root
+# Example: Index 4
+# LaTeX Example: $\sqrt[4]{a}$
 index:
   - $1: "indice" (pause:200)
 
-# 
+# Left subscript or index of a tensor-like structure
+# Example: Left subscript a
+# LaTeX Example: $\tensor{M}{^a_b^c_d}$
 leftsub:
   - $1: "indice inférieur gauche" (pause:200)
 
-# 
-# %1: 
+# Counted left subscript or index of a tensor-like structure
+# Example: 2nd left subscript e
+# LaTeX Example: $\tensor{M}{^{ae}_b^c_d}$
+# %1: The index counter
 leftsub-counted:
   - %1 (grammar:gender="m")
   - $1: "indice inférieur gauche" (pause:200)
 
-# 
+# Left superscript or index of a tensor-like structure
+# Example: Left superscript b
+# LaTeX Example: $\tensor{M}{^a_b^c_d}$
 leftsuper:
   - $1: "indice supérieur gauche" (pause:200)
 
-# 
-# %1: 
+# Counted left superscript or index of a tensor-like structure
+# Example: 2nd left superscript e
+# LaTeX Example: $\tensor{M}{^a_{be}^c_d}$
+# %1: The index counter
 leftsuper-counted:
   - %1 (grammar:gender="m")
   - $1: "indice supérieur gauche" (pause:200)
 
-# 
+# Right subscript or index of a tensor-like structure
+# Example: Right subscript c
+# LaTeX Example: $\tensor{M}{^a_b^c_d}$
 rightsub:
   - $1: "indice inférieur droite" (pause:200)
 
-# 
-# %1: 
+# Counted right subscript or index of a tensor-like structure
+# Example: 2nd right subscript e
+# LaTeX Example: $\tensor{M}{^a_b^c_{de}}$
+# %1: The index counter
 rightsub-counted:
   - %1 (grammar:gender="m")
   - $1: "indice inférieur droite" (pause:200)
 
-# 
+# Right superscript or exponent of a tensor-like structure
+# Example: Right superscript d
+# LaTeX Example: $\tensor{M}{^a_b^c_d}$
 rightsuper:
   - $1: "indice supérieur droite" (pause:200)
 
-# 
-# %1: 
+# Counted right superscript or exponent of a tensor-like structure
+# Example: 2nd right superscript e
+# LaTeX Example: $\tensor{M}{^a_b^{ce}_d}$
+# %1: The index counter
 rightsuper-counted:
   - %1 (grammar:gender="m")
   - $1: "indice supérieur droite" (pause:200)
 
-# 
+# The choice quantity in a binomial coefficient. I.e., the n in 'n choose k'
+# Example: Choice quantity n
+# LaTeX Example: $(n \\ k)$
 choice:
   - $1: "nombre d'éléments disponibles" (pause:200)
 
-# 
+# The selection quantity in a binomial coefficient. I.e., the k in 'n choose k'
+# Example: Selection quantity k
+# LaTeX Example: $\begin{pmatrix}n \\k \end{pmatrix}$
 select:
   - $1: "nombre d'éléments choisis" (pause:200)
 
-# 
-# %1: 
+# A row in a multiline equation, case statement or matrix
+# Example: 1st Row ...
+# LaTeX Example: $\begin{pmatrix}a & b \\c & d\end{pmatrix}$
+# %1: The row counter
 row:
   - %1 (grammar:gender="f")
   - $1: "rangée" (pause:200)
 
-# 
+# A cell of a matrix or layout expression in full context (i.e., with row number)
+# Example: 2nd Row 1st Column c
+# LaTeX Example: $\begin{pmatrix}a & b \\c & d\end{pmatrix}$
 # %1: 
 # %2: 
 cell:
@@ -98,7 +140,9 @@ cell:
   - %2 (grammar:gender="f")
   - $1: "colonne" (pause:200)
 
-# 
+# A cell of a matrix or layout expression in its row context only
+# Example: 1st Column c
+# LaTeX Example: $\begin{pmatrix}a & b \\c & d\end{pmatrix}$
 # %1: 
 cell-simple:
   - %1 (grammar:gender="f")

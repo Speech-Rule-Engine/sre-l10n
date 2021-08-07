@@ -708,13 +708,13 @@ cancel-reverse:
   - %2
   - $3: "fin biffé"
 
-# A unit in plural
+# A unit that is squared
 # %1: The unit
 unit-square:
   - %1
   - $1: "carré"
 
-# 
+# A unit that is cubed
 # %1: The unit
 unit-cubic:
   - %1

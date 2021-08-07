@@ -1,298 +1,401 @@
 # For details on the format see https:///speechruleengine.org/yaml.md
 
-# A long collapsed identifier.
+# Summary for a long identifier. Used when the expression is visually abstracted.
 # LaTeX Example: $\mathit{abcdefg}$
 abstr-identifier-long:
   - $1: "दीर्घ तत्समक"
 
-# 
+# Summary for an identifier
+# LaTeX Example: $x$
 abstr-identifier:
   - $1: "तत्समक"
 
-# 
+# Summary of a long number. Used when the expression is visually abstracted.
+# LaTeX Example: $123456$
 abstr-number-long:
   - $1: "दीर्घ संख्या"
 
-# 
+# Summary of a number
+# LaTeX Example: $12$
 abstr-number:
   - $1: "संख्या"
 
-# 
+# Summary of a long mixed number. Used when the expression is visually abstracted.
+# LaTeX Example: $120\frac{20}{101}$
 abstr-mixed-number-long:
   - $1: "दीर्घ मिश्र संख्या"
 
-# 
+# Summary of a mixed number
+# LaTeX Example: $1\frac{2}{3}$
 abstr-mixed-number:
   - $1: "मिश्र संख्या"
 
-# 
+# Summary of an interspersed text element
+# LaTeX Example: $x_0 + x_1 \mtext{and so on} = y$
 abstr-text:
   - $1: "पाठ"
 
-# 
+# Summary of a function
+# Example: Functional expression
+# LaTeX Example: $\sin(x)$
 abstr-function:
   - $1: "फलन व्यंजक"
 
-# 
+# Brief summary of a function
+# Example: Function
+# LaTeX Example: $\sin(x)$
 abstr-function-brief:
   - $1: "फलन"
 
-# 
+# Summary of a limit function
+# Example: limit function
+# LaTeX Example: $\lim_{x\to \infty}$
 abstr-lim:
   - $1: "फलन सीमा"
 
-# 
+# Brief summary of limit function
+# Example: limit
+# LaTeX Example: $\lim_{x\to \infty}$
 abstr-lim-brief:
   - $1: "सीमा"
 
-# 
+# Summary of a fraction
+# Example: fraction
+# LaTeX Example: $\frac{a}{b}$
 abstr-fraction:
   - $1: "भिन्न"
 
-# 
+# Brief summary of a fraction
+# Example: frac
+# LaTeX Example: $\frac{a}{b}$
 abstr-fraction-brief:
   - $1: "अपूर्णांश"
 
-# 
+# Summary of a continued fraction
+# Example: continued fraction
+# LaTeX Example: $\frac{a}{\ldots}$
 abstr-continued-fraction:
   - $1: "सतत भिन्न"
 
-# 
+# Brief summary of a continued fraction
+# Example: continued frac
+# LaTeX Example: $\frac{a}{\ldots}$
 abstr-continued-fraction-brief:
   - $1: "सतत अपूर्णांश"
 
-# 
+# Summary of sqare root
+# Example: square root
+# LaTeX Example: $\sqrt{A}$
 abstr-sqrt:
   - $1: "वर्ग मूल"
 
-# 
+# Summary of a nested square root, irrespective of whether the inner roots are square roots or other indexed roots
+# Example: nested square root
+# LaTeX Example: $\sqrt{\sqrt[4]{A}}$
 abstr-sqrt-nested:
   - $1: "नीड़ित वर्ग मूल"
 
-# 
-# %1: 
+# Indicates the end of the root index. This is important if summary is used in context, e.g. for an collapsed expression.
+# Example: root of index n plus 1 end index plus b
+# LaTeX Example: $\sqrt[n + 1]{a} + b$
+# %1: The index value.
 abstr-root-end:
   - $1: "वां मूल"
   - %1
   - $2: "मूलांक समाप्त"
 
-# 
-# %1: 
+# Summary of an indexed root
+# Example: root of index 4
+# LaTeX Example: $\sqrt[4]{A}$
+# %1: The index of the root (term on the tip of the radical sign)
 abstr-root:
   - %1
   - $1: "वां मूल"
 
-# 
+# Brief summary of an indexed root
+# Example: root
+# LaTeX Example: $\sqrt[4]{A}$
 abstr-root-brief:
   - $1: "मूल"
 
-# 
-# %1: 
+# Indicates the end of the indexed root index. This is important if summary is used in context, e.g. for an collapsed expression.
+# Example: nest root of index n plus 1 end index plus b
+# LaTeX Example: $\sqrt[n + 1]{\sqrt{a}} + b$
+# %1: The index of the root (term on the tip of the radical sign)
 abstr-root-nested-end:
   - $1: "नीड़ित मूल्यांक"
   - %1
   - $2: "मूलांक समाप्त"
 
-# 
-# %1: 
+# Summary of a nested root, irrespective of whether the inner roots are square roots or other indexed roots
+# Example: nested root of index 3
+# LaTeX Example: $\sqrt[3]{\sqrt[4]{A}}$
+# %1: The index of the root
 abstr-root-nested:
   - $1: "नीड़ित मूल्यांक"
   - %1
 
-# 
+# Brief summary of a nested root, irrespective of whether the inner roots are square roots or other indexed roots
+# Example: nested root
+# LaTeX Example: $\sqrt[3]{\sqrt[4]{A}}$
 abstr-root-nested-brief:
   - $1: "नीड़ित मूल"
 
-# 
+# Summary of an exponential expression
 abstr-superscript:
   - $1: "घातांक"
 
-# 
+# Summary of an indexed expression
 abstr-subscript:
   - $1: "पादांक"
 
-# 
+# Summary of an exponential expression with index
 abstr-subsup:
   - $1: "पादांक वाला घातांक"
 
-# 
-# %1: 
-# %2: 
+# Summary of an infix operation giving the number of terms
+# Example: division with two elements
+# LaTeX Example: $a/b$
+# %1: The kind of operation.
+# %2: The number of terms.
 abstr-infixop:
   - %1
   - $1: "अवयव"
   - $2: "के साथ"
   - %2
 
-# 
-# %1: 
+# Summary of an infix operation containing ellipses (...)
+# Example: Subtraction with a variable number of elements
+# LaTeX Example: $a-\ldots- b$
+# %1: The kind of operation.
 abstr-infixop-var:
   - $1: "चल तादात के अवयवों के साथ"
   - %1
 
-# 
-# %1: 
+# Brief summary of an infix operation, regardless of fixed or variable number of elements 
+# Example: Subtraction
+# %1: The kind of operation.
 abstr-infixop-brief:
   - %1
 
-# 
-# %1: 
+# Summary of an addition with a fixed number of terms.
+# Example: sum with three summands
+# LaTeX Example: $a + b + c$
+# %1: The number of summands
 abstr-addition:
   - %1
   - $1: "पद"
   - $2: "के साथ योग"
 
-# 
+# Brief summary of an addition, regardless of fixed or variable number of elements 
+# Example: sum
+# LaTeX Example: $a + b + c$
 abstr-addition-brief:
   - $1: "योग"
 
-# 
+# Summary of an addition containing ellipses (...)
+# Example: sum with variable number of summands
+# LaTeX Example: $a + \ldots + c$
 abstr-addition-var:
   - $1: "चल तादात के पदों का योग"
 
-# 
-# %1: 
+# Summary of a product with a fixed number of terms.
+# Example: product with three factors
+# LaTeX Example: $a * b * c$
+# %1: The number of factors
 abstr-multiplication:
   - %1
   - $1: "गुणनखंड"
   - $2: "के साथ गुणनफल"
 
-# 
+# Brief summary of a product, regardless of fixed or variable number of elements 
+# Example: product
+# LaTeX Example: $a * b * c$
 abstr-multiplication-brief:
   - $1: "गुणनफल"
 
-# 
+# Summary of a product containing ellipses (...)
+# Example: product with variable number of factors
+# LaTeX Example: $a * \ldots * c$
 abstr-multiplication-var:
   - $1: "चल तादात के गुणनखंडो का गुणनफल"
 
-# 
-# %1: 
+# Summary of a column vector
+# Example: three dimensional vector
+# LaTeX Example: $\begin{pmatrix} a \\ b \\ c \end{pmatrix}$
+# %1: Number of dimensions
 abstr-vector:
   - %1
   - $1: "विमीय सदिश"
 
-# 
+# Brief summary of a column vector
+# Example: vector
+# LaTeX Example: $\begin{pmatrix} a \\ b \\ c \end{pmatrix}$
 abstr-vector-brief:
   - $1: "सदिश"
 
-# 
+# Summary of an abstract column vector
+# Example: n dimensional vector
+# LaTeX Example: $\begin{pmatrix} a \\ \vdots \\ c \end{pmatrix}$
 abstr-vector-var:
   - $1: "एन विमीय सदिश"
 
-# 
+# Summary of binomial coefficient
 abstr-binomial:
   - $1: "द्विपद"
 
-# 
-# %1: 
+# Summary of a determinant
+# Example: 2 dimensional determinant
+# LaTeX Example: $\begin{vmatrix} a & b \\ c & d \end{vmatrix}$
+# %1: The dimension of the determinant.
 abstr-determinant:
   - %1
   - $1: "विमीय सारणिक"
 
-# 
+# Brief summary of a determinant
+# Example: determinant
+# LaTeX Example: $\begin{vmatrix} a & b \\ c & d \end{vmatrix}$
 abstr-determinant-brief:
   - $1: "सारणिक"
 
-# 
+# Summary of a determinant with elliptic elements ( ...). Has to be recognisably square and in bar fences.
+# Example: n dimensional determinant
+# LaTeX Example: $\begin{vmatrix} a & \cdots & b \\ & \ddots & \\ c & \cdots & d \end{vmatrix}$
 abstr-determinant-var:
   - $1: "एन विमीय सारणिक"
 
-# 
-# %1: 
+# Summary of a square matrix
+# Example: 2 dimensional square matrix
+# LaTeX Example: $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$
+# %1: The dimension of the square matrix.
 abstr-squarematrix:
   - %1
   - $1: "विमीय वर्ग आव्यूह"
 
-# 
+# Brief summary of a square matrix
+# Example: square matrix
+# LaTeX Example: $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$
 abstr-squarematrix-brief:
   - $1: "वर्ग आव्यूह"
 
-# 
-# %1: 
+# Summary of a row vector
+# Example: three dimensional row vector
+# LaTeX Example: $\begin{pmatrix} a & b & c \end{pmatrix}$
+# %1: Number of dimensions
 abstr-rowvector:
   - %1
   - $1: "विमीय पंक्ति सदिश"
 
-# 
+# Brief summary of a row vector
+# Example: row vector
+# LaTeX Example: $\begin{pmatrix} a & b & c \end{pmatrix}$
 abstr-rowvector-brief:
   - $1: "पंक्ति सदिश"
 
-# 
+# Summary of an abstract row vector
+# Example: n dimensional row vector
+# LaTeX Example: $\begin{pmatrix} a & \vdots & c \end{pmatrix}$
 abstr-rowvector-var:
   - $1: "एन विमीय पंक्ति सदिश"
 
-# 
-# %1: 
-# %2: 
+# Summary of a non-square matrix
+# Example: 2 by 3 matrix
+# LaTeX Example: $\begin{bmatrix} a & b & c \\ d & e & f \end{bmatrix}$
+# %1: The row number
+# %2: The column number
 abstr-matrix:
   - %1
   - $1: "गुणा"
   - %2
   - $2: "आव्यूह"
 
-# 
+# Brief summary of a non-square matrix
+# Example: matrix
+# LaTeX Example: $\begin{bmatrix} a & b & c \\ d & e & f \end{bmatrix}$
 abstr-matrix-brief:
   - $1: "आव्यूह"
 
-# 
+# Summary of a matrix with elliptic elements ( ...).
+# Example: n by m dimensional matrix
+# LaTeX Example: $\begin{bmatrix} a & \cdots & b \\ & \ddots & \\ c & \cdots & d \end{bmatrix}$
 abstr-matrix-var:
   - $1: "एन गुणा एम आव्यूह"
 
-# 
-# %1: 
+# Summary of a case statement
+# Example: Case statement with 3 cases
+# LaTeX Example: $\begin{cases} a \\ b \\ c \end{cases}$
+# %1: Number of cases
 abstr-cases:
   - %1
   - $1: "फलन उपशर्त"
   - $2: "के साथ"
   - $3: "फलन उपशर्त कथन"
 
-# 
+# Brief summary of a case statement
+# Example: Case statement
+# LaTeX Example: $\begin{cases} a \\ b \\ c \end{cases}$
 abstr-cases-brief:
   - $1: "फलन उपशर्त कथन"
 
-# 
+# Summary of a case statement with omitted cases indicated by ellipses (...)
+# Example: Case statement with variable number of cases
+# LaTeX Example: $\begin{cases} a \\ \vdots \\ c \end{cases}$
 abstr-cases-var:
   - $1: "चल तादात की फलन उपशर्तों वाला फलन उपशर्त कथन"
 
-# 
-# %1: 
-# %2: 
+# Summary of a list of elements separated by a punctuation like comma, semi-colon, etc.
+# Example: comma separated list of length 3
+# LaTeX Example: $a, b, c$
+# %1: The separating punctuation
+# %2: The number of separated elements
 abstr-punctuated:
   - %1
   - $1: "लम्बाई की"
   - %2
   - $2: "विभाजित सूचि"
 
-# 
-# %1: 
+# Brief summary of a list of elements separated by a punctuation like comma, semi-colon, etc.
+# Example: comma separated list
+# LaTeX Example: $a, b, c$
+# %1: The separating punctuation
 abstr-punctuated-brief:
   - %1
   - $1: "विभाजित सूचि"
 
-# 
-# %1: 
+# Summary of a list of elements separated by a punctuation that contains elliptic elements (...)
+# Example: comma separated list of variable length
+# LaTeX Example: $a, b, \ldots, c$
+# %1: The separating punctuation
 abstr-punctuated-var:
   - $1: "चल लम्बाई की"
   - %1
   - $2: "विभाजित सूचि"
 
-# 
-# %1: 
+# Summary of a big operation, like a sum or a product
+# Example: sum (or sigma summation)
+# LaTeX Example: $\sum_{x=0}^\infty x$
+# %1: The big operator
 abstr-bigop:
   - %1
 
-# 
+# Summary of an integral
+# Example: integral
+# LaTeX Example: $\int_{x=0}^\infty x \dx$
 abstr-integral:
   - $1: "समाकल"
 
-# 
-# %1: 
+# Summary of a binary relation with two elements
+# Example: equality
+# LaTeX Example: $a = b$
+# %1: The separating relation symbol
 abstr-relation:
   - %1
 
-# 
-# %1: 
-# %2: 
+# Summary of a relation sequence with three or more elements
+# Example: equality sequence with 3 elements
+# LaTeX Example: $a = b = c$
+# %1: The separating relation symbol
+# %2: The number of elements in the sequence
 abstr-relation-seq:
   - %1
   - $1: "अवयव"
@@ -300,38 +403,49 @@ abstr-relation-seq:
   - %2
   - $3: "अनुक्रम"
 
-# 
-# %1: 
+# Brief summary of a relation sequence with three or more elements
+# Example: equality sequence
+# LaTeX Example: $a = b = c$
+# %1: The separating relation symbol
 abstr-relation-seq-brief:
   - %1
   - $1: "अनुक्रम"
 
-# 
-# %1: 
+# Summary of a relation sequence with three or more elements containing at least one ellispis (...)
+# Example: equality sequence with variable number of elements elements
+# LaTeX Example: $a = \ldots = c$
+# %1: The separating relation symbol
 abstr-relation-var:
   - $1: "चल तादात के अवयवों के साथ"
   - %1
   - $2: "अनुक्रम"
 
-# 
-# %1: 
+# Summary of a relation sequence with different relations
+# Example: Relation sequence with 4 elements
+# LaTeX Example: $a < b = c > d$
+# %1: Number of elements in the relation sequence
 abstr-multirel:
   - %1
   - $1: "अवयव"
   - $2: "के साथ"
   - $3: "संबंधानुक्रम"
 
-# 
+# Brief summary of a relation sequence with different relations
+# Example: Relation sequence
+# LaTeX Example: $a < b = c > d$
 abstr-multirel-brief:
   - $1: "संबंधानुक्रम"
 
-# 
+# Summary of a relation sequence with different relations containing at least one ellispis (...)
+# Example: Relation sequence with variable number of elements
+# LaTeX Example: $a > b_0 = \ldots = b_n > c$
 abstr-multirel-var:
   - $1: "चल तादात के अवयवों का संबंधानुक्रम"
 
-# 
-# %1: 
-# %2: 
+# Summary of a table
+# Example: table with 2 rows and 3 columns
+# %1: Number of lines/rows
+# %2: Number of columns
 abstr-table:
   - %1
   - $1: "पक्तियां और"
@@ -339,16 +453,19 @@ abstr-table:
   - $2: "स्तंभ"
   - $3: "के साथ सारणी"
 
-# 
-# %1: 
+# Summary of a line (e.g. in a case statement)
+# Example: line in case statemnt
+# %1: The context of the line
 abstr-line:
   - %1
   - $1: "में"
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Summary of a matrix row
+# Example: 1st row in square matrix with two columns
+# LaTeX Example: $\begin{pmatrix}a&b\\c&d\end{pmatrix}$
+# %1: The context of the row (e.g., square matrix)
+# %2: The row counter
+# %3: The column counter
 abstr-row:
   - $1: "में"
   - %1
@@ -357,8 +474,10 @@ abstr-row:
   - %3
   - $3: "स्तंभ"
 
-# 
-# %1: 
+# Summary of a matrix cell
+# Example: 1st column in square matrix
+# LaTeX Example: $\begin{pmatrix}a&b\\c&d\end{pmatrix}$
+# %1: The the context of the column (e.g., square matrix)
 abstr-cell:
   - %1
   - $1: "में"

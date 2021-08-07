@@ -1,14 +1,16 @@
 # For details on the format see https:///speechruleengine.org/yaml.md
 
-# 
-# %1: 
+# Rule that fires if an expression is visually abstracted
+# Example: collapsed sum
+# %1: The abstracted element
 collapsed:
   - $1: "संकुचित"
   - %1
 
-# 
-# %1: 
-# %2: 
+# Explicit speaking of font
+# Example: bold alpha
+# %1: The font
+# %2: The expression
 font:
   - %1
   - %2 (pause:short)
@@ -1363,16 +1365,19 @@ underscript-limits:
   - $1: "से"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Mixed numbers
+# Example: Two and one third
+# LaTeX Example: $2 \frac{1}{3}$
+# %1: The integer part
+# %2: The fraction part
 mixed-number:
   - %1
   - $1: "पूर्णांक"
   - %2
 
-# 
-# %1: 
+# A number that contains letters
+# Example: Number #A0FF
+# %1: The number
 number-with-chars:
   - $1: "संख्या"
   - %1
@@ -1512,20 +1517,20 @@ permute:
   - $1: "क्रमचय"
   - %2
 
-# 
-# %1: 
+# A unit that is squared
+# %1: The unit
 unit-square:
   - $1: "वर्ग"
   - %1
 
-# 
-# %1: 
+# A unit that is cubed
+# %1: The unit
 unit-cubic:
   - $1: "घन"
   - %1
 
-# 
-# %1: 
+# A unit to the power of negative one
+# %1: The unit
 unit-reciprocal:
   - $1: "व्युत्क्रम"
   - %1
@@ -1536,9 +1541,9 @@ unit-reciprocal-singular:
   - $1: "प्रति"
   - %1 (grammar:singular)
 
-# 
-# %1: 
-# %2: 
+# A fraction of units
+# %1: Unit in enumerator
+# %2: Unit in denominator
 unit-divide:
   - %1
   - $1: "प्रति"

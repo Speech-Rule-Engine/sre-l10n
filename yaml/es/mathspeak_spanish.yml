@@ -773,19 +773,19 @@ unit-singular:
 unit-plural:
   - %1 (grammar:plural)
 
-# A unit in plural
+# A unit that is squared
 # %1: The unit
 unit-square:
   - %1
   - $1: "cuadrado"
 
-# 
+# A unit that is cubed
 # %1: The unit
 unit-cubic:
   - %1
   - $1: "cúbico"
 
-# 
+# A unit to the power of negative one
 # %1: The unit
 reciprocal:
   - $1: "recíproco"
@@ -797,8 +797,8 @@ per:
   - $1: "por"
   - %1
 
-# 
-# %1: 
+# Combines multiple units
+# %1: The list of unit expressions
 unit-combine:
   - %1
 
@@ -832,9 +832,9 @@ unit-combine-singular-final:
   - %1
   - %2 (grammar:singular)
 
-# 
-# %1: 
-# %2: 
+# A fraction of units
+# %1: Unit in enumerator
+# %2: Unit in denominator
 unit-divide:
   - %1
   - $1: "por"
