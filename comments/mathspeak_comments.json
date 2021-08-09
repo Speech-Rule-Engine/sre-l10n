@@ -591,130 +591,6 @@
     "example": "",
     "maximum": 2
   },
-  "limboth": {
-    "rule": "limboth",
-    "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": "",
-      "%4": "",
-      "%5": ""
-    },
-    "locales": {
-      "de": 5,
-      "en": 5,
-      "es": 5,
-      "fr": 5,
-      "hi": 5,
-      "it": 5
-    },
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 5
-  },
-  "limlower": {
-    "rule": "limlower",
-    "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
-    },
-    "locales": {
-      "de": 3,
-      "en": 3,
-      "es": 3,
-      "fr": 3,
-      "hi": 3,
-      "it": 3
-    },
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 3
-  },
-  "limupper": {
-    "rule": "limupper",
-    "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
-    },
-    "locales": {
-      "de": 3,
-      "en": 3,
-      "es": 3,
-      "fr": 3,
-      "hi": 3,
-      "it": 3
-    },
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 3
-  },
-  "limboth-end": {
-    "rule": "limboth-end",
-    "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": "",
-      "%4": "",
-      "%5": ""
-    },
-    "locales": {
-      "de": 5,
-      "en": 5,
-      "es": 5,
-      "fr": 5,
-      "hi": 5,
-      "it": 5
-    },
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 5
-  },
-  "limlower-end": {
-    "rule": "limlower-end",
-    "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
-    },
-    "locales": {
-      "de": 3,
-      "en": 3,
-      "es": 3,
-      "fr": 3,
-      "hi": 3,
-      "it": 3
-    },
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 3
-  },
-  "limupper-end": {
-    "rule": "limupper-end",
-    "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
-    },
-    "locales": {
-      "de": 3,
-      "en": 3,
-      "es": 3,
-      "fr": 3,
-      "hi": 3,
-      "it": 3
-    },
-    "description": "",
-    "latex": "",
-    "example": "",
-    "maximum": 3
-  },
   "integral": {
     "rule": "integral",
     "parameters": {
@@ -1653,9 +1529,9 @@
   "multi-inference": {
     "rule": "multi-inference",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The name of the inference rule",
+      "%2": "The conclusion",
+      "%3": "The premises"
     },
     "locales": {
       "de": 3,
@@ -1663,7 +1539,7 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
+    "description": "An inference rule with two or more premises",
     "latex": "",
     "example": "",
     "maximum": 3
@@ -1671,9 +1547,9 @@
   "inference": {
     "rule": "inference",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The name of the inference rule",
+      "%2": "The conclusion",
+      "%3": "The premise"
     },
     "locales": {
       "de": 3,
@@ -1681,7 +1557,7 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
+    "description": "An inference rule with one premise",
     "latex": "",
     "example": "",
     "maximum": 3
@@ -1689,7 +1565,7 @@
   "premise": {
     "rule": "premise",
     "parameters": {
-      "%1": ""
+      "%1": "The formula of the premise"
     },
     "locales": {
       "de": 1,
@@ -1697,7 +1573,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "A premise of an inference rule",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -1705,7 +1581,7 @@
   "conclusion": {
     "rule": "conclusion",
     "parameters": {
-      "%1": ""
+      "%1": "The formula of the conclusion"
     },
     "locales": {
       "de": 1,
@@ -1713,7 +1589,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "A conclusion of an inference rule",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -1721,7 +1597,7 @@
   "label": {
     "rule": "label",
     "parameters": {
-      "%1": ""
+      "%1": "The label"
     },
     "locales": {
       "de": 1,
@@ -1729,7 +1605,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "The label or name of an inference rule",
     "latex": "",
     "example": "",
     "maximum": 1
@@ -1737,7 +1613,7 @@
   "axiom": {
     "rule": "axiom",
     "parameters": {
-      "%1": ""
+      "%1": "The conclusions"
     },
     "locales": {
       "de": 1,
@@ -1745,7 +1621,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "An axiom, that is ",
     "latex": "",
     "example": "",
     "maximum": 1
