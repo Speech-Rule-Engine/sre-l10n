@@ -135,43 +135,6 @@
     "$2: \"fratto\"",
     "%2"
   ],
-  "limboth": [
-    "%1",
-    "%2",
-    "%3",
-    "%4",
-    "%5"
-  ],
-  "limlower": [
-    "%1",
-    "%2",
-    "%3"
-  ],
-  "limupper": [
-    "%1",
-    "%2",
-    "%3"
-  ],
-  "limboth-end": [
-    "%1",
-    "%2",
-    "%3",
-    "%4",
-    "%5",
-    "$1: \"fine script\""
-  ],
-  "limlower-end": [
-    "%1",
-    "%2",
-    "%3",
-    "$1: \"fine script\""
-  ],
-  "limupper-end": [
-    "%1",
-    "%2",
-    "%3",
-    "$1: \"fine script\""
-  ],
   "integral": [
     "%1",
     "$1: \"pedice\"",
@@ -211,22 +174,13 @@
     "%1",
     "%2"
   ],
-  "double-prime": [
-    "$1: \"doppio primo\""
-  ],
-  "triple-prime": [
-    "$1: \"triplo primo\""
-  ],
-  "quadruple-prime": [
-    "$1: \"quattro volte primo\""
-  ],
   "counted-prime": [
     "%1",
-    "$1: \"primo\""
+    "$1: \"volte primo\""
   ],
   "counted-prime-multichar": [
     "%1",
-    "$1: \"primo\""
+    "$1: \"volte primo\""
   ],
   "overscore": [
     "$1: \"modificante sopra\"",

@@ -136,43 +136,6 @@
     "$2: \"entre\"",
     "%2"
   ],
-  "limboth": [
-    "%1",
-    "%2",
-    "%3",
-    "%4",
-    "%5"
-  ],
-  "limlower": [
-    "%1",
-    "%2",
-    "%3"
-  ],
-  "limupper": [
-    "%1",
-    "%2",
-    "%3"
-  ],
-  "limboth-end": [
-    "%1",
-    "%2",
-    "%3",
-    "%4",
-    "%5",
-    "$1: \"finalizar índices\""
-  ],
-  "limlower-end": [
-    "%1",
-    "%2",
-    "%3",
-    "$1: \"finalizar índices\""
-  ],
-  "limupper-end": [
-    "%1",
-    "%2",
-    "%3",
-    "$1: \"finalizar índices\""
-  ],
   "integral": [
     "%1",
     "$1: \"definida\"",
@@ -201,15 +164,6 @@
   "prime": [
     "%1",
     "%2"
-  ],
-  "double-prime": [
-    "$1: \"dos prima\""
-  ],
-  "triple-prime": [
-    "$1: \"tres prima\""
-  ],
-  "quadruple-prime": [
-    "$1: \"cuatro prima\""
   ],
   "counted-prime": [
     "%1",

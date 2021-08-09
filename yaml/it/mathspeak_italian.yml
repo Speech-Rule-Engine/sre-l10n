@@ -239,71 +239,6 @@ continued-fraction-inner-sbrief:
   - $2: "fratto"
   - %2
 
-# 
-# %1: 
-# %2: 
-# %3: 
-# %4: 
-# %5: 
-limboth:
-  - %1
-  - %2
-  - %3
-  - %4
-  - %5
-
-# 
-# %1: 
-# %2: 
-# %3: 
-limlower:
-  - %1
-  - %2
-  - %3
-
-# 
-# %1: 
-# %2: 
-# %3: 
-limupper:
-  - %1
-  - %2
-  - %3
-
-# 
-# %1: 
-# %2: 
-# %3: 
-# %4: 
-# %5: 
-limboth-end:
-  - %1
-  - %2
-  - %3
-  - %4
-  - %5
-  - $1: "fine script"
-
-# 
-# %1: 
-# %2: 
-# %3: 
-limlower-end:
-  - %1
-  - %2
-  - %3
-  - $1: "fine script"
-
-# 
-# %1: 
-# %2: 
-# %3: 
-limupper-end:
-  - %1
-  - %2
-  - %3
-  - $1: "fine script"
-
 # An integral with boundaries
 # Example: integral Subscript 1 Superscript x Baseline
 # %1: The integral
@@ -369,40 +304,26 @@ cube:
 # Example: x prime
 # LaTeX Example: $x'$
 # %1: The base element
-# %2: The prime operator. As there are multiple prime operators they are handled seperately.
+# %2: The prime operator. As there are multiple prime operators (from single to quadruple) they are pronounciation is handled seperately.
 prime:
   - %1
   - %2
 
-# A double prime. This is only pronounciation of the actual double prime
-# Example: double prime
-double-prime:
-  - $1: "doppio primo"
-
-# A double prime. This is only pronounciation of the actual triple prime
-# Example: triple prime
-triple-prime:
-  - $1: "triplo primo"
-
-# 
-quadruple-prime:
-  - $1: "quattro volte primo"
-
-# A counted prime expression
-# Example: f four prime
-# LaTeX Example: $f''''$
-# %1: The counter of the primes
+# A counted prime expression with counter >= 5
+# Example: f five prime
+# LaTeX Example: $f'''''$
+# %1: The number of primes
 counted-prime:
   - %1
-  - $1: "primo"
+  - $1: "volte primo"
 
-# A counted prime expression. Similar to counted-prime but operates by counting single elements in a string
-# Example: f four prime
-# LaTeX Example: $f''''$
-# %1: The counter of the primes
+# A counted prime expression with counter >= 5. Similar to counted-prime but operates by counting single elements in a string
+# Example: f five prime
+# LaTeX Example: $f'''''$
+# %1: The number of primes
 counted-prime-multichar:
   - %1
-  - $1: "primo"
+  - $1: "volte primo"
 
 # Expression modified above with an accent-like symbol
 # Example: modifying above b with right arrow 
@@ -783,10 +704,10 @@ cancel-reverse:
   - %2
   - $3: "fine cancellato"
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# An inference rule with two or more premises
+# %1: The name of the inference rule
+# %2: The conclusion
+# %3: The premises
 multi-inference:
   - $1: "regola di inferenza"
   - %1
@@ -796,10 +717,10 @@ multi-inference:
   - %3
   - $4: "premesse"
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# An inference rule with one premise
+# %1: The name of the inference rule
+# %2: The conclusion
+# %3: The premise
 inference:
   - $1: "regola di inferenza"
   - %1
@@ -809,24 +730,24 @@ inference:
   - %3
   - $4: "premessa"
 
-# 
-# %1: 
+# A premise of an inference rule
+# %1: The formula of the premise
 premise:
   - %1 (context:"premise ")
 
-# 
-# %1: 
+# A conclusion of an inference rule
+# %1: The formula of the conclusion
 conclusion:
   - %1
 
-# 
-# %1: 
+# The label or name of an inference rule
+# %1: The label
 label:
   - $1: "etichetta"
   - %1
 
-# 
-# %1: 
+# An axiom, that is 
+# %1: The conclusions
 axiom:
   - $1: "assioma"
   - %1

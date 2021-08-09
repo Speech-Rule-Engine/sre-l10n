@@ -699,30 +699,6 @@
       }
     ]
   },
-  "double-prime": {
-    "components": [
-      {
-        "type": "TEXT",
-        "content": "\"double prime\""
-      }
-    ]
-  },
-  "triple-prime": {
-    "components": [
-      {
-        "type": "TEXT",
-        "content": "\"triple prime\""
-      }
-    ]
-  },
-  "quadruple-prime": {
-    "components": [
-      {
-        "type": "TEXT",
-        "content": "\"quadruple prime\""
-      }
-    ]
-  },
   "counted-prime": {
     "components": [
       {

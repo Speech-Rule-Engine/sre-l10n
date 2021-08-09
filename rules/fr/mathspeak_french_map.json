@@ -617,24 +617,6 @@
       "content": "children/*[2]"
     }
   },
-  "double-prime": {
-    "$1": {
-      "type": "TEXT",
-      "content": "\"double prime\""
-    }
-  },
-  "triple-prime": {
-    "$1": {
-      "type": "TEXT",
-      "content": "\"triple prime\""
-    }
-  },
-  "quadruple-prime": {
-    "$1": {
-      "type": "TEXT",
-      "content": "\"quadruple prime\""
-    }
-  },
   "counted-prime": {
     "%1": {
       "type": "TEXT",

@@ -206,15 +206,6 @@
     "%1",
     "%2"
   ],
-  "double-prime": [
-    "$1: \"double prime\""
-  ],
-  "triple-prime": [
-    "$1: \"triple prime\""
-  ],
-  "quadruple-prime": [
-    "$1: \"quadruple prime\""
-  ],
   "counted-prime": [
     "%1",
     "$1: \"prime\""

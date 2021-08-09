@@ -141,43 +141,6 @@
     "$2: \"Over\"",
     "%2"
   ],
-  "limboth": [
-    "%1",
-    "%2",
-    "%3",
-    "%4",
-    "%5"
-  ],
-  "limlower": [
-    "%1",
-    "%2",
-    "%3"
-  ],
-  "limupper": [
-    "%1",
-    "%2",
-    "%3"
-  ],
-  "limboth-end": [
-    "%1",
-    "%2",
-    "%3",
-    "%4",
-    "%5",
-    "$1: \"Endscripts\""
-  ],
-  "limlower-end": [
-    "%1",
-    "%2",
-    "%3",
-    "$1: \"Endscripts\""
-  ],
-  "limupper-end": [
-    "%1",
-    "%2",
-    "%3",
-    "$1: \"Endscripts\""
-  ],
   "integral": [
     "%1",
     "$1: \"Subscript\"",
@@ -205,15 +168,6 @@
   "prime": [
     "%1",
     "%2"
-  ],
-  "double-prime": [
-    "$1: \"double prime\""
-  ],
-  "triple-prime": [
-    "$1: \"triple prime\""
-  ],
-  "quadruple-prime": [
-    "$1: \"quadruple prime\""
   ],
   "counted-prime": [
     "%1",

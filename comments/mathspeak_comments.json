@@ -1904,5 +1904,102 @@
     "latex": "",
     "example": "a quadrata",
     "maximum": 0
+  },
+  "limboth-end": {
+    "rule": "limboth-end",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": "",
+      "%4": "",
+      "%5": ""
+    },
+    "locales": {
+      "de": 5,
+      "fr": 5
+    },
+    "description": "",
+    "latex": "",
+    "example": "",
+    "maximum": 5
+  },
+  "limlower-end": {
+    "rule": "limlower-end",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": {
+      "de": 3,
+      "fr": 3
+    },
+    "description": "",
+    "latex": "",
+    "example": "",
+    "maximum": 3
+  },
+  "limupper-end": {
+    "rule": "limupper-end",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": {
+      "de": 3,
+      "fr": 3
+    },
+    "description": "",
+    "latex": "",
+    "example": "",
+    "maximum": 3
+  },
+  "limboth": {
+    "rule": "limboth",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": "",
+      "%4": "",
+      "%5": ""
+    },
+    "locales": {
+      "fr": 5
+    },
+    "description": "",
+    "latex": "",
+    "example": "",
+    "maximum": 5
+  },
+  "limlower": {
+    "rule": "limlower",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": {
+      "fr": 3
+    },
+    "description": "",
+    "latex": "",
+    "example": "",
+    "maximum": 3
+  },
+  "limupper": {
+    "rule": "limupper",
+    "parameters": {
+      "%1": "",
+      "%2": "",
+      "%3": ""
+    },
+    "locales": {
+      "fr": 3
+    },
+    "description": "",
+    "latex": "",
+    "example": "",
+    "maximum": 3
   }
 }

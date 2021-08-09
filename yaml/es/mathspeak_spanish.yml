@@ -240,71 +240,6 @@ continued-fraction-inner-sbrief:
   - $2: "entre"
   - %2
 
-# 
-# %1: 
-# %2: 
-# %3: 
-# %4: 
-# %5: 
-limboth:
-  - %1
-  - %2
-  - %3
-  - %4
-  - %5
-
-# 
-# %1: 
-# %2: 
-# %3: 
-limlower:
-  - %1
-  - %2
-  - %3
-
-# 
-# %1: 
-# %2: 
-# %3: 
-limupper:
-  - %1
-  - %2
-  - %3
-
-# 
-# %1: 
-# %2: 
-# %3: 
-# %4: 
-# %5: 
-limboth-end:
-  - %1
-  - %2
-  - %3
-  - %4
-  - %5
-  - $1: "finalizar índices"
-
-# 
-# %1: 
-# %2: 
-# %3: 
-limlower-end:
-  - %1
-  - %2
-  - %3
-  - $1: "finalizar índices"
-
-# 
-# %1: 
-# %2: 
-# %3: 
-limupper-end:
-  - %1
-  - %2
-  - %3
-  - $1: "finalizar índices"
-
 # An integral with boundaries
 # Example: integral Subscript 1 Superscript x Baseline
 # %1: The integral
@@ -352,37 +287,23 @@ cube:
 # Example: x prime
 # LaTeX Example: $x'$
 # %1: The base element
-# %2: The prime operator. As there are multiple prime operators they are handled seperately.
+# %2: The prime operator. As there are multiple prime operators (from single to quadruple) they are pronounciation is handled seperately.
 prime:
   - %1
   - %2
 
-# A double prime. This is only pronounciation of the actual double prime
-# Example: double prime
-double-prime:
-  - $1: "dos prima"
-
-# A double prime. This is only pronounciation of the actual triple prime
-# Example: triple prime
-triple-prime:
-  - $1: "tres prima"
-
-# 
-quadruple-prime:
-  - $1: "cuatro prima"
-
-# A counted prime expression
-# Example: f four prime
-# LaTeX Example: $f''''$
-# %1: The counter of the primes
+# A counted prime expression with counter >= 5
+# Example: f five prime
+# LaTeX Example: $f'''''$
+# %1: The number of primes
 counted-prime:
   - %1
   - $1: "prima"
 
-# A counted prime expression. Similar to counted-prime but operates by counting single elements in a string
-# Example: f four prime
-# LaTeX Example: $f''''$
-# %1: The counter of the primes
+# A counted prime expression with counter >= 5. Similar to counted-prime but operates by counting single elements in a string
+# Example: f five prime
+# LaTeX Example: $f'''''$
+# %1: The number of primes
 counted-prime-multichar:
   - %1
   - $1: "prima"

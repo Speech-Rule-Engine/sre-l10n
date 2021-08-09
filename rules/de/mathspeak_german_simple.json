@@ -131,23 +131,6 @@
     "$2: \"durch\"",
     "%2"
   ],
-  "limboth": [
-    "%1",
-    "%2",
-    "%3",
-    "%4",
-    "%5"
-  ],
-  "limlower": [
-    "%1",
-    "%2",
-    "%3"
-  ],
-  "limupper": [
-    "%1",
-    "%2",
-    "%3"
-  ],
   "limboth-end": [
     "%1",
     "%2",
@@ -195,15 +178,6 @@
   "prime": [
     "%1",
     "%2"
-  ],
-  "double-prime": [
-    "$1: \"zwei Strich\""
-  ],
-  "triple-prime": [
-    "$1: \"drei Strich\""
-  ],
-  "quadruple-prime": [
-    "$1: \"vier Strich\""
   ],
   "counted-prime": [
     "%1",

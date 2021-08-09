@@ -462,130 +462,6 @@
       }
     ]
   },
-  "limboth": {
-    "components": [
-      {
-        "type": "NODE",
-        "content": "children/*[1]"
-      },
-      {
-        "type": "TEXT",
-        "content": "CSFunderscript"
-      },
-      {
-        "type": "NODE",
-        "content": "children/*[2]"
-      },
-      {
-        "type": "TEXT",
-        "content": "CSFoverscript"
-      },
-      {
-        "type": "NODE",
-        "content": "children/*[3]"
-      }
-    ]
-  },
-  "limlower": {
-    "components": [
-      {
-        "type": "NODE",
-        "content": "children/*[1]"
-      },
-      {
-        "type": "TEXT",
-        "content": "CSFunderscript"
-      },
-      {
-        "type": "NODE",
-        "content": "children/*[2]"
-      }
-    ]
-  },
-  "limupper": {
-    "components": [
-      {
-        "type": "NODE",
-        "content": "children/*[1]"
-      },
-      {
-        "type": "TEXT",
-        "content": "CSFoverscript"
-      },
-      {
-        "type": "NODE",
-        "content": "children/*[2]"
-      }
-    ]
-  },
-  "limboth-end": {
-    "components": [
-      {
-        "type": "NODE",
-        "content": "children/*[1]"
-      },
-      {
-        "type": "TEXT",
-        "content": "CSFunderscript"
-      },
-      {
-        "type": "NODE",
-        "content": "children/*[2]"
-      },
-      {
-        "type": "TEXT",
-        "content": "CSFoverscript"
-      },
-      {
-        "type": "NODE",
-        "content": "children/*[3]"
-      },
-      {
-        "type": "TEXT",
-        "content": "\"fine script\""
-      }
-    ]
-  },
-  "limlower-end": {
-    "components": [
-      {
-        "type": "NODE",
-        "content": "children/*[1]"
-      },
-      {
-        "type": "TEXT",
-        "content": "CSFunderscript"
-      },
-      {
-        "type": "NODE",
-        "content": "children/*[2]"
-      },
-      {
-        "type": "TEXT",
-        "content": "\"fine script\""
-      }
-    ]
-  },
-  "limupper-end": {
-    "components": [
-      {
-        "type": "NODE",
-        "content": "children/*[1]"
-      },
-      {
-        "type": "TEXT",
-        "content": "CSFoverscript"
-      },
-      {
-        "type": "NODE",
-        "content": "children/*[2]"
-      },
-      {
-        "type": "TEXT",
-        "content": "\"fine script\""
-      }
-    ]
-  },
   "integral": {
     "components": [
       {
@@ -713,30 +589,6 @@
       }
     ]
   },
-  "double-prime": {
-    "components": [
-      {
-        "type": "TEXT",
-        "content": "\"doppio primo\""
-      }
-    ]
-  },
-  "triple-prime": {
-    "components": [
-      {
-        "type": "TEXT",
-        "content": "\"triplo primo\""
-      }
-    ]
-  },
-  "quadruple-prime": {
-    "components": [
-      {
-        "type": "TEXT",
-        "content": "\"quattro volte primo\""
-      }
-    ]
-  },
   "counted-prime": {
     "components": [
       {
@@ -748,7 +600,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"primo\""
+        "content": "\"volte primo\""
       }
     ]
   },
@@ -763,7 +615,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"primo\""
+        "content": "\"volte primo\""
       }
     ]
   },
