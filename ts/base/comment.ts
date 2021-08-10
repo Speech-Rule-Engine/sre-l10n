@@ -18,6 +18,7 @@
  * @author volker.sorge@gmail.com (Volker Sorge)
  */
 
+import {referenceSets} from './forward';
 import {loadComments, saveComments, sreDomains} from './util';
 
 export class Comment {
@@ -47,6 +48,11 @@ export class Comment {
    * A latex example.
    */
   public example: string = '';
+
+  /**
+   * The reference locale.
+   */
+  public reference: string = '';
 
   /**
    * Maximum number of parameters for locales. If this is smaller than the
@@ -91,6 +97,9 @@ export class Comment {
     this.description = json.description || '';
     this.latex = json.latex || '';
     this.example = json.example || '';
+    this.reference = (json.reference !== undefined) ? json.reference :
+      (Object.keys(this.locales).includes('en') ?
+        'en' : Object.keys(this.locales)[0]);
     this.maximum = Object.values(this.locales).
       reduce((x, y) => Math.max(x, y), 0);
     if (this.maximum !== json.maximum) {
@@ -99,6 +108,10 @@ export class Comment {
   }
 
   public update(locale: string, keys: string[]) {
+    let reference = referenceSets[this.reference];
+    if (!reference) {
+      this.reference = locale;
+    }
     keys = this.cleanParameters(keys);
     let length = keys.length;
     this.locales[locale] = length;

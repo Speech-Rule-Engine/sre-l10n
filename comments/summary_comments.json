@@ -15,6 +15,7 @@
     "description": "Summary for a long identifier. Used when the expression is visually abstracted.",
     "latex": "\\mathit{abcdefg}",
     "example": "",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-identifier": {
@@ -33,6 +34,7 @@
     "description": "Summary for an identifier",
     "latex": "x",
     "example": "",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-number-long": {
@@ -51,6 +53,7 @@
     "description": "Summary of a long number. Used when the expression is visually abstracted.",
     "latex": "123456",
     "example": "",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-number": {
@@ -69,6 +72,7 @@
     "description": "Summary of a number",
     "latex": "12",
     "example": "",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-mixed-number-long": {
@@ -87,6 +91,7 @@
     "description": "Summary of a long mixed number. Used when the expression is visually abstracted.",
     "latex": "120\\frac{20}{101}",
     "example": "",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-mixed-number": {
@@ -105,6 +110,7 @@
     "description": "Summary of a mixed number",
     "latex": "1\\frac{2}{3}",
     "example": "",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-text": {
@@ -123,6 +129,7 @@
     "description": "Summary of an interspersed text element",
     "latex": "x_0 + x_1 \\mtext{and so on} = y",
     "example": "",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-function": {
@@ -141,6 +148,7 @@
     "description": "Summary of a function",
     "latex": "\\sin(x)",
     "example": "Functional expression",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-function-brief": {
@@ -159,6 +167,7 @@
     "description": "Brief summary of a function",
     "latex": "\\sin(x)",
     "example": "Function",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-lim": {
@@ -177,6 +186,7 @@
     "description": "Summary of a limit function",
     "latex": "\\lim_{x\\to \\infty}",
     "example": "limit function",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-lim-brief": {
@@ -195,6 +205,7 @@
     "description": "Brief summary of limit function",
     "latex": "\\lim_{x\\to \\infty}",
     "example": "limit",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-fraction": {
@@ -213,6 +224,7 @@
     "description": "Summary of a fraction",
     "latex": "\\frac{a}{b}",
     "example": "fraction",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-fraction-brief": {
@@ -231,6 +243,7 @@
     "description": "Brief summary of a fraction",
     "latex": "\\frac{a}{b}",
     "example": "frac",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-continued-fraction": {
@@ -249,6 +262,7 @@
     "description": "Summary of a continued fraction",
     "latex": "\\frac{a}{\\ldots}",
     "example": "continued fraction",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-continued-fraction-brief": {
@@ -267,6 +281,7 @@
     "description": "Brief summary of a continued fraction",
     "latex": "\\frac{a}{\\ldots}",
     "example": "continued frac",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-sqrt": {
@@ -285,6 +300,7 @@
     "description": "Summary of sqare root",
     "latex": "\\sqrt{A}",
     "example": "square root",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-sqrt-nested": {
@@ -303,6 +319,7 @@
     "description": "Summary of a nested square root, irrespective of whether the inner roots are square roots or other indexed roots",
     "latex": "\\sqrt{\\sqrt[4]{A}}",
     "example": "nested square root",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-root-end": {
@@ -322,6 +339,7 @@
     "description": "Indicates the end of the root index. This is important if summary is used in context, e.g. for an collapsed expression.",
     "latex": "\\sqrt[n + 1]{a} + b",
     "example": "root of index n plus 1 end index plus b",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-root": {
@@ -341,6 +359,7 @@
     "description": "Summary of an indexed root",
     "latex": "\\sqrt[4]{A}",
     "example": "root of index 4",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-root-brief": {
@@ -359,6 +378,7 @@
     "description": "Brief summary of an indexed root",
     "latex": "\\sqrt[4]{A}",
     "example": "root",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-root-nested-end": {
@@ -378,6 +398,7 @@
     "description": "Indicates the end of the indexed root index. This is important if summary is used in context, e.g. for an collapsed expression.",
     "latex": "\\sqrt[n + 1]{\\sqrt{a}} + b",
     "example": "nest root of index n plus 1 end index plus b",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-root-nested": {
@@ -397,6 +418,7 @@
     "description": "Summary of a nested root, irrespective of whether the inner roots are square roots or other indexed roots",
     "latex": "\\sqrt[3]{\\sqrt[4]{A}}",
     "example": "nested root of index 3",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-root-nested-brief": {
@@ -415,6 +437,7 @@
     "description": "Brief summary of a nested root, irrespective of whether the inner roots are square roots or other indexed roots",
     "latex": "\\sqrt[3]{\\sqrt[4]{A}}",
     "example": "nested root",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-superscript": {
@@ -433,6 +456,7 @@
     "description": "Summary of an exponential expression",
     "latex": "",
     "example": "",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-subscript": {
@@ -451,6 +475,7 @@
     "description": "Summary of an indexed expression",
     "latex": "",
     "example": "",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-subsup": {
@@ -469,6 +494,7 @@
     "description": "Summary of an exponential expression with index",
     "latex": "",
     "example": "",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-infixop": {
@@ -489,6 +515,7 @@
     "description": "Summary of an infix operation giving the number of terms",
     "latex": "a/b",
     "example": "division with two elements",
+    "reference": "en",
     "maximum": 3
   },
   "abstr-infixop-var": {
@@ -508,6 +535,7 @@
     "description": "Summary of an infix operation containing ellipses (...)",
     "latex": "a-\\ldots- b",
     "example": "Subtraction with a variable number of elements",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-infixop-brief": {
@@ -527,6 +555,7 @@
     "description": "Brief summary of an infix operation, regardless of fixed or variable number of elements ",
     "latex": "",
     "example": "Subtraction",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-addition": {
@@ -546,6 +575,7 @@
     "description": "Summary of an addition with a fixed number of terms.",
     "latex": "a + b + c",
     "example": "sum with three summands",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-addition-brief": {
@@ -564,6 +594,7 @@
     "description": "Brief summary of an addition, regardless of fixed or variable number of elements ",
     "latex": "a + b + c",
     "example": "sum",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-addition-var": {
@@ -582,6 +613,7 @@
     "description": "Summary of an addition containing ellipses (...)",
     "latex": "a + \\ldots + c",
     "example": "sum with variable number of summands",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-multiplication": {
@@ -601,6 +633,7 @@
     "description": "Summary of a product with a fixed number of terms.",
     "latex": "a * b * c",
     "example": "product with three factors",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-multiplication-brief": {
@@ -619,6 +652,7 @@
     "description": "Brief summary of a product, regardless of fixed or variable number of elements ",
     "latex": "a * b * c",
     "example": "product",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-multiplication-var": {
@@ -637,6 +671,7 @@
     "description": "Summary of a product containing ellipses (...)",
     "latex": "a * \\ldots * c",
     "example": "product with variable number of factors",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-vector": {
@@ -656,6 +691,7 @@
     "description": "Summary of a column vector",
     "latex": "\\begin{pmatrix} a \\\\ b \\\\ c \\end{pmatrix}",
     "example": "three dimensional vector",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-vector-brief": {
@@ -674,6 +710,7 @@
     "description": "Brief summary of a column vector",
     "latex": "\\begin{pmatrix} a \\\\ b \\\\ c \\end{pmatrix}",
     "example": "vector",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-vector-var": {
@@ -692,6 +729,7 @@
     "description": "Summary of an abstract column vector",
     "latex": "\\begin{pmatrix} a \\\\ \\vdots \\\\ c \\end{pmatrix}",
     "example": "n dimensional vector",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-binomial": {
@@ -710,6 +748,7 @@
     "description": "Summary of binomial coefficient",
     "latex": "",
     "example": "",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-determinant": {
@@ -729,6 +768,7 @@
     "description": "Summary of a determinant",
     "latex": "\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}",
     "example": "2 dimensional determinant",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-determinant-brief": {
@@ -747,6 +787,7 @@
     "description": "Brief summary of a determinant",
     "latex": "\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}",
     "example": "determinant",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-determinant-var": {
@@ -765,6 +806,7 @@
     "description": "Summary of a determinant with elliptic elements ( ...). Has to be recognisably square and in bar fences.",
     "latex": "\\begin{vmatrix} a & \\cdots & b \\\\ & \\ddots & \\\\ c & \\cdots & d \\end{vmatrix}",
     "example": "n dimensional determinant",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-squarematrix": {
@@ -784,6 +826,7 @@
     "description": "Summary of a square matrix",
     "latex": "\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}",
     "example": "2 dimensional square matrix",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-squarematrix-brief": {
@@ -802,6 +845,7 @@
     "description": "Brief summary of a square matrix",
     "latex": "\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}",
     "example": "square matrix",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-rowvector": {
@@ -821,6 +865,7 @@
     "description": "Summary of a row vector",
     "latex": "\\begin{pmatrix} a & b & c \\end{pmatrix}",
     "example": "three dimensional row vector",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-rowvector-brief": {
@@ -839,6 +884,7 @@
     "description": "Brief summary of a row vector",
     "latex": "\\begin{pmatrix} a & b & c \\end{pmatrix}",
     "example": "row vector",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-rowvector-var": {
@@ -857,6 +903,7 @@
     "description": "Summary of an abstract row vector",
     "latex": "\\begin{pmatrix} a & \\vdots & c \\end{pmatrix}",
     "example": "n dimensional row vector",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-matrix": {
@@ -877,6 +924,7 @@
     "description": "Summary of a non-square matrix",
     "latex": "\\begin{bmatrix} a & b & c \\\\ d & e & f \\end{bmatrix}",
     "example": "2 by 3 matrix",
+    "reference": "en",
     "maximum": 3
   },
   "abstr-matrix-brief": {
@@ -895,6 +943,7 @@
     "description": "Brief summary of a non-square matrix",
     "latex": "\\begin{bmatrix} a & b & c \\\\ d & e & f \\end{bmatrix}",
     "example": "matrix",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-matrix-var": {
@@ -913,6 +962,7 @@
     "description": "Summary of a matrix with elliptic elements ( ...).",
     "latex": "\\begin{bmatrix} a & \\cdots & b \\\\ & \\ddots & \\\\ c & \\cdots & d \\end{bmatrix}",
     "example": "n by m dimensional matrix",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-cases": {
@@ -932,6 +982,7 @@
     "description": "Summary of a case statement",
     "latex": "\\begin{cases} a \\\\ b \\\\ c \\end{cases}",
     "example": "Case statement with 3 cases",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-cases-brief": {
@@ -950,6 +1001,7 @@
     "description": "Brief summary of a case statement",
     "latex": "\\begin{cases} a \\\\ b \\\\ c \\end{cases}",
     "example": "Case statement",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-cases-var": {
@@ -968,6 +1020,7 @@
     "description": "Summary of a case statement with omitted cases indicated by ellipses (...)",
     "latex": "\\begin{cases} a \\\\ \\vdots \\\\ c \\end{cases}",
     "example": "Case statement with variable number of cases",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-punctuated": {
@@ -988,6 +1041,7 @@
     "description": "Summary of a list of elements separated by a punctuation like comma, semi-colon, etc.",
     "latex": "a, b, c",
     "example": "comma separated list of length 3",
+    "reference": "en",
     "maximum": 3
   },
   "abstr-punctuated-brief": {
@@ -1007,6 +1061,7 @@
     "description": "Brief summary of a list of elements separated by a punctuation like comma, semi-colon, etc.",
     "latex": "a, b, c",
     "example": "comma separated list",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-punctuated-var": {
@@ -1026,6 +1081,7 @@
     "description": "Summary of a list of elements separated by a punctuation that contains elliptic elements (...)",
     "latex": "a, b, \\ldots, c",
     "example": "comma separated list of variable length",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-bigop": {
@@ -1045,6 +1101,7 @@
     "description": "Summary of a big operation, like a sum or a product",
     "latex": "\\sum_{x=0}^\\infty x",
     "example": "sum (or sigma summation)",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-integral": {
@@ -1063,6 +1120,7 @@
     "description": "Summary of an integral",
     "latex": "\\int_{x=0}^\\infty x \\dx",
     "example": "integral",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-relation": {
@@ -1082,6 +1140,7 @@
     "description": "Summary of a binary relation with two elements",
     "latex": "a = b",
     "example": "equality",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-relation-seq": {
@@ -1102,6 +1161,7 @@
     "description": "Summary of a relation sequence with three or more elements",
     "latex": "a = b = c",
     "example": "equality sequence with 3 elements",
+    "reference": "en",
     "maximum": 3
   },
   "abstr-relation-seq-brief": {
@@ -1121,6 +1181,7 @@
     "description": "Brief summary of a relation sequence with three or more elements",
     "latex": "a = b = c",
     "example": "equality sequence",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-relation-var": {
@@ -1140,6 +1201,7 @@
     "description": "Summary of a relation sequence with three or more elements containing at least one ellispis (...)",
     "latex": "a = \\ldots = c",
     "example": "equality sequence with variable number of elements elements",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-multirel": {
@@ -1159,6 +1221,7 @@
     "description": "Summary of a relation sequence with different relations",
     "latex": "a < b = c > d",
     "example": "Relation sequence with 4 elements",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-multirel-brief": {
@@ -1177,6 +1240,7 @@
     "description": "Brief summary of a relation sequence with different relations",
     "latex": "a < b = c > d",
     "example": "Relation sequence",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-multirel-var": {
@@ -1195,6 +1259,7 @@
     "description": "Summary of a relation sequence with different relations containing at least one ellispis (...)",
     "latex": "a > b_0 = \\ldots = b_n > c",
     "example": "Relation sequence with variable number of elements",
+    "reference": "en",
     "maximum": 1
   },
   "abstr-table": {
@@ -1215,6 +1280,7 @@
     "description": "Summary of a table",
     "latex": "",
     "example": "table with 2 rows and 3 columns",
+    "reference": "en",
     "maximum": 3
   },
   "abstr-line": {
@@ -1234,6 +1300,7 @@
     "description": "Summary of a line (e.g. in a case statement)",
     "latex": "",
     "example": "line in case statemnt",
+    "reference": "en",
     "maximum": 2
   },
   "abstr-row": {
@@ -1255,6 +1322,7 @@
     "description": "Summary of a matrix row",
     "latex": "\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}",
     "example": "1st row in square matrix with two columns",
+    "reference": "en",
     "maximum": 4
   },
   "abstr-cell": {
@@ -1274,6 +1342,7 @@
     "description": "Summary of a matrix cell",
     "latex": "\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}",
     "example": "1st column in square matrix",
+    "reference": "en",
     "maximum": 2
   },
   "collapsed-masculine": {
@@ -1286,6 +1355,7 @@
     "description": "The collapsed adjective in masculine gender. E.g., used for romance languages.",
     "latex": "",
     "example": "",
+    "reference": "fr",
     "maximum": 0
   },
   "collapsed-feminine": {
@@ -1298,6 +1368,7 @@
     "description": "The collapsed adjective in feminine gender. E.g., used for romance languages.",
     "latex": "",
     "example": "",
+    "reference": "fr",
     "maximum": 0
   }
 }
