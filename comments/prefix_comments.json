@@ -13,6 +13,15 @@
     "description": "The numerator of a fraction",
     "latex": "\\frac{a}{b}",
     "example": "Numerator a",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "denominator": {
@@ -29,6 +38,15 @@
     "description": "The denominator of a fraction",
     "latex": "\\frac{a}{b}",
     "example": "Denominator b",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "base": {
@@ -45,6 +63,15 @@
     "description": "The base of an exponentiation or indexed expression",
     "latex": "a^b",
     "example": "Base a",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "exponent": {
@@ -61,6 +88,15 @@
     "description": "The exponent in an exponentiation",
     "latex": "a^b",
     "example": "Exponent b",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "subscript": {
@@ -77,6 +113,15 @@
     "description": "Subscript or index",
     "latex": "a_i",
     "example": "Subscript i",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "overscript": {
@@ -93,6 +138,15 @@
     "description": "The overscript above an operator or expression",
     "latex": "\\sum_{n=0}^{\\infty}",
     "example": "Overscript infinity",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "underscript": {
@@ -109,6 +163,15 @@
     "description": "The underscript under an operator or expression",
     "latex": "\\sum_{n=0}^{\\infty}",
     "example": "Underscript n equals zero",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "radicand": {
@@ -125,6 +188,15 @@
     "description": "The content of a root or square root",
     "latex": "\\sqrt{A}",
     "example": "Radicand A",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "index": {
@@ -141,6 +213,15 @@
     "description": "The index of a root",
     "latex": "\\sqrt[4]{a}",
     "example": "Index 4",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "leftsub": {
@@ -157,6 +238,15 @@
     "description": "Left subscript or index of a tensor-like structure",
     "latex": "\\tensor{M}{^a_b^c_d}",
     "example": "Left subscript a",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "leftsub-counted": {
@@ -175,6 +265,27 @@
     "description": "Counted left subscript or index of a tensor-like structure",
     "latex": "\\tensor{M}{^{ae}_b^c_d}",
     "example": "2nd left subscript e",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "es": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "leftsuper": {
@@ -191,6 +302,15 @@
     "description": "Left superscript or index of a tensor-like structure",
     "latex": "\\tensor{M}{^a_b^c_d}",
     "example": "Left superscript b",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "leftsuper-counted": {
@@ -209,6 +329,27 @@
     "description": "Counted left superscript or index of a tensor-like structure",
     "latex": "\\tensor{M}{^a_{be}^c_d}",
     "example": "2nd left superscript e",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "es": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "rightsub": {
@@ -225,6 +366,15 @@
     "description": "Right subscript or index of a tensor-like structure",
     "latex": "\\tensor{M}{^a_b^c_d}",
     "example": "Right subscript c",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "rightsub-counted": {
@@ -243,6 +393,27 @@
     "description": "Counted right subscript or index of a tensor-like structure",
     "latex": "\\tensor{M}{^a_b^c_{de}}",
     "example": "2nd right subscript e",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "es": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "rightsuper": {
@@ -259,6 +430,15 @@
     "description": "Right superscript or exponent of a tensor-like structure",
     "latex": "\\tensor{M}{^a_b^c_d}",
     "example": "Right superscript d",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "rightsuper-counted": {
@@ -277,6 +457,27 @@
     "description": "Counted right superscript or exponent of a tensor-like structure",
     "latex": "\\tensor{M}{^a_b^{ce}_d}",
     "example": "2nd right superscript e",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "es": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "choice": {
@@ -293,6 +494,15 @@
     "description": "The choice quantity in a binomial coefficient. I.e., the n in 'n choose k'",
     "latex": "(n \\\\ k)",
     "example": "Choice quantity n",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "select": {
@@ -309,6 +519,15 @@
     "description": "The selection quantity in a binomial coefficient. I.e., the k in 'n choose k'",
     "latex": "\\begin{pmatrix}n \\\\k \\end{pmatrix}",
     "example": "Selection quantity k",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "row": {
@@ -327,6 +546,27 @@
     "description": "A row in a multiline equation, case statement or matrix",
     "latex": "\\begin{pmatrix}a & b \\\\c & d\\end{pmatrix}",
     "example": "1st Row ...",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "es": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "cell": {
@@ -346,6 +586,33 @@
     "description": "A cell of a matrix or layout expression in full context (i.e., with row number)",
     "latex": "\\begin{pmatrix}a & b \\\\c & d\\end{pmatrix}",
     "example": "2nd Row 1st Column c",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "es": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "cell-simple": {
@@ -364,6 +631,27 @@
     "description": "A cell of a matrix or layout expression in its row context only",
     "latex": "\\begin{pmatrix}a & b \\\\c & d\\end{pmatrix}",
     "example": "1st Column c",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "es": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   }
 }

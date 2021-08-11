@@ -22,6 +22,8 @@ import {Comment, getComments} from './comment';
 import {Action, Component} from './rules';
 import * as util from './util';
 
+export let referenceSets: {[locale: string]: BaseSet} = {};
+
 let grammar: {[attr: string]: boolean} = {
   singular: true,
   plural: true,
@@ -80,6 +82,7 @@ abstract class BaseSet {
       this.order.push(rule[1]);
       this.makeAction(rule);
     }
+    referenceSets[locale] = this;
   }
 
   private makeAction([kind, name, action]: util.JsonRule) {

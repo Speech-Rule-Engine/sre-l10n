@@ -8,32 +8,40 @@ collapsed:
 
 # Explicit speaking of font
 # Example: bold alpha
-# %1: The font
-# %2: The expression
+# %1: The expression
+# %2: The font
 font:
   - %1
   - %2 (pause:short)
 
-# 
+# Speaking an open ended ellipsis in AndSoOn preference
+# Example: a comma b comma and so on
+# LaTeX Example: $a, b, \ldots$
 ellipsis:
   - $1: "et ainsi de suite"
 
-# 
+# Speaking an intermediate ellipsis in AndSoOn preference
+# Example: a comma b comma and so on up to n
+# LaTeX Example: $a,b,\ldots n$
 ellipsis-andsoon:
   - $1: "et ainsi de suite jusqu'à"
 
-# 
-# %1: 
-# %2: 
+# Interprets an vertical with subscript as evaluation of an antiderivative
+# Example: F of x, evaluated at x equals 0
+# LaTeX Example: $F(x)|_{x=0}$
+# %1: Expression left of the vertical bar.
+# %2: The subscript to the right of the vertical bar
 vbar-evaluated:
   - %1 (pause:short)
   - $1: "évalué à"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Interprets an vertical with subscript as evaluation of an antiderivative
+# Example: F of x, evaluated at infinity, minus the same expression evaluated at 0
+# LaTeX Example: $F(x)|_{0}^\infty$
+# %1: Expression left of the vertical bar.
+# %2: The superscript to the right of the vertical bar
+# %3: The subscript to the right of the vertical bar
 vbar-evaluated-both:
   - %1 (pause:short)
   - $1: "évalué à"
@@ -41,23 +49,33 @@ vbar-evaluated-both:
   - $2: "moins la même expression évaluée à"
   - %3 (pause:short)
 
-# 
+# Vertical bar interpreted as such that
+# Example: a such that b
+# LaTeX Example: $a|b$
 vbar-such-that:
   - $1: "tel que"
 
-# 
+# Vertical bar interpreted as divides symbol
+# Example: a divides b
+# LaTeX Example: $a|b$
 vbar-divides:
   - $1: "diviseur de"
 
-# 
+# Vertical bar interpreted as divides symbol, regardless of context
+# Example: a divides b
+# LaTeX Example: $a|b$
 vbar-always-divides:
   - $1: "diviseur de"
 
-# 
+# Vertical bar interpreted as given, e.g., in a set context
+# Example: a given b
+# LaTeX Example: $a|b$
 vbar-given:
   - $1: "sachant"
 
-# 
+# Set membership symbol interpreted as member of
+# Example: a is a member of A
+# LaTeX Example: $a\in A$
 set-member:
   - $1: "est un"
 
@@ -65,15 +83,21 @@ set-member:
 set-member-member:
   - $1: "appartient à"
 
-# 
+# Set membership symbol interpreted as element of
+# Example: a is an element of A
+# LaTeX Example: $a\in A$
 set-member-element:
   - $1: "est un élément de"
 
-# 
+# Set membership symbol interpreted as belongs to
+# Example: a belongs to A
+# LaTeX Example: $a\in A$
 set-member-belongs:
   - $1: "est dans"
 
-# 
+# Set membership symbol interpreted as not member of
+# Example: a is not a member of A
+# LaTeX Example: $a\not\in A$
 set-not-member:
   - $1: "n'est pas un"
 
@@ -81,11 +105,15 @@ set-not-member:
 set-not-member-member:
   - $1: "n'appartient pas à"
 
-# 
+# Set membership symbol interpreted as not element of
+# Example: a is not an element of A
+# LaTeX Example: $a\not\in A$
 set-not-member-element:
   - $1: "n'est pas un élément de"
 
-# 
+# Set membership symbol interpreted as not belongs to
+# Example: a does not belong to A
+# LaTeX Example: $a\not\in A$
 set-not-member-belongs:
   - $1: "n'est pas dans"
 

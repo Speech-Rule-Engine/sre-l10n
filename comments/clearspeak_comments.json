@@ -14,6 +14,24 @@
     "description": "Rule that fires if an expression is visually abstracted",
     "latex": "",
     "example": "collapsed sum",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "font": {
@@ -32,6 +50,29 @@
     "description": "Explicit speaking of font",
     "latex": "",
     "example": "bold alpha",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%2",
+        "%2": "%1"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%2",
+        "%2": "%1"
+      }
+    },
     "maximum": 2
   },
   "font-number": {
@@ -46,6 +87,13 @@
     "description": "Explicit speaking of font for numbers",
     "latex": "",
     "example": "kursive drei",
+    "reference": "de",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "font-double-struck": {
@@ -60,6 +108,13 @@
     "description": "Explicit speaking of doublstruck/blackboard font",
     "latex": "",
     "example": "R mit Doppelstrich",
+    "reference": "de",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "font-number-double-struck": {
@@ -74,6 +129,13 @@
     "description": "Explicit speaking of doublstruck/blackboar font",
     "latex": "",
     "example": "Null mit Doppelstrich",
+    "reference": "de",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "ellipsis": {
@@ -86,9 +148,17 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Speaking an open ended ellipsis in AndSoOn preference",
+    "latex": "a, b, \\ldots",
+    "example": "a comma b comma and so on",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "ellipsis-andsoon": {
@@ -101,16 +171,24 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Speaking an intermediate ellipsis in AndSoOn preference",
+    "latex": "a,b,\\ldots n",
+    "example": "a comma b comma and so on up to n",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "vbar-evaluated": {
     "rule": "vbar-evaluated",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Expression left of the vertical bar.",
+      "%2": "The subscript to the right of the vertical bar"
     },
     "locales": {
       "de": 2,
@@ -119,17 +197,40 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Interprets an vertical with subscript as evaluation of an antiderivative",
+    "latex": "F(x)|_{x=0}",
+    "example": "F of x, evaluated at x equals 0",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "vbar-evaluated-both": {
     "rule": "vbar-evaluated-both",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "Expression left of the vertical bar.",
+      "%2": "The superscript to the right of the vertical bar",
+      "%3": "The subscript to the right of the vertical bar"
     },
     "locales": {
       "de": 3,
@@ -138,9 +239,37 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Interprets an vertical with subscript as evaluation of an antiderivative",
+    "latex": "F(x)|_{0}^\\infty",
+    "example": "F of x, evaluated at infinity, minus the same expression evaluated at 0",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "vbar-such-that": {
@@ -152,9 +281,16 @@
       "fr": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Vertical bar interpreted as such that",
+    "latex": "a|b",
+    "example": "a such that b",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "vbar-divides": {
@@ -166,9 +302,16 @@
       "fr": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Vertical bar interpreted as divides symbol",
+    "latex": "a|b",
+    "example": "a divides b",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "vbar-always-divides": {
@@ -180,9 +323,16 @@
       "fr": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Vertical bar interpreted as divides symbol, regardless of context",
+    "latex": "a|b",
+    "example": "a divides b",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "vbar-given": {
@@ -194,9 +344,16 @@
       "fr": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Vertical bar interpreted as given, e.g., in a set context",
+    "latex": "a|b",
+    "example": "a given b",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "set-member": {
@@ -209,9 +366,17 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol interpreted as member of",
+    "latex": "a\\in A",
+    "example": "a is a member of A",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "set-member-element": {
@@ -224,9 +389,17 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol interpreted as element of",
+    "latex": "a\\in A",
+    "example": "a is an element of A",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "set-member-belongs": {
@@ -239,9 +412,17 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol interpreted as belongs to",
+    "latex": "a\\in A",
+    "example": "a belongs to A",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "set-not-member": {
@@ -254,9 +435,17 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol interpreted as not member of",
+    "latex": "a\\not\\in A",
+    "example": "a is not a member of A",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "set-not-member-element": {
@@ -269,9 +458,17 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol interpreted as not element of",
+    "latex": "a\\not\\in A",
+    "example": "a is not an element of A",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "set-not-member-belongs": {
@@ -284,42 +481,62 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol interpreted as not belongs to",
+    "latex": "a\\not\\in A",
+    "example": "a does not belong to A",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "function-article": {
     "rule": "function-article",
     "parameters": {
-      "%1": ""
+      "%1": "The functional expression"
     },
     "locales": {
       "de": 1
     },
-    "description": "",
+    "description": "The article before a function. Rule ensures that the case is corrected.",
     "latex": "",
     "example": "",
+    "reference": "de",
+    "order": {
+      "de": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "function-article-fem": {
     "rule": "function-article-fem",
     "parameters": {
-      "%1": ""
+      "%1": "The functional expression"
     },
     "locales": {
       "de": 1
     },
-    "description": "",
+    "description": "The feminine article before a function. Rule ensures that the case is corrected.",
     "latex": "",
     "example": "",
+    "reference": "de",
+    "order": {
+      "de": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "appl": {
     "rule": "appl",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The function",
+      "%2": "The argument"
     },
     "locales": {
       "de": 2,
@@ -328,16 +545,39 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Fallback rule for function application",
+    "latex": "f(x)",
+    "example": "f of x",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%2",
+        "%2": "%1"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "appl-simple": {
     "rule": "appl-simple",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The function",
+      "%2": "The argument"
     },
     "locales": {
       "de": 2,
@@ -346,16 +586,39 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Function application of a single letter function like f, g, h.",
+    "latex": "f(x)",
+    "example": "f of x",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%2",
+        "%2": "%1"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "appl-simple-fenced": {
     "rule": "appl-simple-fenced",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The function",
+      "%2": "The argument, which is a fenced function application"
     },
     "locales": {
       "de": 2,
@@ -364,16 +627,39 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Function application of a single letter function with argument being another function application",
+    "latex": "f(h(x))",
+    "example": "f of h of x",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%2",
+        "%2": "%1"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "appl-times": {
     "rule": "appl-times",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The function",
+      "%2": "The argument"
     },
     "locales": {
       "de": 2,
@@ -382,16 +668,39 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Forces function applications to be read as juxtapositions",
+    "latex": "f(x)",
+    "example": "f times x",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-prefix": {
     "rule": "function-prefix",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Prefix function",
+      "%2": "The argument"
     },
     "locales": {
       "de": 2,
@@ -400,16 +709,39 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Application of a known prefix function, e.g., a trigonometric function",
+    "latex": "\\sin x",
+    "example": "sine x",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-prefix-simple-arg": {
     "rule": "function-prefix-simple-arg",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The prefix function",
+      "%2": "The fenced argument"
     },
     "locales": {
       "de": 2,
@@ -418,16 +750,39 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Application of a known prefix function to a fenced but simple argument (e.g., xy is simple, x + y is not)",
+    "latex": "\\sin(xy)",
+    "example": "sine x y",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-prefix-embell": {
     "rule": "function-prefix-embell",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The embellished prefix function",
+      "%2": "The argument"
     },
     "locales": {
       "de": 2,
@@ -436,16 +791,39 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Application of a prefix function with index or superscript",
+    "latex": "\\sin^2 x",
+    "example": "sine squared x",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-prefix-fenced-or-frac-arg": {
     "rule": "function-prefix-fenced-or-frac-arg",
     "parameters": {
       "%1": "",
-      "%2": ""
+      "%2": "The "
     },
     "locales": {
       "de": 2,
@@ -454,9 +832,32 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Application of a prefix functions to a non-simple argument.",
+    "latex": "\\sine(\\frac{a}{b})",
+    "example": "the sine of a over b",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-prefix-subscript": {
@@ -475,6 +876,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-ln": {
@@ -493,6 +917,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-ln-pause": {
@@ -511,6 +958,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-ln-of": {
@@ -529,6 +999,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-prefix-as-exp": {
@@ -547,6 +1040,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-prefix-subscript-as-exp": {
@@ -565,6 +1081,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-prefix-hyper": {
@@ -583,6 +1122,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-prefix-inverse": {
@@ -601,6 +1163,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "appl-triginverse": {
@@ -619,6 +1204,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-prefix-arc-simple": {
@@ -637,6 +1245,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-prefix-arc-simple-fenced": {
@@ -655,6 +1286,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-prefix-arc": {
@@ -673,6 +1327,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-inverse": {
@@ -690,6 +1367,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "superscript-prefix-function": {
@@ -707,6 +1402,25 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%2",
+        "%2": "%1"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript": {
@@ -725,6 +1439,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-ordinal": {
@@ -742,6 +1479,25 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-ordinal-prefixop": {
@@ -756,6 +1512,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "de",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-ordinal-default": {
@@ -773,6 +1536,25 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-simple-exponent": {
@@ -791,6 +1573,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-simple-exponent-end": {
@@ -809,6 +1614,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-simple-power": {
@@ -823,6 +1651,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "de",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-simple-power-end": {
@@ -837,6 +1672,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "de",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-ordinal-power": {
@@ -851,6 +1693,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "de",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-non-ordinal": {
@@ -868,6 +1717,25 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-simple-function-ordinal": {
@@ -882,6 +1750,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "de",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "exponent": {
@@ -899,6 +1774,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "exponent-number": {
@@ -916,6 +1809,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "exponent-zero": {
@@ -927,6 +1838,10 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "de",
+    "order": {
+      "de": {}
+    },
     "maximum": 0
   },
   "superscript-simple-exp": {
@@ -941,6 +1856,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "de",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-simple-exp-end": {
@@ -955,6 +1877,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "de",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-simple-function-none": {
@@ -970,6 +1899,18 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "square": {
@@ -988,6 +1929,25 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "cube": {
@@ -1005,6 +1965,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "fences-points": {
@@ -1022,6 +2000,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "fences-interval": {
@@ -1041,6 +2037,34 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "interval-open": {
@@ -1059,6 +2083,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "interval-closed-open": {
@@ -1077,6 +2124,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "interval-open-closed": {
@@ -1095,6 +2165,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "interval-closed": {
@@ -1113,6 +2206,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "interval-open-inf-r": {
@@ -1130,6 +2246,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "interval-open-inf-l": {
@@ -1147,6 +2281,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "interval-closed-open-inf": {
@@ -1164,6 +2316,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "interval-open-closed-inf": {
@@ -1181,6 +2351,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "set-empty": {
@@ -1196,6 +2384,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "set-extended": {
@@ -1214,6 +2410,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "set-collection": {
@@ -1231,6 +2450,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "set-extended-woall": {
@@ -1248,6 +2485,25 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "subscript": {
@@ -1266,6 +2522,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "logarithm-base": {
@@ -1284,6 +2563,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "subscript-index": {
@@ -1302,6 +2604,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "fraction": {
@@ -1320,6 +2645,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "fraction-none": {
@@ -1338,6 +2686,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "simple-fraction": {
@@ -1356,6 +2727,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "simple-vulgar-fraction": {
@@ -1374,6 +2768,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "simple-text-fraction": {
@@ -1392,6 +2809,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "vulgar-fraction": {
@@ -1409,6 +2849,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "fraction-over": {
@@ -1427,6 +2885,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "fraction-overendfrac": {
@@ -1445,6 +2926,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "fraction-fracover": {
@@ -1463,6 +2967,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "fraction-per": {
@@ -1481,6 +3008,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "fraction-generalendfrac": {
@@ -1499,6 +3049,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "fraction-general": {
@@ -1517,6 +3090,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "simple-vulgar-fraction-ordinal": {
@@ -1534,6 +3130,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "fraction-endfrac": {
@@ -1551,6 +3165,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "vulgar-fraction-endfrac": {
@@ -1569,6 +3201,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "simple-vulgar-fraction-endfrac": {
@@ -1586,6 +3241,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "sqrt": {
@@ -1603,6 +3276,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "sqrt-nested": {
@@ -1620,6 +3311,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "negative-sqrt": {
@@ -1637,6 +3346,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "negative-sqrt-default": {
@@ -1654,6 +3381,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "sqrt-plus-minus": {
@@ -1671,6 +3416,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "sqrt-nested-plus-minus": {
@@ -1688,6 +3451,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "sqrt-plus-minus-posnegsqrootend": {
@@ -1705,6 +3486,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "sqrt-nested-plus-minus-posnegsqrootend": {
@@ -1722,6 +3521,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "sqrt-endroot": {
@@ -1739,6 +3556,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "negative-sqrt-endroot": {
@@ -1756,6 +3591,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "sqrt-posnegsqrootend": {
@@ -1773,6 +3626,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "negative-sqrt-posnegsqrootend": {
@@ -1790,6 +3661,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "cubic": {
@@ -1807,6 +3696,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "cubic-nested": {
@@ -1824,6 +3731,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "root": {
@@ -1842,6 +3767,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%2",
+        "%2": "%1"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "root-nested": {
@@ -1860,6 +3808,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%2",
+        "%2": "%1"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "root-endroot": {
@@ -1877,6 +3848,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "root-posnegsqrootend": {
@@ -1894,6 +3883,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "negative": {
@@ -1911,6 +3918,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "positive": {
@@ -1928,6 +3953,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "angle-measure": {
@@ -1946,6 +3989,28 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "set-prefix-operators-masculine": {
@@ -1959,6 +4024,12 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "de",
+    "order": {
+      "de": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "set-prefix-operators-feminine": {
@@ -1972,6 +4043,12 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "de",
+    "order": {
+      "de": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "division": {
@@ -1990,6 +4067,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "natural-numbers": {
@@ -2005,6 +4105,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "integers": {
@@ -2020,6 +4128,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "rational-numbers": {
@@ -2035,6 +4151,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "real-numbers": {
@@ -2050,6 +4174,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "complex-numbers": {
@@ -2065,6 +4197,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "natural-numbers-with-zero": {
@@ -2080,6 +4220,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "positive-integers": {
@@ -2095,6 +4243,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "negative-integers": {
@@ -2110,6 +4266,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "positive-rational-numbers": {
@@ -2125,6 +4289,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "negative-rational-numbers": {
@@ -2140,6 +4312,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "fences-neutral": {
@@ -2157,6 +4337,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "fences-neutral-absend": {
@@ -2174,6 +4372,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "fences-neutral-cardinality": {
@@ -2191,6 +4407,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "fences-neutral-determinant": {
@@ -2208,6 +4442,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "matrix": {
@@ -2227,6 +4479,34 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "matrix-simple": {
@@ -2246,6 +4526,34 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "matrix-trivial": {
@@ -2263,6 +4571,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "determinant": {
@@ -2282,6 +4608,34 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "determinant-simple": {
@@ -2301,6 +4655,34 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "matrix-vector": {
@@ -2320,6 +4702,34 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "matrix-vector-simple": {
@@ -2339,6 +4749,34 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "matrix-vector-simple-silentcolnum": {
@@ -2358,6 +4796,34 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "matrix-row-vector": {
@@ -2377,6 +4843,34 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "matrix-row-vector-simple": {
@@ -2396,6 +4890,34 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "matrix-row-vector-simple-silentcolnum": {
@@ -2415,6 +4937,34 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "matrix-row": {
@@ -2432,6 +4982,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "matrix-end-matrix": {
@@ -2449,6 +5017,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "matrix-end-vector": {
@@ -2466,6 +5052,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "matrix-end-determinant": {
@@ -2483,6 +5087,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "vector": {
@@ -2502,6 +5124,34 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "vector-simple": {
@@ -2521,6 +5171,34 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "row-vector": {
@@ -2540,6 +5218,34 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "row-vector-simple": {
@@ -2559,6 +5265,34 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "vector-end-matrix": {
@@ -2576,6 +5310,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "vector-end-vector": {
@@ -2593,6 +5345,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "vector-end-vector-endvector": {
@@ -2610,6 +5380,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "vector-end-determinant": {
@@ -2627,6 +5415,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "binomial": {
@@ -2645,6 +5451,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%2",
+        "%2": "%1"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "lines-summary": {
@@ -2663,6 +5492,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "cases-summary": {
@@ -2681,6 +5533,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "lines": {
@@ -2698,6 +5573,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "blank-cell": {
@@ -2713,6 +5606,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "blank-line": {
@@ -2728,6 +5629,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "blank-cell-empty": {
@@ -2743,6 +5652,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "blank-line-empty": {
@@ -2758,6 +5675,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "cases": {
@@ -2775,6 +5700,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "lines-cases-summary": {
@@ -2793,6 +5736,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "lines-cases": {
@@ -2810,6 +5776,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "lines-equations-summary": {
@@ -2828,6 +5812,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "lines-equations": {
@@ -2845,6 +5852,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "lines-steps-summary": {
@@ -2863,6 +5888,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "lines-steps": {
@@ -2880,6 +5928,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "lines-rows-summary": {
@@ -2898,6 +5964,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "lines-rows": {
@@ -2915,6 +6004,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "lines-constraints-summary": {
@@ -2933,6 +6040,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "lines-constraints": {
@@ -2950,6 +6080,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "bigop": {
@@ -2968,6 +6116,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "limboth": {
@@ -2987,6 +6158,34 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "limlower": {
@@ -3005,6 +6204,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "limupper": {
@@ -3023,6 +6245,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "integral": {
@@ -3041,6 +6286,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "overscript": {
@@ -3059,6 +6327,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "overscript-limits": {
@@ -3077,6 +6368,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "underscript": {
@@ -3095,6 +6409,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "underscript-limits": {
@@ -3113,6 +6450,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "mixed-number": {
@@ -3131,6 +6491,29 @@
     "description": "Mixed numbers",
     "latex": "2 \\frac{1}{3}",
     "example": "Two and one third",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "number-with-chars": {
@@ -3148,6 +6531,24 @@
     "description": "A number that contains letters",
     "latex": "",
     "example": "Number #A0FF",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "decimal-period": {
@@ -3166,6 +6567,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "decimal-period-float": {
@@ -3184,6 +6608,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "decimal-period-singular": {
@@ -3201,6 +6648,25 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "decimal-period-singular-float": {
@@ -3218,6 +6684,25 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "decimal-point": {
@@ -3233,6 +6718,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "line-segment": {
@@ -3251,6 +6744,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "conjugate": {
@@ -3268,6 +6784,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "defined-by": {
@@ -3283,6 +6817,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "adorned-sign": {
@@ -3301,6 +6843,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "factorial": {
@@ -3316,6 +6881,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "left-super": {
@@ -3333,6 +6906,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "left-super-list": {
@@ -3350,6 +6941,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "left-sub": {
@@ -3367,6 +6976,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "left-sub-list": {
@@ -3384,6 +7011,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "right-super": {
@@ -3401,6 +7046,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "right-super-list": {
@@ -3418,6 +7081,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "right-sub": {
@@ -3435,6 +7116,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "right-sub-list": {
@@ -3452,6 +7151,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "choose": {
@@ -3470,6 +7187,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%2",
+        "%2": "%1"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "permute": {
@@ -3488,6 +7228,29 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%2",
+        "%2": "%1"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "unit-square": {
@@ -3505,6 +7268,24 @@
     "description": "A unit that is squared",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "unit-cubic": {
@@ -3522,6 +7303,24 @@
     "description": "A unit that is cubed",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "unit-reciprocal": {
@@ -3538,6 +7337,21 @@
     "description": "A unit to the power of negative one",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "unit-reciprocal-singular": {
@@ -3554,6 +7368,21 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "unit-divide": {
@@ -3572,6 +7401,29 @@
     "description": "A fraction of units",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "german-font": {
@@ -3585,6 +7437,12 @@
     "description": "A character in fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "german-font-bold": {
@@ -3598,6 +7456,12 @@
     "description": "A character in bold fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "set-member-member": {
@@ -3612,6 +7476,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "set-not-member-member": {
@@ -3626,6 +7497,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "article": {
@@ -3639,6 +7517,12 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "superscript-simple-function": {
@@ -3656,6 +7540,23 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%2"
+      },
+      "hi": {
+        "%1": "%2",
+        "%2": "%1"
+      },
+      "it": {
+        "%1": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-ordinal-number": {
@@ -3673,6 +7574,25 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-ordinal-negative": {
@@ -3689,6 +7609,21 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-ordinal-power-number": {
@@ -3705,6 +7640,21 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-ordinal-power-negative": {
@@ -3721,6 +7671,21 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-ordinal-power-identifier": {
@@ -3737,6 +7702,21 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-ordinal-power-default": {
@@ -3753,6 +7733,21 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-power": {
@@ -3769,6 +7764,21 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-power-default": {
@@ -3785,6 +7795,21 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "exponent-ordinal": {
@@ -3801,6 +7826,21 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "exponent-ordinal-zero": {
@@ -3815,6 +7855,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "exponent-ordinalpower": {
@@ -3830,6 +7877,18 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "exponent-ordinalpower-zero": {
@@ -3843,6 +7902,12 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "set-prefix-operators": {
@@ -3859,6 +7924,21 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "operators-after-power": {
@@ -3874,6 +7954,18 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "fences-metric": {
@@ -3891,6 +7983,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "fences-metric-absend": {
@@ -3908,6 +8018,24 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "enclose": {
@@ -3922,6 +8050,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "enclose-end": {
@@ -3936,6 +8071,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "overbar": {
@@ -3949,6 +8091,12 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "underbar": {
@@ -3962,6 +8110,12 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "leftbar": {
@@ -3975,6 +8129,12 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "rightbar": {
@@ -3988,6 +8148,12 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "crossout": {
@@ -4001,6 +8167,12 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "crossout-end": {
@@ -4014,6 +8186,12 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "cancel-over": {
@@ -4028,6 +8206,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "cancel-under": {
@@ -4042,6 +8227,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "cancel-over-end": {
@@ -4056,6 +8248,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "cancel-under-end": {
@@ -4070,6 +8269,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "en",
+    "order": {
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-prefix-reciprocal": {
@@ -4085,6 +8291,17 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "fr",
+    "order": {
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-prefix-reciprocal-simple": {
@@ -4100,6 +8317,17 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "fr",
+    "order": {
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-reciprocal": {
@@ -4114,6 +8342,15 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "fr",
+    "order": {
+      "fr": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "superscript-ordinal-letter": {
@@ -4128,6 +8365,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "fr",
+    "order": {
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "superscript-ordinal-cap": {
@@ -4142,6 +8386,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "fr",
+    "order": {
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "unit-reciprocal-multi": {
@@ -4155,6 +8406,12 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "fr",
+    "order": {
+      "fr": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "vbar-args-such-that": {
@@ -4169,6 +8426,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "hi",
+    "order": {
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "vbar-args-divides": {
@@ -4183,6 +8447,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "hi",
+    "order": {
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "vbar-args-always-divides": {
@@ -4197,6 +8468,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "hi",
+    "order": {
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "vbar-args-given": {
@@ -4211,6 +8489,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "hi",
+    "order": {
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "element": {
@@ -4226,6 +8511,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "hi",
+    "order": {
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "element-in-set": {
@@ -4241,6 +8534,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "hi",
+    "order": {
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "element-in-set-woall": {
@@ -4256,6 +8557,14 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "hi",
+    "order": {
+      "hi": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      }
+    },
     "maximum": 3
   },
   "appl-simple-inverse": {
@@ -4270,6 +8579,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "hi",
+    "order": {
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "function-prefix-det": {
@@ -4284,6 +8600,13 @@
     "description": "",
     "latex": "",
     "example": "",
+    "reference": "it",
+    "order": {
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "squared-masculine": {
@@ -4295,6 +8618,10 @@
     "description": "Squared if base is grammatically of masculine gender",
     "latex": "",
     "example": "1 quadrato",
+    "reference": "it",
+    "order": {
+      "it": {}
+    },
     "maximum": 0
   },
   "squared-feminine": {
@@ -4306,6 +8633,10 @@
     "description": "Squared if base is grammatically of feminine gender",
     "latex": "",
     "example": "a quadrata",
+    "reference": "it",
+    "order": {
+      "it": {}
+    },
     "maximum": 0
   }
 }

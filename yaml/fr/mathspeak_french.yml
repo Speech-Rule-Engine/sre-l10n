@@ -16,8 +16,8 @@ blank-line-empty:
 
 # Explicit speaking of font
 # Example: bold alpha
-# %1: The font
-# %2: The expression
+# %1: The expression
+# %2: The font
 font:
   - %1
   - %2
@@ -62,8 +62,8 @@ number-baseline-brief:
 
 # A number with unusual font that follows directly an identifier. Has to be explicitly separated with a baseline indicator and its font.
 # Example: t baseline doublestruck zero
-# %1: The font
-# %2: The number
+# %1: The number
+# %2: The font
 number-baseline-font:
   - $1: "position de base"
   - %1
@@ -71,8 +71,8 @@ number-baseline-font:
 
 # A number with unusual font that follows directly an identifier. Has to be explicitly separated with a brief baseline indicator and its font.
 # Example: t base doublestruck zero
-# %1: The font
-# %2: The number
+# %1: The number
+# %2: The font
 number-baseline-font-brief:
   - $1: "base"
   - %1
@@ -547,8 +547,8 @@ layout-sbrief:
   - $2: "fin tableau"
 
 # A binomial or two dimensional vector
-# %1: Element in first row
-# %2: Element in second row
+# %1: Element in second row
+# %2: Element in first row
 binomial:
   - $1: "début binomiale"
   - %1
