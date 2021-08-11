@@ -144,17 +144,12 @@ export class ActionSet extends BaseSet {
   }
 
   private makeComments(name: string) {
-    if (name === 'font') {
-      console.log(`Updating comment for ${this.locale} ${name} with`);
-      console.log(this.parameters[name]);
-    }
     let comment = this.comments[name];
     let keys = Object.keys(this.parameters[name]);
     if (!comment) {
       comment = new Comment(name, keys);
       this.comments[name] = comment;
     }
-    // Here we compute the order of the comments.
     comment.update(this.locale, keys);
   }
 

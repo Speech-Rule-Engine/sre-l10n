@@ -19,6 +19,7 @@
  */
 
 import {referenceSets} from './forward';
+import {Component} from './rules';
 import {loadComments, saveComments, sreDomains} from './util';
 
 export class Comment {
@@ -55,16 +56,65 @@ export class Comment {
   public reference: string = '';
 
   /**
+   * The ordering of the parameters.
+   */
+  public order: {[loc: string]: {[param: string]: string}} = {};
+
+  /**
    * Maximum number of parameters for locales. If this is smaller than the
    * number of parameters, they will be pruned on saving.
    */
   private maximum: number = 0;
 
   /**
+   * Checks if two components match. That is it removes successively attributes
+   * and grammar.
+   *
+   * @param {Component} comp1 First component.
+   * @param {Component} comp2 Second component.
+   */
+  private static matchComponents(comp1: Component, comp2: Component) {
+    // Decreasing strength, in case of testing or if something goes wrong.
+    let c1 = comp1.clone();
+    let c2 = comp2.clone();
+    if (c1.toString() === c2.toString()) {
+      return true;
+    }
+    c1.attributes = {};
+    c2.attributes = {};
+    if (c1.toString() === c2.toString()) {
+      return true;
+    }
+    c1.grammar = {};
+    c2.grammar = {};
+    if (c1.toString() === c2.toString()) {
+      return true;
+    }
+    return false;
+  }
+
+  /**
+   * Cleans a parameter map by removing everything that is not of the for %1-n.
+   * @param map The map to clean.
+   */
+  private static cleanParameters(map: string[]) {
+    return map.filter(Comment.isParameter);
+  }
+
+  /**
+   * Checks if the parameter needs to be processed, i.e., %i with i!=0.
+   *
+   * @param str The string to check.
+   */
+  private static isParameter(str: string) {
+    return str.match(/^%[0-9]+$/) && str !== '%0';
+  }
+
+  /**
    * @param rule The name of the rule the comment is for.
    */
   constructor(public rule: string, parameters: string[] = []) {
-    this.cleanParameters(parameters).forEach(p => this.parameters[p] = '');
+    Comment.cleanParameters(parameters).forEach(p => this.parameters[p] = '');
   }
 
   /**
@@ -97,6 +147,7 @@ export class Comment {
     this.description = json.description || '';
     this.latex = json.latex || '';
     this.example = json.example || '';
+    this.order = json.order || {};
     this.reference = (json.reference !== undefined) ? json.reference :
       (Object.keys(this.locales).includes('en') ?
         'en' : Object.keys(this.locales)[0]);
@@ -108,11 +159,7 @@ export class Comment {
   }
 
   public update(locale: string, keys: string[]) {
-    let reference = referenceSets[this.reference];
-    if (!reference) {
-      this.reference = locale;
-    }
-    keys = this.cleanParameters(keys);
+    keys = Comment.cleanParameters(keys);
     let length = keys.length;
     this.locales[locale] = length;
     if (length <= this.maximum) {
@@ -141,12 +188,37 @@ export class Comment {
   }
 
 
-  /**
-   * Cleans a parameter map by removing everything that is not of the for %1-n.
-   * @param map The map to clean.
-   */
-  private cleanParameters(map: string[]) {
-    return map.filter(x => x.match(/^%[0-9]+$/) && x !== '%0');
+  public getOrder() {
+    let ref = referenceSets[this.reference].parameters[this.rule];
+    for (let [loc, max] of Object.entries(this.locales)) {
+      let ordering: {[key: string]: string} = {};
+      this.order[loc] = ordering;
+      let orig = referenceSets[loc].parameters[this.rule];
+      let used = [];
+      for (let [okey, ocomp] of Object.entries(orig)) {
+        if (!Comment.isParameter(okey)) continue;
+        for (let [rkey, rcomp] of Object.entries(ref)) {
+          if (!Comment.isParameter(rkey)) continue;
+          if (Comment.matchComponents(ocomp, rcomp)) {
+            ordering[okey] = rkey;
+            used.push(rkey);
+            break;
+          }
+        }
+      }
+      if (Object.keys(ordering).length === max) continue;
+      console.info(`Extra parameters in comments of rule ${this.rule} for locale ${loc}`);
+      for (let okey of Object.keys(orig)) {
+        if (!Comment.isParameter(okey)) continue;
+        if (ordering[okey]) continue;
+        for (let rkey of Object.keys(ref)) {
+          if (!Comment.isParameter(rkey)) continue;
+          if (used.includes(rkey)) continue;
+          ordering[okey] = rkey;
+          used.push(rkey);
+        }
+      }
+    }
   }
 
 }
@@ -178,6 +250,7 @@ export function getComments(domain: string) {
 export function writeComments(domain: string) {
   let comments = getComments(domain);
   for (let comment of Object.values(comments)) {
+    comment.getOrder();
     comment.prune();
   }
   saveComments(domain, comments);
