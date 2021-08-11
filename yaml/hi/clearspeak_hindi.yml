@@ -15,26 +15,34 @@ font:
   - %1
   - %2 (pause:short)
 
-# 
+# Speaking an open ended ellipsis in AndSoOn preference
+# Example: a comma b comma and so on
+# LaTeX Example: $a, b, \ldots$
 ellipsis:
   - $1: "आदि, आदि"
 
-# 
+# Speaking an intermediate ellipsis in AndSoOn preference
+# Example: a comma b comma and so on up to n
+# LaTeX Example: $a,b,\ldots n$
 ellipsis-andsoon:
   - $1: "आदि आदि आदि"
 
-# 
-# %1: 
-# %2: 
+# Interprets an vertical with subscript as evaluation of an antiderivative
+# Example: F of x, evaluated at x equals 0
+# LaTeX Example: $F(x)|_{x=0}$
+# %1: Expression left of the vertical bar.
+# %2: The subscript to the right of the vertical bar
 vbar-evaluated:
   - %1 (pause:short)
   - %2
   - $1: "पर मूल्यांकित" (pause:short)
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Interprets an vertical with subscript as evaluation of an antiderivative
+# Example: F of x, evaluated at infinity, minus the same expression evaluated at 0
+# LaTeX Example: $F(x)|_{0}^\infty$
+# %1: Expression left of the vertical bar.
+# %2: The superscript to the right of the vertical bar
+# %3: The subscript to the right of the vertical bar
 vbar-evaluated-both:
   - %1 (pause:short)
   - %2
@@ -103,7 +111,9 @@ element-in-set-woall:
   - %2
   - %3
 
-# 
+# Set membership symbol interpreted as member of
+# Example: a is a member of A
+# LaTeX Example: $a\in A$
 set-member:
   - $1: "में"
 
@@ -111,15 +121,21 @@ set-member:
 set-member-member:
   - $1: "में"
 
-# 
+# Set membership symbol interpreted as element of
+# Example: a is an element of A
+# LaTeX Example: $a\in A$
 set-member-element:
   - $1: "में"
 
-# 
+# Set membership symbol interpreted as belongs to
+# Example: a belongs to A
+# LaTeX Example: $a\in A$
 set-member-belongs:
   - $1: "में"
 
-# 
+# Set membership symbol interpreted as not member of
+# Example: a is not a member of A
+# LaTeX Example: $a\not\in A$
 set-not-member:
   - $1: "में नही"
 
@@ -127,11 +143,15 @@ set-not-member:
 set-not-member-member:
   - $1: "में नही"
 
-# 
+# Set membership symbol interpreted as not element of
+# Example: a is not an element of A
+# LaTeX Example: $a\not\in A$
 set-not-member-element:
   - $1: "में नही"
 
-# 
+# Set membership symbol interpreted as not belongs to
+# Example: a does not belong to A
+# LaTeX Example: $a\not\in A$
 set-not-member-belongs:
   - $1: "में नही"
 

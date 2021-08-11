@@ -148,9 +148,9 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Speaking an open ended ellipsis in AndSoOn preference",
+    "latex": "a, b, \\ldots",
+    "example": "a comma b comma and so on",
     "reference": "en",
     "order": {
       "de": {},
@@ -171,9 +171,9 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Speaking an intermediate ellipsis in AndSoOn preference",
+    "latex": "a,b,\\ldots n",
+    "example": "a comma b comma and so on up to n",
     "reference": "en",
     "order": {
       "de": {},
@@ -187,8 +187,8 @@
   "vbar-evaluated": {
     "rule": "vbar-evaluated",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Expression left of the vertical bar.",
+      "%2": "The subscript to the right of the vertical bar"
     },
     "locales": {
       "de": 2,
@@ -197,9 +197,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Interprets an vertical with subscript as evaluation of an antiderivative",
+    "latex": "F(x)|_{x=0}",
+    "example": "F of x, evaluated at x equals 0",
     "reference": "en",
     "order": {
       "de": {
@@ -228,9 +228,9 @@
   "vbar-evaluated-both": {
     "rule": "vbar-evaluated-both",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "Expression left of the vertical bar.",
+      "%2": "The superscript to the right of the vertical bar",
+      "%3": "The subscript to the right of the vertical bar"
     },
     "locales": {
       "de": 3,
@@ -239,9 +239,9 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Interprets an vertical with subscript as evaluation of an antiderivative",
+    "latex": "F(x)|_{0}^\\infty",
+    "example": "F of x, evaluated at infinity, minus the same expression evaluated at 0",
     "reference": "en",
     "order": {
       "de": {
@@ -281,9 +281,9 @@
       "fr": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Vertical bar interpreted as such that",
+    "latex": "a|b",
+    "example": "a such that b",
     "reference": "en",
     "order": {
       "de": {},
@@ -302,9 +302,9 @@
       "fr": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Vertical bar interpreted as divides symbol",
+    "latex": "a|b",
+    "example": "a divides b",
     "reference": "en",
     "order": {
       "de": {},
@@ -323,9 +323,9 @@
       "fr": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Vertical bar interpreted as divides symbol, regardless of context",
+    "latex": "a|b",
+    "example": "a divides b",
     "reference": "en",
     "order": {
       "de": {},
@@ -344,9 +344,9 @@
       "fr": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Vertical bar interpreted as given, e.g., in a set context",
+    "latex": "a|b",
+    "example": "a given b",
     "reference": "en",
     "order": {
       "de": {},
@@ -366,9 +366,9 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol interpreted as member of",
+    "latex": "a\\in A",
+    "example": "a is a member of A",
     "reference": "en",
     "order": {
       "de": {},
@@ -389,9 +389,9 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol interpreted as element of",
+    "latex": "a\\in A",
+    "example": "a is an element of A",
     "reference": "en",
     "order": {
       "de": {},
@@ -412,9 +412,9 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol interpreted as belongs to",
+    "latex": "a\\in A",
+    "example": "a belongs to A",
     "reference": "en",
     "order": {
       "de": {},
@@ -435,9 +435,9 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol interpreted as not member of",
+    "latex": "a\\not\\in A",
+    "example": "a is not a member of A",
     "reference": "en",
     "order": {
       "de": {},
@@ -458,9 +458,9 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol interpreted as not element of",
+    "latex": "a\\not\\in A",
+    "example": "a is not an element of A",
     "reference": "en",
     "order": {
       "de": {},
@@ -481,9 +481,9 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol interpreted as not belongs to",
+    "latex": "a\\not\\in A",
+    "example": "a does not belong to A",
     "reference": "en",
     "order": {
       "de": {},
@@ -497,12 +497,12 @@
   "function-article": {
     "rule": "function-article",
     "parameters": {
-      "%1": ""
+      "%1": "The functional expression"
     },
     "locales": {
       "de": 1
     },
-    "description": "",
+    "description": "The article before a function. Rule ensures that the case is corrected.",
     "latex": "",
     "example": "",
     "reference": "de",
@@ -516,12 +516,12 @@
   "function-article-fem": {
     "rule": "function-article-fem",
     "parameters": {
-      "%1": ""
+      "%1": "The functional expression"
     },
     "locales": {
       "de": 1
     },
-    "description": "",
+    "description": "The feminine article before a function. Rule ensures that the case is corrected.",
     "latex": "",
     "example": "",
     "reference": "de",
@@ -535,8 +535,8 @@
   "appl": {
     "rule": "appl",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The function",
+      "%2": "The argument"
     },
     "locales": {
       "de": 2,
@@ -545,9 +545,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Fallback rule for function application",
+    "latex": "f(x)",
+    "example": "f of x",
     "reference": "en",
     "order": {
       "de": {
@@ -576,8 +576,8 @@
   "appl-simple": {
     "rule": "appl-simple",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The function",
+      "%2": "The argument"
     },
     "locales": {
       "de": 2,
@@ -586,9 +586,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Function application of a single letter function like f, g, h.",
+    "latex": "f(x)",
+    "example": "f of x",
     "reference": "en",
     "order": {
       "de": {
@@ -617,8 +617,8 @@
   "appl-simple-fenced": {
     "rule": "appl-simple-fenced",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The function",
+      "%2": "The argument, which is a fenced function application"
     },
     "locales": {
       "de": 2,
@@ -627,9 +627,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Function application of a single letter function with argument being another function application",
+    "latex": "f(h(x))",
+    "example": "f of h of x",
     "reference": "en",
     "order": {
       "de": {
@@ -658,8 +658,8 @@
   "appl-times": {
     "rule": "appl-times",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The function",
+      "%2": "The argument"
     },
     "locales": {
       "de": 2,
@@ -668,9 +668,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Forces function applications to be read as juxtapositions",
+    "latex": "f(x)",
+    "example": "f times x",
     "reference": "en",
     "order": {
       "de": {
@@ -699,8 +699,8 @@
   "function-prefix": {
     "rule": "function-prefix",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Prefix function",
+      "%2": "The argument"
     },
     "locales": {
       "de": 2,
@@ -709,9 +709,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Application of a known prefix function, e.g., a trigonometric function",
+    "latex": "\\sin x",
+    "example": "sine x",
     "reference": "en",
     "order": {
       "de": {
@@ -740,8 +740,8 @@
   "function-prefix-simple-arg": {
     "rule": "function-prefix-simple-arg",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The prefix function",
+      "%2": "The fenced argument"
     },
     "locales": {
       "de": 2,
@@ -750,9 +750,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Application of a known prefix function to a fenced but simple argument (e.g., xy is simple, x + y is not)",
+    "latex": "\\sin(xy)",
+    "example": "sine x y",
     "reference": "en",
     "order": {
       "de": {
@@ -781,8 +781,8 @@
   "function-prefix-embell": {
     "rule": "function-prefix-embell",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The embellished prefix function",
+      "%2": "The argument"
     },
     "locales": {
       "de": 2,
@@ -791,9 +791,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Application of a prefix function with index or superscript",
+    "latex": "\\sin^2 x",
+    "example": "sine squared x",
     "reference": "en",
     "order": {
       "de": {
@@ -823,7 +823,7 @@
     "rule": "function-prefix-fenced-or-frac-arg",
     "parameters": {
       "%1": "",
-      "%2": ""
+      "%2": "The "
     },
     "locales": {
       "de": 2,
@@ -832,9 +832,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Application of a prefix functions to a non-simple argument.",
+    "latex": "\\sine(\\frac{a}{b})",
+    "example": "the sine of a over b",
     "reference": "en",
     "order": {
       "de": {

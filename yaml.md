@@ -52,7 +52,8 @@ etc.
 
 This is a more natural speaking style, which in addition offers a considerable
 number of speech preferences that allow fine tuning of how expressions are
-spoken. As a consequence it has considerably more rules that need translation.
+spoken. Clearspeak works a lot with pausing to achieve disambiguation. As a
+consequence it has considerably more rules that need translation.
 
 E.g., the above fraction would be spoken in standard Clearspeak as
 
@@ -66,6 +67,13 @@ or in `Fraction` preference `FracOver` as
 the fraction a over the fraction b over c
 ```
 
+Note, that Clearspeak uses a notion of *simple terms* expressions to simplify
+speech when possible. In the above example `b` and `c` are considered simple
+terms, leading to a shortened transcription of the fraction, while `b over c` is
+considered a complex term so the overall fraction is spoken in more detail.
+
+Another example is juxtaposition where `xy` is simple versus other infix
+operators like `x + y`, which is not simple.
 
 ### Prefix
 
@@ -234,7 +242,7 @@ added line a reference parameter.
 
 #### Localisable Annotations
 
-There are two annotations that can contain localisable strings are
+There exist three types of annotations that can contain localisable strings.
 
 * `separator`: A string that is interspersed in a sequence of expressions (e.g., an operator)
 * `context`: A string that describes the context of an expression (e.g., rows and columns in a matrix)
