@@ -583,8 +583,8 @@ layout-sbrief:
   - $2: "Ende Anordnung"
 
 # A binomial or two dimensional vector
-# %1: Element in first row
-# %2: Element in second row
+# %1: Element in second row
+# %2: Element in first row
 binomial:
   - $1: "Anfang Binomialkoeffizient"
   - %1
@@ -603,8 +603,8 @@ binomial-brief:
   - $3: "Ende Binomial"
 
 # A binomial or two dimensional vector in super brief style
-# %1: Element in first row
-# %2: Element in second row
+# %1: Element in second row
+# %2: Element in first row
 binomial-sbrief:
   - $1: "Binomial"
   - %1

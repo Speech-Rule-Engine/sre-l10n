@@ -458,8 +458,8 @@ abstr-cases-var:
 # Summary of a list of elements separated by a punctuation like comma, semi-colon, etc.
 # Example: comma separated list of length 3
 # LaTeX Example: $a, b, c$
-# %1: The separating punctuation
-# %2: The number of separated elements
+# %1: The number of separated elements
+# %2: The separating punctuation
 # %3: The summarized term. If collapsed will trigger the grammatically correct adjective.
 abstr-punctuated:
   - $1: "liste de longueur"

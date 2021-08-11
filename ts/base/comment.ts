@@ -128,14 +128,17 @@ export class Comment {
     if (this.latex) {
       out.push(`# LaTeX Example: $${this.latex}$`);
     }
-    let length = this.locales[locale];
-    let count = 0;
-    for (let [param, str] of Object.entries(this.parameters)) {
-      if (count === length) {
-        break;
+    // Picking the correct parameter comments.
+    let order = this.order[locale];
+    if (!order) {
+      let count = 0;
+      while (count < this.locales[locale]) {
+        const param = `%{++count}`;
+        order[param] = param;
       }
-      count++;
-      out.push(`# ${param}: ${str}`);
+    }
+    for (let [dom, cod] of Object.entries(order)) {
+      out.push(`# ${dom}: ${this.parameters[cod]}`);
     }
     return out.join('\n');
   }

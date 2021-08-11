@@ -156,8 +156,8 @@ abstr-subsup:
 # Summary of an infix operation giving the number of terms
 # Example: division with two elements
 # LaTeX Example: $a/b$
-# %1: The kind of operation.
-# %2: The number of terms.
+# %1: The number of terms.
+# %2: The kind of operation.
 abstr-infixop:
   - %1
   - $1: "अवयव"
@@ -346,8 +346,8 @@ abstr-cases-var:
 # Summary of a list of elements separated by a punctuation like comma, semi-colon, etc.
 # Example: comma separated list of length 3
 # LaTeX Example: $a, b, c$
-# %1: The separating punctuation
-# %2: The number of separated elements
+# %1: The number of separated elements
+# %2: The separating punctuation
 abstr-punctuated:
   - %1
   - $1: "लम्बाई की"
@@ -394,8 +394,8 @@ abstr-relation:
 # Summary of a relation sequence with three or more elements
 # Example: equality sequence with 3 elements
 # LaTeX Example: $a = b = c$
-# %1: The separating relation symbol
-# %2: The number of elements in the sequence
+# %1: The number of elements in the sequence
+# %2: The separating relation symbol
 abstr-relation-seq:
   - %1
   - $1: "अवयव"

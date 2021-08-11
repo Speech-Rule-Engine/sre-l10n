@@ -8,8 +8,8 @@ collapsed:
 
 # Explicit speaking of font
 # Example: bold alpha
-# %1: The font
-# %2: The expression
+# %1: The expression
+# %2: The font
 font:
   - %1
   - %2 (pause:short)
