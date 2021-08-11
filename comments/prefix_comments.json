@@ -14,6 +14,14 @@
     "latex": "\\frac{a}{b}",
     "example": "Numerator a",
     "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "denominator": {
@@ -31,6 +39,14 @@
     "latex": "\\frac{a}{b}",
     "example": "Denominator b",
     "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "base": {
@@ -48,6 +64,14 @@
     "latex": "a^b",
     "example": "Base a",
     "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "exponent": {
@@ -65,6 +89,14 @@
     "latex": "a^b",
     "example": "Exponent b",
     "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "subscript": {
@@ -82,6 +114,14 @@
     "latex": "a_i",
     "example": "Subscript i",
     "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "overscript": {
@@ -99,6 +139,14 @@
     "latex": "\\sum_{n=0}^{\\infty}",
     "example": "Overscript infinity",
     "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "underscript": {
@@ -116,6 +164,14 @@
     "latex": "\\sum_{n=0}^{\\infty}",
     "example": "Underscript n equals zero",
     "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "radicand": {
@@ -133,6 +189,14 @@
     "latex": "\\sqrt{A}",
     "example": "Radicand A",
     "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "index": {
@@ -150,6 +214,14 @@
     "latex": "\\sqrt[4]{a}",
     "example": "Index 4",
     "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "leftsub": {
@@ -167,6 +239,14 @@
     "latex": "\\tensor{M}{^a_b^c_d}",
     "example": "Left subscript a",
     "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "leftsub-counted": {
@@ -186,6 +266,26 @@
     "latex": "\\tensor{M}{^{ae}_b^c_d}",
     "example": "2nd left subscript e",
     "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "es": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "leftsuper": {
@@ -203,6 +303,14 @@
     "latex": "\\tensor{M}{^a_b^c_d}",
     "example": "Left superscript b",
     "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "leftsuper-counted": {
@@ -222,6 +330,26 @@
     "latex": "\\tensor{M}{^a_{be}^c_d}",
     "example": "2nd left superscript e",
     "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "es": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "rightsub": {
@@ -239,6 +367,14 @@
     "latex": "\\tensor{M}{^a_b^c_d}",
     "example": "Right subscript c",
     "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "rightsub-counted": {
@@ -258,6 +394,26 @@
     "latex": "\\tensor{M}{^a_b^c_{de}}",
     "example": "2nd right subscript e",
     "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "es": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "rightsuper": {
@@ -275,6 +431,14 @@
     "latex": "\\tensor{M}{^a_b^c_d}",
     "example": "Right superscript d",
     "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "rightsuper-counted": {
@@ -294,6 +458,26 @@
     "latex": "\\tensor{M}{^a_b^{ce}_d}",
     "example": "2nd right superscript e",
     "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "es": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "choice": {
@@ -311,6 +495,14 @@
     "latex": "(n \\\\ k)",
     "example": "Choice quantity n",
     "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "select": {
@@ -328,6 +520,14 @@
     "latex": "\\begin{pmatrix}n \\\\k \\end{pmatrix}",
     "example": "Selection quantity k",
     "reference": "en",
+    "order": {
+      "de": {},
+      "en": {},
+      "es": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
     "maximum": 0
   },
   "row": {
@@ -347,6 +547,26 @@
     "latex": "\\begin{pmatrix}a & b \\\\c & d\\end{pmatrix}",
     "example": "1st Row ...",
     "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "es": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   },
   "cell": {
@@ -367,6 +587,32 @@
     "latex": "\\begin{pmatrix}a & b \\\\c & d\\end{pmatrix}",
     "example": "2nd Row 1st Column c",
     "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "es": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
     "maximum": 2
   },
   "cell-simple": {
@@ -386,6 +632,26 @@
     "latex": "\\begin{pmatrix}a & b \\\\c & d\\end{pmatrix}",
     "example": "1st Column c",
     "reference": "en",
+    "order": {
+      "de": {
+        "%1": "%1"
+      },
+      "en": {
+        "%1": "%1"
+      },
+      "es": {
+        "%1": "%1"
+      },
+      "fr": {
+        "%1": "%1"
+      },
+      "hi": {
+        "%1": "%1"
+      },
+      "it": {
+        "%1": "%1"
+      }
+    },
     "maximum": 1
   }
 }

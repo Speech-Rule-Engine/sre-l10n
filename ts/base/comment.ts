@@ -211,8 +211,7 @@ export class Comment {
       for (let okey of Object.keys(orig)) {
         if (!Comment.isParameter(okey)) continue;
         if (ordering[okey]) continue;
-        for (let rkey of Object.keys(ref)) {
-          if (!Comment.isParameter(rkey)) continue;
+        for (let rkey of Object.keys(this.parameters)) {
           if (used.includes(rkey)) continue;
           ordering[okey] = rkey;
           used.push(rkey);
