@@ -45,6 +45,36 @@
   "vbar-given": [
     "$1: \"given\""
   ],
+  "member": [
+    "$1: \"is a member of\""
+  ],
+  "member-member": [
+    "$1: \"is a member of\""
+  ],
+  "member-element": [
+    "$1: \"is an element of\""
+  ],
+  "member-in": [
+    "$1: \"is in\""
+  ],
+  "member-belongs": [
+    "$1: \"belongs to\""
+  ],
+  "not-member": [
+    "$1: \"is not a member of\""
+  ],
+  "not-member-member": [
+    "$1: \"is not a member of\""
+  ],
+  "not-member-element": [
+    "$1: \"is not an element of\""
+  ],
+  "not-member-in": [
+    "$1: \"is not in\""
+  ],
+  "not-member-belongs": [
+    "$1: \"does not belong to\""
+  ],
   "set-member": [
     "$1: \"in\""
   ],
@@ -54,6 +84,9 @@
   "set-member-element": [
     "$1: \"element of\""
   ],
+  "set-member-in": [
+    "$1: \"in\""
+  ],
   "set-member-belongs": [
     "$1: \"belonging to\""
   ],
@@ -61,10 +94,13 @@
     "$1: \"not in\""
   ],
   "set-not-member-member": [
-    "$1: \"not member of\""
+    "$1: \"not a member of\""
   ],
   "set-not-member-element": [
-    "$1: \"not element of\""
+    "$1: \"not an element of\""
+  ],
+  "set-not-member-in": [
+    "$1: \"not in\""
   ],
   "set-not-member-belongs": [
     "$1: \"not belonging to\""

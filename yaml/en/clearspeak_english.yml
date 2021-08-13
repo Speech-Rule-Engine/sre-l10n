@@ -86,6 +86,46 @@ vbar-always-divides:
 vbar-given:
   - $1: "given"
 
+# 
+member:
+  - $1: "is a member of"
+
+# 
+member-member:
+  - $1: "is a member of"
+
+# 
+member-element:
+  - $1: "is an element of"
+
+# 
+member-in:
+  - $1: "is in"
+
+# 
+member-belongs:
+  - $1: "belongs to"
+
+# 
+not-member:
+  - $1: "is not a member of"
+
+# 
+not-member-member:
+  - $1: "is not a member of"
+
+# 
+not-member-element:
+  - $1: "is not an element of"
+
+# 
+not-member-in:
+  - $1: "is not in"
+
+# 
+not-member-belongs:
+  - $1: "does not belong to"
+
 # Set membership symbol interpreted as member of
 # Example: a is a member of A
 # LaTeX Example: $a\in A$
@@ -102,6 +142,10 @@ set-member-member:
 set-member-element:
   - $1: "element of"
 
+# 
+set-member-in:
+  - $1: "in"
+
 # Set membership symbol interpreted as belongs to
 # Example: a belongs to A
 # LaTeX Example: $a\in A$
@@ -116,13 +160,17 @@ set-not-member:
 
 # 
 set-not-member-member:
-  - $1: "not member of"
+  - $1: "not a member of"
 
 # Set membership symbol interpreted as not element of
 # Example: a is not an element of A
 # LaTeX Example: $a\not\in A$
 set-not-member-element:
-  - $1: "not element of"
+  - $1: "not an element of"
+
+# 
+set-not-member-in:
+  - $1: "not in"
 
 # Set membership symbol interpreted as not belongs to
 # Example: a does not belong to A
@@ -136,62 +184,78 @@ article:
   - $1: "the"
   - %1
 
-# 
-# %1: 
-# %2: 
+# Fallback rule for function application
+# Example: f of x
+# LaTeX Example: $f(x)$
+# %1: The function
+# %2: The argument
 appl:
   - %1
   - $1: "of"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Function application of a single letter function like f, g, h.
+# Example: f of x
+# LaTeX Example: $f(x)$
+# %1: The function
+# %2: The argument
 appl-simple:
   - %1
   - $1: "of" (pause:short)
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Function application of a single letter function with argument being another function application
+# Example: f of h of x
+# LaTeX Example: $f(h(x))$
+# %1: The function
+# %2: The argument, which is a fenced function application
 appl-simple-fenced:
   - %1
   - $1: "of" (pause:short)
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Forces function applications to be read as juxtapositions
+# Example: f times x
+# LaTeX Example: $f(x)$
+# %1: The function
+# %2: The argument
 appl-times:
   - %1
   - $1: "times"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Application of a known prefix function, e.g., a trigonometric function
+# Example: sine x
+# LaTeX Example: $\sin x$
+# %1: Prefix function
+# %2: The argument
 function-prefix:
   - %1
   - %2
 
-# 
-# %1: 
-# %2: 
+# Application of a known prefix function to a fenced but simple argument (e.g., xy is simple, x + y is not)
+# Example: sine x y
+# LaTeX Example: $\sin(xy)$
+# %1: The prefix function
+# %2: The fenced argument
 function-prefix-simple-arg:
   - %1
   - %2
 
-# 
-# %1: 
-# %2: 
+# Application of a prefix function with index or superscript
+# Example: sine squared x
+# LaTeX Example: $\sin^2 x$
+# %1: The embellished prefix function
+# %2: The argument
 function-prefix-embell:
   - %1
   - %2 (pause:short)
 
-# 
+# Application of a prefix functions to a non-simple argument.
+# Example: the sine of a over b
+# LaTeX Example: $\sine(\frac{a}{b})$
 # %1: 
-# %2: 
+# %2: The 
 function-prefix-fenced-or-frac-arg:
   - %1
   - $1: "of"

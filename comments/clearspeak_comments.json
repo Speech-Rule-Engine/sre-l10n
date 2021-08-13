@@ -8638,5 +8638,185 @@
       "it": {}
     },
     "maximum": 0
+  },
+  "member": {
+    "rule": "member",
+    "parameters": {},
+    "locales": {
+      "en": 0
+    },
+    "description": "",
+    "latex": "",
+    "example": "",
+    "reference": "en",
+    "order": {
+      "en": {}
+    },
+    "maximum": 0
+  },
+  "member-member": {
+    "rule": "member-member",
+    "parameters": {},
+    "locales": {
+      "en": 0
+    },
+    "description": "",
+    "latex": "",
+    "example": "",
+    "reference": "en",
+    "order": {
+      "en": {}
+    },
+    "maximum": 0
+  },
+  "member-element": {
+    "rule": "member-element",
+    "parameters": {},
+    "locales": {
+      "en": 0
+    },
+    "description": "",
+    "latex": "",
+    "example": "",
+    "reference": "en",
+    "order": {
+      "en": {}
+    },
+    "maximum": 0
+  },
+  "member-in": {
+    "rule": "member-in",
+    "parameters": {},
+    "locales": {
+      "en": 0
+    },
+    "description": "",
+    "latex": "",
+    "example": "",
+    "reference": "en",
+    "order": {
+      "en": {}
+    },
+    "maximum": 0
+  },
+  "member-belongs": {
+    "rule": "member-belongs",
+    "parameters": {},
+    "locales": {
+      "en": 0
+    },
+    "description": "",
+    "latex": "",
+    "example": "",
+    "reference": "en",
+    "order": {
+      "en": {}
+    },
+    "maximum": 0
+  },
+  "not-member": {
+    "rule": "not-member",
+    "parameters": {},
+    "locales": {
+      "en": 0
+    },
+    "description": "",
+    "latex": "",
+    "example": "",
+    "reference": "en",
+    "order": {
+      "en": {}
+    },
+    "maximum": 0
+  },
+  "not-member-member": {
+    "rule": "not-member-member",
+    "parameters": {},
+    "locales": {
+      "en": 0
+    },
+    "description": "",
+    "latex": "",
+    "example": "",
+    "reference": "en",
+    "order": {
+      "en": {}
+    },
+    "maximum": 0
+  },
+  "not-member-element": {
+    "rule": "not-member-element",
+    "parameters": {},
+    "locales": {
+      "en": 0
+    },
+    "description": "",
+    "latex": "",
+    "example": "",
+    "reference": "en",
+    "order": {
+      "en": {}
+    },
+    "maximum": 0
+  },
+  "not-member-in": {
+    "rule": "not-member-in",
+    "parameters": {},
+    "locales": {
+      "en": 0
+    },
+    "description": "",
+    "latex": "",
+    "example": "",
+    "reference": "en",
+    "order": {
+      "en": {}
+    },
+    "maximum": 0
+  },
+  "not-member-belongs": {
+    "rule": "not-member-belongs",
+    "parameters": {},
+    "locales": {
+      "en": 0
+    },
+    "description": "",
+    "latex": "",
+    "example": "",
+    "reference": "en",
+    "order": {
+      "en": {}
+    },
+    "maximum": 0
+  },
+  "set-member-in": {
+    "rule": "set-member-in",
+    "parameters": {},
+    "locales": {
+      "en": 0
+    },
+    "description": "",
+    "latex": "",
+    "example": "",
+    "reference": "en",
+    "order": {
+      "en": {}
+    },
+    "maximum": 0
+  },
+  "set-not-member-in": {
+    "rule": "set-not-member-in",
+    "parameters": {},
+    "locales": {
+      "en": 0
+    },
+    "description": "",
+    "latex": "",
+    "example": "",
+    "reference": "en",
+    "order": {
+      "en": {}
+    },
+    "maximum": 0
   }
 }

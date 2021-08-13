@@ -171,6 +171,86 @@
       }
     ]
   },
+  "member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"is a member of\""
+      }
+    ]
+  },
+  "member-member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"is a member of\""
+      }
+    ]
+  },
+  "member-element": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"is an element of\""
+      }
+    ]
+  },
+  "member-in": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"is in\""
+      }
+    ]
+  },
+  "member-belongs": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"belongs to\""
+      }
+    ]
+  },
+  "not-member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"is not a member of\""
+      }
+    ]
+  },
+  "not-member-member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"is not a member of\""
+      }
+    ]
+  },
+  "not-member-element": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"is not an element of\""
+      }
+    ]
+  },
+  "not-member-in": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"is not in\""
+      }
+    ]
+  },
+  "not-member-belongs": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"does not belong to\""
+      }
+    ]
+  },
   "set-member": {
     "components": [
       {
@@ -195,6 +275,14 @@
       }
     ]
   },
+  "set-member-in": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"in\""
+      }
+    ]
+  },
   "set-member-belongs": {
     "components": [
       {
@@ -215,7 +303,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"not member of\""
+        "content": "\"not a member of\""
       }
     ]
   },
@@ -223,7 +311,15 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"not element of\""
+        "content": "\"not an element of\""
+      }
+    ]
+  },
+  "set-not-member-in": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"not in\""
       }
     ]
   },
