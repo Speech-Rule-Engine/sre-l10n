@@ -349,7 +349,9 @@ export class ReturnSet extends BaseSet {
     let rules: util.JsonRule[] = [];
     for (let rule of this.order) {
       let action = this.actions[rule];
-      rules.push(['Action', rule, action.toString()]);
+      if (action) {
+        rules.push(['Action', rule, action.toString()]);
+      }
     }
     this.json.rules = rules;
     util.saveMathmaps(this.locale, this.domain, this.json, 'actions');
