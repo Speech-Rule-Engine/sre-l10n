@@ -131,6 +131,8 @@ export class Comment {
     // Picking the correct parameter comments.
     let order = this.order[locale];
     if (!order) {
+      order = {};
+      this.order = order;
       let count = 0;
       while (count < this.locales[locale]) {
         const param = `%{++count}`;

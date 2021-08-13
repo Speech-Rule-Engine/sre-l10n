@@ -149,6 +149,7 @@ export class ActionSet extends BaseSet {
     if (!comment) {
       comment = new Comment(name, keys);
       this.comments[name] = comment;
+      comment.reference = this.locale;
     }
     comment.update(this.locale, keys);
   }
