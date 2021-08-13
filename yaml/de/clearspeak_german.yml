@@ -98,6 +98,38 @@ vbar-always-divides:
 vbar-given:
   - $1: "für die gilt"
 
+# 
+member:
+  - $1: "ist Element von"
+
+# 
+member-element:
+  - $1: "ist Element von"
+  
+# 
+member-in:
+  - $1: "in"
+
+# 
+member-belongs:
+  - $1: "gehört zu"
+
+# 
+not-member:
+  - $1: "is kein Element von"
+
+# 
+not-member-element:
+  - $1: "is kein Element von"
+
+# 
+not-member-in:
+  - $1: "ist nicht in"
+
+# 
+not-member-belongs:
+  - $1: "gehört nicht zu"
+
 # Set membership symbol interpreted as member of
 # Example: a is a member of A
 # LaTeX Example: $a\in A$
