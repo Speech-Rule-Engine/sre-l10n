@@ -155,25 +155,31 @@ set-not-member-element:
 set-not-member-belongs:
   - $1: "में नही"
 
-# 
-# %1: 
-# %2: 
+# Fallback rule for function application
+# Example: f of x
+# LaTeX Example: $f(x)$
+# %1: The argument
+# %2: The function
 appl:
   - %1
   - $1: "का फलन"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Function application of a single letter function like f, g, h.
+# Example: f of x
+# LaTeX Example: $f(x)$
+# %1: The argument
+# %2: The function
 appl-simple:
   - %1
   - $1: "का फलन" (pause:short)
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Function application of a single letter function with argument being another function application
+# Example: f of h of x
+# LaTeX Example: $f(h(x))$
+# %1: The argument, which is a fenced function application
+# %2: The function
 appl-simple-fenced:
   - %1
   - $1: "का फलन" (pause:short)
@@ -187,38 +193,48 @@ appl-simple-inverse:
   - $1: "का प्रतिफलन"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Forces function applications to be read as juxtapositions
+# Example: f times x
+# LaTeX Example: $f(x)$
+# %1: The function
+# %2: The argument
 appl-times:
   - %1
   - $1: "गुना"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Application of a known prefix function, e.g., a trigonometric function
+# Example: sine x
+# LaTeX Example: $\sin x$
+# %1: Prefix function
+# %2: The argument
 function-prefix:
   - %1
   - %2
 
-# 
-# %1: 
-# %2: 
+# Application of a known prefix function to a fenced but simple argument (e.g., xy is simple, x + y is not)
+# Example: sine x y
+# LaTeX Example: $\sin(xy)$
+# %1: The prefix function
+# %2: The fenced argument
 function-prefix-simple-arg:
   - %1
   - %2
 
-# 
-# %1: 
-# %2: 
+# Application of a prefix function with index or superscript
+# Example: sine squared x
+# LaTeX Example: $\sin^2 x$
+# %1: The embellished prefix function
+# %2: The argument
 function-prefix-embell:
   - %1
   - %2 (pause:short)
 
-# 
+# Application of a prefix functions to a non-simple argument.
+# Example: the sine of a over b
+# LaTeX Example: $\sine(\frac{a}{b})$
 # %1: 
-# %2: 
+# %2: The 
 function-prefix-fenced-or-frac-arg:
   - %1
   - $1: "का फलन"
