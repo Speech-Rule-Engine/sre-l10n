@@ -73,6 +73,38 @@ vbar-always-divides:
 vbar-given:
   - $1: "sachant"
 
+# 
+member:
+  - $1: "est un"
+
+# 
+member-element:
+  - $1: "est un élément de"
+
+# 
+member-in:
+  - $1: "est dans"
+
+# 
+member-belongs:
+  - $1: "appartient à"
+
+# 
+not-member:
+  - $1: "n'est pas un"
+
+# 
+not-member-element:
+  - $1: "n'est pas un élément de"
+
+# 
+not-member-in:
+  - $1: "n'est pas dans"
+
+# 
+not-member-belongs:
+  - $1: "n'appartient pas à"
+
 # Set membership symbol interpreted as member of
 # Example: a is a member of A
 # LaTeX Example: $a\in A$
@@ -80,7 +112,7 @@ set-member:
   - $1: "est un"
 
 # 
-set-member-member:
+set-member-belongs:
   - $1: "appartient à"
 
 # Set membership symbol interpreted as element of
@@ -92,7 +124,7 @@ set-member-element:
 # Set membership symbol interpreted as belongs to
 # Example: a belongs to A
 # LaTeX Example: $a\in A$
-set-member-belongs:
+set-member-in:
   - $1: "est dans"
 
 # Set membership symbol interpreted as not member of
@@ -102,7 +134,7 @@ set-not-member:
   - $1: "n'est pas un"
 
 # 
-set-not-member-member:
+set-not-member-belongs:
   - $1: "n'appartient pas à"
 
 # Set membership symbol interpreted as not element of
@@ -114,7 +146,7 @@ set-not-member-element:
 # Set membership symbol interpreted as not belongs to
 # Example: a does not belong to A
 # LaTeX Example: $a\not\in A$
-set-not-member-belongs:
+set-not-member-in:
   - $1: "n'est pas dans"
 
 # Fallback rule for function application
