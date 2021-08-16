@@ -30,7 +30,8 @@ let grammar: {[attr: string]: boolean} = {
   dual: true,
   case: true,
   gender: true,
-  article: true
+  article: true,
+  addArticle: true
 };
 
 let attributes: {[attr: string]: boolean} = {

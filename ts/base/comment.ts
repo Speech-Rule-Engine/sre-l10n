@@ -132,7 +132,7 @@ export class Comment {
     let order = this.order[locale];
     if (!order) {
       order = {};
-      this.order = order;
+      this.order[locale] = order;
       let count = 0;
       while (count < this.locales[locale]) {
         const param = `%{++count}`;

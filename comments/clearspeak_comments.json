@@ -366,12 +366,33 @@
       "hi": 0,
       "it": 0
     },
-    "description": "Set membership symbol interpreted as member of",
-    "latex": "a\\in A",
-    "example": "a is a member of A",
+    "description": "Set membership symbol within a set expression read in short form. Fallback rule.",
+    "latex": "\\{a\\in A| ...\\}",
+    "example": "a in A",
     "reference": "en",
     "order": {
       "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
+    "maximum": 0
+  },
+  "set-member-member": {
+    "rule": "set-member-member",
+    "parameters": {},
+    "locales": {
+      "en": 0,
+      "fr": 0,
+      "hi": 0,
+      "it": 0
+    },
+    "description": "Set membership symbol within a set expression read in short form. Interpreted as member of",
+    "latex": "\\{a\\in A| ...\\}",
+    "example": "a member of A",
+    "reference": "en",
+    "order": {
       "en": {},
       "fr": {},
       "hi": {},
@@ -389,9 +410,9 @@
       "hi": 0,
       "it": 0
     },
-    "description": "Set membership symbol interpreted as element of",
+    "description": "Set membership symbol within a set expression read in short form. Interpreted as element of",
     "latex": "a\\in A",
-    "example": "a is an element of A",
+    "example": "a element of A",
     "reference": "en",
     "order": {
       "de": {},
@@ -399,6 +420,21 @@
       "fr": {},
       "hi": {},
       "it": {}
+    },
+    "maximum": 0
+  },
+  "set-member-in": {
+    "rule": "set-member-in",
+    "parameters": {},
+    "locales": {
+      "en": 0
+    },
+    "description": "Set membership symbol within a set expression read in short form. Interpreted as in",
+    "latex": "a\\in A",
+    "example": "a in A",
+    "reference": "en",
+    "order": {
+      "en": {}
     },
     "maximum": 0
   },
@@ -412,9 +448,9 @@
       "hi": 0,
       "it": 0
     },
-    "description": "Set membership symbol interpreted as belongs to",
+    "description": "Set membership symbol within a set expression read in short form. Interpreted as belonging to",
     "latex": "a\\in A",
-    "example": "a belongs to A",
+    "example": "a belonging to A",
     "reference": "en",
     "order": {
       "de": {},
@@ -435,12 +471,33 @@
       "hi": 0,
       "it": 0
     },
-    "description": "Set membership symbol interpreted as not member of",
+    "description": "Set membership symbol inside a set expression read in short form. Interpreted as not member of. Fallback rule",
     "latex": "a\\not\\in A",
-    "example": "a is not a member of A",
+    "example": "a not member of A",
     "reference": "en",
     "order": {
       "de": {},
+      "en": {},
+      "fr": {},
+      "hi": {},
+      "it": {}
+    },
+    "maximum": 0
+  },
+  "set-not-member-member": {
+    "rule": "set-not-member-member",
+    "parameters": {},
+    "locales": {
+      "en": 0,
+      "fr": 0,
+      "hi": 0,
+      "it": 0
+    },
+    "description": "Set membership symbol inside a set expression read in short form. Interpreted as not member of",
+    "latex": "a\\not\\in A",
+    "example": "a not member of A",
+    "reference": "en",
+    "order": {
       "en": {},
       "fr": {},
       "hi": {},
@@ -458,9 +515,9 @@
       "hi": 0,
       "it": 0
     },
-    "description": "Set membership symbol interpreted as not element of",
+    "description": "Set membership symbol inside a set expression read in short form. Interpreted as not element of",
     "latex": "a\\not\\in A",
-    "example": "a is not an element of A",
+    "example": "a not element of A",
     "reference": "en",
     "order": {
       "de": {},
@@ -468,6 +525,21 @@
       "fr": {},
       "hi": {},
       "it": {}
+    },
+    "maximum": 0
+  },
+  "set-not-member-in": {
+    "rule": "set-not-member-in",
+    "parameters": {},
+    "locales": {
+      "en": 0
+    },
+    "description": "Set membership symbol inside a set expression read in short form. Interpreted as not in",
+    "latex": "a\\not\\in A",
+    "example": "a not in A",
+    "reference": "en",
+    "order": {
+      "en": {}
     },
     "maximum": 0
   },
@@ -481,9 +553,9 @@
       "hi": 0,
       "it": 0
     },
-    "description": "Set membership symbol interpreted as not belongs to",
+    "description": "Set membership symbol inside a set expression read in short form. Interpreted as not belongs to",
     "latex": "a\\not\\in A",
-    "example": "a does not belong to A",
+    "example": "a not belonging to A",
     "reference": "en",
     "order": {
       "de": {},
@@ -863,8 +935,8 @@
   "function-prefix-subscript": {
     "rule": "function-prefix-subscript",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The prefix function with subscript",
+      "%2": "The argument of the function"
     },
     "locales": {
       "de": 2,
@@ -873,8 +945,8 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
+    "description": "Function application of a named function with subscript",
+    "latex": "\\min_a X",
     "example": "",
     "reference": "en",
     "order": {
@@ -904,8 +976,8 @@
   "function-ln": {
     "rule": "function-ln",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The natural logarithm.",
+      "%2": "The argument"
     },
     "locales": {
       "de": 2,
@@ -914,9 +986,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "Natural logarithm application in short speech.",
     "latex": "",
-    "example": "",
+    "example": "ln x",
     "reference": "en",
     "order": {
       "de": {
@@ -945,8 +1017,8 @@
   "function-ln-pause": {
     "rule": "function-ln-pause",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The natural logarithm.",
+      "%2": "The argument"
     },
     "locales": {
       "de": 2,
@@ -955,9 +1027,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "Natural logarithm application with following pause.",
     "latex": "",
-    "example": "",
+    "example": "ln x",
     "reference": "en",
     "order": {
       "de": {
@@ -986,8 +1058,8 @@
   "function-ln-of": {
     "rule": "function-ln-of",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The natural logarithm.",
+      "%2": "The argument"
     },
     "locales": {
       "de": 2,
@@ -996,8 +1068,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "Natural logarithm application in explicit speech.",
     "latex": "",
+    "example": "ln of x",
     "example": "",
     "reference": "en",
     "order": {
@@ -1027,8 +1100,8 @@
   "function-prefix-as-exp": {
     "rule": "function-prefix-as-exp",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The prefix function",
+      "%2": "The function argument"
     },
     "locales": {
       "de": 2,
@@ -1037,9 +1110,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Function in a superscript with a complex argument",
+    "latex": "x^{\\sin (y + z)}",
+    "example": "x raised to the sine of open paren y plus z close paren power",
     "reference": "en",
     "order": {
       "de": {
@@ -1068,8 +1141,8 @@
   "function-prefix-subscript-as-exp": {
     "rule": "function-prefix-subscript-as-exp",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The prefix function",
+      "%2": "Its argument"
     },
     "locales": {
       "de": 2,
@@ -1078,9 +1151,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Function in a subscript with a complex argument",
+    "latex": "x_{\\sin (y + z)}",
+    "example": "x sub the sine of open paren y plus z close paren",
     "reference": "en",
     "order": {
       "de": {
@@ -1109,8 +1182,8 @@
   "function-prefix-hyper": {
     "rule": "function-prefix-hyper",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The hyperbolic function",
+      "%2": "Its argument"
     },
     "locales": {
       "de": 2,
@@ -1119,9 +1192,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Hyperbolic function as prefix function",
+    "latex": "\\sinh x",
+    "example": "hyperbolic sine of x",
     "reference": "en",
     "order": {
       "de": {
@@ -1150,8 +1223,8 @@
   "function-prefix-inverse": {
     "rule": "function-prefix-inverse",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The inverted function (e.g., sin^-1)",
+      "%2": "Its argument"
     },
     "locales": {
       "de": 2,
@@ -1160,9 +1233,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Inverse of a named function",
+    "latex": "\\sin^{-1} x",
+    "example": "the inverse sine of x",
     "reference": "en",
     "order": {
       "de": {
@@ -1191,8 +1264,8 @@
   "appl-triginverse": {
     "rule": "appl-triginverse",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The arcus function",
+      "%2": "Its argument"
     },
     "locales": {
       "de": 2,
@@ -1201,9 +1274,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Speaks an arcus function as inverse",
+    "latex": "\\arcsin x",
+    "example": "the inverse sine of x",
     "reference": "en",
     "order": {
       "de": {
@@ -1232,8 +1305,8 @@
   "function-prefix-arc-simple": {
     "rule": "function-prefix-arc-simple",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The inverted function (e.g., sin^-1)",
+      "%2": "Its argument"
     },
     "locales": {
       "de": 2,
@@ -1242,9 +1315,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Speaks an inverse trigonometric function as arcus",
+    "latex": "\\sin^{-1} x",
+    "example": "arc sine x",
     "reference": "en",
     "order": {
       "de": {
@@ -1273,8 +1346,8 @@
   "function-prefix-arc-simple-fenced": {
     "rule": "function-prefix-arc-simple-fenced",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The inverted function (e.g., sin^-1)",
+      "%2": "The fenced argument with simple content"
     },
     "locales": {
       "de": 2,
@@ -1283,9 +1356,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Speaks an inverted trigonometric function as arcus. Omits the parentheses on simple arguments.",
+    "latex": "\\sin^{-1} (x)",
+    "example": "arc sine x",
     "reference": "en",
     "order": {
       "de": {
@@ -1314,8 +1387,8 @@
   "function-prefix-arc": {
     "rule": "function-prefix-arc",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The inverted function (e.g., sin^-1)",
+      "%2": "The fenced argument with simple content"
     },
     "locales": {
       "de": 2,
@@ -1324,9 +1397,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Speaks an inverted trigonometric function as arcus. Fallback for complex arguments.",
+    "latex": "\\sin^{-1} (x+y)",
+    "example": "arc sine of open paren x plus y close paren",
     "reference": "en",
     "order": {
       "de": {
@@ -1355,7 +1428,7 @@
   "function-inverse": {
     "rule": "function-inverse",
     "parameters": {
-      "%1": ""
+      "%1": "The inverse function"
     },
     "locales": {
       "de": 1,
@@ -1364,9 +1437,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "General inverse function",
+    "latex": "f^{-1}",
+    "example": "f inverse",
     "reference": "en",
     "order": {
       "de": {
@@ -1390,8 +1463,8 @@
   "superscript-prefix-function": {
     "rule": "superscript-prefix-function",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The prefix function as basis",
+      "%2": "The superscript"
     },
     "locales": {
       "de": 2,
@@ -1399,7 +1472,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "General function with superscript that is either a number of simple identifier.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -1426,8 +1499,8 @@
   "superscript": {
     "rule": "superscript",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The basis",
+      "%2": "The exponent"
     },
     "locales": {
       "de": 2,
@@ -1436,7 +1509,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "The fallback rule for superscript/exponent expressions",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -1467,8 +1540,8 @@
   "superscript-ordinal": {
     "rule": "superscript-ordinal",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The basis",
+      "%2": "The exponent as an integer or single letter identifier"
     },
     "locales": {
       "de": 2,
@@ -1476,7 +1549,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "Fallback rule for exponent expressions with integer or simple single letter identifier exponent",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -1503,8 +1576,8 @@
   "superscript-ordinal-prefixop": {
     "rule": "superscript-ordinal-prefixop",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The basis",
+      "%2": "The exponent"
     },
     "locales": {
       "de": 2
@@ -1524,8 +1597,8 @@
   "superscript-ordinal-default": {
     "rule": "superscript-ordinal-default",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The basis",
+      "%2": "The exponent"
     },
     "locales": {
       "de": 2,
@@ -1533,9 +1606,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Fallback rule for exponent expressions in Ordinal preference.",
+    "latex": "x^{y+z}",
+    "example": "x raised to the y plus z power",
     "reference": "en",
     "order": {
       "de": {
@@ -1560,8 +1633,8 @@
   "superscript-simple-exponent": {
     "rule": "superscript-simple-exponent",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The basis",
+      "%2": "The exponent"
     },
     "locales": {
       "de": 2,
@@ -1570,9 +1643,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Rule for exponent expressions with single letter or integer exponents in Ordinal preference.",
+    "latex": "x^{y}",
+    "example": "x to the y-th",
     "reference": "en",
     "order": {
       "de": {
@@ -1601,8 +1674,8 @@
   "superscript-simple-exponent-end": {
     "rule": "superscript-simple-exponent-end",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The basis",
+      "%2": "The exponent"
     },
     "locales": {
       "de": 2,
@@ -1611,9 +1684,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Rule for exponent expressions with simple exponents where power is used as postfix for disambiguation.",
+    "latex": "x^{2y}",
+    "example": "x raised to the 2 y power",
     "reference": "en",
     "order": {
       "de": {
@@ -1642,8 +1715,8 @@
   "superscript-simple-power": {
     "rule": "superscript-simple-power",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The basis",
+      "%2": "The exponent"
     },
     "locales": {
       "de": 2
@@ -1663,8 +1736,8 @@
   "superscript-simple-power-end": {
     "rule": "superscript-simple-power-end",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The basis",
+      "%2": "The exponent"
     },
     "locales": {
       "de": 2
@@ -1684,8 +1757,8 @@
   "superscript-ordinal-power": {
     "rule": "superscript-ordinal-power",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The basis",
+      "%2": "The exponent"
     },
     "locales": {
       "de": 2
@@ -1705,8 +1778,8 @@
   "superscript-non-ordinal": {
     "rule": "superscript-non-ordinal",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The basis",
+      "%2": "The exponent"
     },
     "locales": {
       "de": 2,
@@ -1714,9 +1787,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Rule for exponent expressions with simple exponents that should not be read a ordinals in Ordinal preference.",
+    "latex": "x^{-1}",
+    "example": "x to the negative 1",
     "reference": "en",
     "order": {
       "de": {
@@ -1741,8 +1814,8 @@
   "superscript-simple-function-ordinal": {
     "rule": "superscript-simple-function-ordinal",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The basis",
+      "%2": "The exponent"
     },
     "locales": {
       "de": 2
@@ -1762,7 +1835,7 @@
   "exponent": {
     "rule": "exponent",
     "parameters": {
-      "%1": ""
+      "%1": "The letter"
     },
     "locales": {
       "de": 1,
@@ -1771,9 +1844,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "A letter spoken as ordinal exponent. Note that the rule might need adjustment of the join attribute.",
+    "latex": "y",
+    "example": "y-th as in x to the y-th",
     "reference": "en",
     "order": {
       "de": {
@@ -1797,7 +1870,7 @@
   "exponent-number": {
     "rule": "exponent-number",
     "parameters": {
-      "%1": ""
+      "%1": "The number"
     },
     "locales": {
       "de": 1,
@@ -1806,9 +1879,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "A number spoken as an ordinal. Note that the rule might need adjustment of the join attribute.",
+    "latex": "4",
+    "example": "fourth as in x to the fourth",
     "reference": "en",
     "order": {
       "de": {
@@ -1835,9 +1908,9 @@
     "locales": {
       "de": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "The exponent zero, or power zero.",
+    "latex": "x^0",
+    "example": "x zur nullten Potenz",
     "reference": "de",
     "order": {
       "de": {}
@@ -1847,8 +1920,8 @@
   "superscript-simple-exp": {
     "rule": "superscript-simple-exp",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The basis",
+      "%2": "The exponent"
     },
     "locales": {
       "de": 2
@@ -1868,8 +1941,8 @@
   "superscript-simple-exp-end": {
     "rule": "superscript-simple-exp-end",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The basis",
+      "%2": "The exponent"
     },
     "locales": {
       "de": 2
@@ -1916,8 +1989,8 @@
   "square": {
     "rule": "square",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The expression that is squared.",
+      "%2": "The adjective for squared, to put into its grammatically correct case, e.g., in Italian"
     },
     "locales": {
       "de": 1,
@@ -1926,9 +1999,9 @@
       "hi": 1,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "A squared element",
+    "latex": "x^2",
+    "example": "x squared",
     "reference": "en",
     "order": {
       "de": {
@@ -1953,7 +2026,7 @@
   "cube": {
     "rule": "cube",
     "parameters": {
-      "%1": ""
+      "%1": "The expression that is cubed."
     },
     "locales": {
       "de": 1,
@@ -1962,9 +2035,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "A cubed element",
+    "latex": "x^3",
+    "example": "x cubed",
     "reference": "en",
     "order": {
       "de": {
@@ -1988,7 +2061,7 @@
   "fences-points": {
     "rule": "fences-points",
     "parameters": {
-      "%1": ""
+      "%1": "The two comma separated points"
     },
     "locales": {
       "de": 1,
@@ -1997,9 +2070,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Parenthesised expression interpreted as point",
+    "latex": "(5,6)",
+    "example": "The point with coordinates 5 comma 6",
     "reference": "en",
     "order": {
       "de": {
@@ -2023,9 +2096,9 @@
   "fences-interval": {
     "rule": "fences-interval",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The start value",
+      "%2": "The end value",
+      "%3": "The overall interval for speaking specialisations, such as inclusions or exclusions of boundaries"
     },
     "locales": {
       "de": 3,
@@ -2034,9 +2107,9 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "A fenced pair of values interpreted as in interval. This is the base rule, specialisations are handled in subsequent rules.",
+    "latex": "[a,b]",
+    "example": "The interval from a to b",
     "reference": "en",
     "order": {
       "de": {
@@ -2070,8 +2143,8 @@
   "interval-open": {
     "rule": "interval-open",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The start value",
+      "%2": "The end value"
     },
     "locales": {
       "de": 2,
@@ -2080,8 +2153,8 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
+    "description": "Specialisation for an open interval",
+    "latex": "(a,b)",
     "example": "",
     "reference": "en",
     "order": {
@@ -2111,8 +2184,8 @@
   "interval-closed-open": {
     "rule": "interval-closed-open",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The start value",
+      "%2": "The end value"
     },
     "locales": {
       "de": 2,
@@ -2121,8 +2194,8 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
+    "description": "Specialisation for an closed-open interval",
+    "latex": "[a,b)",
     "example": "",
     "reference": "en",
     "order": {
@@ -2152,8 +2225,8 @@
   "interval-open-closed": {
     "rule": "interval-open-closed",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The start value",
+      "%2": "The end value"
     },
     "locales": {
       "de": 2,
@@ -2162,8 +2235,8 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
+    "description": "Specialisation for an open-closed interval",
+    "latex": "(a,b]",
     "example": "",
     "reference": "en",
     "order": {
@@ -2193,8 +2266,8 @@
   "interval-closed": {
     "rule": "interval-closed",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The start value",
+      "%2": "The end value"
     },
     "locales": {
       "de": 2,
@@ -2203,8 +2276,8 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
+    "description": "Specialisation for an closed interval",
+    "latex": "[a,b]",
     "example": "",
     "reference": "en",
     "order": {
@@ -2234,7 +2307,7 @@
   "interval-open-inf-r": {
     "rule": "interval-open-inf-r",
     "parameters": {
-      "%1": ""
+      "%1": "The start value"
     },
     "locales": {
       "de": 1,
@@ -2243,8 +2316,8 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
+    "description": "Open integral with right infinity",
+    "latex": "(a,\\infty)",
     "example": "",
     "reference": "en",
     "order": {
@@ -2269,7 +2342,7 @@
   "interval-open-inf-l": {
     "rule": "interval-open-inf-l",
     "parameters": {
-      "%1": ""
+      "%1": "The end value"
     },
     "locales": {
       "de": 1,
@@ -2278,8 +2351,8 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
+    "description": "Open integral with left infinity",
+    "latex": "(\\infty,b)",
     "example": "",
     "reference": "en",
     "order": {
@@ -2304,7 +2377,7 @@
   "interval-closed-open-inf": {
     "rule": "interval-closed-open-inf",
     "parameters": {
-      "%1": ""
+      "%1": "The start value"
     },
     "locales": {
       "de": 1,
@@ -2313,8 +2386,8 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
+    "description": "Open integral with right infinity",
+    "latex": "[a,\\infty)",
     "example": "",
     "reference": "en",
     "order": {
@@ -2339,7 +2412,7 @@
   "interval-open-closed-inf": {
     "rule": "interval-open-closed-inf",
     "parameters": {
-      "%1": ""
+      "%1": "The end value"
     },
     "locales": {
       "de": 1,
@@ -2348,8 +2421,8 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
+    "description": "Closed integral with left infinity",
+    "latex": "(\\infty,b]",
     "example": "",
     "reference": "en",
     "order": {
@@ -2381,9 +2454,9 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "The empty set",
+    "latex": "\\empty",
+    "example": "the empty set",
     "reference": "en",
     "order": {
       "de": {},
@@ -2397,8 +2470,8 @@
   "set-extended": {
     "rule": "set-extended",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The element left of the divider",
+      "%2": "The element to the right."
     },
     "locales": {
       "de": 2,
@@ -2407,9 +2480,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "A set defined via set intensionality",
+    "latex": "\\{a\\in A| ...\\}",
+    "example": "The set of all a in A such that ...",
     "reference": "en",
     "order": {
       "de": {
@@ -2438,7 +2511,7 @@
   "set-collection": {
     "rule": "set-collection",
     "parameters": {
-      "%1": ""
+      "%1": "The content of the set"
     },
     "locales": {
       "de": 1,
@@ -2447,9 +2520,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set defined via a collection of elements",
+    "latex": "\\{a,b,c\\}",
+    "example": "The set a comma b comma c",
     "reference": "en",
     "order": {
       "de": {
@@ -2473,8 +2546,8 @@
   "set-extended-woall": {
     "rule": "set-extended-woall",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The element left of the divider",
+      "%2": "The element to the right."
     },
     "locales": {
       "de": 2,
@@ -2482,9 +2555,9 @@
       "fr": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "A set defined via set intensionality without an explicity for all",
+    "latex": "\\{a\\in A| ...\\}",
+    "example": "The set a in A such that ...",
     "reference": "en",
     "order": {
       "de": {
@@ -2509,8 +2582,8 @@
   "subscript": {
     "rule": "subscript",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base",
+      "%2": "The subscript index"
     },
     "locales": {
       "de": 2,
@@ -2519,9 +2592,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Fallback rule for subscript expressions",
+    "latex": "A_a",
+    "example": "A sub a",
     "reference": "en",
     "order": {
       "de": {
@@ -2550,8 +2623,8 @@
   "logarithm-base": {
     "rule": "logarithm-base",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Logarithm function",
+      "%2": "The base"
     },
     "locales": {
       "de": 2,
@@ -2560,7 +2633,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "Logarithm spoken as base",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -2632,8 +2705,8 @@
   "fraction": {
     "rule": "fraction",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The numerator",
+      "%2": "The denominator"
     },
     "locales": {
       "de": 2,
@@ -2642,9 +2715,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Fallback rule for explicit speaking of fraction",
+    "latex": "\\frac{a}{b}",
+    "example": "the fraction with numerator a and denominator b",
     "reference": "en",
     "order": {
       "de": {
@@ -2837,7 +2910,7 @@
   "vulgar-fraction": {
     "rule": "vulgar-fraction",
     "parameters": {
-      "%1": ""
+      "%1": "The vulgar fraction. Add pausing or grammar instructions if necessary."
     },
     "locales": {
       "de": 1,
@@ -2846,7 +2919,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Vulgar fraction spoken as words. The rule fires for positive integer numerators <= 10 and denominators <=20",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -2872,8 +2945,8 @@
   "fraction-over": {
     "rule": "fraction-over",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The numerator",
+      "%2": "The denominator"
     },
     "locales": {
       "de": 2,
@@ -2882,9 +2955,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Short speech for fractions with simple components.",
+    "latex": "\\frac{a}{b}",
+    "example": "a over b",
     "reference": "en",
     "order": {
       "de": {
@@ -2913,8 +2986,8 @@
   "fraction-overendfrac": {
     "rule": "fraction-overendfrac",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The numerator",
+      "%2": "The denominator"
     },
     "locales": {
       "de": 2,
@@ -2923,9 +2996,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Short speech for fractions with simple components with explicit end fraction",
+    "latex": "\\frac{a}{b}",
+    "example": "a over b end fraction",
     "reference": "en",
     "order": {
       "de": {
@@ -2954,8 +3027,8 @@
   "fraction-fracover": {
     "rule": "fraction-fracover",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The numerator",
+      "%2": "The denominator"
     },
     "locales": {
       "de": 2,
@@ -2964,9 +3037,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Short speech for fractions with simple components with explicitly announced fraction",
+    "latex": "\\frac{a}{b}",
+    "example": "the fraction a over b",
     "reference": "en",
     "order": {
       "de": {
@@ -2995,8 +3068,8 @@
   "fraction-per": {
     "rule": "fraction-per",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The numerator",
+      "%2": "The denominator"
     },
     "locales": {
       "de": 2,
@@ -3005,9 +3078,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Short speech for fractions with simple components using per",
+    "latex": "\\frac{a}{b}",
+    "example": "a per b",
     "reference": "en",
     "order": {
       "de": {
@@ -4064,9 +4137,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "An inline division with forward slash or division sign",
+    "latex": "a/b",
+    "example": "a divided by b",
     "reference": "en",
     "order": {
       "de": {
@@ -4102,7 +4175,7 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "The natural numbers (positive integers)",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -4125,7 +4198,7 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "The integers",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -4148,7 +4221,7 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "The rational numbers",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -4171,7 +4244,7 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "The real numbers",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -4194,7 +4267,7 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "The complex numbers",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -4217,8 +4290,8 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
+    "description": "The Natural number with zero",
+    "latex": "\\N_0",
     "example": "",
     "reference": "en",
     "order": {
@@ -4240,8 +4313,8 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
+    "description": "The positive integers",
+    "latex": "\\Z^{+}",
     "example": "",
     "reference": "en",
     "order": {
@@ -4263,8 +4336,8 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
+    "description": "The negative integers",
+    "latex": "\\Z^{-}",
     "example": "",
     "reference": "en",
     "order": {
@@ -4286,8 +4359,8 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
+    "description": "The positive rational numbers",
+    "latex": "\\Q^{+}",
     "example": "",
     "reference": "en",
     "order": {
@@ -4309,7 +4382,8 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "The negative rational numbers",
+    "latex": "\\Q^{-}",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -4325,7 +4399,7 @@
   "fences-neutral": {
     "rule": "fences-neutral",
     "parameters": {
-      "%1": ""
+      "%1": "The content of the absolute value"
     },
     "locales": {
       "de": 1,
@@ -4334,7 +4408,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Absolute value",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -4360,7 +4434,7 @@
   "fences-neutral-absend": {
     "rule": "fences-neutral-absend",
     "parameters": {
-      "%1": ""
+      "%1": "The content of the absolute value"
     },
     "locales": {
       "de": 1,
@@ -4369,7 +4443,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Absolute values spoken with explicit end of absolute value",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -4395,7 +4469,7 @@
   "fences-neutral-cardinality": {
     "rule": "fences-neutral-cardinality",
     "parameters": {
-      "%1": ""
+      "%1": "The content between the neutral fences"
     },
     "locales": {
       "de": 1,
@@ -4404,9 +4478,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Neutral interpreted as cardinality of a set",
+    "latex": "|S|",
+    "example": "cardinality of S",
     "reference": "en",
     "order": {
       "de": {
@@ -4430,7 +4504,7 @@
   "fences-neutral-determinant": {
     "rule": "fences-neutral-determinant",
     "parameters": {
-      "%1": ""
+      "%1": "The content between the neutral fences"
     },
     "locales": {
       "de": 1,
@@ -4439,9 +4513,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Neutral interpreted as determinant of a matrix",
+    "latex": "|A|",
+    "example": "determinant of A",
     "reference": "en",
     "order": {
       "de": {
@@ -7464,57 +7538,15 @@
     },
     "maximum": 1
   },
-  "set-member-member": {
-    "rule": "set-member-member",
-    "parameters": {},
-    "locales": {
-      "en": 0,
-      "fr": 0,
-      "hi": 0,
-      "it": 0
-    },
-    "description": "",
-    "latex": "",
-    "example": "",
-    "reference": "en",
-    "order": {
-      "en": {},
-      "fr": {},
-      "hi": {},
-      "it": {}
-    },
-    "maximum": 0
-  },
-  "set-not-member-member": {
-    "rule": "set-not-member-member",
-    "parameters": {},
-    "locales": {
-      "en": 0,
-      "fr": 0,
-      "hi": 0,
-      "it": 0
-    },
-    "description": "",
-    "latex": "",
-    "example": "",
-    "reference": "en",
-    "order": {
-      "en": {},
-      "fr": {},
-      "hi": {},
-      "it": {}
-    },
-    "maximum": 0
-  },
   "article": {
     "rule": "article",
     "parameters": {
-      "%1": ""
+      "%1": "The expression translated without article."
     },
     "locales": {
       "en": 1
     },
-    "description": "",
+    "description": "A leading article is introduced. Only used in locales where articles are used for fractions or functions",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -8645,9 +8677,9 @@
     "locales": {
       "en": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol not within a set expression. Interpreted as member of. This is the fallback rule.",
+    "latex": "a\\in A",
+    "example": "a is a member of A",
     "reference": "en",
     "order": {
       "en": {}
@@ -8660,9 +8692,9 @@
     "locales": {
       "en": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol not within a set expression. Interpreted as member of",
+    "latex": "a\\in A",
+    "example": "a is a member of A",
     "reference": "en",
     "order": {
       "en": {}
@@ -8675,9 +8707,9 @@
     "locales": {
       "en": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol not within a set expression. Interpreted as element of",
+    "latex": "a\\in A",
+    "example": "a is an element of A",
     "reference": "en",
     "order": {
       "en": {}
@@ -8690,9 +8722,9 @@
     "locales": {
       "en": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol not within a set expression. Interpreted as is in",
+    "latex": "a\\in A",
+    "example": "a is in A",
     "reference": "en",
     "order": {
       "en": {}
@@ -8705,9 +8737,9 @@
     "locales": {
       "en": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol not within a set expression. Interpreted as is belongs to",
+    "latex": "a\\in A",
+    "example": "a belongs to A",
     "reference": "en",
     "order": {
       "en": {}
@@ -8720,9 +8752,9 @@
     "locales": {
       "en": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol not within a set expression. Interpreted as not member of. Fallback rule",
+    "latex": "a\\not\\in A",
+    "example": "a is not a member of A",
     "reference": "en",
     "order": {
       "en": {}
@@ -8735,9 +8767,9 @@
     "locales": {
       "en": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol not within a set expression. Interpreted as not member of",
+    "latex": "a\\not\\in A",
+    "example": "a is not a member of A",
     "reference": "en",
     "order": {
       "en": {}
@@ -8750,9 +8782,9 @@
     "locales": {
       "en": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol not within a set expression. Interpreted as not element of",
+    "latex": "a\\not\\in A",
+    "example": "a is not an element of A",
     "reference": "en",
     "order": {
       "en": {}
@@ -8765,9 +8797,9 @@
     "locales": {
       "en": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol not within a set expression. Interpreted as not in",
+    "latex": "a\\not\\in A",
+    "example": "a is not in A",
     "reference": "en",
     "order": {
       "en": {}
@@ -8780,39 +8812,9 @@
     "locales": {
       "en": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
-    "reference": "en",
-    "order": {
-      "en": {}
-    },
-    "maximum": 0
-  },
-  "set-member-in": {
-    "rule": "set-member-in",
-    "parameters": {},
-    "locales": {
-      "en": 0
-    },
-    "description": "",
-    "latex": "",
-    "example": "",
-    "reference": "en",
-    "order": {
-      "en": {}
-    },
-    "maximum": 0
-  },
-  "set-not-member-in": {
-    "rule": "set-not-member-in",
-    "parameters": {},
-    "locales": {
-      "en": 0
-    },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Set membership symbol not within a set expression. Interpreted as not belong to",
+    "latex": "a\\not\\in A",
+    "example": "a does not belong to A",
     "reference": "en",
     "order": {
       "en": {}

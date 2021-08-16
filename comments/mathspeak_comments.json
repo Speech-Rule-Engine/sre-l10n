@@ -1003,7 +1003,7 @@
       "de": 1,
       "it": 1
     },
-    "description": "Rule for processing a vulgar fraction",
+    "description": "Rule for speaking a vulgar fraction in words",
     "latex": "",
     "example": "",
     "reference": "de",
