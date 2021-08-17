@@ -199,6 +199,11 @@ export class Comment {
       let ordering: {[key: string]: string} = {};
       this.order[loc] = ordering;
       let orig = referenceSets[loc].parameters[this.rule];
+      if (!orig) {
+        delete this.locales[loc];
+        delete this.order[loc];
+        continue;
+      }
       let used = [];
       for (let [okey, ocomp] of Object.entries(orig)) {
         if (!Comment.isParameter(okey)) continue;

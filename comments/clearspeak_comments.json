@@ -384,7 +384,6 @@
     "parameters": {},
     "locales": {
       "en": 0,
-      "fr": 0,
       "hi": 0,
       "it": 0
     },
@@ -394,7 +393,6 @@
     "reference": "en",
     "order": {
       "en": {},
-      "fr": {},
       "hi": {},
       "it": {}
     },
@@ -427,14 +425,18 @@
     "rule": "set-member-in",
     "parameters": {},
     "locales": {
-      "en": 0
+      "en": 0,
+      "fr": 0,
+      "hi": 0
     },
     "description": "Set membership symbol within a set expression read in short form. Interpreted as in",
     "latex": "a\\in A",
     "example": "a in A",
     "reference": "en",
     "order": {
-      "en": {}
+      "en": {},
+      "fr": {},
+      "hi": {}
     },
     "maximum": 0
   },
@@ -489,7 +491,6 @@
     "parameters": {},
     "locales": {
       "en": 0,
-      "fr": 0,
       "hi": 0,
       "it": 0
     },
@@ -499,7 +500,6 @@
     "reference": "en",
     "order": {
       "en": {},
-      "fr": {},
       "hi": {},
       "it": {}
     },
@@ -532,14 +532,18 @@
     "rule": "set-not-member-in",
     "parameters": {},
     "locales": {
-      "en": 0
+      "en": 0,
+      "fr": 0,
+      "hi": 0
     },
     "description": "Set membership symbol inside a set expression read in short form. Interpreted as not in",
     "latex": "a\\not\\in A",
     "example": "a not in A",
     "reference": "en",
     "order": {
-      "en": {}
+      "en": {},
+      "fr": {},
+      "hi": {}
     },
     "maximum": 0
   },
@@ -1071,7 +1075,6 @@
     "description": "Natural logarithm application in explicit speech.",
     "latex": "",
     "example": "ln of x",
-    "example": "",
     "reference": "en",
     "order": {
       "de": {
@@ -4384,7 +4387,6 @@
     },
     "description": "The negative rational numbers",
     "latex": "\\Q^{-}",
-    "latex": "",
     "example": "",
     "reference": "en",
     "order": {
@@ -8675,14 +8677,20 @@
     "rule": "member",
     "parameters": {},
     "locales": {
-      "en": 0
+      "en": 0,
+      "de": 0,
+      "fr": 0,
+      "it": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as member of. This is the fallback rule.",
     "latex": "a\\in A",
     "example": "a is a member of A",
     "reference": "en",
     "order": {
-      "en": {}
+      "en": {},
+      "de": {},
+      "fr": {},
+      "it": {}
     },
     "maximum": 0
   },
@@ -8690,14 +8698,16 @@
     "rule": "member-member",
     "parameters": {},
     "locales": {
-      "en": 0
+      "en": 0,
+      "it": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as member of",
     "latex": "a\\in A",
     "example": "a is a member of A",
     "reference": "en",
     "order": {
-      "en": {}
+      "en": {},
+      "it": {}
     },
     "maximum": 0
   },
@@ -8705,14 +8715,20 @@
     "rule": "member-element",
     "parameters": {},
     "locales": {
-      "en": 0
+      "en": 0,
+      "de": 0,
+      "fr": 0,
+      "it": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as element of",
     "latex": "a\\in A",
     "example": "a is an element of A",
     "reference": "en",
     "order": {
-      "en": {}
+      "en": {},
+      "de": {},
+      "fr": {},
+      "it": {}
     },
     "maximum": 0
   },
@@ -8720,14 +8736,20 @@
     "rule": "member-in",
     "parameters": {},
     "locales": {
-      "en": 0
+      "en": 0,
+      "de": 0,
+      "fr": 0,
+      "it": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as is in",
     "latex": "a\\in A",
     "example": "a is in A",
     "reference": "en",
     "order": {
-      "en": {}
+      "en": {},
+      "de": {},
+      "fr": {},
+      "it": {}
     },
     "maximum": 0
   },
@@ -8735,14 +8757,20 @@
     "rule": "member-belongs",
     "parameters": {},
     "locales": {
-      "en": 0
+      "en": 0,
+      "de": 0,
+      "fr": 0,
+      "it": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as is belongs to",
     "latex": "a\\in A",
     "example": "a belongs to A",
     "reference": "en",
     "order": {
-      "en": {}
+      "en": {},
+      "de": {},
+      "fr": {},
+      "it": {}
     },
     "maximum": 0
   },
@@ -8750,14 +8778,20 @@
     "rule": "not-member",
     "parameters": {},
     "locales": {
-      "en": 0
+      "en": 0,
+      "de": 0,
+      "fr": 0,
+      "it": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as not member of. Fallback rule",
     "latex": "a\\not\\in A",
     "example": "a is not a member of A",
     "reference": "en",
     "order": {
-      "en": {}
+      "en": {},
+      "de": {},
+      "fr": {},
+      "it": {}
     },
     "maximum": 0
   },
@@ -8765,14 +8799,16 @@
     "rule": "not-member-member",
     "parameters": {},
     "locales": {
-      "en": 0
+      "en": 0,
+      "it": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as not member of",
     "latex": "a\\not\\in A",
     "example": "a is not a member of A",
     "reference": "en",
     "order": {
-      "en": {}
+      "en": {},
+      "it": {}
     },
     "maximum": 0
   },
@@ -8780,14 +8816,20 @@
     "rule": "not-member-element",
     "parameters": {},
     "locales": {
-      "en": 0
+      "en": 0,
+      "de": 0,
+      "fr": 0,
+      "it": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as not element of",
     "latex": "a\\not\\in A",
     "example": "a is not an element of A",
     "reference": "en",
     "order": {
-      "en": {}
+      "en": {},
+      "de": {},
+      "fr": {},
+      "it": {}
     },
     "maximum": 0
   },
@@ -8795,14 +8837,20 @@
     "rule": "not-member-in",
     "parameters": {},
     "locales": {
-      "en": 0
+      "en": 0,
+      "de": 0,
+      "fr": 0,
+      "it": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as not in",
     "latex": "a\\not\\in A",
     "example": "a is not in A",
     "reference": "en",
     "order": {
-      "en": {}
+      "en": {},
+      "de": {},
+      "fr": {},
+      "it": {}
     },
     "maximum": 0
   },
@@ -8810,14 +8858,20 @@
     "rule": "not-member-belongs",
     "parameters": {},
     "locales": {
-      "en": 0
+      "en": 0,
+      "de": 0,
+      "fr": 0,
+      "it": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as not belong to",
     "latex": "a\\not\\in A",
     "example": "a does not belong to A",
     "reference": "en",
     "order": {
-      "en": {}
+      "en": {},
+      "de": {},
+      "fr": {},
+      "it": {}
     },
     "maximum": 0
   }

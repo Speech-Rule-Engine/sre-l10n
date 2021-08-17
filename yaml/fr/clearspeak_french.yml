@@ -73,81 +73,101 @@ vbar-always-divides:
 vbar-given:
   - $1: "sachant"
 
-# 
+# Set membership symbol not within a set expression. Interpreted as member of. This is the fallback rule.
+# Example: a is a member of A
+# LaTeX Example: $a\in A$
 member:
   - $1: "est un"
 
-# 
+# Set membership symbol not within a set expression. Interpreted as element of
+# Example: a is an element of A
+# LaTeX Example: $a\in A$
 member-element:
   - $1: "est un élément de"
 
-# 
+# Set membership symbol not within a set expression. Interpreted as is in
+# Example: a is in A
+# LaTeX Example: $a\in A$
 member-in:
   - $1: "est dans"
 
-# 
+# Set membership symbol not within a set expression. Interpreted as is belongs to
+# Example: a belongs to A
+# LaTeX Example: $a\in A$
 member-belongs:
   - $1: "appartient à"
 
-# 
+# Set membership symbol not within a set expression. Interpreted as not member of. Fallback rule
+# Example: a is not a member of A
+# LaTeX Example: $a\not\in A$
 not-member:
   - $1: "n'est pas un"
 
-# 
+# Set membership symbol not within a set expression. Interpreted as not element of
+# Example: a is not an element of A
+# LaTeX Example: $a\not\in A$
 not-member-element:
   - $1: "n'est pas un élément de"
 
-# 
+# Set membership symbol not within a set expression. Interpreted as not in
+# Example: a is not in A
+# LaTeX Example: $a\not\in A$
 not-member-in:
   - $1: "n'est pas dans"
 
-# 
+# Set membership symbol not within a set expression. Interpreted as not belong to
+# Example: a does not belong to A
+# LaTeX Example: $a\not\in A$
 not-member-belongs:
   - $1: "n'appartient pas à"
 
-# Set membership symbol interpreted as member of
-# Example: a is a member of A
-# LaTeX Example: $a\in A$
+# Set membership symbol within a set expression read in short form. Fallback rule.
+# Example: a in A
+# LaTeX Example: $\{a\in A| ...\}$
 set-member:
   - $1: "est un"
 
-# 
-set-member-belongs:
-  - $1: "appartient à"
-
-# Set membership symbol interpreted as element of
-# Example: a is an element of A
+# Set membership symbol within a set expression read in short form. Interpreted as element of
+# Example: a element of A
 # LaTeX Example: $a\in A$
 set-member-element:
   - $1: "est un élément de"
 
-# Set membership symbol interpreted as belongs to
-# Example: a belongs to A
+# Set membership symbol within a set expression read in short form. Interpreted as in
+# Example: a in A
 # LaTeX Example: $a\in A$
 set-member-in:
   - $1: "est dans"
 
-# Set membership symbol interpreted as not member of
-# Example: a is not a member of A
+# Set membership symbol within a set expression read in short form. Interpreted as belonging to
+# Example: a belonging to A
+# LaTeX Example: $a\in A$
+set-member-belongs:
+  - $1: "appartient à"
+
+# Set membership symbol inside a set expression read in short form. Interpreted as not member of. Fallback rule
+# Example: a not member of A
 # LaTeX Example: $a\not\in A$
 set-not-member:
   - $1: "n'est pas un"
 
-# 
-set-not-member-belongs:
-  - $1: "n'appartient pas à"
+# Set membership symbol inside a set expression read in short form. Interpreted as not in
+# Example: a not in A
+# LaTeX Example: $a\not\in A$
+set-not-member-in:
+  - $1: "n'est pas dans"
 
-# Set membership symbol interpreted as not element of
-# Example: a is not an element of A
+# Set membership symbol inside a set expression read in short form. Interpreted as not element of
+# Example: a not element of A
 # LaTeX Example: $a\not\in A$
 set-not-member-element:
   - $1: "n'est pas un élément de"
 
-# Set membership symbol interpreted as not belongs to
-# Example: a does not belong to A
+# Set membership symbol inside a set expression read in short form. Interpreted as not belongs to
+# Example: a not belonging to A
 # LaTeX Example: $a\not\in A$
-set-not-member-in:
-  - $1: "n'est pas dans"
+set-not-member-belongs:
+  - $1: "n'appartient pas à"
 
 # Fallback rule for function application
 # Example: f of x
@@ -226,63 +246,75 @@ function-prefix-fenced-or-frac-arg:
   - $1: "de"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Function application of a named function with subscript
+# LaTeX Example: $\min_a X$
+# %1: The prefix function with subscript
+# %2: The argument of the function
 function-prefix-subscript:
   - %1
   - $1: "de" (pause:short)
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Natural logarithm application in short speech.
+# Example: ln x
+# %1: The natural logarithm.
+# %2: The argument
 function-ln:
   - %1
   - %2
 
-# 
-# %1: 
-# %2: 
+# Natural logarithm application with following pause.
+# Example: ln x
+# %1: The natural logarithm.
+# %2: The argument
 function-ln-pause:
   - %1
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Natural logarithm application in explicit speech.
+# Example: ln of x
+# %1: The natural logarithm.
+# %2: The argument
 function-ln-of:
   - %1
   - $1: "de"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Function in a superscript with a complex argument
+# Example: x raised to the sine of open paren y plus z close paren power
+# LaTeX Example: $x^{\sin (y + z)}$
+# %1: The prefix function
+# %2: The function argument
 function-prefix-as-exp:
   - %1
   - $1: "de" (pause:short)
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Function in a subscript with a complex argument
+# Example: x sub the sine of open paren y plus z close paren
+# LaTeX Example: $x_{\sin (y + z)}$
+# %1: The prefix function
+# %2: Its argument
 function-prefix-subscript-as-exp:
   - %1
   - $1: "de" (pause:short)
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Hyperbolic function as prefix function
+# Example: hyperbolic sine of x
+# LaTeX Example: $\sinh x$
+# %1: The hyperbolic function
+# %2: Its argument
 function-prefix-hyper:
   - %1
   - $1: "de"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Inverse of a named function
+# Example: the inverse sine of x
+# LaTeX Example: $\sin^{-1} x$
+# %1: The inverted function (e.g., sin^-1)
+# %2: Its argument
 function-prefix-inverse:
   - %1
   - $1: "inverse de"
@@ -304,41 +336,51 @@ function-prefix-reciprocal-simple:
   - %1
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Speaks an arcus function as inverse
+# Example: the inverse sine of x
+# LaTeX Example: $\arcsin x$
+# %1: The arcus function
+# %2: Its argument
 appl-triginverse:
   - %1
   - $1: "de"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Speaks an inverse trigonometric function as arcus
+# Example: arc sine x
+# LaTeX Example: $\sin^{-1} x$
+# %1: The inverted function (e.g., sin^-1)
+# %2: Its argument
 function-prefix-arc-simple:
   - $1: "arc"
   - %1
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Speaks an inverted trigonometric function as arcus. Omits the parentheses on simple arguments.
+# Example: arc sine x
+# LaTeX Example: $\sin^{-1} (x)$
+# %1: The inverted function (e.g., sin^-1)
+# %2: The fenced argument with simple content
 function-prefix-arc-simple-fenced:
   - $1: "arc"
   - %1 (pause:short)
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Speaks an inverted trigonometric function as arcus. Fallback for complex arguments.
+# Example: arc sine of open paren x plus y close paren
+# LaTeX Example: $\sin^{-1} (x+y)$
+# %1: The inverted function (e.g., sin^-1)
+# %2: The fenced argument with simple content
 function-prefix-arc:
   - $1: "arc"
   - %1
   - $2: "de"
   - %2 (pause:short)
 
-# 
-# %1: 
+# General inverse function
+# Example: f inverse
+# LaTeX Example: $f^{-1}$
+# %1: The inverse function
 function-inverse:
   - %1
   - $1: "inverse"
@@ -349,26 +391,30 @@ function-reciprocal:
   - $1: "la reciproque de"
   - %1
 
-# 
-# %1: 
-# %2: 
+# The fallback rule for superscript/exponent expressions
+# %1: The basis
+# %2: The exponent
 superscript:
   - %1
   - $1: "à l'exposant" (pause:short)
   - %2 (pause:short)
   - $2: "fin exposant" (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Rule for exponent expressions with single letter or integer exponents in Ordinal preference.
+# Example: x to the y-th
+# LaTeX Example: $x^{y}$
+# %1: The basis
+# %2: The exponent
 superscript-simple-exponent:
   - %1
   - $1: "à la puissance"
   - %2 (pause:medium)
 
-# 
-# %1: 
-# %2: 
+# Rule for exponent expressions with simple exponents where power is used as postfix for disambiguation.
+# Example: x raised to the 2 y power
+# LaTeX Example: $x^{2y}$
+# %1: The basis
+# %2: The exponent
 superscript-simple-exponent-end:
   - %1
   - $1: "à la puissance"
@@ -405,14 +451,18 @@ superscript-ordinal-cap:
   - $1: "à la puissance"
   - %2 (pause:medium)
 
-# 
-# %1: 
+# A letter spoken as ordinal exponent. Note that the rule might need adjustment of the join attribute.
+# Example: y-th as in x to the y-th
+# LaTeX Example: $y$
+# %1: The letter
 exponent:
   - %1 (join:"-")
   - $1: "ième"
 
-# 
-# %1: 
+# A number spoken as an ordinal. Note that the rule might need adjustment of the join attribute.
+# Example: fourth as in x to the fourth
+# LaTeX Example: $4$
+# %1: The number
 exponent-number:
   - %1
 
@@ -425,28 +475,36 @@ exponent-ordinal:
 exponent-ordinal-zero:
   - $1: "zero"
 
-# 
-# %1: 
+# A squared element
+# Example: x squared
+# LaTeX Example: $x^2$
+# %1: The expression that is squared.
 square:
   - %1
   - $1: "au carré"
 
-# 
-# %1: 
+# A cubed element
+# Example: x cubed
+# LaTeX Example: $x^3$
+# %1: The expression that is cubed.
 cube:
   - %1
   - $1: "au cube"
 
-# 
-# %1: 
+# Parenthesised expression interpreted as point
+# Example: The point with coordinates 5 comma 6
+# LaTeX Example: $(5,6)$
+# %1: The two comma separated points
 fences-points:
   - $1: "le point avec coordonées"
   - %1
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# A fenced pair of values interpreted as in interval. This is the base rule, specialisations are handled in subsequent rules.
+# Example: The interval from a to b
+# LaTeX Example: $[a,b]$
+# %1: The start value
+# %2: The end value
+# %3: The overall interval for speaking specialisations, such as inclusions or exclusions of boundaries
 fences-interval:
   - $1: "un intervalle de"
   - %1
@@ -454,18 +512,20 @@ fences-interval:
   - %2 (pause:short)
   - %3
 
-# 
-# %1: 
-# %2: 
+# Specialisation for an open interval
+# LaTeX Example: $(a,b)$
+# %1: The start value
+# %2: The end value
 interval-open:
   - $1: "sans inclure"
   - %1
   - $2: "ni"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Specialisation for an closed-open interval
+# LaTeX Example: $[a,b)$
+# %1: The start value
+# %2: The end value
 interval-closed-open:
   - $1: "avec"
   - %1
@@ -473,9 +533,10 @@ interval-closed-open:
   - $3: "mais sans inclure"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Specialisation for an open-closed interval
+# LaTeX Example: $(a,b]$
+# %1: The start value
+# %2: The end value
 interval-open-closed:
   - $1: "sans inclure"
   - %1 (pause:short)
@@ -483,9 +544,10 @@ interval-open-closed:
   - %2
   - $3: "inclus"
 
-# 
-# %1: 
-# %2: 
+# Specialisation for an closed interval
+# LaTeX Example: $[a,b]$
+# %1: The start value
+# %2: The end value
 interval-closed:
   - $1: "avec"
   - %1
@@ -493,71 +555,85 @@ interval-closed:
   - %2
   - $3: "inclus"
 
-# 
-# %1: 
+# Open integral with right infinity
+# LaTeX Example: $(a,\infty)$
+# %1: The start value
 interval-open-inf-r:
   - $1: "sans inclure"
   - %1
 
-# 
-# %1: 
+# Open integral with left infinity
+# LaTeX Example: $(\infty,b)$
+# %1: The end value
 interval-open-inf-l:
   - $1: "sans inclure"
   - %1
 
-# 
-# %1: 
+# Open integral with right infinity
+# LaTeX Example: $[a,\infty)$
+# %1: The start value
 interval-closed-open-inf:
   - $1: "avec"
   - %1
   - $2: "inclus"
 
-# 
-# %1: 
+# Closed integral with left infinity
+# LaTeX Example: $(\infty,b]$
+# %1: The end value
 interval-open-closed-inf:
   - $1: "avec"
   - %1
   - $2: "inclus"
 
-# 
+# The empty set
+# Example: the empty set
+# LaTeX Example: $\empty$
 set-empty:
   - $1: "ensemble vide"
 
-# 
-# %1: 
-# %2: 
+# A set defined via set intensionality
+# Example: The set of all a in A such that ...
+# LaTeX Example: $\{a\in A| ...\}$
+# %1: The element left of the divider
+# %2: The element to the right.
 set-extended:
   - $1: "ensemble des"
   - %1
   - $2: "tel que"
   - %2
 
-# 
-# %1: 
+# Set defined via a collection of elements
+# Example: The set a comma b comma c
+# LaTeX Example: $\{a,b,c\}$
+# %1: The content of the set
 set-collection:
   - $1: "ensemble"
   - %1
 
-# 
-# %1: 
-# %2: 
+# A set defined via set intensionality without an explicity for all
+# Example: The set a in A such that ...
+# LaTeX Example: $\{a\in A| ...\}$
+# %1: The element left of the divider
+# %2: The element to the right.
 set-extended-woall:
   - $1: "ensemble de"
   - %1
   - $2: "tel que"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Fallback rule for subscript expressions
+# Example: A sub a
+# LaTeX Example: $A_a$
+# %1: The base
+# %2: The subscript index
 subscript:
   - %1
   - $1: "sub"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Logarithm spoken as base
+# %1: Logarithm function
+# %2: The base
 logarithm-base:
   - %1
   - $1: "base"
@@ -571,9 +647,11 @@ subscript-index:
   - $1: "sub"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Fallback rule for explicit speaking of fraction
+# Example: the fraction with numerator a and denominator b
+# LaTeX Example: $\frac{a}{b}$
+# %1: The numerator
+# %2: The denominator
 fraction:
   - $1: "fraction avec numérateur"
   - %1 (pause:short)
@@ -613,40 +691,48 @@ simple-text-fraction:
   - $1: "sur"
   - %2 (pause:short)
 
-# 
-# %1: 
+# Vulgar fraction spoken as words. The rule fires for positive integer numerators <= 10 and denominators <=20
+# %1: The vulgar fraction. Add pausing or grammar instructions if necessary.
 vulgar-fraction:
   - %1
 
-# 
-# %1: 
-# %2: 
+# Short speech for fractions with simple components.
+# Example: a over b
+# LaTeX Example: $\frac{a}{b}$
+# %1: The numerator
+# %2: The denominator
 fraction-over:
   - %1
   - $1: "sur"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Short speech for fractions with simple components with explicit end fraction
+# Example: a over b end fraction
+# LaTeX Example: $\frac{a}{b}$
+# %1: The numerator
+# %2: The denominator
 fraction-overendfrac:
   - %1
   - $1: "sur"
   - %2 (pause:short)
   - $2: "fin fraction" (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Short speech for fractions with simple components with explicitly announced fraction
+# Example: the fraction a over b
+# LaTeX Example: $\frac{a}{b}$
+# %1: The numerator
+# %2: The denominator
 fraction-fracover:
   - $1: "fraction"
   - %1
   - $2: "sur"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Short speech for fractions with simple components using per
+# Example: a per b
+# LaTeX Example: $\frac{a}{b}$
+# %1: The numerator
+# %2: The denominator
 fraction-per:
   - %1
   - $1: "par"
@@ -836,7 +922,9 @@ set-prefix-operators:
   - %1
   - $2: "de"
 
-# 
+# An inline division with forward slash or division sign
+# Example: a divided by b
+# LaTeX Example: $a/b$
 # %1: 
 # %2: 
 division:
@@ -844,67 +932,76 @@ division:
   - $1: "divisé par"
   - %2
 
-# 
+# The natural numbers (positive integers)
 natural-numbers:
   - $1: "les nombres entier naturel"
 
-# 
+# The integers
 integers:
   - $1: "les nombres entiers"
 
-# 
+# The rational numbers
 rational-numbers:
   - $1: "les Nombres rationnels"
 
-# 
+# The real numbers
 real-numbers:
   - $1: "les nombres réels"
 
-# 
+# The complex numbers
 complex-numbers:
   - $1: "les nombres complexes"
 
-# 
+# The Natural number with zero
+# LaTeX Example: $\N_0$
 natural-numbers-with-zero:
   - $1: "les nombres entiers naturel avec zero"
 
-# 
+# The positive integers
+# LaTeX Example: $\Z^{+}$
 positive-integers:
   - $1: "les nombres entiers positif"
 
-# 
+# The negative integers
+# LaTeX Example: $\Z^{-}$
 negative-integers:
   - $1: "les nombres entiers négatif"
 
-# 
+# The positive rational numbers
+# LaTeX Example: $\Q^{+}$
 positive-rational-numbers:
   - $1: "les nombres rationnels positif"
 
-# 
+# The negative rational numbers
+# LaTeX Example: $\Q^{-}$
 negative-rational-numbers:
   - $1: "les nombres rationnels négatif"
 
-# 
-# %1: 
+# Absolute value
+# %1: The content of the absolute value
 fences-neutral:
   - $1: "la valeur absolue de"
   - %1 (pause:short)
 
-# 
-# %1: 
+# Absolute values spoken with explicit end of absolute value
+# %1: The content of the absolute value
 fences-neutral-absend:
   - $1: "la valeur absolue de"
   - %1 (pause:short)
   - $2: "fin de valeur absolue" (pause:short)
 
-# 
-# %1: 
+# Neutral interpreted as cardinality of a set
+# Example: cardinality of S
+# LaTeX Example: $|S|$
+# %1: The content between the neutral fences
 fences-neutral-cardinality:
   - $1: "la cardinalité de"
   - %1 (pause:short)
 
-# 
-# %1: 
+# Neutral interpreted as determinant of a matrix
+# Example: determinant of A
+# LaTeX Example: $|A|$
+# %1: The content between the neutral fences
 fences-neutral-determinant:
   - $1: "le déterminant de"
   - %1 (pause:short)

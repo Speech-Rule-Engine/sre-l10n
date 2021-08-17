@@ -169,6 +169,54 @@
       "content": "\"für die gilt\""
     }
   },
+  "member": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ist Element von\""
+    }
+  },
+  "member-element": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ist Element von\""
+    }
+  },
+  "member-in": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"in\""
+    }
+  },
+  "member-belongs": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"gehört zu\""
+    }
+  },
+  "not-member": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"is kein Element von\""
+    }
+  },
+  "not-member-element": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"is kein Element von\""
+    }
+  },
+  "not-member-in": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ist nicht in\""
+    }
+  },
+  "not-member-belongs": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"gehört nicht zu\""
+    }
+  },
   "set-member": {
     "$1": {
       "type": "TEXT",

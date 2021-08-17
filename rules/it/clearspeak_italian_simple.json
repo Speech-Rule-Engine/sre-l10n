@@ -36,6 +36,36 @@
   "vbar-given": [
     "$1: \"dato\""
   ],
+  "member": [
+    "$1: \"appartiene ad\""
+  ],
+  "member-member": [
+    "$1: \"membro di\""
+  ],
+  "member-element": [
+    "$1: \"elemento di\""
+  ],
+  "member-in": [
+    "$1: \"in\""
+  ],
+  "member-belongs": [
+    "$1: \"appartiene ad\""
+  ],
+  "not-member": [
+    "$1: \"non appartiene ad\""
+  ],
+  "not-member-member": [
+    "$1: \"non membro di\""
+  ],
+  "not-member-element": [
+    "$1: \"non elemento di\""
+  ],
+  "not-member-in": [
+    "$1: \"non in\""
+  ],
+  "not-member-belongs": [
+    "$1: \"non appartiene ad\""
+  ],
   "set-member": [
     "$1: \"in\""
   ],

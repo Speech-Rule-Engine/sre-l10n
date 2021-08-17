@@ -111,46 +111,62 @@ element-in-set-woall:
   - %2
   - %3
 
-# Set membership symbol interpreted as member of
-# Example: a is a member of A
-# LaTeX Example: $a\in A$
+# Set membership symbol within a set expression read in short form. Fallback rule.
+# Example: a in A
+# LaTeX Example: $\{a\in A| ...\}$
 set-member:
   - $1: "में"
 
-# 
+# Set membership symbol within a set expression read in short form. Interpreted as member of
+# Example: a member of A
+# LaTeX Example: $\{a\in A| ...\}$
 set-member-member:
   - $1: "में"
 
-# Set membership symbol interpreted as element of
-# Example: a is an element of A
+# Set membership symbol within a set expression read in short form. Interpreted as element of
+# Example: a element of A
 # LaTeX Example: $a\in A$
 set-member-element:
   - $1: "में"
 
-# Set membership symbol interpreted as belongs to
-# Example: a belongs to A
+# Set membership symbol within a set expression read in short form. Interpreted as in
+# Example: a in A
+# LaTeX Example: $a\in A$
+set-member-in:
+  - $1: "में"
+
+# Set membership symbol within a set expression read in short form. Interpreted as belonging to
+# Example: a belonging to A
 # LaTeX Example: $a\in A$
 set-member-belongs:
   - $1: "में"
 
-# Set membership symbol interpreted as not member of
-# Example: a is not a member of A
+# Set membership symbol inside a set expression read in short form. Interpreted as not member of. Fallback rule
+# Example: a not member of A
 # LaTeX Example: $a\not\in A$
 set-not-member:
   - $1: "में नही"
 
-# 
+# Set membership symbol inside a set expression read in short form. Interpreted as not member of
+# Example: a not member of A
+# LaTeX Example: $a\not\in A$
 set-not-member-member:
   - $1: "में नही"
 
-# Set membership symbol interpreted as not element of
-# Example: a is not an element of A
+# Set membership symbol inside a set expression read in short form. Interpreted as not element of
+# Example: a not element of A
 # LaTeX Example: $a\not\in A$
 set-not-member-element:
   - $1: "में नही"
 
-# Set membership symbol interpreted as not belongs to
-# Example: a does not belong to A
+# Set membership symbol inside a set expression read in short form. Interpreted as not in
+# Example: a not in A
+# LaTeX Example: $a\not\in A$
+set-not-member-in:
+  - $1: "में नही"
+
+# Set membership symbol inside a set expression read in short form. Interpreted as not belongs to
+# Example: a not belonging to A
 # LaTeX Example: $a\not\in A$
 set-not-member-belongs:
   - $1: "में नही"
@@ -240,155 +256,183 @@ function-prefix-fenced-or-frac-arg:
   - $1: "का फलन"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Function application of a named function with subscript
+# LaTeX Example: $\min_a X$
+# %1: The prefix function with subscript
+# %2: The argument of the function
 function-prefix-subscript:
   - %1
   - $1: "का फलन" (pause:short)
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Natural logarithm application in short speech.
+# Example: ln x
+# %1: The natural logarithm.
+# %2: The argument
 function-ln:
   - %1
   - %2
 
-# 
-# %1: 
-# %2: 
+# Natural logarithm application with following pause.
+# Example: ln x
+# %1: The natural logarithm.
+# %2: The argument
 function-ln-pause:
   - %1
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Natural logarithm application in explicit speech.
+# Example: ln of x
+# %1: The natural logarithm.
+# %2: The argument
 function-ln-of:
   - %1
   - $1: "का फलन"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Function in a superscript with a complex argument
+# Example: x raised to the sine of open paren y plus z close paren power
+# LaTeX Example: $x^{\sin (y + z)}$
+# %1: The prefix function
+# %2: The function argument
 function-prefix-as-exp:
   - %1
   - $1: "का फलन" (pause:short)
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Function in a subscript with a complex argument
+# Example: x sub the sine of open paren y plus z close paren
+# LaTeX Example: $x_{\sin (y + z)}$
+# %1: The prefix function
+# %2: Its argument
 function-prefix-subscript-as-exp:
   - %1
   - $1: "का फलन" (pause:short)
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Hyperbolic function as prefix function
+# Example: hyperbolic sine of x
+# LaTeX Example: $\sinh x$
+# %1: The hyperbolic function
+# %2: Its argument
 function-prefix-hyper:
   - %1
   - $1: "का फलन"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Inverse of a named function
+# Example: the inverse sine of x
+# LaTeX Example: $\sin^{-1} x$
+# %1: The inverted function (e.g., sin^-1)
+# %2: Its argument
 function-prefix-inverse:
   - $1: "व्युत्क्रम"
   - %1
   - $2: "का फलन"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Speaks an arcus function as inverse
+# Example: the inverse sine of x
+# LaTeX Example: $\arcsin x$
+# %1: The arcus function
+# %2: Its argument
 appl-triginverse:
   - %1
   - $1: "का फलन"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Speaks an inverse trigonometric function as arcus
+# Example: arc sine x
+# LaTeX Example: $\sin^{-1} x$
+# %1: The inverted function (e.g., sin^-1)
+# %2: Its argument
 function-prefix-arc-simple:
   - $1: "चाप"
   - %1
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Speaks an inverted trigonometric function as arcus. Omits the parentheses on simple arguments.
+# Example: arc sine x
+# LaTeX Example: $\sin^{-1} (x)$
+# %1: The inverted function (e.g., sin^-1)
+# %2: The fenced argument with simple content
 function-prefix-arc-simple-fenced:
   - $1: "चाप"
   - %1 (pause:short)
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Speaks an inverted trigonometric function as arcus. Fallback for complex arguments.
+# Example: arc sine of open paren x plus y close paren
+# LaTeX Example: $\sin^{-1} (x+y)$
+# %1: The inverted function (e.g., sin^-1)
+# %2: The fenced argument with simple content
 function-prefix-arc:
   - $1: "चाप"
   - %1
   - $2: "का फलन"
   - %2 (pause:short)
 
-# 
-# %1: 
+# General inverse function
+# Example: f inverse
+# LaTeX Example: $f^{-1}$
+# %1: The inverse function
 function-inverse:
   - %1
   - $1: "प्रतिलोम"
 
-# 
-# %1: 
-# %2: 
+# General function with superscript that is either a number of simple identifier.
+# %1: The superscript
+# %2: The prefix function as basis
 superscript-prefix-function:
   - %1
   - %2
   - $1: "घातांक"
 
-# 
-# %1: 
-# %2: 
+# The fallback rule for superscript/exponent expressions
+# %1: The basis
+# %2: The exponent
 superscript:
   - %1
   - $1: "का घात" (pause:short)
   - %2 (pause:short)
   - $2: "घातांक समाप्त" (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Rule for exponent expressions with single letter or integer exponents in Ordinal preference.
+# Example: x to the y-th
+# LaTeX Example: $x^{y}$
+# %1: The basis
+# %2: The exponent
 superscript-simple-exponent:
   - %1
   - $1: "का घात"
   - %2
   - $2: "घातांक" (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Rule for exponent expressions with simple exponents where power is used as postfix for disambiguation.
+# Example: x raised to the 2 y power
+# LaTeX Example: $x^{2y}$
+# %1: The basis
+# %2: The exponent
 superscript-simple-exponent-end:
   - %1
   - $1: "का घात"
   - %2
   - $2: "घातांक"
 
-# 
-# %1: 
-# %2: 
+# Fallback rule for exponent expressions with integer or simple single letter identifier exponent
+# %1: The basis
+# %2: The exponent as an integer or single letter identifier
 superscript-ordinal:
   - %1
   - $1: "का घात"
   - %2
   - $2: "घातांक" (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Rule for exponent expressions with simple exponents that should not be read a ordinals in Ordinal preference.
+# Example: x to the negative 1
+# LaTeX Example: $x^{-1}$
+# %1: The basis
+# %2: The exponent
 superscript-non-ordinal:
   - %1
   - $1: "का घात"
@@ -424,9 +468,11 @@ superscript-ordinal-negative:
   - $1: "का घात"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Fallback rule for exponent expressions in Ordinal preference.
+# Example: x raised to the y plus z power
+# LaTeX Example: $x^{y+z}$
+# %1: The basis
+# %2: The exponent
 superscript-ordinal-default:
   - %1
   - $1: "का घात" (pause:short)
@@ -486,14 +532,18 @@ superscript-power-default:
   - %2 (pause:short)
   - $2: "घातांक समाप्त" (pause:short)
 
-# 
-# %1: 
+# A letter spoken as ordinal exponent. Note that the rule might need adjustment of the join attribute.
+# Example: y-th as in x to the y-th
+# LaTeX Example: $y$
+# %1: The letter
 exponent:
   - %1 (join:"-")
   - $1: "वां"
 
-# 
-# %1: 
+# A number spoken as an ordinal. Note that the rule might need adjustment of the join attribute.
+# Example: fourth as in x to the fourth
+# LaTeX Example: $4$
+# %1: The number
 exponent-number:
   - %1
 
@@ -515,28 +565,36 @@ exponent-ordinalpower:
 exponent-ordinalpower-zero:
   - $1: "शून्य"
 
-# 
-# %1: 
+# A squared element
+# Example: x squared
+# LaTeX Example: $x^2$
+# %1: The expression that is squared.
 square:
   - %1
   - $1: "वर्गित"
 
-# 
-# %1: 
+# A cubed element
+# Example: x cubed
+# LaTeX Example: $x^3$
+# %1: The expression that is cubed.
 cube:
   - %1
   - $1: "घनित"
 
-# 
-# %1: 
+# Parenthesised expression interpreted as point
+# Example: The point with coordinates 5 comma 6
+# LaTeX Example: $(5,6)$
+# %1: The two comma separated points
 fences-points:
   - $1: "निर्देशांक वाला बिंदु"
   - %1
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# A fenced pair of values interpreted as in interval. This is the base rule, specialisations are handled in subsequent rules.
+# Example: The interval from a to b
+# LaTeX Example: $[a,b]$
+# %1: The start value
+# %2: The end value
+# %3: The overall interval for speaking specialisations, such as inclusions or exclusions of boundaries
 fences-interval:
   - %1
   - $1: "से"
@@ -544,18 +602,20 @@ fences-interval:
   - $2: "तक का अन्तराल" (pause:short)
   - %3
 
-# 
-# %1: 
-# %2: 
+# Specialisation for an open interval
+# LaTeX Example: $(a,b)$
+# %1: The start value
+# %2: The end value
 interval-open:
   - %1
   - $1: "अथवा"
   - %2
   - $2: "असम्मिलित"
 
-# 
-# %1: 
-# %2: 
+# Specialisation for an closed-open interval
+# LaTeX Example: $[a,b)$
+# %1: The start value
+# %2: The end value
 interval-closed-open:
   - %1
   - $1: "सम्मिलित" (pause:short)
@@ -563,9 +623,10 @@ interval-closed-open:
   - %2
   - $3: "असम्मिलित"
 
-# 
-# %1: 
-# %2: 
+# Specialisation for an open-closed interval
+# LaTeX Example: $(a,b]$
+# %1: The start value
+# %2: The end value
 interval-open-closed:
   - %1
   - $1: "असम्मिलित" (pause:short)
@@ -573,69 +634,82 @@ interval-open-closed:
   - %2
   - $3: "सम्मिलित"
 
-# 
-# %1: 
-# %2: 
+# Specialisation for an closed interval
+# LaTeX Example: $[a,b]$
+# %1: The start value
+# %2: The end value
 interval-closed:
   - %1
   - $1: "और"
   - %2
   - $2: "सम्मिलित"
 
-# 
-# %1: 
+# Open integral with right infinity
+# LaTeX Example: $(a,\infty)$
+# %1: The start value
 interval-open-inf-r:
   - %1
   - $1: "असम्मिलित"
 
-# 
-# %1: 
+# Open integral with left infinity
+# LaTeX Example: $(\infty,b)$
+# %1: The end value
 interval-open-inf-l:
   - %1
   - $1: "असम्मिलित"
 
-# 
-# %1: 
+# Open integral with right infinity
+# LaTeX Example: $[a,\infty)$
+# %1: The start value
 interval-closed-open-inf:
   - %1
   - $1: "सम्मिलित"
 
-# 
-# %1: 
+# Closed integral with left infinity
+# LaTeX Example: $(\infty,b]$
+# %1: The end value
 interval-open-closed-inf:
   - %1
   - $1: "सम्मिलित"
 
-# 
+# The empty set
+# Example: the empty set
+# LaTeX Example: $\empty$
 set-empty:
   - $1: "रिक्त समुच्चय"
 
-# 
-# %1: 
-# %2: 
+# A set defined via set intensionality
+# Example: The set of all a in A such that ...
+# LaTeX Example: $\{a\in A| ...\}$
+# %1: The element left of the divider
+# %2: The element to the right.
 set-extended:
   - %1
   - $1: "का समुच्चय"
   - $2: "जिस में"
   - %2
 
-# 
-# %1: 
+# Set defined via a collection of elements
+# Example: The set a comma b comma c
+# LaTeX Example: $\{a,b,c\}$
+# %1: The content of the set
 set-collection:
   - $1: "समुच्चय"
   - %1
 
-# 
-# %1: 
-# %2: 
+# Fallback rule for subscript expressions
+# Example: A sub a
+# LaTeX Example: $A_a$
+# %1: The base
+# %2: The subscript index
 subscript:
   - %1
   - $1: "पाद"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Logarithm spoken as base
+# %1: Logarithm function
+# %2: The base
 logarithm-base:
   - %1
   - $1: "आधार"
@@ -649,9 +723,11 @@ subscript-index:
   - $1: "पाद"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Fallback rule for explicit speaking of fraction
+# Example: the fraction with numerator a and denominator b
+# LaTeX Example: $\frac{a}{b}$
+# %1: The numerator
+# %2: The denominator
 fraction:
   - $1: "भिन्न जिसका अंश"
   - %1 (pause:short)
@@ -691,40 +767,48 @@ simple-text-fraction:
   - $1: "के हर में"
   - %2 (pause:short)
 
-# 
-# %1: 
+# Vulgar fraction spoken as words. The rule fires for positive integer numerators <= 10 and denominators <=20
+# %1: The vulgar fraction. Add pausing or grammar instructions if necessary.
 vulgar-fraction:
   - %1
 
-# 
-# %1: 
-# %2: 
+# Short speech for fractions with simple components.
+# Example: a over b
+# LaTeX Example: $\frac{a}{b}$
+# %1: The numerator
+# %2: The denominator
 fraction-over:
   - %1
   - $1: "के हर में"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Short speech for fractions with simple components with explicit end fraction
+# Example: a over b end fraction
+# LaTeX Example: $\frac{a}{b}$
+# %1: The numerator
+# %2: The denominator
 fraction-overendfrac:
   - %1
   - $1: "के हर में"
   - %2 (pause:short)
   - $2: "भिन्न समाप्त" (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Short speech for fractions with simple components with explicitly announced fraction
+# Example: the fraction a over b
+# LaTeX Example: $\frac{a}{b}$
+# %1: The numerator
+# %2: The denominator
 fraction-fracover:
   - $1: "भिन्न"
   - %1
   - $2: "के हर में"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Short speech for fractions with simple components using per
+# Example: a per b
+# LaTeX Example: $\frac{a}{b}$
+# %1: The numerator
+# %2: The denominator
 fraction-per:
   - %1
   - $1: "प्रति"
@@ -911,7 +995,9 @@ set-prefix-operators:
   - %1
   - $1: "का फलन"
 
-# 
+# An inline division with forward slash or division sign
+# Example: a divided by b
+# LaTeX Example: $a/b$
 # %1: 
 # %2: 
 division:
@@ -924,67 +1010,76 @@ division:
 operators-after-power:
   - %1
 
-# 
+# The natural numbers (positive integers)
 natural-numbers:
   - $1: "प्राकृत संख्याएं"
 
-# 
+# The integers
 integers:
   - $1: "पूर्णांक"
 
-# 
+# The rational numbers
 rational-numbers:
   - $1: "परिमेय संख्याएं"
 
-# 
+# The real numbers
 real-numbers:
   - $1: "वास्तविक संख्याएं"
 
-# 
+# The complex numbers
 complex-numbers:
   - $1: "सम्मिश्र संख्याएं"
 
-# 
+# The Natural number with zero
+# LaTeX Example: $\N_0$
 natural-numbers-with-zero:
   - $1: "शून्य सहित प्राकृत संख्याएं"
 
-# 
+# The positive integers
+# LaTeX Example: $\Z^{+}$
 positive-integers:
   - $1: "धनात्मक पूर्णांक"
 
-# 
+# The negative integers
+# LaTeX Example: $\Z^{-}$
 negative-integers:
   - $1: "ऋणात्मक पूर्णांक"
 
-# 
+# The positive rational numbers
+# LaTeX Example: $\Q^{+}$
 positive-rational-numbers:
   - $1: "धनात्मक परिमेय संख्याएं"
 
-# 
+# The negative rational numbers
+# LaTeX Example: $\Q^{-}$
 negative-rational-numbers:
   - $1: "ऋणात्मक परिमेय संख्याएं"
 
-# 
-# %1: 
+# Absolute value
+# %1: The content of the absolute value
 fences-neutral:
   - %1
   - $1: "का निरपेक्ष मान" (pause:short)
 
-# 
-# %1: 
+# Absolute values spoken with explicit end of absolute value
+# %1: The content of the absolute value
 fences-neutral-absend:
   - $1: "निरपेक्ष मान प्रारम्भ"
   - %1 (pause:short)
   - $2: "निरपेक्ष मान समाप्त" (pause:short)
 
-# 
-# %1: 
+# Neutral interpreted as cardinality of a set
+# Example: cardinality of S
+# LaTeX Example: $|S|$
+# %1: The content between the neutral fences
 fences-neutral-cardinality:
   - %1
   - $1: "की गणनीयता" (pause:short)
 
-# 
-# %1: 
+# Neutral interpreted as determinant of a matrix
+# Example: determinant of A
+# LaTeX Example: $|A|$
+# %1: The content between the neutral fences
 fences-neutral-determinant:
   - %1
   - $1: "का सारणिक" (pause:short)

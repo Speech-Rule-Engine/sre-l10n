@@ -49,6 +49,30 @@
   "vbar-given": [
     "$1: \"für die gilt\""
   ],
+  "member": [
+    "$1: \"ist Element von\""
+  ],
+  "member-element": [
+    "$1: \"ist Element von\""
+  ],
+  "member-in": [
+    "$1: \"in\""
+  ],
+  "member-belongs": [
+    "$1: \"gehört zu\""
+  ],
+  "not-member": [
+    "$1: \"is kein Element von\""
+  ],
+  "not-member-element": [
+    "$1: \"is kein Element von\""
+  ],
+  "not-member-in": [
+    "$1: \"ist nicht in\""
+  ],
+  "not-member-belongs": [
+    "$1: \"gehört nicht zu\""
+  ],
   "set-member": [
     "$1: \"in\""
   ],
@@ -108,12 +132,12 @@
     "%2 (pause:short)"
   ],
   "function-prefix-fenced-or-frac-arg": [
-    "%1",
+    "%1 (grammar:addArticle)",
     "$1: \"von\"",
     "%2 (pause:short, grammar:case=\"dative\")"
   ],
   "function-prefix-subscript": [
-    "%1",
+    "%1 (grammar:addArticle)",
     "$1: \"von\" (pause:short)",
     "%2 (pause:short, grammar:case=\"dative\")"
   ],

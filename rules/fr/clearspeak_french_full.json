@@ -137,7 +137,7 @@
       }
     ]
   },
-  "set-member": {
+  "member": {
     "components": [
       {
         "type": "TEXT",
@@ -145,11 +145,67 @@
       }
     ]
   },
-  "set-member-member": {
+  "member-element": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"est un élément de\""
+      }
+    ]
+  },
+  "member-in": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"est dans\""
+      }
+    ]
+  },
+  "member-belongs": {
     "components": [
       {
         "type": "TEXT",
         "content": "\"appartient à\""
+      }
+    ]
+  },
+  "not-member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"n'est pas un\""
+      }
+    ]
+  },
+  "not-member-element": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"n'est pas un élément de\""
+      }
+    ]
+  },
+  "not-member-in": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"n'est pas dans\""
+      }
+    ]
+  },
+  "not-member-belongs": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"n'appartient pas à\""
+      }
+    ]
+  },
+  "set-member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"est un\""
       }
     ]
   },
@@ -161,11 +217,19 @@
       }
     ]
   },
-  "set-member-belongs": {
+  "set-member-in": {
     "components": [
       {
         "type": "TEXT",
         "content": "\"est dans\""
+      }
+    ]
+  },
+  "set-member-belongs": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"appartient à\""
       }
     ]
   },
@@ -177,11 +241,11 @@
       }
     ]
   },
-  "set-not-member-member": {
+  "set-not-member-in": {
     "components": [
       {
         "type": "TEXT",
-        "content": "\"n'appartient pas à\""
+        "content": "\"n'est pas dans\""
       }
     ]
   },
@@ -197,7 +261,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"n'est pas dans\""
+        "content": "\"n'appartient pas à\""
       }
     ]
   },

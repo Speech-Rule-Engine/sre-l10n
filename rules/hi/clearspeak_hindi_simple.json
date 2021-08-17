@@ -71,6 +71,9 @@
   "set-member-element": [
     "$1: \"में\""
   ],
+  "set-member-in": [
+    "$1: \"में\""
+  ],
   "set-member-belongs": [
     "$1: \"में\""
   ],
@@ -81,6 +84,9 @@
     "$1: \"में नही\""
   ],
   "set-not-member-element": [
+    "$1: \"में नही\""
+  ],
+  "set-not-member-in": [
     "$1: \"में नही\""
   ],
   "set-not-member-belongs": [

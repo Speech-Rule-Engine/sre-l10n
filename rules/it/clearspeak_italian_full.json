@@ -137,6 +137,86 @@
       }
     ]
   },
+  "member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"appartiene ad\""
+      }
+    ]
+  },
+  "member-member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"membro di\""
+      }
+    ]
+  },
+  "member-element": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"elemento di\""
+      }
+    ]
+  },
+  "member-in": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"in\""
+      }
+    ]
+  },
+  "member-belongs": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"appartiene ad\""
+      }
+    ]
+  },
+  "not-member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"non appartiene ad\""
+      }
+    ]
+  },
+  "not-member-member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"non membro di\""
+      }
+    ]
+  },
+  "not-member-element": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"non elemento di\""
+      }
+    ]
+  },
+  "not-member-in": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"non in\""
+      }
+    ]
+  },
+  "not-member-belongs": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"non appartiene ad\""
+      }
+    ]
+  },
   "set-member": {
     "components": [
       {

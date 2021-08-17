@@ -36,29 +36,53 @@
   "vbar-given": [
     "$1: \"sachant\""
   ],
-  "set-member": [
+  "member": [
     "$1: \"est un\""
   ],
-  "set-member-member": [
+  "member-element": [
+    "$1: \"est un élément de\""
+  ],
+  "member-in": [
+    "$1: \"est dans\""
+  ],
+  "member-belongs": [
     "$1: \"appartient à\""
+  ],
+  "not-member": [
+    "$1: \"n'est pas un\""
+  ],
+  "not-member-element": [
+    "$1: \"n'est pas un élément de\""
+  ],
+  "not-member-in": [
+    "$1: \"n'est pas dans\""
+  ],
+  "not-member-belongs": [
+    "$1: \"n'appartient pas à\""
+  ],
+  "set-member": [
+    "$1: \"est un\""
   ],
   "set-member-element": [
     "$1: \"est un élément de\""
   ],
-  "set-member-belongs": [
+  "set-member-in": [
     "$1: \"est dans\""
+  ],
+  "set-member-belongs": [
+    "$1: \"appartient à\""
   ],
   "set-not-member": [
     "$1: \"n'est pas un\""
   ],
-  "set-not-member-member": [
-    "$1: \"n'appartient pas à\""
+  "set-not-member-in": [
+    "$1: \"n'est pas dans\""
   ],
   "set-not-member-element": [
     "$1: \"n'est pas un élément de\""
   ],
   "set-not-member-belongs": [
-    "$1: \"n'est pas dans\""
+    "$1: \"n'appartient pas à\""
   ],
   "appl": [
     "%1",

@@ -142,12 +142,12 @@
     "%2 (pause:short)"
   ],
   "function-prefix-fenced-or-frac-arg": [
-    "%1",
+    "%1 (grammar:addArticle)",
     "$1: \"of\"",
     "%2 (pause:short)"
   ],
   "function-prefix-subscript": [
-    "%1",
+    "%1 (grammar:addArticle)",
     "$1: \"of\" (pause:short)",
     "%2 (pause:short)"
   ],
@@ -211,7 +211,7 @@
     "$1: \"inverse\""
   ],
   "superscript-prefix-function": [
-    "%1",
+    "%1 (grammar:addArticle)",
     "$1: \"power of\"",
     "%2"
   ],
@@ -246,7 +246,7 @@
     "$2: \"power\" (pause:short)"
   ],
   "superscript-simple-function": [
-    "%1",
+    "%1 (grammar:addArticle)",
     "$1: \"power of\" (pause:short)",
     "%2"
   ],
@@ -555,12 +555,12 @@
     "%1 (pause:short)"
   ],
   "root": [
-    "%1",
+    "%1 (grammar:addArticle)",
     "$1: \"root of\"",
     "%2 (pause:short)"
   ],
   "root-nested": [
-    "%1",
+    "%1 (grammar:addArticle)",
     "$1: \"root of\"",
     "%2 (pause:short)"
   ],
@@ -586,7 +586,7 @@
     "%2"
   ],
   "set-prefix-operators": [
-    "%1",
+    "%1 (grammar:addArticle)",
     "$1: \"of\""
   ],
   "division": [
@@ -874,7 +874,7 @@
     "%1 (context:\"Constraint-:\", pause:long)"
   ],
   "bigop": [
-    "%1",
+    "%1 (grammar:addArticle)",
     "$1: \"of\"",
     "%2 (pause:short)"
   ],
@@ -896,7 +896,7 @@
     "%2 (pause:short)"
   ],
   "integral": [
-    "%1",
+    "%1 (grammar:addArticle)",
     "$1: \"of\"",
     "%2 (pause:short)"
   ],

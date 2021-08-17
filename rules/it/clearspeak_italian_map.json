@@ -117,6 +117,66 @@
       "content": "\"dato\""
     }
   },
+  "member": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"appartiene ad\""
+    }
+  },
+  "member-member": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"membro di\""
+    }
+  },
+  "member-element": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"elemento di\""
+    }
+  },
+  "member-in": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"in\""
+    }
+  },
+  "member-belongs": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"appartiene ad\""
+    }
+  },
+  "not-member": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"non appartiene ad\""
+    }
+  },
+  "not-member-member": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"non membro di\""
+    }
+  },
+  "not-member-element": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"non elemento di\""
+    }
+  },
+  "not-member-in": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"non in\""
+    }
+  },
+  "not-member-belongs": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"non appartiene ad\""
+    }
+  },
   "set-member": {
     "$1": {
       "type": "TEXT",

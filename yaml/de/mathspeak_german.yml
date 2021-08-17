@@ -202,7 +202,7 @@ factorial:
 minus:
   - $1: "minus"
 
-# Rule for processing a vulgar fraction
+# Rule for speaking a vulgar fraction in words
 # %1: The vulgar fraction
 vulgar-fraction:
   - %1

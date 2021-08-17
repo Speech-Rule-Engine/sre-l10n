@@ -195,6 +195,70 @@
       }
     ]
   },
+  "member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"ist Element von\""
+      }
+    ]
+  },
+  "member-element": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"ist Element von\""
+      }
+    ]
+  },
+  "member-in": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"in\""
+      }
+    ]
+  },
+  "member-belongs": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"gehört zu\""
+      }
+    ]
+  },
+  "not-member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"is kein Element von\""
+      }
+    ]
+  },
+  "not-member-element": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"is kein Element von\""
+      }
+    ]
+  },
+  "not-member-in": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"ist nicht in\""
+      }
+    ]
+  },
+  "not-member-belongs": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"gehört nicht zu\""
+      }
+    ]
+  },
   "set-member": {
     "components": [
       {

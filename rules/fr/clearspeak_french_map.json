@@ -117,16 +117,58 @@
       "content": "\"sachant\""
     }
   },
-  "set-member": {
+  "member": {
     "$1": {
       "type": "TEXT",
       "content": "\"est un\""
     }
   },
-  "set-member-member": {
+  "member-element": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"est un élément de\""
+    }
+  },
+  "member-in": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"est dans\""
+    }
+  },
+  "member-belongs": {
     "$1": {
       "type": "TEXT",
       "content": "\"appartient à\""
+    }
+  },
+  "not-member": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n'est pas un\""
+    }
+  },
+  "not-member-element": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n'est pas un élément de\""
+    }
+  },
+  "not-member-in": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n'est pas dans\""
+    }
+  },
+  "not-member-belongs": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n'appartient pas à\""
+    }
+  },
+  "set-member": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"est un\""
     }
   },
   "set-member-element": {
@@ -135,10 +177,16 @@
       "content": "\"est un élément de\""
     }
   },
-  "set-member-belongs": {
+  "set-member-in": {
     "$1": {
       "type": "TEXT",
       "content": "\"est dans\""
+    }
+  },
+  "set-member-belongs": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"appartient à\""
     }
   },
   "set-not-member": {
@@ -147,10 +195,10 @@
       "content": "\"n'est pas un\""
     }
   },
-  "set-not-member-member": {
+  "set-not-member-in": {
     "$1": {
       "type": "TEXT",
-      "content": "\"n'appartient pas à\""
+      "content": "\"n'est pas dans\""
     }
   },
   "set-not-member-element": {
@@ -162,7 +210,7 @@
   "set-not-member-belongs": {
     "$1": {
       "type": "TEXT",
-      "content": "\"n'est pas dans\""
+      "content": "\"n'appartient pas à\""
     }
   },
   "appl": {

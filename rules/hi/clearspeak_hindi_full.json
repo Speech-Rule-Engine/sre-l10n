@@ -262,6 +262,14 @@
       }
     ]
   },
+  "set-member-in": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"में\""
+      }
+    ]
+  },
   "set-member-belongs": {
     "components": [
       {
@@ -287,6 +295,14 @@
     ]
   },
   "set-not-member-element": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"में नही\""
+      }
+    ]
+  },
+  "set-not-member-in": {
     "components": [
       {
         "type": "TEXT",
@@ -1461,10 +1477,7 @@
     "components": [
       {
         "type": "NODE",
-        "content": "children/*[1]/children/*[1]",
-        "grammar": {
-          "setext": true
-        }
+        "content": "children/*[1]/children/*[1]"
       },
       {
         "type": "TEXT",
