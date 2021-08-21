@@ -1965,14 +1965,14 @@
   "superscript-simple-function-none": {
     "rule": "superscript-simple-function-none",
     "parameters": {
-      "%1": ""
+      "%1": "The single letter function with exponent"
     },
     "locales": {
       "de": 1,
       "en": 1,
       "hi": 1
     },
-    "description": "",
+    "description": "Simple letter function (e.g., f, g, h) with exponent explicitly not spoken as a function. Usually does not need to be localised.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -2667,8 +2667,8 @@
   "subscript-index": {
     "rule": "subscript-index",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base element",
+      "%2": "The index"
     },
     "locales": {
       "de": 2,
@@ -2677,7 +2677,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "An element with an index",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -2749,8 +2749,8 @@
   "fraction-none": {
     "rule": "fraction-none",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The numerator",
+      "%2": "The denominator"
     },
     "locales": {
       "de": 2,
@@ -2759,8 +2759,8 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
+    "description": "A fraction in a function application, which is not interpreted as a function",
+    "latex": "\\frac{f}{g}(x)",
     "example": "",
     "reference": "en",
     "order": {
@@ -2790,8 +2790,8 @@
   "simple-fraction": {
     "rule": "simple-fraction",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The numerator",
+      "%2": "The denominator"
     },
     "locales": {
       "de": 2,
@@ -2800,9 +2800,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Fraction with simple elements in numerator and denominator",
+    "latex": "\\frac{a}{b}",
+    "example": "a over b",
     "reference": "en",
     "order": {
       "de": {
@@ -2831,8 +2831,8 @@
   "simple-vulgar-fraction": {
     "rule": "simple-vulgar-fraction",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The numerator",
+      "%2": "The denominator"
     },
     "locales": {
       "de": 2,
@@ -2841,7 +2841,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "Vulgar fraction with positive integer numerator > 10 or denominator > 20. Not spoken as words",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -2872,8 +2872,8 @@
   "simple-text-fraction": {
     "rule": "simple-text-fraction",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The numerator",
+      "%2": "The denominator"
     },
     "locales": {
       "de": 2,
@@ -2882,9 +2882,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "Fraction with simple textual elements",
     "latex": "",
-    "example": "",
+    "example": "containers over hours",
     "reference": "en",
     "order": {
       "de": {
@@ -3112,8 +3112,8 @@
   "fraction-generalendfrac": {
     "rule": "fraction-generalendfrac",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The numerator",
+      "%2": "The denominator"
     },
     "locales": {
       "de": 2,
@@ -3122,9 +3122,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Fallback rule for all fractions with explicit end fraction announcement. This is for the generalEndFrac preference, where all fractions are announced the same followed by end fraction.",
+    "latex": "\\frac{a+b}{c+d}",
+    "example": "the fraction with numerator a plus b and denominator c plus d end fraction",
     "reference": "en",
     "order": {
       "de": {
@@ -3163,9 +3163,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Fallback rule for all fractions. This is for the general preference, where all fractions are announced the same.",
+    "latex": "\\frac{a}{c}",
+    "example": "the fraction with numerator a and denominator c",
     "reference": "en",
     "order": {
       "de": {
@@ -3194,7 +3194,7 @@
   "simple-vulgar-fraction-ordinal": {
     "rule": "simple-vulgar-fraction-ordinal",
     "parameters": {
-      "%1": ""
+      "%1": "The vulgar fraction"
     },
     "locales": {
       "de": 1,
@@ -3203,7 +3203,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "A vulgar fraction pronounced as ordinal in all cases.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -3229,7 +3229,7 @@
   "fraction-endfrac": {
     "rule": "fraction-endfrac",
     "parameters": {
-      "%1": ""
+      "%1": "The fraction"
     },
     "locales": {
       "de": 1,
@@ -3238,7 +3238,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "The rule adds end fraction announcements to fractions if necessary. Used in EndFrac preference.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -3264,8 +3264,8 @@
   "vulgar-fraction-endfrac": {
     "rule": "vulgar-fraction-endfrac",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The numerator",
+      "%2": "The denominator"
     },
     "locales": {
       "de": 2,
@@ -3274,7 +3274,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "Vulgar fraction with positive integer numerator > 10 or denominator > 20. Not spoken as words in EndFrac preference.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -3305,7 +3305,7 @@
   "simple-vulgar-fraction-endfrac": {
     "rule": "simple-vulgar-fraction-endfrac",
     "parameters": {
-      "%1": ""
+      "%1": "The vulgar fraction"
     },
     "locales": {
       "de": 1,
@@ -3314,7 +3314,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Vulgar fraction with positive integer numerator <= 10 or denominator <= 20, spoken as words in EndFrac preference.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -3340,7 +3340,7 @@
   "sqrt": {
     "rule": "sqrt",
     "parameters": {
-      "%1": ""
+      "%1": "Content of the square root"
     },
     "locales": {
       "de": 1,
@@ -3349,7 +3349,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Basic square root rule",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -3375,7 +3375,7 @@
   "sqrt-nested": {
     "rule": "sqrt-nested",
     "parameters": {
-      "%1": ""
+      "%1": "The content of the square root."
     },
     "locales": {
       "de": 1,
@@ -3384,7 +3384,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "A square root, nested within another. This is never spoken with an `end root` announcement",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -3410,7 +3410,7 @@
   "negative-sqrt": {
     "rule": "negative-sqrt",
     "parameters": {
-      "%1": ""
+      "%1": "The content of the square root."
     },
     "locales": {
       "de": 1,
@@ -3419,7 +3419,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "A negative square root",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -3445,7 +3445,7 @@
   "negative-sqrt-default": {
     "rule": "negative-sqrt-default",
     "parameters": {
-      "%1": ""
+      "%1": "The content of the square root."
     },
     "locales": {
       "de": 1,
@@ -3454,7 +3454,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "A negative square root, possibly nested within another. This is never spoken with an `end root` announcement",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -3480,7 +3480,7 @@
   "sqrt-plus-minus": {
     "rule": "sqrt-plus-minus",
     "parameters": {
-      "%1": ""
+      "%1": "The content of the square root."
     },
     "locales": {
       "de": 1,
@@ -3489,9 +3489,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Square root with plus-minus sign spoken as positive square root in PosNegSqRoot preference",
+    "latex": "\\pm \\sqrt{a}",
+    "example": "plus or minus the positive square root of a",
     "reference": "en",
     "order": {
       "de": {
@@ -3515,7 +3515,7 @@
   "sqrt-nested-plus-minus": {
     "rule": "sqrt-nested-plus-minus",
     "parameters": {
-      "%1": ""
+      "%1": "The content of the square root."
     },
     "locales": {
       "de": 1,
@@ -3524,9 +3524,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Nested square root with plus-minus sign spoken as positive square root in PosNegSqRoot preference. This is never spoken with an `end root` announcement",
+    "latex": "\\pm \\sqrt{a}",
+    "example": "plus or minus the positive square root of a",
     "reference": "en",
     "order": {
       "de": {
@@ -3550,7 +3550,7 @@
   "sqrt-plus-minus-posnegsqrootend": {
     "rule": "sqrt-plus-minus-posnegsqrootend",
     "parameters": {
-      "%1": ""
+      "%1": "The square root."
     },
     "locales": {
       "de": 1,
@@ -3559,7 +3559,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Adds a end root announcement if necessary.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -3585,7 +3585,7 @@
   "sqrt-nested-plus-minus-posnegsqrootend": {
     "rule": "sqrt-nested-plus-minus-posnegsqrootend",
     "parameters": {
-      "%1": ""
+      "%1": "The square root."
     },
     "locales": {
       "de": 1,
@@ -3594,7 +3594,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Adds a end root announcement if necessary.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -3620,7 +3620,7 @@
   "sqrt-endroot": {
     "rule": "sqrt-endroot",
     "parameters": {
-      "%1": ""
+      "%1": "The square root."
     },
     "locales": {
       "de": 1,
@@ -3629,7 +3629,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Adds a end root announcement if necessary.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -3655,7 +3655,7 @@
   "negative-sqrt-endroot": {
     "rule": "negative-sqrt-endroot",
     "parameters": {
-      "%1": ""
+      "%1": "The negative square root"
     },
     "locales": {
       "de": 1,
@@ -3664,7 +3664,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Adds a end root announcement if necessary.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -3690,7 +3690,7 @@
   "sqrt-posnegsqrootend": {
     "rule": "sqrt-posnegsqrootend",
     "parameters": {
-      "%1": ""
+      "%1": "The square root"
     },
     "locales": {
       "de": 1,
@@ -3699,7 +3699,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Adds a end root announcement if necessary.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -3725,7 +3725,7 @@
   "negative-sqrt-posnegsqrootend": {
     "rule": "negative-sqrt-posnegsqrootend",
     "parameters": {
-      "%1": ""
+      "%1": "The negative square root"
     },
     "locales": {
       "de": 1,
@@ -3734,7 +3734,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Adds a end root announcement if necessary.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -3760,7 +3760,7 @@
   "cubic": {
     "rule": "cubic",
     "parameters": {
-      "%1": ""
+      "%1": "The content of the cubic root"
     },
     "locales": {
       "de": 1,
@@ -3769,7 +3769,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Basic rule for cubic roots",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -3795,7 +3795,7 @@
   "cubic-nested": {
     "rule": "cubic-nested",
     "parameters": {
-      "%1": ""
+      "%1": "The content of the cubic root"
     },
     "locales": {
       "de": 1,
@@ -3804,7 +3804,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "A cubic root, nested within another. This is never spoken with an `end root` announcement",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -3830,8 +3830,8 @@
   "root": {
     "rule": "root",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Index of the root",
+      "%2": "Content of the radical"
     },
     "locales": {
       "de": 2,
@@ -3840,9 +3840,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "An root with explicit index. Speaking the index as ordinal when possible.",
+    "latex": "\\sqrt[4]{a}",
+    "example": "the fourth root of a",
     "reference": "en",
     "order": {
       "de": {
@@ -3871,8 +3871,8 @@
   "root-nested": {
     "rule": "root-nested",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Index of the root",
+      "%2": "Content of the radical"
     },
     "locales": {
       "de": 2,
@@ -3881,7 +3881,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "An nested root with explicit index. Never spoken with `end root` announcement.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -3912,7 +3912,7 @@
   "root-endroot": {
     "rule": "root-endroot",
     "parameters": {
-      "%1": ""
+      "%1": "The root"
     },
     "locales": {
       "de": 1,
@@ -3921,7 +3921,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Adds a end root announcement if necessary.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -3947,7 +3947,7 @@
   "root-posnegsqrootend": {
     "rule": "root-posnegsqrootend",
     "parameters": {
-      "%1": ""
+      "%1": "The root"
     },
     "locales": {
       "de": 1,
@@ -3956,7 +3956,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Adds a end root announcement if necessary. Specialist rule for PosNegSqRoot",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -3982,7 +3982,7 @@
   "negative": {
     "rule": "negative",
     "parameters": {
-      "%1": ""
+      "%1": "The element with the negative sign"
     },
     "locales": {
       "de": 1,
@@ -3991,9 +3991,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Pronounces the minus sign, when used as prefix sign rather than an operation",
+    "latex": "-a",
+    "example": "negative a",
     "reference": "en",
     "order": {
       "de": {
@@ -4017,7 +4017,7 @@
   "positive": {
     "rule": "positive",
     "parameters": {
-      "%1": ""
+      "%1": "The element with the positive sign"
     },
     "locales": {
       "de": 1,
@@ -4026,9 +4026,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Pronounces the plus sign, when used as prefix sign rather than an operation",
+    "latex": "+a",
+    "example": "positive a",
     "reference": "en",
     "order": {
       "de": {
