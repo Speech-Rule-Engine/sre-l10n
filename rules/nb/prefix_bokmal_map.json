@@ -1,0 +1,232 @@
+{
+  "numerator": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Teller\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "denominator": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Nevner\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "base": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Basis\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "exponent": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Eksponent\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "subscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Indeks\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "overscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Øvre grenseverdi\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "underscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Nedre grenseverdi\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "radicand": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Radikand\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "index": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Indeks\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "leftsub": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Venstre subskript\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "leftsub-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Venstre subskript\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "leftsuper": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Venstre superskript\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "leftsuper-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Venstre superskript\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "rightsub": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Høyre subskript\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "rightsub-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Høyre subskript\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "rightsuper": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Høyre superskript\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "rightsuper-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Høyre superskript\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "choice": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Utvalg\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "select": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Stikkprøvestørrelse\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "row": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Rad\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "cell": {
+    "%1": {
+      "type": "NODE",
+      "content": "../.."
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Kolonne\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "cell-simple": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Kolonne\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  }
+}

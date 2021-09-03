@@ -10,7 +10,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary for a long identifier. Used when the expression is visually abstracted.",
     "latex": "\\mathit{abcdefg}",
@@ -26,7 +27,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -41,7 +43,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary for an identifier",
     "latex": "x",
@@ -57,7 +60,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -72,7 +76,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of a long number. Used when the expression is visually abstracted.",
     "latex": "123456",
@@ -88,7 +93,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -103,7 +109,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of a number",
     "latex": "12",
@@ -119,7 +126,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -134,7 +142,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of a long mixed number. Used when the expression is visually abstracted.",
     "latex": "120\\frac{20}{101}",
@@ -150,7 +159,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -165,7 +175,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of a mixed number",
     "latex": "1\\frac{2}{3}",
@@ -181,7 +192,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -196,7 +208,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of an interspersed text element",
     "latex": "x_0 + x_1 \\mtext{and so on} = y",
@@ -212,7 +225,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -227,7 +241,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of a function",
     "latex": "\\sin(x)",
@@ -243,7 +258,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -258,7 +274,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Brief summary of a function",
     "latex": "\\sin(x)",
@@ -274,7 +291,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -289,7 +307,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of a limit function",
     "latex": "\\lim_{x\\to \\infty}",
@@ -305,7 +324,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -320,7 +340,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Brief summary of limit function",
     "latex": "\\lim_{x\\to \\infty}",
@@ -336,7 +357,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -351,7 +373,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of a fraction",
     "latex": "\\frac{a}{b}",
@@ -367,7 +390,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -382,7 +406,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Brief summary of a fraction",
     "latex": "\\frac{a}{b}",
@@ -398,7 +423,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -413,7 +439,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of a continued fraction",
     "latex": "\\frac{a}{\\ldots}",
@@ -429,7 +456,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -444,7 +472,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Brief summary of a continued fraction",
     "latex": "\\frac{a}{\\ldots}",
@@ -460,7 +489,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -475,7 +505,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of sqare root",
     "latex": "\\sqrt{A}",
@@ -491,7 +522,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -506,7 +538,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of a nested square root, irrespective of whether the inner roots are square roots or other indexed roots",
     "latex": "\\sqrt{\\sqrt[4]{A}}",
@@ -522,7 +555,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -538,7 +572,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Indicates the end of the root index. This is important if summary is used in context, e.g. for an collapsed expression.",
     "latex": "\\sqrt[n + 1]{a} + b",
@@ -564,6 +599,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -580,7 +618,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Summary of an indexed root",
     "latex": "\\sqrt[4]{A}",
@@ -606,6 +645,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -621,7 +663,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Brief summary of an indexed root",
     "latex": "\\sqrt[4]{A}",
@@ -637,7 +680,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -653,7 +697,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Indicates the end of the indexed root index. This is important if summary is used in context, e.g. for an collapsed expression.",
     "latex": "\\sqrt[n + 1]{\\sqrt{a}} + b",
@@ -679,6 +724,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -695,7 +743,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Summary of a nested root, irrespective of whether the inner roots are square roots or other indexed roots",
     "latex": "\\sqrt[3]{\\sqrt[4]{A}}",
@@ -721,6 +770,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -736,7 +788,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Brief summary of a nested root, irrespective of whether the inner roots are square roots or other indexed roots",
     "latex": "\\sqrt[3]{\\sqrt[4]{A}}",
@@ -752,7 +805,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -767,7 +821,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of an exponential expression",
     "latex": "",
@@ -783,7 +838,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -798,7 +854,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of an indexed expression",
     "latex": "",
@@ -814,7 +871,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -829,7 +887,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of an exponential expression with index",
     "latex": "",
@@ -845,7 +904,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -862,7 +922,8 @@
       "es": 2,
       "fr": 3,
       "hi": 2,
-      "it": 3
+      "it": 3,
+      "nb": 2
     },
     "description": "Summary of an infix operation giving the number of terms",
     "latex": "a/b",
@@ -894,6 +955,10 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 3
@@ -910,7 +975,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Summary of an infix operation containing ellipses (...)",
     "latex": "a-\\ldots- b",
@@ -936,6 +1002,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -952,7 +1021,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Brief summary of an infix operation, regardless of fixed or variable number of elements ",
     "latex": "",
@@ -978,6 +1048,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -994,7 +1067,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Summary of an addition with a fixed number of terms.",
     "latex": "a + b + c",
@@ -1020,6 +1094,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -1035,7 +1112,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Brief summary of an addition, regardless of fixed or variable number of elements ",
     "latex": "a + b + c",
@@ -1051,7 +1129,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -1066,7 +1145,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of an addition containing ellipses (...)",
     "latex": "a + \\ldots + c",
@@ -1082,7 +1162,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -1098,7 +1179,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Summary of a product with a fixed number of terms.",
     "latex": "a * b * c",
@@ -1124,6 +1206,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -1139,7 +1224,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Brief summary of a product, regardless of fixed or variable number of elements ",
     "latex": "a * b * c",
@@ -1155,7 +1241,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -1170,7 +1257,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of a product containing ellipses (...)",
     "latex": "a * \\ldots * c",
@@ -1186,7 +1274,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -1202,7 +1291,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Summary of a column vector",
     "latex": "\\begin{pmatrix} a \\\\ b \\\\ c \\end{pmatrix}",
@@ -1228,6 +1318,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -1243,7 +1336,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nb": 0
     },
     "description": "Brief summary of a column vector",
     "latex": "\\begin{pmatrix} a \\\\ b \\\\ c \\end{pmatrix}",
@@ -1257,7 +1351,8 @@
         "%1": "%1"
       },
       "hi": {},
-      "it": {}
+      "it": {},
+      "nb": {}
     },
     "maximum": 1
   },
@@ -1272,7 +1367,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of an abstract column vector",
     "latex": "\\begin{pmatrix} a \\\\ \\vdots \\\\ c \\end{pmatrix}",
@@ -1288,7 +1384,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -1303,7 +1400,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of binomial coefficient",
     "latex": "",
@@ -1319,7 +1417,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -1335,7 +1434,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Summary of a determinant",
     "latex": "\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}",
@@ -1361,6 +1461,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -1376,7 +1479,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Brief summary of a determinant",
     "latex": "\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}",
@@ -1392,7 +1496,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -1407,7 +1512,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of a determinant with elliptic elements ( ...). Has to be recognisably square and in bar fences.",
     "latex": "\\begin{vmatrix} a & \\cdots & b \\\\ & \\ddots & \\\\ c & \\cdots & d \\end{vmatrix}",
@@ -1423,7 +1529,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -1439,7 +1546,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Summary of a square matrix",
     "latex": "\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}",
@@ -1465,6 +1573,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -1480,7 +1591,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Brief summary of a square matrix",
     "latex": "\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}",
@@ -1496,7 +1608,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -1512,7 +1625,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Summary of a row vector",
     "latex": "\\begin{pmatrix} a & b & c \\end{pmatrix}",
@@ -1538,6 +1652,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -1553,7 +1670,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Brief summary of a row vector",
     "latex": "\\begin{pmatrix} a & b & c \\end{pmatrix}",
@@ -1569,7 +1687,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -1584,7 +1703,8 @@
       "es": 0,
       "fr": 0,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of an abstract row vector",
     "latex": "\\begin{pmatrix} a & \\vdots & c \\end{pmatrix}",
@@ -1598,7 +1718,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -1615,7 +1736,8 @@
       "es": 2,
       "fr": 3,
       "hi": 2,
-      "it": 3
+      "it": 3,
+      "nb": 2
     },
     "description": "Summary of a non-square matrix",
     "latex": "\\begin{bmatrix} a & b & c \\\\ d & e & f \\end{bmatrix}",
@@ -1647,6 +1769,10 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 3
@@ -1662,7 +1788,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Brief summary of a non-square matrix",
     "latex": "\\begin{bmatrix} a & b & c \\\\ d & e & f \\end{bmatrix}",
@@ -1678,7 +1805,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -1693,7 +1821,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of a matrix with elliptic elements ( ...).",
     "latex": "\\begin{bmatrix} a & \\cdots & b \\\\ & \\ddots & \\\\ c & \\cdots & d \\end{bmatrix}",
@@ -1709,7 +1838,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -1725,7 +1855,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Summary of a case statement",
     "latex": "\\begin{cases} a \\\\ b \\\\ c \\end{cases}",
@@ -1751,6 +1882,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -1766,7 +1900,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Brief summary of a case statement",
     "latex": "\\begin{cases} a \\\\ b \\\\ c \\end{cases}",
@@ -1782,7 +1917,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -1797,7 +1933,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of a case statement with omitted cases indicated by ellipses (...)",
     "latex": "\\begin{cases} a \\\\ \\vdots \\\\ c \\end{cases}",
@@ -1813,7 +1950,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -1830,7 +1968,8 @@
       "es": 2,
       "fr": 3,
       "hi": 2,
-      "it": 3
+      "it": 3,
+      "nb": 2
     },
     "description": "Summary of a list of elements separated by a punctuation like comma, semi-colon, etc.",
     "latex": "a, b, c",
@@ -1862,6 +2001,10 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 3
@@ -1878,7 +2021,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Brief summary of a list of elements separated by a punctuation like comma, semi-colon, etc.",
     "latex": "a, b, c",
@@ -1904,6 +2048,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -1920,7 +2067,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Summary of a list of elements separated by a punctuation that contains elliptic elements (...)",
     "latex": "a, b, \\ldots, c",
@@ -1946,6 +2094,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -1962,7 +2113,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Summary of a big operation, like a sum or a product",
     "latex": "\\sum_{x=0}^\\infty x",
@@ -1988,6 +2140,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -2003,7 +2158,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of an integral",
     "latex": "\\int_{x=0}^\\infty x \\dx",
@@ -2019,7 +2175,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -2035,7 +2192,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Summary of a binary relation with two elements",
     "latex": "a = b",
@@ -2061,6 +2219,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -2078,7 +2239,8 @@
       "es": 2,
       "fr": 3,
       "hi": 2,
-      "it": 3
+      "it": 3,
+      "nb": 2
     },
     "description": "Summary of a relation sequence with three or more elements",
     "latex": "a = b = c",
@@ -2110,6 +2272,10 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 3
@@ -2126,7 +2292,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Brief summary of a relation sequence with three or more elements",
     "latex": "a = b = c",
@@ -2152,6 +2319,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -2168,7 +2338,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Summary of a relation sequence with three or more elements containing at least one ellispis (...)",
     "latex": "a = \\ldots = c",
@@ -2194,6 +2365,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -2210,7 +2384,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Summary of a relation sequence with different relations",
     "latex": "a < b = c > d",
@@ -2236,6 +2411,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -2251,7 +2429,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Brief summary of a relation sequence with different relations",
     "latex": "a < b = c > d",
@@ -2267,7 +2446,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -2282,7 +2462,8 @@
       "es": 0,
       "fr": 1,
       "hi": 0,
-      "it": 1
+      "it": 1,
+      "nb": 0
     },
     "description": "Summary of a relation sequence with different relations containing at least one ellispis (...)",
     "latex": "a > b_0 = \\ldots = b_n > c",
@@ -2298,7 +2479,8 @@
       "hi": {},
       "it": {
         "%1": "%1"
-      }
+      },
+      "nb": {}
     },
     "maximum": 1
   },
@@ -2315,7 +2497,8 @@
       "es": 2,
       "fr": 3,
       "hi": 2,
-      "it": 3
+      "it": 3,
+      "nb": 2
     },
     "description": "Summary of a table",
     "latex": "",
@@ -2347,6 +2530,10 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 3
@@ -2363,7 +2550,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Summary of a line (e.g. in a case statement)",
     "latex": "",
@@ -2389,6 +2577,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -2407,7 +2598,8 @@
       "es": 3,
       "fr": 4,
       "hi": 3,
-      "it": 4
+      "it": 4,
+      "nb": 3
     },
     "description": "Summary of a matrix row",
     "latex": "\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}",
@@ -2445,6 +2637,11 @@
         "%2": "%2",
         "%3": "%3",
         "%4": "%4"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
       }
     },
     "maximum": 4
@@ -2461,7 +2658,8 @@
       "es": 1,
       "fr": 2,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nb": 1
     },
     "description": "Summary of a matrix cell",
     "latex": "\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}",
@@ -2487,6 +2685,9 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2

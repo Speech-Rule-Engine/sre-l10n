@@ -353,7 +353,7 @@ abstr-punctuated:
   - $1: "separert liste"
   - $2: "med lengde"
   - %2
-  
+
 # Brief summary of a list of elements separated by a punctuation like comma, semi-colon, etc.
 # Example: comma separated list
 # LaTeX Example: $a, b, c$
