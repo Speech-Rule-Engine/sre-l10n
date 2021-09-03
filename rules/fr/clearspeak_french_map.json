@@ -117,6 +117,40 @@
       "content": "\"sachant\""
     }
   },
+  "element-noarticle": {
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]"
+    },
+    "%2": {
+      "type": "NODE",
+      "content": "content/*[1]"
+    },
+    "%3": {
+      "type": "NODE",
+      "content": "children/*[2]",
+      "grammar": {
+        "noArticle": true
+      }
+    }
+  },
+  "element": {
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]"
+    },
+    "%2": {
+      "type": "NODE",
+      "content": "content/*[1]"
+    },
+    "%3": {
+      "type": "NODE",
+      "content": "children/*[2]",
+      "grammar": {
+        "noArticle": false
+      }
+    }
+  },
   "member": {
     "$1": {
       "type": "TEXT",
@@ -186,7 +220,7 @@
   "set-member-belongs": {
     "$1": {
       "type": "TEXT",
-      "content": "\"appartient à\""
+      "content": "\"appartenant à\""
     }
   },
   "set-not-member": {
@@ -210,7 +244,7 @@
   "set-not-member-belongs": {
     "$1": {
       "type": "TEXT",
-      "content": "\"n'appartient pas à\""
+      "content": "\"n'appartenant pas à\""
     }
   },
   "appl": {
@@ -1922,61 +1956,131 @@
   "natural-numbers": {
     "$1": {
       "type": "TEXT",
-      "content": "\"les nombres entier naturel\""
+      "content": "\"les\"",
+      "grammar": {
+        "article": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"nombres entier naturel\""
     }
   },
   "integers": {
     "$1": {
       "type": "TEXT",
-      "content": "\"les nombres entiers\""
+      "content": "\"les\"",
+      "grammar": {
+        "article": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"nombres entiers\""
     }
   },
   "rational-numbers": {
     "$1": {
       "type": "TEXT",
-      "content": "\"les Nombres rationnels\""
+      "content": "\"les\"",
+      "grammar": {
+        "article": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"nombres rationnels\""
     }
   },
   "real-numbers": {
     "$1": {
       "type": "TEXT",
-      "content": "\"les nombres réels\""
+      "content": "\"les\"",
+      "grammar": {
+        "article": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"nombres réels\""
     }
   },
   "complex-numbers": {
     "$1": {
       "type": "TEXT",
-      "content": "\"les nombres complexes\""
+      "content": "\"les\"",
+      "grammar": {
+        "article": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"nombres complexes\""
     }
   },
   "natural-numbers-with-zero": {
     "$1": {
       "type": "TEXT",
-      "content": "\"les nombres entiers naturel avec zero\""
+      "content": "\"les\"",
+      "grammar": {
+        "article": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"nombres entiers naturel avec zero\""
     }
   },
   "positive-integers": {
     "$1": {
       "type": "TEXT",
-      "content": "\"les nombres entiers positif\""
+      "content": "\"les\"",
+      "grammar": {
+        "article": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"nombres entiers positif\""
     }
   },
   "negative-integers": {
     "$1": {
       "type": "TEXT",
-      "content": "\"les nombres entiers négatif\""
+      "content": "\"les\"",
+      "grammar": {
+        "article": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"nombres entiers négatif\""
     }
   },
   "positive-rational-numbers": {
     "$1": {
       "type": "TEXT",
-      "content": "\"les nombres rationnels positif\""
+      "content": "\"les\"",
+      "grammar": {
+        "article": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"nombres rationnels positif\""
     }
   },
   "negative-rational-numbers": {
     "$1": {
       "type": "TEXT",
-      "content": "\"les nombres rationnels négatif\""
+      "content": "\"les\"",
+      "grammar": {
+        "article": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"nombres rationnels négatif\""
     }
   },
   "fences-neutral": {

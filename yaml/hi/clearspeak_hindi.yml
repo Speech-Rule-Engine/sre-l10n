@@ -447,8 +447,8 @@ superscript-simple-function:
   - %2
   - $1: "घातांक" (pause:short)
 
-# 
-# %1: 
+# Simple letter function (e.g., f, g, h) with exponent explicitly not spoken as a function. Usually does not need to be localised.
+# %1: The single letter function with exponent
 superscript-simple-function-none:
   - %1
 
@@ -715,9 +715,9 @@ logarithm-base:
   - $1: "आधार"
   - %2
 
-# 
-# %1: 
-# %2: 
+# An element with an index
+# %1: The base element
+# %2: The index
 subscript-index:
   - %1
   - $1: "पाद"
@@ -734,34 +734,38 @@ fraction:
   - $2: "और हर"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# A fraction in a function application, which is not interpreted as a function
+# LaTeX Example: $\frac{f}{g}(x)$
+# %1: The numerator
+# %2: The denominator
 fraction-none:
   - $1: "भिन्न जिसका अंश"
   - %1 (pause:short)
   - $2: "और हर"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Fraction with simple elements in numerator and denominator
+# Example: a over b
+# LaTeX Example: $\frac{a}{b}$
+# %1: The numerator
+# %2: The denominator
 simple-fraction:
   - %1
   - $1: "के हर में"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Vulgar fraction with positive integer numerator > 10 or denominator > 20. Not spoken as words
+# %1: The numerator
+# %2: The denominator
 simple-vulgar-fraction:
   - %1
   - $1: "के हर में"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Fraction with simple textual elements
+# Example: containers over hours
+# %1: The numerator
+# %2: The denominator
 simple-text-fraction:
   - %1
   - $1: "के हर में"
@@ -814,9 +818,11 @@ fraction-per:
   - $1: "प्रति"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Fallback rule for all fractions with explicit end fraction announcement. This is for the generalEndFrac preference, where all fractions are announced the same followed by end fraction.
+# Example: the fraction with numerator a plus b and denominator c plus d end fraction
+# LaTeX Example: $\frac{a+b}{c+d}$
+# %1: The numerator
+# %2: The denominator
 fraction-generalendfrac:
   - $1: "भिन्न जिसका अंश"
   - %1 (pause:short)
@@ -824,7 +830,9 @@ fraction-generalendfrac:
   - %2 (pause:short)
   - $3: "भिन्न समाप्त" (pause:short)
 
-# 
+# Fallback rule for all fractions. This is for the general preference, where all fractions are announced the same.
+# Example: the fraction with numerator a and denominator c
+# LaTeX Example: $\frac{a}{c}$
 # %1: 
 # %2: 
 fraction-general:
@@ -833,150 +841,160 @@ fraction-general:
   - $2: "और हर"
   - %2 (pause:short)
 
-# 
-# %1: 
+# A vulgar fraction pronounced as ordinal in all cases.
+# %1: The vulgar fraction
 simple-vulgar-fraction-ordinal:
   - %1
 
-# 
-# %1: 
+# The rule adds end fraction announcements to fractions if necessary. Used in EndFrac preference.
+# %1: The fraction
 fraction-endfrac:
   - %1
   - $1: "भिन्न समाप्त" (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Vulgar fraction with positive integer numerator > 10 or denominator > 20. Not spoken as words in EndFrac preference.
+# %1: The numerator
+# %2: The denominator
 vulgar-fraction-endfrac:
   - %1
   - $1: "के हर में"
   - %2 (pause:short)
 
-# 
-# %1: 
+# Vulgar fraction with positive integer numerator <= 10 or denominator <= 20, spoken as words in EndFrac preference.
+# %1: The vulgar fraction
 simple-vulgar-fraction-endfrac:
   - %1
 
-# 
-# %1: 
+# Basic square root rule
+# %1: Content of the square root
 sqrt:
   - %1
   - $1: "का वर्गमूल" (pause:short)
 
-# 
-# %1: 
+# A square root, nested within another. This is never spoken with an `end root` announcement
+# %1: The content of the square root.
 sqrt-nested:
   - %1
   - $1: "का वर्गमूल" (pause:short)
 
-# 
-# %1: 
+# A negative square root
+# %1: The content of the square root.
 negative-sqrt:
   - %1
   - $1: "का ऋणात्मक वर्गमूल" (pause:short)
 
-# 
-# %1: 
+# A negative square root, possibly nested within another. This is never spoken with an `end root` announcement
+# %1: The content of the square root.
 negative-sqrt-default:
   - %1
   - $1: "का ऋणात्मक वर्गमूल" (pause:short)
 
-# 
-# %1: 
+# Square root with plus-minus sign spoken as positive square root in PosNegSqRoot preference
+# Example: plus or minus the positive square root of a
+# LaTeX Example: $\pm \sqrt{a}$
+# %1: The content of the square root.
 sqrt-plus-minus:
   - %1
   - $1: "का धनात्मक वर्गमूल" (pause:short)
 
-# 
-# %1: 
+# Nested square root with plus-minus sign spoken as positive square root in PosNegSqRoot preference. This is never spoken with an `end root` announcement
+# Example: plus or minus the positive square root of a
+# LaTeX Example: $\pm \sqrt{a}$
+# %1: The content of the square root.
 sqrt-nested-plus-minus:
   - %1
   - $1: "का धनात्मक वर्गमूल" (pause:short)
 
-# 
-# %1: 
+# Adds a end root announcement if necessary.
+# %1: The square root.
 sqrt-plus-minus-posnegsqrootend:
   - %1
   - $1: "का धनात्मक वर्गमूल" (pause:short)
 
-# 
-# %1: 
+# Adds a end root announcement if necessary.
+# %1: The square root.
 sqrt-nested-plus-minus-posnegsqrootend:
   - %1
   - $1: "का धनात्मक वर्गमूल" (pause:short)
 
-# 
-# %1: 
+# Adds a end root announcement if necessary.
+# %1: The square root.
 sqrt-endroot:
   - %1
   - $1: "मूल समाप्त" (pause:short)
 
-# 
-# %1: 
+# Adds a end root announcement if necessary.
+# %1: The negative square root
 negative-sqrt-endroot:
   - %1
   - $1: "मूल समाप्त" (pause:short)
 
-# 
-# %1: 
+# Adds a end root announcement if necessary.
+# %1: The square root
 sqrt-posnegsqrootend:
   - %1
   - $1: "मूल समाप्त" (pause:short)
 
-# 
-# %1: 
+# Adds a end root announcement if necessary.
+# %1: The negative square root
 negative-sqrt-posnegsqrootend:
   - %1
   - $1: "मूल समाप्त" (pause:short)
 
-# 
-# %1: 
+# Basic rule for cubic roots
+# %1: The content of the cubic root
 cubic:
   - %1
   - $1: "का घनमूल" (pause:short)
 
-# 
-# %1: 
+# A cubic root, nested within another. This is never spoken with an `end root` announcement
+# %1: The content of the cubic root
 cubic-nested:
   - %1
   - $1: "का घनमूल" (pause:short)
 
-# 
-# %1: 
-# %2: 
+# An root with explicit index. Speaking the index as ordinal when possible.
+# Example: the fourth root of a
+# LaTeX Example: $\sqrt[4]{a}$
+# %1: Content of the radical
+# %2: Index of the root
 root:
   - %1
   - %2
   - $1: "का मूल" (pause:short)
 
-# 
-# %1: 
-# %2: 
+# An nested root with explicit index. Never spoken with `end root` announcement.
+# %1: Content of the radical
+# %2: Index of the root
 root-nested:
   - %1
   - %2
   - $1: "का मूल" (pause:short)
 
-# 
-# %1: 
+# Adds a end root announcement if necessary.
+# %1: The root
 root-endroot:
   - %1
   - $1: "मूल समाप्त" (pause:short)
 
-# 
-# %1: 
+# Adds a end root announcement if necessary. Specialist rule for PosNegSqRoot
+# %1: The root
 root-posnegsqrootend:
   - %1
   - $1: "मूल समाप्त" (pause:short)
 
-# 
-# %1: 
+# Pronounces the minus sign, when used as prefix sign rather than an operation
+# Example: negative a
+# LaTeX Example: $-a$
+# %1: The element with the negative sign
 negative:
   - $1: "ऋण"
   - %1
 
-# 
-# %1: 
+# Pronounces the plus sign, when used as prefix sign rather than an operation
+# Example: positive a
+# LaTeX Example: $+a$
+# %1: The element with the positive sign
 positive:
   - $1: "धनात्मक"
   - %1

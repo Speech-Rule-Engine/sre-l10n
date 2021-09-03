@@ -135,7 +135,7 @@ export class Comment {
       this.order[locale] = order;
       let count = 0;
       while (count < this.locales[locale]) {
-        const param = `%{++count}`;
+        const param = `%${++count}`;
         order[param] = param;
       }
     }

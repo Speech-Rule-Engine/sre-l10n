@@ -179,7 +179,7 @@ set-not-member-element:
 # Example: a not belonging to A
 # LaTeX Example: $a\not\in A$
 set-not-member-belongs:
-  - $1: "non appartiene a "
+  - $1: "non appartenente a"
 
 # Fallback rule for function application
 # Example: f of x
@@ -763,9 +763,9 @@ logarithm-base:
   - $1: "base"
   - %2
 
-# 
-# %1: 
-# %2: 
+# An element with an index
+# %1: The base element
+# %2: The index
 subscript-index:
   - %1
   - $1: "pedice"
@@ -782,34 +782,38 @@ fraction:
   - $2: "e denominatore"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# A fraction in a function application, which is not interpreted as a function
+# LaTeX Example: $\frac{f}{g}(x)$
+# %1: The numerator
+# %2: The denominator
 fraction-none:
   - $1: "frazione con numeratore"
   - %1 (pause:short)
   - $2: "e denominatore"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Fraction with simple elements in numerator and denominator
+# Example: a over b
+# LaTeX Example: $\frac{a}{b}$
+# %1: The numerator
+# %2: The denominator
 simple-fraction:
   - %1
   - $1: "fratto"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Vulgar fraction with positive integer numerator > 10 or denominator > 20. Not spoken as words
+# %1: The numerator
+# %2: The denominator
 simple-vulgar-fraction:
   - %1
   - $1: "fratto"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Fraction with simple textual elements
+# Example: containers over hours
+# %1: The numerator
+# %2: The denominator
 simple-text-fraction:
   - %1
   - $1: "fratto"
@@ -862,9 +866,11 @@ fraction-per:
   - $1: "per"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Fallback rule for all fractions with explicit end fraction announcement. This is for the generalEndFrac preference, where all fractions are announced the same followed by end fraction.
+# Example: the fraction with numerator a plus b and denominator c plus d end fraction
+# LaTeX Example: $\frac{a+b}{c+d}$
+# %1: The numerator
+# %2: The denominator
 fraction-generalendfrac:
   - $1: "frazione con numeratore"
   - %1 (pause:short)
@@ -872,7 +878,9 @@ fraction-generalendfrac:
   - %2 (pause:short)
   - $3: "fine frazione" (pause:short)
 
-# 
+# Fallback rule for all fractions. This is for the general preference, where all fractions are announced the same.
+# Example: the fraction with numerator a and denominator c
+# LaTeX Example: $\frac{a}{c}$
 # %1: 
 # %2: 
 fraction-general:
@@ -881,152 +889,162 @@ fraction-general:
   - $2: "e denominatore"
   - %2 (pause:short)
 
-# 
-# %1: 
+# A vulgar fraction pronounced as ordinal in all cases.
+# %1: The vulgar fraction
 simple-vulgar-fraction-ordinal:
   - %1 (grammar:gender="m")
 
-# 
-# %1: 
+# The rule adds end fraction announcements to fractions if necessary. Used in EndFrac preference.
+# %1: The fraction
 fraction-endfrac:
   - %1
   - $1: "fine frazione" (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Vulgar fraction with positive integer numerator > 10 or denominator > 20. Not spoken as words in EndFrac preference.
+# %1: The numerator
+# %2: The denominator
 vulgar-fraction-endfrac:
   - %1
   - $1: "fratto"
   - %2 (pause:short)
 
-# 
-# %1: 
+# Vulgar fraction with positive integer numerator <= 10 or denominator <= 20, spoken as words in EndFrac preference.
+# %1: The vulgar fraction
 simple-vulgar-fraction-endfrac:
   - %1 (grammar:gender="m")
 
-# 
-# %1: 
+# Basic square root rule
+# %1: Content of the square root
 sqrt:
   - $1: "radice quadrata di"
   - %1 (pause:short)
 
-# 
-# %1: 
+# A square root, nested within another. This is never spoken with an `end root` announcement
+# %1: The content of the square root.
 sqrt-nested:
   - $1: "radice quadrata di"
   - %1 (pause:short)
 
-# 
-# %1: 
+# A negative square root
+# %1: The content of the square root.
 negative-sqrt:
   - $1: "meno radice quadrata di"
   - %1 (pause:short)
 
-# 
-# %1: 
+# A negative square root, possibly nested within another. This is never spoken with an `end root` announcement
+# %1: The content of the square root.
 negative-sqrt-default:
   - $1: "meno radice quadrata di"
   - %1 (pause:short)
 
-# 
-# %1: 
+# Square root with plus-minus sign spoken as positive square root in PosNegSqRoot preference
+# Example: plus or minus the positive square root of a
+# LaTeX Example: $\pm \sqrt{a}$
+# %1: The content of the square root.
 sqrt-plus-minus:
   - $1: "più radice quadrata di"
   - %1 (pause:short)
 
-# 
-# %1: 
+# Nested square root with plus-minus sign spoken as positive square root in PosNegSqRoot preference. This is never spoken with an `end root` announcement
+# Example: plus or minus the positive square root of a
+# LaTeX Example: $\pm \sqrt{a}$
+# %1: The content of the square root.
 sqrt-nested-plus-minus:
   - $1: "più radice quadrata di"
   - %1 (pause:short)
 
-# 
-# %1: 
+# Adds a end root announcement if necessary.
+# %1: The square root.
 sqrt-plus-minus-posnegsqrootend:
   - $1: "più radice quadrata di"
   - %1 (pause:short)
 
-# 
-# %1: 
+# Adds a end root announcement if necessary.
+# %1: The square root.
 sqrt-nested-plus-minus-posnegsqrootend:
   - $1: "più radice quadrata di"
   - %1 (pause:short)
 
-# 
-# %1: 
+# Adds a end root announcement if necessary.
+# %1: The square root.
 sqrt-endroot:
   - %1
   - $1: "fine radice" (pause:short)
 
-# 
-# %1: 
+# Adds a end root announcement if necessary.
+# %1: The negative square root
 negative-sqrt-endroot:
   - %1
   - $1: "fine radice" (pause:short)
 
-# 
-# %1: 
+# Adds a end root announcement if necessary.
+# %1: The square root
 sqrt-posnegsqrootend:
   - %1
   - $1: "fine radice" (pause:short)
 
-# 
-# %1: 
+# Adds a end root announcement if necessary.
+# %1: The negative square root
 negative-sqrt-posnegsqrootend:
   - %1
   - $1: "fine radice" (pause:short)
 
-# 
-# %1: 
+# Basic rule for cubic roots
+# %1: The content of the cubic root
 cubic:
   - $1: "radice cubica di"
   - %1 (pause:short)
 
-# 
-# %1: 
+# A cubic root, nested within another. This is never spoken with an `end root` announcement
+# %1: The content of the cubic root
 cubic-nested:
   - $1: "radice cubica di"
   - %1 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# An root with explicit index. Speaking the index as ordinal when possible.
+# Example: the fourth root of a
+# LaTeX Example: $\sqrt[4]{a}$
+# %1: Index of the root
+# %2: Content of the radical
 root:
   - $1: "radice"
   - %1 (grammar:gender="f")
   - $2: "di"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# An nested root with explicit index. Never spoken with `end root` announcement.
+# %1: Index of the root
+# %2: Content of the radical
 root-nested:
   - $1: "radice"
   - %1 (grammar:gender="f")
   - $2: "di"
   - %2 (pause:short)
 
-# 
-# %1: 
+# Adds a end root announcement if necessary.
+# %1: The root
 root-endroot:
   - %1
   - $1: "fine radice" (pause:short)
 
-# 
-# %1: 
+# Adds a end root announcement if necessary. Specialist rule for PosNegSqRoot
+# %1: The root
 root-posnegsqrootend:
   - %1
   - $1: "fine radice" (pause:short)
 
-# 
-# %1: 
+# Pronounces the minus sign, when used as prefix sign rather than an operation
+# Example: negative a
+# LaTeX Example: $-a$
+# %1: The element with the negative sign
 negative:
   - $1: "meno"
   - %1
 
-# 
-# %1: 
+# Pronounces the plus sign, when used as prefix sign rather than an operation
+# Example: positive a
+# LaTeX Example: $+a$
+# %1: The element with the positive sign
 positive:
   - $1: "più"
   - %1

@@ -36,6 +36,16 @@
   "vbar-given": [
     "$1: \"sachant\""
   ],
+  "element-noarticle": [
+    "%1",
+    "%2",
+    "%3"
+  ],
+  "element": [
+    "%1",
+    "%2",
+    "%3"
+  ],
   "member": [
     "$1: \"est un\""
   ],
@@ -70,7 +80,7 @@
     "$1: \"est dans\""
   ],
   "set-member-belongs": [
-    "$1: \"appartient à\""
+    "$1: \"appartenant à\""
   ],
   "set-not-member": [
     "$1: \"n'est pas un\""
@@ -82,7 +92,7 @@
     "$1: \"n'est pas un élément de\""
   ],
   "set-not-member-belongs": [
-    "$1: \"n'appartient pas à\""
+    "$1: \"n'appartenant pas à\""
   ],
   "appl": [
     "%1",
@@ -525,34 +535,44 @@
     "%2"
   ],
   "natural-numbers": [
-    "$1: \"les nombres entier naturel\""
+    "$1: \"les\" (grammar:article)",
+    "$2: \"nombres entier naturel\""
   ],
   "integers": [
-    "$1: \"les nombres entiers\""
+    "$1: \"les\" (grammar:article)",
+    "$2: \"nombres entiers\""
   ],
   "rational-numbers": [
-    "$1: \"les Nombres rationnels\""
+    "$1: \"les\" (grammar:article)",
+    "$2: \"nombres rationnels\""
   ],
   "real-numbers": [
-    "$1: \"les nombres réels\""
+    "$1: \"les\" (grammar:article)",
+    "$2: \"nombres réels\""
   ],
   "complex-numbers": [
-    "$1: \"les nombres complexes\""
+    "$1: \"les\" (grammar:article)",
+    "$2: \"nombres complexes\""
   ],
   "natural-numbers-with-zero": [
-    "$1: \"les nombres entiers naturel avec zero\""
+    "$1: \"les\" (grammar:article)",
+    "$2: \"nombres entiers naturel avec zero\""
   ],
   "positive-integers": [
-    "$1: \"les nombres entiers positif\""
+    "$1: \"les\" (grammar:article)",
+    "$2: \"nombres entiers positif\""
   ],
   "negative-integers": [
-    "$1: \"les nombres entiers négatif\""
+    "$1: \"les\" (grammar:article)",
+    "$2: \"nombres entiers négatif\""
   ],
   "positive-rational-numbers": [
-    "$1: \"les nombres rationnels positif\""
+    "$1: \"les\" (grammar:article)",
+    "$2: \"nombres rationnels positif\""
   ],
   "negative-rational-numbers": [
-    "$1: \"les nombres rationnels négatif\""
+    "$1: \"les\" (grammar:article)",
+    "$2: \"nombres rationnels négatif\""
   ],
   "fences-neutral": [
     "$1: \"la valeur absolue de\"",

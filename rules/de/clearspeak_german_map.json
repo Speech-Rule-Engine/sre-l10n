@@ -169,22 +169,39 @@
       "content": "\"für die gilt\""
     }
   },
+  "element": {
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]"
+    },
+    "%2": {
+      "type": "NODE",
+      "content": "content/*[1]"
+    },
+    "%3": {
+      "type": "NODE",
+      "content": "children/*[2]",
+      "grammar": {
+        "case": "\"dative\""
+      }
+    }
+  },
   "member": {
     "$1": {
       "type": "TEXT",
-      "content": "\"ist Element von\""
+      "content": "\"Element von\""
     }
   },
   "member-element": {
     "$1": {
       "type": "TEXT",
-      "content": "\"ist Element von\""
+      "content": "\"Element von\""
     }
   },
   "member-in": {
     "$1": {
       "type": "TEXT",
-      "content": "\"in\""
+      "content": "\"aus\""
     }
   },
   "member-belongs": {
@@ -196,19 +213,19 @@
   "not-member": {
     "$1": {
       "type": "TEXT",
-      "content": "\"is kein Element von\""
+      "content": "\"ist kein Element von\""
     }
   },
   "not-member-element": {
     "$1": {
       "type": "TEXT",
-      "content": "\"is kein Element von\""
+      "content": "\"ist kein Element von\""
     }
   },
   "not-member-in": {
     "$1": {
       "type": "TEXT",
-      "content": "\"ist nicht in\""
+      "content": "\"nicht in\""
     }
   },
   "not-member-belongs": {
@@ -220,7 +237,7 @@
   "set-member": {
     "$1": {
       "type": "TEXT",
-      "content": "\"in\""
+      "content": "\"aus\""
     }
   },
   "set-member-element": {
@@ -1255,7 +1272,14 @@
   "set-empty": {
     "$1": {
       "type": "TEXT",
-      "content": "\"die leere Menge\""
+      "content": "\"die\"",
+      "grammar": {
+        "article": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"leere Menge\""
     }
   },
   "set-extended": {
@@ -2168,61 +2192,141 @@
   "natural-numbers": {
     "$1": {
       "type": "TEXT",
-      "content": "\"die natürlichen Zahlen\""
+      "content": "\"die\"",
+      "grammar": {
+        "article": true,
+        "plural": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"natürlichen Zahlen\""
     }
   },
   "integers": {
     "$1": {
       "type": "TEXT",
-      "content": "\"die ganzen Zahlen\""
+      "content": "\"die\"",
+      "grammar": {
+        "article": true,
+        "plural": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"ganzen Zahlen\""
     }
   },
   "rational-numbers": {
     "$1": {
       "type": "TEXT",
-      "content": "\"die rationalen Zahlen\""
+      "content": "\"die\"",
+      "grammar": {
+        "article": true,
+        "plural": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"rationalen Zahlen\""
     }
   },
   "real-numbers": {
     "$1": {
       "type": "TEXT",
-      "content": "\"die reellen Zahlen\""
+      "content": "\"die\"",
+      "grammar": {
+        "article": true,
+        "plural": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"reellen Zahlen\""
     }
   },
   "complex-numbers": {
     "$1": {
       "type": "TEXT",
-      "content": "\"die komplexen Zahlen\""
+      "content": "\"die\"",
+      "grammar": {
+        "article": true,
+        "plural": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"komplexen Zahlen\""
     }
   },
   "natural-numbers-with-zero": {
     "$1": {
       "type": "TEXT",
-      "content": "\"die natürlichen Zahlen mit Null\""
+      "content": "\"die\"",
+      "grammar": {
+        "article": true,
+        "plural": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"natürlichen Zahlen mit Null\""
     }
   },
   "positive-integers": {
     "$1": {
       "type": "TEXT",
-      "content": "\"die positiven ganzen Zahlen\""
+      "content": "\"die\"",
+      "grammar": {
+        "article": true,
+        "plural": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"positiven ganzen Zahlen\""
     }
   },
   "negative-integers": {
     "$1": {
       "type": "TEXT",
-      "content": "\"die negativen ganzen Zahlen\""
+      "content": "\"die\"",
+      "grammar": {
+        "article": true,
+        "plural": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"negativen ganzen Zahlen\""
     }
   },
   "positive-rational-numbers": {
     "$1": {
       "type": "TEXT",
-      "content": "\"die positiven rationalen Zahlen\""
+      "content": "\"die\"",
+      "grammar": {
+        "article": true,
+        "plural": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"positiven rationalen Zahlen\""
     }
   },
   "negative-rational-numbers": {
     "$1": {
       "type": "TEXT",
-      "content": "\"die negativen rationalen Zahlen\""
+      "content": "\"die\"",
+      "grammar": {
+        "article": true,
+        "plural": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"negativen rationalen Zahlen\""
     }
   },
   "fences-neutral": {

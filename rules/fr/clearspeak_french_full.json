@@ -137,6 +137,44 @@
       }
     ]
   },
+  "element-noarticle": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "grammar": {
+          "noArticle": true
+        }
+      }
+    ]
+  },
+  "element": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "grammar": {
+          "noArticle": false
+        }
+      }
+    ]
+  },
   "member": {
     "components": [
       {
@@ -229,7 +267,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"appartient à\""
+        "content": "\"appartenant à\""
       }
     ]
   },
@@ -261,7 +299,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"n'appartient pas à\""
+        "content": "\"n'appartenant pas à\""
       }
     ]
   },
@@ -2161,7 +2199,14 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"les nombres entier naturel\""
+        "content": "\"les\"",
+        "grammar": {
+          "article": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"nombres entier naturel\""
       }
     ]
   },
@@ -2169,7 +2214,14 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"les nombres entiers\""
+        "content": "\"les\"",
+        "grammar": {
+          "article": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"nombres entiers\""
       }
     ]
   },
@@ -2177,7 +2229,14 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"les Nombres rationnels\""
+        "content": "\"les\"",
+        "grammar": {
+          "article": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"nombres rationnels\""
       }
     ]
   },
@@ -2185,7 +2244,14 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"les nombres réels\""
+        "content": "\"les\"",
+        "grammar": {
+          "article": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"nombres réels\""
       }
     ]
   },
@@ -2193,7 +2259,14 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"les nombres complexes\""
+        "content": "\"les\"",
+        "grammar": {
+          "article": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"nombres complexes\""
       }
     ]
   },
@@ -2201,7 +2274,14 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"les nombres entiers naturel avec zero\""
+        "content": "\"les\"",
+        "grammar": {
+          "article": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"nombres entiers naturel avec zero\""
       }
     ]
   },
@@ -2209,7 +2289,14 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"les nombres entiers positif\""
+        "content": "\"les\"",
+        "grammar": {
+          "article": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"nombres entiers positif\""
       }
     ]
   },
@@ -2217,7 +2304,14 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"les nombres entiers négatif\""
+        "content": "\"les\"",
+        "grammar": {
+          "article": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"nombres entiers négatif\""
       }
     ]
   },
@@ -2225,7 +2319,14 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"les nombres rationnels positif\""
+        "content": "\"les\"",
+        "grammar": {
+          "article": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"nombres rationnels positif\""
       }
     ]
   },
@@ -2233,7 +2334,14 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"les nombres rationnels négatif\""
+        "content": "\"les\"",
+        "grammar": {
+          "article": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"nombres rationnels négatif\""
       }
     ]
   },

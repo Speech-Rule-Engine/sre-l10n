@@ -49,32 +49,37 @@
   "vbar-given": [
     "$1: \"für die gilt\""
   ],
+  "element": [
+    "%1",
+    "%2",
+    "%3 (grammar:case=\"dative\")"
+  ],
   "member": [
-    "$1: \"ist Element von\""
+    "$1: \"Element von\""
   ],
   "member-element": [
-    "$1: \"ist Element von\""
+    "$1: \"Element von\""
   ],
   "member-in": [
-    "$1: \"in\""
+    "$1: \"aus\""
   ],
   "member-belongs": [
     "$1: \"gehört zu\""
   ],
   "not-member": [
-    "$1: \"is kein Element von\""
+    "$1: \"ist kein Element von\""
   ],
   "not-member-element": [
-    "$1: \"is kein Element von\""
+    "$1: \"ist kein Element von\""
   ],
   "not-member-in": [
-    "$1: \"ist nicht in\""
+    "$1: \"nicht in\""
   ],
   "not-member-belongs": [
     "$1: \"gehört nicht zu\""
   ],
   "set-member": [
-    "$1: \"in\""
+    "$1: \"aus\""
   ],
   "set-member-element": [
     "$1: \"Element von\""
@@ -350,7 +355,8 @@
     "%1"
   ],
   "set-empty": [
-    "$1: \"die leere Menge\""
+    "$1: \"die\" (grammar:article)",
+    "$2: \"leere Menge\""
   ],
   "set-extended": [
     "$1: \"die Menge aller\"",
@@ -567,34 +573,44 @@
     "%2"
   ],
   "natural-numbers": [
-    "$1: \"die natürlichen Zahlen\""
+    "$1: \"die\" (grammar:article:plural)",
+    "$2: \"natürlichen Zahlen\""
   ],
   "integers": [
-    "$1: \"die ganzen Zahlen\""
+    "$1: \"die\" (grammar:article:plural)",
+    "$2: \"ganzen Zahlen\""
   ],
   "rational-numbers": [
-    "$1: \"die rationalen Zahlen\""
+    "$1: \"die\" (grammar:article:plural)",
+    "$2: \"rationalen Zahlen\""
   ],
   "real-numbers": [
-    "$1: \"die reellen Zahlen\""
+    "$1: \"die\" (grammar:article:plural)",
+    "$2: \"reellen Zahlen\""
   ],
   "complex-numbers": [
-    "$1: \"die komplexen Zahlen\""
+    "$1: \"die\" (grammar:article:plural)",
+    "$2: \"komplexen Zahlen\""
   ],
   "natural-numbers-with-zero": [
-    "$1: \"die natürlichen Zahlen mit Null\""
+    "$1: \"die\" (grammar:article:plural)",
+    "$2: \"natürlichen Zahlen mit Null\""
   ],
   "positive-integers": [
-    "$1: \"die positiven ganzen Zahlen\""
+    "$1: \"die\" (grammar:article:plural)",
+    "$2: \"positiven ganzen Zahlen\""
   ],
   "negative-integers": [
-    "$1: \"die negativen ganzen Zahlen\""
+    "$1: \"die\" (grammar:article:plural)",
+    "$2: \"negativen ganzen Zahlen\""
   ],
   "positive-rational-numbers": [
-    "$1: \"die positiven rationalen Zahlen\""
+    "$1: \"die\" (grammar:article:plural)",
+    "$2: \"positiven rationalen Zahlen\""
   ],
   "negative-rational-numbers": [
-    "$1: \"die negativen rationalen Zahlen\""
+    "$1: \"die\" (grammar:article:plural)",
+    "$2: \"negativen rationalen Zahlen\""
   ],
   "fences-neutral": [
     "$1: \"der Betrag von\"",
