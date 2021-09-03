@@ -7,3 +7,23 @@ be more easily localised than in their previous JSON format.
 
 For explanations of the format and what needs to be done to localise them into
 your language, [see here for details](yaml.md).
+
+
+## Usage
+
+### Full translation
+
+Forward translation of all locales:
+
+``` javascript
+let trans = require('./js/base/translate');
+trans.translateForwardAll();
+```
+
+Backward translation of all locales:
+
+``` javascript
+let trans = require('./js/base/translate');
+trans.translateBackwardAll();
+```
+
