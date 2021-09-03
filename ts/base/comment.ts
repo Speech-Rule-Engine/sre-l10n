@@ -129,7 +129,7 @@ export class Comment {
       out.push(`# LaTeX Example: $${this.latex}$`);
     }
     // Picking the correct parameter comments.
-    let order = this.order[locale];
+    let order = this.order[locale] || this.order[this.reference];
     if (!order) {
       order = {};
       this.order[locale] = order;
