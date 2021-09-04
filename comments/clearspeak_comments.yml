@@ -1,0 +1,2033 @@
+collapsed:
+  description: "Rule that fires if an expression is visually abstracted"
+  example:     "collapsed sum"
+  latex:       ""
+  parameters:
+    %1: "The abstracted element"
+
+font:
+  description: "Explicit speaking of font"
+  example:     "bold alpha"
+  latex:       ""
+  parameters:
+    %1: "The font"
+    %2: "The expression"
+
+font-number:
+  description: "Explicit speaking of font for numbers"
+  example:     "kursive drei"
+  latex:       ""
+  parameters:
+    %1: "The font"
+    %2: "The number"
+
+font-double-struck:
+  description: "Explicit speaking of doublstruck/blackboard font"
+  example:     "R mit Doppelstrich"
+  latex:       ""
+  parameters:
+    %1: "The expression"
+    %2: "The font"
+
+font-number-double-struck:
+  description: "Explicit speaking of doublstruck/blackboar font"
+  example:     "Null mit Doppelstrich"
+  latex:       ""
+  parameters:
+    %1: "The number"
+    %2: "The font"
+
+ellipsis:
+  description: "Speaking an open ended ellipsis in AndSoOn preference"
+  example:     "a comma b comma and so on"
+  latex:       "a, b, \ldots"
+  parameters:
+
+ellipsis-andsoon:
+  description: "Speaking an intermediate ellipsis in AndSoOn preference"
+  example:     "a comma b comma and so on up to n"
+  latex:       "a,b,\ldots n"
+  parameters:
+
+vbar-evaluated:
+  description: "Interprets an vertical with subscript as evaluation of an antiderivative"
+  example:     "F of x, evaluated at x equals 0"
+  latex:       "F(x)|_{x=0}"
+  parameters:
+    %1: "Expression left of the vertical bar."
+    %2: "The subscript to the right of the vertical bar"
+
+vbar-evaluated-both:
+  description: "Interprets an vertical with subscript as evaluation of an antiderivative"
+  example:     "F of x, evaluated at infinity, minus the same expression evaluated at 0"
+  latex:       "F(x)|_{0}^\infty"
+  parameters:
+    %1: "Expression left of the vertical bar."
+    %2: "The superscript to the right of the vertical bar"
+    %3: "The subscript to the right of the vertical bar"
+
+vbar-such-that:
+  description: "Vertical bar interpreted as such that"
+  example:     "a such that b"
+  latex:       "a|b"
+  parameters:
+
+vbar-divides:
+  description: "Vertical bar interpreted as divides symbol"
+  example:     "a divides b"
+  latex:       "a|b"
+  parameters:
+
+vbar-always-divides:
+  description: "Vertical bar interpreted as divides symbol, regardless of context"
+  example:     "a divides b"
+  latex:       "a|b"
+  parameters:
+
+vbar-given:
+  description: "Vertical bar interpreted as given, e.g., in a set context"
+  example:     "a given b"
+  latex:       "a|b"
+  parameters:
+
+set-member:
+  description: "Set membership symbol within a set expression read in short form. Fallback rule."
+  example:     "a in A"
+  latex:       "\{a\in A| ...\}"
+  parameters:
+
+set-member-member:
+  description: "Set membership symbol within a set expression read in short form. Interpreted as member of"
+  example:     "a member of A"
+  latex:       "\{a\in A| ...\}"
+  parameters:
+
+set-member-element:
+  description: "Set membership symbol within a set expression read in short form. Interpreted as element of"
+  example:     "a element of A"
+  latex:       "a\in A"
+  parameters:
+
+set-member-in:
+  description: "Set membership symbol within a set expression read in short form. Interpreted as in"
+  example:     "a in A"
+  latex:       "a\in A"
+  parameters:
+
+set-member-belongs:
+  description: "Set membership symbol within a set expression read in short form. Interpreted as belonging to"
+  example:     "a belonging to A"
+  latex:       "a\in A"
+  parameters:
+
+set-not-member:
+  description: "Set membership symbol inside a set expression read in short form. Interpreted as not member of. Fallback rule"
+  example:     "a not member of A"
+  latex:       "a\not\in A"
+  parameters:
+
+set-not-member-member:
+  description: "Set membership symbol inside a set expression read in short form. Interpreted as not member of"
+  example:     "a not member of A"
+  latex:       "a\not\in A"
+  parameters:
+
+set-not-member-element:
+  description: "Set membership symbol inside a set expression read in short form. Interpreted as not element of"
+  example:     "a not element of A"
+  latex:       "a\not\in A"
+  parameters:
+
+set-not-member-in:
+  description: "Set membership symbol inside a set expression read in short form. Interpreted as not in"
+  example:     "a not in A"
+  latex:       "a\not\in A"
+  parameters:
+
+set-not-member-belongs:
+  description: "Set membership symbol inside a set expression read in short form. Interpreted as not belongs to"
+  example:     "a not belonging to A"
+  latex:       "a\not\in A"
+  parameters:
+
+function-article:
+  description: "The article before a function. Rule ensures that the case is corrected."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The functional expression"
+
+function-article-fem:
+  description: "The feminine article before a function. Rule ensures that the case is corrected."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The functional expression"
+
+appl:
+  description: "Fallback rule for function application"
+  example:     "f of x"
+  latex:       "f(x)"
+  parameters:
+    %1: "The function"
+    %2: "The argument"
+
+appl-simple:
+  description: "Function application of a single letter function like f, g, h."
+  example:     "f of x"
+  latex:       "f(x)"
+  parameters:
+    %1: "The function"
+    %2: "The argument"
+
+appl-simple-fenced:
+  description: "Function application of a single letter function with argument being another function application"
+  example:     "f of h of x"
+  latex:       "f(h(x))"
+  parameters:
+    %1: "The function"
+    %2: "The argument, which is a fenced function application"
+
+appl-times:
+  description: "Forces function applications to be read as juxtapositions"
+  example:     "f times x"
+  latex:       "f(x)"
+  parameters:
+    %1: "The function"
+    %2: "The argument"
+
+function-prefix:
+  description: "Application of a known prefix function, e.g., a trigonometric function"
+  example:     "sine x"
+  latex:       "\sin x"
+  parameters:
+    %1: "Prefix function"
+    %2: "The argument"
+
+function-prefix-simple-arg:
+  description: "Application of a known prefix function to a fenced but simple argument (e.g., xy is simple, x + y is not)"
+  example:     "sine x y"
+  latex:       "\sin(xy)"
+  parameters:
+    %1: "The prefix function"
+    %2: "The fenced argument"
+
+function-prefix-embell:
+  description: "Application of a prefix function with index or superscript"
+  example:     "sine squared x"
+  latex:       "\sin^2 x"
+  parameters:
+    %1: "The embellished prefix function"
+    %2: "The argument"
+
+function-prefix-fenced-or-frac-arg:
+  description: "Application of a prefix functions to a non-simple argument."
+  example:     "the sine of a over b"
+  latex:       "\sine(\frac{a}{b})"
+  parameters:
+    %1: ""
+    %2: "The "
+
+function-prefix-subscript:
+  description: "Function application of a named function with subscript"
+  example:     ""
+  latex:       "\min_a X"
+  parameters:
+    %1: "The prefix function with subscript"
+    %2: "The argument of the function"
+
+function-ln:
+  description: "Natural logarithm application in short speech."
+  example:     "ln x"
+  latex:       ""
+  parameters:
+    %1: "The natural logarithm."
+    %2: "The argument"
+
+function-ln-pause:
+  description: "Natural logarithm application with following pause."
+  example:     "ln x"
+  latex:       ""
+  parameters:
+    %1: "The natural logarithm."
+    %2: "The argument"
+
+function-ln-of:
+  description: "Natural logarithm application in explicit speech."
+  example:     "ln of x"
+  latex:       ""
+  parameters:
+    %1: "The natural logarithm."
+    %2: "The argument"
+
+function-prefix-as-exp:
+  description: "Function in a superscript with a complex argument"
+  example:     "x raised to the sine of open paren y plus z close paren power"
+  latex:       "x^{\sin (y + z)}"
+  parameters:
+    %1: "The prefix function"
+    %2: "The function argument"
+
+function-prefix-subscript-as-exp:
+  description: "Function in a subscript with a complex argument"
+  example:     "x sub the sine of open paren y plus z close paren"
+  latex:       "x_{\sin (y + z)}"
+  parameters:
+    %1: "The prefix function"
+    %2: "Its argument"
+
+function-prefix-hyper:
+  description: "Hyperbolic function as prefix function"
+  example:     "hyperbolic sine of x"
+  latex:       "\sinh x"
+  parameters:
+    %1: "The hyperbolic function"
+    %2: "Its argument"
+
+function-prefix-inverse:
+  description: "Inverse of a named function"
+  example:     "the inverse sine of x"
+  latex:       "\sin^{-1} x"
+  parameters:
+    %1: "The inverted function (e.g., sin^-1)"
+    %2: "Its argument"
+
+appl-triginverse:
+  description: "Speaks an arcus function as inverse"
+  example:     "the inverse sine of x"
+  latex:       "\arcsin x"
+  parameters:
+    %1: "The arcus function"
+    %2: "Its argument"
+
+function-prefix-arc-simple:
+  description: "Speaks an inverse trigonometric function as arcus"
+  example:     "arc sine x"
+  latex:       "\sin^{-1} x"
+  parameters:
+    %1: "The inverted function (e.g., sin^-1)"
+    %2: "Its argument"
+
+function-prefix-arc-simple-fenced:
+  description: "Speaks an inverted trigonometric function as arcus. Omits the parentheses on simple arguments."
+  example:     "arc sine x"
+  latex:       "\sin^{-1} (x)"
+  parameters:
+    %1: "The inverted function (e.g., sin^-1)"
+    %2: "The fenced argument with simple content"
+
+function-prefix-arc:
+  description: "Speaks an inverted trigonometric function as arcus. Fallback for complex arguments."
+  example:     "arc sine of open paren x plus y close paren"
+  latex:       "\sin^{-1} (x+y)"
+  parameters:
+    %1: "The inverted function (e.g., sin^-1)"
+    %2: "The fenced argument with simple content"
+
+function-inverse:
+  description: "General inverse function"
+  example:     "f inverse"
+  latex:       "f^{-1}"
+  parameters:
+    %1: "The inverse function"
+
+superscript-prefix-function:
+  description: "General function with superscript that is either a number of simple identifier."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The prefix function as basis"
+    %2: "The superscript"
+
+superscript:
+  description: "The fallback rule for superscript/exponent expressions"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The basis"
+    %2: "The exponent"
+
+superscript-ordinal:
+  description: "Fallback rule for exponent expressions with integer or simple single letter identifier exponent"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The basis"
+    %2: "The exponent as an integer or single letter identifier"
+
+superscript-ordinal-prefixop:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The basis"
+    %2: "The exponent"
+
+superscript-ordinal-default:
+  description: "Fallback rule for exponent expressions in Ordinal preference."
+  example:     "x raised to the y plus z power"
+  latex:       "x^{y+z}"
+  parameters:
+    %1: "The basis"
+    %2: "The exponent"
+
+superscript-simple-exponent:
+  description: "Rule for exponent expressions with single letter or integer exponents in Ordinal preference."
+  example:     "x to the y-th"
+  latex:       "x^{y}"
+  parameters:
+    %1: "The basis"
+    %2: "The exponent"
+
+superscript-simple-exponent-end:
+  description: "Rule for exponent expressions with simple exponents where power is used as postfix for disambiguation."
+  example:     "x raised to the 2 y power"
+  latex:       "x^{2y}"
+  parameters:
+    %1: "The basis"
+    %2: "The exponent"
+
+superscript-simple-power:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The basis"
+    %2: "The exponent"
+
+superscript-simple-power-end:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The basis"
+    %2: "The exponent"
+
+superscript-ordinal-power:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The basis"
+    %2: "The exponent"
+
+superscript-non-ordinal:
+  description: "Rule for exponent expressions with simple exponents that should not be read a ordinals in Ordinal preference."
+  example:     "x to the negative 1"
+  latex:       "x^{-1}"
+  parameters:
+    %1: "The basis"
+    %2: "The exponent"
+
+superscript-simple-function-ordinal:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The basis"
+    %2: "The exponent"
+
+exponent:
+  description: "A letter spoken as ordinal exponent. Note that the rule might need adjustment of the join attribute."
+  example:     "y-th as in x to the y-th"
+  latex:       "y"
+  parameters:
+    %1: "The letter"
+
+exponent-number:
+  description: "A number spoken as an ordinal. Note that the rule might need adjustment of the join attribute."
+  example:     "fourth as in x to the fourth"
+  latex:       "4"
+  parameters:
+    %1: "The number"
+
+exponent-zero:
+  description: "The exponent zero, or power zero."
+  example:     "x zur nullten Potenz"
+  latex:       "x^0"
+  parameters:
+
+superscript-simple-exp:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The basis"
+    %2: "The exponent"
+
+superscript-simple-exp-end:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The basis"
+    %2: "The exponent"
+
+superscript-simple-function-none:
+  description: "Simple letter function (e.g., f, g, h) with exponent explicitly not spoken as a function. Usually does not need to be localised."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The single letter function with exponent"
+
+square:
+  description: "A squared element"
+  example:     "x squared"
+  latex:       "x^2"
+  parameters:
+    %1: "The expression that is squared."
+    %2: "The adjective for squared, to put into its grammatically correct case, e.g., in Italian"
+
+cube:
+  description: "A cubed element"
+  example:     "x cubed"
+  latex:       "x^3"
+  parameters:
+    %1: "The expression that is cubed."
+
+fences-points:
+  description: "Parenthesised expression interpreted as point"
+  example:     "The point with coordinates 5 comma 6"
+  latex:       "(5,6)"
+  parameters:
+    %1: "The two comma separated points"
+
+fences-interval:
+  description: "A fenced pair of values interpreted as in interval. This is the base rule, specialisations are handled in subsequent rules."
+  example:     "The interval from a to b"
+  latex:       "[a,b]"
+  parameters:
+    %1: "The start value"
+    %2: "The end value"
+    %3: "The overall interval for speaking specialisations, such as inclusions or exclusions of boundaries"
+
+interval-open:
+  description: "Specialisation for an open interval"
+  example:     ""
+  latex:       "(a,b)"
+  parameters:
+    %1: "The start value"
+    %2: "The end value"
+
+interval-closed-open:
+  description: "Specialisation for an closed-open interval"
+  example:     ""
+  latex:       "[a,b)"
+  parameters:
+    %1: "The start value"
+    %2: "The end value"
+
+interval-open-closed:
+  description: "Specialisation for an open-closed interval"
+  example:     ""
+  latex:       "(a,b]"
+  parameters:
+    %1: "The start value"
+    %2: "The end value"
+
+interval-closed:
+  description: "Specialisation for an closed interval"
+  example:     ""
+  latex:       "[a,b]"
+  parameters:
+    %1: "The start value"
+    %2: "The end value"
+
+interval-open-inf-r:
+  description: "Open integral with right infinity"
+  example:     ""
+  latex:       "(a,\infty)"
+  parameters:
+    %1: "The start value"
+
+interval-open-inf-l:
+  description: "Open integral with left infinity"
+  example:     ""
+  latex:       "(\infty,b)"
+  parameters:
+    %1: "The end value"
+
+interval-closed-open-inf:
+  description: "Open integral with right infinity"
+  example:     ""
+  latex:       "[a,\infty)"
+  parameters:
+    %1: "The start value"
+
+interval-open-closed-inf:
+  description: "Closed integral with left infinity"
+  example:     ""
+  latex:       "(\infty,b]"
+  parameters:
+    %1: "The end value"
+
+set-empty:
+  description: "The empty set"
+  example:     "the empty set"
+  latex:       "\empty"
+  parameters:
+
+set-extended:
+  description: "A set defined via set intensionality"
+  example:     "The set of all a in A such that ..."
+  latex:       "\{a\in A| ...\}"
+  parameters:
+    %1: "The element left of the divider"
+    %2: "The element to the right."
+
+set-collection:
+  description: "Set defined via a collection of elements"
+  example:     "The set a comma b comma c"
+  latex:       "\{a,b,c\}"
+  parameters:
+    %1: "The content of the set"
+
+set-extended-woall:
+  description: "A set defined via set intensionality without an explicity for all"
+  example:     "The set a in A such that ..."
+  latex:       "\{a\in A| ...\}"
+  parameters:
+    %1: "The element left of the divider"
+    %2: "The element to the right."
+
+subscript:
+  description: "Fallback rule for subscript expressions"
+  example:     "A sub a"
+  latex:       "A_a"
+  parameters:
+    %1: "The base"
+    %2: "The subscript index"
+
+logarithm-base:
+  description: "Logarithm spoken as base"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "Logarithm function"
+    %2: "The base"
+
+subscript-index:
+  description: "An element with an index"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The base element"
+    %2: "The index"
+
+fraction:
+  description: "Fallback rule for explicit speaking of fraction"
+  example:     "the fraction with numerator a and denominator b"
+  latex:       "\frac{a}{b}"
+  parameters:
+    %1: "The numerator"
+    %2: "The denominator"
+
+fraction-none:
+  description: "A fraction in a function application, which is not interpreted as a function"
+  example:     ""
+  latex:       "\frac{f}{g}(x)"
+  parameters:
+    %1: "The numerator"
+    %2: "The denominator"
+
+simple-fraction:
+  description: "Fraction with simple elements in numerator and denominator"
+  example:     "a over b"
+  latex:       "\frac{a}{b}"
+  parameters:
+    %1: "The numerator"
+    %2: "The denominator"
+
+simple-vulgar-fraction:
+  description: "Vulgar fraction with positive integer numerator > 10 or denominator > 20. Not spoken as words"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The numerator"
+    %2: "The denominator"
+
+simple-text-fraction:
+  description: "Fraction with simple textual elements"
+  example:     "containers over hours"
+  latex:       ""
+  parameters:
+    %1: "The numerator"
+    %2: "The denominator"
+
+vulgar-fraction:
+  description: "Vulgar fraction spoken as words. The rule fires for positive integer numerators <= 10 and denominators <=20"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The vulgar fraction. Add pausing or grammar instructions if necessary."
+
+fraction-over:
+  description: "Short speech for fractions with simple components."
+  example:     "a over b"
+  latex:       "\frac{a}{b}"
+  parameters:
+    %1: "The numerator"
+    %2: "The denominator"
+
+fraction-overendfrac:
+  description: "Short speech for fractions with simple components with explicit end fraction"
+  example:     "a over b end fraction"
+  latex:       "\frac{a}{b}"
+  parameters:
+    %1: "The numerator"
+    %2: "The denominator"
+
+fraction-fracover:
+  description: "Short speech for fractions with simple components with explicitly announced fraction"
+  example:     "the fraction a over b"
+  latex:       "\frac{a}{b}"
+  parameters:
+    %1: "The numerator"
+    %2: "The denominator"
+
+fraction-per:
+  description: "Short speech for fractions with simple components using per"
+  example:     "a per b"
+  latex:       "\frac{a}{b}"
+  parameters:
+    %1: "The numerator"
+    %2: "The denominator"
+
+fraction-generalendfrac:
+  description: "Fallback rule for all fractions with explicit end fraction announcement. This is for the generalEndFrac preference, where all fractions are announced the same followed by end fraction."
+  example:     "the fraction with numerator a plus b and denominator c plus d end fraction"
+  latex:       "\frac{a+b}{c+d}"
+  parameters:
+    %1: "The numerator"
+    %2: "The denominator"
+
+fraction-general:
+  description: "Fallback rule for all fractions. This is for the general preference, where all fractions are announced the same."
+  example:     "the fraction with numerator a and denominator c"
+  latex:       "\frac{a}{c}"
+  parameters:
+    %1: ""
+    %2: ""
+
+simple-vulgar-fraction-ordinal:
+  description: "A vulgar fraction pronounced as ordinal in all cases."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The vulgar fraction"
+
+fraction-endfrac:
+  description: "The rule adds end fraction announcements to fractions if necessary. Used in EndFrac preference."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The fraction"
+
+vulgar-fraction-endfrac:
+  description: "Vulgar fraction with positive integer numerator > 10 or denominator > 20. Not spoken as words in EndFrac preference."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The numerator"
+    %2: "The denominator"
+
+simple-vulgar-fraction-endfrac:
+  description: "Vulgar fraction with positive integer numerator <= 10 or denominator <= 20, spoken as words in EndFrac preference."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The vulgar fraction"
+
+sqrt:
+  description: "Basic square root rule"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "Content of the square root"
+
+sqrt-nested:
+  description: "A square root, nested within another. This is never spoken with an `end root` announcement"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The content of the square root."
+
+negative-sqrt:
+  description: "A negative square root"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The content of the square root."
+
+negative-sqrt-default:
+  description: "A negative square root, possibly nested within another. This is never spoken with an `end root` announcement"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The content of the square root."
+
+sqrt-plus-minus:
+  description: "Square root with plus-minus sign spoken as positive square root in PosNegSqRoot preference"
+  example:     "plus or minus the positive square root of a"
+  latex:       "\pm \sqrt{a}"
+  parameters:
+    %1: "The content of the square root."
+
+sqrt-nested-plus-minus:
+  description: "Nested square root with plus-minus sign spoken as positive square root in PosNegSqRoot preference. This is never spoken with an `end root` announcement"
+  example:     "plus or minus the positive square root of a"
+  latex:       "\pm \sqrt{a}"
+  parameters:
+    %1: "The content of the square root."
+
+sqrt-plus-minus-posnegsqrootend:
+  description: "Adds a end root announcement if necessary."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The square root."
+
+sqrt-nested-plus-minus-posnegsqrootend:
+  description: "Adds a end root announcement if necessary."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The square root."
+
+sqrt-endroot:
+  description: "Adds a end root announcement if necessary."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The square root."
+
+negative-sqrt-endroot:
+  description: "Adds a end root announcement if necessary."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The negative square root"
+
+sqrt-posnegsqrootend:
+  description: "Adds a end root announcement if necessary."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The square root"
+
+negative-sqrt-posnegsqrootend:
+  description: "Adds a end root announcement if necessary."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The negative square root"
+
+cubic:
+  description: "Basic rule for cubic roots"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The content of the cubic root"
+
+cubic-nested:
+  description: "A cubic root, nested within another. This is never spoken with an `end root` announcement"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The content of the cubic root"
+
+root:
+  description: "An root with explicit index. Speaking the index as ordinal when possible."
+  example:     "the fourth root of a"
+  latex:       "\sqrt[4]{a}"
+  parameters:
+    %1: "Index of the root"
+    %2: "Content of the radical"
+
+root-nested:
+  description: "An nested root with explicit index. Never spoken with `end root` announcement."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "Index of the root"
+    %2: "Content of the radical"
+
+root-endroot:
+  description: "Adds a end root announcement if necessary."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The root"
+
+root-posnegsqrootend:
+  description: "Adds a end root announcement if necessary. Specialist rule for PosNegSqRoot"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The root"
+
+negative:
+  description: "Pronounces the minus sign, when used as prefix sign rather than an operation"
+  example:     "negative a"
+  latex:       "-a"
+  parameters:
+    %1: "The element with the negative sign"
+
+positive:
+  description: "Pronounces the plus sign, when used as prefix sign rather than an operation"
+  example:     "positive a"
+  latex:       "+a"
+  parameters:
+    %1: "The element with the positive sign"
+
+angle-measure:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+set-prefix-operators-masculine:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+set-prefix-operators-feminine:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+division:
+  description: "An inline division with forward slash or division sign"
+  example:     "a divided by b"
+  latex:       "a/b"
+  parameters:
+    %1: ""
+    %2: ""
+
+natural-numbers:
+  description: "The natural numbers (positive integers)"
+  example:     ""
+  latex:       ""
+  parameters:
+
+integers:
+  description: "The integers"
+  example:     ""
+  latex:       ""
+  parameters:
+
+rational-numbers:
+  description: "The rational numbers"
+  example:     ""
+  latex:       ""
+  parameters:
+
+real-numbers:
+  description: "The real numbers"
+  example:     ""
+  latex:       ""
+  parameters:
+
+complex-numbers:
+  description: "The complex numbers"
+  example:     ""
+  latex:       ""
+  parameters:
+
+natural-numbers-with-zero:
+  description: "The Natural number with zero"
+  example:     ""
+  latex:       "\N_0"
+  parameters:
+
+positive-integers:
+  description: "The positive integers"
+  example:     ""
+  latex:       "\Z^{+}"
+  parameters:
+
+negative-integers:
+  description: "The negative integers"
+  example:     ""
+  latex:       "\Z^{-}"
+  parameters:
+
+positive-rational-numbers:
+  description: "The positive rational numbers"
+  example:     ""
+  latex:       "\Q^{+}"
+  parameters:
+
+negative-rational-numbers:
+  description: "The negative rational numbers"
+  example:     ""
+  latex:       "\Q^{-}"
+  parameters:
+
+fences-neutral:
+  description: "Absolute value"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The content of the absolute value"
+
+fences-neutral-absend:
+  description: "Absolute values spoken with explicit end of absolute value"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The content of the absolute value"
+
+fences-neutral-cardinality:
+  description: "Neutral interpreted as cardinality of a set"
+  example:     "cardinality of S"
+  latex:       "|S|"
+  parameters:
+    %1: "The content between the neutral fences"
+
+fences-neutral-determinant:
+  description: "Neutral interpreted as determinant of a matrix"
+  example:     "determinant of A"
+  latex:       "|A|"
+  parameters:
+    %1: "The content between the neutral fences"
+
+matrix:
+  description: "Base matrix rule speaking dimensions and content of the matrix with row and column indicators."
+  example:     "the 2 by 2 matrix Row 1: Column 1, n plus 1 Column 2, 2 Row 2: Column 1, 3 Column 2, 4"
+  latex:       "\begin{pmatrix}n+1 & 2\\ 3 & 4\end{pmatrix}"
+  parameters:
+    %1: "The row number"
+    %2: "The column number"
+    %3: "The matrix"
+
+matrix-simple:
+  description: "Rule for matrices with only simple entries, speaking dimensions and content of the matrix with row indicators only."
+  example:     "the 2 by 2 matrix Row 1: 1 2 Row 2: 3 4"
+  latex:       "\begin{pmatrix}1 & 2\\ 3 & 4\end{pmatrix}"
+  parameters:
+    %1: "The row number"
+    %2: "The column number"
+    %3: "The matrix"
+
+matrix-trivial:
+  description: "Rule for a one by one matrix."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The matrix content"
+
+determinant:
+  description: "Base rule for determinants (matrix with vertical bar fences) speaking dimensions and content of the matrix with row and column indicators."
+  example:     "the determinant of the 2 by 2 matrix Row 1: Column 1, n plus 1"
+  latex:       " \begin{vmatrix}n+1 & 2\\ 3 & 4\end{vmatrix}"
+  parameters:
+    %1: "The row number"
+    %2: "The column number"
+    %3: "The determinant"
+
+determinant-simple:
+  description: "Rule for determinants (matrix with vertical bar fences) with only simple entries, speaking dimensions and content of the matrix with row indicators only."
+  example:     "the determinant of the 2 by 2 matrix Row 1: 1 2 Row 2: 3 4"
+  latex:       "\begin{vmatrix}1 & 2\\ 3 & 4\end{vmatrix}"
+  parameters:
+    %1: "The row number"
+    %2: "The column number"
+    %3: "The determinant"
+
+matrix-vector:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+
+matrix-vector-simple:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+
+matrix-vector-simple-silentcolnum:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+
+matrix-row-vector:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+
+matrix-row-vector-simple:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+
+matrix-row-vector-simple-silentcolnum:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+
+matrix-row:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+matrix-end-matrix:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+matrix-end-vector:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+matrix-end-determinant:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+vector:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+
+vector-simple:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+
+row-vector:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+
+row-vector-simple:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+
+vector-end-matrix:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+vector-end-vector:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+vector-end-vector-endvector:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+vector-end-determinant:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+binomial:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+lines-summary:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+cases-summary:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+lines:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+blank-cell:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+
+blank-line:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+
+blank-cell-empty:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+
+blank-line-empty:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+
+cases:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+lines-cases-summary:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+lines-cases:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+lines-equations-summary:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+lines-equations:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+lines-steps-summary:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+lines-steps:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+lines-rows-summary:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+lines-rows:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+lines-constraints-summary:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+lines-constraints:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+bigop:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+limboth:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+
+limlower:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+limupper:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+integral:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+overscript:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+overscript-limits:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+underscript:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+underscript-limits:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+mixed-number:
+  description: "Mixed numbers"
+  example:     "Two and one third"
+  latex:       "2 \frac{1}{3}"
+  parameters:
+    %1: "The integer part"
+    %2: "The fraction part"
+
+number-with-chars:
+  description: "A number that contains letters"
+  example:     "Number #A0FF"
+  latex:       ""
+  parameters:
+    %1: "The number"
+
+decimal-period:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+decimal-period-float:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+decimal-period-singular:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+decimal-period-singular-float:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+decimal-point:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+
+line-segment:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+conjugate:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+defined-by:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+
+adorned-sign:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+factorial:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+
+left-super:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+left-super-list:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+left-sub:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+left-sub-list:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+right-super:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+right-super-list:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+right-sub:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+right-sub-list:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+choose:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+permute:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+unit-square:
+  description: "A unit that is squared"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The unit"
+
+unit-cubic:
+  description: "A unit that is cubed"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The unit"
+
+unit-reciprocal:
+  description: "A unit to the power of negative one"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The unit"
+
+unit-reciprocal-singular:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+unit-divide:
+  description: "A fraction of units"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "Unit in enumerator"
+    %2: "Unit in denominator"
+
+german-font:
+  description: "A character in fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The character in fraktur font"
+
+german-font-bold:
+  description: "A character in bold fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The character in bold fraktur font"
+
+article:
+  description: "A leading article is introduced. Only used in locales where articles are used for fractions or functions"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The expression translated without article."
+
+superscript-simple-function:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+superscript-ordinal-number:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+superscript-ordinal-negative:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+superscript-ordinal-power-number:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+superscript-ordinal-power-negative:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+superscript-ordinal-power-identifier:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+superscript-ordinal-power-default:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+superscript-power:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+superscript-power-default:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+exponent-ordinal:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+exponent-ordinal-zero:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+
+exponent-ordinalpower:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+exponent-ordinalpower-zero:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+
+set-prefix-operators:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+operators-after-power:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+fences-metric:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+fences-metric-absend:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+enclose:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+enclose-end:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+overbar:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+underbar:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+leftbar:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+rightbar:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+crossout:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+crossout-end:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+cancel-over:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+cancel-under:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+cancel-over-end:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+cancel-under-end:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+function-prefix-reciprocal:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+function-prefix-reciprocal-simple:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+function-reciprocal:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+superscript-ordinal-letter:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+superscript-ordinal-cap:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+unit-reciprocal-multi:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+vbar-args-such-that:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+vbar-args-divides:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+vbar-args-always-divides:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+vbar-args-given:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+element:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+
+element-in-set:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+
+element-in-set-woall:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+
+appl-simple-inverse:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+function-prefix-det:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+squared-masculine:
+  description: "Squared if base is grammatically of masculine gender"
+  example:     "1 quadrato"
+  latex:       ""
+  parameters:
+
+squared-feminine:
+  description: "Squared if base is grammatically of feminine gender"
+  example:     "a quadrata"
+  latex:       ""
+  parameters:
+
+member:
+  description: "Set membership symbol not within a set expression. Interpreted as member of. This is the fallback rule."
+  example:     "a is a member of A"
+  latex:       "a\in A"
+  parameters:
+
+member-member:
+  description: "Set membership symbol not within a set expression. Interpreted as member of"
+  example:     "a is a member of A"
+  latex:       "a\in A"
+  parameters:
+
+member-element:
+  description: "Set membership symbol not within a set expression. Interpreted as element of"
+  example:     "a is an element of A"
+  latex:       "a\in A"
+  parameters:
+
+member-in:
+  description: "Set membership symbol not within a set expression. Interpreted as is in"
+  example:     "a is in A"
+  latex:       "a\in A"
+  parameters:
+
+member-belongs:
+  description: "Set membership symbol not within a set expression. Interpreted as is belongs to"
+  example:     "a belongs to A"
+  latex:       "a\in A"
+  parameters:
+
+not-member:
+  description: "Set membership symbol not within a set expression. Interpreted as not member of. Fallback rule"
+  example:     "a is not a member of A"
+  latex:       "a\not\in A"
+  parameters:
+
+not-member-member:
+  description: "Set membership symbol not within a set expression. Interpreted as not member of"
+  example:     "a is not a member of A"
+  latex:       "a\not\in A"
+  parameters:
+
+not-member-element:
+  description: "Set membership symbol not within a set expression. Interpreted as not element of"
+  example:     "a is not an element of A"
+  latex:       "a\not\in A"
+  parameters:
+
+not-member-in:
+  description: "Set membership symbol not within a set expression. Interpreted as not in"
+  example:     "a is not in A"
+  latex:       "a\not\in A"
+  parameters:
+
+not-member-belongs:
+  description: "Set membership symbol not within a set expression. Interpreted as not belong to"
+  example:     "a does not belong to A"
+  latex:       "a\not\in A"
+  parameters:
+
+element-noarticle:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""

@@ -1,0 +1,894 @@
+collapsed:
+  description: "Rule that fires if an expression is visually abstracted"
+  example:     "collapsed sum"
+  latex:       ""
+  parameters:
+    %1: "The abstracted element"
+
+blank-cell-empty:
+  description: "Blank cell in a table or matrix"
+  example:     ""
+  latex:       ""
+  parameters:
+
+blank-line-empty:
+  description: "Blank line in a equation list or case statement"
+  example:     ""
+  latex:       ""
+  parameters:
+
+font:
+  description: "Explicit speaking of font"
+  example:     "bold alpha"
+  latex:       ""
+  parameters:
+    %1: "The font"
+    %2: "The expression"
+
+font-number:
+  description: "Explicit speaking of font for numbers"
+  example:     "kursive drei"
+  latex:       ""
+  parameters:
+    %1: "The font"
+    %2: "The number"
+
+font-double-struck:
+  description: "Explicit speaking of doublstruck/blackboard font"
+  example:     "R mit Doppelstrich"
+  latex:       ""
+  parameters:
+    %1: "The expression"
+    %2: "The font"
+
+font-number-double-struck:
+  description: "Explicit speaking of doublstruck/blackboar font"
+  example:     "Null mit Doppelstrich"
+  latex:       ""
+  parameters:
+    %1: "The number"
+    %2: "The font"
+
+mixed-number:
+  description: "Mixed numbers"
+  example:     "Two and one third"
+  latex:       "2 \frac{1}{3}"
+  parameters:
+    %1: "The integer part"
+    %2: "The fraction part"
+
+number-with-chars:
+  description: "A number that contains letters"
+  example:     "Number #A0FF"
+  latex:       ""
+  parameters:
+    %1: "The number"
+
+number-with-chars-brief:
+  description: "A number that contains letters in brief and super brief style"
+  example:     "Num #A0FF"
+  latex:       ""
+  parameters:
+    %1: "The number"
+
+number-as-upper-word:
+  description: "A number that consists exclusively of characters"
+  example:     "A Roman numeral like VII"
+  latex:       ""
+  parameters:
+    %1: "The number"
+
+number-baseline:
+  description: "A number that follows directly an identifier has to be explicitly separated with a baseline indicator as not to be confused with a simple subscript."
+  example:     "t0 is pronounced t baseline zero. In contrast a_0 is pronounced a zero."
+  latex:       ""
+  parameters:
+    %1: "The number"
+
+number-baseline-brief:
+  description: "A number that follows directly an identifier has to be explicitly separated with a brief baseline indicator as not to be confused with a simple subscript."
+  example:     "t0 is pronounced t base zero. In contrast a_0 is pronounce a zero."
+  latex:       ""
+  parameters:
+    %1: "The number"
+
+number-baseline-font:
+  description: "A number with unusual font that follows directly an identifier. Has to be explicitly separated with a baseline indicator and its font."
+  example:     "t baseline doublestruck zero"
+  latex:       ""
+  parameters:
+    %1: "The font"
+    %2: "The number"
+
+number-baseline-font-brief:
+  description: "A number with unusual font that follows directly an identifier. Has to be explicitly separated with a brief baseline indicator and its font."
+  example:     "t base doublestruck zero"
+  latex:       ""
+  parameters:
+    %1: "The font"
+    %2: "The number"
+
+negative-number:
+  description: "Negative numbers or simple identifiers"
+  example:     "negative five, negative a, negative one half"
+  latex:       "-5, -a, -rac{1}{2}"
+  parameters:
+    %1: "The number"
+
+negative:
+  description: "Minus as a prefix operator or sign of a complex expression"
+  example:     "Cases that are not covered by negative-number rule"
+  latex:       ""
+  parameters:
+    %1: "The expression"
+
+division:
+  description: "Linear division rule"
+  example:     "a divided by b"
+  latex:       "a \slash b"
+  parameters:
+    %1: "Numerator"
+    %2: "Denominator"
+
+subtraction:
+  description: "Subtraction"
+  example:     "a minus b minus c"
+  latex:       "a - b - c"
+  parameters:
+    %1: "List of components of the subtraction"
+
+fences-neutral:
+  description: "Absolute value of an expression"
+  example:     "begin absolute value A end absolute value"
+  latex:       "\| a \|"
+  parameters:
+    %1: "Content inside absolute value bars"
+
+fences-neutral-sbrief:
+  description: "Absolute value of an expression in super brief style"
+  example:     "absolute value A end absolute value"
+  latex:       "\| a\|"
+  parameters:
+    %1: "Content inside absolute value bars"
+
+fences-metric:
+  description: "Metric of an expression"
+  example:     "begin metric A end metric"
+  latex:       "|| a ||"
+  parameters:
+    %1: "Content inside metric bars"
+
+fences-metric-sbrief:
+  description: "Metric of an expression in super brief style"
+  example:     "metric A end metric"
+  latex:       "|| a ||"
+  parameters:
+    %1: "Content inside metric bars"
+
+empty-set:
+  description: "The empty set"
+  example:     ""
+  latex:       ""
+  parameters:
+
+fences-set:
+  description: "A set expression"
+  example:     "begin set a , b, c end set"
+  latex:       "\{a,b,c\}"
+  parameters:
+    %1: "Content inside the set braces"
+
+fences-set-sbrief:
+  description: "A set expression in super brief style"
+  example:     "set a , b, c end set"
+  latex:       "\{a,b,c\}"
+  parameters:
+    %1: "Content inside the set braces"
+
+factorial:
+  description: "A factorial expression"
+  example:     "x factorial"
+  latex:       "x!"
+  parameters:
+
+minus:
+  description: "The minux sign (not as a unary operator)"
+  example:     ""
+  latex:       ""
+  parameters:
+
+vulgar-fraction:
+  description: "Rule for speaking a vulgar fraction in words"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The vulgar fraction"
+
+continued-fraction-outer:
+  description: "The outer part of a continuous fraction"
+  example:     "ContinuedFraction a Over 1 plus StartFraction b Over 2 plus StartFraction 1 plus c Over ellipsis"
+  latex:       " \frac{a}{1 + \frac{b}{2 + \frac{1 + c}{\ldots}}}"
+  parameters:
+    %1: "Enumerator of continuous fraction"
+    %2: "Denominator of continuous fraction"
+
+continued-fraction-outer-brief:
+  description: "The outer part of a continuous fraction in brief and super brief style"
+  example:     "ContinuedFrac a Over 1 plus StartFraction b Over 2 plus StartFraction 1 plus c Over ellipsis"
+  latex:       " \frac{a}{1 + \frac{b}{2 + \frac{1 + c}{\ldots}}}"
+  parameters:
+    %1: "Enumerator of continuous fraction"
+    %2: "Denominator of continuous fraction"
+
+continued-fraction-inner:
+  description: "The inner part of a continuous fraction"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+continued-fraction-inner-brief:
+  description: "The inner part of a continuous fraction in brief style"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+continued-fraction-inner-sbrief:
+  description: "The inner part of a continuous fraction in super brief style"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+integral:
+  description: "An integral with boundaries"
+  example:     "integral Subscript 1 Superscript x Baseline"
+  latex:       ""
+  parameters:
+    %1: "The integral"
+    %2: "The lower limit"
+    %3: "The upper limit"
+
+integral-brief:
+  description: "An integral with boundaries in brief and super brief style"
+  example:     "integral Sub 1 Super x Base"
+  latex:       ""
+  parameters:
+    %1: "The integral"
+    %2: "The integrand"
+    %3: "The integration variable"
+
+square:
+  description: "Squaring an expression"
+  example:     "x squared"
+  latex:       "x^2"
+  parameters:
+    %1: "The base of the power"
+    %2: "The squaring expression (only used for grammatical purposes)"
+
+cube:
+  description: "Cubing an expression"
+  example:     "x cubed"
+  latex:       "x^3"
+  parameters:
+    %1: "The base of the power"
+
+prime:
+  description: "Primed expression with one, two, three, multiple primes"
+  example:     "x prime"
+  latex:       "x'"
+  parameters:
+    %1: "The base element"
+    %2: "The prime operator. As there are multiple prime operators (from single to quadruple) they are pronounciation is handled seperately."
+
+counted-prime:
+  description: "A counted prime expression with counter >= 5"
+  example:     "f five prime"
+  latex:       "f'''''"
+  parameters:
+    %1: "The number of primes"
+
+counted-prime-multichar:
+  description: "A counted prime expression with counter >= 5. Similar to counted-prime but operates by counting single elements in a string"
+  example:     "f five prime"
+  latex:       "f'''''"
+  parameters:
+    %1: "The number of primes"
+
+overscore:
+  description: "Expression modified above with an accent-like symbol"
+  example:     "modifying above b with right arrow "
+  latex:       "\stackrel{\rightarrow}{b}"
+  parameters:
+    %1: "The base element"
+    %2: "The modifying accent"
+
+overscore-brief:
+  description: "Expression modified above with an accent-like symbol in brief and super brief style"
+  example:     "mod above b with right arrow "
+  latex:       "\stackrel{\rightarrow}{b}"
+  parameters:
+    %1: "The base element"
+    %2: "The modifying accent"
+
+double-overscore:
+  description: "Expression modified above with two accent-like symbols"
+  example:     "modifying above above modifying above b with right arrow with left arrow"
+  latex:       "\stackrel{\leftarrow}{\stackrel{\rightarrow}{b}}"
+  parameters:
+    %1: "The base element"
+    %2: "The modifying accents"
+
+double-overscore-brief:
+  description: "Expression modified above with two accent-like symbols in brief and super brief style"
+  example:     "mod above above mod above b with right arrow with left arrow"
+  latex:       "\stackrel{\leftarrow}{\stackrel{\rightarrow}{b}}"
+  parameters:
+    %1: "The base element"
+    %2: "The modifying accents"
+
+underscore:
+  description: "Expression modified below with an accent-like symbol"
+  example:     "modifying below y with left arrow"
+  latex:       "\underset{\leftarrow}{y}"
+  parameters:
+    %1: "The base element"
+    %2: "The modifying accent"
+
+underscore-brief:
+  description: "Expression modified below with an accent-like symbol in brief and super brief style"
+  example:     "mod below y with left arrow"
+  latex:       "\underset{\leftarrow}{y}"
+  parameters:
+    %1: "The base element"
+    %2: "The modifying accent"
+
+double-underscore:
+  description: "Expression modified below with two accent-like symbols"
+  example:     "modifying below below modifying below y with left arrow with right arrow"
+  latex:       "\underset{\rightarrow}{\underset{\leftarrow}{y}}"
+  parameters:
+    %1: "The base element"
+    %2: "The modifying accents"
+
+double-underscore-brief:
+  description: "Expression modified below with two accent-like symbols in brief and super brief style"
+  example:     "mod below below mod below y with left arrow with right arrow"
+  latex:       "\underset{\rightarrow}{\underset{\leftarrow}{y}}"
+  parameters:
+    %1: "The base element"
+    %2: "The modifying accents"
+
+overbar:
+  description: "A bar above an expression"
+  example:     "x overbar"
+  latex:       ""
+  parameters:
+    %1: "The base expression"
+
+underbar:
+  description: "A bar below an expression"
+  example:     "x underbar"
+  latex:       ""
+  parameters:
+    %1: "The base expression"
+
+overtilde:
+  description: "A tilde above an expression"
+  example:     "x overtilde"
+  latex:       ""
+  parameters:
+    %1: "The base expression"
+
+undertilde:
+  description: "A tilde below an expression"
+  example:     "x undertilde"
+  latex:       ""
+  parameters:
+    %1: "The base expression"
+
+matrix:
+  description: "A matrix expression"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "Number of rows"
+    %2: "Number of columns"
+    %3: "The rows of the matrix"
+
+matrix-sbrief:
+  description: "A fenced matrix"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "Number of rows"
+    %2: "Number of columns"
+    %3: "The rows of the matrix"
+
+matrix-row:
+  description: "A row in a matrix"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The single cells of the row"
+
+row-with-label:
+  description: "A labelled row in a multi equation table."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The label"
+    %2: "The cells in the row"
+
+row-with-label-brief:
+  description: "A labelled row in a multi equation table in brief and super brief reference"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The label"
+    %2: "The cells in the row"
+
+row-with-text-label:
+  description: "A row in a multi equation table labelled by text, i.e., parentheses are not spoken"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The text label"
+    %2: "The cells in the row"
+
+empty-row:
+  description: "An empty row"
+  example:     ""
+  latex:       ""
+  parameters:
+
+empty-cell:
+  description: "An empty cell in a table or matrix"
+  example:     ""
+  latex:       ""
+  parameters:
+
+determinant:
+  description: "A determinant given in barred fences"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "Number of rows"
+    %2: "Number of columns"
+    %3: "The rows of the determinant"
+
+determinant-sbrief:
+  description: "A determinant given in barred fences read in brief or super brief style"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "Number of rows"
+    %2: "Number of columns"
+    %3: "The rows of the determinant"
+
+determinant-simple:
+  description: "A determinant given in barred fences with simple elements, i.e., columns will not be explicitly pronounced"
+  example:     ""
+  latex:       "\begin{vmatrix} a & b\\ c & d\end{vmatrix}"
+  parameters:
+    %1: "Number of rows"
+    %2: "Number of columns"
+    %3: "The rows of the determinant"
+
+determinant-simple-sbrief:
+  description: "A determinant given in barred fences with simple elements, i.e., columns will not be explicitly pronounced in brief and super brief style"
+  example:     ""
+  latex:       "\begin{vmatrix} a & b\\ c & d\end{vmatrix}"
+  parameters:
+    %1: "Number of rows"
+    %2: "Number of columns"
+    %3: "The rows of the determinant"
+
+layout:
+  description: "A layout structure, e.g., a large equation table."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The rows of the table"
+
+layout-sbrief:
+  description: "A layout structure, e.g., a large equation table. In brief and superbrief style."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The rows of the table"
+
+binomial:
+  description: "A binomial or two dimensional vector"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "Element in first row"
+    %2: "Element in second row"
+
+binomial-brief:
+  description: "A binomial or two dimensional vector in brief style"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "Element in first row"
+    %2: "Element in second row"
+
+binomial-sbrief:
+  description: "A binomial or two dimensional vector in super brief style"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "Element in first row"
+    %2: "Element in second row"
+
+cases:
+  description: "A case statement with singular large fence for combining cases"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The fence"
+    %2: "The lines of the case statement"
+
+cases-brief:
+  description: "A case statement with singular large fence for combining cases in brief style"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The fence"
+    %2: "The lines of the case statement"
+
+cases-sbrief:
+  description: "A case statement with singular large fence for combining cases in super brief style"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The fence"
+    %2: "The lines of the case statement"
+
+line-with-label:
+  description: "A line (mainly in case statements) with a label"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The label"
+    %2: "The line"
+
+line-with-label-brief:
+  description: "A line (mainly in case statements) with a label in brief and super brief style"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The label"
+    %2: "The line"
+
+line-with-text-label:
+  description: "A line (mainly in case statements) with a text label, where parentheses would not be spoken"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The text label"
+    %2: "The line"
+
+empty-line:
+  description: "An empty line"
+  example:     ""
+  latex:       ""
+  parameters:
+
+empty-line-with-label:
+  description: "An empty line (mainly in case statements) with a label"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The label"
+
+empty-line-with-label-brief:
+  description: "An empty line (mainly in case statements) with a label in brief or super brief style"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The label"
+
+enclose:
+  description: "Describes an enclosed element"
+  example:     "start enclose box x + y end enclose"
+  latex:       "\framebox{x+y}"
+  parameters:
+    %1: "The enclosing structure (e.g., a box, circle). This programmatically translated."
+    %2: "The enclosed element"
+
+leftbar:
+  description: "Elements with an attached left bar"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The enclosed element"
+
+rightbar:
+  description: "Elements with an attached right bar"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The enclosed element"
+
+crossout:
+  description: "A struck out or crossed out expression"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The struck out expression"
+
+cancel:
+  description: "An expression that is crossed out an replace by one above it"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The struck out expression"
+    %2: "The replacement expression"
+
+cancel-reverse:
+  description: "An expression that is crossed out an replace by one below it"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The struck out expression"
+    %2: "The replacement expression"
+
+multi-inference:
+  description: "An inference rule with two or more premises"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The name of the inference rule"
+    %2: "The conclusion"
+    %3: "The premises"
+
+inference:
+  description: "An inference rule with one premise"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The name of the inference rule"
+    %2: "The conclusion"
+    %3: "The premise"
+
+premise:
+  description: "A premise of an inference rule"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The formula of the premise"
+
+conclusion:
+  description: "A conclusion of an inference rule"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The formula of the conclusion"
+
+label:
+  description: "The label or name of an inference rule"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The label"
+
+axiom:
+  description: "An axiom, that is "
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The conclusions"
+
+empty-axiom:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+
+german-font:
+  description: "A character in fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The character in fraktur font"
+
+german-font-bold:
+  description: "A character in bold fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule."
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The character in bold fraktur font"
+
+text:
+  description: "Text that needs to be announced or pronounced differently (e.g., not translated)"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The text element"
+
+unit-singular:
+  description: "A unit in singular"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The unit"
+
+unit-plural:
+  description: "A unit in plural"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The unit"
+
+unit-square:
+  description: "A unit that is squared"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The unit"
+
+unit-cubic:
+  description: "A unit that is cubed"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The unit"
+
+reciprocal:
+  description: "A unit to the power of negative one"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The unit"
+
+per:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The unit"
+
+unit-combine:
+  description: "Combines multiple units"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The list of unit expressions"
+
+unit-combine-mult:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+
+unit-combine-singular:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+unit-combine-singular-first:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+
+unit-combine-singular-final:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+
+unit-divide:
+  description: "A fraction of units"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "Unit in enumerator"
+    %2: "Unit in denominator"
+
+logarithm-base:
+  description: "If the base of the logarithm should be spoken differently then the normal subscript"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The logarithm function"
+    %2: "The bases of the logarithm"
+
+overbar-enclose:
+  description: "If an expression marked with an overbar that is spoken with start and end markers"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The enclosed expression"
+
+underbar-enclose:
+  description: "If an expression marked with an underbar that is spoken with start and end markers"
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: "The enclosed expression"
+
+squared-masculine:
+  description: "Squared if base is grammatically of masculine gender"
+  example:     "1 quadrato"
+  latex:       ""
+  parameters:
+
+squared-feminine:
+  description: "Squared if base is grammatically of feminine gender"
+  example:     "a quadrata"
+  latex:       ""
+  parameters:
+
+limboth-end:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+    %4: ""
+    %5: ""
+
+limlower-end:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+
+limupper-end:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+
+limboth:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+    %4: ""
+    %5: ""
+
+limlower:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
+
+limupper:
+  description: ""
+  example:     ""
+  latex:       ""
+  parameters:
+    %1: ""
+    %2: ""
+    %3: ""
