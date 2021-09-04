@@ -20,7 +20,8 @@
 
 import {referenceSets} from './forward';
 import {Component} from './rules';
-import {loadComments, saveComments, sreDomains} from './util';
+import {loadComments, loadCommentsYaml,
+        saveComments, saveCommentsYaml, sreDomains} from './util';
 
 export class Comment {
 
@@ -118,6 +119,7 @@ export class Comment {
   }
 
   /**
+   * @param locale The locale for which the comment is produced.
    * @return The Yaml format for this comment.
    */
   public toYaml(locale: string): string {
@@ -145,6 +147,37 @@ export class Comment {
     return out.join('\n');
   }
 
+  public toSimpleYaml(): string {
+    let out = [`${this.rule}:`];
+    out.push('  description: ' + JSON.stringify(this.description));
+    out.push('  example:     ' + JSON.stringify(this.example));
+    out.push('  latex:       ' + JSON.stringify(this.latex));
+    out.push('  parameters:');
+    for (let [dom, cod] of Object.entries(this.parameters)) {
+      out.push(`    ${dom}: ${JSON.stringify(cod)}`);
+    }
+    return out.join('\n');
+  }
+
+
+  /**
+   * Updates the comment from a yaml structure.
+   * @param {any} yaml The parsed yaml structure.
+   */
+  public fromYaml(yaml: any) {
+    this.description = yaml.description || '';
+    this.latex = yaml.latex || '';
+    this.example = yaml.example || '';
+    for (let [param, com] of Object.entries(yaml.parameters || {})) {
+      this.parameters[param] = com as string;
+    }
+  }
+
+
+  /**
+   * Reads a comment from its JSON representation.
+   * @param json The JSON input.
+   */
   public fromJson(json: any) {
     this.locales = json.locales;
     this.parameters = json.parameters;
@@ -163,6 +196,17 @@ export class Comment {
     }
   }
 
+
+  /**
+   * Updates the comment for a locale and the keys needed for that locale. This
+   * ensures that comments for each locale, get the correct number of
+   * parameters, that are actually used in that rule. If the number of keys is
+   * larger than the current maximum number of parameters for that comment, new
+   * parameters are added.a
+   *
+   * @param locale The locale added to the comments.
+   * @param keys The keys for that locale.
+   */
   public update(locale: string, keys: string[]) {
     keys = Comment.cleanParameters(keys);
     let length = keys.length;
@@ -279,5 +323,48 @@ export function readComments() {
       cset[rule] = comment;
     }
     commentSet[domain] = cset;
+  }
+}
+
+
+/**
+ * Saves all comments in yaml format.
+ */
+export function writeCommentsYaml() {
+  for (let domain of sreDomains) {
+    let comments = getComments(domain);
+    let yaml: string[] = [];
+    for (let comment of Object.values(comments)) {
+      yaml.push(comment.toSimpleYaml());
+    }
+    saveCommentsYaml(domain, yaml.join('\n\n'));
+  }
+}
+
+
+/**
+ * Reads and updates comments from the yaml file.
+ */
+export function readCommentsYaml() {
+  for (let domain of sreDomains) {
+    let comments = getComments(domain);
+    let yaml = loadCommentsYaml(domain);
+    for (let [rule, com] of Object.entries(yaml)) {
+      let comment = comments[rule];
+      if (!comment) {
+        console.warn(`Cannot create new comment for rule ${rule} from Yaml.`);
+        continue;
+      }
+      comment.fromYaml(com);
+    }
+  }
+}
+
+
+export function updateComments() {
+  readComments();
+  readCommentsYaml();
+  for (let domain of sreDomains) {
+    saveComments(domain, getComments(domain));
   }
 }

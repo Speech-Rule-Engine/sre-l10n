@@ -204,6 +204,17 @@ export function saveComments(domain: string, json: any) {
 
 
 /**
+ * Saves the comments to the l10n directory as a yaml file.
+ * @param {string} domain The domain of the comments.
+ * @param {string} yml The Yaml output.
+ */
+export function saveCommentsYaml(domain: string, yml: string) {
+  fs.mkdirSync(`${SreL10nLocales}`, {recursive: true});
+  fs.writeFileSync(`${SreL10nComments}/${domain}_comments.yml`, yml);
+}
+
+
+/**
  * Loads the comments from the l10n directory.
  * @param {string} domain The domain of the comments to load.
  * @return The Json structure for a comment set.
@@ -240,3 +251,18 @@ export function loadYaml(iso: string, domain: string) {
   return yjs.parse(result.join('\n'));
 }
 
+
+/**
+ * Loads a yaml file for a locale and domain.
+ * @param iso The iso code of the locale.
+ * @param domain The domain to load.
+ */
+export function loadCommentsYaml(domain: string) {
+  let str = '';
+  try {
+    str = fs.readFileSync(`${SreL10nComments}/${domain}_comments.yml`, 'utf8');
+  } catch (e) {
+    throw new Error('Bad filename for yaml');
+  }
+  return yjs.parse(str);
+}
