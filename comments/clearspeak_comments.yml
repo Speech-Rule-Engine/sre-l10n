@@ -40,13 +40,13 @@ font-number-double-struck:
 ellipsis:
   description: "Speaking an open ended ellipsis in AndSoOn preference"
   example:     "a comma b comma and so on"
-  latex:       "a, b, \ldots"
+  latex:       "a, b, \\ldots"
   parameters:
 
 ellipsis-andsoon:
   description: "Speaking an intermediate ellipsis in AndSoOn preference"
   example:     "a comma b comma and so on up to n"
-  latex:       "a,b,\ldots n"
+  latex:       "a,b,\\ldots n"
   parameters:
 
 vbar-evaluated:
@@ -60,7 +60,7 @@ vbar-evaluated:
 vbar-evaluated-both:
   description: "Interprets an vertical with subscript as evaluation of an antiderivative"
   example:     "F of x, evaluated at infinity, minus the same expression evaluated at 0"
-  latex:       "F(x)|_{0}^\infty"
+  latex:       "F(x)|_{0}^\\infty"
   parameters:
     %1: "Expression left of the vertical bar."
     %2: "The superscript to the right of the vertical bar"
@@ -93,61 +93,61 @@ vbar-given:
 set-member:
   description: "Set membership symbol within a set expression read in short form. Fallback rule."
   example:     "a in A"
-  latex:       "\{a\in A| ...\}"
+  latex:       "\\{a\\in A| ...\\}"
   parameters:
 
 set-member-member:
   description: "Set membership symbol within a set expression read in short form. Interpreted as member of"
   example:     "a member of A"
-  latex:       "\{a\in A| ...\}"
+  latex:       "\\{a\\in A| ...\\}"
   parameters:
 
 set-member-element:
   description: "Set membership symbol within a set expression read in short form. Interpreted as element of"
   example:     "a element of A"
-  latex:       "a\in A"
+  latex:       "a\\in A"
   parameters:
 
 set-member-in:
   description: "Set membership symbol within a set expression read in short form. Interpreted as in"
   example:     "a in A"
-  latex:       "a\in A"
+  latex:       "a\\in A"
   parameters:
 
 set-member-belongs:
   description: "Set membership symbol within a set expression read in short form. Interpreted as belonging to"
   example:     "a belonging to A"
-  latex:       "a\in A"
+  latex:       "a\\in A"
   parameters:
 
 set-not-member:
   description: "Set membership symbol inside a set expression read in short form. Interpreted as not member of. Fallback rule"
   example:     "a not member of A"
-  latex:       "a\not\in A"
+  latex:       "a\\not\\in A"
   parameters:
 
 set-not-member-member:
   description: "Set membership symbol inside a set expression read in short form. Interpreted as not member of"
   example:     "a not member of A"
-  latex:       "a\not\in A"
+  latex:       "a\\not\\in A"
   parameters:
 
 set-not-member-element:
   description: "Set membership symbol inside a set expression read in short form. Interpreted as not element of"
   example:     "a not element of A"
-  latex:       "a\not\in A"
+  latex:       "a\\not\\in A"
   parameters:
 
 set-not-member-in:
   description: "Set membership symbol inside a set expression read in short form. Interpreted as not in"
   example:     "a not in A"
-  latex:       "a\not\in A"
+  latex:       "a\\not\\in A"
   parameters:
 
 set-not-member-belongs:
   description: "Set membership symbol inside a set expression read in short form. Interpreted as not belongs to"
   example:     "a not belonging to A"
-  latex:       "a\not\in A"
+  latex:       "a\\not\\in A"
   parameters:
 
 function-article:
@@ -199,7 +199,7 @@ appl-times:
 function-prefix:
   description: "Application of a known prefix function, e.g., a trigonometric function"
   example:     "sine x"
-  latex:       "\sin x"
+  latex:       "\\sin x"
   parameters:
     %1: "Prefix function"
     %2: "The argument"
@@ -207,7 +207,7 @@ function-prefix:
 function-prefix-simple-arg:
   description: "Application of a known prefix function to a fenced but simple argument (e.g., xy is simple, x + y is not)"
   example:     "sine x y"
-  latex:       "\sin(xy)"
+  latex:       "\\sin(xy)"
   parameters:
     %1: "The prefix function"
     %2: "The fenced argument"
@@ -215,7 +215,7 @@ function-prefix-simple-arg:
 function-prefix-embell:
   description: "Application of a prefix function with index or superscript"
   example:     "sine squared x"
-  latex:       "\sin^2 x"
+  latex:       "\\sin^2 x"
   parameters:
     %1: "The embellished prefix function"
     %2: "The argument"
@@ -223,7 +223,7 @@ function-prefix-embell:
 function-prefix-fenced-or-frac-arg:
   description: "Application of a prefix functions to a non-simple argument."
   example:     "the sine of a over b"
-  latex:       "\sine(\frac{a}{b})"
+  latex:       "\\sine(\\frac{a}{b})"
   parameters:
     %1: ""
     %2: "The "
@@ -231,7 +231,7 @@ function-prefix-fenced-or-frac-arg:
 function-prefix-subscript:
   description: "Function application of a named function with subscript"
   example:     ""
-  latex:       "\min_a X"
+  latex:       "\\min_a X"
   parameters:
     %1: "The prefix function with subscript"
     %2: "The argument of the function"
@@ -263,7 +263,7 @@ function-ln-of:
 function-prefix-as-exp:
   description: "Function in a superscript with a complex argument"
   example:     "x raised to the sine of open paren y plus z close paren power"
-  latex:       "x^{\sin (y + z)}"
+  latex:       "x^{\\sin (y + z)}"
   parameters:
     %1: "The prefix function"
     %2: "The function argument"
@@ -271,7 +271,7 @@ function-prefix-as-exp:
 function-prefix-subscript-as-exp:
   description: "Function in a subscript with a complex argument"
   example:     "x sub the sine of open paren y plus z close paren"
-  latex:       "x_{\sin (y + z)}"
+  latex:       "x_{\\sin (y + z)}"
   parameters:
     %1: "The prefix function"
     %2: "Its argument"
@@ -279,7 +279,7 @@ function-prefix-subscript-as-exp:
 function-prefix-hyper:
   description: "Hyperbolic function as prefix function"
   example:     "hyperbolic sine of x"
-  latex:       "\sinh x"
+  latex:       "\\sinh x"
   parameters:
     %1: "The hyperbolic function"
     %2: "Its argument"
@@ -287,7 +287,7 @@ function-prefix-hyper:
 function-prefix-inverse:
   description: "Inverse of a named function"
   example:     "the inverse sine of x"
-  latex:       "\sin^{-1} x"
+  latex:       "\\sin^{-1} x"
   parameters:
     %1: "The inverted function (e.g., sin^-1)"
     %2: "Its argument"
@@ -295,7 +295,7 @@ function-prefix-inverse:
 appl-triginverse:
   description: "Speaks an arcus function as inverse"
   example:     "the inverse sine of x"
-  latex:       "\arcsin x"
+  latex:       "\\arcsin x"
   parameters:
     %1: "The arcus function"
     %2: "Its argument"
@@ -303,7 +303,7 @@ appl-triginverse:
 function-prefix-arc-simple:
   description: "Speaks an inverse trigonometric function as arcus"
   example:     "arc sine x"
-  latex:       "\sin^{-1} x"
+  latex:       "\\sin^{-1} x"
   parameters:
     %1: "The inverted function (e.g., sin^-1)"
     %2: "Its argument"
@@ -311,7 +311,7 @@ function-prefix-arc-simple:
 function-prefix-arc-simple-fenced:
   description: "Speaks an inverted trigonometric function as arcus. Omits the parentheses on simple arguments."
   example:     "arc sine x"
-  latex:       "\sin^{-1} (x)"
+  latex:       "\\sin^{-1} (x)"
   parameters:
     %1: "The inverted function (e.g., sin^-1)"
     %2: "The fenced argument with simple content"
@@ -319,7 +319,7 @@ function-prefix-arc-simple-fenced:
 function-prefix-arc:
   description: "Speaks an inverted trigonometric function as arcus. Fallback for complex arguments."
   example:     "arc sine of open paren x plus y close paren"
-  latex:       "\sin^{-1} (x+y)"
+  latex:       "\\sin^{-1} (x+y)"
   parameters:
     %1: "The inverted function (e.g., sin^-1)"
     %2: "The fenced argument with simple content"
@@ -536,41 +536,41 @@ interval-closed:
 interval-open-inf-r:
   description: "Open integral with right infinity"
   example:     ""
-  latex:       "(a,\infty)"
+  latex:       "(a,\\infty)"
   parameters:
     %1: "The start value"
 
 interval-open-inf-l:
   description: "Open integral with left infinity"
   example:     ""
-  latex:       "(\infty,b)"
+  latex:       "(\\infty,b)"
   parameters:
     %1: "The end value"
 
 interval-closed-open-inf:
   description: "Open integral with right infinity"
   example:     ""
-  latex:       "[a,\infty)"
+  latex:       "[a,\\infty)"
   parameters:
     %1: "The start value"
 
 interval-open-closed-inf:
   description: "Closed integral with left infinity"
   example:     ""
-  latex:       "(\infty,b]"
+  latex:       "(\\infty,b]"
   parameters:
     %1: "The end value"
 
 set-empty:
   description: "The empty set"
   example:     "the empty set"
-  latex:       "\empty"
+  latex:       "\\empty"
   parameters:
 
 set-extended:
   description: "A set defined via set intensionality"
   example:     "The set of all a in A such that ..."
-  latex:       "\{a\in A| ...\}"
+  latex:       "\\{a\\in A| ...\\}"
   parameters:
     %1: "The element left of the divider"
     %2: "The element to the right."
@@ -578,14 +578,14 @@ set-extended:
 set-collection:
   description: "Set defined via a collection of elements"
   example:     "The set a comma b comma c"
-  latex:       "\{a,b,c\}"
+  latex:       "\\{a,b,c\\}"
   parameters:
     %1: "The content of the set"
 
 set-extended-woall:
   description: "A set defined via set intensionality without an explicity for all"
   example:     "The set a in A such that ..."
-  latex:       "\{a\in A| ...\}"
+  latex:       "\\{a\\in A| ...\\}"
   parameters:
     %1: "The element left of the divider"
     %2: "The element to the right."
@@ -617,7 +617,7 @@ subscript-index:
 fraction:
   description: "Fallback rule for explicit speaking of fraction"
   example:     "the fraction with numerator a and denominator b"
-  latex:       "\frac{a}{b}"
+  latex:       "\\frac{a}{b}"
   parameters:
     %1: "The numerator"
     %2: "The denominator"
@@ -625,7 +625,7 @@ fraction:
 fraction-none:
   description: "A fraction in a function application, which is not interpreted as a function"
   example:     ""
-  latex:       "\frac{f}{g}(x)"
+  latex:       "\\frac{f}{g}(x)"
   parameters:
     %1: "The numerator"
     %2: "The denominator"
@@ -633,7 +633,7 @@ fraction-none:
 simple-fraction:
   description: "Fraction with simple elements in numerator and denominator"
   example:     "a over b"
-  latex:       "\frac{a}{b}"
+  latex:       "\\frac{a}{b}"
   parameters:
     %1: "The numerator"
     %2: "The denominator"
@@ -664,7 +664,7 @@ vulgar-fraction:
 fraction-over:
   description: "Short speech for fractions with simple components."
   example:     "a over b"
-  latex:       "\frac{a}{b}"
+  latex:       "\\frac{a}{b}"
   parameters:
     %1: "The numerator"
     %2: "The denominator"
@@ -672,7 +672,7 @@ fraction-over:
 fraction-overendfrac:
   description: "Short speech for fractions with simple components with explicit end fraction"
   example:     "a over b end fraction"
-  latex:       "\frac{a}{b}"
+  latex:       "\\frac{a}{b}"
   parameters:
     %1: "The numerator"
     %2: "The denominator"
@@ -680,7 +680,7 @@ fraction-overendfrac:
 fraction-fracover:
   description: "Short speech for fractions with simple components with explicitly announced fraction"
   example:     "the fraction a over b"
-  latex:       "\frac{a}{b}"
+  latex:       "\\frac{a}{b}"
   parameters:
     %1: "The numerator"
     %2: "The denominator"
@@ -688,7 +688,7 @@ fraction-fracover:
 fraction-per:
   description: "Short speech for fractions with simple components using per"
   example:     "a per b"
-  latex:       "\frac{a}{b}"
+  latex:       "\\frac{a}{b}"
   parameters:
     %1: "The numerator"
     %2: "The denominator"
@@ -696,7 +696,7 @@ fraction-per:
 fraction-generalendfrac:
   description: "Fallback rule for all fractions with explicit end fraction announcement. This is for the generalEndFrac preference, where all fractions are announced the same followed by end fraction."
   example:     "the fraction with numerator a plus b and denominator c plus d end fraction"
-  latex:       "\frac{a+b}{c+d}"
+  latex:       "\\frac{a+b}{c+d}"
   parameters:
     %1: "The numerator"
     %2: "The denominator"
@@ -704,7 +704,7 @@ fraction-generalendfrac:
 fraction-general:
   description: "Fallback rule for all fractions. This is for the general preference, where all fractions are announced the same."
   example:     "the fraction with numerator a and denominator c"
-  latex:       "\frac{a}{c}"
+  latex:       "\\frac{a}{c}"
   parameters:
     %1: ""
     %2: ""
@@ -769,14 +769,14 @@ negative-sqrt-default:
 sqrt-plus-minus:
   description: "Square root with plus-minus sign spoken as positive square root in PosNegSqRoot preference"
   example:     "plus or minus the positive square root of a"
-  latex:       "\pm \sqrt{a}"
+  latex:       "\\pm \\sqrt{a}"
   parameters:
     %1: "The content of the square root."
 
 sqrt-nested-plus-minus:
   description: "Nested square root with plus-minus sign spoken as positive square root in PosNegSqRoot preference. This is never spoken with an `end root` announcement"
   example:     "plus or minus the positive square root of a"
-  latex:       "\pm \sqrt{a}"
+  latex:       "\\pm \\sqrt{a}"
   parameters:
     %1: "The content of the square root."
 
@@ -839,7 +839,7 @@ cubic-nested:
 root:
   description: "An root with explicit index. Speaking the index as ordinal when possible."
   example:     "the fourth root of a"
-  latex:       "\sqrt[4]{a}"
+  latex:       "\\sqrt[4]{a}"
   parameters:
     %1: "Index of the root"
     %2: "Content of the radical"
@@ -943,31 +943,31 @@ complex-numbers:
 natural-numbers-with-zero:
   description: "The Natural number with zero"
   example:     ""
-  latex:       "\N_0"
+  latex:       "\\N_0"
   parameters:
 
 positive-integers:
   description: "The positive integers"
   example:     ""
-  latex:       "\Z^{+}"
+  latex:       "\\Z^{+}"
   parameters:
 
 negative-integers:
   description: "The negative integers"
   example:     ""
-  latex:       "\Z^{-}"
+  latex:       "\\Z^{-}"
   parameters:
 
 positive-rational-numbers:
   description: "The positive rational numbers"
   example:     ""
-  latex:       "\Q^{+}"
+  latex:       "\\Q^{+}"
   parameters:
 
 negative-rational-numbers:
   description: "The negative rational numbers"
   example:     ""
-  latex:       "\Q^{-}"
+  latex:       "\\Q^{-}"
   parameters:
 
 fences-neutral:
@@ -1001,7 +1001,7 @@ fences-neutral-determinant:
 matrix:
   description: "Base matrix rule speaking dimensions and content of the matrix with row and column indicators."
   example:     "the 2 by 2 matrix Row 1: Column 1, n plus 1 Column 2, 2 Row 2: Column 1, 3 Column 2, 4"
-  latex:       "\begin{pmatrix}n+1 & 2\\ 3 & 4\end{pmatrix}"
+  latex:       "\\begin{pmatrix}n+1 & 2\\\\ 3 & 4\\end{pmatrix}"
   parameters:
     %1: "The row number"
     %2: "The column number"
@@ -1010,7 +1010,7 @@ matrix:
 matrix-simple:
   description: "Rule for matrices with only simple entries, speaking dimensions and content of the matrix with row indicators only."
   example:     "the 2 by 2 matrix Row 1: 1 2 Row 2: 3 4"
-  latex:       "\begin{pmatrix}1 & 2\\ 3 & 4\end{pmatrix}"
+  latex:       "\\begin{pmatrix}1 & 2\\\\ 3 & 4\\end{pmatrix}"
   parameters:
     %1: "The row number"
     %2: "The column number"
@@ -1026,7 +1026,7 @@ matrix-trivial:
 determinant:
   description: "Base rule for determinants (matrix with vertical bar fences) speaking dimensions and content of the matrix with row and column indicators."
   example:     "the determinant of the 2 by 2 matrix Row 1: Column 1, n plus 1"
-  latex:       " \begin{vmatrix}n+1 & 2\\ 3 & 4\end{vmatrix}"
+  latex:       " \\begin{vmatrix}n+1 & 2\\\\ 3 & 4\\end{vmatrix}"
   parameters:
     %1: "The row number"
     %2: "The column number"
@@ -1035,7 +1035,7 @@ determinant:
 determinant-simple:
   description: "Rule for determinants (matrix with vertical bar fences) with only simple entries, speaking dimensions and content of the matrix with row indicators only."
   example:     "the determinant of the 2 by 2 matrix Row 1: 1 2 Row 2: 3 4"
-  latex:       "\begin{vmatrix}1 & 2\\ 3 & 4\end{vmatrix}"
+  latex:       "\\begin{vmatrix}1 & 2\\\\ 3 & 4\\end{vmatrix}"
   parameters:
     %1: "The row number"
     %2: "The column number"
@@ -1400,7 +1400,7 @@ underscript-limits:
 mixed-number:
   description: "Mixed numbers"
   example:     "Two and one third"
-  latex:       "2 \frac{1}{3}"
+  latex:       "2 \\frac{1}{3}"
   parameters:
     %1: "The integer part"
     %2: "The fraction part"
@@ -1966,61 +1966,61 @@ squared-feminine:
 member:
   description: "Set membership symbol not within a set expression. Interpreted as member of. This is the fallback rule."
   example:     "a is a member of A"
-  latex:       "a\in A"
+  latex:       "a\\in A"
   parameters:
 
 member-member:
   description: "Set membership symbol not within a set expression. Interpreted as member of"
   example:     "a is a member of A"
-  latex:       "a\in A"
+  latex:       "a\\in A"
   parameters:
 
 member-element:
   description: "Set membership symbol not within a set expression. Interpreted as element of"
   example:     "a is an element of A"
-  latex:       "a\in A"
+  latex:       "a\\in A"
   parameters:
 
 member-in:
   description: "Set membership symbol not within a set expression. Interpreted as is in"
   example:     "a is in A"
-  latex:       "a\in A"
+  latex:       "a\\in A"
   parameters:
 
 member-belongs:
   description: "Set membership symbol not within a set expression. Interpreted as is belongs to"
   example:     "a belongs to A"
-  latex:       "a\in A"
+  latex:       "a\\in A"
   parameters:
 
 not-member:
   description: "Set membership symbol not within a set expression. Interpreted as not member of. Fallback rule"
   example:     "a is not a member of A"
-  latex:       "a\not\in A"
+  latex:       "a\\not\\in A"
   parameters:
 
 not-member-member:
   description: "Set membership symbol not within a set expression. Interpreted as not member of"
   example:     "a is not a member of A"
-  latex:       "a\not\in A"
+  latex:       "a\\not\\in A"
   parameters:
 
 not-member-element:
   description: "Set membership symbol not within a set expression. Interpreted as not element of"
   example:     "a is not an element of A"
-  latex:       "a\not\in A"
+  latex:       "a\\not\\in A"
   parameters:
 
 not-member-in:
   description: "Set membership symbol not within a set expression. Interpreted as not in"
   example:     "a is not in A"
-  latex:       "a\not\in A"
+  latex:       "a\\not\\in A"
   parameters:
 
 not-member-belongs:
   description: "Set membership symbol not within a set expression. Interpreted as not belong to"
   example:     "a does not belong to A"
-  latex:       "a\not\in A"
+  latex:       "a\\not\\in A"
   parameters:
 
 element-noarticle:

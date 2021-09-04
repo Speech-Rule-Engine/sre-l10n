@@ -52,7 +52,7 @@ font-number-double-struck:
 mixed-number:
   description: "Mixed numbers"
   example:     "Two and one third"
-  latex:       "2 \frac{1}{3}"
+  latex:       "2 \\frac{1}{3}"
   parameters:
     %1: "The integer part"
     %2: "The fraction part"
@@ -111,7 +111,7 @@ number-baseline-font-brief:
 negative-number:
   description: "Negative numbers or simple identifiers"
   example:     "negative five, negative a, negative one half"
-  latex:       "-5, -a, -rac{1}{2}"
+  latex:       "-5, -a, -\frac{1}{2}"
   parameters:
     %1: "The number"
 
@@ -125,7 +125,7 @@ negative:
 division:
   description: "Linear division rule"
   example:     "a divided by b"
-  latex:       "a \slash b"
+  latex:       "a \\slash b"
   parameters:
     %1: "Numerator"
     %2: "Denominator"
@@ -140,14 +140,14 @@ subtraction:
 fences-neutral:
   description: "Absolute value of an expression"
   example:     "begin absolute value A end absolute value"
-  latex:       "\| a \|"
+  latex:       "\\| a \\|"
   parameters:
     %1: "Content inside absolute value bars"
 
 fences-neutral-sbrief:
   description: "Absolute value of an expression in super brief style"
   example:     "absolute value A end absolute value"
-  latex:       "\| a\|"
+  latex:       "\\| a\\|"
   parameters:
     %1: "Content inside absolute value bars"
 
@@ -174,14 +174,14 @@ empty-set:
 fences-set:
   description: "A set expression"
   example:     "begin set a , b, c end set"
-  latex:       "\{a,b,c\}"
+  latex:       "\\{a,b,c\\}"
   parameters:
     %1: "Content inside the set braces"
 
 fences-set-sbrief:
   description: "A set expression in super brief style"
   example:     "set a , b, c end set"
-  latex:       "\{a,b,c\}"
+  latex:       "\\{a,b,c\\}"
   parameters:
     %1: "Content inside the set braces"
 
@@ -207,7 +207,7 @@ vulgar-fraction:
 continued-fraction-outer:
   description: "The outer part of a continuous fraction"
   example:     "ContinuedFraction a Over 1 plus StartFraction b Over 2 plus StartFraction 1 plus c Over ellipsis"
-  latex:       " \frac{a}{1 + \frac{b}{2 + \frac{1 + c}{\ldots}}}"
+  latex:       " \\frac{a}{1 + \\frac{b}{2 + \\frac{1 + c}{\\ldots}}}"
   parameters:
     %1: "Enumerator of continuous fraction"
     %2: "Denominator of continuous fraction"
@@ -215,7 +215,7 @@ continued-fraction-outer:
 continued-fraction-outer-brief:
   description: "The outer part of a continuous fraction in brief and super brief style"
   example:     "ContinuedFrac a Over 1 plus StartFraction b Over 2 plus StartFraction 1 plus c Over ellipsis"
-  latex:       " \frac{a}{1 + \frac{b}{2 + \frac{1 + c}{\ldots}}}"
+  latex:       " \\frac{a}{1 + \\frac{b}{2 + \\frac{1 + c}{\\ldots}}}"
   parameters:
     %1: "Enumerator of continuous fraction"
     %2: "Denominator of continuous fraction"
@@ -302,7 +302,7 @@ counted-prime-multichar:
 overscore:
   description: "Expression modified above with an accent-like symbol"
   example:     "modifying above b with right arrow "
-  latex:       "\stackrel{\rightarrow}{b}"
+  latex:       "\\stackrel{\\rightarrow}{b}"
   parameters:
     %1: "The base element"
     %2: "The modifying accent"
@@ -310,7 +310,7 @@ overscore:
 overscore-brief:
   description: "Expression modified above with an accent-like symbol in brief and super brief style"
   example:     "mod above b with right arrow "
-  latex:       "\stackrel{\rightarrow}{b}"
+  latex:       "\\stackrel{\\rightarrow}{b}"
   parameters:
     %1: "The base element"
     %2: "The modifying accent"
@@ -318,7 +318,7 @@ overscore-brief:
 double-overscore:
   description: "Expression modified above with two accent-like symbols"
   example:     "modifying above above modifying above b with right arrow with left arrow"
-  latex:       "\stackrel{\leftarrow}{\stackrel{\rightarrow}{b}}"
+  latex:       "\\stackrel{\\leftarrow}{\\stackrel{\\rightarrow}{b}}"
   parameters:
     %1: "The base element"
     %2: "The modifying accents"
@@ -326,7 +326,7 @@ double-overscore:
 double-overscore-brief:
   description: "Expression modified above with two accent-like symbols in brief and super brief style"
   example:     "mod above above mod above b with right arrow with left arrow"
-  latex:       "\stackrel{\leftarrow}{\stackrel{\rightarrow}{b}}"
+  latex:       "\\stackrel{\\leftarrow}{\\stackrel{\\rightarrow}{b}}"
   parameters:
     %1: "The base element"
     %2: "The modifying accents"
@@ -334,7 +334,7 @@ double-overscore-brief:
 underscore:
   description: "Expression modified below with an accent-like symbol"
   example:     "modifying below y with left arrow"
-  latex:       "\underset{\leftarrow}{y}"
+  latex:       "\\underset{\\leftarrow}{y}"
   parameters:
     %1: "The base element"
     %2: "The modifying accent"
@@ -342,7 +342,7 @@ underscore:
 underscore-brief:
   description: "Expression modified below with an accent-like symbol in brief and super brief style"
   example:     "mod below y with left arrow"
-  latex:       "\underset{\leftarrow}{y}"
+  latex:       "\\underset{\\leftarrow}{y}"
   parameters:
     %1: "The base element"
     %2: "The modifying accent"
@@ -350,7 +350,7 @@ underscore-brief:
 double-underscore:
   description: "Expression modified below with two accent-like symbols"
   example:     "modifying below below modifying below y with left arrow with right arrow"
-  latex:       "\underset{\rightarrow}{\underset{\leftarrow}{y}}"
+  latex:       "\\underset{\\rightarrow}{\\underset{\\leftarrow}{y}}"
   parameters:
     %1: "The base element"
     %2: "The modifying accents"
@@ -358,7 +358,7 @@ double-underscore:
 double-underscore-brief:
   description: "Expression modified below with two accent-like symbols in brief and super brief style"
   example:     "mod below below mod below y with left arrow with right arrow"
-  latex:       "\underset{\rightarrow}{\underset{\leftarrow}{y}}"
+  latex:       "\\underset{\\rightarrow}{\\underset{\\leftarrow}{y}}"
   parameters:
     %1: "The base element"
     %2: "The modifying accents"
@@ -473,7 +473,7 @@ determinant-sbrief:
 determinant-simple:
   description: "A determinant given in barred fences with simple elements, i.e., columns will not be explicitly pronounced"
   example:     ""
-  latex:       "\begin{vmatrix} a & b\\ c & d\end{vmatrix}"
+  latex:       "\\begin{vmatrix} a & b\\\\ c & d\\end{vmatrix}"
   parameters:
     %1: "Number of rows"
     %2: "Number of columns"
@@ -482,7 +482,7 @@ determinant-simple:
 determinant-simple-sbrief:
   description: "A determinant given in barred fences with simple elements, i.e., columns will not be explicitly pronounced in brief and super brief style"
   example:     ""
-  latex:       "\begin{vmatrix} a & b\\ c & d\end{vmatrix}"
+  latex:       "\\begin{vmatrix} a & b\\\\ c & d\\end{vmatrix}"
   parameters:
     %1: "Number of rows"
     %2: "Number of columns"
@@ -597,7 +597,7 @@ empty-line-with-label-brief:
 enclose:
   description: "Describes an enclosed element"
   example:     "start enclose box x + y end enclose"
-  latex:       "\framebox{x+y}"
+  latex:       "\\framebox{x+y}"
   parameters:
     %1: "The enclosing structure (e.g., a box, circle). This programmatically translated."
     %2: "The enclosed element"

@@ -1,13 +1,13 @@
 numerator:
   description: "The numerator of a fraction"
   example:     "Numerator a"
-  latex:       "\frac{a}{b}"
+  latex:       "\\frac{a}{b}"
   parameters:
 
 denominator:
   description: "The denominator of a fraction"
   example:     "Denominator b"
-  latex:       "\frac{a}{b}"
+  latex:       "\\frac{a}{b}"
   parameters:
 
 base:
@@ -31,102 +31,102 @@ subscript:
 overscript:
   description: "The overscript above an operator or expression"
   example:     "Overscript infinity"
-  latex:       "\sum_{n=0}^{\infty}"
+  latex:       "\\sum_{n=0}^{\\infty}"
   parameters:
 
 underscript:
   description: "The underscript under an operator or expression"
   example:     "Underscript n equals zero"
-  latex:       "\sum_{n=0}^{\infty}"
+  latex:       "\\sum_{n=0}^{\\infty}"
   parameters:
 
 radicand:
   description: "The content of a root or square root"
   example:     "Radicand A"
-  latex:       "\sqrt{A}"
+  latex:       "\\sqrt{A}"
   parameters:
 
 index:
   description: "The index of a root"
   example:     "Index 4"
-  latex:       "\sqrt[4]{a}"
+  latex:       "\\sqrt[4]{a}"
   parameters:
 
 leftsub:
   description: "Left subscript or index of a tensor-like structure"
   example:     "Left subscript a"
-  latex:       "\tensor{M}{^a_b^c_d}"
+  latex:       "\\tensor{M}{^a_b^c_d}"
   parameters:
 
 leftsub-counted:
   description: "Counted left subscript or index of a tensor-like structure"
   example:     "2nd left subscript e"
-  latex:       "\tensor{M}{^{ae}_b^c_d}"
+  latex:       "\\tensor{M}{^{ae}_b^c_d}"
   parameters:
     %1: "The index counter"
 
 leftsuper:
   description: "Left superscript or index of a tensor-like structure"
   example:     "Left superscript b"
-  latex:       "\tensor{M}{^a_b^c_d}"
+  latex:       "\\tensor{M}{^a_b^c_d}"
   parameters:
 
 leftsuper-counted:
   description: "Counted left superscript or index of a tensor-like structure"
   example:     "2nd left superscript e"
-  latex:       "\tensor{M}{^a_{be}^c_d}"
+  latex:       "\\tensor{M}{^a_{be}^c_d}"
   parameters:
     %1: "The index counter"
 
 rightsub:
   description: "Right subscript or index of a tensor-like structure"
   example:     "Right subscript c"
-  latex:       "\tensor{M}{^a_b^c_d}"
+  latex:       "\\tensor{M}{^a_b^c_d}"
   parameters:
 
 rightsub-counted:
   description: "Counted right subscript or index of a tensor-like structure"
   example:     "2nd right subscript e"
-  latex:       "\tensor{M}{^a_b^c_{de}}"
+  latex:       "\\tensor{M}{^a_b^c_{de}}"
   parameters:
     %1: "The index counter"
 
 rightsuper:
   description: "Right superscript or exponent of a tensor-like structure"
   example:     "Right superscript d"
-  latex:       "\tensor{M}{^a_b^c_d}"
+  latex:       "\\tensor{M}{^a_b^c_d}"
   parameters:
 
 rightsuper-counted:
   description: "Counted right superscript or exponent of a tensor-like structure"
   example:     "2nd right superscript e"
-  latex:       "\tensor{M}{^a_b^{ce}_d}"
+  latex:       "\\tensor{M}{^a_b^{ce}_d}"
   parameters:
     %1: "The index counter"
 
 choice:
   description: "The choice quantity in a binomial coefficient. I.e., the n in 'n choose k'"
   example:     "Choice quantity n"
-  latex:       "(n \\ k)"
+  latex:       "(n \\\\ k)"
   parameters:
 
 select:
   description: "The selection quantity in a binomial coefficient. I.e., the k in 'n choose k'"
   example:     "Selection quantity k"
-  latex:       "\begin{pmatrix}n \\k \end{pmatrix}"
+  latex:       "\\begin{pmatrix}n \\\\k \\end{pmatrix}"
   parameters:
 
 row:
   description: "A row in a multiline equation, case statement or matrix"
   example:     "1st Row ..."
-  latex:       "\begin{pmatrix}a & b \\c & d\end{pmatrix}"
+  latex:       "\\begin{pmatrix}a & b \\\\c & d\\end{pmatrix}"
   parameters:
     %1: "The row counter"
 
 cell:
   description: "A cell of a matrix or layout expression in full context (i.e., with row number)"
   example:     "2nd Row 1st Column c"
-  latex:       "\begin{pmatrix}a & b \\c & d\end{pmatrix}"
+  latex:       "\\begin{pmatrix}a & b \\\\c & d\\end{pmatrix}"
   parameters:
     %1: ""
     %2: ""
@@ -134,6 +134,6 @@ cell:
 cell-simple:
   description: "A cell of a matrix or layout expression in its row context only"
   example:     "1st Column c"
-  latex:       "\begin{pmatrix}a & b \\c & d\end{pmatrix}"
+  latex:       "\\begin{pmatrix}a & b \\\\c & d\\end{pmatrix}"
   parameters:
     %1: ""

@@ -1,7 +1,7 @@
 abstr-identifier-long:
   description: "Summary for a long identifier. Used when the expression is visually abstracted."
   example:     ""
-  latex:       "\mathit{abcdefg}"
+  latex:       "\\mathit{abcdefg}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
@@ -29,98 +29,98 @@ abstr-number:
 abstr-mixed-number-long:
   description: "Summary of a long mixed number. Used when the expression is visually abstracted."
   example:     ""
-  latex:       "120\frac{20}{101}"
+  latex:       "120\\frac{20}{101}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-mixed-number:
   description: "Summary of a mixed number"
   example:     ""
-  latex:       "1\frac{2}{3}"
+  latex:       "1\\frac{2}{3}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-text:
   description: "Summary of an interspersed text element"
   example:     ""
-  latex:       "x_0 + x_1 \mtext{and so on} = y"
+  latex:       "x_0 + x_1 \\mtext{and so on} = y"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-function:
   description: "Summary of a function"
   example:     "Functional expression"
-  latex:       "\sin(x)"
+  latex:       "\\sin(x)"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-function-brief:
   description: "Brief summary of a function"
   example:     "Function"
-  latex:       "\sin(x)"
+  latex:       "\\sin(x)"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-lim:
   description: "Summary of a limit function"
   example:     "limit function"
-  latex:       "\lim_{x\to \infty}"
+  latex:       "\\lim_{x\\to \\infty}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-lim-brief:
   description: "Brief summary of limit function"
   example:     "limit"
-  latex:       "\lim_{x\to \infty}"
+  latex:       "\\lim_{x\\to \\infty}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-fraction:
   description: "Summary of a fraction"
   example:     "fraction"
-  latex:       "\frac{a}{b}"
+  latex:       "\\frac{a}{b}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-fraction-brief:
   description: "Brief summary of a fraction"
   example:     "frac"
-  latex:       "\frac{a}{b}"
+  latex:       "\\frac{a}{b}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-continued-fraction:
   description: "Summary of a continued fraction"
   example:     "continued fraction"
-  latex:       "\frac{a}{\ldots}"
+  latex:       "\\frac{a}{\\ldots}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-continued-fraction-brief:
   description: "Brief summary of a continued fraction"
   example:     "continued frac"
-  latex:       "\frac{a}{\ldots}"
+  latex:       "\\frac{a}{\\ldots}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-sqrt:
   description: "Summary of sqare root"
   example:     "square root"
-  latex:       "\sqrt{A}"
+  latex:       "\\sqrt{A}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-sqrt-nested:
   description: "Summary of a nested square root, irrespective of whether the inner roots are square roots or other indexed roots"
   example:     "nested square root"
-  latex:       "\sqrt{\sqrt[4]{A}}"
+  latex:       "\\sqrt{\\sqrt[4]{A}}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-root-end:
   description: "Indicates the end of the root index. This is important if summary is used in context, e.g. for an collapsed expression."
   example:     "root of index n plus 1 end index plus b"
-  latex:       "\sqrt[n + 1]{a} + b"
+  latex:       "\\sqrt[n + 1]{a} + b"
   parameters:
     %1: "The index value."
     %2: "The summarized term. If collapsed will trigger the grammatically correct adjective."
@@ -128,7 +128,7 @@ abstr-root-end:
 abstr-root:
   description: "Summary of an indexed root"
   example:     "root of index 4"
-  latex:       "\sqrt[4]{A}"
+  latex:       "\\sqrt[4]{A}"
   parameters:
     %1: "The index of the root (term on the tip of the radical sign)"
     %2: "The summarized term. If collapsed will trigger the grammatically correct adjective."
@@ -136,14 +136,14 @@ abstr-root:
 abstr-root-brief:
   description: "Brief summary of an indexed root"
   example:     "root"
-  latex:       "\sqrt[4]{A}"
+  latex:       "\\sqrt[4]{A}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-root-nested-end:
   description: "Indicates the end of the indexed root index. This is important if summary is used in context, e.g. for an collapsed expression."
   example:     "nest root of index n plus 1 end index plus b"
-  latex:       "\sqrt[n + 1]{\sqrt{a}} + b"
+  latex:       "\\sqrt[n + 1]{\\sqrt{a}} + b"
   parameters:
     %1: "The index of the root (term on the tip of the radical sign)"
     %2: "The summarized term. If collapsed will trigger the grammatically correct adjective."
@@ -151,7 +151,7 @@ abstr-root-nested-end:
 abstr-root-nested:
   description: "Summary of a nested root, irrespective of whether the inner roots are square roots or other indexed roots"
   example:     "nested root of index 3"
-  latex:       "\sqrt[3]{\sqrt[4]{A}}"
+  latex:       "\\sqrt[3]{\\sqrt[4]{A}}"
   parameters:
     %1: "The index of the root"
     %2: "The summarized term. If collapsed will trigger the grammatically correct adjective."
@@ -159,7 +159,7 @@ abstr-root-nested:
 abstr-root-nested-brief:
   description: "Brief summary of a nested root, irrespective of whether the inner roots are square roots or other indexed roots"
   example:     "nested root"
-  latex:       "\sqrt[3]{\sqrt[4]{A}}"
+  latex:       "\\sqrt[3]{\\sqrt[4]{A}}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
@@ -196,7 +196,7 @@ abstr-infixop:
 abstr-infixop-var:
   description: "Summary of an infix operation containing ellipses (...)"
   example:     "Subtraction with a variable number of elements"
-  latex:       "a-\ldots- b"
+  latex:       "a-\\ldots- b"
   parameters:
     %1: "The kind of operation."
     %2: "The summarized term. If collapsed will trigger the grammatically correct adjective."
@@ -227,7 +227,7 @@ abstr-addition-brief:
 abstr-addition-var:
   description: "Summary of an addition containing ellipses (...)"
   example:     "sum with variable number of summands"
-  latex:       "a + \ldots + c"
+  latex:       "a + \\ldots + c"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
@@ -249,14 +249,14 @@ abstr-multiplication-brief:
 abstr-multiplication-var:
   description: "Summary of a product containing ellipses (...)"
   example:     "product with variable number of factors"
-  latex:       "a * \ldots * c"
+  latex:       "a * \\ldots * c"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-vector:
   description: "Summary of a column vector"
   example:     "three dimensional vector"
-  latex:       "\begin{pmatrix} a \\ b \\ c \end{pmatrix}"
+  latex:       "\\begin{pmatrix} a \\\\ b \\\\ c \\end{pmatrix}"
   parameters:
     %1: "Number of dimensions"
     %2: "The summarized term. If collapsed will trigger the grammatically correct adjective."
@@ -264,14 +264,14 @@ abstr-vector:
 abstr-vector-brief:
   description: "Brief summary of a column vector"
   example:     "vector"
-  latex:       "\begin{pmatrix} a \\ b \\ c \end{pmatrix}"
+  latex:       "\\begin{pmatrix} a \\\\ b \\\\ c \\end{pmatrix}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-vector-var:
   description: "Summary of an abstract column vector"
   example:     "n dimensional vector"
-  latex:       "\begin{pmatrix} a \\ \vdots \\ c \end{pmatrix}"
+  latex:       "\\begin{pmatrix} a \\\\ \\vdots \\\\ c \\end{pmatrix}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
@@ -285,7 +285,7 @@ abstr-binomial:
 abstr-determinant:
   description: "Summary of a determinant"
   example:     "2 dimensional determinant"
-  latex:       "\begin{vmatrix} a & b \\ c & d \end{vmatrix}"
+  latex:       "\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}"
   parameters:
     %1: "The dimension of the determinant."
     %2: "The summarized term. If collapsed will trigger the grammatically correct adjective."
@@ -293,21 +293,21 @@ abstr-determinant:
 abstr-determinant-brief:
   description: "Brief summary of a determinant"
   example:     "determinant"
-  latex:       "\begin{vmatrix} a & b \\ c & d \end{vmatrix}"
+  latex:       "\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-determinant-var:
   description: "Summary of a determinant with elliptic elements ( ...). Has to be recognisably square and in bar fences."
   example:     "n dimensional determinant"
-  latex:       "\begin{vmatrix} a & \cdots & b \\ & \ddots & \\ c & \cdots & d \end{vmatrix}"
+  latex:       "\\begin{vmatrix} a & \\cdots & b \\\\ & \\ddots & \\\\ c & \\cdots & d \\end{vmatrix}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-squarematrix:
   description: "Summary of a square matrix"
   example:     "2 dimensional square matrix"
-  latex:       "\begin{bmatrix} a & b \\ c & d \end{bmatrix}"
+  latex:       "\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}"
   parameters:
     %1: "The dimension of the square matrix."
     %2: "The summarized term. If collapsed will trigger the grammatically correct adjective."
@@ -315,14 +315,14 @@ abstr-squarematrix:
 abstr-squarematrix-brief:
   description: "Brief summary of a square matrix"
   example:     "square matrix"
-  latex:       "\begin{bmatrix} a & b \\ c & d \end{bmatrix}"
+  latex:       "\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-rowvector:
   description: "Summary of a row vector"
   example:     "three dimensional row vector"
-  latex:       "\begin{pmatrix} a & b & c \end{pmatrix}"
+  latex:       "\\begin{pmatrix} a & b & c \\end{pmatrix}"
   parameters:
     %1: "Number of dimensions"
     %2: "The summarized term. If collapsed will trigger the grammatically correct adjective."
@@ -330,21 +330,21 @@ abstr-rowvector:
 abstr-rowvector-brief:
   description: "Brief summary of a row vector"
   example:     "row vector"
-  latex:       "\begin{pmatrix} a & b & c \end{pmatrix}"
+  latex:       "\\begin{pmatrix} a & b & c \\end{pmatrix}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-rowvector-var:
   description: "Summary of an abstract row vector"
   example:     "n dimensional row vector"
-  latex:       "\begin{pmatrix} a & \vdots & c \end{pmatrix}"
+  latex:       "\\begin{pmatrix} a & \\vdots & c \\end{pmatrix}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-matrix:
   description: "Summary of a non-square matrix"
   example:     "2 by 3 matrix"
-  latex:       "\begin{bmatrix} a & b & c \\ d & e & f \end{bmatrix}"
+  latex:       "\\begin{bmatrix} a & b & c \\\\ d & e & f \\end{bmatrix}"
   parameters:
     %1: "The row number"
     %2: "The column number"
@@ -353,21 +353,21 @@ abstr-matrix:
 abstr-matrix-brief:
   description: "Brief summary of a non-square matrix"
   example:     "matrix"
-  latex:       "\begin{bmatrix} a & b & c \\ d & e & f \end{bmatrix}"
+  latex:       "\\begin{bmatrix} a & b & c \\\\ d & e & f \\end{bmatrix}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-matrix-var:
   description: "Summary of a matrix with elliptic elements ( ...)."
   example:     "n by m dimensional matrix"
-  latex:       "\begin{bmatrix} a & \cdots & b \\ & \ddots & \\ c & \cdots & d \end{bmatrix}"
+  latex:       "\\begin{bmatrix} a & \\cdots & b \\\\ & \\ddots & \\\\ c & \\cdots & d \\end{bmatrix}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-cases:
   description: "Summary of a case statement"
   example:     "Case statement with 3 cases"
-  latex:       "\begin{cases} a \\ b \\ c \end{cases}"
+  latex:       "\\begin{cases} a \\\\ b \\\\ c \\end{cases}"
   parameters:
     %1: "Number of cases"
     %2: "The summarized term. If collapsed will trigger the grammatically correct adjective."
@@ -375,14 +375,14 @@ abstr-cases:
 abstr-cases-brief:
   description: "Brief summary of a case statement"
   example:     "Case statement"
-  latex:       "\begin{cases} a \\ b \\ c \end{cases}"
+  latex:       "\\begin{cases} a \\\\ b \\\\ c \\end{cases}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
 abstr-cases-var:
   description: "Summary of a case statement with omitted cases indicated by ellipses (...)"
   example:     "Case statement with variable number of cases"
-  latex:       "\begin{cases} a \\ \vdots \\ c \end{cases}"
+  latex:       "\\begin{cases} a \\\\ \\vdots \\\\ c \\end{cases}"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
@@ -406,7 +406,7 @@ abstr-punctuated-brief:
 abstr-punctuated-var:
   description: "Summary of a list of elements separated by a punctuation that contains elliptic elements (...)"
   example:     "comma separated list of variable length"
-  latex:       "a, b, \ldots, c"
+  latex:       "a, b, \\ldots, c"
   parameters:
     %1: "The separating punctuation"
     %2: "The summarized term. If collapsed will trigger the grammatically correct adjective."
@@ -414,7 +414,7 @@ abstr-punctuated-var:
 abstr-bigop:
   description: "Summary of a big operation, like a sum or a product"
   example:     "sum (or sigma summation)"
-  latex:       "\sum_{x=0}^\infty x"
+  latex:       "\\sum_{x=0}^\\infty x"
   parameters:
     %1: "The big operator"
     %2: "The summarized term. If collapsed will trigger the grammatically correct adjective."
@@ -422,7 +422,7 @@ abstr-bigop:
 abstr-integral:
   description: "Summary of an integral"
   example:     "integral"
-  latex:       "\int_{x=0}^\infty x \dx"
+  latex:       "\\int_{x=0}^\\infty x \\dx"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
@@ -454,7 +454,7 @@ abstr-relation-seq-brief:
 abstr-relation-var:
   description: "Summary of a relation sequence with three or more elements containing at least one ellispis (...)"
   example:     "equality sequence with variable number of elements elements"
-  latex:       "a = \ldots = c"
+  latex:       "a = \\ldots = c"
   parameters:
     %1: "The separating relation symbol"
     %2: "The summarized term. If collapsed will trigger the grammatically correct adjective."
@@ -477,7 +477,7 @@ abstr-multirel-brief:
 abstr-multirel-var:
   description: "Summary of a relation sequence with different relations containing at least one ellispis (...)"
   example:     "Relation sequence with variable number of elements"
-  latex:       "a > b_0 = \ldots = b_n > c"
+  latex:       "a > b_0 = \\ldots = b_n > c"
   parameters:
     %1: "The summarized term. If collapsed will trigger the grammatically correct adjective."
 
@@ -501,7 +501,7 @@ abstr-line:
 abstr-row:
   description: "Summary of a matrix row"
   example:     "1st row in square matrix with two columns"
-  latex:       "\begin{pmatrix}a&b\\c&d\end{pmatrix}"
+  latex:       "\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}"
   parameters:
     %1: "The context of the row (e.g., square matrix)"
     %2: "The row counter"
@@ -511,7 +511,7 @@ abstr-row:
 abstr-cell:
   description: "Summary of a matrix cell"
   example:     "1st column in square matrix"
-  latex:       "\begin{pmatrix}a&b\\c&d\end{pmatrix}"
+  latex:       "\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}"
   parameters:
     %1: "The the context of the column (e.g., square matrix)"
     %2: "The summarized term. If collapsed will trigger the grammatically correct adjective."
