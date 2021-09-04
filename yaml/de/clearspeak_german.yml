@@ -1130,10 +1130,12 @@ fences-metric-absend:
   - %1 (pause:short)
   - $2: "Ende Metrik" (pause:short)
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Base matrix rule speaking dimensions and content of the matrix with row and column indicators.
+# Example: the 2 by 2 matrix Row 1: Column 1, n plus 1 Column 2, 2 Row 2: Column 1, 3 Column 2, 4
+# LaTeX Example: $\begin{pmatrix}n+1 & 2\\ 3 & 4\end{pmatrix}$
+# %1: The row number
+# %2: The column number
+# %3: The matrix
 matrix:
   - $1: "die" (grammar:article)
   - %1
@@ -1142,10 +1144,12 @@ matrix:
   - $3: "Matrize" (pause:long)
   - %3 (context:"Zeile-:", pause:long)
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Rule for matrices with only simple entries, speaking dimensions and content of the matrix with row indicators only.
+# Example: the 2 by 2 matrix Row 1: 1 2 Row 2: 3 4
+# LaTeX Example: $\begin{pmatrix}1 & 2\\ 3 & 4\end{pmatrix}$
+# %1: The row number
+# %2: The column number
+# %3: The matrix
 matrix-simple:
   - $1: "die" (grammar:article)
   - %1
@@ -1154,16 +1158,18 @@ matrix-simple:
   - $3: "Matrize" (pause:long)
   - %3 (context:"Zeile-:", pause:long)
 
-# 
-# %1: 
+# Rule for a one by one matrix.
+# %1: The matrix content
 matrix-trivial:
   - $1: "die 1 mal 1 Matrize mit Element"
   - %1 (pause:long)
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Base rule for determinants (matrix with vertical bar fences) speaking dimensions and content of the matrix with row and column indicators.
+# Example: the determinant of the 2 by 2 matrix Row 1: Column 1, n plus 1
+# LaTeX Example: $ \begin{vmatrix}n+1 & 2\\ 3 & 4\end{vmatrix}$
+# %1: The row number
+# %2: The column number
+# %3: The determinant
 determinant:
   - $1: "die" (grammar:article)
   - $2: "Determinante der"
@@ -1173,10 +1179,12 @@ determinant:
   - $4: "Matrize" (pause:long)
   - %3 (context:"Zeile-:", pause:long)
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Rule for determinants (matrix with vertical bar fences) with only simple entries, speaking dimensions and content of the matrix with row indicators only.
+# Example: the determinant of the 2 by 2 matrix Row 1: 1 2 Row 2: 3 4
+# LaTeX Example: $\begin{vmatrix}1 & 2\\ 3 & 4\end{vmatrix}$
+# %1: The row number
+# %2: The column number
+# %3: The determinant
 determinant-simple:
   - $1: "die" (grammar:article)
   - $2: "Determinante der"
