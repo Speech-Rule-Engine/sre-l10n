@@ -4052,8 +4052,8 @@
   "angle-measure": {
     "rule": "angle-measure",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The angle symbol",
+      "%2": "The points of the angle, i.e., the right hand side of the angle symbol"
     },
     "locales": {
       "de": 1,
@@ -4062,9 +4062,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Measure of an angle",
+    "latex": "m \\angle ABC",
+    "example": "the measure of angle A B C",
     "reference": "en",
     "order": {
       "de": {
@@ -4764,9 +4764,9 @@
   "matrix-vector": {
     "rule": "matrix-vector",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The row number",
+      "%2": "The column number",
+      "%3": "The matrix"
     },
     "locales": {
       "de": 3,
@@ -4775,7 +4775,7 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
+    "description": "Rule for speaking column vectors as matrices.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -4811,9 +4811,9 @@
   "matrix-vector-simple": {
     "rule": "matrix-vector-simple",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The row number",
+      "%2": "The column number",
+      "%3": "The matrix"
     },
     "locales": {
       "de": 3,
@@ -4822,7 +4822,7 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
+    "description": "Rule for speaking column vectors as matrices with simple element not indicating rows. Vectors of up to dimension 3.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -4858,9 +4858,9 @@
   "matrix-vector-simple-silentcolnum": {
     "rule": "matrix-vector-simple-silentcolnum",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The row number",
+      "%2": "The column number",
+      "%3": "The matrix"
     },
     "locales": {
       "de": 3,
@@ -4869,7 +4869,7 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
+    "description": "Same as matrix-vector-simple just for the Matrix_SilentColNum preference.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -4905,9 +4905,9 @@
   "matrix-row-vector": {
     "rule": "matrix-row-vector",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The row number",
+      "%2": "The column number",
+      "%3": "The matrix"
     },
     "locales": {
       "de": 3,
@@ -4916,7 +4916,7 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
+    "description": "Rule for speaking row vectors as matrices.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -4952,9 +4952,9 @@
   "matrix-row-vector-simple": {
     "rule": "matrix-row-vector-simple",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The row number",
+      "%2": "The column number",
+      "%3": "The matrix"
     },
     "locales": {
       "de": 3,
@@ -4963,7 +4963,7 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
+    "description": "Rule for speaking row vectors as matrices with simple element not indicating rows. Vectors of up to dimension 3.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -4999,9 +4999,9 @@
   "matrix-row-vector-simple-silentcolnum": {
     "rule": "matrix-row-vector-simple-silentcolnum",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The row number",
+      "%2": "The column number",
+      "%3": "The matrix"
     },
     "locales": {
       "de": 3,
@@ -5010,7 +5010,7 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
+    "description": "Same as matri-row-vector-simple just for the Matrix_SilentColNum preference.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -5046,7 +5046,7 @@
   "matrix-row": {
     "rule": "matrix-row",
     "parameters": {
-      "%1": ""
+      "%1": "The elements of the row"
     },
     "locales": {
       "de": 1,
@@ -5055,7 +5055,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Iterates over each cell of a matrix row adding the prefix Column",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -5081,7 +5081,7 @@
   "matrix-end-matrix": {
     "rule": "matrix-end-matrix",
     "parameters": {
-      "%1": ""
+      "%1": "The matrix"
     },
     "locales": {
       "de": 1,
@@ -5090,7 +5090,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Adds an explicit 'end matrix' after the matrix.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -5116,7 +5116,7 @@
   "matrix-end-vector": {
     "rule": "matrix-end-vector",
     "parameters": {
-      "%1": ""
+      "%1": "The matrix"
     },
     "locales": {
       "de": 1,
@@ -5125,7 +5125,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Adds an explicit 'end matrix' after a vector.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -5151,7 +5151,7 @@
   "matrix-end-determinant": {
     "rule": "matrix-end-determinant",
     "parameters": {
-      "%1": ""
+      "%1": "The matrix"
     },
     "locales": {
       "de": 1,
@@ -5160,7 +5160,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Adds an explicit 'end determinant' after a determinant.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -5186,9 +5186,9 @@
   "vector": {
     "rule": "vector",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The row number",
+      "%2": "The column number",
+      "%3": "The vector"
     },
     "locales": {
       "de": 3,
@@ -5197,7 +5197,7 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
+    "description": "Base vector rule speaking dimensions and content of the vector with row indicators.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -5233,9 +5233,9 @@
   "vector-simple": {
     "rule": "vector-simple",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The row number",
+      "%2": "The column number",
+      "%3": "The vector"
     },
     "locales": {
       "de": 3,
@@ -5244,7 +5244,7 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
+    "description": "Vector with simple elements and dimension at most 3. Content is spoken without row indicators.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -5280,9 +5280,9 @@
   "row-vector": {
     "rule": "row-vector",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The row number",
+      "%2": "The column number",
+      "%3": "The vector"
     },
     "locales": {
       "de": 3,
@@ -5291,7 +5291,7 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
+    "description": "Base row vector rule speaking dimensions and content of the vector with column indicators.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -5327,9 +5327,9 @@
   "row-vector-simple": {
     "rule": "row-vector-simple",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The row number",
+      "%2": "The column number",
+      "%3": "The vector"
     },
     "locales": {
       "de": 3,
@@ -5338,7 +5338,7 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
+    "description": "Row vector with simple elements. Content is spoken without column indicators.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -5374,7 +5374,7 @@
   "vector-end-matrix": {
     "rule": "vector-end-matrix",
     "parameters": {
-      "%1": ""
+      "%1": "The matrix"
     },
     "locales": {
       "de": 1,
@@ -5383,7 +5383,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Adds an explicit 'end matrix' after a matrix.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -5409,7 +5409,7 @@
   "vector-end-vector": {
     "rule": "vector-end-vector",
     "parameters": {
-      "%1": ""
+      "%1": "The vector"
     },
     "locales": {
       "de": 1,
@@ -5418,7 +5418,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Adds an explicit 'end vector' after a vector.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -5444,7 +5444,7 @@
   "vector-end-vector-endvector": {
     "rule": "vector-end-vector-endvector",
     "parameters": {
-      "%1": ""
+      "%1": "The vector"
     },
     "locales": {
       "de": 1,
@@ -5453,7 +5453,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Adds an explicit 'end vector' after a vector.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -5479,7 +5479,7 @@
   "vector-end-determinant": {
     "rule": "vector-end-determinant",
     "parameters": {
-      "%1": ""
+      "%1": "The determinant"
     },
     "locales": {
       "de": 1,
@@ -5488,7 +5488,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Adds an explicit 'end determinant' after a determinant.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -5514,8 +5514,8 @@
   "binomial": {
     "rule": "binomial",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Sample quantity",
+      "%2": "Choice quantity"
     },
     "locales": {
       "de": 2,
@@ -5524,7 +5524,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "Binomial coefficient.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -5555,8 +5555,8 @@
   "lines-summary": {
     "rule": "lines-summary",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The number of lines",
+      "%2": "The lines of the equation"
     },
     "locales": {
       "de": 2,
@@ -5565,9 +5565,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a multiline equation or formula, e.g., 4 lines ...",
+    "latex": "\\begin{align}a&=b\\\\ c&=d\\end{align}",
+    "example": "2 lines Line 1: a equals b Line 2: c equals d",
     "reference": "en",
     "order": {
       "de": {
@@ -5596,8 +5596,8 @@
   "cases-summary": {
     "rule": "cases-summary",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The number of lines",
+      "%2": "The lines of the case statement"
     },
     "locales": {
       "de": 2,
@@ -5606,9 +5606,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Summary of a case statement, e.g., 4 cases ...",
+    "latex": "\\begin{cases}a&=b\\\\ c&=d\\end{cases}",
+    "example": "2 cases Case 1: a equals b Case 2: c equals d",
     "reference": "en",
     "order": {
       "de": {
@@ -5637,7 +5637,7 @@
   "lines": {
     "rule": "lines",
     "parameters": {
-      "%1": ""
+      "%1": "The list of lines"
     },
     "locales": {
       "de": 1,
@@ -5646,9 +5646,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Iterates over list of lines adding an enumerated prefix `Line n`",
     "latex": "",
-    "example": "",
+    "example": "2 lines Line 1: a equals b Line 2: c equals d",
     "reference": "en",
     "order": {
       "de": {
@@ -5679,7 +5679,7 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "Blank cell (e.g. in a matrix)",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -5702,7 +5702,7 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "Blank line (e.g., in cases)",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -5725,7 +5725,7 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "Cell with an explicit empty element. Normally treated like an empty cell.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -5748,7 +5748,7 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "Line with an explicit empty element. Normally treated like an empty cell.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -5764,7 +5764,7 @@
   "cases": {
     "rule": "cases",
     "parameters": {
-      "%1": ""
+      "%1": "The list of lines in the case statement."
     },
     "locales": {
       "de": 1,
@@ -5773,9 +5773,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Iterates over list of lines of a case statement adding an enumerated prefix `Case n`",
     "latex": "",
-    "example": "",
+    "example": "2 cases Case 1: a equals b Case 2: c equals d",
     "reference": "en",
     "order": {
       "de": {
@@ -5799,8 +5799,8 @@
   "lines-cases-summary": {
     "rule": "lines-cases-summary",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The number of lines",
+      "%2": "The lines of the equation"
     },
     "locales": {
       "de": 2,
@@ -5809,9 +5809,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "MultiLineLabel_Case preference rule for speaking regular multiline equations as cases. Summary rule.",
+    "latex": "\\begin{align}a&=b\\\\ c&=d\\end{align}",
+    "example": "2 cases Case 1: a equals b Case 2: c equals d",
     "reference": "en",
     "order": {
       "de": {
@@ -5840,7 +5840,7 @@
   "lines-cases": {
     "rule": "lines-cases",
     "parameters": {
-      "%1": ""
+      "%1": "The list of lines."
     },
     "locales": {
       "de": 1,
@@ -5849,9 +5849,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "MultiLineLabel_Case preference rule: Iterates over list of lines adding an enumerated prefix `Case n`",
     "latex": "",
-    "example": "",
+    "example": "2 cases Case 1: a equals b Case 2: c equals d",
     "reference": "en",
     "order": {
       "de": {
@@ -5875,8 +5875,8 @@
   "lines-equations-summary": {
     "rule": "lines-equations-summary",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The number of lines",
+      "%2": "The lines of the equation"
     },
     "locales": {
       "de": 2,
@@ -5885,9 +5885,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "MultiLineLabel_Equation preference rule for speaking regular multiline equations as equations. Summary rule.",
+    "latex": "\\begin{align}a&=b\\\\ c&=d\\end{align}",
+    "example": "2 equations Equation 1: a equals b Equation 2: c equals d",
     "reference": "en",
     "order": {
       "de": {
@@ -5916,7 +5916,7 @@
   "lines-equations": {
     "rule": "lines-equations",
     "parameters": {
-      "%1": ""
+      "%1": "The list of lines."
     },
     "locales": {
       "de": 1,
@@ -5925,9 +5925,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "MultiLineLabel_Equation preference rule: Iterates over list of lines adding an enumerated prefix `Equation n`",
     "latex": "",
-    "example": "",
+    "example": "2 equations Equation 1: a equals b Equation 2: c equals d",
     "reference": "en",
     "order": {
       "de": {
@@ -5951,8 +5951,8 @@
   "lines-steps-summary": {
     "rule": "lines-steps-summary",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The number of lines",
+      "%2": "The lines of the equation"
     },
     "locales": {
       "de": 2,
@@ -5961,9 +5961,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "MultiLineLabel_Step preference rule for speaking regular multiline equations as steps. Summary rule.",
+    "latex": "\\begin{align}a&=b\\\\ c&=d\\end{align}",
+    "example": "2 steps Step 1: a equals b Step 2: c equals d",
     "reference": "en",
     "order": {
       "de": {
@@ -5992,7 +5992,7 @@
   "lines-steps": {
     "rule": "lines-steps",
     "parameters": {
-      "%1": ""
+      "%1": "The list of lines."
     },
     "locales": {
       "de": 1,
@@ -6001,9 +6001,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "MultiLineLabel_Step preference rule: Iterates over list of lines adding an enumerated prefix `Step n`",
     "latex": "",
-    "example": "",
+    "example": "2 steps Step 1: a equals b Step 2: c equals d",
     "reference": "en",
     "order": {
       "de": {
@@ -6027,8 +6027,8 @@
   "lines-rows-summary": {
     "rule": "lines-rows-summary",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The number of lines",
+      "%2": "The lines of the equation"
     },
     "locales": {
       "de": 2,
@@ -6037,9 +6037,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "MultiLineLabel_Row preference rule for speaking regular multiline equations as rows. Summary rule.",
+    "latex": "\\begin{align}a&=b\\\\ c&=d\\end{align}",
+    "example": "2 rows Row 1: a equals b Row 2: c equals d",
     "reference": "en",
     "order": {
       "de": {
@@ -6068,7 +6068,7 @@
   "lines-rows": {
     "rule": "lines-rows",
     "parameters": {
-      "%1": ""
+      "%1": "The list of lines."
     },
     "locales": {
       "de": 1,
@@ -6077,9 +6077,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "MultiLineLabel_Row preference rule: Iterates over list of lines adding an enumerated prefix `Row n`",
     "latex": "",
-    "example": "",
+    "example": "2 rows Row 1: a equals b Row 2: c equals d",
     "reference": "en",
     "order": {
       "de": {
@@ -6103,8 +6103,8 @@
   "lines-constraints-summary": {
     "rule": "lines-constraints-summary",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The number of lines",
+      "%2": "The lines of the equation"
     },
     "locales": {
       "de": 2,
@@ -6113,9 +6113,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "MultiLineLabel_Constraint preference rule for speaking regular multiline equations as constraints. Summary rule.",
+    "latex": "\\begin{align}a&=b\\\\ c&=d\\end{align}",
+    "example": "2 constraints Constraint 1: a equals b Constraint 2: c equals d",
     "reference": "en",
     "order": {
       "de": {
@@ -6144,7 +6144,7 @@
   "lines-constraints": {
     "rule": "lines-constraints",
     "parameters": {
-      "%1": ""
+      "%1": "The list of lines."
     },
     "locales": {
       "de": 1,
@@ -6153,9 +6153,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "MultiLineLabel_Constraint preference rule: Iterates over list of lines adding an enumerated prefix `Constraint n`",
     "latex": "",
-    "example": "",
+    "example": "2 constraints Constraint 1: a equals b Constraint 2: c equals d",
     "reference": "en",
     "order": {
       "de": {
@@ -6179,8 +6179,8 @@
   "bigop": {
     "rule": "bigop",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The large operator (including boundaries)",
+      "%2": "The argument of the operator (e.g., \\frac{1}{n})"
     },
     "locales": {
       "de": 2,
@@ -6189,9 +6189,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Large operator like sum, product etc.",
+    "latex": "\\sum_{n=0}^\\infty \\frac{1}{n}",
+    "example": "the sum from n equals 0 to infinity of 1 over n",
     "reference": "en",
     "order": {
       "de": {
@@ -6220,9 +6220,9 @@
   "limboth": {
     "rule": "limboth",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "The operator",
+      "%2": "The lower limit",
+      "%3": "The upper limit"
     },
     "locales": {
       "de": 3,
@@ -6231,9 +6231,9 @@
       "hi": 3,
       "it": 3
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Operator with upper and lower limit.",
+    "latex": "\\sum_{n=0}^\\infty",
+    "example": "the sum from n equals 0 to infinity",
     "reference": "en",
     "order": {
       "de": {
@@ -6267,8 +6267,8 @@
   "limlower": {
     "rule": "limlower",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The operator",
+      "%2": "The lower limit"
     },
     "locales": {
       "de": 2,
@@ -6277,9 +6277,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Operator with lower limit only.",
+    "latex": "\\sum_{n=0}",
+    "example": "the sum over n equals 0",
     "reference": "en",
     "order": {
       "de": {
@@ -6308,8 +6308,8 @@
   "limupper": {
     "rule": "limupper",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The operator",
+      "%2": "The upper limit"
     },
     "locales": {
       "de": 2,
@@ -6318,9 +6318,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Operator with upper limit only.",
+    "latex": "\\sum^\\infty",
+    "example": "the sum under infinity",
     "reference": "en",
     "order": {
       "de": {
@@ -6349,8 +6349,8 @@
   "integral": {
     "rule": "integral",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The integral",
+      "%2": "The argument of the integral"
     },
     "locales": {
       "de": 2,
@@ -6359,9 +6359,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Integral rule",
+    "latex": "\\int_{0}^\\infty \\frac{1}{x}dx",
+    "example": "the integral from 0 to infinity of 1 over x",
     "reference": "en",
     "order": {
       "de": {
@@ -6390,8 +6390,8 @@
   "overscript": {
     "rule": "overscript",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The element",
+      "%2": "The overscript"
     },
     "locales": {
       "de": 2,
@@ -6400,7 +6400,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "Element with simple overscript or accent",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -6431,8 +6431,8 @@
   "overscript-limits": {
     "rule": "overscript-limits",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The element",
+      "%2": "The overscript"
     },
     "locales": {
       "de": 2,
@@ -6441,9 +6441,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Element with overscript spoken as an upper limit.",
+    "latex": "\\bigcap_{i=1}^{10}S_i",
+    "example": "the intersection from i equals 1 to 10 of S sub i",
     "reference": "en",
     "order": {
       "de": {
@@ -6472,8 +6472,8 @@
   "underscript": {
     "rule": "underscript",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The element",
+      "%2": "The underscript"
     },
     "locales": {
       "de": 2,
@@ -6482,7 +6482,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "Element with simple underscript or accent",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -6513,8 +6513,8 @@
   "underscript-limits": {
     "rule": "underscript-limits",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The element",
+      "%2": "The underscript"
     },
     "locales": {
       "de": 2,
@@ -6523,7 +6523,7 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "Element with underscript spoken as a lower limit.",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -6630,8 +6630,8 @@
   "decimal-period": {
     "rule": "decimal-period",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The number",
+      "%2": "The repeating decimals"
     },
     "locales": {
       "de": 2,
@@ -6640,9 +6640,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Repeating decimals where point is explicitly spoken",
+    "latex": "3{.}\\overline{12}",
+    "example": "the repeating decimal 3 point followed by repeating digits 1 2",
     "reference": "en",
     "order": {
       "de": {
@@ -6671,8 +6671,8 @@
   "decimal-period-float": {
     "rule": "decimal-period-float",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The number",
+      "%2": "The repeating decimals"
     },
     "locales": {
       "de": 2,
@@ -6681,9 +6681,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Repeating decimals where point is part of the number",
+    "latex": "3{.}3\\overline{12}",
+    "example": "the repeating decimal 3 point 3 followed by repeating digits 1 2",
     "reference": "en",
     "order": {
       "de": {
@@ -6712,8 +6712,8 @@
   "decimal-period-singular": {
     "rule": "decimal-period-singular",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The number",
+      "%2": "The repeating decimal"
     },
     "locales": {
       "de": 2,
@@ -6721,9 +6721,9 @@
       "fr": 2,
       "hi": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Repeating single decimal where point is explicitly spoken",
+    "latex": "3{.}\\overline{1}",
+    "example": "the repeating decimal 3 point followed by repeating digit 1",
     "reference": "en",
     "order": {
       "de": {
@@ -6748,8 +6748,8 @@
   "decimal-period-singular-float": {
     "rule": "decimal-period-singular-float",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The number",
+      "%2": "The repeating decimal"
     },
     "locales": {
       "de": 2,
@@ -6757,9 +6757,9 @@
       "fr": 2,
       "hi": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Repeating single decimal where point is part of the number",
+    "latex": "3{.}3\\overline{1}",
+    "example": "the repeating decimal 3 point 3 followed by repeating digits 1",
     "reference": "en",
     "order": {
       "de": {
@@ -6791,7 +6791,7 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "Speaking decimal point (or comma)",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -6807,8 +6807,8 @@
   "line-segment": {
     "rule": "line-segment",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "First character",
+      "%2": "Second character"
     },
     "locales": {
       "de": 2,
@@ -6817,9 +6817,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Two letters under a line spoken as a line segment",
+    "latex": "\\overline{AB}",
+    "example": "the line segment A B",
     "reference": "en",
     "order": {
       "de": {
@@ -6848,7 +6848,7 @@
   "conjugate": {
     "rule": "conjugate",
     "parameters": {
-      "%1": ""
+      "%1": "The element under the line"
     },
     "locales": {
       "de": 1,
@@ -6857,9 +6857,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Horizontal overbar spoken as a conjugate",
+    "latex": "\\overline{z}",
+    "example": "The complex conjugate of z",
     "reference": "en",
     "order": {
       "de": {
@@ -6890,7 +6890,7 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "Equality with `def` as overscript",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -6906,8 +6906,8 @@
   "adorned-sign": {
     "rule": "adorned-sign",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The operator or relation symbol",
+      "%2": "The adornment"
     },
     "locales": {
       "de": 2,
@@ -6916,9 +6916,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "An operator or relation with some adornment.",
     "latex": "",
-    "example": "",
+    "example": "equals sign with question mark over it",
     "reference": "en",
     "order": {
       "de": {
@@ -6954,9 +6954,9 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Factorial",
+    "latex": "x!",
+    "example": "x factorial",
     "reference": "en",
     "order": {
       "de": {},
@@ -6970,7 +6970,7 @@
   "left-super": {
     "rule": "left-super",
     "parameters": {
-      "%1": ""
+      "%1": "The left superscript"
     },
     "locales": {
       "de": 1,
@@ -6979,7 +6979,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Tensor with left superscript",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -7005,7 +7005,7 @@
   "left-super-list": {
     "rule": "left-super-list",
     "parameters": {
-      "%1": ""
+      "%1": "The list of left super indices"
     },
     "locales": {
       "de": 1,
@@ -7014,7 +7014,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Tensor with multiple left superscript indices",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -7040,7 +7040,7 @@
   "left-sub": {
     "rule": "left-sub",
     "parameters": {
-      "%1": ""
+      "%1": "The left subscript"
     },
     "locales": {
       "de": 1,
@@ -7049,7 +7049,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Tensor with left subscript",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -7075,7 +7075,7 @@
   "left-sub-list": {
     "rule": "left-sub-list",
     "parameters": {
-      "%1": ""
+      "%1": "The list of left sub indices"
     },
     "locales": {
       "de": 1,
@@ -7084,7 +7084,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Tensor with multiple left subscript indices",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -7110,7 +7110,7 @@
   "right-super": {
     "rule": "right-super",
     "parameters": {
-      "%1": ""
+      "%1": "The right superscript"
     },
     "locales": {
       "de": 1,
@@ -7119,7 +7119,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Tensor with right superscript",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -7145,7 +7145,7 @@
   "right-super-list": {
     "rule": "right-super-list",
     "parameters": {
-      "%1": ""
+      "%1": "The list of right super indices"
     },
     "locales": {
       "de": 1,
@@ -7154,7 +7154,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Tensor with multiple right superscript indices",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -7180,7 +7180,7 @@
   "right-sub": {
     "rule": "right-sub",
     "parameters": {
-      "%1": ""
+      "%1": "The right subscript"
     },
     "locales": {
       "de": 1,
@@ -7189,7 +7189,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Tensor with right subscript",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -7215,7 +7215,7 @@
   "right-sub-list": {
     "rule": "right-sub-list",
     "parameters": {
-      "%1": ""
+      "%1": "The list of right sub indices"
     },
     "locales": {
       "de": 1,
@@ -7224,7 +7224,7 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Tensor with multiple right subscript indices",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -7250,8 +7250,8 @@
   "choose": {
     "rule": "choose",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Left hand side of the C",
+      "%2": "Right hand side of the C"
     },
     "locales": {
       "de": 2,
@@ -7260,9 +7260,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "Choose operation given as letters with left and right superscripts",
     "latex": "",
-    "example": "",
+    "example": "n choose r",
     "reference": "en",
     "order": {
       "de": {
@@ -7291,8 +7291,8 @@
   "permute": {
     "rule": "permute",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "Left hand side of the P",
+      "%2": "Right hand side of the P"
     },
     "locales": {
       "de": 2,
@@ -7301,9 +7301,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
+    "description": "Permute operation given as letters with left and right superscripts",
     "latex": "",
-    "example": "",
+    "example": "n permute r",
     "reference": "en",
     "order": {
       "de": {
@@ -7433,7 +7433,7 @@
   "unit-reciprocal-singular": {
     "rule": "unit-reciprocal-singular",
     "parameters": {
-      "%1": ""
+      "%1": "The inversed unit"
     },
     "locales": {
       "de": 1,
@@ -7441,9 +7441,9 @@
       "fr": 1,
       "hi": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "A reciprocal in singular",
+    "latex": "1 s m^{-1}",
+    "example": "1 second per meter",
     "reference": "en",
     "order": {
       "de": {
@@ -7562,8 +7562,8 @@
   "superscript-simple-function": {
     "rule": "superscript-simple-function",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The function symbol",
+      "%2": "The exponent"
     },
     "locales": {
       "en": 2,
@@ -7571,7 +7571,7 @@
       "hi": 2,
       "it": 1
     },
-    "description": "",
+    "description": "Simple function (i.e., single letter f, g, ...) with superscript",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -7596,8 +7596,8 @@
   "superscript-ordinal-number": {
     "rule": "superscript-ordinal-number",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base element",
+      "%2": "The exponent"
     },
     "locales": {
       "en": 2,
@@ -7605,9 +7605,9 @@
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Integer or single letter superscript spoken as an ordinal (Exponent_Ordinal preference)",
+    "latex": "x to the fifth",
+    "example": "x^5",
     "reference": "en",
     "order": {
       "en": {
@@ -7632,17 +7632,17 @@
   "superscript-ordinal-negative": {
     "rule": "superscript-ordinal-negative",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base element",
+      "%2": "The exponent"
     },
     "locales": {
       "en": 2,
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "A netative integer superscript not spoken as an ordinal (Exponent_Ordinal preference)",
+    "latex": "x to the negative 5",
+    "example": "x^{-5}",
     "reference": "en",
     "order": {
       "en": {
@@ -7663,17 +7663,17 @@
   "superscript-ordinal-power-number": {
     "rule": "superscript-ordinal-power-number",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base element",
+      "%2": "The exponent"
     },
     "locales": {
       "en": 2,
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Integer or single letter superscript spoken as the power of an ordinal (Exponent_OrdinalPower preference)",
+    "latex": "x to the fifth power",
+    "example": "x^5",
     "reference": "en",
     "order": {
       "en": {
@@ -7694,17 +7694,17 @@
   "superscript-ordinal-power-negative": {
     "rule": "superscript-ordinal-power-negative",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base element",
+      "%2": "The exponent"
     },
     "locales": {
       "en": 2,
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "A netative integer superscript spoken as an ordinal (Exponent_OrdinalPower preference)",
+    "latex": "x to the negative 5 power",
+    "example": "x^{-5}",
     "reference": "en",
     "order": {
       "en": {
@@ -7725,17 +7725,17 @@
   "superscript-ordinal-power-identifier": {
     "rule": "superscript-ordinal-power-identifier",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base element",
+      "%2": "The exponent"
     },
     "locales": {
       "en": 2,
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Single letter superscript spoken as an ordinal power (Exponent_OrdinalPower preference)",
+    "latex": "x^n",
+    "example": "x raised to the n-th power",
     "reference": "en",
     "order": {
       "en": {
@@ -7756,17 +7756,17 @@
   "superscript-ordinal-power-default": {
     "rule": "superscript-ordinal-power-default",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base element",
+      "%2": "The exponent"
     },
     "locales": {
       "en": 2,
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Fallback rule for Exponent_OrdinalPower preference for non-simple exponent ending with 'end exponent'",
+    "latex": "x^{n^2}",
+    "example": "x raised to the exponent n to the second power end exponent",
     "reference": "en",
     "order": {
       "en": {
@@ -7787,17 +7787,17 @@
   "superscript-power": {
     "rule": "superscript-power",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base element",
+      "%2": "The exponent"
     },
     "locales": {
       "en": 2,
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Basic rule for Exponent_AfterPower preference where exponent is spoken after the power indicator",
+    "latex": "x raised to the power n",
+    "example": "x^{n}",
     "reference": "en",
     "order": {
       "en": {
@@ -7818,17 +7818,17 @@
   "superscript-power-default": {
     "rule": "superscript-power-default",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The base element",
+      "%2": "The exponent"
     },
     "locales": {
       "en": 2,
       "hi": 2,
       "it": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Specialist rule for Exponent_AfterPower preference for stacked exponents to avoid multiple 'end exponent' indicators",
+    "latex": "x raised to the exponent n raised to the power k end exponent",
+    "example": "x^{n^k}",
     "reference": "en",
     "order": {
       "en": {
@@ -7849,7 +7849,7 @@
   "exponent-ordinal": {
     "rule": "exponent-ordinal",
     "parameters": {
-      "%1": ""
+      "%1": "The identifier"
     },
     "locales": {
       "en": 1,
@@ -7857,9 +7857,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Turning a simple identifier/letter into an ordinal (Exponent_Ordinal preference)",
     "latex": "",
-    "example": "",
+    "example": "n-th",
     "reference": "en",
     "order": {
       "en": {
@@ -7886,7 +7886,7 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "Speaking 0 in an exponent expression power (Exponent_Ordinal preference)",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -7901,16 +7901,16 @@
   "exponent-ordinalpower": {
     "rule": "exponent-ordinalpower",
     "parameters": {
-      "%1": ""
+      "%1": "The number"
     },
     "locales": {
       "en": 1,
       "hi": 1,
       "it": 1
     },
-    "description": "",
+    "description": "Turning a number (without leading 0) into an ordinal (Exponent_OrdinalPower preference)",
     "latex": "",
-    "example": "",
+    "example": "10th",
     "reference": "en",
     "order": {
       "en": {
@@ -7933,7 +7933,7 @@
       "hi": 0,
       "it": 0
     },
-    "description": "",
+    "description": "Turning 0 into an ordinal used as power (Exponent_OrdinalPower preference)",
     "latex": "",
     "example": "",
     "reference": "en",
@@ -7947,7 +7947,7 @@
   "set-prefix-operators": {
     "rule": "set-prefix-operators",
     "parameters": {
-      "%1": ""
+      "%1": "The set operator"
     },
     "locales": {
       "en": 1,
@@ -7955,9 +7955,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Pronouncing a large set operator before an expression. Allows to add article or push through grammar",
+    "latex": "\\bigcap_{i=1}^{10}S_i",
+    "example": "the intersection from i equals 1 to 10 of S sub i",
     "reference": "en",
     "order": {
       "en": {
@@ -7978,15 +7978,15 @@
   "operators-after-power": {
     "rule": "operators-after-power",
     "parameters": {
-      "%1": ""
+      "%1": "The list of operators"
     },
     "locales": {
       "en": 1,
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
+    "description": "Assembles multiple operators in the Exponent_AfterPower preference. Generally no need to localise",
+    "latex": "x^{nm}",
     "example": "",
     "reference": "en",
     "order": {
@@ -8014,9 +8014,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Fences spoken as metrics.",
+    "latex": "||a||",
+    "example": "the metric of a",
     "reference": "en",
     "order": {
       "de": {
@@ -8049,9 +8049,9 @@
       "hi": 1,
       "it": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Fences spoken as metrics with end indicator (AbsoluteValue_AbsEnd preference)",
+    "latex": "||a||",
+    "example": "the metric of a end metric",
     "reference": "en",
     "order": {
       "de": {
@@ -8075,15 +8075,15 @@
   "enclose": {
     "rule": "enclose",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The enclosing element",
+      "%2": "The enclosed expression"
     },
     "locales": {
       "en": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "An expression enclosed in a box, circle, etc.",
+    "latex": "\\fbox{a}",
+    "example": "enclosed with box a",
     "reference": "en",
     "order": {
       "en": {
@@ -8096,15 +8096,15 @@
   "enclose-end": {
     "rule": "enclose-end",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The enclosing element",
+      "%2": "The enclosed expression"
     },
     "locales": {
       "en": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "An expression enclosed in a box, circle, etc. with explicit end indicator",
+    "latex": "\\fbox{a}",
+    "example": "enclosed with box a end enclose",
     "reference": "en",
     "order": {
       "en": {
@@ -8117,14 +8117,14 @@
   "overbar": {
     "rule": "overbar",
     "parameters": {
-      "%1": ""
+      "%1": "The expression under the bar"
     },
     "locales": {
       "en": 1
     },
-    "description": "",
+    "description": "Expression with a spanning bar over it.",
     "latex": "",
-    "example": "",
+    "example": "a plus b horizontal bar",
     "reference": "en",
     "order": {
       "en": {
@@ -8136,14 +8136,14 @@
   "underbar": {
     "rule": "underbar",
     "parameters": {
-      "%1": ""
+      "%1": "The expression over the bar"
     },
     "locales": {
       "en": 1
     },
-    "description": "",
+    "description": "Expression with a spanning bar under it.",
     "latex": "",
-    "example": "",
+    "example": "a plus b over horizontal bar",
     "reference": "en",
     "order": {
       "en": {
@@ -8155,14 +8155,14 @@
   "leftbar": {
     "rule": "leftbar",
     "parameters": {
-      "%1": ""
+      "%1": "The expression right of the bar"
     },
     "locales": {
       "en": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Expression with a bar to its left.",
+    "latex": "| a + b",
+    "example": "vertical bar a plus b",
     "reference": "en",
     "order": {
       "en": {
@@ -8174,14 +8174,14 @@
   "rightbar": {
     "rule": "rightbar",
     "parameters": {
-      "%1": ""
+      "%1": "The expression left of the bar"
     },
     "locales": {
       "en": 1
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Expression with a bar to its right.",
+    "latex": "a + b |",
+    "example": "a plus b vertical bar",
     "reference": "en",
     "order": {
       "en": {
@@ -8193,14 +8193,14 @@
   "crossout": {
     "rule": "crossout",
     "parameters": {
-      "%1": ""
+      "%1": "The expression that is crossed out"
     },
     "locales": {
       "en": 1
     },
-    "description": "",
+    "description": "A crossed out expression",
     "latex": "",
-    "example": "",
+    "example": "crossed out x",
     "reference": "en",
     "order": {
       "en": {
@@ -8212,14 +8212,14 @@
   "crossout-end": {
     "rule": "crossout-end",
     "parameters": {
-      "%1": ""
+      "%1": "The expression that is crossed out"
     },
     "locales": {
       "en": 1
     },
-    "description": "",
+    "description": "A crossed out expression with explicit end indicator (Enclosed_EndEnclose preference)",
     "latex": "",
-    "example": "",
+    "example": "crossed out x end crossout",
     "reference": "en",
     "order": {
       "en": {
@@ -8231,15 +8231,15 @@
   "cancel-over": {
     "rule": "cancel-over",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The canceled expression",
+      "%2": "Its replacement"
     },
     "locales": {
       "en": 2
     },
-    "description": "",
+    "description": "A canceled expression with replacement over it",
     "latex": "",
-    "example": "",
+    "example": "12 crossed out with 4",
     "reference": "en",
     "order": {
       "en": {
@@ -8252,15 +8252,15 @@
   "cancel-under": {
     "rule": "cancel-under",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The canceled expression",
+      "%2": "Its replacement"
     },
     "locales": {
       "en": 2
     },
-    "description": "",
+    "description": "A canceled expression with replacement under it",
     "latex": "",
-    "example": "",
+    "example": "12 crossed out with 4",
     "reference": "en",
     "order": {
       "en": {
@@ -8273,15 +8273,15 @@
   "cancel-over-end": {
     "rule": "cancel-over-end",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The canceled expression",
+      "%2": "Its replacement"
     },
     "locales": {
       "en": 2
     },
-    "description": "",
+    "description": "A canceled expression with replacement over it with explicit end indicator (Enclosed_EndEnclose preference)",
     "latex": "",
-    "example": "",
+    "example": "12 crossed out with 4 end crossout",
     "reference": "en",
     "order": {
       "en": {
@@ -8294,15 +8294,15 @@
   "cancel-under-end": {
     "rule": "cancel-under-end",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The canceled expression",
+      "%2": "Its replacement"
     },
     "locales": {
       "en": 2
     },
-    "description": "",
+    "description": "A canceled expression with replacement under it with explicit end indicator (Enclosed_EndEnclose preference)",
     "latex": "",
-    "example": "",
+    "example": "12 crossed out with 4 end crossout",
     "reference": "en",
     "order": {
       "en": {
@@ -8890,16 +8890,16 @@
   "element-noarticle": {
     "rule": "element-noarticle",
     "parameters": {
-      "%1": "",
-      "%2": "",
-      "%3": ""
+      "%1": "Left hand side of element symbol",
+      "%2": "The element symbol",
+      "%3": "Right hand side of element symbol"
     },
     "locales": {
       "fr": 3
     },
-    "description": "",
+    "description": "Element expression that should not be followed by an article. Currently used in French only.",
     "latex": "",
-    "example": "",
+    "example": "x est un nombres entiers",
     "reference": "fr",
     "order": {
       "fr": {

@@ -1003,8 +1003,10 @@ positive:
   - $1: "plus"
   - %1
 
-# 
-# %1: 
+# Measure of an angle
+# Example: the measure of angle A B C
+# LaTeX Example: $m \angle ABC$
+# %1: The points of the angle, i.e., the right hand side of the angle symbol
 angle-measure:
   - $1: "das Maß des Winkels"
   - %1
@@ -1117,13 +1119,17 @@ fences-neutral-determinant:
   - $1: "die Determinante von"
   - %1 (pause:short)
 
-# 
+# Fences spoken as metrics.
+# Example: the metric of a
+# LaTeX Example: $||a||$
 # %1: 
 fences-metric:
   - $1: "die Metrik von"
   - %1 (pause:short)
 
-# 
+# Fences spoken as metrics with end indicator (AbsoluteValue_AbsEnd preference)
+# Example: the metric of a end metric
+# LaTeX Example: $||a||$
 # %1: 
 fences-metric-absend:
   - $1: "die Metrik von"
@@ -1194,10 +1200,10 @@ determinant-simple:
   - $4: "Matrize" (pause:long)
   - %3 (context:"Zeile-:", pause:long)
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Rule for speaking column vectors as matrices.
+# %1: The row number
+# %2: The column number
+# %3: The matrix
 matrix-vector:
   - $1: "die" (grammar:article)
   - %1
@@ -1206,10 +1212,10 @@ matrix-vector:
   - $3: "Spaltenmatrize" (pause:long)
   - %3 (context:"Zeile-:", pause:long)
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Rule for speaking column vectors as matrices with simple element not indicating rows. Vectors of up to dimension 3.
+# %1: The row number
+# %2: The column number
+# %3: The matrix
 matrix-vector-simple:
   - $1: "die" (grammar:article)
   - %1
@@ -1218,10 +1224,10 @@ matrix-vector-simple:
   - $3: "Spaltenmatrize" (pause:long)
   - %3 (pause:long)
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Same as matrix-vector-simple just for the Matrix_SilentColNum preference.
+# %1: The row number
+# %2: The column number
+# %3: The matrix
 matrix-vector-simple-silentcolnum:
   - $1: "die" (grammar:article)
   - %1
@@ -1230,10 +1236,10 @@ matrix-vector-simple-silentcolnum:
   - $3: "Spaltenmatrize" (pause:long)
   - %3 (pause:long)
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Rule for speaking row vectors as matrices.
+# %1: The row number
+# %2: The column number
+# %3: The matrix
 matrix-row-vector:
   - $1: "die" (grammar:article)
   - %1
@@ -1242,10 +1248,10 @@ matrix-row-vector:
   - $3: "Zeilenmatrize" (pause:long)
   - %3 (context:"Spalte-:", pause:long)
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Rule for speaking row vectors as matrices with simple element not indicating rows. Vectors of up to dimension 3.
+# %1: The row number
+# %2: The column number
+# %3: The matrix
 matrix-row-vector-simple:
   - $1: "die" (grammar:article)
   - %1
@@ -1254,10 +1260,10 @@ matrix-row-vector-simple:
   - $3: "Zeilenmatrize" (pause:long)
   - %3 (pause:long)
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Same as matri-row-vector-simple just for the Matrix_SilentColNum preference.
+# %1: The row number
+# %2: The column number
+# %3: The matrix
 matrix-row-vector-simple-silentcolnum:
   - $1: "die" (grammar:article)
   - %1
@@ -1266,33 +1272,33 @@ matrix-row-vector-simple-silentcolnum:
   - $3: "Zeilenmatrize" (pause:long)
   - %3 (pause:long)
 
-# 
-# %1: 
+# Iterates over each cell of a matrix row adding the prefix Column
+# %1: The elements of the row
 matrix-row:
   - %1 (context:"Spalte-,- ", pause:long)
 
-# 
-# %1: 
+# Adds an explicit 'end matrix' after the matrix.
+# %1: The matrix
 matrix-end-matrix:
   - %1
   - $1: "Ende Matrize"
 
-# 
-# %1: 
+# Adds an explicit 'end matrix' after a vector.
+# %1: The matrix
 matrix-end-vector:
   - %1
   - $1: "Ende Matrize"
 
-# 
-# %1: 
+# Adds an explicit 'end determinant' after a determinant.
+# %1: The matrix
 matrix-end-determinant:
   - %1
   - $1: "Ende Determinante"
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Base vector rule speaking dimensions and content of the vector with row indicators.
+# %1: The row number
+# %2: The column number
+# %3: The vector
 vector:
   - $1: "der" (grammar:article)
   - %1
@@ -1301,10 +1307,10 @@ vector:
   - $3: "Spaltenvektor" (pause:long)
   - %3 (context:"Zeile-:", pause:long)
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Vector with simple elements and dimension at most 3. Content is spoken without row indicators.
+# %1: The row number
+# %2: The column number
+# %3: The vector
 vector-simple:
   - $1: "der" (grammar:article)
   - %1
@@ -1313,10 +1319,10 @@ vector-simple:
   - $3: "Spaltenvektor" (pause:long)
   - %3 (pause:long)
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Base row vector rule speaking dimensions and content of the vector with column indicators.
+# %1: The row number
+# %2: The column number
+# %3: The vector
 row-vector:
   - $1: "der" (grammar:article)
   - %1
@@ -1325,10 +1331,10 @@ row-vector:
   - $3: "Zeilenvektor" (pause:long)
   - %3 (context:"Spalte-:", pause:long)
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Row vector with simple elements. Content is spoken without column indicators.
+# %1: The row number
+# %2: The column number
+# %3: The vector
 row-vector-simple:
   - $1: "der" (grammar:article)
   - %1
@@ -1337,157 +1343,182 @@ row-vector-simple:
   - $3: "Zeilenvektor" (pause:long)
   - %3 (pause:long)
 
-# 
-# %1: 
+# Adds an explicit 'end matrix' after a matrix.
+# %1: The matrix
 vector-end-matrix:
   - %1
   - $1: "Ende Matrize"
 
-# 
-# %1: 
+# Adds an explicit 'end vector' after a vector.
+# %1: The vector
 vector-end-vector:
   - %1
   - $1: "Ende Vektor"
 
-# 
-# %1: 
+# Adds an explicit 'end vector' after a vector.
+# %1: The vector
 vector-end-vector-endvector:
   - %1
   - $1: "Ende Vektor"
 
-# 
-# %1: 
+# Adds an explicit 'end determinant' after a determinant.
+# %1: The determinant
 vector-end-determinant:
   - %1
   - $1: "Ende Determinante"
 
-# 
-# %1: 
-# %2: 
+# Binomial coefficient.
+# %1: Sample quantity
+# %2: Choice quantity
 binomial:
   - %1
   - $1: "über"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Summary of a multiline equation or formula, e.g., 4 lines ...
+# Example: 2 lines Line 1: a equals b Line 2: c equals d
+# LaTeX Example: $\begin{align}a&=b\\ c&=d\end{align}$
+# %1: The number of lines
+# %2: The lines of the equation
 lines-summary:
   - %1
   - $1: "Zeilen"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Summary of a case statement, e.g., 4 cases ...
+# Example: 2 cases Case 1: a equals b Case 2: c equals d
+# LaTeX Example: $\begin{cases}a&=b\\ c&=d\end{cases}$
+# %1: The number of lines
+# %2: The lines of the case statement
 cases-summary:
   - %1
   - $1: "Fälle"
   - %2
 
-# 
-# %1: 
+# Iterates over list of lines adding an enumerated prefix `Line n`
+# Example: 2 lines Line 1: a equals b Line 2: c equals d
+# %1: The list of lines
 lines:
   - %1 (context:"Zeile-:", pause:long)
 
-# 
+# Blank cell (e.g. in a matrix)
 blank-cell:
   - $1: "leer"
 
-# 
+# Blank line (e.g., in cases)
 blank-line:
   - $1: "leer"
 
-# 
+# Cell with an explicit empty element. Normally treated like an empty cell.
 blank-cell-empty:
   - $1: "leer"
 
-# 
+# Line with an explicit empty element. Normally treated like an empty cell.
 blank-line-empty:
   - $1: "leer"
 
-# 
-# %1: 
+# Iterates over list of lines of a case statement adding an enumerated prefix `Case n`
+# Example: 2 cases Case 1: a equals b Case 2: c equals d
+# %1: The list of lines in the case statement.
 cases:
   - %1 (context:"Fall-:", pause:long)
 
-# 
-# %1: 
-# %2: 
+# MultiLineLabel_Case preference rule for speaking regular multiline equations as cases. Summary rule.
+# Example: 2 cases Case 1: a equals b Case 2: c equals d
+# LaTeX Example: $\begin{align}a&=b\\ c&=d\end{align}$
+# %1: The number of lines
+# %2: The lines of the equation
 lines-cases-summary:
   - %1
   - $1: "Fälle"
   - %2
 
-# 
-# %1: 
+# MultiLineLabel_Case preference rule: Iterates over list of lines adding an enumerated prefix `Case n`
+# Example: 2 cases Case 1: a equals b Case 2: c equals d
+# %1: The list of lines.
 lines-cases:
   - %1 (context:"Fall-:", pause:long)
 
-# 
-# %1: 
-# %2: 
+# MultiLineLabel_Equation preference rule for speaking regular multiline equations as equations. Summary rule.
+# Example: 2 equations Equation 1: a equals b Equation 2: c equals d
+# LaTeX Example: $\begin{align}a&=b\\ c&=d\end{align}$
+# %1: The number of lines
+# %2: The lines of the equation
 lines-equations-summary:
   - %1
   - $1: "Gleichungen"
   - %2
 
-# 
-# %1: 
+# MultiLineLabel_Equation preference rule: Iterates over list of lines adding an enumerated prefix `Equation n`
+# Example: 2 equations Equation 1: a equals b Equation 2: c equals d
+# %1: The list of lines.
 lines-equations:
   - %1 (context:"Gleichung-:", pause:long)
 
-# 
-# %1: 
-# %2: 
+# MultiLineLabel_Step preference rule for speaking regular multiline equations as steps. Summary rule.
+# Example: 2 steps Step 1: a equals b Step 2: c equals d
+# LaTeX Example: $\begin{align}a&=b\\ c&=d\end{align}$
+# %1: The number of lines
+# %2: The lines of the equation
 lines-steps-summary:
   - %1
   - $1: "Rechenschritte"
   - %2
 
-# 
-# %1: 
+# MultiLineLabel_Step preference rule: Iterates over list of lines adding an enumerated prefix `Step n`
+# Example: 2 steps Step 1: a equals b Step 2: c equals d
+# %1: The list of lines.
 lines-steps:
   - %1 (context:"Schritt-:", pause:long)
 
-# 
-# %1: 
-# %2: 
+# MultiLineLabel_Row preference rule for speaking regular multiline equations as rows. Summary rule.
+# Example: 2 rows Row 1: a equals b Row 2: c equals d
+# LaTeX Example: $\begin{align}a&=b\\ c&=d\end{align}$
+# %1: The number of lines
+# %2: The lines of the equation
 lines-rows-summary:
   - %1
   - $1: "Zeilen"
   - %2
 
-# 
-# %1: 
+# MultiLineLabel_Row preference rule: Iterates over list of lines adding an enumerated prefix `Row n`
+# Example: 2 rows Row 1: a equals b Row 2: c equals d
+# %1: The list of lines.
 lines-rows:
   - %1 (context:"Zeile-:", pause:long)
 
-# 
-# %1: 
-# %2: 
+# MultiLineLabel_Constraint preference rule for speaking regular multiline equations as constraints. Summary rule.
+# Example: 2 constraints Constraint 1: a equals b Constraint 2: c equals d
+# LaTeX Example: $\begin{align}a&=b\\ c&=d\end{align}$
+# %1: The number of lines
+# %2: The lines of the equation
 lines-constraints-summary:
   - %1
   - $1: "Bedingungen"
   - %2
 
-# 
-# %1: 
+# MultiLineLabel_Constraint preference rule: Iterates over list of lines adding an enumerated prefix `Constraint n`
+# Example: 2 constraints Constraint 1: a equals b Constraint 2: c equals d
+# %1: The list of lines.
 lines-constraints:
   - %1 (context:"Bedingung-:", pause:long)
 
-# 
-# %1: 
-# %2: 
+# Large operator like sum, product etc.
+# Example: the sum from n equals 0 to infinity of 1 over n
+# LaTeX Example: $\sum_{n=0}^\infty \frac{1}{n}$
+# %1: The large operator (including boundaries)
+# %2: The argument of the operator (e.g., \frac{1}{n})
 bigop:
   - %1
   - $1: "über"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
-# %3: 
+# Operator with upper and lower limit.
+# Example: the sum from n equals 0 to infinity
+# LaTeX Example: $\sum_{n=0}^\infty$
+# %1: The operator
+# %2: The lower limit
+# %3: The upper limit
 limboth:
   - %1
   - $1: "von"
@@ -1495,58 +1526,66 @@ limboth:
   - $2: "bis"
   - %3
 
-# 
-# %1: 
-# %2: 
+# Operator with lower limit only.
+# Example: the sum over n equals 0
+# LaTeX Example: $\sum_{n=0}$
+# %1: The operator
+# %2: The lower limit
 limlower:
   - %1
   - $1: "über"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Operator with upper limit only.
+# Example: the sum under infinity
+# LaTeX Example: $\sum^\infty$
+# %1: The operator
+# %2: The upper limit
 limupper:
   - %1
   - $1: "unter"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Integral rule
+# Example: the integral from 0 to infinity of 1 over x
+# LaTeX Example: $\int_{0}^\infty \frac{1}{x}dx$
+# %1: The integral
+# %2: The argument of the integral
 integral:
   - $1: "das"
   - %1
   - $2: "über"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Element with simple overscript or accent
+# %1: The element
+# %2: The overscript
 overscript:
   - %1
   - $1: "unter"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Element with overscript spoken as an upper limit.
+# Example: the intersection from i equals 1 to 10 of S sub i
+# LaTeX Example: $\bigcap_{i=1}^{10}S_i$
+# %1: The element
+# %2: The overscript
 overscript-limits:
   - %1
   - $1: "bis"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Element with simple underscript or accent
+# %1: The element
+# %2: The underscript
 underscript:
   - %1
   - $1: "über"
   - %2 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Element with underscript spoken as a lower limit.
+# %1: The element
+# %2: The underscript
 underscript-limits:
   - %1
   - $1: "von"
@@ -1568,135 +1607,152 @@ number-with-chars:
   - $1: "Zahl"
   - %1
 
-# 
-# %1: 
-# %2: 
+# Repeating decimals where point is explicitly spoken
+# Example: the repeating decimal 3 point followed by repeating digits 1 2
+# LaTeX Example: $3{.}\overline{12}$
+# %1: The number
+# %2: The repeating decimals
 decimal-period:
   - $1: "Dezimalbruch"
   - %1
   - $2: "Komma mit Periode"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Repeating decimals where point is part of the number
+# Example: the repeating decimal 3 point 3 followed by repeating digits 1 2
+# LaTeX Example: $3{.}3\overline{12}$
+# %1: The number
+# %2: The repeating decimals
 decimal-period-float:
   - $1: "Dezimalbruch"
   - %1
   - $2: "mit Periode"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Repeating single decimal where point is explicitly spoken
+# Example: the repeating decimal 3 point followed by repeating digit 1
+# LaTeX Example: $3{.}\overline{1}$
+# %1: The number
+# %2: The repeating decimal
 decimal-period-singular:
   - $1: "Dezimalbruch"
   - %1
   - $2: "Komma mit Periode"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Repeating single decimal where point is part of the number
+# Example: the repeating decimal 3 point 3 followed by repeating digits 1
+# LaTeX Example: $3{.}3\overline{1}$
+# %1: The number
+# %2: The repeating decimal
 decimal-period-singular-float:
   - $1: "Dezimalbruch"
   - %1
   - $2: "mit Periode"
   - %2
 
-# 
+# Speaking decimal point (or comma)
 decimal-point:
   - $1: "Komma"
 
-# 
-# %1: 
-# %2: 
+# Two letters under a line spoken as a line segment
+# Example: the line segment A B
+# LaTeX Example: $\overline{AB}$
+# %1: First character
+# %2: Second character
 line-segment:
   - $1: "die Strecke"
   - %1
   - %2 (pause:short)
 
-# 
-# %1: 
+# Horizontal overbar spoken as a conjugate
+# Example: The complex conjugate of z
+# LaTeX Example: $\overline{z}$
+# %1: The element under the line
 conjugate:
   - $1: "die komplexe Konjugation von"
   - %1
 
-# 
+# Equality with `def` as overscript
 defined-by:
   - $1: "ist definiert als" (pause:short)
 
-# 
-# %1: 
-# %2: 
+# An operator or relation with some adornment.
+# Example: equals sign with question mark over it
+# %1: The operator or relation symbol
+# %2: The adornment
 adorned-sign:
   - %1
   - $1: "Zeichen mit darüberstehendem"
   - %2
 
-# 
+# Factorial
+# Example: x factorial
+# LaTeX Example: $x!$
 factorial:
   - $1: "Fakultät"
 
-# 
-# %1: 
+# Tensor with left superscript
+# %1: The left superscript
 left-super:
   - $1: "linker oberer Index"
   - %1
 
-# 
-# %1: 
+# Tensor with multiple left superscript indices
+# %1: The list of left super indices
 left-super-list:
   - $1: "linker oberer Index"
   - %1
 
-# 
-# %1: 
+# Tensor with left subscript
+# %1: The left subscript
 left-sub:
   - $1: "linker unterer Index"
   - %1
 
-# 
-# %1: 
+# Tensor with multiple left subscript indices
+# %1: The list of left sub indices
 left-sub-list:
   - $1: "linker unterer Index"
   - %1
 
-# 
-# %1: 
+# Tensor with right superscript
+# %1: The right superscript
 right-super:
   - $1: "rechter oberer Index"
   - %1
 
-# 
-# %1: 
+# Tensor with multiple right superscript indices
+# %1: The list of right super indices
 right-super-list:
   - $1: "rechter oberer Index"
   - %1
 
-# 
-# %1: 
+# Tensor with right subscript
+# %1: The right subscript
 right-sub:
   - $1: "rechter unterer Index"
   - %1
 
-# 
-# %1: 
+# Tensor with multiple right subscript indices
+# %1: The list of right sub indices
 right-sub-list:
   - $1: "rechter unterer Index"
   - %1
 
-# 
-# %1: 
-# %2: 
+# Choose operation given as letters with left and right superscripts
+# Example: n choose r
+# %1: Right hand side of the C
+# %2: Left hand side of the C
 choose:
   - %1
   - $1: "aus"
   - %2
 
-# 
-# %1: 
-# %2: 
+# Permute operation given as letters with left and right superscripts
+# Example: n permute r
+# %1: Right hand side of the P
+# %2: Left hand side of the P
 permute:
   - %1
   - $1: "Permutionen von"
@@ -1720,8 +1776,10 @@ unit-reciprocal:
   - %1
   - $1: "invers"
 
-# 
-# %1: 
+# A reciprocal in singular
+# Example: 1 second per meter
+# LaTeX Example: $1 s m^{-1}$
+# %1: The inversed unit
 unit-reciprocal-singular:
   - $1: "pro"
   - %1

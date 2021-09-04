@@ -881,12 +881,12 @@ positive:
     %1: "The element with the positive sign"
 
 angle-measure:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Measure of an angle"
+  example:     "the measure of angle A B C"
+  latex:       "m \\angle ABC"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The angle symbol"
+    %2: "The points of the angle, i.e., the right hand side of the angle symbol"
 
 set-prefix-operators-masculine:
   description: ""
@@ -1042,360 +1042,360 @@ determinant-simple:
     %3: "The determinant"
 
 matrix-vector:
-  description: ""
+  description: "Rule for speaking column vectors as matrices."
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
-    %3: ""
+    %1: "The row number"
+    %2: "The column number"
+    %3: "The matrix"
 
 matrix-vector-simple:
-  description: ""
+  description: "Rule for speaking column vectors as matrices with simple element not indicating rows. Vectors of up to dimension 3."
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
-    %3: ""
+    %1: "The row number"
+    %2: "The column number"
+    %3: "The matrix"
 
 matrix-vector-simple-silentcolnum:
-  description: ""
+  description: "Same as matrix-vector-simple just for the Matrix_SilentColNum preference."
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
-    %3: ""
+    %1: "The row number"
+    %2: "The column number"
+    %3: "The matrix"
 
 matrix-row-vector:
-  description: ""
+  description: "Rule for speaking row vectors as matrices."
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
-    %3: ""
+    %1: "The row number"
+    %2: "The column number"
+    %3: "The matrix"
 
 matrix-row-vector-simple:
-  description: ""
+  description: "Rule for speaking row vectors as matrices with simple element not indicating rows. Vectors of up to dimension 3."
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
-    %3: ""
+    %1: "The row number"
+    %2: "The column number"
+    %3: "The matrix"
 
 matrix-row-vector-simple-silentcolnum:
-  description: ""
+  description: "Same as matri-row-vector-simple just for the Matrix_SilentColNum preference."
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
-    %3: ""
+    %1: "The row number"
+    %2: "The column number"
+    %3: "The matrix"
 
 matrix-row:
-  description: ""
+  description: "Iterates over each cell of a matrix row adding the prefix Column"
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The elements of the row"
 
 matrix-end-matrix:
-  description: ""
+  description: "Adds an explicit 'end matrix' after the matrix."
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The matrix"
 
 matrix-end-vector:
-  description: ""
+  description: "Adds an explicit 'end matrix' after a vector."
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The matrix"
 
 matrix-end-determinant:
-  description: ""
+  description: "Adds an explicit 'end determinant' after a determinant."
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The matrix"
 
 vector:
-  description: ""
+  description: "Base vector rule speaking dimensions and content of the vector with row indicators."
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
-    %3: ""
+    %1: "The row number"
+    %2: "The column number"
+    %3: "The vector"
 
 vector-simple:
-  description: ""
+  description: "Vector with simple elements and dimension at most 3. Content is spoken without row indicators."
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
-    %3: ""
+    %1: "The row number"
+    %2: "The column number"
+    %3: "The vector"
 
 row-vector:
-  description: ""
+  description: "Base row vector rule speaking dimensions and content of the vector with column indicators."
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
-    %3: ""
+    %1: "The row number"
+    %2: "The column number"
+    %3: "The vector"
 
 row-vector-simple:
-  description: ""
+  description: "Row vector with simple elements. Content is spoken without column indicators."
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
-    %3: ""
+    %1: "The row number"
+    %2: "The column number"
+    %3: "The vector"
 
 vector-end-matrix:
-  description: ""
+  description: "Adds an explicit 'end matrix' after a matrix."
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The matrix"
 
 vector-end-vector:
-  description: ""
+  description: "Adds an explicit 'end vector' after a vector."
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The vector"
 
 vector-end-vector-endvector:
-  description: ""
+  description: "Adds an explicit 'end vector' after a vector."
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The vector"
 
 vector-end-determinant:
-  description: ""
+  description: "Adds an explicit 'end determinant' after a determinant."
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The determinant"
 
 binomial:
-  description: ""
+  description: "Binomial coefficient."
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
+    %1: "Sample quantity"
+    %2: "Choice quantity"
 
 lines-summary:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Summary of a multiline equation or formula, e.g., 4 lines ..."
+  example:     "2 lines Line 1: a equals b Line 2: c equals d"
+  latex:       "\\begin{align}a&=b\\\\ c&=d\\end{align}"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The number of lines"
+    %2: "The lines of the equation"
 
 cases-summary:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Summary of a case statement, e.g., 4 cases ..."
+  example:     "2 cases Case 1: a equals b Case 2: c equals d"
+  latex:       "\\begin{cases}a&=b\\\\ c&=d\\end{cases}"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The number of lines"
+    %2: "The lines of the case statement"
 
 lines:
-  description: ""
-  example:     ""
+  description: "Iterates over list of lines adding an enumerated prefix `Line n`"
+  example:     "2 lines Line 1: a equals b Line 2: c equals d"
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The list of lines"
 
 blank-cell:
-  description: ""
+  description: "Blank cell (e.g. in a matrix)"
   example:     ""
   latex:       ""
   parameters:
 
 blank-line:
-  description: ""
+  description: "Blank line (e.g., in cases)"
   example:     ""
   latex:       ""
   parameters:
 
 blank-cell-empty:
-  description: ""
+  description: "Cell with an explicit empty element. Normally treated like an empty cell."
   example:     ""
   latex:       ""
   parameters:
 
 blank-line-empty:
-  description: ""
+  description: "Line with an explicit empty element. Normally treated like an empty cell."
   example:     ""
   latex:       ""
   parameters:
 
 cases:
-  description: ""
-  example:     ""
+  description: "Iterates over list of lines of a case statement adding an enumerated prefix `Case n`"
+  example:     "2 cases Case 1: a equals b Case 2: c equals d"
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The list of lines in the case statement."
 
 lines-cases-summary:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "MultiLineLabel_Case preference rule for speaking regular multiline equations as cases. Summary rule."
+  example:     "2 cases Case 1: a equals b Case 2: c equals d"
+  latex:       "\\begin{align}a&=b\\\\ c&=d\\end{align}"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The number of lines"
+    %2: "The lines of the equation"
 
 lines-cases:
-  description: ""
-  example:     ""
+  description: "MultiLineLabel_Case preference rule: Iterates over list of lines adding an enumerated prefix `Case n`"
+  example:     "2 cases Case 1: a equals b Case 2: c equals d"
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The list of lines."
 
 lines-equations-summary:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "MultiLineLabel_Equation preference rule for speaking regular multiline equations as equations. Summary rule."
+  example:     "2 equations Equation 1: a equals b Equation 2: c equals d"
+  latex:       "\\begin{align}a&=b\\\\ c&=d\\end{align}"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The number of lines"
+    %2: "The lines of the equation"
 
 lines-equations:
-  description: ""
-  example:     ""
+  description: "MultiLineLabel_Equation preference rule: Iterates over list of lines adding an enumerated prefix `Equation n`"
+  example:     "2 equations Equation 1: a equals b Equation 2: c equals d"
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The list of lines."
 
 lines-steps-summary:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "MultiLineLabel_Step preference rule for speaking regular multiline equations as steps. Summary rule."
+  example:     "2 steps Step 1: a equals b Step 2: c equals d"
+  latex:       "\\begin{align}a&=b\\\\ c&=d\\end{align}"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The number of lines"
+    %2: "The lines of the equation"
 
 lines-steps:
-  description: ""
-  example:     ""
+  description: "MultiLineLabel_Step preference rule: Iterates over list of lines adding an enumerated prefix `Step n`"
+  example:     "2 steps Step 1: a equals b Step 2: c equals d"
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The list of lines."
 
 lines-rows-summary:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "MultiLineLabel_Row preference rule for speaking regular multiline equations as rows. Summary rule."
+  example:     "2 rows Row 1: a equals b Row 2: c equals d"
+  latex:       "\\begin{align}a&=b\\\\ c&=d\\end{align}"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The number of lines"
+    %2: "The lines of the equation"
 
 lines-rows:
-  description: ""
-  example:     ""
+  description: "MultiLineLabel_Row preference rule: Iterates over list of lines adding an enumerated prefix `Row n`"
+  example:     "2 rows Row 1: a equals b Row 2: c equals d"
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The list of lines."
 
 lines-constraints-summary:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "MultiLineLabel_Constraint preference rule for speaking regular multiline equations as constraints. Summary rule."
+  example:     "2 constraints Constraint 1: a equals b Constraint 2: c equals d"
+  latex:       "\\begin{align}a&=b\\\\ c&=d\\end{align}"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The number of lines"
+    %2: "The lines of the equation"
 
 lines-constraints:
-  description: ""
-  example:     ""
+  description: "MultiLineLabel_Constraint preference rule: Iterates over list of lines adding an enumerated prefix `Constraint n`"
+  example:     "2 constraints Constraint 1: a equals b Constraint 2: c equals d"
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The list of lines."
 
 bigop:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Large operator like sum, product etc."
+  example:     "the sum from n equals 0 to infinity of 1 over n"
+  latex:       "\\sum_{n=0}^\\infty \\frac{1}{n}"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The large operator (including boundaries)"
+    %2: "The argument of the operator (e.g., \\frac{1}{n})"
 
 limboth:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Operator with upper and lower limit."
+  example:     "the sum from n equals 0 to infinity"
+  latex:       "\\sum_{n=0}^\\infty"
   parameters:
-    %1: ""
-    %2: ""
-    %3: ""
+    %1: "The operator"
+    %2: "The lower limit"
+    %3: "The upper limit"
 
 limlower:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Operator with lower limit only."
+  example:     "the sum over n equals 0"
+  latex:       "\\sum_{n=0}"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The operator"
+    %2: "The lower limit"
 
 limupper:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Operator with upper limit only."
+  example:     "the sum under infinity"
+  latex:       "\\sum^\\infty"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The operator"
+    %2: "The upper limit"
 
 integral:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Integral rule"
+  example:     "the integral from 0 to infinity of 1 over x"
+  latex:       "\\int_{0}^\\infty \\frac{1}{x}dx"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The integral"
+    %2: "The argument of the integral"
 
 overscript:
-  description: ""
+  description: "Element with simple overscript or accent"
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The element"
+    %2: "The overscript"
 
 overscript-limits:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Element with overscript spoken as an upper limit."
+  example:     "the intersection from i equals 1 to 10 of S sub i"
+  latex:       "\\bigcap_{i=1}^{10}S_i"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The element"
+    %2: "The overscript"
 
 underscript:
-  description: ""
+  description: "Element with simple underscript or accent"
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The element"
+    %2: "The underscript"
 
 underscript-limits:
-  description: ""
+  description: "Element with underscript spoken as a lower limit."
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The element"
+    %2: "The underscript"
 
 mixed-number:
   description: "Mixed numbers"
@@ -1413,149 +1413,149 @@ number-with-chars:
     %1: "The number"
 
 decimal-period:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Repeating decimals where point is explicitly spoken"
+  example:     "the repeating decimal 3 point followed by repeating digits 1 2"
+  latex:       "3{.}\\overline{12}"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The number"
+    %2: "The repeating decimals"
 
 decimal-period-float:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Repeating decimals where point is part of the number"
+  example:     "the repeating decimal 3 point 3 followed by repeating digits 1 2"
+  latex:       "3{.}3\\overline{12}"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The number"
+    %2: "The repeating decimals"
 
 decimal-period-singular:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Repeating single decimal where point is explicitly spoken"
+  example:     "the repeating decimal 3 point followed by repeating digit 1"
+  latex:       "3{.}\\overline{1}"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The number"
+    %2: "The repeating decimal"
 
 decimal-period-singular-float:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Repeating single decimal where point is part of the number"
+  example:     "the repeating decimal 3 point 3 followed by repeating digits 1"
+  latex:       "3{.}3\\overline{1}"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The number"
+    %2: "The repeating decimal"
 
 decimal-point:
-  description: ""
+  description: "Speaking decimal point (or comma)"
   example:     ""
   latex:       ""
   parameters:
 
 line-segment:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Two letters under a line spoken as a line segment"
+  example:     "the line segment A B"
+  latex:       "\\overline{AB}"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "First character"
+    %2: "Second character"
 
 conjugate:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Horizontal overbar spoken as a conjugate"
+  example:     "The complex conjugate of z"
+  latex:       "\\overline{z}"
   parameters:
-    %1: ""
+    %1: "The element under the line"
 
 defined-by:
-  description: ""
+  description: "Equality with `def` as overscript"
   example:     ""
   latex:       ""
   parameters:
 
 adorned-sign:
-  description: ""
-  example:     ""
+  description: "An operator or relation with some adornment."
+  example:     "equals sign with question mark over it"
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The operator or relation symbol"
+    %2: "The adornment"
 
 factorial:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Factorial"
+  example:     "x factorial"
+  latex:       "x!"
   parameters:
 
 left-super:
-  description: ""
+  description: "Tensor with left superscript"
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The left superscript"
 
 left-super-list:
-  description: ""
+  description: "Tensor with multiple left superscript indices"
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The list of left super indices"
 
 left-sub:
-  description: ""
+  description: "Tensor with left subscript"
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The left subscript"
 
 left-sub-list:
-  description: ""
+  description: "Tensor with multiple left subscript indices"
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The list of left sub indices"
 
 right-super:
-  description: ""
+  description: "Tensor with right superscript"
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The right superscript"
 
 right-super-list:
-  description: ""
+  description: "Tensor with multiple right superscript indices"
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The list of right super indices"
 
 right-sub:
-  description: ""
+  description: "Tensor with right subscript"
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The right subscript"
 
 right-sub-list:
-  description: ""
+  description: "Tensor with multiple right subscript indices"
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The list of right sub indices"
 
 choose:
-  description: ""
-  example:     ""
+  description: "Choose operation given as letters with left and right superscripts"
+  example:     "n choose r"
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
+    %1: "Left hand side of the C"
+    %2: "Right hand side of the C"
 
 permute:
-  description: ""
-  example:     ""
+  description: "Permute operation given as letters with left and right superscripts"
+  example:     "n permute r"
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
+    %1: "Left hand side of the P"
+    %2: "Right hand side of the P"
 
 unit-square:
   description: "A unit that is squared"
@@ -1579,11 +1579,11 @@ unit-reciprocal:
     %1: "The unit"
 
 unit-reciprocal-singular:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "A reciprocal in singular"
+  example:     "1 second per meter"
+  latex:       "1 s m^{-1}"
   parameters:
-    %1: ""
+    %1: "The inversed unit"
 
 unit-divide:
   description: "A fraction of units"
@@ -1615,220 +1615,220 @@ article:
     %1: "The expression translated without article."
 
 superscript-simple-function:
-  description: ""
+  description: "Simple function (i.e., single letter f, g, ...) with superscript"
   example:     ""
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The function symbol"
+    %2: "The exponent"
 
 superscript-ordinal-number:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Integer or single letter superscript spoken as an ordinal (Exponent_Ordinal preference)"
+  example:     "x^5"
+  latex:       "x to the fifth"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The base element"
+    %2: "The exponent"
 
 superscript-ordinal-negative:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "A netative integer superscript not spoken as an ordinal (Exponent_Ordinal preference)"
+  example:     "x^{-5}"
+  latex:       "x to the negative 5"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The base element"
+    %2: "The exponent"
 
 superscript-ordinal-power-number:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Integer or single letter superscript spoken as the power of an ordinal (Exponent_OrdinalPower preference)"
+  example:     "x^5"
+  latex:       "x to the fifth power"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The base element"
+    %2: "The exponent"
 
 superscript-ordinal-power-negative:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "A netative integer superscript spoken as an ordinal (Exponent_OrdinalPower preference)"
+  example:     "x^{-5}"
+  latex:       "x to the negative 5 power"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The base element"
+    %2: "The exponent"
 
 superscript-ordinal-power-identifier:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Single letter superscript spoken as an ordinal power (Exponent_OrdinalPower preference)"
+  example:     "x raised to the n-th power"
+  latex:       "x^n"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The base element"
+    %2: "The exponent"
 
 superscript-ordinal-power-default:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Fallback rule for Exponent_OrdinalPower preference for non-simple exponent ending with 'end exponent'"
+  example:     "x raised to the exponent n to the second power end exponent"
+  latex:       "x^{n^2}"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The base element"
+    %2: "The exponent"
 
 superscript-power:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Basic rule for Exponent_AfterPower preference where exponent is spoken after the power indicator"
+  example:     "x^{n}"
+  latex:       "x raised to the power n"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The base element"
+    %2: "The exponent"
 
 superscript-power-default:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Specialist rule for Exponent_AfterPower preference for stacked exponents to avoid multiple 'end exponent' indicators"
+  example:     "x^{n^k}"
+  latex:       "x raised to the exponent n raised to the power k end exponent"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The base element"
+    %2: "The exponent"
 
 exponent-ordinal:
-  description: ""
-  example:     ""
+  description: "Turning a simple identifier/letter into an ordinal (Exponent_Ordinal preference)"
+  example:     "n-th"
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The identifier"
 
 exponent-ordinal-zero:
-  description: ""
+  description: "Speaking 0 in an exponent expression power (Exponent_Ordinal preference)"
   example:     ""
   latex:       ""
   parameters:
 
 exponent-ordinalpower:
-  description: ""
-  example:     ""
+  description: "Turning a number (without leading 0) into an ordinal (Exponent_OrdinalPower preference)"
+  example:     "10th"
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The number"
 
 exponent-ordinalpower-zero:
-  description: ""
+  description: "Turning 0 into an ordinal used as power (Exponent_OrdinalPower preference)"
   example:     ""
   latex:       ""
   parameters:
 
 set-prefix-operators:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Pronouncing a large set operator before an expression. Allows to add article or push through grammar"
+  example:     "the intersection from i equals 1 to 10 of S sub i"
+  latex:       "\\bigcap_{i=1}^{10}S_i"
   parameters:
-    %1: ""
+    %1: "The set operator"
 
 operators-after-power:
-  description: ""
+  description: "Assembles multiple operators in the Exponent_AfterPower preference. Generally no need to localise"
   example:     ""
-  latex:       ""
+  latex:       "x^{nm}"
   parameters:
-    %1: ""
+    %1: "The list of operators"
 
 fences-metric:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Fences spoken as metrics."
+  example:     "the metric of a"
+  latex:       "||a||"
   parameters:
     %1: ""
 
 fences-metric-absend:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Fences spoken as metrics with end indicator (AbsoluteValue_AbsEnd preference)"
+  example:     "the metric of a end metric"
+  latex:       "||a||"
   parameters:
     %1: ""
 
 enclose:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "An expression enclosed in a box, circle, etc."
+  example:     "enclosed with box a"
+  latex:       "\\fbox{a}"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The enclosing element"
+    %2: "The enclosed expression"
 
 enclose-end:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "An expression enclosed in a box, circle, etc. with explicit end indicator"
+  example:     "enclosed with box a end enclose"
+  latex:       "\\fbox{a}"
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The enclosing element"
+    %2: "The enclosed expression"
 
 overbar:
-  description: ""
-  example:     ""
+  description: "Expression with a spanning bar over it."
+  example:     "a plus b horizontal bar"
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The expression under the bar"
 
 underbar:
-  description: ""
-  example:     ""
+  description: "Expression with a spanning bar under it."
+  example:     "a plus b over horizontal bar"
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The expression over the bar"
 
 leftbar:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Expression with a bar to its left."
+  example:     "vertical bar a plus b"
+  latex:       "| a + b"
   parameters:
-    %1: ""
+    %1: "The expression right of the bar"
 
 rightbar:
-  description: ""
-  example:     ""
-  latex:       ""
+  description: "Expression with a bar to its right."
+  example:     "a plus b vertical bar"
+  latex:       "a + b |"
   parameters:
-    %1: ""
+    %1: "The expression left of the bar"
 
 crossout:
-  description: ""
-  example:     ""
+  description: "A crossed out expression"
+  example:     "crossed out x"
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The expression that is crossed out"
 
 crossout-end:
-  description: ""
-  example:     ""
+  description: "A crossed out expression with explicit end indicator (Enclosed_EndEnclose preference)"
+  example:     "crossed out x end crossout"
   latex:       ""
   parameters:
-    %1: ""
+    %1: "The expression that is crossed out"
 
 cancel-over:
-  description: ""
-  example:     ""
+  description: "A canceled expression with replacement over it"
+  example:     "12 crossed out with 4"
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The canceled expression"
+    %2: "Its replacement"
 
 cancel-under:
-  description: ""
-  example:     ""
+  description: "A canceled expression with replacement under it"
+  example:     "12 crossed out with 4"
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The canceled expression"
+    %2: "Its replacement"
 
 cancel-over-end:
-  description: ""
-  example:     ""
+  description: "A canceled expression with replacement over it with explicit end indicator (Enclosed_EndEnclose preference)"
+  example:     "12 crossed out with 4 end crossout"
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The canceled expression"
+    %2: "Its replacement"
 
 cancel-under-end:
-  description: ""
-  example:     ""
+  description: "A canceled expression with replacement under it with explicit end indicator (Enclosed_EndEnclose preference)"
+  example:     "12 crossed out with 4 end crossout"
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
+    %1: "The canceled expression"
+    %2: "Its replacement"
 
 function-prefix-reciprocal:
   description: ""
@@ -2024,10 +2024,10 @@ not-member-belongs:
   parameters:
 
 element-noarticle:
-  description: ""
-  example:     ""
+  description: "Element expression that should not be followed by an article. Currently used in French only."
+  example:     "x est un nombres entiers"
   latex:       ""
   parameters:
-    %1: ""
-    %2: ""
-    %3: ""
+    %1: "Left hand side of element symbol"
+    %2: "The element symbol"
+    %3: "Right hand side of element symbol"
