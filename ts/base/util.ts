@@ -53,7 +53,8 @@ export const sreLocales: {[iso: string]: string} = {
   'fr': 'french',
   'hi': 'hindi',
   'it': 'italian',
-  'nb': 'bokmal'
+  'nb': 'bokmal',
+  'nn': 'nynorsk'
 };
 
 // Maps abstract locale name to directory name

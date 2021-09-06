@@ -3,155 +3,155 @@
 # Summary for a long identifier. Used when the expression is visually abstracted.
 # LaTeX Example: $\mathit{abcdefg}$
 abstr-identifier-long:
-  - $1: "long identifier"
+  - $1: "lang identifikator"
 
 # Summary for an identifier
 # LaTeX Example: $x$
 abstr-identifier:
-  - $1: "identifier"
+  - $1: "identifikator"
 
 # Summary of a long number. Used when the expression is visually abstracted.
 # LaTeX Example: $123456$
 abstr-number-long:
-  - $1: "long number"
+  - $1: "langt nummer"
 
 # Summary of a number
 # LaTeX Example: $12$
 abstr-number:
-  - $1: "number"
+  - $1: "nummer"
 
 # Summary of a long mixed number. Used when the expression is visually abstracted.
 # LaTeX Example: $120\frac{20}{101}$
 abstr-mixed-number-long:
-  - $1: "long mixed number"
+  - $1: "langt blanda nummer"
 
 # Summary of a mixed number
 # LaTeX Example: $1\frac{2}{3}$
 abstr-mixed-number:
-  - $1: "mixed number"
+  - $1: "blanda nummer"
 
 # Summary of an interspersed text element
 # LaTeX Example: $x_0 + x_1 \mtext{and so on} = y$
 abstr-text:
-  - $1: "text"
+  - $1: "tekst"
 
 # Summary of a function
 # Example: Functional expression
 # LaTeX Example: $\sin(x)$
 abstr-function:
-  - $1: "functional expression"
+  - $1: "funksjonsuttrykk"
 
 # Brief summary of a function
 # Example: Function
 # LaTeX Example: $\sin(x)$
 abstr-function-brief:
-  - $1: "function"
+  - $1: "funksjon"
 
 # Summary of a limit function
 # Example: limit function
 # LaTeX Example: $\lim_{x\to \infty}$
 abstr-lim:
-  - $1: "limit function"
+  - $1: "grenseverdifunksjon"
 
 # Brief summary of limit function
 # Example: limit
 # LaTeX Example: $\lim_{x\to \infty}$
 abstr-lim-brief:
-  - $1: "lim"
+  - $1: "grenseverdi"
 
 # Summary of a fraction
 # Example: fraction
 # LaTeX Example: $\frac{a}{b}$
 abstr-fraction:
-  - $1: "fraction"
+  - $1: "brøk"
 
 # Brief summary of a fraction
 # Example: frac
 # LaTeX Example: $\frac{a}{b}$
 abstr-fraction-brief:
-  - $1: "frac"
+  - $1: "brøk"
 
 # Summary of a continued fraction
 # Example: continued fraction
 # LaTeX Example: $\frac{a}{\ldots}$
 abstr-continued-fraction:
-  - $1: "continued fraction"
+  - $1: "kjedebrøk"
 
 # Brief summary of a continued fraction
 # Example: continued frac
 # LaTeX Example: $\frac{a}{\ldots}$
 abstr-continued-fraction-brief:
-  - $1: "continued frac"
+  - $1: "kjedebrøk"
 
 # Summary of sqare root
 # Example: square root
 # LaTeX Example: $\sqrt{A}$
 abstr-sqrt:
-  - $1: "square root"
+  - $1: "kvadratrot"
 
 # Summary of a nested square root, irrespective of whether the inner roots are square roots or other indexed roots
 # Example: nested square root
 # LaTeX Example: $\sqrt{\sqrt[4]{A}}$
 abstr-sqrt-nested:
-  - $1: "nested square root"
+  - $1: "n-te rot"
 
 # Indicates the end of the root index. This is important if summary is used in context, e.g. for an collapsed expression.
 # Example: root of index n plus 1 end index plus b
 # LaTeX Example: $\sqrt[n + 1]{a} + b$
 # %1: The index value.
 abstr-root-end:
-  - $1: "root of index"
+  - $1: "rot med eksponent"
   - %1
-  - $2: "endindex"
+  - $2: "slutteksponent"
 
 # Summary of an indexed root
 # Example: root of index 4
 # LaTeX Example: $\sqrt[4]{A}$
 # %1: The index of the root (term on the tip of the radical sign)
 abstr-root:
-  - $1: "root of index"
+  - $1: "rot med eksponent"
   - %1
 
 # Brief summary of an indexed root
 # Example: root
 # LaTeX Example: $\sqrt[4]{A}$
 abstr-root-brief:
-  - $1: "root"
+  - $1: "rot"
 
 # Indicates the end of the indexed root index. This is important if summary is used in context, e.g. for an collapsed expression.
 # Example: nest root of index n plus 1 end index plus b
 # LaTeX Example: $\sqrt[n + 1]{\sqrt{a}} + b$
 # %1: The index of the root (term on the tip of the radical sign)
 abstr-root-nested-end:
-  - $1: "nested root of index"
+  - $1: "nøsta rot med eksponent"
   - %1
-  - $2: "endindex"
+  - $2: "slutteksponent"
 
 # Summary of a nested root, irrespective of whether the inner roots are square roots or other indexed roots
 # Example: nested root of index 3
 # LaTeX Example: $\sqrt[3]{\sqrt[4]{A}}$
 # %1: The index of the root
 abstr-root-nested:
-  - $1: "nested root of index"
+  - $1: "nøsta rot med eksponent"
   - %1
 
 # Brief summary of a nested root, irrespective of whether the inner roots are square roots or other indexed roots
 # Example: nested root
 # LaTeX Example: $\sqrt[3]{\sqrt[4]{A}}$
 abstr-root-nested-brief:
-  - $1: "nested root"
+  - $1: "nøsta rot"
 
 # Summary of an exponential expression
 abstr-superscript:
-  - $1: "power"
+  - $1: "potens"
 
 # Summary of an indexed expression
 abstr-subscript:
-  - $1: "subscript"
+  - $1: "indeks"
 
 # Summary of an exponential expression with index
 abstr-subsup:
-  - $1: "power with subscript"
+  - $1: "potens med indeks"
 
 # Summary of an infix operation giving the number of terms
 # Example: division with two elements
@@ -160,9 +160,9 @@ abstr-subsup:
 # %2: The number of terms.
 abstr-infixop:
   - %1
-  - $1: "with"
+  - $1: "med"
   - %2
-  - $2: "elements"
+  - $2: "element"
 
 # Summary of an infix operation containing ellipses (...)
 # Example: Subtraction with a variable number of elements
@@ -170,7 +170,7 @@ abstr-infixop:
 # %1: The kind of operation.
 abstr-infixop-var:
   - %1
-  - $1: "with variable number of elements"
+  - $1: "med variabelt tal på element"
 
 # Brief summary of an infix operation, regardless of fixed or variable number of elements 
 # Example: Subtraction
@@ -183,9 +183,9 @@ abstr-infixop-brief:
 # LaTeX Example: $a + b + c$
 # %1: The number of summands
 abstr-addition:
-  - $1: "sum with"
+  - $1: "sum med"
   - %1
-  - $2: "summands"
+  - $2: "delsummar"
 
 # Brief summary of an addition, regardless of fixed or variable number of elements 
 # Example: sum
@@ -197,28 +197,28 @@ abstr-addition-brief:
 # Example: sum with variable number of summands
 # LaTeX Example: $a + \ldots + c$
 abstr-addition-var:
-  - $1: "sum with variable number of summands"
+  - $1: "sum med variabelt tal på delsummar"
 
 # Summary of a product with a fixed number of terms.
 # Example: product with three factors
 # LaTeX Example: $a * b * c$
 # %1: The number of factors
 abstr-multiplication:
-  - $1: "product with"
+  - $1: "produkt med"
   - %1
-  - $2: "factors"
+  - $2: "faktorar"
 
 # Brief summary of a product, regardless of fixed or variable number of elements 
 # Example: product
 # LaTeX Example: $a * b * c$
 abstr-multiplication-brief:
-  - $1: "product"
+  - $1: "produkt"
 
 # Summary of a product containing ellipses (...)
 # Example: product with variable number of factors
 # LaTeX Example: $a * \ldots * c$
 abstr-multiplication-var:
-  - $1: "product with variable number of factors"
+  - $1: "produkt med variabelt tal på faktorar"
 
 # Summary of a column vector
 # Example: three dimensional vector
@@ -226,23 +226,23 @@ abstr-multiplication-var:
 # %1: Number of dimensions
 abstr-vector:
   - %1
-  - $1: "dimensional vector"
+  - $1: "dimensjonal vektor"
 
 # Brief summary of a column vector
 # Example: vector
 # LaTeX Example: $\begin{pmatrix} a \\ b \\ c \end{pmatrix}$
 abstr-vector-brief:
-  - $1: "vector"
+  - $1: "vektor"
 
 # Summary of an abstract column vector
 # Example: n dimensional vector
 # LaTeX Example: $\begin{pmatrix} a \\ \vdots \\ c \end{pmatrix}$
 abstr-vector-var:
-  - $1: "n dimensional vector"
+  - $1: "n-dimensjonal vektor"
 
 # Summary of binomial coefficient
 abstr-binomial:
-  - $1: "binomial"
+  - $1: "binomialkoeffisient"
 
 # Summary of a determinant
 # Example: 2 dimensional determinant
@@ -250,7 +250,7 @@ abstr-binomial:
 # %1: The dimension of the determinant.
 abstr-determinant:
   - %1
-  - $1: "dimensional determinant"
+  - $1: "dimensjonal determinant"
 
 # Brief summary of a determinant
 # Example: determinant
@@ -262,7 +262,7 @@ abstr-determinant-brief:
 # Example: n dimensional determinant
 # LaTeX Example: $\begin{vmatrix} a & \cdots & b \\ & \ddots & \\ c & \cdots & d \end{vmatrix}$
 abstr-determinant-var:
-  - $1: "n dimensional determinant"
+  - $1: "n-dimensjonal determinant"
 
 # Summary of a square matrix
 # Example: 2 dimensional square matrix
@@ -270,13 +270,13 @@ abstr-determinant-var:
 # %1: The dimension of the square matrix.
 abstr-squarematrix:
   - %1
-  - $1: "dimensional square matrix"
+  - $1: "dimensjonal kvadratmatrise"
 
 # Brief summary of a square matrix
 # Example: square matrix
 # LaTeX Example: $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$
 abstr-squarematrix-brief:
-  - $1: "square matrix"
+  - $1: "kvadratmatrise"
 
 # Summary of a row vector
 # Example: three dimensional row vector
@@ -284,19 +284,19 @@ abstr-squarematrix-brief:
 # %1: Number of dimensions
 abstr-rowvector:
   - %1
-  - $1: "dimensional row vector"
+  - $1: "dimensjonal radvektor"
 
 # Brief summary of a row vector
 # Example: row vector
 # LaTeX Example: $\begin{pmatrix} a & b & c \end{pmatrix}$
 abstr-rowvector-brief:
-  - $1: "row vector"
+  - $1: "radvektor"
 
 # Summary of an abstract row vector
 # Example: n dimensional row vector
 # LaTeX Example: $\begin{pmatrix} a & \vdots & c \end{pmatrix}$
 abstr-rowvector-var:
-  - $1: "n dimensional row vector"
+  - $1: "n-dimensjonal radvektor"
 
 # Summary of a non-square matrix
 # Example: 2 by 3 matrix
@@ -305,43 +305,43 @@ abstr-rowvector-var:
 # %2: The column number
 abstr-matrix:
   - %1
-  - $1: "by"
+  - $1: "gangar"
   - %2
-  - $2: "matrix"
+  - $2: "matrise"
 
 # Brief summary of a non-square matrix
 # Example: matrix
 # LaTeX Example: $\begin{bmatrix} a & b & c \\ d & e & f \end{bmatrix}$
 abstr-matrix-brief:
-  - $1: "matrix"
+  - $1: "matrise"
 
 # Summary of a matrix with elliptic elements ( ...).
 # Example: n by m dimensional matrix
 # LaTeX Example: $\begin{bmatrix} a & \cdots & b \\ & \ddots & \\ c & \cdots & d \end{bmatrix}$
 abstr-matrix-var:
-  - $1: "n by m dimensional matrix"
+  - $1: "n gangar m-dimensjonal matrise"
 
 # Summary of a case statement
 # Example: Case statement with 3 cases
 # LaTeX Example: $\begin{cases} a \\ b \\ c \end{cases}$
 # %1: Number of cases
 abstr-cases:
-  - $1: "case statement"
-  - $2: "with"
+  - $1: "case-setning"
+  - $2: "med"
   - %1
-  - $3: "cases"
+  - $3: "casar"
 
 # Brief summary of a case statement
 # Example: Case statement
 # LaTeX Example: $\begin{cases} a \\ b \\ c \end{cases}$
 abstr-cases-brief:
-  - $1: "case statement"
+  - $1: "case-setning"
 
 # Summary of a case statement with omitted cases indicated by ellipses (...)
 # Example: Case statement with variable number of cases
 # LaTeX Example: $\begin{cases} a \\ \vdots \\ c \end{cases}$
 abstr-cases-var:
-  - $1: "case statement with variable number of cases"
+  - $1: "case-setning med variabelt tal på alternativ"
 
 # Summary of a list of elements separated by a punctuation like comma, semi-colon, etc.
 # Example: comma separated list of length 3
@@ -350,17 +350,17 @@ abstr-cases-var:
 # %2: The number of separated elements
 abstr-punctuated:
   - %1
-  - $1: "separated list"
-  - $2: "of length"
+  - $1: "separert liste"
+  - $2: "med lengde"
   - %2
-
+  
 # Brief summary of a list of elements separated by a punctuation like comma, semi-colon, etc.
 # Example: comma separated list
 # LaTeX Example: $a, b, c$
 # %1: The separating punctuation
 abstr-punctuated-brief:
   - %1
-  - $1: "separated list"
+  - $1: "separatert liste"
 
 # Summary of a list of elements separated by a punctuation that contains elliptic elements (...)
 # Example: comma separated list of variable length
@@ -368,8 +368,8 @@ abstr-punctuated-brief:
 # %1: The separating punctuation
 abstr-punctuated-var:
   - %1
-  - $1: "separated list"
-  - $2: "of variable length"
+  - $1: "separert liste"
+  - $2: "med variabel lengd"
 
 # Summary of a big operation, like a sum or a product
 # Example: sum (or sigma summation)
@@ -398,10 +398,10 @@ abstr-relation:
 # %2: The number of elements in the sequence
 abstr-relation-seq:
   - %1
-  - $1: "sequence"
-  - $2: "with"
+  - $1: "sekvens"
+  - $2: "med"
   - %2
-  - $3: "elements"
+  - $3: "element"
 
 # Brief summary of a relation sequence with three or more elements
 # Example: equality sequence
@@ -409,7 +409,7 @@ abstr-relation-seq:
 # %1: The separating relation symbol
 abstr-relation-seq-brief:
   - %1
-  - $1: "sequence"
+  - $1: "sekvens"
 
 # Summary of a relation sequence with three or more elements containing at least one ellispis (...)
 # Example: equality sequence with variable number of elements elements
@@ -417,47 +417,47 @@ abstr-relation-seq-brief:
 # %1: The separating relation symbol
 abstr-relation-var:
   - %1
-  - $1: "sequence"
-  - $2: "with variable number of elements"
+  - $1: "sekvens"
+  - $2: "med variabelt tal på element"
 
 # Summary of a relation sequence with different relations
 # Example: Relation sequence with 4 elements
 # LaTeX Example: $a < b = c > d$
 # %1: Number of elements in the relation sequence
 abstr-multirel:
-  - $1: "relation sequence"
-  - $2: "with"
+  - $1: "relasjonssekvens"
+  - $2: "med"
   - %1
-  - $3: "elements"
+  - $3: "element"
 
 # Brief summary of a relation sequence with different relations
 # Example: Relation sequence
 # LaTeX Example: $a < b = c > d$
 abstr-multirel-brief:
-  - $1: "relation sequence"
+  - $1: "relasjonssekvens"
 
 # Summary of a relation sequence with different relations containing at least one ellispis (...)
 # Example: Relation sequence with variable number of elements
 # LaTeX Example: $a > b_0 = \ldots = b_n > c$
 abstr-multirel-var:
-  - $1: "relation sequence with variable number of elements"
+  - $1: "relasjonssekvens med variabelt antall element"
 
 # Summary of a table
 # Example: table with 2 rows and 3 columns
 # %1: Number of lines/rows
 # %2: Number of columns
 abstr-table:
-  - $1: "table with"
+  - $1: "tabell med"
   - %1
-  - $2: "rows and"
+  - $2: "radar og"
   - %2
-  - $3: "columns"
+  - $3: "kolonner"
 
 # Summary of a line (e.g. in a case statement)
 # Example: line in case statemnt
 # %1: The context of the line
 abstr-line:
-  - $1: "in"
+  - $1: "i"
   - %1
 
 # Summary of a matrix row
@@ -467,17 +467,17 @@ abstr-line:
 # %2: The row counter
 # %3: The column counter
 abstr-row:
-  - $1: "in"
+  - $1: "i"
   - %1
   - %2
-  - $2: "with"
+  - $2: "med"
   - %3
-  - $3: "columns"
+  - $3: "kolonner"
 
 # Summary of a matrix cell
 # Example: 1st column in square matrix
 # LaTeX Example: $\begin{pmatrix}a&b\\c&d\end{pmatrix}$
 # %1: The the context of the column (e.g., square matrix)
 abstr-cell:
-  - $1: "in"
+  - $1: "i"
   - %1
