@@ -1,1 +1,1924 @@
 # For details on the format see https:///speechruleengine.org/yaml.md
+
+# Rule that fires if an expression is visually abstracted
+# Example: collapsed sum
+# %1: The abstracted element
+collapsed:
+  - $1: "kollapset"
+  - %1
+
+# Explicit speaking of font
+# Example: bold alpha
+# %1: The font
+# %2: The expression
+font:
+  - %1
+  - %2 (pause:kort)
+
+# A character in fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.
+# %1: The character in fraktur font
+german-font:
+  - $1: "gotisk"
+  - %1
+
+# A character in bold fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.
+# %1: The character in bold fraktur font
+german-font-bold:
+  - $1: "fet gotisk"
+  - %1
+
+# Speaking an open ended ellipsis in AndSoOn preference
+# Example: a comma b comma and so on
+# LaTeX Example: $a, b, \ldots$
+ellipsis:
+  - $1: "og så videre"
+
+# Speaking an intermediate ellipsis in AndSoOn preference
+# Example: a comma b comma and so on up to n
+# LaTeX Example: $a,b,\ldots n$
+ellipsis-andsoon:
+  - $1: "og så videre til"
+
+# Interprets an vertical with subscript as evaluation of an antiderivative
+# Example: F of x, evaluated at x equals 0
+# LaTeX Example: $F(x)|_{x=0}$
+# %1: Expression left of the vertical bar.
+# %2: The subscript to the right of the vertical bar
+vbar-evaluated:
+  - %1 (pause:short)
+  - $1: "evaluert for"
+  - %2 (pause:short)
+
+# Interprets an vertical with subscript as evaluation of an antiderivative
+# Example: F of x, evaluated at infinity, minus the same expression evaluated at 0
+# LaTeX Example: $F(x)|_{0}^\infty$
+# %1: Expression left of the vertical bar.
+# %2: The superscript to the right of the vertical bar
+# %3: The subscript to the right of the vertical bar
+vbar-evaluated-both:
+  - %1 (pause:short)
+  - $1: "evaluert for"
+  - %2 (pause:short)
+  - $2: "minus det samme uttrykket evaluert for"
+  - %3 (pause:short)
+
+# Vertical bar interpreted as such that
+# Example: a such that b
+# LaTeX Example: $a|b$
+vbar-such-that:
+  - $1: "slik at"
+
+# Vertical bar interpreted as divides symbol
+# Example: a divides b
+# LaTeX Example: $a|b$
+vbar-divides:
+  - $1: "deler"
+
+# Vertical bar interpreted as divides symbol, regardless of context
+# Example: a divides b
+# LaTeX Example: $a|b$
+vbar-always-divides:
+  - $1: "deler"
+
+# Vertical bar interpreted as given, e.g., in a set context
+# Example: a given b
+# LaTeX Example: $a|b$
+vbar-given:
+  - $1: "gitt"
+
+# Set membership symbol not within a set expression. Interpreted as member of. This is the fallback rule.
+# Example: a is a member of A
+# LaTeX Example: $a\in A$
+member:
+  - $1: "er et element av"
+
+# Set membership symbol not within a set expression. Interpreted as member of
+# Example: a is a member of A
+# LaTeX Example: $a\in A$
+member-member:
+  - $1: "er et element av"
+
+# Set membership symbol not within a set expression. Interpreted as element of
+# Example: a is an element of A
+# LaTeX Example: $a\in A$
+member-element:
+  - $1: "er et element av"
+
+# Set membership symbol not within a set expression. Interpreted as is in
+# Example: a is in A
+# LaTeX Example: $a\in A$
+member-in:
+  - $1: "er i"
+
+# Set membership symbol not within a set expression. Interpreted as is belongs to
+# Example: a belongs to A
+# LaTeX Example: $a\in A$
+member-belongs:
+  - $1: "tilhører"
+
+# Set membership symbol not within a set expression. Interpreted as not member of. Fallback rule
+# Example: a is not a member of A
+# LaTeX Example: $a\not\in A$
+not-member:
+  - $1: "er ikke et element av"
+
+# Set membership symbol not within a set expression. Interpreted as not member of
+# Example: a is not a member of A
+# LaTeX Example: $a\not\in A$
+not-member-member:
+  - $1: "er ikke et element av"
+
+# Set membership symbol not within a set expression. Interpreted as not element of
+# Example: a is not an element of A
+# LaTeX Example: $a\not\in A$
+not-member-element:
+  - $1: "er ikke et element av"
+
+# Set membership symbol not within a set expression. Interpreted as not in
+# Example: a is not in A
+# LaTeX Example: $a\not\in A$
+not-member-in:
+  - $1: "er ikke i"
+
+# Set membership symbol not within a set expression. Interpreted as not belong to
+# Example: a does not belong to A
+# LaTeX Example: $a\not\in A$
+not-member-belongs:
+  - $1: "tilhører ikke"
+
+# Set membership symbol within a set expression read in short form. Fallback rule.
+# Example: a in A
+# LaTeX Example: $\{a\in A| ...\}$
+set-member:
+  - $1: "i"
+
+# Set membership symbol within a set expression read in short form. Interpreted as member of
+# Example: a member of A
+# LaTeX Example: $\{a\in A| ...\}$
+set-member-member:
+  - $1: "medlem av"
+
+# Set membership symbol within a set expression read in short form. Interpreted as element of
+# Example: a element of A
+# LaTeX Example: $a\in A$
+set-member-element:
+  - $1: "medlem av"
+
+# Set membership symbol within a set expression read in short form. Interpreted as in
+# Example: a in A
+# LaTeX Example: $a\in A$
+set-member-in:
+  - $1: "i"
+
+# Set membership symbol within a set expression read in short form. Interpreted as belonging to
+# Example: a belonging to A
+# LaTeX Example: $a\in A$
+set-member-belongs:
+  - $1: "tilhørende"
+
+# Set membership symbol inside a set expression read in short form. Interpreted as not member of. Fallback rule
+# Example: a not member of A
+# LaTeX Example: $a\not\in A$
+set-not-member:
+  - $1: "ikke i"
+
+# Set membership symbol inside a set expression read in short form. Interpreted as not member of
+# Example: a not member of A
+# LaTeX Example: $a\not\in A$
+set-not-member-member:
+  - $1: "ikke et element av"
+
+# Set membership symbol inside a set expression read in short form. Interpreted as not element of
+# Example: a not element of A
+# LaTeX Example: $a\not\in A$
+set-not-member-element:
+  - $1: "ikke et element av"
+
+# Set membership symbol inside a set expression read in short form. Interpreted as not in
+# Example: a not in A
+# LaTeX Example: $a\not\in A$
+set-not-member-in:
+  - $1: "ikke i"
+
+# Set membership symbol inside a set expression read in short form. Interpreted as not belongs to
+# Example: a not belonging to A
+# LaTeX Example: $a\not\in A$
+set-not-member-belongs:
+  - $1: "tilhører ikke"
+
+# A leading article is introduced. Only used in locales where articles are used for fractions or functions
+# %1: The expression translated without article.
+article:
+  - $1: 
+  - %1
+
+# Fallback rule for function application
+# Example: f of x
+# LaTeX Example: $f(x)$
+# %1: The function
+# %2: The argument
+appl:
+  - %1
+  - $1: "av"
+  - %2 (pause:short)
+
+# Function application of a single letter function like f, g, h.
+# Example: f of x
+# LaTeX Example: $f(x)$
+# %1: The function
+# %2: The argument
+appl-simple:
+  - %1
+  - $1: "av" (pause:short)
+  - %2 (pause:short)
+
+# Function application of a single letter function with argument being another function application
+# Example: f of h of x
+# LaTeX Example: $f(h(x))$
+# %1: The function
+# %2: The argument, which is a fenced function application
+appl-simple-fenced:
+  - %1
+  - $1: "av" (pause:short)
+  - %2 (pause:short)
+
+# Forces function applications to be read as juxtapositions
+# Example: f times x
+# LaTeX Example: $f(x)$
+# %1: The function
+# %2: The argument
+appl-times:
+  - %1
+  - $1: "ganger"
+  - %2 (pause:short)
+
+# Application of a known prefix function, e.g., a trigonometric function
+# Example: sine x
+# LaTeX Example: $\sin x$
+# %1: Prefix function
+# %2: The argument
+function-prefix:
+  - %1
+  - %2
+
+# Application of a known prefix function to a fenced but simple argument (e.g., xy is simple, x + y is not)
+# Example: sine x y
+# LaTeX Example: $\sin(xy)$
+# %1: The prefix function
+# %2: The fenced argument
+function-prefix-simple-arg:
+  - %1
+  - %2
+
+# Application of a prefix function with index or superscript
+# Example: sine squared x
+# LaTeX Example: $\sin^2 x$
+# %1: The embellished prefix function
+# %2: The argument
+function-prefix-embell:
+  - %1
+  - %2 (pause:short)
+
+# Application of a prefix functions to a non-simple argument.
+# Example: the sine of a over b
+# LaTeX Example: $\sine(\frac{a}{b})$
+# %1: 
+# %2: The 
+function-prefix-fenced-or-frac-arg:
+  - %1 (grammar:addArticle)
+  - $1: "av"
+  - %2 (pause:short)
+
+# Function application of a named function with subscript
+# LaTeX Example: $\min_a X$
+# %1: The prefix function with subscript
+# %2: The argument of the function
+function-prefix-subscript:
+  - %1 (grammar:addArticle)
+  - $1: "av" (pause:short)
+  - %2 (pause:short)
+
+# Natural logarithm application in short speech.
+# Example: ln x
+# %1: The natural logarithm.
+# %2: The argument
+function-ln:
+  - %1
+  - %2
+
+# Natural logarithm application with following pause.
+# Example: ln x
+# %1: The natural logarithm.
+# %2: The argument
+function-ln-pause:
+  - %1
+  - %2 (pause:short)
+
+# Natural logarithm application in explicit speech.
+# Example: ln of x
+# %1: The natural logarithm.
+# %2: The argument
+function-ln-of:
+  - %1
+  - $1: "av"
+  - %2 (pause:short)
+
+# Function in a superscript with a complex argument
+# Example: x raised to the sine of open paren y plus z close paren power
+# LaTeX Example: $x^{\sin (y + z)}$
+# %1: The prefix function
+# %2: The function argument
+function-prefix-as-exp:
+  - %1
+  - $1: "av" (pause:short)
+  - %2 (pause:short)
+
+# Function in a subscript with a complex argument
+# Example: x sub the sine of open paren y plus z close paren
+# LaTeX Example: $x_{\sin (y + z)}$
+# %1: The prefix function
+# %2: Its argument
+function-prefix-subscript-as-exp:
+  - %1
+  - $1: "av" (pause:short)
+  - %2 (pause:short)
+
+# Hyperbolic function as prefix function
+# Example: hyperbolic sine of x
+# LaTeX Example: $\sinh x$
+# %1: The hyperbolic function
+# %2: Its argument
+function-prefix-hyper:
+  - %1
+  - $1: "av"
+  - %2 (pause:short)
+
+# Inverse of a named function
+# Example: the inverse sine of x
+# LaTeX Example: $\sin^{-1} x$
+# %1: The inverted function (e.g., sin^-1)
+# %2: Its argument
+function-prefix-inverse:
+  - $1: "invers"
+  - %1
+  - $2: "av"
+  - %2 (pause:short)
+
+# Speaks an arcus function as inverse
+# Example: the inverse sine of x
+# LaTeX Example: $\arcsin x$
+# %1: The arcus function
+# %2: Its argument
+appl-triginverse:
+  - %1
+  - $1: "av"
+  - %2 (pause:short)
+
+# Speaks an inverse trigonometric function as arcus
+# Example: arc sine x
+# LaTeX Example: $\sin^{-1} x$
+# %1: The inverted function (e.g., sin^-1)
+# %2: Its argument
+function-prefix-arc-simple:
+  - $1: "bue"
+  - %1
+  - %2 (pause:short)
+
+# Speaks an inverted trigonometric function as arcus. Omits the parentheses on simple arguments.
+# Example: arc sine x
+# LaTeX Example: $\sin^{-1} (x)$
+# %1: The inverted function (e.g., sin^-1)
+# %2: The fenced argument with simple content
+function-prefix-arc-simple-fenced:
+  - $1: "bue"
+  - %1 (pause:short)
+  - %2 (pause:short)
+
+# Speaks an inverted trigonometric function as arcus. Fallback for complex arguments.
+# Example: arc sine of open paren x plus y close paren
+# LaTeX Example: $\sin^{-1} (x+y)$
+# %1: The inverted function (e.g., sin^-1)
+# %2: The fenced argument with simple content
+function-prefix-arc:
+  - $1: "bue"
+  - %1
+  - $2: "av"
+  - %2 (pause:short)
+
+# General inverse function
+# Example: f inverse
+# LaTeX Example: $f^{-1}$
+# %1: The inverse function
+function-inverse:
+  - %1
+  - $1: "invers"
+
+# General function with superscript that is either a number of simple identifier.
+# %1: The prefix function as basis
+# %2: The superscript
+superscript-prefix-function:
+  - %1 (grammar:addArticle)
+  - $1: "effekten av"
+  - %2
+
+# The fallback rule for superscript/exponent expressions
+# %1: The basis
+# %2: The exponent
+superscript:
+  - %1
+  - $1: "hevet til eksponenten" (pause:short)
+  - %2 (pause:short)
+  - $2: "end exponent" (pause:short)
+
+# Rule for exponent expressions with single letter or integer exponents in Ordinal preference.
+# Example: x to the y-th
+# LaTeX Example: $x^{y}$
+# %1: The basis
+# %2: The exponent
+superscript-simple-exponent:
+  - %1
+  - $1: "hevet til"
+  - %2 (pause:short)
+
+# Rule for exponent expressions with simple exponents where power is used as postfix for disambiguation.
+# Example: x raised to the 2 y power
+# LaTeX Example: $x^{2y}$
+# %1: The basis
+# %2: The exponent
+superscript-simple-exponent-end:
+  - %1
+  - $1: "hevet til"
+  - %2 (pause:short)
+
+# Fallback rule for exponent expressions with integer or simple single letter identifier exponent
+# %1: The basis
+# %2: The exponent as an integer or single letter identifier
+superscript-ordinal:
+  - %1
+  - $1: "i"
+  - %2
+  - $2: "potens" (pause:short)
+
+# Rule for exponent expressions with simple exponents that should not be read a ordinals in Ordinal preference.
+# Example: x to the negative 1
+# LaTeX Example: $x^{-1}$
+# %1: The basis
+# %2: The exponent
+superscript-non-ordinal:
+  - %1
+  - $1: "med eksponent"
+  - %2 (pause:short)
+
+# Simple function (i.e., single letter f, g, ...) with superscript
+# %1: The function symbol
+# %2: The exponent
+superscript-simple-function:
+ # - %1 (grammar:addArticle)
+  - $1: "med eksponent" (pause:short)
+  - %2
+
+# Simple letter function (e.g., f, g, h) with exponent explicitly not spoken as a function. Usually does not need to be localised.
+# %1: The single letter function with exponent
+superscript-simple-function-none:
+  - %1
+
+# Integer or single letter superscript spoken as an ordinal (Exponent_Ordinal preference)
+# Example: x^5
+# LaTeX Example: $x to the fifth$
+# %1: The base element
+# %2: The exponent
+superscript-ordinal-number:
+  - %1
+  - $1: "opphøyd i"
+  - %2 (pause:short)
+
+# A netative integer superscript not spoken as an ordinal (Exponent_Ordinal preference)
+# Example: x^{-5}
+# LaTeX Example: $x to the negative 5$
+# %1: The base element
+# %2: The exponent
+superscript-ordinal-negative:
+  - %1
+  - $1: "opphøyd i"
+  - %2 (pause:short)
+
+# Fallback rule for exponent expressions in Ordinal preference.
+# Example: x raised to the y plus z power
+# LaTeX Example: $x^{y+z}$
+# %1: The basis
+# %2: The exponent
+superscript-ordinal-default:
+  - %1
+  - $1: "med eksponent" (pause:short)
+  - %2 (pause:short)
+  - $2: "slutt eksponent" (pause:short)
+
+# Integer or single letter superscript spoken as the power of an ordinal (Exponent_OrdinalPower preference)
+# Example: x^5
+# LaTeX Example: $x to the fifth power$
+# %1: The base element
+# %2: The exponent
+superscript-ordinal-power-number:
+  - %1
+  - $1: "opphøyd i"
+  - %2 (pause:short)
+
+# A netative integer superscript spoken as an ordinal (Exponent_OrdinalPower preference)
+# Example: x^{-5}
+# LaTeX Example: $x to the negative 5 power$
+# %1: The base element
+# %2: The exponent
+superscript-ordinal-power-negative:
+  - %1
+  - $1: "opphøyd i"
+  - %2 (pause:short)
+
+# Single letter superscript spoken as an ordinal power (Exponent_OrdinalPower preference)
+# Example: x raised to the n-th power
+# LaTeX Example: $x^n$
+# %1: The base element
+# %2: The exponent
+superscript-ordinal-power-identifier:
+  - %1
+  - $1: "opphøyd i"
+  - %2 (pause:short)
+
+# Fallback rule for Exponent_OrdinalPower preference for non-simple exponent ending with 'end exponent'
+# Example: x raised to the exponent n to the second power end exponent
+# LaTeX Example: $x^{n^2}$
+# %1: The base element
+# %2: The exponent
+superscript-ordinal-power-default:
+  - %1
+  - $1: "opphøyd til eksponenten" (pause:short)
+  - %2 (pause:short)
+  - $2: "slutt eksponent" (pause:short)
+
+# Basic rule for Exponent_AfterPower preference where exponent is spoken after the power indicator
+# Example: x^{n}
+# LaTeX Example: $x raised to the power n$
+# %1: The base element
+# %2: The exponent
+superscript-power:
+  - %1
+  - $1: "opphøyd i"
+  - %2 (pause:short)
+
+# Specialist rule for Exponent_AfterPower preference for stacked exponents to avoid multiple 'end exponent' indicators
+# Example: x^{n^k}
+# LaTeX Example: $x raised to the exponent n raised to the power k end exponent$
+# %1: The base element
+# %2: The exponent
+superscript-power-default:
+  - %1
+  - $1: "opphøyd til eksponenten" (pause:short)
+  - %2 (pause:short)
+  - $2: "slutt eksponent" (pause:short)
+
+# A letter spoken as ordinal exponent. Note that the rule might need adjustment of the join attribute.
+# Example: y-th as in x to the y-th
+# LaTeX Example: $y$
+# %1: The letter
+exponent:
+  - %1 (join:"-")
+  - $1: "te"
+
+# A number spoken as an ordinal. Note that the rule might need adjustment of the join attribute.
+# Example: fourth as in x to the fourth
+# LaTeX Example: $4$
+# %1: The number
+exponent-number:
+  - %1
+
+# Turning a simple identifier/letter into an ordinal (Exponent_Ordinal preference)
+# Example: n-th
+# %1: The identifier
+exponent-ordinal:
+  - %1
+
+# Speaking 0 in an exponent expression power (Exponent_Ordinal preference)
+exponent-ordinal-zero:
+  - $1: "nullte"
+
+# Turning a number (without leading 0) into an ordinal (Exponent_OrdinalPower preference)
+# Example: 10th
+# %1: The number
+exponent-ordinalpower:
+  - %1
+
+# Turning 0 into an ordinal used as power (Exponent_OrdinalPower preference)
+exponent-ordinalpower-zero:
+  - $1: "nullte"
+
+# A squared element
+# Example: x squared
+# LaTeX Example: $x^2$
+# %1: The expression that is squared.
+square:
+  - %1
+  - $1: "kvadrat"
+
+# A cubed element
+# Example: x cubed
+# LaTeX Example: $x^3$
+# %1: The expression that is cubed.
+cube:
+  - %1
+  - $1: "kubikk"
+
+# Parenthesised expression interpreted as point
+# Example: The point with coordinates 5 comma 6
+# LaTeX Example: $(5,6)$
+# %1: The two comma separated points
+fences-points:
+  - $1: "punktet med koordinater"
+  - %1
+
+# A fenced pair of values interpreted as in interval. This is the base rule, specialisations are handled in subsequent rules.
+# Example: The interval from a to b
+# LaTeX Example: $[a,b]$
+# %1: The start value
+# %2: The end value
+# %3: The overall interval for speaking specialisations, such as inclusions or exclusions of boundaries
+fences-interval:
+  - $1: "intervallet fra"
+  - %1
+  - $2: "til"
+  - %2 (pause:short)
+  - %3
+
+# Specialisation for an open interval
+# LaTeX Example: $(a,b)$
+# %1: The start value
+# %2: The end value
+interval-open:
+  - $1: "uten"
+  - %1
+  - $2: "eller"
+  - %2
+
+# Specialisation for an closed-open interval
+# LaTeX Example: $[a,b)$
+# %1: The start value
+# %2: The end value
+interval-closed-open:
+  - $1: "inkludert"
+  - %1 (pause:short)
+  - $2: "men uten"
+  - %2
+
+# Specialisation for an open-closed interval
+# LaTeX Example: $(a,b]$
+# %1: The start value
+# %2: The end value
+interval-open-closed:
+  - $1: "uten"
+  - %1 (pause:short)
+  - $2: "men inkludert"
+  - %2
+
+# Specialisation for an closed interval
+# LaTeX Example: $[a,b]$
+# %1: The start value
+# %2: The end value
+interval-closed:
+  - $1: "inkludert"
+  - %1
+  - $2: "og"
+  - %2
+
+# Open integral with right infinity
+# LaTeX Example: $(a,\infty)$
+# %1: The start value
+interval-open-inf-r:
+  - $1: "uten"
+  - %1
+
+# Open integral with left infinity
+# LaTeX Example: $(\infty,b)$
+# %1: The end value
+interval-open-inf-l:
+  - $1: "uten"
+  - %1
+
+# Open integral with right infinity
+# LaTeX Example: $[a,\infty)$
+# %1: The start value
+interval-closed-open-inf:
+  - $1: "inkludert"
+  - %1
+
+# Closed integral with left infinity
+# LaTeX Example: $(\infty,b]$
+# %1: The end value
+interval-open-closed-inf:
+  - $1: "inkludert"
+  - %1
+
+# The empty set
+# Example: the empty set
+# LaTeX Example: $\empty$
+set-empty:
+  - $1: "den tomme mengden"
+
+# A set defined via set intensionality
+# Example: The set of all a in A such that ...
+# LaTeX Example: $\{a\in A| ...\}$
+# %1: The element left of the divider
+# %2: The element to the right.
+set-extended:
+  - $1: "hele mengden"
+  - %1
+  - $2: "med"
+  - %2
+
+# Set defined via a collection of elements
+# Example: The set a comma b comma c
+# LaTeX Example: $\{a,b,c\}$
+# %1: The content of the set
+set-collection:
+  - $1: "mengden"
+  - %1
+
+# A set defined via set intensionality without an explicity for all
+# Example: The set a in A such that ...
+# LaTeX Example: $\{a\in A| ...\}$
+# %1: The element left of the divider
+# %2: The element to the right.
+set-extended-woall:
+  - $1: "mengden av"
+  - %1
+  - $2: "med"
+  - %2
+
+# Fallback rule for subscript expressions
+# Example: A sub a
+# LaTeX Example: $A_a$
+# %1: The base
+# %2: The subscript index
+subscript:
+  - %1
+  - $1: "indeks"
+  - %2 (pause:short)
+
+# Logarithm spoken as base
+# %1: Logarithm function
+# %2: The base
+logarithm-base:
+  - %1
+  - $1: "basis"
+  - %2
+
+# An element with an index
+# %1: The base element
+# %2: The index
+subscript-index:
+  - %1
+  - $1: "indeks"
+  - %2
+
+# Fallback rule for explicit speaking of fraction
+# Example: the fraction with numerator a and denominator b
+# LaTeX Example: $\frac{a}{b}$
+# %1: The numerator
+# %2: The denominator
+fraction:
+  - $1: "brøk med teller"
+  - %1 (pause:short)
+  - $2: "og nevner"
+  - %2 (pause:short)
+
+# A fraction in a function application, which is not interpreted as a function
+# LaTeX Example: $\frac{f}{g}(x)$
+# %1: The numerator
+# %2: The denominator
+fraction-none:
+  - $1: "brøk med teller"
+  - %1 (pause:short)
+  - $2: "og nevner"
+  - %2 (pause:short)
+
+# Fraction with simple elements in numerator and denominator
+# Example: a over b
+# LaTeX Example: $\frac{a}{b}$
+# %1: The numerator
+# %2: The denominator
+simple-fraction:
+  - %1
+  - $1: "delt på"
+  - %2 (pause:short)
+
+# Vulgar fraction with positive integer numerator > 10 or denominator > 20. Not spoken as words
+# %1: The numerator
+# %2: The denominator
+simple-vulgar-fraction:
+  - %1
+  - $1: "delt på"
+  - %2 (pause:short)
+
+# Fraction with simple textual elements
+# Example: containers over hours
+# %1: The numerator
+# %2: The denominator
+simple-text-fraction:
+  - %1
+  - $1: "delt på"
+  - %2 (pause:short)
+
+# Vulgar fraction spoken as words. The rule fires for positive integer numerators <= 10 and denominators <=20
+# %1: The vulgar fraction. Add pausing or grammar instructions if necessary.
+vulgar-fraction:
+  - %1
+
+# Short speech for fractions with simple components.
+# Example: a over b
+# LaTeX Example: $\frac{a}{b}$
+# %1: The numerator
+# %2: The denominator
+fraction-over:
+  - %1
+  - $1: "delt på"
+  - %2 (pause:short)
+
+# Short speech for fractions with simple components with explicit end fraction
+# Example: a over b end fraction
+# LaTeX Example: $\frac{a}{b}$
+# %1: The numerator
+# %2: The denominator
+fraction-overendfrac:
+  - %1
+  - $1: "delt på"
+  - %2 (pause:short)
+  - $2: "slutt brøk" (pause:short)
+
+# Short speech for fractions with simple components with explicitly announced fraction
+# Example: the fraction a over b
+# LaTeX Example: $\frac{a}{b}$
+# %1: The numerator
+# %2: The denominator
+fraction-fracover:
+  - $1: "brøk"
+  - %1
+  - $2: "delt på"
+  - %2 (pause:short)
+
+# Short speech for fractions with simple components using per
+# Example: a per b
+# LaTeX Example: $\frac{a}{b}$
+# %1: The numerator
+# %2: The denominator
+fraction-per:
+  - %1
+  - $1: "per"
+  - %2 (pause:short)
+
+# Fallback rule for all fractions with explicit end fraction announcement. This is for the generalEndFrac preference, where all fractions are announced the same followed by end fraction.
+# Example: the fraction with numerator a plus b and denominator c plus d end fraction
+# LaTeX Example: $\frac{a+b}{c+d}$
+# %1: The numerator
+# %2: The denominator
+fraction-generalendfrac:
+  - $1: "brøk med teller"
+  - %1 (pause:short)
+  - $2: "og nevner"
+  - %2 (pause:short)
+  - $3: "slutt brøk" (pause:short)
+
+# Fallback rule for all fractions. This is for the general preference, where all fractions are announced the same.
+# Example: the fraction with numerator a and denominator c
+# LaTeX Example: $\frac{a}{c}$
+# %1: 
+# %2: 
+fraction-general:
+  - $1: "brøk med teller"
+  - %1 (pause:short)
+  - $2: "og nevner"
+  - %2 (pause:short)
+
+# A vulgar fraction pronounced as ordinal in all cases.
+# %1: The vulgar fraction
+simple-vulgar-fraction-ordinal:
+  - %1
+
+# The rule adds end fraction announcements to fractions if necessary. Used in EndFrac preference.
+# %1: The fraction
+fraction-endfrac:
+  - %1
+  - $1: "slutt brøk" (pause:short)
+
+# Vulgar fraction with positive integer numerator > 10 or denominator > 20. Not spoken as words in EndFrac preference.
+# %1: The numerator
+# %2: The denominator
+vulgar-fraction-endfrac:
+  - %1
+  - $1: "delt på"
+  - %2 (pause:short)
+
+# Vulgar fraction with positive integer numerator <= 10 or denominator <= 20, spoken as words in EndFrac preference.
+# %1: The vulgar fraction
+simple-vulgar-fraction-endfrac:
+  - %1
+
+# Basic square root rule
+# %1: Content of the square root
+sqrt:
+  - $1: "kvadratroten av"
+  - %1 (pause:short)
+
+# A square root, nested within another. This is never spoken with an `end root` announcement
+# %1: The content of the square root.
+sqrt-nested:
+  - $1: "kvadratroten av"
+  - %1 (pause:short)
+
+# A negative square root
+# %1: The content of the square root.
+negative-sqrt:
+  - $1: "den negative kvadratroten av"
+  - %1 (pause:short)
+
+# A negative square root, possibly nested within another. This is never spoken with an `end root` announcement
+# %1: The content of the square root.
+negative-sqrt-default:
+  - $1: "den negative kvadratroten av"
+  - %1 (pause:short)
+
+# Square root with plus-minus sign spoken as positive square root in PosNegSqRoot preference
+# Example: plus or minus the positive square root of a
+# LaTeX Example: $\pm \sqrt{a}$
+# %1: The content of the square root.
+sqrt-plus-minus:
+  - $1: "den positive kvadratroten av"
+  - %1 (pause:short)
+
+# Nested square root with plus-minus sign spoken as positive square root in PosNegSqRoot preference. This is never spoken with an `end root` announcement
+# Example: plus or minus the positive square root of a
+# LaTeX Example: $\pm \sqrt{a}$
+# %1: The content of the square root.
+sqrt-nested-plus-minus:
+  - $1: "den positive kvadratroten av"
+  - %1 (pause:short)
+
+# Adds a end root announcement if necessary.
+# %1: The square root.
+sqrt-plus-minus-posnegsqrootend:
+  - $1: "den positive kvadratroten av"
+  - %1 (pause:short)
+
+# Adds a end root announcement if necessary.
+# %1: The square root.
+sqrt-nested-plus-minus-posnegsqrootend:
+  - $1:  "den positive kvadratroten av"
+  - %1 (pause:short)
+
+# Adds a end root announcement if necessary.
+# %1: The square root.
+sqrt-endroot:
+  - %1
+  - $1: "slutt rot" (pause:short)
+
+# Adds a end root announcement if necessary.
+# %1: The negative square root
+negative-sqrt-endroot:
+  - %1
+  - $1: "slutt rot" (pause:short)
+
+# Adds a end root announcement if necessary.
+# %1: The square root
+sqrt-posnegsqrootend:
+  - %1
+  - $1: "slutt rot" (pause:short)
+
+# Adds a end root announcement if necessary.
+# %1: The negative square root
+negative-sqrt-posnegsqrootend:
+  - %1
+  - $1: "slutt rot" (pause:short)
+
+# Basic rule for cubic roots
+# %1: The content of the cubic root
+cubic:
+  - $1: "kubikkroten av"
+  - %1 (pause:short)
+
+# A cubic root, nested within another. This is never spoken with an `end root` announcement
+# %1: The content of the cubic root
+cubic-nested:
+  - $1: "kubikkroten av"
+  - %1 (pause:short)
+
+# An root with explicit index. Speaking the index as ordinal when possible.
+# Example: the fourth root of a
+# LaTeX Example: $\sqrt[4]{a}$
+# %1: Index of the root
+# %2: Content of the radical
+root:
+  - $1: "roten av"
+  - %2 (pause:short)
+
+# An nested root with explicit index. Never spoken with `end root` announcement.
+# %1: Index of the root
+# %2: Content of the radical
+root-nested:
+  - $1: "roten av"
+  - %2 (pause:short)
+
+# Adds a end root announcement if necessary.
+# %1: The root
+root-endroot:
+  - %1
+  - $1: "slutt rot" (pause:short)
+
+# Adds a end root announcement if necessary. Specialist rule for PosNegSqRoot
+# %1: The root
+root-posnegsqrootend:
+  - %1
+  - $1: "slutt rot" (pause:short)
+
+# Pronounces the minus sign, when used as prefix sign rather than an operation
+# Example: negative a
+# LaTeX Example: $-a$
+# %1: The element with the negative sign
+negative:
+  - $1: "minus"
+  - %1
+
+# Pronounces the plus sign, when used as prefix sign rather than an operation
+# Example: positive a
+# LaTeX Example: $+a$
+# %1: The element with the positive sign
+positive:
+  - $1: "pluss"
+  - %1
+
+# Measure of an angle
+# Example: the measure of angle A B C
+# LaTeX Example: $m \angle ABC$
+# %1: The angle symbol
+# %2: The points of the angle, i.e., the right hand side of the angle symbol
+angle-measure:
+  - $1: "vinkelmål"
+  - %1
+  - %2
+
+# Pronouncing a large set operator before an expression. Allows to add article or push through grammar
+# Example: the intersection from i equals 1 to 10 of S sub i
+# LaTeX Example: $\bigcap_{i=1}^{10}S_i$
+# %1: The set operator
+set-prefix-operators:
+  - %1 (grammar:addArticle)
+  - $1: "av"
+
+# An inline division with forward slash or division sign
+# Example: a divided by b
+# LaTeX Example: $a/b$
+# %1: 
+# %2: 
+division:
+  - %1
+  - $1: "delt på"
+  - %2
+
+# Assembles multiple operators in the Exponent_AfterPower preference. Generally no need to localise
+# LaTeX Example: $x^{nm}$
+# %1: The list of operators
+operators-after-power:
+  - %1
+
+# The natural numbers (positive integers)
+natural-numbers:
+  - $1: "de naturlige tallene"
+
+# The integers
+integers:
+  - $1: "heltallene"
+
+# The rational numbers
+rational-numbers:
+  - $1: "de rasjonale tallene"
+
+# The real numbers
+real-numbers:
+  - $1: "de reelle tallene"
+
+# The complex numbers
+complex-numbers:
+  - $1: "de komplekse tallene"
+
+# The Natural number with zero
+# LaTeX Example: $\N_0$
+natural-numbers-with-zero:
+  - $1: "de naturlige tallene med null"
+
+# The positive integers
+# LaTeX Example: $\Z^{+}$
+positive-integers:
+  - $1: "de positive heltallene"
+
+# The negative integers
+# LaTeX Example: $\Z^{-}$
+negative-integers:
+  - $1: "de negative heltallene"
+
+# The positive rational numbers
+# LaTeX Example: $\Q^{+}$
+positive-rational-numbers:
+  - $1: "de positive rasjonale tallene"
+
+# The negative rational numbers
+# LaTeX Example: $\Q^{-}$
+negative-rational-numbers:
+  - $1: "de negative rasjonale tallene"
+
+# Absolute value
+# %1: The content of the absolute value
+fences-neutral:
+  - $1: "den absolutte verdien av"
+  - %1 (pause:short)
+
+# Absolute values spoken with explicit end of absolute value
+# %1: The content of the absolute value
+fences-neutral-absend:
+  - $1: "den absolutte verdien av"
+  - %1 (pause:short)
+  - $2: "slutt absolutt verdi" (pause:short)
+
+# Neutral interpreted as cardinality of a set
+# Example: cardinality of S
+# LaTeX Example: $|S|$
+# %1: The content between the neutral fences
+fences-neutral-cardinality:
+  - $1: "kardinaliteten til"
+  - %1 (pause:short)
+
+# Neutral interpreted as determinant of a matrix
+# Example: determinant of A
+# LaTeX Example: $|A|$
+# %1: The content between the neutral fences
+fences-neutral-determinant:
+  - $1: "determinanten til"
+  - %1 (pause:short)
+
+# Fences spoken as metrics.
+# Example: the metric of a
+# LaTeX Example: $||a||$
+# %1: 
+fences-metric:
+  - $1: "beregningen av"
+  - %1 (pause:short)
+
+# Fences spoken as metrics with end indicator (AbsoluteValue_AbsEnd preference)
+# Example: the metric of a end metric
+# LaTeX Example: $||a||$
+# %1: 
+fences-metric-absend:
+  - $1: "beregningen av"
+  - %1 (pause:short)
+  - $2: "slutt beregning" (pause:short)
+
+# Base matrix rule speaking dimensions and content of the matrix with row and column indicators.
+# Example: the 2 by 2 matrix Row 1: Column 1, n plus 1 Column 2, 2 Row 2: Column 1, 3 Column 2, 4
+# LaTeX Example: $\begin{pmatrix}n+1 & 2\\ 3 & 4\end{pmatrix}$
+# %1: The row number
+# %2: The column number
+# %3: The matrix
+matrix:
+  - %1
+  - $2: "ganger"
+  - %2
+  - $3: "matrisen" (pause:long)
+  - %3 (context:"rad-:", pause:long)
+
+# Rule for matrices with only simple entries, speaking dimensions and content of the matrix with row indicators only.
+# Example: the 2 by 2 matrix Row 1: 1 2 Row 2: 3 4
+# LaTeX Example: $\begin{pmatrix}1 & 2\\ 3 & 4\end{pmatrix}$
+# %1: The row number
+# %2: The column number
+# %3: The matrix
+matrix-simple:
+  - %1
+  - $2: "ganger"
+  - %2
+  - $3: "matrisen" (pause:long)
+  - %3 (context:"rad-:", pause:long)
+
+# Rule for a one by one matrix.
+# %1: The matrix content
+matrix-trivial:
+  - $1: "1 ganger 1 matrisen med element"
+  - %1 (pause:long)
+
+# Base rule for determinants (matrix with vertical bar fences) speaking dimensions and content of the matrix with row and column indicators.
+# Example: the determinant of the 2 by 2 matrix Row 1: Column 1, n plus 1
+# LaTeX Example: $ \begin{vmatrix}n+1 & 2\\ 3 & 4\end{vmatrix}$
+# %1: The row number
+# %2: The column number
+# %3: The determinant
+determinant:
+  - $1: "determinanten til"
+  - %1
+  - $2: "ganger"
+  - %2
+  - $3: "matrisen" (pause:long)
+  - %3 (context:"rad-:", pause:long)
+
+# Rule for determinants (matrix with vertical bar fences) with only simple entries, speaking dimensions and content of the matrix with row indicators only.
+# Example: the determinant of the 2 by 2 matrix Row 1: 1 2 Row 2: 3 4
+# LaTeX Example: $\begin{vmatrix}1 & 2\\ 3 & 4\end{vmatrix}$
+# %1: The row number
+# %2: The column number
+# %3: The determinant
+determinant-simple:
+  - $1: "determinanten til"
+  - %1
+  - $2: "ganger"
+  - %2
+  - $3: "matrisen" (pause:long)
+  - %3 (context:"rad-:", pause:long)
+
+# Rule for speaking column vectors as matrices.
+# %1: The row number
+# %2: The column number
+# %3: The matrix
+matrix-vector:
+  - %1
+  - $2: "ganger"
+  - %2
+  - $3: "kolonnematrise" (pause:long)
+  - %3 (context:"rad-:", pause:long)
+
+# Rule for speaking column vectors as matrices with simple element not indicating rows. Vectors of up to dimension 3.
+# %1: The row number
+# %2: The column number
+# %3: The matrix
+matrix-vector-simple:
+  - %1
+  - $2: "ganger"
+  - %2
+  - $3: "kolonnematrise" (pause:long)
+  - %3 (pause:long)
+
+# Same as matrix-vector-simple just for the Matrix_SilentColNum preference.
+# %1: The row number
+# %2: The column number
+# %3: The matrix
+matrix-vector-simple-silentcolnum:
+  - %1
+  - $2: "ganger"
+  - %2
+  - $3: "kolonnematrise" (pause:long)
+  - %3 (pause:long)
+
+# Rule for speaking row vectors as matrices.
+# %1: The row number
+# %2: The column number
+# %3: The matrix
+matrix-row-vector:
+  - %1
+  - $2: "ganger"
+  - %2
+  - $3: "radmatrise" (pause:long)
+  - %3 (context:"kolonne-:", pause:long)
+
+# Rule for speaking row vectors as matrices with simple element not indicating rows. Vectors of up to dimension 3.
+# %1: The row number
+# %2: The column number
+# %3: The matrix
+matrix-row-vector-simple:
+  - %1
+  - $2: "ganger"
+  - %2
+  - $3: "radmatrise" (pause:long)
+  - %3 (pause:long)
+
+# Same as matri-row-vector-simple just for the Matrix_SilentColNum preference.
+# %1: The row number
+# %2: The column number
+# %3: The matrix
+matrix-row-vector-simple-silentcolnum:
+  - %1
+  - $2: "ganger"
+  - %2
+  - $3: "radmatrise" (pause:long)
+  - %3 (pause:long)
+
+# Iterates over each cell of a matrix row adding the prefix Column
+# %1: The elements of the row
+matrix-row:
+  - %1 (context:"kolonne-,- ", pause:long)
+
+# Adds an explicit 'end matrix' after the matrix.
+# %1: The matrix
+matrix-end-matrix:
+  - %1
+  - $1: "slutt matrise"
+
+# Adds an explicit 'end matrix' after a vector.
+# %1: The matrix
+matrix-end-vector:
+  - %1
+  - $1: "slutt matrise"
+
+# Adds an explicit 'end determinant' after a determinant.
+# %1: The matrix
+matrix-end-determinant:
+  - %1
+  - $1: "slutt determinant"
+
+# Base vector rule speaking dimensions and content of the vector with row indicators.
+# %1: The row number
+# %2: The column number
+# %3: The vector
+vector:
+  - %1
+  - $2: "ganger"
+  - %2
+  - $3: "kolonnevektor" (pause:long)
+  - %3 (context:"rad-:", pause:long)
+
+# Vector with simple elements and dimension at most 3. Content is spoken without row indicators.
+# %1: The row number
+# %2: The column number
+# %3: The vector
+vector-simple:
+  - %1
+  - $2: "ganger"
+  - %2
+  - $3: "kolonnevektor" (pause:long)
+  - %3 (pause:long)
+
+# Base row vector rule speaking dimensions and content of the vector with column indicators.
+# %1: The row number
+# %2: The column number
+# %3: The vector
+row-vector:
+  - %1
+  - $2: "ganger"
+  - %2
+  - $3: "radvektor" (pause:long)
+  - %3 (context:"kolonne-:", pause:long)
+
+# Row vector with simple elements. Content is spoken without column indicators.
+# %1: The row number
+# %2: The column number
+# %3: The vector
+row-vector-simple:
+  - %1
+  - $2: "ganger"
+  - %2
+  - $3: "radvektor" (pause:long)
+  - %3 (pause:long)
+
+# Adds an explicit 'end matrix' after a matrix.
+# %1: The matrix
+vector-end-matrix:
+  - %1
+  - $1: "slutt matrise"
+
+# Adds an explicit 'end vector' after a vector.
+# %1: The vector
+vector-end-vector:
+  - %1
+  - $1: "slutt vektor"
+
+# Adds an explicit 'end vector' after a vector.
+# %1: The vector
+vector-end-vector-endvector:
+  - %1
+  - $1: "slutt vektor"
+
+# Adds an explicit 'end determinant' after a determinant.
+# %1: The determinant
+vector-end-determinant:
+  - %1
+  - $1: "slutt determinant"
+
+# Binomial coefficient.
+# %1: Sample quantity
+# %2: Choice quantity
+binomial:
+  - %1
+  - $1: "over"
+  - %2
+
+# Summary of a multiline equation or formula, e.g., 4 lines ...
+# Example: 2 lines Line 1: a equals b Line 2: c equals d
+# LaTeX Example: $\begin{align}a&=b\\ c&=d\end{align}$
+# %1: The number of lines
+# %2: The lines of the equation
+lines-summary:
+  - %1
+  - $1: "rader"
+  - %2
+
+# Summary of a case statement, e.g., 4 cases ...
+# Example: 2 cases Case 1: a equals b Case 2: c equals d
+# LaTeX Example: $\begin{cases}a&=b\\ c&=d\end{cases}$
+# %1: The number of lines
+# %2: The lines of the case statement
+cases-summary:
+  - %1
+  - $1: "tilfeller"
+  - %2
+
+# Iterates over list of lines adding an enumerated prefix `Line n`
+# Example: 2 lines Line 1: a equals b Line 2: c equals d
+# %1: The list of lines
+lines:
+  - %1 (context:"rad-:", pause:long)
+
+# Blank cell (e.g. in a matrix)
+blank-cell:
+  - $1: "tom"
+
+# Blank line (e.g., in cases)
+blank-line:
+  - $1: "tom"
+
+# Cell with an explicit empty element. Normally treated like an empty cell.
+blank-cell-empty:
+  - $1: "tom"
+
+# Line with an explicit empty element. Normally treated like an empty cell.
+blank-line-empty:
+  - $1: "tom"
+
+# Iterates over list of lines of a case statement adding an enumerated prefix `Case n`
+# Example: 2 cases Case 1: a equals b Case 2: c equals d
+# %1: The list of lines in the case statement.
+cases:
+  - %1 (context:"tilfelle-:", pause:long)
+
+# MultiLineLabel_Case preference rule for speaking regular multiline equations as cases. Summary rule.
+# Example: 2 cases Case 1: a equals b Case 2: c equals d
+# LaTeX Example: $\begin{align}a&=b\\ c&=d\end{align}$
+# %1: The number of lines
+# %2: The lines of the equation
+lines-cases-summary:
+  - %1
+  - $1: "tilfeller"
+  - %2
+
+# MultiLineLabel_Case preference rule: Iterates over list of lines adding an enumerated prefix `Case n`
+# Example: 2 cases Case 1: a equals b Case 2: c equals d
+# %1: The list of lines.
+lines-cases:
+  - %1 (context:"tilfelle-:", pause:long)
+
+# MultiLineLabel_Equation preference rule for speaking regular multiline equations as equations. Summary rule.
+# Example: 2 equations Equation 1: a equals b Equation 2: c equals d
+# LaTeX Example: $\begin{align}a&=b\\ c&=d\end{align}$
+# %1: The number of lines
+# %2: The lines of the equation
+lines-equations-summary:
+  - %1
+  - $1: "ligninger"
+  - %2
+
+# MultiLineLabel_Equation preference rule: Iterates over list of lines adding an enumerated prefix `Equation n`
+# Example: 2 equations Equation 1: a equals b Equation 2: c equals d
+# %1: The list of lines.
+lines-equations:
+  - %1 (context:"ligning-:", pause:long)
+
+# MultiLineLabel_Step preference rule for speaking regular multiline equations as steps. Summary rule.
+# Example: 2 steps Step 1: a equals b Step 2: c equals d
+# LaTeX Example: $\begin{align}a&=b\\ c&=d\end{align}$
+# %1: The number of lines
+# %2: The lines of the equation
+lines-steps-summary:
+  - %1
+  - $1: "steg"
+  - %2
+
+# MultiLineLabel_Step preference rule: Iterates over list of lines adding an enumerated prefix `Step n`
+# Example: 2 steps Step 1: a equals b Step 2: c equals d
+# %1: The list of lines.
+lines-steps:
+  - %1 (context:"steg-:", pause:long)
+
+# MultiLineLabel_Row preference rule for speaking regular multiline equations as rows. Summary rule.
+# Example: 2 rows Row 1: a equals b Row 2: c equals d
+# LaTeX Example: $\begin{align}a&=b\\ c&=d\end{align}$
+# %1: The number of lines
+# %2: The lines of the equation
+lines-rows-summary:
+  - %1
+  - $1: "rader"
+  - %2
+
+# MultiLineLabel_Row preference rule: Iterates over list of lines adding an enumerated prefix `Row n`
+# Example: 2 rows Row 1: a equals b Row 2: c equals d
+# %1: The list of lines.
+lines-rows:
+  - %1 (context:"rad-:", pause:long)
+
+# MultiLineLabel_Constraint preference rule for speaking regular multiline equations as constraints. Summary rule.
+# Example: 2 constraints Constraint 1: a equals b Constraint 2: c equals d
+# LaTeX Example: $\begin{align}a&=b\\ c&=d\end{align}$
+# %1: The number of lines
+# %2: The lines of the equation
+lines-constraints-summary:
+  - %1
+  - $1: "betingelser"
+  - %2
+
+# MultiLineLabel_Constraint preference rule: Iterates over list of lines adding an enumerated prefix `Constraint n`
+# Example: 2 constraints Constraint 1: a equals b Constraint 2: c equals d
+# %1: The list of lines.
+lines-constraints:
+  - %1 (context:"betingelse-:", pause:long)
+
+# Large operator like sum, product etc.
+# Example: the sum from n equals 0 to infinity of 1 over n
+# LaTeX Example: $\sum_{n=0}^\infty \frac{1}{n}$
+# %1: The large operator (including boundaries)
+# %2: The argument of the operator (e.g., \frac{1}{n})
+bigop:
+  - %1 (grammar:addArticle)
+  - $1: "over"
+  - %2 (pause:short)
+
+# Operator with upper and lower limit.
+# Example: the sum from n equals 0 to infinity
+# LaTeX Example: $\sum_{n=0}^\infty$
+# %1: The operator
+# %2: The lower limit
+# %3: The upper limit
+limboth:
+  - %1
+  - $1: "fra"
+  - %2
+  - $2: "til"
+  - %3
+
+# Operator with lower limit only.
+# Example: the sum over n equals 0
+# LaTeX Example: $\sum_{n=0}$
+# %1: The operator
+# %2: The lower limit
+limlower:
+  - %1
+  - $1: "over"
+  - %2 (pause:short)
+
+# Operator with upper limit only.
+# Example: the sum under infinity
+# LaTeX Example: $\sum^\infty$
+# %1: The operator
+# %2: The upper limit
+limupper:
+  - %1
+  - $1: "under"
+  - %2 (pause:short)
+
+# Integral rule
+# Example: the integral from 0 to infinity of 1 over x
+# LaTeX Example: $\int_{0}^\infty \frac{1}{x}dx$
+# %1: The integral
+# %2: The argument of the integral
+integral:
+  - %1 (grammar:addArticle)
+  - $1: "over"
+  - %2 (pause:short)
+
+# Element with simple overscript or accent
+# %1: The element
+# %2: The overscript
+overscript:
+  - %1
+  - $1: "under"
+  - %2 (pause:short)
+
+# Element with overscript spoken as an upper limit.
+# Example: the intersection from i equals 1 to 10 of S sub i
+# LaTeX Example: $\bigcap_{i=1}^{10}S_i$
+# %1: The element
+# %2: The overscript
+overscript-limits:
+  - %1
+  - $1: "til"
+  - %2
+
+# Element with simple underscript or accent
+# %1: The element
+# %2: The underscript
+underscript:
+  - %1
+  - $1: "over"
+  - %2 (pause:short)
+
+# Element with underscript spoken as a lower limit.
+# %1: The element
+# %2: The underscript
+underscript-limits:
+  - %1
+  - $1: "fra"
+  - %2
+
+# Mixed numbers
+# Example: Two and one third
+# LaTeX Example: $2 \frac{1}{3}$
+# %1: The integer part
+# %2: The fraction part
+mixed-number:
+  - %1
+  - $1: "og"
+  - %2
+
+# A number that contains letters
+# Example: Number #A0FF
+# %1: The number
+number-with-chars:
+  - $1: "tall"
+  - %1
+
+# Repeating decimals where point is explicitly spoken
+# Example: the repeating decimal 3 point followed by repeating digits 1 2
+# LaTeX Example: $3{.}\overline{12}$
+# %1: The number
+# %2: The repeating decimals
+decimal-period:
+  - $1: "desimalbrøk"
+  - %1
+  - $2: "komma etterfulgt av gjentatte siffer"
+  - %2
+
+# Repeating decimals where point is part of the number
+# Example: the repeating decimal 3 point 3 followed by repeating digits 1 2
+# LaTeX Example: $3{.}3\overline{12}$
+# %1: The number
+# %2: The repeating decimals
+decimal-period-float:
+  - $1: "desimalbrøk"
+  - %1
+  - $2: "etterfulgt av gjentatte siffer"
+  - %2
+
+# Repeating single decimal where point is explicitly spoken
+# Example: the repeating decimal 3 point followed by repeating digit 1
+# LaTeX Example: $3{.}\overline{1}$
+# %1: The number
+# %2: The repeating decimal
+decimal-period-singular:
+  - $1: "desimalbrøk"
+  - %1
+  - $2: "komma etterfulgt av gjentatt siffer"
+  - %2
+
+# Repeating single decimal where point is part of the number
+# Example: the repeating decimal 3 point 3 followed by repeating digits 1
+# LaTeX Example: $3{.}3\overline{1}$
+# %1: The number
+# %2: The repeating decimal
+decimal-period-singular-float:
+  - $1: "desimalbrøk"
+  - %1
+  - $2: "etterfulgt av gjentatt siffer"
+  - %2
+
+# Speaking decimal point (or comma)
+decimal-point:
+  - $1: "komma"
+
+# Two letters under a line spoken as a line segment
+# Example: the line segment A B
+# LaTeX Example: $\overline{AB}$
+# %1: First character
+# %2: Second character
+line-segment:
+  - $1: "linjestykket"
+  - %1
+  - %2 (pause:short)
+
+# Horizontal overbar spoken as a conjugate
+# Example: The complex conjugate of z
+# LaTeX Example: $\overline{z}$
+# %1: The element under the line
+conjugate:
+  - $1: "komplekskonjugatet til"
+  - %1
+
+# Equality with `def` as overscript
+defined-by:
+  - $1: "er definert som" (pause:short)
+
+# An operator or relation with some adornment.
+# Example: equals sign with question mark over it
+# %1: The operator or relation symbol
+# %2: The adornment
+adorned-sign:
+  - %1
+  - $1: "tegn med"
+  - %2
+  - $2: "over"
+
+# Factorial
+# Example: x factorial
+# LaTeX Example: $x!$
+factorial:
+  - $1: "fakultet"
+
+# Tensor with left superscript
+# %1: The left superscript
+left-super:
+  - $1: "venstre øvre indeks"
+  - %1
+
+# Tensor with multiple left superscript indices
+# %1: The list of left super indices
+left-super-list:
+  - $1: "venstre øvre indeks"
+  - %1
+
+# Tensor with left subscript
+# %1: The left subscript
+left-sub:
+  - $1: "venstre nedre indeks"
+  - %1
+
+# Tensor with multiple left subscript indices
+# %1: The list of left sub indices
+left-sub-list:
+  - $1: "venstre nedre indeks"
+  - %1
+
+# Tensor with right superscript
+# %1: The right superscript
+right-super:
+  - $1: "høyre øvre indeks"
+  - %1
+
+# Tensor with multiple right superscript indices
+# %1: The list of right super indices
+right-super-list:
+  - $1: "høyre øvre indeks"
+  - %1
+
+# Tensor with right subscript
+# %1: The right subscript
+right-sub:
+  - $1: "høyre nedre indeks"
+  - %1
+
+# Tensor with multiple right subscript indices
+# %1: The list of right sub indices
+right-sub-list:
+  - $1: "høyre nedre indeks"
+  - %1
+
+# Choose operation given as letters with left and right superscripts
+# Example: n choose r
+# %1: Left hand side of the C
+# %2: Right hand side of the C
+choose:
+  - %1
+  - $1: "over"
+  - %2
+
+# Permute operation given as letters with left and right superscripts
+# Example: n permute r
+# %1: Left hand side of the P
+# %2: Right hand side of the P
+permute:
+  - %1
+  - $1: "permutasjon av"
+  - %2
+
+# A unit that is squared
+# %1: The unit
+unit-square:
+  - $1: "kvadrat"
+  - %1
+
+# A unit that is cubed
+# %1: The unit
+unit-cubic:
+  - $1: "kubikk"
+  - %1
+
+# A unit to the power of negative one
+# %1: The unit
+unit-reciprocal:
+  - $1: "invers"
+  - %1
+
+# A reciprocal in singular
+# Example: 1 second per meter
+# LaTeX Example: $1 s m^{-1}$
+# %1: The inversed unit
+unit-reciprocal-singular:
+  - $1: "per"
+  - %1 (grammar:singular)
+
+# A fraction of units
+# %1: Unit in enumerator
+# %2: Unit in denominator
+unit-divide:
+  - %1
+  - $1: "per"
+  - %2 (grammar:singular)
+
+# An expression enclosed in a box, circle, etc.
+# Example: enclosed with box a
+# LaTeX Example: $\fbox{a}$
+# %1: The enclosing element
+# %2: The enclosed expression
+enclose:
+  - $1: "omsluttet av"
+  - %1
+  - %2
+
+# An expression enclosed in a box, circle, etc. with explicit end indicator
+# Example: enclosed with box a end enclose
+# LaTeX Example: $\fbox{a}$
+# %1: The enclosing element
+# %2: The enclosed expression
+enclose-end:
+  - $1: "omsluttet av"
+  - %1
+  - %2
+  - $2: "slutt omsluttet"
+
+# Expression with a spanning bar over it.
+# Example: a plus b horizontal bar
+# %1: The expression under the bar
+overbar:
+  - %1
+  - $1: "horisontal strek"
+
+# Expression with a spanning bar under it.
+# Example: a plus b over horizontal bar
+# %1: The expression over the bar
+underbar:
+  - %1
+  - $1: "over horisontal strek"
+
+# Expression with a bar to its left.
+# Example: vertical bar a plus b
+# LaTeX Example: $| a + b$
+# %1: The expression right of the bar
+leftbar:
+  - $1: "vertikal strek"
+  - %1
+
+# Expression with a bar to its right.
+# Example: a plus b vertical bar
+# LaTeX Example: $a + b |$
+# %1: The expression left of the bar
+rightbar:
+  - %1
+  - $1: "vertikal strek"
+
+# A crossed out expression
+# Example: crossed out x
+# %1: The expression that is crossed out
+crossout:
+  - $1: "utkrysset"
+  - %1
+
+# A crossed out expression with explicit end indicator (Enclosed_EndEnclose preference)
+# Example: crossed out x end crossout
+# %1: The expression that is crossed out
+crossout-end:
+  - $1: "utkrysset"
+  - %1
+  - $2: "slutt utkrysset"
+
+# A canceled expression with replacement over it
+# Example: 12 crossed out with 4
+# %1: The canceled expression
+# %2: Its replacement
+cancel-over:
+  - %1
+  - $1: "utkrysset med"
+  - %2
+
+# A canceled expression with replacement under it
+# Example: 12 crossed out with 4
+# %1: The canceled expression
+# %2: Its replacement
+cancel-under:
+  - %1
+  - $1: "utkrysset med"
+  - %2
+
+# A canceled expression with replacement over it with explicit end indicator (Enclosed_EndEnclose preference)
+# Example: 12 crossed out with 4 end crossout
+# %1: The canceled expression
+# %2: Its replacement
+cancel-over-end:
+  - %1
+  - $2: "utkrysset med"
+  - %2
+  - $3: "slutt utkrysset"
+
+# A canceled expression with replacement under it with explicit end indicator (Enclosed_EndEnclose preference)
+# Example: 12 crossed out with 4 end crossout
+# %1: The canceled expression
+# %2: Its replacement
+cancel-under-end:
+  - %1
+  - $2: "utkrysset med"
+  - %2
+  - $3: "slutt utkrysset"
