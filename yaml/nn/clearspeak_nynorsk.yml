@@ -13,7 +13,7 @@ collapsed:
 # %2: The expression
 font:
   - %1
-  - %2 (pause:kort)
+  - %2 (pause:short)
 
 # A character in fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.
 # %1: The character in fraktur font
@@ -208,9 +208,9 @@ set-not-member-belongs:
 
 # A leading article is introduced. Only used in locales where articles are used for fractions or functions
 # %1: The expression translated without article.
-article:
-  - $1: 
-  - %1
+# article:
+#   - $1: 
+#   - %1
 
 # Fallback rule for function application
 # Example: f of x
@@ -448,7 +448,7 @@ superscript-simple-exponent:
 superscript-simple-exponent-end:
   - %1
   - $1: "heva til"
-   - %2 (pause:short)
+  - %2 (pause:short)
 
 # Fallback rule for exponent expressions with integer or simple single letter identifier exponent
 # %1: The basis
