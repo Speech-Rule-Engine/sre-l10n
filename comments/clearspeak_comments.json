@@ -9,7 +9,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Rule that fires if an expression is visually abstracted",
     "latex": "",
@@ -30,6 +32,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -45,7 +53,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Explicit speaking of font",
     "latex": "",
@@ -71,6 +81,14 @@
       "it": {
         "%1": "%2",
         "%2": "%1"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -146,7 +164,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Speaking an open ended ellipsis in AndSoOn preference",
     "latex": "a, b, \\ldots",
@@ -157,7 +177,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -169,7 +191,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Speaking an intermediate ellipsis in AndSoOn preference",
     "latex": "a,b,\\ldots n",
@@ -180,7 +204,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -195,7 +221,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Interprets an vertical with subscript as evaluation of an antiderivative",
     "latex": "F(x)|_{x=0}",
@@ -221,6 +249,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -237,7 +273,9 @@
       "en": 3,
       "fr": 3,
       "hi": 3,
-      "it": 3
+      "it": 3,
+      "nn": 3,
+      "nb": 3
     },
     "description": "Interprets an vertical with subscript as evaluation of an antiderivative",
     "latex": "F(x)|_{0}^\\infty",
@@ -268,6 +306,16 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
       }
     },
     "maximum": 3
@@ -279,7 +327,9 @@
       "de": 0,
       "en": 0,
       "fr": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Vertical bar interpreted as such that",
     "latex": "a|b",
@@ -289,7 +339,9 @@
       "de": {},
       "en": {},
       "fr": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -300,7 +352,9 @@
       "de": 0,
       "en": 0,
       "fr": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Vertical bar interpreted as divides symbol",
     "latex": "a|b",
@@ -310,7 +364,9 @@
       "de": {},
       "en": {},
       "fr": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -321,7 +377,9 @@
       "de": 0,
       "en": 0,
       "fr": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Vertical bar interpreted as divides symbol, regardless of context",
     "latex": "a|b",
@@ -331,7 +389,9 @@
       "de": {},
       "en": {},
       "fr": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -342,7 +402,9 @@
       "de": 0,
       "en": 0,
       "fr": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Vertical bar interpreted as given, e.g., in a set context",
     "latex": "a|b",
@@ -352,7 +414,9 @@
       "de": {},
       "en": {},
       "fr": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -364,7 +428,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol within a set expression read in short form. Fallback rule.",
     "latex": "\\{a\\in A| ...\\}",
@@ -375,7 +441,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -385,7 +453,9 @@
     "locales": {
       "en": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol within a set expression read in short form. Interpreted as member of",
     "latex": "\\{a\\in A| ...\\}",
@@ -394,7 +464,9 @@
     "order": {
       "en": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -406,7 +478,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol within a set expression read in short form. Interpreted as element of",
     "latex": "a\\in A",
@@ -417,7 +491,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -427,7 +503,9 @@
     "locales": {
       "en": 0,
       "fr": 0,
-      "hi": 0
+      "hi": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol within a set expression read in short form. Interpreted as in",
     "latex": "a\\in A",
@@ -436,7 +514,9 @@
     "order": {
       "en": {},
       "fr": {},
-      "hi": {}
+      "hi": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -448,7 +528,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol within a set expression read in short form. Interpreted as belonging to",
     "latex": "a\\in A",
@@ -459,7 +541,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -471,7 +555,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol inside a set expression read in short form. Interpreted as not member of. Fallback rule",
     "latex": "a\\not\\in A",
@@ -482,7 +568,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -492,7 +580,9 @@
     "locales": {
       "en": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol inside a set expression read in short form. Interpreted as not member of",
     "latex": "a\\not\\in A",
@@ -501,7 +591,9 @@
     "order": {
       "en": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -513,7 +605,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol inside a set expression read in short form. Interpreted as not element of",
     "latex": "a\\not\\in A",
@@ -524,7 +618,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -534,7 +630,9 @@
     "locales": {
       "en": 0,
       "fr": 0,
-      "hi": 0
+      "hi": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol inside a set expression read in short form. Interpreted as not in",
     "latex": "a\\not\\in A",
@@ -543,7 +641,9 @@
     "order": {
       "en": {},
       "fr": {},
-      "hi": {}
+      "hi": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -555,7 +655,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol inside a set expression read in short form. Interpreted as not belongs to",
     "latex": "a\\not\\in A",
@@ -566,7 +668,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -619,7 +723,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Fallback rule for function application",
     "latex": "f(x)",
@@ -645,6 +751,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -660,7 +774,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Function application of a single letter function like f, g, h.",
     "latex": "f(x)",
@@ -686,6 +802,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -701,7 +825,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Function application of a single letter function with argument being another function application",
     "latex": "f(h(x))",
@@ -727,6 +853,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -742,7 +876,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Forces function applications to be read as juxtapositions",
     "latex": "f(x)",
@@ -768,6 +904,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -783,7 +927,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Application of a known prefix function, e.g., a trigonometric function",
     "latex": "\\sin x",
@@ -809,6 +955,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -824,7 +978,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Application of a known prefix function to a fenced but simple argument (e.g., xy is simple, x + y is not)",
     "latex": "\\sin(xy)",
@@ -850,6 +1006,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -865,7 +1029,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Application of a prefix function with index or superscript",
     "latex": "\\sin^2 x",
@@ -891,6 +1057,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -906,7 +1080,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Application of a prefix functions to a non-simple argument.",
     "latex": "\\sine(\\frac{a}{b})",
@@ -932,6 +1108,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -947,7 +1131,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Function application of a named function with subscript",
     "latex": "\\min_a X",
@@ -973,6 +1159,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -988,7 +1182,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Natural logarithm application in short speech.",
     "latex": "",
@@ -1014,6 +1210,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -1029,7 +1233,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Natural logarithm application with following pause.",
     "latex": "",
@@ -1055,6 +1261,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -1070,7 +1284,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Natural logarithm application in explicit speech.",
     "latex": "",
@@ -1096,6 +1312,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -1111,7 +1335,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Function in a superscript with a complex argument",
     "latex": "x^{\\sin (y + z)}",
@@ -1137,6 +1363,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -1152,7 +1386,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Function in a subscript with a complex argument",
     "latex": "x_{\\sin (y + z)}",
@@ -1178,6 +1414,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -1193,7 +1437,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Hyperbolic function as prefix function",
     "latex": "\\sinh x",
@@ -1219,6 +1465,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -1234,7 +1488,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Inverse of a named function",
     "latex": "\\sin^{-1} x",
@@ -1260,6 +1516,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -1275,7 +1539,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Speaks an arcus function as inverse",
     "latex": "\\arcsin x",
@@ -1301,6 +1567,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -1316,7 +1590,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Speaks an inverse trigonometric function as arcus",
     "latex": "\\sin^{-1} x",
@@ -1342,6 +1618,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -1357,7 +1641,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Speaks an inverted trigonometric function as arcus. Omits the parentheses on simple arguments.",
     "latex": "\\sin^{-1} (x)",
@@ -1383,6 +1669,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -1398,7 +1692,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Speaks an inverted trigonometric function as arcus. Fallback for complex arguments.",
     "latex": "\\sin^{-1} (x+y)",
@@ -1424,6 +1720,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -1438,7 +1742,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "General inverse function",
     "latex": "f^{-1}",
@@ -1459,6 +1765,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -1473,7 +1785,9 @@
       "de": 2,
       "en": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "General function with superscript that is either a number of simple identifier.",
     "latex": "",
@@ -1495,6 +1809,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -1510,7 +1832,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "The fallback rule for superscript/exponent expressions",
     "latex": "",
@@ -1536,6 +1860,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -1550,7 +1882,9 @@
       "de": 2,
       "en": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Fallback rule for exponent expressions with integer or simple single letter identifier exponent",
     "latex": "",
@@ -1570,6 +1904,14 @@
         "%2": "%2"
       },
       "it": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
         "%1": "%1",
         "%2": "%2"
       }
@@ -1607,7 +1949,9 @@
       "de": 2,
       "en": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Fallback rule for exponent expressions in Ordinal preference.",
     "latex": "x^{y+z}",
@@ -1629,6 +1973,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -1644,7 +1996,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Rule for exponent expressions with single letter or integer exponents in Ordinal preference.",
     "latex": "x^{y}",
@@ -1670,6 +2024,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -1685,7 +2047,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Rule for exponent expressions with simple exponents where power is used as postfix for disambiguation.",
     "latex": "x^{2y}",
@@ -1709,6 +2073,14 @@
         "%2": "%2"
       },
       "it": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
         "%1": "%1",
         "%2": "%2"
       }
@@ -1788,7 +2160,9 @@
       "de": 2,
       "en": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Rule for exponent expressions with simple exponents that should not be read a ordinals in Ordinal preference.",
     "latex": "x^{-1}",
@@ -1808,6 +2182,14 @@
         "%2": "%2"
       },
       "it": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
         "%1": "%1",
         "%2": "%2"
       }
@@ -1845,7 +2227,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "A letter spoken as ordinal exponent. Note that the rule might need adjustment of the join attribute.",
     "latex": "y",
@@ -1866,6 +2250,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -1880,7 +2270,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "A number spoken as an ordinal. Note that the rule might need adjustment of the join attribute.",
     "latex": "4",
@@ -1900,6 +2292,12 @@
         "%1": "%1"
       },
       "it": {
+        "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
         "%1": "%1"
       }
     },
@@ -1970,7 +2368,9 @@
     "locales": {
       "de": 1,
       "en": 1,
-      "hi": 1
+      "hi": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Simple letter function (e.g., f, g, h) with exponent explicitly not spoken as a function. Usually does not need to be localised.",
     "latex": "",
@@ -1984,6 +2384,12 @@
         "%1": "%1"
       },
       "hi": {
+        "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
         "%1": "%1"
       }
     },
@@ -2000,7 +2406,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 2
+      "it": 2,
+      "nn": 1,
+      "nb": 1
     },
     "description": "A squared element",
     "latex": "x^2",
@@ -2022,6 +2430,12 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 2
@@ -2036,7 +2450,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "A cubed element",
     "latex": "x^3",
@@ -2057,6 +2473,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -2071,7 +2493,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Parenthesised expression interpreted as point",
     "latex": "(5,6)",
@@ -2092,6 +2516,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -2108,7 +2538,9 @@
       "en": 3,
       "fr": 3,
       "hi": 3,
-      "it": 3
+      "it": 3,
+      "nn": 3,
+      "nb": 3
     },
     "description": "A fenced pair of values interpreted as in interval. This is the base rule, specialisations are handled in subsequent rules.",
     "latex": "[a,b]",
@@ -2139,6 +2571,16 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
       }
     },
     "maximum": 3
@@ -2154,7 +2596,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Specialisation for an open interval",
     "latex": "(a,b)",
@@ -2180,6 +2624,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -2195,7 +2647,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Specialisation for an closed-open interval",
     "latex": "[a,b)",
@@ -2221,6 +2675,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -2236,7 +2698,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Specialisation for an open-closed interval",
     "latex": "(a,b]",
@@ -2262,6 +2726,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -2277,7 +2749,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Specialisation for an closed interval",
     "latex": "[a,b]",
@@ -2303,6 +2777,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -2317,7 +2799,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Open integral with right infinity",
     "latex": "(a,\\infty)",
@@ -2338,6 +2822,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -2352,7 +2842,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Open integral with left infinity",
     "latex": "(\\infty,b)",
@@ -2373,6 +2865,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -2387,7 +2885,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Open integral with right infinity",
     "latex": "[a,\\infty)",
@@ -2408,6 +2908,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -2422,7 +2928,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Closed integral with left infinity",
     "latex": "(\\infty,b]",
@@ -2443,6 +2951,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -2455,7 +2969,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "The empty set",
     "latex": "\\empty",
@@ -2466,7 +2982,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -2481,7 +2999,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "A set defined via set intensionality",
     "latex": "\\{a\\in A| ...\\}",
@@ -2507,6 +3027,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -2521,7 +3049,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Set defined via a collection of elements",
     "latex": "\\{a,b,c\\}",
@@ -2542,6 +3072,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -2556,7 +3092,9 @@
       "de": 2,
       "en": 2,
       "fr": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "A set defined via set intensionality without an explicity for all",
     "latex": "\\{a\\in A| ...\\}",
@@ -2578,6 +3116,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -2593,7 +3139,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Fallback rule for subscript expressions",
     "latex": "A_a",
@@ -2619,6 +3167,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -2634,7 +3190,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Logarithm spoken as base",
     "latex": "",
@@ -2660,6 +3218,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -2675,7 +3241,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "An element with an index",
     "latex": "",
@@ -2701,6 +3269,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -2716,7 +3292,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Fallback rule for explicit speaking of fraction",
     "latex": "\\frac{a}{b}",
@@ -2742,6 +3320,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -2757,7 +3343,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "A fraction in a function application, which is not interpreted as a function",
     "latex": "\\frac{f}{g}(x)",
@@ -2783,6 +3371,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -2798,7 +3394,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Fraction with simple elements in numerator and denominator",
     "latex": "\\frac{a}{b}",
@@ -2824,6 +3422,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -2839,7 +3445,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Vulgar fraction with positive integer numerator > 10 or denominator > 20. Not spoken as words",
     "latex": "",
@@ -2865,6 +3473,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -2880,7 +3496,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Fraction with simple textual elements",
     "latex": "",
@@ -2906,6 +3524,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -2920,7 +3546,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Vulgar fraction spoken as words. The rule fires for positive integer numerators <= 10 and denominators <=20",
     "latex": "",
@@ -2941,6 +3569,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -2956,7 +3590,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Short speech for fractions with simple components.",
     "latex": "\\frac{a}{b}",
@@ -2982,6 +3618,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -2997,7 +3641,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Short speech for fractions with simple components with explicit end fraction",
     "latex": "\\frac{a}{b}",
@@ -3023,6 +3669,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -3038,7 +3692,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Short speech for fractions with simple components with explicitly announced fraction",
     "latex": "\\frac{a}{b}",
@@ -3064,6 +3720,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -3079,7 +3743,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Short speech for fractions with simple components using per",
     "latex": "\\frac{a}{b}",
@@ -3105,6 +3771,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -3120,7 +3794,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Fallback rule for all fractions with explicit end fraction announcement. This is for the generalEndFrac preference, where all fractions are announced the same followed by end fraction.",
     "latex": "\\frac{a+b}{c+d}",
@@ -3146,6 +3822,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -3161,7 +3845,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Fallback rule for all fractions. This is for the general preference, where all fractions are announced the same.",
     "latex": "\\frac{a}{c}",
@@ -3187,6 +3873,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -3201,7 +3895,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "A vulgar fraction pronounced as ordinal in all cases.",
     "latex": "",
@@ -3222,6 +3918,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -3236,7 +3938,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "The rule adds end fraction announcements to fractions if necessary. Used in EndFrac preference.",
     "latex": "",
@@ -3257,6 +3961,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -3272,7 +3982,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Vulgar fraction with positive integer numerator > 10 or denominator > 20. Not spoken as words in EndFrac preference.",
     "latex": "",
@@ -3298,6 +4010,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -3312,7 +4032,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Vulgar fraction with positive integer numerator <= 10 or denominator <= 20, spoken as words in EndFrac preference.",
     "latex": "",
@@ -3333,6 +4055,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -3347,7 +4075,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Basic square root rule",
     "latex": "",
@@ -3368,6 +4098,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -3382,7 +4118,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "A square root, nested within another. This is never spoken with an `end root` announcement",
     "latex": "",
@@ -3403,6 +4141,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -3417,7 +4161,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "A negative square root",
     "latex": "",
@@ -3438,6 +4184,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -3452,7 +4204,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "A negative square root, possibly nested within another. This is never spoken with an `end root` announcement",
     "latex": "",
@@ -3473,6 +4227,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -3487,7 +4247,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Square root with plus-minus sign spoken as positive square root in PosNegSqRoot preference",
     "latex": "\\pm \\sqrt{a}",
@@ -3508,6 +4270,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -3522,7 +4290,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Nested square root with plus-minus sign spoken as positive square root in PosNegSqRoot preference. This is never spoken with an `end root` announcement",
     "latex": "\\pm \\sqrt{a}",
@@ -3543,6 +4313,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -3557,7 +4333,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Adds a end root announcement if necessary.",
     "latex": "",
@@ -3577,6 +4355,12 @@
         "%1": "%1"
       },
       "it": {
+        "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
         "%1": "%1"
       }
     },
@@ -3592,7 +4376,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Adds a end root announcement if necessary.",
     "latex": "",
@@ -3612,6 +4398,12 @@
         "%1": "%1"
       },
       "it": {
+        "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
         "%1": "%1"
       }
     },
@@ -3627,7 +4419,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Adds a end root announcement if necessary.",
     "latex": "",
@@ -3647,6 +4441,12 @@
         "%1": "%1"
       },
       "it": {
+        "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
         "%1": "%1"
       }
     },
@@ -3662,7 +4462,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Adds a end root announcement if necessary.",
     "latex": "",
@@ -3682,6 +4484,12 @@
         "%1": "%1"
       },
       "it": {
+        "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
         "%1": "%1"
       }
     },
@@ -3697,7 +4505,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Adds a end root announcement if necessary.",
     "latex": "",
@@ -3717,6 +4527,12 @@
         "%1": "%1"
       },
       "it": {
+        "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
         "%1": "%1"
       }
     },
@@ -3732,7 +4548,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Adds a end root announcement if necessary.",
     "latex": "",
@@ -3753,6 +4571,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -3767,7 +4591,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Basic rule for cubic roots",
     "latex": "",
@@ -3788,6 +4614,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -3802,7 +4634,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "A cubic root, nested within another. This is never spoken with an `end root` announcement",
     "latex": "",
@@ -3823,6 +4657,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -3838,7 +4678,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 1,
+      "nb": 1
     },
     "description": "An root with explicit index. Speaking the index as ordinal when possible.",
     "latex": "\\sqrt[4]{a}",
@@ -3864,6 +4706,12 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%2"
+      },
+      "nb": {
+        "%1": "%2"
       }
     },
     "maximum": 2
@@ -3879,7 +4727,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 1,
+      "nb": 1
     },
     "description": "An nested root with explicit index. Never spoken with `end root` announcement.",
     "latex": "",
@@ -3905,6 +4755,12 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%2"
+      },
+      "nb": {
+        "%1": "%2"
       }
     },
     "maximum": 2
@@ -3919,7 +4775,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Adds a end root announcement if necessary.",
     "latex": "",
@@ -3940,6 +4798,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -3954,7 +4818,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Adds a end root announcement if necessary. Specialist rule for PosNegSqRoot",
     "latex": "",
@@ -3975,6 +4841,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -3989,7 +4861,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Pronounces the minus sign, when used as prefix sign rather than an operation",
     "latex": "-a",
@@ -4010,6 +4884,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -4024,7 +4904,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Pronounces the plus sign, when used as prefix sign rather than an operation",
     "latex": "+a",
@@ -4045,6 +4927,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -4060,7 +4948,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Measure of an angle",
     "latex": "m \\angle ABC",
@@ -4083,6 +4973,14 @@
         "%2": "%2"
       },
       "it": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
         "%1": "%1",
         "%2": "%2"
       }
@@ -4138,7 +5036,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "An inline division with forward slash or division sign",
     "latex": "a/b",
@@ -4164,6 +5064,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -4176,7 +5084,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "The natural numbers (positive integers)",
     "latex": "",
@@ -4187,7 +5097,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -4199,7 +5111,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "The integers",
     "latex": "",
@@ -4210,7 +5124,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -4222,7 +5138,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "The rational numbers",
     "latex": "",
@@ -4233,7 +5151,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -4245,7 +5165,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "The real numbers",
     "latex": "",
@@ -4256,7 +5178,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -4268,7 +5192,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "The complex numbers",
     "latex": "",
@@ -4279,7 +5205,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -4291,7 +5219,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "The Natural number with zero",
     "latex": "\\N_0",
@@ -4302,7 +5232,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -4314,7 +5246,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "The positive integers",
     "latex": "\\Z^{+}",
@@ -4325,7 +5259,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -4337,7 +5273,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "The negative integers",
     "latex": "\\Z^{-}",
@@ -4348,7 +5286,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -4360,7 +5300,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "The positive rational numbers",
     "latex": "\\Q^{+}",
@@ -4371,7 +5313,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -4383,7 +5327,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "The negative rational numbers",
     "latex": "\\Q^{-}",
@@ -4394,7 +5340,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -4408,7 +5356,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Absolute value",
     "latex": "",
@@ -4429,6 +5379,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -4443,7 +5399,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Absolute values spoken with explicit end of absolute value",
     "latex": "",
@@ -4464,6 +5422,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -4478,7 +5442,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Neutral interpreted as cardinality of a set",
     "latex": "|S|",
@@ -4499,6 +5465,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -4513,7 +5485,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Neutral interpreted as determinant of a matrix",
     "latex": "|A|",
@@ -4534,6 +5508,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -4550,7 +5530,9 @@
       "en": 3,
       "fr": 3,
       "hi": 3,
-      "it": 3
+      "it": 3,
+      "nn": 3,
+      "nb": 3
     },
     "description": "Base matrix rule speaking dimensions and content of the matrix with row and column indicators.",
     "latex": "\\begin{pmatrix}n+1 & 2\\\\ 3 & 4\\end{pmatrix}",
@@ -4581,6 +5563,16 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
       }
     },
     "maximum": 3
@@ -4597,7 +5589,9 @@
       "en": 3,
       "fr": 3,
       "hi": 3,
-      "it": 3
+      "it": 3,
+      "nn": 3,
+      "nb": 3
     },
     "description": "Rule for matrices with only simple entries, speaking dimensions and content of the matrix with row indicators only.",
     "latex": "\\begin{pmatrix}1 & 2\\\\ 3 & 4\\end{pmatrix}",
@@ -4628,6 +5622,16 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
       }
     },
     "maximum": 3
@@ -4642,7 +5646,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Rule for a one by one matrix.",
     "latex": "",
@@ -4663,6 +5669,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -4679,7 +5691,9 @@
       "en": 3,
       "fr": 3,
       "hi": 3,
-      "it": 3
+      "it": 3,
+      "nn": 3,
+      "nb": 3
     },
     "description": "Base rule for determinants (matrix with vertical bar fences) speaking dimensions and content of the matrix with row and column indicators.",
     "latex": " \\begin{vmatrix}n+1 & 2\\\\ 3 & 4\\end{vmatrix}",
@@ -4710,6 +5724,16 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
       }
     },
     "maximum": 3
@@ -4726,7 +5750,9 @@
       "en": 3,
       "fr": 3,
       "hi": 3,
-      "it": 3
+      "it": 3,
+      "nn": 3,
+      "nb": 3
     },
     "description": "Rule for determinants (matrix with vertical bar fences) with only simple entries, speaking dimensions and content of the matrix with row indicators only.",
     "latex": "\\begin{vmatrix}1 & 2\\\\ 3 & 4\\end{vmatrix}",
@@ -4757,6 +5783,16 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
       }
     },
     "maximum": 3
@@ -4773,7 +5809,9 @@
       "en": 3,
       "fr": 3,
       "hi": 3,
-      "it": 3
+      "it": 3,
+      "nn": 3,
+      "nb": 3
     },
     "description": "Rule for speaking column vectors as matrices.",
     "latex": "",
@@ -4804,6 +5842,16 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
       }
     },
     "maximum": 3
@@ -4820,7 +5868,9 @@
       "en": 3,
       "fr": 3,
       "hi": 3,
-      "it": 3
+      "it": 3,
+      "nn": 3,
+      "nb": 3
     },
     "description": "Rule for speaking column vectors as matrices with simple element not indicating rows. Vectors of up to dimension 3.",
     "latex": "",
@@ -4851,6 +5901,16 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
       }
     },
     "maximum": 3
@@ -4867,7 +5927,9 @@
       "en": 3,
       "fr": 3,
       "hi": 3,
-      "it": 3
+      "it": 3,
+      "nn": 3,
+      "nb": 3
     },
     "description": "Same as matrix-vector-simple just for the Matrix_SilentColNum preference.",
     "latex": "",
@@ -4898,6 +5960,16 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
       }
     },
     "maximum": 3
@@ -4914,7 +5986,9 @@
       "en": 3,
       "fr": 3,
       "hi": 3,
-      "it": 3
+      "it": 3,
+      "nn": 3,
+      "nb": 3
     },
     "description": "Rule for speaking row vectors as matrices.",
     "latex": "",
@@ -4945,6 +6019,16 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
       }
     },
     "maximum": 3
@@ -4961,7 +6045,9 @@
       "en": 3,
       "fr": 3,
       "hi": 3,
-      "it": 3
+      "it": 3,
+      "nn": 3,
+      "nb": 3
     },
     "description": "Rule for speaking row vectors as matrices with simple element not indicating rows. Vectors of up to dimension 3.",
     "latex": "",
@@ -4992,6 +6078,16 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
       }
     },
     "maximum": 3
@@ -5008,7 +6104,9 @@
       "en": 3,
       "fr": 3,
       "hi": 3,
-      "it": 3
+      "it": 3,
+      "nn": 3,
+      "nb": 3
     },
     "description": "Same as matri-row-vector-simple just for the Matrix_SilentColNum preference.",
     "latex": "",
@@ -5039,6 +6137,16 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
       }
     },
     "maximum": 3
@@ -5053,7 +6161,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Iterates over each cell of a matrix row adding the prefix Column",
     "latex": "",
@@ -5074,6 +6184,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -5088,7 +6204,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Adds an explicit 'end matrix' after the matrix.",
     "latex": "",
@@ -5109,6 +6227,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -5123,7 +6247,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Adds an explicit 'end matrix' after a vector.",
     "latex": "",
@@ -5144,6 +6270,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -5158,7 +6290,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Adds an explicit 'end determinant' after a determinant.",
     "latex": "",
@@ -5179,6 +6313,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -5195,7 +6335,9 @@
       "en": 3,
       "fr": 3,
       "hi": 3,
-      "it": 3
+      "it": 3,
+      "nn": 3,
+      "nb": 3
     },
     "description": "Base vector rule speaking dimensions and content of the vector with row indicators.",
     "latex": "",
@@ -5226,6 +6368,16 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
       }
     },
     "maximum": 3
@@ -5242,7 +6394,9 @@
       "en": 3,
       "fr": 3,
       "hi": 3,
-      "it": 3
+      "it": 3,
+      "nn": 3,
+      "nb": 3
     },
     "description": "Vector with simple elements and dimension at most 3. Content is spoken without row indicators.",
     "latex": "",
@@ -5273,6 +6427,16 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
       }
     },
     "maximum": 3
@@ -5289,7 +6453,9 @@
       "en": 3,
       "fr": 3,
       "hi": 3,
-      "it": 3
+      "it": 3,
+      "nn": 3,
+      "nb": 3
     },
     "description": "Base row vector rule speaking dimensions and content of the vector with column indicators.",
     "latex": "",
@@ -5320,6 +6486,16 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
       }
     },
     "maximum": 3
@@ -5336,7 +6512,9 @@
       "en": 3,
       "fr": 3,
       "hi": 3,
-      "it": 3
+      "it": 3,
+      "nn": 3,
+      "nb": 3
     },
     "description": "Row vector with simple elements. Content is spoken without column indicators.",
     "latex": "",
@@ -5367,6 +6545,16 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
       }
     },
     "maximum": 3
@@ -5381,7 +6569,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Adds an explicit 'end matrix' after a matrix.",
     "latex": "",
@@ -5402,6 +6592,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -5416,7 +6612,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Adds an explicit 'end vector' after a vector.",
     "latex": "",
@@ -5436,6 +6634,12 @@
         "%1": "%1"
       },
       "it": {
+        "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
         "%1": "%1"
       }
     },
@@ -5451,7 +6655,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Adds an explicit 'end vector' after a vector.",
     "latex": "",
@@ -5472,6 +6678,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -5486,7 +6698,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Adds an explicit 'end determinant' after a determinant.",
     "latex": "",
@@ -5507,6 +6721,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -5522,7 +6742,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Binomial coefficient.",
     "latex": "",
@@ -5548,6 +6770,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -5563,7 +6793,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Summary of a multiline equation or formula, e.g., 4 lines ...",
     "latex": "\\begin{align}a&=b\\\\ c&=d\\end{align}",
@@ -5589,6 +6821,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -5604,7 +6844,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Summary of a case statement, e.g., 4 cases ...",
     "latex": "\\begin{cases}a&=b\\\\ c&=d\\end{cases}",
@@ -5630,6 +6872,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -5644,7 +6894,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Iterates over list of lines adding an enumerated prefix `Line n`",
     "latex": "",
@@ -5665,6 +6917,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -5677,7 +6935,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Blank cell (e.g. in a matrix)",
     "latex": "",
@@ -5688,7 +6948,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -5700,7 +6962,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Blank line (e.g., in cases)",
     "latex": "",
@@ -5711,7 +6975,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -5723,7 +6989,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Cell with an explicit empty element. Normally treated like an empty cell.",
     "latex": "",
@@ -5734,7 +7002,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -5746,7 +7016,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Line with an explicit empty element. Normally treated like an empty cell.",
     "latex": "",
@@ -5757,7 +7029,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -5771,7 +7045,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Iterates over list of lines of a case statement adding an enumerated prefix `Case n`",
     "latex": "",
@@ -5792,6 +7068,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -5807,7 +7089,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "MultiLineLabel_Case preference rule for speaking regular multiline equations as cases. Summary rule.",
     "latex": "\\begin{align}a&=b\\\\ c&=d\\end{align}",
@@ -5833,6 +7117,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -5847,7 +7139,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "MultiLineLabel_Case preference rule: Iterates over list of lines adding an enumerated prefix `Case n`",
     "latex": "",
@@ -5868,6 +7162,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -5883,7 +7183,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "MultiLineLabel_Equation preference rule for speaking regular multiline equations as equations. Summary rule.",
     "latex": "\\begin{align}a&=b\\\\ c&=d\\end{align}",
@@ -5909,6 +7211,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -5923,7 +7233,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "MultiLineLabel_Equation preference rule: Iterates over list of lines adding an enumerated prefix `Equation n`",
     "latex": "",
@@ -5944,6 +7256,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -5959,7 +7277,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "MultiLineLabel_Step preference rule for speaking regular multiline equations as steps. Summary rule.",
     "latex": "\\begin{align}a&=b\\\\ c&=d\\end{align}",
@@ -5985,6 +7305,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -5999,7 +7327,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "MultiLineLabel_Step preference rule: Iterates over list of lines adding an enumerated prefix `Step n`",
     "latex": "",
@@ -6020,6 +7350,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -6035,7 +7371,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "MultiLineLabel_Row preference rule for speaking regular multiline equations as rows. Summary rule.",
     "latex": "\\begin{align}a&=b\\\\ c&=d\\end{align}",
@@ -6061,6 +7399,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -6075,7 +7421,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "MultiLineLabel_Row preference rule: Iterates over list of lines adding an enumerated prefix `Row n`",
     "latex": "",
@@ -6096,6 +7444,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -6111,7 +7465,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "MultiLineLabel_Constraint preference rule for speaking regular multiline equations as constraints. Summary rule.",
     "latex": "\\begin{align}a&=b\\\\ c&=d\\end{align}",
@@ -6137,6 +7493,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -6151,7 +7515,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "MultiLineLabel_Constraint preference rule: Iterates over list of lines adding an enumerated prefix `Constraint n`",
     "latex": "",
@@ -6172,6 +7538,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -6187,7 +7559,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Large operator like sum, product etc.",
     "latex": "\\sum_{n=0}^\\infty \\frac{1}{n}",
@@ -6213,6 +7587,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -6229,7 +7611,9 @@
       "en": 3,
       "fr": 3,
       "hi": 3,
-      "it": 3
+      "it": 3,
+      "nn": 3,
+      "nb": 3
     },
     "description": "Operator with upper and lower limit.",
     "latex": "\\sum_{n=0}^\\infty",
@@ -6260,6 +7644,16 @@
         "%1": "%1",
         "%2": "%2",
         "%3": "%3"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2",
+        "%3": "%3"
       }
     },
     "maximum": 3
@@ -6275,7 +7669,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Operator with lower limit only.",
     "latex": "\\sum_{n=0}",
@@ -6301,6 +7697,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -6316,7 +7720,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Operator with upper limit only.",
     "latex": "\\sum^\\infty",
@@ -6342,6 +7748,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -6357,7 +7771,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Integral rule",
     "latex": "\\int_{0}^\\infty \\frac{1}{x}dx",
@@ -6383,6 +7799,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -6398,7 +7822,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Element with simple overscript or accent",
     "latex": "",
@@ -6424,6 +7850,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -6439,7 +7873,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Element with overscript spoken as an upper limit.",
     "latex": "\\bigcap_{i=1}^{10}S_i",
@@ -6465,6 +7901,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -6480,7 +7924,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Element with simple underscript or accent",
     "latex": "",
@@ -6506,6 +7952,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -6521,7 +7975,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Element with underscript spoken as a lower limit.",
     "latex": "",
@@ -6547,6 +8003,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -6562,7 +8026,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Mixed numbers",
     "latex": "2 \\frac{1}{3}",
@@ -6588,6 +8054,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -6602,7 +8076,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "A number that contains letters",
     "latex": "",
@@ -6623,6 +8099,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -6638,7 +8120,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Repeating decimals where point is explicitly spoken",
     "latex": "3{.}\\overline{12}",
@@ -6664,6 +8148,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -6679,7 +8171,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Repeating decimals where point is part of the number",
     "latex": "3{.}3\\overline{12}",
@@ -6705,6 +8199,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -6719,7 +8221,9 @@
       "de": 2,
       "en": 2,
       "fr": 2,
-      "hi": 2
+      "hi": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Repeating single decimal where point is explicitly spoken",
     "latex": "3{.}\\overline{1}",
@@ -6741,6 +8245,14 @@
       "hi": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -6755,7 +8267,9 @@
       "de": 2,
       "en": 2,
       "fr": 2,
-      "hi": 2
+      "hi": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Repeating single decimal where point is part of the number",
     "latex": "3{.}3\\overline{1}",
@@ -6777,6 +8291,14 @@
       "hi": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -6789,7 +8311,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Speaking decimal point (or comma)",
     "latex": "",
@@ -6800,7 +8324,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -6815,7 +8341,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Two letters under a line spoken as a line segment",
     "latex": "\\overline{AB}",
@@ -6841,6 +8369,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -6855,7 +8391,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Horizontal overbar spoken as a conjugate",
     "latex": "\\overline{z}",
@@ -6876,6 +8414,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -6888,7 +8432,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Equality with `def` as overscript",
     "latex": "",
@@ -6899,7 +8445,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -6914,7 +8462,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "An operator or relation with some adornment.",
     "latex": "",
@@ -6940,6 +8490,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -6952,7 +8510,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Factorial",
     "latex": "x!",
@@ -6963,7 +8523,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -6977,7 +8539,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Tensor with left superscript",
     "latex": "",
@@ -6998,6 +8562,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -7012,7 +8582,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Tensor with multiple left superscript indices",
     "latex": "",
@@ -7033,6 +8605,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -7047,7 +8625,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Tensor with left subscript",
     "latex": "",
@@ -7068,6 +8648,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -7082,7 +8668,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Tensor with multiple left subscript indices",
     "latex": "",
@@ -7103,6 +8691,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -7117,7 +8711,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Tensor with right superscript",
     "latex": "",
@@ -7138,6 +8734,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -7152,7 +8754,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Tensor with multiple right superscript indices",
     "latex": "",
@@ -7173,6 +8777,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -7187,7 +8797,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Tensor with right subscript",
     "latex": "",
@@ -7208,6 +8820,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -7222,7 +8840,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Tensor with multiple right subscript indices",
     "latex": "",
@@ -7243,6 +8863,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -7258,7 +8884,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Choose operation given as letters with left and right superscripts",
     "latex": "",
@@ -7284,6 +8912,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -7299,7 +8935,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Permute operation given as letters with left and right superscripts",
     "latex": "",
@@ -7325,6 +8963,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -7339,7 +8985,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "A unit that is squared",
     "latex": "",
@@ -7360,6 +9008,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -7374,7 +9028,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "A unit that is cubed",
     "latex": "",
@@ -7395,6 +9051,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -7408,7 +9070,9 @@
       "de": 1,
       "en": 1,
       "fr": 1,
-      "hi": 1
+      "hi": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "A unit to the power of negative one",
     "latex": "",
@@ -7426,6 +9090,12 @@
       },
       "hi": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -7439,7 +9109,9 @@
       "de": 1,
       "en": 1,
       "fr": 1,
-      "hi": 1
+      "hi": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "A reciprocal in singular",
     "latex": "1 s m^{-1}",
@@ -7457,6 +9129,12 @@
       },
       "hi": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -7472,7 +9150,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "A fraction of units",
     "latex": "",
@@ -7496,6 +9176,14 @@
         "%2": "%2"
       },
       "it": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
         "%1": "%1",
         "%2": "%2"
       }
@@ -7569,7 +9257,9 @@
       "en": 2,
       "fr": 1,
       "hi": 2,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Simple function (i.e., single letter f, g, ...) with superscript",
     "latex": "",
@@ -7589,6 +9279,12 @@
       },
       "it": {
         "%1": "%2"
+      },
+      "nn": {
+        "%1": "%2"
+      },
+      "nb": {
+        "%1": "%2"
       }
     },
     "maximum": 2
@@ -7603,7 +9299,9 @@
       "en": 2,
       "fr": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Integer or single letter superscript spoken as an ordinal (Exponent_Ordinal preference)",
     "latex": "x to the fifth",
@@ -7625,6 +9323,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -7638,7 +9344,9 @@
     "locales": {
       "en": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "A netative integer superscript not spoken as an ordinal (Exponent_Ordinal preference)",
     "latex": "x to the negative 5",
@@ -7656,6 +9364,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -7669,7 +9385,9 @@
     "locales": {
       "en": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Integer or single letter superscript spoken as the power of an ordinal (Exponent_OrdinalPower preference)",
     "latex": "x to the fifth power",
@@ -7687,6 +9405,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -7700,7 +9426,9 @@
     "locales": {
       "en": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "A netative integer superscript spoken as an ordinal (Exponent_OrdinalPower preference)",
     "latex": "x to the negative 5 power",
@@ -7718,6 +9446,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -7731,7 +9467,9 @@
     "locales": {
       "en": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Single letter superscript spoken as an ordinal power (Exponent_OrdinalPower preference)",
     "latex": "x^n",
@@ -7749,6 +9487,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -7762,7 +9508,9 @@
     "locales": {
       "en": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Fallback rule for Exponent_OrdinalPower preference for non-simple exponent ending with 'end exponent'",
     "latex": "x^{n^2}",
@@ -7780,6 +9528,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -7793,7 +9549,9 @@
     "locales": {
       "en": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Basic rule for Exponent_AfterPower preference where exponent is spoken after the power indicator",
     "latex": "x raised to the power n",
@@ -7811,6 +9569,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -7824,7 +9590,9 @@
     "locales": {
       "en": 2,
       "hi": 2,
-      "it": 2
+      "it": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "Specialist rule for Exponent_AfterPower preference for stacked exponents to avoid multiple 'end exponent' indicators",
     "latex": "x raised to the exponent n raised to the power k end exponent",
@@ -7842,6 +9610,14 @@
       "it": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -7855,7 +9631,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Turning a simple identifier/letter into an ordinal (Exponent_Ordinal preference)",
     "latex": "",
@@ -7873,6 +9651,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -7884,7 +9668,9 @@
       "en": 0,
       "fr": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Speaking 0 in an exponent expression power (Exponent_Ordinal preference)",
     "latex": "",
@@ -7894,7 +9680,9 @@
       "en": {},
       "fr": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -7906,7 +9694,9 @@
     "locales": {
       "en": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Turning a number (without leading 0) into an ordinal (Exponent_OrdinalPower preference)",
     "latex": "",
@@ -7921,6 +9711,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -7931,7 +9727,9 @@
     "locales": {
       "en": 0,
       "hi": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Turning 0 into an ordinal used as power (Exponent_OrdinalPower preference)",
     "latex": "",
@@ -7940,7 +9738,9 @@
     "order": {
       "en": {},
       "hi": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -7953,7 +9753,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Pronouncing a large set operator before an expression. Allows to add article or push through grammar",
     "latex": "\\bigcap_{i=1}^{10}S_i",
@@ -7971,6 +9773,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -7983,7 +9791,9 @@
     "locales": {
       "en": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Assembles multiple operators in the Exponent_AfterPower preference. Generally no need to localise",
     "latex": "x^{nm}",
@@ -7997,6 +9807,12 @@
         "%1": "%1"
       },
       "it": {
+        "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
         "%1": "%1"
       }
     },
@@ -8012,7 +9828,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Fences spoken as metrics.",
     "latex": "||a||",
@@ -8033,6 +9851,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -8047,7 +9871,9 @@
       "en": 1,
       "fr": 1,
       "hi": 1,
-      "it": 1
+      "it": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Fences spoken as metrics with end indicator (AbsoluteValue_AbsEnd preference)",
     "latex": "||a||",
@@ -8068,6 +9894,12 @@
       },
       "it": {
         "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -8079,7 +9911,9 @@
       "%2": "The enclosed expression"
     },
     "locales": {
-      "en": 2
+      "en": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "An expression enclosed in a box, circle, etc.",
     "latex": "\\fbox{a}",
@@ -8087,6 +9921,14 @@
     "reference": "en",
     "order": {
       "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
         "%1": "%1",
         "%2": "%2"
       }
@@ -8100,7 +9942,9 @@
       "%2": "The enclosed expression"
     },
     "locales": {
-      "en": 2
+      "en": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "An expression enclosed in a box, circle, etc. with explicit end indicator",
     "latex": "\\fbox{a}",
@@ -8108,6 +9952,14 @@
     "reference": "en",
     "order": {
       "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
         "%1": "%1",
         "%2": "%2"
       }
@@ -8120,7 +9972,9 @@
       "%1": "The expression under the bar"
     },
     "locales": {
-      "en": 1
+      "en": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Expression with a spanning bar over it.",
     "latex": "",
@@ -8128,6 +9982,12 @@
     "reference": "en",
     "order": {
       "en": {
+        "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
         "%1": "%1"
       }
     },
@@ -8139,7 +9999,9 @@
       "%1": "The expression over the bar"
     },
     "locales": {
-      "en": 1
+      "en": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Expression with a spanning bar under it.",
     "latex": "",
@@ -8147,6 +10009,12 @@
     "reference": "en",
     "order": {
       "en": {
+        "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
         "%1": "%1"
       }
     },
@@ -8158,7 +10026,9 @@
       "%1": "The expression right of the bar"
     },
     "locales": {
-      "en": 1
+      "en": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Expression with a bar to its left.",
     "latex": "| a + b",
@@ -8166,6 +10036,12 @@
     "reference": "en",
     "order": {
       "en": {
+        "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
         "%1": "%1"
       }
     },
@@ -8177,7 +10053,9 @@
       "%1": "The expression left of the bar"
     },
     "locales": {
-      "en": 1
+      "en": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "Expression with a bar to its right.",
     "latex": "a + b |",
@@ -8185,6 +10063,12 @@
     "reference": "en",
     "order": {
       "en": {
+        "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
         "%1": "%1"
       }
     },
@@ -8196,7 +10080,9 @@
       "%1": "The expression that is crossed out"
     },
     "locales": {
-      "en": 1
+      "en": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "A crossed out expression",
     "latex": "",
@@ -8204,6 +10090,12 @@
     "reference": "en",
     "order": {
       "en": {
+        "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
         "%1": "%1"
       }
     },
@@ -8215,7 +10107,9 @@
       "%1": "The expression that is crossed out"
     },
     "locales": {
-      "en": 1
+      "en": 1,
+      "nn": 1,
+      "nb": 1
     },
     "description": "A crossed out expression with explicit end indicator (Enclosed_EndEnclose preference)",
     "latex": "",
@@ -8223,6 +10117,12 @@
     "reference": "en",
     "order": {
       "en": {
+        "%1": "%1"
+      },
+      "nn": {
+        "%1": "%1"
+      },
+      "nb": {
         "%1": "%1"
       }
     },
@@ -8235,7 +10135,9 @@
       "%2": "Its replacement"
     },
     "locales": {
-      "en": 2
+      "en": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "A canceled expression with replacement over it",
     "latex": "",
@@ -8243,6 +10145,14 @@
     "reference": "en",
     "order": {
       "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
         "%1": "%1",
         "%2": "%2"
       }
@@ -8256,7 +10166,9 @@
       "%2": "Its replacement"
     },
     "locales": {
-      "en": 2
+      "en": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "A canceled expression with replacement under it",
     "latex": "",
@@ -8264,6 +10176,14 @@
     "reference": "en",
     "order": {
       "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
         "%1": "%1",
         "%2": "%2"
       }
@@ -8277,7 +10197,9 @@
       "%2": "Its replacement"
     },
     "locales": {
-      "en": 2
+      "en": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "A canceled expression with replacement over it with explicit end indicator (Enclosed_EndEnclose preference)",
     "latex": "",
@@ -8285,6 +10207,14 @@
     "reference": "en",
     "order": {
       "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
         "%1": "%1",
         "%2": "%2"
       }
@@ -8298,7 +10228,9 @@
       "%2": "Its replacement"
     },
     "locales": {
-      "en": 2
+      "en": 2,
+      "nn": 2,
+      "nb": 2
     },
     "description": "A canceled expression with replacement under it with explicit end indicator (Enclosed_EndEnclose preference)",
     "latex": "",
@@ -8306,6 +10238,14 @@
     "reference": "en",
     "order": {
       "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
         "%1": "%1",
         "%2": "%2"
       }
@@ -8692,7 +10632,9 @@
       "en": 0,
       "de": 0,
       "fr": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as member of. This is the fallback rule.",
     "latex": "a\\in A",
@@ -8702,7 +10644,9 @@
       "en": {},
       "de": {},
       "fr": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -8711,7 +10655,9 @@
     "parameters": {},
     "locales": {
       "en": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as member of",
     "latex": "a\\in A",
@@ -8719,7 +10665,9 @@
     "reference": "en",
     "order": {
       "en": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -8730,7 +10678,9 @@
       "en": 0,
       "de": 0,
       "fr": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as element of",
     "latex": "a\\in A",
@@ -8740,7 +10690,9 @@
       "en": {},
       "de": {},
       "fr": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -8751,7 +10703,9 @@
       "en": 0,
       "de": 0,
       "fr": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as is in",
     "latex": "a\\in A",
@@ -8761,7 +10715,9 @@
       "en": {},
       "de": {},
       "fr": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -8772,7 +10728,9 @@
       "en": 0,
       "de": 0,
       "fr": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as is belongs to",
     "latex": "a\\in A",
@@ -8782,7 +10740,9 @@
       "en": {},
       "de": {},
       "fr": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -8793,7 +10753,9 @@
       "en": 0,
       "de": 0,
       "fr": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as not member of. Fallback rule",
     "latex": "a\\not\\in A",
@@ -8803,7 +10765,9 @@
       "en": {},
       "de": {},
       "fr": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -8812,7 +10776,9 @@
     "parameters": {},
     "locales": {
       "en": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as not member of",
     "latex": "a\\not\\in A",
@@ -8820,7 +10786,9 @@
     "reference": "en",
     "order": {
       "en": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -8831,7 +10799,9 @@
       "en": 0,
       "de": 0,
       "fr": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as not element of",
     "latex": "a\\not\\in A",
@@ -8841,7 +10811,9 @@
       "en": {},
       "de": {},
       "fr": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -8852,7 +10824,9 @@
       "en": 0,
       "de": 0,
       "fr": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as not in",
     "latex": "a\\not\\in A",
@@ -8862,7 +10836,9 @@
       "en": {},
       "de": {},
       "fr": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },
@@ -8873,7 +10849,9 @@
       "en": 0,
       "de": 0,
       "fr": 0,
-      "it": 0
+      "it": 0,
+      "nn": 0,
+      "nb": 0
     },
     "description": "Set membership symbol not within a set expression. Interpreted as not belong to",
     "latex": "a\\not\\in A",
@@ -8883,7 +10861,9 @@
       "en": {},
       "de": {},
       "fr": {},
-      "it": {}
+      "it": {},
+      "nn": {},
+      "nb": {}
     },
     "maximum": 0
   },

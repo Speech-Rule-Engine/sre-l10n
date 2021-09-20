@@ -15,18 +15,6 @@ font:
   - %1
   - %2 (pause:kort)
 
-# A character in fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.
-# %1: The character in fraktur font
-german-font:
-  - $1: "gotisk"
-  - %1
-
-# A character in bold fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.
-# %1: The character in bold fraktur font
-german-font-bold:
-  - $1: "fet gotisk"
-  - %1
-
 # Speaking an open ended ellipsis in AndSoOn preference
 # Example: a comma b comma and so on
 # LaTeX Example: $a, b, \ldots$
@@ -205,12 +193,6 @@ set-not-member-in:
 # LaTeX Example: $a\not\in A$
 set-not-member-belongs:
   - $1: "tilhører ikke"
-
-# A leading article is introduced. Only used in locales where articles are used for fractions or functions
-# %1: The expression translated without article.
-# article:
-#   - $1: 
-#   - %1
 
 # Fallback rule for function application
 # Example: f of x
@@ -473,9 +455,8 @@ superscript-non-ordinal:
 # %1: The function symbol
 # %2: The exponent
 superscript-simple-function:
- # - %1 (grammar:addArticle)
   - $1: "med eksponent" (pause:short)
-  - %2
+  - %1
 
 # Simple letter function (e.g., f, g, h) with exponent explicitly not spoken as a function. Usually does not need to be localised.
 # %1: The single letter function with exponent
@@ -968,7 +949,7 @@ sqrt-plus-minus-posnegsqrootend:
 # Adds a end root announcement if necessary.
 # %1: The square root.
 sqrt-nested-plus-minus-posnegsqrootend:
-  - $1:  "den positive kvadratroten av"
+  - $1: "den positive kvadratroten av"
   - %1 (pause:short)
 
 # Adds a end root announcement if necessary.
@@ -1014,14 +995,14 @@ cubic-nested:
 # %2: Content of the radical
 root:
   - $1: "roten av"
-  - %2 (pause:short)
+  - %1 (pause:short)
 
 # An nested root with explicit index. Never spoken with `end root` announcement.
 # %1: Index of the root
 # %2: Content of the radical
 root-nested:
   - $1: "roten av"
-  - %2 (pause:short)
+  - %1 (pause:short)
 
 # Adds a end root announcement if necessary.
 # %1: The root
@@ -1184,9 +1165,9 @@ fences-metric-absend:
 # %3: The matrix
 matrix:
   - %1
-  - $2: "ganger"
+  - $1: "ganger"
   - %2
-  - $3: "matrisen" (pause:long)
+  - $2: "matrisen" (pause:long)
   - %3 (context:"rad-:", pause:long)
 
 # Rule for matrices with only simple entries, speaking dimensions and content of the matrix with row indicators only.
@@ -1197,9 +1178,9 @@ matrix:
 # %3: The matrix
 matrix-simple:
   - %1
-  - $2: "ganger"
+  - $1: "ganger"
   - %2
-  - $3: "matrisen" (pause:long)
+  - $2: "matrisen" (pause:long)
   - %3 (context:"rad-:", pause:long)
 
 # Rule for a one by one matrix.
@@ -1242,9 +1223,9 @@ determinant-simple:
 # %3: The matrix
 matrix-vector:
   - %1
-  - $2: "ganger"
+  - $1: "ganger"
   - %2
-  - $3: "kolonnematrise" (pause:long)
+  - $2: "kolonnematrise" (pause:long)
   - %3 (context:"rad-:", pause:long)
 
 # Rule for speaking column vectors as matrices with simple element not indicating rows. Vectors of up to dimension 3.
@@ -1253,9 +1234,9 @@ matrix-vector:
 # %3: The matrix
 matrix-vector-simple:
   - %1
-  - $2: "ganger"
+  - $1: "ganger"
   - %2
-  - $3: "kolonnematrise" (pause:long)
+  - $2: "kolonnematrise" (pause:long)
   - %3 (pause:long)
 
 # Same as matrix-vector-simple just for the Matrix_SilentColNum preference.
@@ -1264,9 +1245,9 @@ matrix-vector-simple:
 # %3: The matrix
 matrix-vector-simple-silentcolnum:
   - %1
-  - $2: "ganger"
+  - $1: "ganger"
   - %2
-  - $3: "kolonnematrise" (pause:long)
+  - $2: "kolonnematrise" (pause:long)
   - %3 (pause:long)
 
 # Rule for speaking row vectors as matrices.
@@ -1275,9 +1256,9 @@ matrix-vector-simple-silentcolnum:
 # %3: The matrix
 matrix-row-vector:
   - %1
-  - $2: "ganger"
+  - $1: "ganger"
   - %2
-  - $3: "radmatrise" (pause:long)
+  - $2: "radmatrise" (pause:long)
   - %3 (context:"kolonne-:", pause:long)
 
 # Rule for speaking row vectors as matrices with simple element not indicating rows. Vectors of up to dimension 3.
@@ -1286,9 +1267,9 @@ matrix-row-vector:
 # %3: The matrix
 matrix-row-vector-simple:
   - %1
-  - $2: "ganger"
+  - $1: "ganger"
   - %2
-  - $3: "radmatrise" (pause:long)
+  - $2: "radmatrise" (pause:long)
   - %3 (pause:long)
 
 # Same as matri-row-vector-simple just for the Matrix_SilentColNum preference.
@@ -1297,9 +1278,9 @@ matrix-row-vector-simple:
 # %3: The matrix
 matrix-row-vector-simple-silentcolnum:
   - %1
-  - $2: "ganger"
+  - $1: "ganger"
   - %2
-  - $3: "radmatrise" (pause:long)
+  - $2: "radmatrise" (pause:long)
   - %3 (pause:long)
 
 # Iterates over each cell of a matrix row adding the prefix Column
@@ -1331,9 +1312,9 @@ matrix-end-determinant:
 # %3: The vector
 vector:
   - %1
-  - $2: "ganger"
+  - $1: "ganger"
   - %2
-  - $3: "kolonnevektor" (pause:long)
+  - $2: "kolonnevektor" (pause:long)
   - %3 (context:"rad-:", pause:long)
 
 # Vector with simple elements and dimension at most 3. Content is spoken without row indicators.
@@ -1342,9 +1323,9 @@ vector:
 # %3: The vector
 vector-simple:
   - %1
-  - $2: "ganger"
+  - $1: "ganger"
   - %2
-  - $3: "kolonnevektor" (pause:long)
+  - $2: "kolonnevektor" (pause:long)
   - %3 (pause:long)
 
 # Base row vector rule speaking dimensions and content of the vector with column indicators.
@@ -1353,9 +1334,9 @@ vector-simple:
 # %3: The vector
 row-vector:
   - %1
-  - $2: "ganger"
+  - $1: "ganger"
   - %2
-  - $3: "radvektor" (pause:long)
+  - $2: "radvektor" (pause:long)
   - %3 (context:"kolonne-:", pause:long)
 
 # Row vector with simple elements. Content is spoken without column indicators.
@@ -1364,9 +1345,9 @@ row-vector:
 # %3: The vector
 row-vector-simple:
   - %1
-  - $2: "ganger"
+  - $1: "ganger"
   - %2
-  - $3: "radvektor" (pause:long)
+  - $2: "radvektor" (pause:long)
   - %3 (pause:long)
 
 # Adds an explicit 'end matrix' after a matrix.
@@ -1909,9 +1890,9 @@ cancel-under:
 # %2: Its replacement
 cancel-over-end:
   - %1
-  - $2: "utkrysset med"
+  - $1: "utkrysset med"
   - %2
-  - $3: "slutt utkrysset"
+  - $2: "slutt utkrysset"
 
 # A canceled expression with replacement under it with explicit end indicator (Enclosed_EndEnclose preference)
 # Example: 12 crossed out with 4 end crossout
@@ -1919,6 +1900,6 @@ cancel-over-end:
 # %2: Its replacement
 cancel-under-end:
   - %1
-  - $2: "utkrysset med"
+  - $1: "utkrysset med"
   - %2
-  - $3: "slutt utkrysset"
+  - $2: "slutt utkrysset"

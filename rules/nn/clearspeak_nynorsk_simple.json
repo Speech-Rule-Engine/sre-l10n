@@ -1,17 +1,17 @@
 {
   "collapsed": [
-    "$1: \"kollapset\"",
+    "$1: \"kollapsa\"",
     "%1"
   ],
   "font": [
     "%1",
-    "%2 (pause:kort)"
+    "%2 (pause:short)"
   ],
   "ellipsis": [
-    "$1: \"og så videre\""
+    "$1: \"og så vidare\""
   ],
   "ellipsis-andsoon": [
-    "$1: \"og så videre til\""
+    "$1: \"og så vidare til\""
   ],
   "vbar-evaluated": [
     "%1 (pause:short)",
@@ -22,7 +22,7 @@
     "%1 (pause:short)",
     "$1: \"evaluert for\"",
     "%2 (pause:short)",
-    "$2: \"minus det samme uttrykket evaluert for\"",
+    "$2: \"minus det same uttrykket evaluert for\"",
     "%3 (pause:short)"
   ],
   "vbar-such-that": [
@@ -38,31 +38,31 @@
     "$1: \"gitt\""
   ],
   "member": [
-    "$1: \"er et element av\""
+    "$1: \"er eit element av\""
   ],
   "member-member": [
-    "$1: \"er et element av\""
+    "$1: \"er eit element av\""
   ],
   "member-element": [
-    "$1: \"er et element av\""
+    "$1: \"er eit element av\""
   ],
   "member-in": [
     "$1: \"er i\""
   ],
   "member-belongs": [
-    "$1: \"tilhører\""
+    "$1: \"tilhøyrer\""
   ],
   "not-member": [
-    "$1: \"er ikke et element av\""
+    "$1: \"er ikkje eit element av\""
   ],
   "not-member-member": [
-    "$1: \"er ikke et element av\""
+    "$1: \"er ikkje eit element av\""
   ],
   "not-member-element": [
-    "$1: \"er ikke et element av\""
+    "$1: \"er ikkje eit element av\""
   ],
   "not-member-in": [
-    "$1: \"er ikke i\""
+    "$1: \"er ikkje i\""
   ],
   "not-member-belongs": [
     "$1: \"tilhører ikke\""
@@ -80,22 +80,22 @@
     "$1: \"i\""
   ],
   "set-member-belongs": [
-    "$1: \"tilhørende\""
+    "$1: \"tilhøyrande\""
   ],
   "set-not-member": [
-    "$1: \"ikke i\""
+    "$1: \"ikkje i\""
   ],
   "set-not-member-member": [
-    "$1: \"ikke et element av\""
+    "$1: \"ikkje eit element av\""
   ],
   "set-not-member-element": [
-    "$1: \"ikke et element av\""
+    "$1: \"ikkje eit element av\""
   ],
   "set-not-member-in": [
-    "$1: \"ikke i\""
+    "$1: \"ikkje i\""
   ],
   "set-not-member-belongs": [
-    "$1: \"tilhører ikke\""
+    "$1: \"tilhøyrer ikkje\""
   ],
   "appl": [
     "%1",
@@ -179,17 +179,17 @@
     "%2 (pause:short)"
   ],
   "function-prefix-arc-simple": [
-    "$1: \"bue\"",
+    "$1: \"boge\"",
     "%1",
     "%2 (pause:short)"
   ],
   "function-prefix-arc-simple-fenced": [
-    "$1: \"bue\"",
+    "$1: \"boge\"",
     "%1 (pause:short)",
     "%2 (pause:short)"
   ],
   "function-prefix-arc": [
-    "$1: \"bue\"",
+    "$1: \"boge\"",
     "%1",
     "$2: \"av\"",
     "%2 (pause:short)"
@@ -205,18 +205,18 @@
   ],
   "superscript": [
     "%1",
-    "$1: \"hevet til eksponenten\" (pause:short)",
+    "$1: \"heva til eksponenten\" (pause:short)",
     "%2 (pause:short)",
     "$2: \"end exponent\" (pause:short)"
   ],
   "superscript-simple-exponent": [
     "%1",
-    "$1: \"hevet til\"",
+    "$1: \"heva til\"",
     "%2 (pause:short)"
   ],
   "superscript-simple-exponent-end": [
     "%1",
-    "$1: \"hevet til\"",
+    "$1: \"heva til\"",
     "%2 (pause:short)"
   ],
   "superscript-ordinal": [
@@ -239,12 +239,12 @@
   ],
   "superscript-ordinal-number": [
     "%1",
-    "$1: \"opphøyd i\"",
+    "$1: \"opphøgd i\"",
     "%2 (pause:short)"
   ],
   "superscript-ordinal-negative": [
     "%1",
-    "$1: \"opphøyd i\"",
+    "$1: \"opphøgd i\"",
     "%2 (pause:short)"
   ],
   "superscript-ordinal-default": [
@@ -255,33 +255,33 @@
   ],
   "superscript-ordinal-power-number": [
     "%1",
-    "$1: \"opphøyd i\"",
+    "$1: \"opphøgd i\"",
     "%2 (pause:short)"
   ],
   "superscript-ordinal-power-negative": [
     "%1",
-    "$1: \"opphøyd i\"",
+    "$1: \"opphøgd i\"",
     "%2 (pause:short)"
   ],
   "superscript-ordinal-power-identifier": [
     "%1",
-    "$1: \"opphøyd i\"",
+    "$1: \"opphøgd i\"",
     "%2 (pause:short)"
   ],
   "superscript-ordinal-power-default": [
     "%1",
-    "$1: \"opphøyd til eksponenten\" (pause:short)",
+    "$1: \"opphøgd til eksponenten\" (pause:short)",
     "%2 (pause:short)",
     "$2: \"slutt eksponent\" (pause:short)"
   ],
   "superscript-power": [
     "%1",
-    "$1: \"opphøyd i\"",
+    "$1: \"opphøgd i\"",
     "%2 (pause:short)"
   ],
   "superscript-power-default": [
     "%1",
-    "$1: \"opphøyd til eksponenten\" (pause:short)",
+    "$1: \"opphøgd til eksponenten\" (pause:short)",
     "%2 (pause:short)",
     "$2: \"slutt eksponent\" (pause:short)"
   ],
@@ -313,18 +313,18 @@
     "$1: \"kubikk\""
   ],
   "fences-points": [
-    "$1: \"punktet med koordinater\"",
+    "$1: \"punktet med koordinatar\"",
     "%1"
   ],
   "fences-interval": [
-    "$1: \"intervallet fra\"",
+    "$1: \"intervallet frå\"",
     "%1",
     "$2: \"til\"",
     "%2 (pause:short)",
     "%3"
   ],
   "interval-open": [
-    "$1: \"uten\"",
+    "$1: \"utan\"",
     "%1",
     "$2: \"eller\"",
     "%2"
@@ -332,11 +332,11 @@
   "interval-closed-open": [
     "$1: \"inkludert\"",
     "%1 (pause:short)",
-    "$2: \"men uten\"",
+    "$2: \"men utan\"",
     "%2"
   ],
   "interval-open-closed": [
-    "$1: \"uten\"",
+    "$1: \"utan\"",
     "%1 (pause:short)",
     "$2: \"men inkludert\"",
     "%2"
@@ -348,11 +348,11 @@
     "%2"
   ],
   "interval-open-inf-r": [
-    "$1: \"uten\"",
+    "$1: \"utan\"",
     "%1"
   ],
   "interval-open-inf-l": [
-    "$1: \"uten\"",
+    "$1: \"utan\"",
     "%1"
   ],
   "interval-closed-open-inf": [
@@ -364,20 +364,20 @@
     "%1"
   ],
   "set-empty": [
-    "$1: \"den tomme mengden\""
+    "$1: \"den tomme mengda\""
   ],
   "set-extended": [
-    "$1: \"hele mengden\"",
+    "$1: \"heile mengda\"",
     "%1",
     "$2: \"med\"",
     "%2"
   ],
   "set-collection": [
-    "$1: \"mengden\"",
+    "$1: \"mengda\"",
     "%1"
   ],
   "set-extended-woall": [
-    "$1: \"mengden av\"",
+    "$1: \"mengda av\"",
     "%1",
     "$2: \"med\"",
     "%2"
@@ -398,15 +398,15 @@
     "%2"
   ],
   "fraction": [
-    "$1: \"brøk med teller\"",
+    "$1: \"brøk med tellar\"",
     "%1 (pause:short)",
-    "$2: \"og nevner\"",
+    "$2: \"og nemnar\"",
     "%2 (pause:short)"
   ],
   "fraction-none": [
-    "$1: \"brøk med teller\"",
+    "$1: \"brøk med tellar\"",
     "%1 (pause:short)",
-    "$2: \"og nevner\"",
+    "$2: \"og nemnar\"",
     "%2 (pause:short)"
   ],
   "simple-fraction": [
@@ -450,16 +450,16 @@
     "%2 (pause:short)"
   ],
   "fraction-generalendfrac": [
-    "$1: \"brøk med teller\"",
+    "$1: \"brøk med tellar\"",
     "%1 (pause:short)",
-    "$2: \"og nevner\"",
+    "$2: \"og nemnar\"",
     "%2 (pause:short)",
     "$3: \"slutt brøk\" (pause:short)"
   ],
   "fraction-general": [
-    "$1: \"brøk med teller\"",
+    "$1: \"brøk med tellar\"",
     "%1 (pause:short)",
-    "$2: \"og nevner\"",
+    "$2: \"og nemnar\"",
     "%2 (pause:short)"
   ],
   "simple-vulgar-fraction-ordinal": [
@@ -478,35 +478,35 @@
     "%1"
   ],
   "sqrt": [
-    "$1: \"kvadratroten av\"",
+    "$1: \"kvadratrota av\"",
     "%1 (pause:short)"
   ],
   "sqrt-nested": [
-    "$1: \"kvadratroten av\"",
+    "$1: \"kvadratrota av\"",
     "%1 (pause:short)"
   ],
   "negative-sqrt": [
-    "$1: \"den negative kvadratroten av\"",
+    "$1: \"den negative kvadratrota av\"",
     "%1 (pause:short)"
   ],
   "negative-sqrt-default": [
-    "$1: \"den negative kvadratroten av\"",
+    "$1: \"den negative kvadratrota av\"",
     "%1 (pause:short)"
   ],
   "sqrt-plus-minus": [
-    "$1: \"den positive kvadratroten av\"",
+    "$1: \"den positive kvadratrota av\"",
     "%1 (pause:short)"
   ],
   "sqrt-nested-plus-minus": [
-    "$1: \"den positive kvadratroten av\"",
+    "$1: \"den positive kvadratrota av\"",
     "%1 (pause:short)"
   ],
   "sqrt-plus-minus-posnegsqrootend": [
-    "$1: \"den positive kvadratroten av\"",
+    "$1: \"den positive kvadratrota av\"",
     "%1 (pause:short)"
   ],
   "sqrt-nested-plus-minus-posnegsqrootend": [
-    "$1: \"den positive kvadratroten av\"",
+    "$1: \"den positive kvadratrota av\"",
     "%1 (pause:short)"
   ],
   "sqrt-endroot": [
@@ -526,19 +526,19 @@
     "$1: \"slutt rot\" (pause:short)"
   ],
   "cubic": [
-    "$1: \"kubikkroten av\"",
+    "$1: \"kubikkrota av\"",
     "%1 (pause:short)"
   ],
   "cubic-nested": [
-    "$1: \"kubikkroten av\"",
+    "$1: \"kubikkrota av\"",
     "%1 (pause:short)"
   ],
   "root": [
-    "$1: \"roten av\"",
+    "$1: \"rota av\"",
     "%1 (pause:short)"
   ],
   "root-nested": [
-    "$1: \"roten av\"",
+    "$1: \"rota av\"",
     "%1 (pause:short)"
   ],
   "root-endroot": [
@@ -575,34 +575,34 @@
     "%1"
   ],
   "natural-numbers": [
-    "$1: \"de naturlige tallene\""
+    "$1: \"dei naturlege tala\""
   ],
   "integers": [
-    "$1: \"heltallene\""
+    "$1: \"heiltala\""
   ],
   "rational-numbers": [
-    "$1: \"de rasjonale tallene\""
+    "$1: \"dei rasjonale tala\""
   ],
   "real-numbers": [
-    "$1: \"de reelle tallene\""
+    "$1: \"dei reelle tala\""
   ],
   "complex-numbers": [
-    "$1: \"de komplekse tallene\""
+    "$1: \"dei komplekse tala\""
   ],
   "natural-numbers-with-zero": [
-    "$1: \"de naturlige tallene med null\""
+    "$1: \"dei naturlege tala med null\""
   ],
   "positive-integers": [
-    "$1: \"de positive heltallene\""
+    "$1: \"dei positive heiltala\""
   ],
   "negative-integers": [
-    "$1: \"de negative heltallene\""
+    "$1: \"dei negative heltala\""
   ],
   "positive-rational-numbers": [
-    "$1: \"de positive rasjonale tallene\""
+    "$1: \"de positive rasjonale tala\""
   ],
   "negative-rational-numbers": [
-    "$1: \"de negative rasjonale tallene\""
+    "$1: \"de negative rasjonale tala\""
   ],
   "fences-neutral": [
     "$1: \"den absolutte verdien av\"",
@@ -622,19 +622,19 @@
     "%1 (pause:short)"
   ],
   "fences-metric": [
-    "$1: \"beregningen av\"",
+    "$1: \"berekninga av\"",
     "%1 (pause:short)"
   ],
   "fences-metric-absend": [
-    "$1: \"beregningen av\"",
+    "$1: \"berekninga av\"",
     "%1 (pause:short)",
-    "$2: \"slutt beregning\" (pause:short)"
+    "$2: \"slutt berekning\" (pause:short)"
   ],
   "matrix": [
     "%1",
     "$1: \"ganger\"",
     "%2",
-    "$2: \"matrisen\" (pause:long)",
+    "$2: \"matrisa\" (pause:long)",
     "%3 (context:\"rad-:\", pause:long)"
   ],
   "matrix-simple": [
@@ -645,7 +645,7 @@
     "%3 (context:\"rad-:\", pause:long)"
   ],
   "matrix-trivial": [
-    "$1: \"1 ganger 1 matrisen med element\"",
+    "$1: \"1 ganger 1 matrisa med element\"",
     "%1 (pause:long)"
   ],
   "determinant": [
@@ -653,7 +653,7 @@
     "%1",
     "$2: \"ganger\"",
     "%2",
-    "$3: \"matrisen\" (pause:long)",
+    "$3: \"matrisa\" (pause:long)",
     "%3 (context:\"rad-:\", pause:long)"
   ],
   "determinant-simple": [
@@ -661,7 +661,7 @@
     "%1",
     "$2: \"ganger\"",
     "%2",
-    "$3: \"matrisen\" (pause:long)",
+    "$3: \"matrisa\" (pause:long)",
     "%3 (context:\"rad-:\", pause:long)"
   ],
   "matrix-vector": [
@@ -777,7 +777,7 @@
   ],
   "cases-summary": [
     "%1",
-    "$1: \"tilfeller\"",
+    "$1: \"tilfelle\"",
     "%2"
   ],
   "lines": [
@@ -800,7 +800,7 @@
   ],
   "lines-cases-summary": [
     "%1",
-    "$1: \"tilfeller\"",
+    "$1: \"tilfelle\"",
     "%2"
   ],
   "lines-cases": [
@@ -808,7 +808,7 @@
   ],
   "lines-equations-summary": [
     "%1",
-    "$1: \"ligninger\"",
+    "$1: \"likningar\"",
     "%2"
   ],
   "lines-equations": [
@@ -832,7 +832,7 @@
   ],
   "lines-constraints-summary": [
     "%1",
-    "$1: \"betingelser\"",
+    "$1: \"føresetnadar\"",
     "%2"
   ],
   "lines-constraints": [
@@ -845,7 +845,7 @@
   ],
   "limboth": [
     "%1",
-    "$1: \"fra\"",
+    "$1: \"frå\"",
     "%2",
     "$2: \"til\"",
     "%3"
@@ -882,7 +882,7 @@
   ],
   "underscript-limits": [
     "%1",
-    "$1: \"fra\"",
+    "$1: \"frå\"",
     "%2"
   ],
   "mixed-number": [
@@ -891,31 +891,31 @@
     "%2"
   ],
   "number-with-chars": [
-    "$1: \"tall\"",
+    "$1: \"tal\"",
     "%1"
   ],
   "decimal-period": [
     "$1: \"desimalbrøk\"",
     "%1",
-    "$2: \"komma etterfulgt av gjentatte siffer\"",
+    "$2: \"komma etterfølgt av gjentatte siffer\"",
     "%2"
   ],
   "decimal-period-float": [
     "$1: \"desimalbrøk\"",
     "%1",
-    "$2: \"etterfulgt av gjentatte siffer\"",
+    "$2: \"etterfølgt av gjentatte siffer\"",
     "%2"
   ],
   "decimal-period-singular": [
     "$1: \"desimalbrøk\"",
     "%1",
-    "$2: \"komma etterfulgt av gjentatt siffer\"",
+    "$2: \"komma etterfølgt av gjentatt siffer\"",
     "%2"
   ],
   "decimal-period-singular-float": [
     "$1: \"desimalbrøk\"",
     "%1",
-    "$2: \"etterfulgt av gjentatt siffer\"",
+    "$2: \"etterfølgt av gjentatt siffer\"",
     "%2"
   ],
   "decimal-point": [
@@ -935,7 +935,7 @@
   ],
   "adorned-sign": [
     "%1",
-    "$1: \"tegn med\"",
+    "$1: \"teikn med\"",
     "%2",
     "$2: \"over\""
   ],
@@ -959,19 +959,19 @@
     "%1"
   ],
   "right-super": [
-    "$1: \"høyre øvre indeks\"",
+    "$1: \"høgre øvre indeks\"",
     "%1"
   ],
   "right-super-list": [
-    "$1: \"høyre øvre indeks\"",
+    "$1: \"høgre øvre indeks\"",
     "%1"
   ],
   "right-sub": [
-    "$1: \"høyre nedre indeks\"",
+    "$1: \"høgre nedre indeks\"",
     "%1"
   ],
   "right-sub-list": [
-    "$1: \"høyre nedre indeks\"",
+    "$1: \"høgre nedre indeks\"",
     "%1"
   ],
   "choose": [
@@ -1006,15 +1006,15 @@
     "%2 (grammar:singular)"
   ],
   "enclose": [
-    "$1: \"omsluttet av\"",
+    "$1: \"omslutta av\"",
     "%1",
     "%2"
   ],
   "enclose-end": [
-    "$1: \"omsluttet av\"",
+    "$1: \"omslutta av\"",
     "%1",
     "%2",
-    "$2: \"slutt omsluttet\""
+    "$2: \"slutt omslutta\""
   ],
   "overbar": [
     "%1",
@@ -1033,34 +1033,34 @@
     "$1: \"vertikal strek\""
   ],
   "crossout": [
-    "$1: \"utkrysset\"",
+    "$1: \"utkryssa\"",
     "%1"
   ],
   "crossout-end": [
-    "$1: \"utkrysset\"",
+    "$1: \"utkryssa\"",
     "%1",
-    "$2: \"slutt utkrysset\""
+    "$2: \"slutt utkryssa\""
   ],
   "cancel-over": [
     "%1",
-    "$1: \"utkrysset med\"",
+    "$1: \"utkryssa med\"",
     "%2"
   ],
   "cancel-under": [
     "%1",
-    "$1: \"utkrysset med\"",
+    "$1: \"utkryssa med\"",
     "%2"
   ],
   "cancel-over-end": [
     "%1",
-    "$1: \"utkrysset med\"",
+    "$1: \"utkryssa med\"",
     "%2",
-    "$2: \"slutt utkrysset\""
+    "$2: \"slutt utkryssa\""
   ],
   "cancel-under-end": [
     "%1",
     "$1: \"utkrysset med\"",
     "%2",
-    "$2: \"slutt utkrysset\""
+    "$2: \"slutt utkryssa\""
   ]
 }

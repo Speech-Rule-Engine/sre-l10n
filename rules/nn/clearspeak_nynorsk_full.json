@@ -3,7 +3,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"kollapset\""
+        "content": "\"kollapsa\""
       },
       {
         "type": "NODE",
@@ -30,7 +30,7 @@
         "type": "NODE",
         "content": ".",
         "attributes": {
-          "pause": "kort"
+          "pause": "short"
         },
         "grammar": {
           "ignoreFont": "@font"
@@ -42,7 +42,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"og så videre\""
+        "content": "\"og så vidare\""
       }
     ]
   },
@@ -50,7 +50,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"og så videre til\""
+        "content": "\"og så vidare til\""
       }
     ]
   },
@@ -98,7 +98,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"minus det samme uttrykket evaluert for\""
+        "content": "\"minus det same uttrykket evaluert for\""
       },
       {
         "type": "NODE",
@@ -145,7 +145,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"er et element av\""
+        "content": "\"er eit element av\""
       }
     ]
   },
@@ -153,7 +153,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"er et element av\""
+        "content": "\"er eit element av\""
       }
     ]
   },
@@ -161,7 +161,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"er et element av\""
+        "content": "\"er eit element av\""
       }
     ]
   },
@@ -177,7 +177,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"tilhører\""
+        "content": "\"tilhøyrer\""
       }
     ]
   },
@@ -185,7 +185,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"er ikke et element av\""
+        "content": "\"er ikkje eit element av\""
       }
     ]
   },
@@ -193,7 +193,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"er ikke et element av\""
+        "content": "\"er ikkje eit element av\""
       }
     ]
   },
@@ -201,7 +201,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"er ikke et element av\""
+        "content": "\"er ikkje eit element av\""
       }
     ]
   },
@@ -209,7 +209,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"er ikke i\""
+        "content": "\"er ikkje i\""
       }
     ]
   },
@@ -257,7 +257,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"tilhørende\""
+        "content": "\"tilhøyrande\""
       }
     ]
   },
@@ -265,7 +265,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"ikke i\""
+        "content": "\"ikkje i\""
       }
     ]
   },
@@ -273,7 +273,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"ikke et element av\""
+        "content": "\"ikkje eit element av\""
       }
     ]
   },
@@ -281,7 +281,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"ikke et element av\""
+        "content": "\"ikkje eit element av\""
       }
     ]
   },
@@ -289,7 +289,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"ikke i\""
+        "content": "\"ikkje i\""
       }
     ]
   },
@@ -297,7 +297,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"tilhører ikke\""
+        "content": "\"tilhøyrer ikkje\""
       }
     ]
   },
@@ -672,7 +672,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"bue\""
+        "content": "\"boge\""
       },
       {
         "type": "NODE",
@@ -697,7 +697,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"bue\""
+        "content": "\"boge\""
       },
       {
         "type": "NODE",
@@ -725,7 +725,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"bue\""
+        "content": "\"boge\""
       },
       {
         "type": "NODE",
@@ -784,7 +784,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"hevet til eksponenten\"",
+        "content": "\"heva til eksponenten\"",
         "attributes": {
           "pause": "short"
         }
@@ -813,7 +813,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"hevet til\""
+        "content": "\"heva til\""
       },
       {
         "type": "NODE",
@@ -835,7 +835,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"hevet til\""
+        "content": "\"heva til\""
       },
       {
         "type": "NODE",
@@ -932,7 +932,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"opphøyd i\""
+        "content": "\"opphøgd i\""
       },
       {
         "type": "NODE",
@@ -955,7 +955,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"opphøyd i\""
+        "content": "\"opphøgd i\""
       },
       {
         "type": "NODE",
@@ -1006,7 +1006,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"opphøyd i\""
+        "content": "\"opphøgd i\""
       },
       {
         "type": "NODE",
@@ -1029,7 +1029,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"opphøyd i\""
+        "content": "\"opphøgd i\""
       },
       {
         "type": "NODE",
@@ -1051,7 +1051,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"opphøyd i\""
+        "content": "\"opphøgd i\""
       },
       {
         "type": "NODE",
@@ -1074,7 +1074,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"opphøyd til eksponenten\"",
+        "content": "\"opphøgd til eksponenten\"",
         "attributes": {
           "pause": "short"
         }
@@ -1103,7 +1103,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"opphøyd i\""
+        "content": "\"opphøgd i\""
       },
       {
         "type": "NODE",
@@ -1125,7 +1125,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"opphøyd til eksponenten\"",
+        "content": "\"opphøgd til eksponenten\"",
         "attributes": {
           "pause": "short"
         }
@@ -1235,7 +1235,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"punktet med koordinater\""
+        "content": "\"punktet med koordinatar\""
       },
       {
         "type": "NODE",
@@ -1247,7 +1247,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"intervallet fra\""
+        "content": "\"intervallet frå\""
       },
       {
         "type": "NODE",
@@ -1277,7 +1277,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"uten\""
+        "content": "\"utan\""
       },
       {
         "type": "NODE",
@@ -1308,7 +1308,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"men uten\""
+        "content": "\"men utan\""
       },
       {
         "type": "NODE",
@@ -1320,7 +1320,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"uten\""
+        "content": "\"utan\""
       },
       {
         "type": "NODE",
@@ -1363,7 +1363,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"uten\""
+        "content": "\"utan\""
       },
       {
         "type": "NODE",
@@ -1375,7 +1375,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"uten\""
+        "content": "\"utan\""
       },
       {
         "type": "NODE",
@@ -1411,7 +1411,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"den tomme mengden\""
+        "content": "\"den tomme mengda\""
       }
     ]
   },
@@ -1419,7 +1419,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"hele mengden\""
+        "content": "\"heile mengda\""
       },
       {
         "type": "NODE",
@@ -1439,7 +1439,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"mengden\""
+        "content": "\"mengda\""
       },
       {
         "type": "NODE",
@@ -1451,7 +1451,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"mengden av\""
+        "content": "\"mengda av\""
       },
       {
         "type": "NODE",
@@ -1534,7 +1534,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"brøk med teller\""
+        "content": "\"brøk med tellar\""
       },
       {
         "type": "NODE",
@@ -1545,7 +1545,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"og nevner\""
+        "content": "\"og nemnar\""
       },
       {
         "type": "NODE",
@@ -1566,7 +1566,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"brøk med teller\""
+        "content": "\"brøk med tellar\""
       },
       {
         "type": "NODE",
@@ -1577,7 +1577,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"og nevner\""
+        "content": "\"og nemnar\""
       },
       {
         "type": "NODE",
@@ -1792,7 +1792,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"brøk med teller\""
+        "content": "\"brøk med tellar\""
       },
       {
         "type": "NODE",
@@ -1803,7 +1803,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"og nevner\""
+        "content": "\"og nemnar\""
       },
       {
         "type": "NODE",
@@ -1831,7 +1831,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"brøk med teller\""
+        "content": "\"brøk med tellar\""
       },
       {
         "type": "NODE",
@@ -1842,7 +1842,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"og nevner\""
+        "content": "\"og nemnar\""
       },
       {
         "type": "NODE",
@@ -1922,7 +1922,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"kvadratroten av\""
+        "content": "\"kvadratrota av\""
       },
       {
         "type": "NODE",
@@ -1946,7 +1946,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"kvadratroten av\""
+        "content": "\"kvadratrota av\""
       },
       {
         "type": "NODE",
@@ -1964,7 +1964,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"den negative kvadratroten av\""
+        "content": "\"den negative kvadratrota av\""
       },
       {
         "type": "NODE",
@@ -1988,7 +1988,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"den negative kvadratroten av\""
+        "content": "\"den negative kvadratrota av\""
       },
       {
         "type": "NODE",
@@ -2006,7 +2006,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"den positive kvadratroten av\""
+        "content": "\"den positive kvadratrota av\""
       },
       {
         "type": "NODE",
@@ -2030,7 +2030,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"den positive kvadratroten av\""
+        "content": "\"den positive kvadratrota av\""
       },
       {
         "type": "NODE",
@@ -2048,7 +2048,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"den positive kvadratroten av\""
+        "content": "\"den positive kvadratrota av\""
       },
       {
         "type": "NODE",
@@ -2072,7 +2072,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"den positive kvadratroten av\""
+        "content": "\"den positive kvadratrota av\""
       },
       {
         "type": "NODE",
@@ -2162,7 +2162,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"kubikkroten av\""
+        "content": "\"kubikkrota av\""
       },
       {
         "type": "NODE",
@@ -2186,7 +2186,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"kubikkroten av\""
+        "content": "\"kubikkrota av\""
       },
       {
         "type": "NODE",
@@ -2204,7 +2204,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"roten av\""
+        "content": "\"rota av\""
       },
       {
         "type": "NODE",
@@ -2228,7 +2228,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"roten av\""
+        "content": "\"rota av\""
       },
       {
         "type": "NODE",
@@ -2377,7 +2377,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"de naturlige tallene\"",
+        "content": "\"dei naturlege tala\"",
         "attributes": {
           "span": "."
         }
@@ -2388,7 +2388,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"heltallene\"",
+        "content": "\"heiltala\"",
         "attributes": {
           "span": "."
         }
@@ -2399,7 +2399,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"de rasjonale tallene\"",
+        "content": "\"dei rasjonale tala\"",
         "attributes": {
           "span": "."
         }
@@ -2410,7 +2410,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"de reelle tallene\"",
+        "content": "\"dei reelle tala\"",
         "attributes": {
           "span": "."
         }
@@ -2421,7 +2421,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"de komplekse tallene\"",
+        "content": "\"dei komplekse tala\"",
         "attributes": {
           "span": "."
         }
@@ -2432,7 +2432,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"de naturlige tallene med null\"",
+        "content": "\"dei naturlege tala med null\"",
         "attributes": {
           "span": "."
         }
@@ -2443,7 +2443,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"de positive heltallene\"",
+        "content": "\"dei positive heiltala\"",
         "attributes": {
           "span": "."
         }
@@ -2454,7 +2454,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"de negative heltallene\"",
+        "content": "\"dei negative heltala\"",
         "attributes": {
           "span": "."
         }
@@ -2465,7 +2465,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"de positive rasjonale tallene\"",
+        "content": "\"de positive rasjonale tala\"",
         "attributes": {
           "span": "."
         }
@@ -2476,7 +2476,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"de negative rasjonale tallene\"",
+        "content": "\"de negative rasjonale tala\"",
         "attributes": {
           "span": "."
         }
@@ -2597,7 +2597,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"beregningen av\"",
+        "content": "\"berekninga av\"",
         "attributes": {
           "span": "."
         }
@@ -2621,7 +2621,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"beregningen av\"",
+        "content": "\"berekninga av\"",
         "attributes": {
           "span": "content/*[1]"
         }
@@ -2635,7 +2635,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"slutt beregning\"",
+        "content": "\"slutt berekning\"",
         "attributes": {
           "span": "content/*[1]",
           "pause": "short"
@@ -2659,7 +2659,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"matrisen\"",
+        "content": "\"matrisa\"",
         "attributes": {
           "pause": "long"
         }
@@ -2714,7 +2714,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"1 ganger 1 matrisen med element\""
+        "content": "\"1 ganger 1 matrisa med element\""
       },
       {
         "type": "NODE",
@@ -2745,7 +2745,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"matrisen\"",
+        "content": "\"matrisa\"",
         "attributes": {
           "pause": "long"
         }
@@ -2784,7 +2784,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"matrisen\"",
+        "content": "\"matrisa\"",
         "attributes": {
           "pause": "long"
         }
@@ -3325,7 +3325,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"tilfeller\""
+        "content": "\"tilfelle\""
       },
       {
         "type": "NODE",
@@ -3424,7 +3424,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"tilfeller\""
+        "content": "\"tilfelle\""
       },
       {
         "type": "NODE",
@@ -3470,7 +3470,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"ligninger\""
+        "content": "\"likningar\""
       },
       {
         "type": "NODE",
@@ -3608,7 +3608,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"betingelser\""
+        "content": "\"føresetnadar\""
       },
       {
         "type": "NODE",
@@ -3670,7 +3670,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"fra\""
+        "content": "\"frå\""
       },
       {
         "type": "NODE",
@@ -3808,7 +3808,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"fra\""
+        "content": "\"frå\""
       },
       {
         "type": "NODE",
@@ -3836,7 +3836,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"tall\""
+        "content": "\"tal\""
       },
       {
         "type": "MULTI",
@@ -3862,7 +3862,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"komma etterfulgt av gjentatte siffer\""
+        "content": "\"komma etterfølgt av gjentatte siffer\""
       },
       {
         "type": "NODE",
@@ -3888,7 +3888,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"etterfulgt av gjentatte siffer\""
+        "content": "\"etterfølgt av gjentatte siffer\""
       },
       {
         "type": "NODE",
@@ -3914,7 +3914,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"komma etterfulgt av gjentatt siffer\""
+        "content": "\"komma etterfølgt av gjentatt siffer\""
       },
       {
         "type": "NODE",
@@ -3940,7 +3940,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"etterfulgt av gjentatt siffer\""
+        "content": "\"etterfølgt av gjentatt siffer\""
       },
       {
         "type": "NODE",
@@ -4009,7 +4009,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"tegn med\""
+        "content": "\"teikn med\""
       },
       {
         "type": "NODE",
@@ -4081,7 +4081,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"høyre øvre indeks\""
+        "content": "\"høgre øvre indeks\""
       },
       {
         "type": "NODE",
@@ -4093,7 +4093,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"høyre øvre indeks\""
+        "content": "\"høgre øvre indeks\""
       },
       {
         "type": "MULTI",
@@ -4105,7 +4105,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"høyre nedre indeks\""
+        "content": "\"høgre nedre indeks\""
       },
       {
         "type": "NODE",
@@ -4117,7 +4117,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"høyre nedre indeks\""
+        "content": "\"høgre nedre indeks\""
       },
       {
         "type": "MULTI",
@@ -4243,7 +4243,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"omsluttet av\""
+        "content": "\"omslutta av\""
       },
       {
         "type": "TEXT",
@@ -4262,7 +4262,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"omsluttet av\""
+        "content": "\"omslutta av\""
       },
       {
         "type": "TEXT",
@@ -4277,7 +4277,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"slutt omsluttet\""
+        "content": "\"slutt omslutta\""
       }
     ]
   },
@@ -4333,7 +4333,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"utkrysset\""
+        "content": "\"utkryssa\""
       },
       {
         "type": "NODE",
@@ -4345,7 +4345,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"utkrysset\""
+        "content": "\"utkryssa\""
       },
       {
         "type": "NODE",
@@ -4353,7 +4353,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"slutt utkrysset\""
+        "content": "\"slutt utkryssa\""
       }
     ]
   },
@@ -4365,7 +4365,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"utkrysset med\""
+        "content": "\"utkryssa med\""
       },
       {
         "type": "NODE",
@@ -4381,7 +4381,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"utkrysset med\""
+        "content": "\"utkryssa med\""
       },
       {
         "type": "NODE",
@@ -4397,7 +4397,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"utkrysset med\""
+        "content": "\"utkryssa med\""
       },
       {
         "type": "NODE",
@@ -4405,7 +4405,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"slutt utkrysset\""
+        "content": "\"slutt utkryssa\""
       }
     ]
   },
@@ -4425,7 +4425,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"slutt utkrysset\""
+        "content": "\"slutt utkryssa\""
       }
     ]
   }
