@@ -4,61 +4,61 @@
 # Example: Numerator a
 # LaTeX Example: $\frac{a}{b}$
 numerator:
-  - $1: "Numerator" (pause:200)
+  - $1: "Teller" (pause:200)
 
 # The denominator of a fraction
 # Example: Denominator b
 # LaTeX Example: $\frac{a}{b}$
 denominator:
-  - $1: "Denominator" (pause:200)
+  - $1: "Nevner" (pause:200)
 
 # The base of an exponentiation or indexed expression
 # Example: Base a
 # LaTeX Example: $a^b$
 base:
-  - $1: "Base" (pause:200)
+  - $1: "Basis" (pause:200)
 
 # The exponent in an exponentiation
 # Example: Exponent b
 # LaTeX Example: $a^b$
 exponent:
-  - $1: "Exponent" (pause:200)
+  - $1: "Eksponent" (pause:200)
 
 # Subscript or index
 # Example: Subscript i
 # LaTeX Example: $a_i$
 subscript:
-  - $1: "Subscript" (pause:200)
+  - $1: "Indeks" (pause:200)
 
 # The overscript above an operator or expression
 # Example: Overscript infinity
 # LaTeX Example: $\sum_{n=0}^{\infty}$
 overscript:
-  - $1: "Overscript" (pause:200)
+  - $1: "Øvre grenseverdi" (pause:200)
 
 # The underscript under an operator or expression
 # Example: Underscript n equals zero
 # LaTeX Example: $\sum_{n=0}^{\infty}$
 underscript:
-  - $1: "Underscript" (pause:200)
+  - $1: "Nedre grenseverdi" (pause:200)
 
 # The content of a root or square root
 # Example: Radicand A
 # LaTeX Example: $\sqrt{A}$
 radicand:
-  - $1: "Radicand" (pause:200)
+  - $1: "Radikand" (pause:200)
 
 # The index of a root
 # Example: Index 4
 # LaTeX Example: $\sqrt[4]{a}$
 index:
-  - $1: "Index" (pause:200)
+  - $1: "Indeks" (pause:200)
 
 # Left subscript or index of a tensor-like structure
 # Example: Left subscript a
 # LaTeX Example: $\tensor{M}{^a_b^c_d}$
 leftsub:
-  - $1: "Left Subscript" (pause:200)
+  - $1: "Venstre subskript" (pause:200)
 
 # Counted left subscript or index of a tensor-like structure
 # Example: 2nd left subscript e
@@ -66,13 +66,13 @@ leftsub:
 # %1: The index counter
 leftsub-counted:
   - %1
-  - $1: "Left Subscript" (pause:200)
+  - $1: "Venstre subskript" (pause:200)
 
 # Left superscript or index of a tensor-like structure
 # Example: Left superscript b
 # LaTeX Example: $\tensor{M}{^a_b^c_d}$
 leftsuper:
-  - $1: "Left Superscript" (pause:200)
+  - $1: "Venstre superskript" (pause:200)
 
 # Counted left superscript or index of a tensor-like structure
 # Example: 2nd left superscript e
@@ -80,13 +80,13 @@ leftsuper:
 # %1: The index counter
 leftsuper-counted:
   - %1
-  - $1: "Left Superscript" (pause:200)
+  - $1: "Venstre superskript" (pause:200)
 
 # Right subscript or index of a tensor-like structure
 # Example: Right subscript c
 # LaTeX Example: $\tensor{M}{^a_b^c_d}$
 rightsub:
-  - $1: "Right Subscript" (pause:200)
+  - $1: "Høyre subskript" (pause:200)
 
 # Counted right subscript or index of a tensor-like structure
 # Example: 2nd right subscript e
@@ -94,13 +94,13 @@ rightsub:
 # %1: The index counter
 rightsub-counted:
   - %1
-  - $1: "Right Subscript" (pause:200)
+  - $1: "Høyre subskript" (pause:200)
 
 # Right superscript or exponent of a tensor-like structure
 # Example: Right superscript d
 # LaTeX Example: $\tensor{M}{^a_b^c_d}$
 rightsuper:
-  - $1: "Right Superscript" (pause:200)
+  - $1: "Høyre superskript" (pause:200)
 
 # Counted right superscript or exponent of a tensor-like structure
 # Example: 2nd right superscript e
@@ -108,19 +108,19 @@ rightsuper:
 # %1: The index counter
 rightsuper-counted:
   - %1
-  - $1: "Right Superscript" (pause:200)
+  - $1: "Høyre superskript" (pause:200)
 
 # The choice quantity in a binomial coefficient. I.e., the n in 'n choose k'
 # Example: Choice quantity n
 # LaTeX Example: $(n \\ k)$
 choice:
-  - $1: "Choice Quantity" (pause:200)
+  - $1: "Utvalg" (pause:200)
 
 # The selection quantity in a binomial coefficient. I.e., the k in 'n choose k'
 # Example: Selection quantity k
 # LaTeX Example: $\begin{pmatrix}n \\k \end{pmatrix}$
 select:
-  - $1: "Selection Quantity" (pause:200)
+  - $1: "Stikkprøvestorleik" (pause:200)
 
 # A row in a multiline equation, case statement or matrix
 # Example: 1st Row ...
@@ -128,7 +128,7 @@ select:
 # %1: The row counter
 row:
   - %1
-  - $1: "Row" (pause:200)
+  - $1: "Rad" (pause:200)
 
 # A cell of a matrix or layout expression in full context (i.e., with row number)
 # Example: 2nd Row 1st Column c
@@ -138,7 +138,7 @@ row:
 cell:
   - %1
   - %2
-  - $1: "Column" (pause:200)
+  - $1: "Kolonne" (pause:200)
 
 # A cell of a matrix or layout expression in its row context only
 # Example: 1st Column c
@@ -146,4 +146,4 @@ cell:
 # %1: 
 cell-simple:
   - %1
-  - $1: "Column" (pause:200)
+  - $1: "Kolonne" (pause:200)

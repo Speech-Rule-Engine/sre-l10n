@@ -53,6 +53,7 @@ export const sreLocales: {[iso: string]: string} = {
   'fr': 'french',
   'hi': 'hindi',
   'it': 'italian',
+  'nn': 'nynorsk',
   'nb': 'bokmal'
 };
 
