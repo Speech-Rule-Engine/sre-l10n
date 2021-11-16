@@ -1,0 +1,31 @@
+sv:
+  W:  #W, w
+    one: watt
+    other: watts
+  kwh:  #kwh, kWh
+    one: kilowatt hour
+    other: kilowatt hours
+  J:  #J
+    one: joule
+    other: joules
+  N:  #N
+    one: Newton
+    other: Newtons
+  A:  #A
+    one: ampere
+    other: amperes
+  V:  #V
+    one: volt
+    other: volts
+  ohm:  #Ohm, ohm
+    one: ohm
+    other: ohms
+  Ω:  #Ω
+    one: ohm
+    other: ohms
+  MΩ:  #MΩ
+    one: megohm
+    other: megohms
+  kΩ:  #kΩ
+    one: kilohm
+    other: kilohms
