@@ -3,8 +3,8 @@ sv:
     one: knot
     other: knots
   mph:  #mph
-    one: miles per hour
-    other: miles per hours
+    one: mile per timme
+    other: miles per timme
   rpm:  #rpm
     one: revolutions per minute
     other: revolutions per minutes
