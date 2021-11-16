@@ -267,3 +267,18 @@ export function loadCommentsYaml(domain: string) {
   }
   return yjs.parse(str);
 }
+
+
+// Below is for Unicode mappings etc.
+export function loadMaps(iso: string, kind: string) {
+  let files = fs.readdirSync(`${SreDir}/${iso}/${kind}/*.json`);
+  let maps: {[file: string]: any} = {};
+  for (let file of files) {
+    maps[file] = loadJson(file);
+  }
+  return maps
+}
+
+export function saveMaps(iso: string, kind: string, file: string, json: any) {
+  saveJson(`${SreL10n}/mathmaps/${iso}/${kind}/${file}`, json);
+}
