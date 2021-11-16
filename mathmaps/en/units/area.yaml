@@ -1,4 +1,7 @@
 en:
   sq_inch: "sq inch" #sq in, sq. in., sq inch, sq. inch
-    one: "square inch"
-    other: "square inches"
+    singular: "square inch"
+    plural: "square inches"
+  sq_ft: "sq ft" 
+    singular: "square foot" #sq ft, sq. ft.
+    plural: "square feet" #sq ft, sq. ft.
