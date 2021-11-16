@@ -1,2 +1,7 @@
 da:
-  key: trace #Abbreviations: Tr, tr
+  deg: degree #Abbreviations: deg
+  det: determinant #Abbreviations: det
+  dim: dimension #Abbreviations: dim
+  hom: homomorphism #Abbreviations: hom, Hom
+  ker: kernel #Abbreviations: ker
+  Tr: trace #Abbreviations: Tr, tr
