@@ -1,25 +1,25 @@
 da:
   sq:  #sq, sq.
-    one: square
+    one: s
     other: square
   sq_inch:  #sq in, sq. in., sq inch, sq. inch
     one: square inch
     other: kvadrattommer
   sq_rd:  #sq rd, sq. rd.
-    one: square rod
+    one: s
     other: square rods
   sq_ft:  #sq ft, sq. ft.
-    one: square foot
-    other: square feet
+    one: kvadrat fod
+    other: kvadrat fod
   sq_yd:  #sq yd, sq. yd.
-    one: square yard
-    other: square yards
+    one: kvadrat yard
+    other: kvadrat yards
   sq_mi:  #sq mi, sq. mi.
-    one: square mile
-    other: square miles
+    one: kvadrat mil
+    other: kvadrat mile
   acr:  #ac, ac., acr, acr.
     one: acre
     other: acres
   ha:  #ha
-    one: hectare
+    one: s
     other: hectares
