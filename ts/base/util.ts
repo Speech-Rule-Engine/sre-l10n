@@ -12,7 +12,7 @@
 // limitations under the License.
 
 /**
- * @fileoverview Utillities for file handing, etc.
+ * @fileoverview Utilities for file handing, etc.
  * @author volker.sorge@gmail.com (Volker Sorge)
  */
 
@@ -271,14 +271,18 @@ export function loadCommentsYaml(domain: string) {
 
 // Below is for Unicode mappings etc.
 export function loadMaps(iso: string, kind: string) {
-  let files = fs.readdirSync(`${SreDir}/${iso}/${kind}/*.json`);
+  let files = fs.readdirSync(`${SreDir}/${iso}/${kind}/`);
   let maps: {[file: string]: any} = {};
   for (let file of files) {
-    maps[file] = loadJson(file);
+    if (!file.match(/\.json$/)) {
+      continue;
+    }
+    maps[file] = loadJson(`${SreDir}/${iso}/${kind}/` + file);
   }
   return maps
 }
 
 export function saveMaps(iso: string, kind: string, file: string, json: any) {
+  fs.mkdirSync(`${SreL10n}/mathmaps/${iso}/${kind}`, {recursive: true});
   saveJson(`${SreL10n}/mathmaps/${iso}/${kind}/${file}`, json);
 }
