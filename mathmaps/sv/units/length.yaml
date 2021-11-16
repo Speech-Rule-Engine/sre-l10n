@@ -1,10 +1,10 @@
 sv:
   ft:  #ft, ft.
-    one: foot
-    other: feet
+    one: fot
+    other: fot
   in:  #in, in.
-    one: inch
-    other: inches
+    one: tum
+    other: tum
   mi:  #mi, mi.
     one: mile
     other: miles
@@ -28,4 +28,4 @@ sv:
     other: nautical miles
   m:  #m
     one: meter
-    other: meters
+    other: meter
