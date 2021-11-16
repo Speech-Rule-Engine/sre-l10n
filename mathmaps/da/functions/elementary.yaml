@@ -1,6 +1,6 @@
 da:
-  log: log #Abbreviations: log
-  ln: natural log #Abbreviations: ln
+  log: logaritme af #Abbreviations: log
+  ln: naturlig logaritme af #Abbreviations: ln
   lg: log base 10 #Abbreviations: lg
   exp: exponential #Abbreviations: exp, expt
   gcd: greatest common divisor #Abbreviations: gcd
@@ -9,7 +9,7 @@ da:
   im: imaginary part #Abbreviations: im
   re: real part #Abbreviations: re
   inf: infimum #Abbreviations: inf
-  lim: limit #Abbreviations: lim
+  lim: grænseværdien af #Abbreviations: lim
   liminf: limit inferior #Abbreviations: lim inf, liminf
   limsup: limit superior #Abbreviations: lim sup, limsup
   max: maximum #Abbreviations: max
