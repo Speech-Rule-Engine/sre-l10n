@@ -4,10 +4,10 @@ sv:
   csc: kosekant #Abbreviations: csc
   sec: sekant #Abbreviations: sec
   sin: sinus #Abbreviations: sin, sine
-  tan: tangent #Abbreviations: tan
-  arccos: arc cosine #Abbreviations: arccos
-  arccot: arc cotangent #Abbreviations: arccot
-  arccsc: arc cosecant #Abbreviations: arccsc
-  arcsec: arc secant #Abbreviations: arcsec
-  arcsin: arc sine #Abbreviations: arcsin
-  arctan: arc tangent #Abbreviations: arctan
+  tan: tangens #Abbreviations: tan
+  arccos: arcus cosinus #Abbreviations: arccos
+  arccot: arcus cotangens #Abbreviations: arccot
+  arccsc: arcus cosecans #Abbreviations: arccsc
+  arcsec: arcus secans #Abbreviations: arcsec
+  arcsin: arcus sinus #Abbreviations: arcsin
+  arctan: arcus tangens #Abbreviations: arctan
