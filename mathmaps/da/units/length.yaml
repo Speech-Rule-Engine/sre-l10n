@@ -1,0 +1,31 @@
+da:
+  ft:  #ft, ft.
+    one: fod
+    other: fod
+  in:  #in, in.
+    one: inch
+    other: inches
+  mi:  #mi, mi.
+    one: mil
+    other: mile
+  yd:  #yd, yd.
+    one: yard
+    other: yards
+  link:  #li, li.
+    one: link
+    other: links
+  rod:  #rd, rd.
+    one: rod
+    other: rods
+  chain:  #ch, ch.
+    one: chain
+    other: chains
+  furlong:  #fur, fur.
+    one: s
+    other: furlongs
+  n.m.:  #n.m.
+    one: s
+    other: nautical miles
+  m:  #m
+    one: meter
+    other: meter
