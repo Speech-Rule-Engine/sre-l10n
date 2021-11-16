@@ -1,10 +1,10 @@
 da:
-  cos: cosine #Abbreviations: cos, cosine
-  cot: cotangent #Abbreviations: cot
-  csc: cosecant #Abbreviations: csc
-  sec: secant #Abbreviations: sec
-  sin: sine #Abbreviations: sin, sine
-  tan: tangent #Abbreviations: tan
+  cos: cosinus #Abbreviations: cos, cosine
+  cot: co-tangens #Abbreviations: cot
+  csc: co-sekant #Abbreviations: csc
+  sec: sekant #Abbreviations: sec
+  sin: sinus #Abbreviations: sin, sine
+  tan: tangens #Abbreviations: tan
   arccos: arc cosine #Abbreviations: arccos
   arccot: arc cotangent #Abbreviations: arccot
   arccsc: arc cosecant #Abbreviations: arccsc
