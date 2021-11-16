@@ -1,0 +1,21 @@
+sv:
+  log: log #Abbreviations: log
+  ln: natural log #Abbreviations: ln
+  lg: log base 10 #Abbreviations: lg
+  exp: exponential #Abbreviations: exp, expt
+  gcd: greatest common divisor #Abbreviations: gcd
+  lcm: least common multiple #Abbreviations: lcm
+  arg: argument #Abbreviations: arg
+  im: imaginary part #Abbreviations: im
+  re: real part #Abbreviations: re
+  inf: infimum #Abbreviations: inf
+  lim: limit #Abbreviations: lim
+  liminf: limit inferior #Abbreviations: lim inf, liminf
+  limsup: limit superior #Abbreviations: lim sup, limsup
+  max: maximum #Abbreviations: max
+  min: minimum #Abbreviations: min
+  sup: supremum #Abbreviations: sup
+  injlim: colimit #Abbreviations: injlim, inj lim
+  projlim: projective limit #Abbreviations: projlim, proj lim
+  mod: modulo #Abbreviations: mod
+  Pr: probability #Abbreviations: Pr
