@@ -1,0 +1,10 @@
+{
+  " ": " ",
+  "­": "mjukt bindestreck",
+  "‌": "zero width non joiner",
+  "‍": "zero width joiner",
+  "‎": "vänster till höger tecken",
+  "‏": "höger till vänster tecken",
+  "⁡": "av",
+  "⁢": " "
+}

@@ -1,0 +1,46 @@
+se:
+  cu: #cu, cu.
+    one: 
+    other: 
+  cu_in: #cu in, cu. in.
+    one: kubik tum
+    other: kubik tum
+  cu_ft: #cu ft, cu. ft.
+    one: kubik fot
+    other: kubik fot
+  cu_yd: #cu yd, cu. yd.
+    one: kubik yard
+    other: kubik yards
+  bbl: #bbl., bbl
+    one: fat
+    other: fat
+  fl_oz: #fl. oz., fl oz
+    one: fluid ounce
+    other: fluid ounces
+  gal: #gal, gal.
+    one: gallon
+    other: gallons
+  pt: #pt, pt.
+    one: pint
+    other: pints
+  qt: #qt, qt.
+    one: quart
+    other: quarts
+  fl_dr: #fl dr, fl. dr.
+    one: fluid dram
+    other: fluid drams
+  tbsp: #tbsp, tbsp., Tbsp, Tbsp.
+    one: matsked
+    other: matskedar
+  tsp: #tsp, tsp.
+    one: tesked
+    other: teskedar
+  cp: #cp, cp.
+    one: kopp
+    other: koppar
+  cc: #cc, ccm
+    one: 
+    other: 
+  l: #l
+    one: liter
+    other: liter

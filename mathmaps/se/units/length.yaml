@@ -1,0 +1,31 @@
+se:
+  ft: #ft, ft.
+    one: fot
+    other: fot
+  in: #in, in.
+    one: tum
+    other: tum
+  mi: #mi, mi.
+    one: mile
+    other: miles
+  yd: #yd, yd.
+    one: yard
+    other: yards
+  li: #li, li.
+    one: link
+    other: links
+  rd: #rd, rd.
+    one: rod
+    other: rods
+  ch: #ch, ch.
+    one: chain
+    other: chains
+  furlong: #fur, fur.
+    one: 
+    other: 
+  n.m.: #n.m.
+    one: 
+    other: 
+  m: #m
+    one: meter
+    other: meter

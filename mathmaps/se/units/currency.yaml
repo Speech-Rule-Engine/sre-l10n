@@ -1,0 +1,76 @@
+se:
+  $: #$, 💲, ＄, ﹩, USD
+    one: dollar
+    other: dollar
+  £: #£, ￡, GBP
+    one: pund
+    other: pund
+  ¥: #¥, ￥, JPY
+    one: yen
+    other: yen
+  €: #€, EUR
+    one: euro
+    other: euro
+  ₡: #₡, CRC
+    one: colons
+    other: colons
+  ₢: #₢
+    one: cruzeiro
+    other: cruzeiro
+  ₣: #₣
+    one: franc
+    other: franc
+  ₤: #₤
+    one: lire
+    other: lire
+  ₥: #₥
+    one: mills
+    other: mills
+  ₦: #₦, NGN
+    one: naira
+    other: naira
+  ₧: #₧
+    one: peseta
+    other: peseta
+  ₨: #₨, ₹, INR, NPR, PKR, LKR
+    one: rupis
+    other: rupis
+  ₩: #₩, ￦, KRW
+    one: won
+    other: won
+  ₪: #₪
+    one: sheqel
+    other: sheqels
+  ₫: #₫
+    one: dong
+    other: dong
+  ₭: #₭
+    one: kip
+    other: kip
+  ₮: #₮
+    one: tugrik
+    other: tugrik
+  ₯: #₯
+    one: drachma
+    other: drachma
+  ₰: #₰
+    one: tyska pennis
+    other: tyska pennis
+  ₱: #₱
+    one: pesos
+    other: pesos
+  ₲: #₲
+    one: guaranis
+    other: guaranis
+  ₳: #₳
+    one: australs
+    other: australs
+  ₴: #₴, UAH
+    one: hryvnias
+    other: hryvnias
+  ₵: #₵, GHS
+    one: cedis
+    other: cedis
+  元: #元
+    one: yuan
+    other: yuan

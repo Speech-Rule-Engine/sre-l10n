@@ -1,0 +1,25 @@
+se:
+  sq: #sq, sq.
+    one: 
+    other: 
+  sq_in: #sq in, sq. in., sq inch, sq. inch
+    one: kvadrat tum
+    other: kvadrat tum
+  sq_rd: #sq rd, sq. rd.
+    one: 
+    other: 
+  sq_ft: #sq ft, sq. ft.
+    one: kvadrat fot
+    other: kvadrat fot
+  sq_yd: #sq yd, sq. yd.
+    one: kvadrat yard
+    other: kvadrat yards
+  sq_mi: #sq mi, sq. mi.
+    one: kvadrat mile
+    other: kvadrat miles
+  ac: #ac, ac., acr, acr.
+    one: acre
+    other: acres
+  ha: #ha
+    one: 
+    other: 

@@ -72,14 +72,14 @@ function convertFunctionMap(json: any[]) {
 export function convertUnits(iso: string) {
   let maps = loadMaps(iso, 'units');
   for (let [file, map] of Object.entries(maps)) {
-    let newMap = convertUnitMap(map);
+    let newMap = convertUnitMap(map, iso);
     saveMapsYaml(iso, 'units', file, `${iso}:\n${newMap}`);
   }
 }
 
 
 // Currently no dual.
-function convertUnitMap(json: any[], iso: string = 'en') {
+function convertUnitMap(json: any[], iso: string) {
   let result = '';
   for (let entry of json) {
     if (!entry.key) continue;
