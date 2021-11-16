@@ -1,0 +1,10 @@
+da:
+  F: #F, F., °F
+    one: farad
+    other: farad
+  C: #C, °C
+    one: coulomb
+    other: coulombs
+  K: #K, °K
+    one: kelvin
+    other: kelvin

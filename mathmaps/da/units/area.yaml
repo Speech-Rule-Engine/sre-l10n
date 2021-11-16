@@ -1,0 +1,25 @@
+da:
+  sq: #sq, sq.
+    one: 
+    other: s
+  sq_in: #sq in, sq. in., sq inch, sq. inch
+    one: kvadrat inch
+    other: kvadrat inches
+  sq_rd: #sq rd, sq. rd.
+    one: 
+    other: s
+  sq_ft: #sq ft, sq. ft.
+    one: kvadrat fod
+    other: kvadrat fod
+  sq_yd: #sq yd, sq. yd.
+    one: kvadrat yard
+    other: kvadrat yards
+  sq_mi: #sq mi, sq. mi.
+    one: kvadrat mil
+    other: kvadrat mile
+  ac: #ac, ac., acr, acr.
+    one: ager
+    other: agre
+  ha: #ha
+    one: 
+    other: s

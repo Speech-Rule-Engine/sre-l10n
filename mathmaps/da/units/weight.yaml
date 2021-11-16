@@ -1,0 +1,34 @@
+da:
+  dr: #dr, dr.
+    one: dram
+    other: drams
+  oz: #oz, oz.
+    one: ounce
+    other: ounces
+  lb: #lb, lb.
+    one: pund
+    other: pund
+  st: #st, st.
+    one: 
+    other: s
+  qtr: #qtr, qtr.
+    one: 
+    other: s
+  cwt: #cwt, cwt.
+    one: hundredweight
+    other: hundredweights
+  LT: #LT, L.T.
+    one: 
+    other: s
+  gr: #gr
+    one: grain
+    other: grains
+  g: #g
+    one: gram
+    other: gram
+  mcg: #mcg
+    one: 
+    other: s
+  t: #t, T
+    one: ton
+    other: tons
