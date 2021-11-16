@@ -5,9 +5,9 @@ sv:
   sech: hyperbolisk sekant #Abbreviations: sech
   sinh: sinus hyperbolicus #Abbreviations: sinh
   tanh: hyperbolisk tangent #Abbreviations: tanh
-  arcosh: area hyperbolic cosine #Abbreviations: arcosh, arccosh
-  arcoth: area hyperbolic cotangent #Abbreviations: arcoth, arccoth
-  arcsch: area hyperbolic cosecant #Abbreviations: arcsch, arccsch
-  arsech: area hyperbolic secant #Abbreviations: arsech, arcsech
-  arsinh: area hyperbolic sine #Abbreviations: arsinh, arcsinh
-  artanh: area hyperbolic tangent #Abbreviations: artanh, arctanh
+  arcosh: areacosinus hyperbolicus #Abbreviations: arcosh, arccosh
+  arcoth: areacotangens hyperbolicus #Abbreviations: arcoth, arccoth
+  arcsch: areakosekant hyperbolicus #Abbreviations: arcsch, arccsch
+  arsech: areasekant hyperbolicus #Abbreviations: arsech, arcsech
+  arsinh: areasinus hyperbolicus #Abbreviations: arsinh, arcsinh
+  artanh: areatangens hyperbolicus #Abbreviations: artanh, arctanh
