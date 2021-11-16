@@ -1,0 +1,91 @@
+sv:
+  $:  #$, 💲, ＄, ﹩, USD
+    one: dollar
+    other: dollars
+  £:  #£, ￡, GBP
+    one: pound
+    other: pounds
+  ¥:  #¥, ￥, JPY
+    one: yen
+    other: yens
+  €:  #€, EUR
+    one: euro
+    other: euros
+  ₡:  #₡, CRC
+    one: colon
+    other: colons
+  ₢:  #₢
+    one: cruzeiro
+    other: cruzeiros
+  ₣:  #₣
+    one: franc
+    other: francs
+  ₤:  #₤
+    one: lira
+    other: liras
+  ₥:  #₥
+    one: mill
+    other: mills
+  ₦:  #₦, NGN
+    one: naira
+    other: nairas
+  ₧:  #₧
+    one: peseta
+    other: pesetas
+  ₨:  #₨, ₹, INR, NPR, PKR, LKR
+    one: rupee
+    other: rupees
+  ₩:  #₩, ￦, KRW
+    one: won
+    other: wons
+  ₪:  #₪
+    one: sheqel
+    other: sheqels
+  ₫:  #₫
+    one: dong
+    other: dongs
+  ₭:  #₭
+    one: kip
+    other: kips
+  ₮:  #₮
+    one: tugrik
+    other: tugriks
+  ₯:  #₯
+    one: drachma
+    other: drachmas
+  ₰:  #₰
+    one: Pfennig
+    other: Pfennigs
+  ₱:  #₱
+    one: peso
+    other: pesos
+  ₲:  #₲
+    one: guaranis
+    other: guaranis
+  ₳:  #₳
+    one: austral
+    other: australs
+  ₴:  #₴, UAH
+    one: hryvnia
+    other: hryvnias
+  ₵:  #₵, GHS
+    one: cedis
+    other: cedis
+  ₶:  #₶
+    one: livre tournois
+    other: livre tournois
+  ₷:  #₷
+    one: spesmilo
+    other: spesmilos
+  ₸:  #₸, KZT
+    one: tenge
+    other: tenges
+  ₺:  #₺, TRY
+    one: turkish lira
+    other: turkish liras
+  元:  #元
+    one: yuan
+    other: yuans
+  ¢:  #￠, ¢
+    one: cent
+    other: cents
