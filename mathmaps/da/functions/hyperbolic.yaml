@@ -1,10 +1,10 @@
 da:
-  cosh: hyperbolic cosine #Abbreviations: cosh
-  coth: hyperbolic cotangent #Abbreviations: coth
-  csch: hyperbolic cosecant #Abbreviations: csch
-  sech: hyperbolic secant #Abbreviations: sech
-  sinh: hyperbolic sine #Abbreviations: sinh
-  tanh: hyperbolic tangent #Abbreviations: tanh
+  cosh: cosinus hyperbolsk #Abbreviations: cosh
+  coth: co-tangent hyperbolsk #Abbreviations: coth
+  csch: co-sekant hyperbolsk #Abbreviations: csch
+  sech: sekant hyperbolsk #Abbreviations: sech
+  sinh: sinus hyperbolsk #Abbreviations: sinh
+  tanh: tangens hyperbolsk #Abbreviations: tanh
   arcosh: area hyperbolic cosine #Abbreviations: arcosh, arccosh
   arcoth: area hyperbolic cotangent #Abbreviations: arcoth, arccoth
   arcsch: area hyperbolic cosecant #Abbreviations: arcsch, arccsch
