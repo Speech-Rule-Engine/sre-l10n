@@ -1,7 +1,7 @@
 da:
   sq_inch:  #sq in, sq. in., sq inch, sq. inch
-    singular: "square inch"
-    plural: "square inches"
+    one: "square inch"
+    other: "square inches"
   sq_ft:
-    singular: "square foot" #sq ft, sq. ft.
-    plural: "square feet" #sq ft, sq. ft.
+    one: "square foot" #sq ft, sq. ft.
+    other: "square feet" #sq ft, sq. ft.
