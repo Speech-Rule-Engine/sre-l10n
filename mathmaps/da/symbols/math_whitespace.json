@@ -1,0 +1,10 @@
+{
+  " ": " ",
+  "­": "soft hyphen",
+  "‌": "zero width non joiner",
+  "‍": "zero width joiner",
+  "‎": "venstre to højre mark",
+  "‏": "højre to venstre mark",
+  "⁡": "af",
+  "⁢": " "
+}
