@@ -1,0 +1,13 @@
+sv:
+  cosh: hyperbolic cosine #Abbreviations: cosh
+  coth: hyperbolic cotangent #Abbreviations: coth
+  csch: hyperbolic cosecant #Abbreviations: csch
+  sech: hyperbolic secant #Abbreviations: sech
+  sinh: hyperbolic sine #Abbreviations: sinh
+  tanh: hyperbolic tangent #Abbreviations: tanh
+  arcosh: area hyperbolic cosine #Abbreviations: arcosh, arccosh
+  arcoth: area hyperbolic cotangent #Abbreviations: arcoth, arccoth
+  arcsch: area hyperbolic cosecant #Abbreviations: arcsch, arccsch
+  arsech: area hyperbolic secant #Abbreviations: arsech, arcsech
+  arsinh: area hyperbolic sine #Abbreviations: arsinh, arcsinh
+  artanh: area hyperbolic tangent #Abbreviations: artanh, arctanh
