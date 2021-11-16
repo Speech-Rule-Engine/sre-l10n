@@ -6,14 +6,14 @@ sv:
     one: cubic inch
     other: cubic inches
   cu_ft:  #cu ft, cu. ft.
-    one: cubic foot
-    other: cubic feet
+    one: kubik fot
+    other: kubik fot
   cu_yd:  #cu yd, cu. yd.
-    one: cubic yard
-    other: cubic yards
+    one: kubik yard
+    other: kubik yards
   bbl:  #bbl., bbl
-    one: barrel
-    other: barrels
+    one: fat
+    other: fat
   fl._oz.:  #fl. oz., fl oz
     one: fluid ounce
     other: fluid ounces
@@ -30,11 +30,11 @@ sv:
     one: fluid dram
     other: fluid drams
   tbsp:  #tbsp, tbsp., Tbsp, Tbsp.
-    one: tablespoon
-    other: tablespoons
+    one: matsked
+    other: matskedar
   tsp:  #tsp, tsp.
-    one: teaspoon
-    other: teaspoons
+    one: tesked
+    other: teskedar
   cup:  #cp, cp.
     one: cup
     other: cups
@@ -43,4 +43,4 @@ sv:
     other: cubic centimeters
   l:  #l
     one: liter
-    other: liters
+    other: liter
