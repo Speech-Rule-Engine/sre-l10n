@@ -1,6 +1,6 @@
 sv:
-  log: log #Abbreviations: log
-  ln: natural log #Abbreviations: ln
+  log: logaritmen #Abbreviations: log
+  ln: naturliga logaritmen #Abbreviations: ln
   lg: log base 10 #Abbreviations: lg
   exp: exponential #Abbreviations: exp, expt
   gcd: greatest common divisor #Abbreviations: gcd
