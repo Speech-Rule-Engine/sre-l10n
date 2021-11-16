@@ -1,3 +1,2 @@
 da:
-  deg: "degree" #deg
-  det: "determinant" #det
+  key: trace #Abbreviations: Tr, tr
