@@ -1,0 +1,10 @@
+sv:
+  b:  #b
+    one: bit
+    other: bits
+  B:  #B
+    one: byte
+    other: bytes
+  KB:  #KB
+    one: kilobyte
+    other: kilobytes
