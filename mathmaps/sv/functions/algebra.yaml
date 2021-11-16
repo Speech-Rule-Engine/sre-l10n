@@ -1,7 +1,7 @@
 sv:
-  deg: degree #Abbreviations: deg
+  deg: grad #Abbreviations: deg
   det: determinant #Abbreviations: det
   dim: dimension #Abbreviations: dim
-  hom: homomorphism #Abbreviations: hom, Hom
-  ker: kernel #Abbreviations: ker
-  Tr: trace #Abbreviations: Tr, tr
+  hom: homomorfism #Abbreviations: hom, Hom
+  ker: kärna #Abbreviations: ker
+  Tr: spår #Abbreviations: Tr, tr
