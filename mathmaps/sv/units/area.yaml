@@ -9,14 +9,14 @@ sv:
     one: square rod
     other: square rods
   sq_ft:  #sq ft, sq. ft.
-    one: square foot
-    other: square feet
+    one: kvadrat fot
+    other: kvadrat fot
   sq_yd:  #sq yd, sq. yd.
-    one: square yard
-    other: square yards
+    one: kvadrat yard
+    other: kvadrat yards
   sq_mi:  #sq mi, sq. mi.
-    one: square mile
-    other: square miles
+    one: kvadrat mile
+    other: kvadrat miles
   acr:  #ac, ac., acr, acr.
     one: acre
     other: acres
