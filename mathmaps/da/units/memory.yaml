@@ -1,0 +1,10 @@
+da:
+  b:  #b
+    one: s
+    other: bits
+  B:  #B
+    one: s
+    other: bytes
+  KB:  #KB
+    one: s
+    other: kilobytes
