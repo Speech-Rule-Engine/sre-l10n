@@ -1,0 +1,25 @@
+sv:
+  sq:  #sq, sq.
+    one: square
+    other: square
+  sq_inch:  #sq in, sq. in., sq inch, sq. inch
+    one: square inch
+    other: square inches
+  sq_rd:  #sq rd, sq. rd.
+    one: square rod
+    other: square rods
+  sq_ft:  #sq ft, sq. ft.
+    one: square foot
+    other: square feet
+  sq_yd:  #sq yd, sq. yd.
+    one: square yard
+    other: square yards
+  sq_mi:  #sq mi, sq. mi.
+    one: square mile
+    other: square miles
+  acr:  #ac, ac., acr, acr.
+    one: acre
+    other: acres
+  ha:  #ha
+    one: hectare
+    other: hectares
