@@ -1,13 +1,26 @@
 {
   "ℏ": "h bar",
+  "℔": "l b bar",
   "№": "stort n lille o nummer symbol",
   "℗": "kopieringsret",
   "℞": "prescription take",
+  "℟": "response",
+  "℠": "service mark",
+  "℡": "telephone sign",
   "™": "stort T stort M",
+  "℣": "versicle",
   "℥": "ounce symbol",
   "Ω": "ohm",
   "℧": "omvendt ohm",
   "K": "grader kelvin",
   "Å": "ångstrøm",
-  "Ⅎ": "drejet stort f"
+  "℮": "estimated",
+  "Ⅎ": "drejet stort f",
+  "ℹ": "information source",
+  "℺": "rotated cap Q",
+  "℻": "facsimile sign",
+  "⅁": "turned sans serif cap G",
+  "⅂": "turned sans serif cap L",
+  "⅃": "reversed sans serif cap L",
+  "⅄": "turned sans serif cap Y"
 }
