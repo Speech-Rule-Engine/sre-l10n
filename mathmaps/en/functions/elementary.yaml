@@ -1,21 +1,21 @@
 en:
-  key: log #Abbreviations: log
-  key: natural log #Abbreviations: ln
-  key: log base 10 #Abbreviations: lg
-  key: exponential #Abbreviations: exp, expt
-  key: greatest common divisor #Abbreviations: gcd
-  key: least common multiple #Abbreviations: lcm
-  key: argument #Abbreviations: arg
-  key: imaginary part #Abbreviations: im
-  key: real part #Abbreviations: re
-  key: infimum #Abbreviations: inf
-  key: limit #Abbreviations: lim
-  key: limit inferior #Abbreviations: lim inf, liminf
-  key: limit superior #Abbreviations: lim sup, limsup
-  key: maximum #Abbreviations: max
-  key: minimum #Abbreviations: min
-  key: supremum #Abbreviations: sup
-  key: colimit #Abbreviations: injlim, inj lim
-  key: projective limit #Abbreviations: projlim, proj lim
-  key: modulo #Abbreviations: mod
-  key: probability #Abbreviations: Pr
+  log: log #Abbreviations: log
+  ln: natural log #Abbreviations: ln
+  lg: log base 10 #Abbreviations: lg
+  exp: exponential #Abbreviations: exp, expt
+  gcd: greatest common divisor #Abbreviations: gcd
+  lcm: least common multiple #Abbreviations: lcm
+  arg: argument #Abbreviations: arg
+  im: imaginary part #Abbreviations: im
+  re: real part #Abbreviations: re
+  inf: infimum #Abbreviations: inf
+  lim: limit #Abbreviations: lim
+  liminf: limit inferior #Abbreviations: lim inf, liminf
+  limsup: limit superior #Abbreviations: lim sup, limsup
+  max: maximum #Abbreviations: max
+  min: minimum #Abbreviations: min
+  sup: supremum #Abbreviations: sup
+  injlim: colimit #Abbreviations: injlim, inj lim
+  projlim: projective limit #Abbreviations: projlim, proj lim
+  mod: modulo #Abbreviations: mod
+  Pr: probability #Abbreviations: Pr

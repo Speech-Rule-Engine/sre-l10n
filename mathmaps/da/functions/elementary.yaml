@@ -1,4 +1,4 @@
 da:
-  key: logaritme af #Abbreviations: log
-  key: naturlig logaritme af #Abbreviations: ln
-  key: grænseværdien af #Abbreviations: lim
+  log: logaritme af #Abbreviations: log
+  ln: naturlig logaritme af #Abbreviations: ln
+  lim: grænseværdien af #Abbreviations: lim

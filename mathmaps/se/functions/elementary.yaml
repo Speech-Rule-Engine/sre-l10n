@@ -1,4 +1,4 @@
 se:
-  key: logaritmen #Abbreviations: log
-  key: naturliga logaritmen #Abbreviations: ln
-  key: limit #Abbreviations: lim
+  log: logaritmen #Abbreviations: log
+  ln: naturliga logaritmen #Abbreviations: ln
+  lim: limit #Abbreviations: lim

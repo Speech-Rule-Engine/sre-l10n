@@ -1,7 +1,7 @@
 da:
-  key: cosinus #Abbreviations: cos, cosine
-  key: co-tangens #Abbreviations: cot
-  key: co-sekant #Abbreviations: csc
-  key: sekant #Abbreviations: sec
-  key: sinus #Abbreviations: sin, sine
-  key: tangens #Abbreviations: tan
+  cos: cosinus #Abbreviations: cos, cosine
+  cot: co-tangens #Abbreviations: cot
+  csc: co-sekant #Abbreviations: csc
+  sec: sekant #Abbreviations: sec
+  sin: sinus #Abbreviations: sin, sine
+  tan: tangens #Abbreviations: tan

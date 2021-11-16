@@ -1,7 +1,7 @@
 se:
-  key: cosinus hyperbolicus #Abbreviations: cosh
-  key: hyperbolisk kotangent #Abbreviations: coth
-  key: hyperbolisk kosekant #Abbreviations: csch
-  key: hyperbolisk sekant #Abbreviations: sech
-  key: sinus hyperbolicus #Abbreviations: sinh
-  key: hyperbolisk tangent #Abbreviations: tanh
+  cosh: cosinus hyperbolicus #Abbreviations: cosh
+  coth: hyperbolisk kotangent #Abbreviations: coth
+  csch: hyperbolisk kosekant #Abbreviations: csch
+  sech: hyperbolisk sekant #Abbreviations: sech
+  sinh: sinus hyperbolicus #Abbreviations: sinh
+  tanh: hyperbolisk tangent #Abbreviations: tanh

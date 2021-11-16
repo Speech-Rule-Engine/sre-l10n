@@ -1,13 +1,13 @@
 en:
-  key: cosine #Abbreviations: cos, cosine
-  key: cotangent #Abbreviations: cot
-  key: cosecant #Abbreviations: csc
-  key: secant #Abbreviations: sec
-  key: sine #Abbreviations: sin, sine
-  key: tangent #Abbreviations: tan
-  key: arc cosine #Abbreviations: arccos
-  key: arc cotangent #Abbreviations: arccot
-  key: arc cosecant #Abbreviations: arccsc
-  key: arc secant #Abbreviations: arcsec
-  key: arc sine #Abbreviations: arcsin
-  key: arc tangent #Abbreviations: arctan
+  cos: cosine #Abbreviations: cos, cosine
+  cot: cotangent #Abbreviations: cot
+  csc: cosecant #Abbreviations: csc
+  sec: secant #Abbreviations: sec
+  sin: sine #Abbreviations: sin, sine
+  tan: tangent #Abbreviations: tan
+  arccos: arc cosine #Abbreviations: arccos
+  arccot: arc cotangent #Abbreviations: arccot
+  arccsc: arc cosecant #Abbreviations: arccsc
+  arcsec: arc secant #Abbreviations: arcsec
+  arcsin: arc sine #Abbreviations: arcsin
+  arctan: arc tangent #Abbreviations: arctan
