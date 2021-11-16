@@ -56,13 +56,14 @@ function convertFunctionMap(json: any[]) {
   let result = '';
   for (let entry of json) {
     if (!entry.key) continue;
+    let key = entry.key;
     let comment = `Abbreviations: ${entry.names.join(', ')}`
     if (entry.mappings?.default?.default) {
-      result += `  key: ${entry.mappings.default.default} #${comment}\n`;
+      result += `  ${key}: ${entry.mappings.default.default} #${comment}\n`;
     } else if (entry.mappings?.clearspeak?.default) {
-      result += `  key: ${entry.mappings.clearspeak.default} #${comment}\n`;
+      result += `  ${key}: ${entry.mappings.clearspeak.default} #${comment}\n`;
     } else if (entry.mappings?.mathspeak?.default) {
-      result += `  key: ${entry.mappings.mathspeak.default} #${comment}\n`;
+      result += `  ${key}: ${entry.mappings.mathspeak.default} #${comment}\n`;
     }
   }
   return result;
