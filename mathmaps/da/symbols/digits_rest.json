@@ -4,6 +4,9 @@
   "¼": "en fjerdedel",
   "½": "en halv",
   "¾": "tre fjerdedele",
+  "⅐": "one seventh",
+  "⅑": "one ninth",
+  "⅒": "one tenth",
   "⅓": "en trediedel",
   "⅔": "to trediedele",
   "⅕": "en femtedel",
@@ -15,5 +18,15 @@
   "⅛": "en ottendedel",
   "⅜": "tre ottendedele",
   "⅝": "fem ottendedele",
-  "⅞": "syv ottendedele"
+  "⅞": "syv ottendedele",
+  "⅟": "numerator one",
+  "↉": "zero thirds",
+  "㉈": "circled ten on black square",
+  "㉉": "circled twenty on black square",
+  "㉊": "circled thirty on black square",
+  "㉋": "circled forty on black square",
+  "㉌": "circled fifty on black square",
+  "㉍": "circled sixty on black square",
+  "㉎": "circled seventy on black square",
+  "㉏": "circled eighty on black square"
 }
