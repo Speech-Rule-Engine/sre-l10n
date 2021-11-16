@@ -16,7 +16,7 @@
  * @author volker.sorge@gmail.com (Volker Sorge)
  */
 
-import {loadMaps, saveMaps} from './util';
+import {loadMaps, saveMaps, saveMapsYaml} from './util';
 
 export function convertSymbols(iso: string) {
   let maps = loadMaps(iso, 'symbols');
@@ -31,13 +31,66 @@ function convertSymbolMap(json: any[]) {
   for (let entry of json) {
     if (!entry.key) continue;
     let key = String.fromCodePoint(parseInt(entry.key, 16));
-    console.log(entry);
     if (entry.mappings?.default?.default) {
       result[key] = entry.mappings.default.default;
     } else if (entry.mappings?.clearspeak?.default) {
       result[key] = entry.mappings.clearspeak.default;
     } else if (entry.mappings?.mathspeak?.default) {
       result[key] = entry.mappings.mathspeak.default;
+    }
+  }
+  return result;
+}
+
+
+export function convertFunctions(iso: string) {
+  let maps = loadMaps(iso, 'functions');
+  for (let [file, map] of Object.entries(maps)) {
+    let newMap = convertFunctionMap(map);
+    saveMapsYaml(iso, 'functions', file, `${iso}:\n${newMap}`);
+  }
+}
+
+
+function convertFunctionMap(json: any[]) {
+  let result = '';
+  for (let entry of json) {
+    if (!entry.key) continue;
+    let comment = `Abbreviations: ${entry.names.join(', ')}`
+    if (entry.mappings?.default?.default) {
+      result += `  key: ${entry.mappings.default.default} #${comment}\n`;
+    } else if (entry.mappings?.clearspeak?.default) {
+      result += `  key: ${entry.mappings.clearspeak.default} #${comment}\n`;
+    } else if (entry.mappings?.mathspeak?.default) {
+      result += `  key: ${entry.mappings.mathspeak.default} #${comment}\n`;
+    }
+  }
+  return result;
+}
+
+
+export function convertUnits(iso: string) {
+  let maps = loadMaps(iso, 'units');
+  for (let [file, map] of Object.entries(maps)) {
+    let newMap = convertUnitMap(map);
+    saveMapsYaml(iso, 'units', file, `${iso}:\n${newMap}`);
+  }
+}
+
+
+// Currently no dual.
+function convertUnitMap(json: any[], iso: string = 'en') {
+  let result = '';
+  for (let entry of json) {
+    if (!entry.key) continue;
+    let key = entry.key.replace(/ /g, '_');
+    let comment = `${entry.names.join(', ')}`
+    result += `  ${key}: #${comment}\n`;
+    result += `    one: ${entry.mappings.default.default}\n`;
+    if (entry.mappings?.default?.plural) {
+      result += `    other: ${entry.mappings.default.plural}\n`;
+    } else {
+      result += `    other: ${entry.mappings.default.default}${iso === 'en' ? 's' : ''}\n`;
     }
   }
   return result;

@@ -1,0 +1,21 @@
+en:
+  key: log #Abbreviations: log
+  key: natural log #Abbreviations: ln
+  key: log base 10 #Abbreviations: lg
+  key: exponential #Abbreviations: exp, expt
+  key: greatest common divisor #Abbreviations: gcd
+  key: least common multiple #Abbreviations: lcm
+  key: argument #Abbreviations: arg
+  key: imaginary part #Abbreviations: im
+  key: real part #Abbreviations: re
+  key: infimum #Abbreviations: inf
+  key: limit #Abbreviations: lim
+  key: limit inferior #Abbreviations: lim inf, liminf
+  key: limit superior #Abbreviations: lim sup, limsup
+  key: maximum #Abbreviations: max
+  key: minimum #Abbreviations: min
+  key: supremum #Abbreviations: sup
+  key: colimit #Abbreviations: injlim, inj lim
+  key: projective limit #Abbreviations: projlim, proj lim
+  key: modulo #Abbreviations: mod
+  key: probability #Abbreviations: Pr

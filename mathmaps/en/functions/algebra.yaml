@@ -1,3 +1,7 @@
 en:
-  deg: "degree" #deg
-  det: "determinant" #det
+  key: degree #Abbreviations: deg
+  key: determinant #Abbreviations: det
+  key: dimension #Abbreviations: dim
+  key: homomorphism #Abbreviations: hom, Hom
+  key: kernel #Abbreviations: ker
+  key: trace #Abbreviations: Tr, tr

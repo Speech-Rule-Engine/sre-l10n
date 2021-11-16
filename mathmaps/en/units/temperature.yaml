@@ -1,0 +1,10 @@
+en:
+  F: #F, F., °F
+    one: Fahrenheit
+    other: Fahrenheit
+  C: #C, °C
+    one: Celsius
+    other: Celsius
+  K: #K, °K
+    one: Kelvin
+    other: Kelvin

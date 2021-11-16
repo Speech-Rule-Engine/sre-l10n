@@ -286,3 +286,9 @@ export function saveMaps(iso: string, kind: string, file: string, json: any) {
   fs.mkdirSync(`${SreL10n}/mathmaps/${iso}/${kind}`, {recursive: true});
   saveJson(`${SreL10n}/mathmaps/${iso}/${kind}/${file}`, json);
 }
+
+export function saveMapsYaml(iso: string, kind: string, file: string, yaml: string) {
+  fs.mkdirSync(`${SreL10n}/mathmaps/${iso}/${kind}`, {recursive: true});
+  let yml = file.replace(/\.json$/, '.yaml');
+  fs.writeFileSync(`${SreL10n}/mathmaps/${iso}/${kind}/${yml}`, yaml);
+}

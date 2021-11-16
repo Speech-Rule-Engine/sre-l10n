@@ -1,0 +1,13 @@
+en:
+  kt: #kt, kt.
+    one: knot
+    other: knots
+  mph: #mph
+    one: miles per hour
+    other: miles per hours
+  rpm: #rpm
+    one: revolutions per minute
+    other: revolutions per minutes
+  kmh: #kmh
+    one: kilometers per hour
+    other: kilometers per hours
