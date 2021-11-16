@@ -3,11 +3,11 @@ sv:
     one: dram
     other: drams
   oz:  #oz, oz.
-    one: ounce
-    other: ounces
+    one: uns
+    other: uns
   lb:  #lb, lb.
-    one: pound
-    other: pounds
+    one: skålpund
+    other: skålpund
   st:  #st, st.
     one: stone
     other: stones
@@ -15,20 +15,20 @@ sv:
     one: quarter
     other: quarters
   cwt:  #cwt, cwt.
-    one: hundredweight
-    other: hundredweights
+    one: centner
+    other: centner
   LT:  #LT, L.T.
     one: long ton
     other: long tons
   gr:  #gr
-    one: gram
-    other: grams
+    one: grain
+    other: grains
   g:  #g
     one: gram
-    other: grams
+    other: gram
   mcg:  #mcg
     one: microgram
     other: micrograms
   t:  #t, T
     one: ton
-    other: tons
+    other: ton
