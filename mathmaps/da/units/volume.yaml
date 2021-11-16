@@ -1,7 +1,7 @@
 da:
   cu: #cu, cu.
     one: 
-    other: s
+    other: 
   cu_in: #cu in, cu. in.
     one: kubik inch
     other: kubik inches
@@ -40,7 +40,7 @@ da:
     other: kopper
   cc: #cc, ccm
     one: 
-    other: s
+    other: 
   l: #l
     one: liter
     other: liter

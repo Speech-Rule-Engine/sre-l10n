@@ -10,16 +10,16 @@ da:
     other: pund
   st: #st, st.
     one: 
-    other: s
+    other: 
   qtr: #qtr, qtr.
     one: 
-    other: s
+    other: 
   cwt: #cwt, cwt.
     one: hundredweight
-    other: hundredweights
+    other: hundredweight
   LT: #LT, L.T.
     one: 
-    other: s
+    other: 
   gr: #gr
     one: grain
     other: grains
@@ -28,7 +28,7 @@ da:
     other: gram
   mcg: #mcg
     one: 
-    other: s
+    other: 
   t: #t, T
     one: ton
     other: tons

@@ -1,13 +1,13 @@
 da:
   kt: #kt, kt.
     one: 
-    other: s
+    other: 
   mph: #mph
     one: mil i timen
     other: mil i timen
   rpm: #rpm
     one: 
-    other: s
+    other: 
   kmh: #kmh
     one: 
-    other: s
+    other: 

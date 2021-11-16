@@ -1,13 +1,13 @@
 da:
   sq: #sq, sq.
     one: 
-    other: s
+    other: 
   sq_in: #sq in, sq. in., sq inch, sq. inch
     one: kvadrat inch
     other: kvadrat inches
   sq_rd: #sq rd, sq. rd.
     one: 
-    other: s
+    other: 
   sq_ft: #sq ft, sq. ft.
     one: kvadrat fod
     other: kvadrat fod
@@ -22,4 +22,4 @@ da:
     other: agre
   ha: #ha
     one: 
-    other: s
+    other: 
