@@ -72,8 +72,8 @@ speech when possible. In the above example `b` and `c` are considered simple
 terms, leading to a shortened transcription of the fraction, while `b over c` is
 considered a complex term so the overall fraction is spoken in more detail.
 
-Another example is juxtaposition where `xy` is simple versus other infix
-operators like `x + y`, which is not simple.
+Another example is juxtaposition where `xy` is *simple* versus other infix
+operators like `x + y`, which is *not simple*.
 
 ### Prefix
 
@@ -102,7 +102,7 @@ as follows:
 # Comment consisting of the rule description
 # Example: An optional example
 # LaTeX Example: An optional latex code example
-# Parameter description for paramteters 
+# Parameter descriptions: One per rule parameter of the form %i.
 # %1: 
 # ...
 # %n:
@@ -140,7 +140,7 @@ is pronounced as
 the fraction with numerator a plus b and denominator c
 ```
 
-after the expression `a+b` is evaluates to `a plus b`.
+after the expression `a+b` is evaluated to `a plus b`.
 
 Note, that lines can be deleted or rearranged. For the sake of the example
 assume we want to speak denominator before numerator and omit the article. This
@@ -161,7 +161,7 @@ fraction:
 This would now lead to the speech output of 
 
 ``` yaml
-the fraction with numerator a plus b and denominator c
+fraction with denominator c and enumerator a plus b
 ```
 
 Note that some of the lines contain annotations. While they are desribed in more
@@ -311,10 +311,11 @@ The following is a list of commonly used grammar annotations:
 |            |                         |                                                                                                                           |
 
 It can be necessary to remove grammatical annotations, for example when a case
-is not longer valid. This can be achieved by adding an exclamation mark before
+is no longer valid. This can be achieved by adding an exclamation mark before
 the annotation, or in other words, negating it. E.g., `(grammar:!singular)`
 removes the grammatical annotation `singular`.
 
-Note, adding grammar categories often requires some adjustment of preconditions for
-rules. These have to be done explicitly in the rule sets, and can not be done
-via the yaml files. For more information, best to contact the owner of this repository directly.
+Note, adding grammar categories often requires some adjustment of preconditions
+for rules. These have to be done explicitly in the rule sets, and can not be
+done via the yaml files. For more information, best to contact the owner of this
+repository directly.
