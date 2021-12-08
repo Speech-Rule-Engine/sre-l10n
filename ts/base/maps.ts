@@ -96,3 +96,28 @@ function convertUnitMap(json: any[], iso: string) {
   }
   return result;
 }
+
+
+export function convertMessages(iso: string) {
+  let maps = loadMaps(iso, 'messages');
+  let messages = maps['messages.json']['messages'];
+  console.log(messages);
+  console.log(messages['navigate']);
+  saveMapsYaml(iso, 'messages', 'navigation.yaml',
+               `${iso}:\n${convertSimpleMap(messages['navigate'])}`);
+  saveMapsYaml(iso, 'messages', 'roles.yaml',
+               `${iso}:\n${convertSimpleMap(messages['role'])}`);
+  saveMapsYaml(iso, 'messages', 'enclose.yaml',
+               `${iso}:\n${convertSimpleMap(messages['enclose'])}`);
+  saveMapsYaml(iso, 'messages', 'mathspeak.yaml',
+               `${iso}:\n${convertSimpleMap(messages['MS'])}`);
+}
+
+
+function convertSimpleMap(json: {[key: string]: string}) {
+  let yaml = [];
+  for (let [key, value] of Object.entries(json)) {
+    yaml.push(`  ${key}: ${value}`);
+  }
+  return yaml.join('\n');
+}
