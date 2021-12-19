@@ -1,13 +1,13 @@
 da:
   log: logaritme af #Abbreviations: log
   ln: naturlig logaritme af #Abbreviations: ln
-  lg: log base 10 #Abbreviations: lg
-  exp: exponential #Abbreviations: exp, expt
-  gcd: greatest common divisor #Abbreviations: gcd
-  lcm: least common multiple #Abbreviations: lcm
+  lg: 10tals-logaritme #Abbreviations: lg
+  exp: eksponentiel #Abbreviations: exp, expt
+  gcd: største fælles divisor #Abbreviations: gcd
+  lcm: mindste fælles multiplum #Abbreviations: lcm
   arg: argument #Abbreviations: arg
-  im: imaginary part #Abbreviations: im
-  re: real part #Abbreviations: re
+  im: imaginær del #Abbreviations: im
+  re: reel del #Abbreviations: re
   inf: infimum #Abbreviations: inf
   lim: grænseværdien af #Abbreviations: lim
   liminf: limit inferior #Abbreviations: lim inf, liminf
