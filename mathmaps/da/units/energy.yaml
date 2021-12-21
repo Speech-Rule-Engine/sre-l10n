@@ -3,14 +3,14 @@ da:
     one: watt
     other: watt
   kwh:  #kwh, kWh
-    one: s
-    other: kilowatt hours
+    one: kilowatttime
+    other: kilowatttimer
   J:  #J
     one: joule
     other: joule
   N:  #N
-    one: newton
-    other: newton
+    one: Newton
+    other: Newton
   A:  #A
     one: ampere
     other: ampere
@@ -18,14 +18,14 @@ da:
     one: volt
     other: volt
   ohm:  #Ohm, ohm
-    one: s
-    other: ohms
+    one: ohm
+    other: ohm
   Ω:  #Ω
     one: ohm
     other: ohm
   MΩ:  #MΩ
     one: megohm
-    other: megohms
+    other: megohm
   kΩ:  #kΩ
     one: kilohm
-    other: kilohms
+    other: kilohm
