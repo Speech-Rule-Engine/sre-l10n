@@ -1,13 +1,13 @@
 da:
   kt:  #kt, kt.
-    one: s
-    other: knots
+    one: knob
+    other: knob
   mph:  #mph
     one: mil i timen
     other: mil i timen
   rpm:  #rpm
-    one: s
-    other: revolutions per minutes
+    one: omdrejninger pr. minut
+    other: omdrejning pr. minut
   kmh:  #kmh
-    one: s
-    other: kilometers per hours
+    one: kilometer i timen
+    other: kilometer i timen
