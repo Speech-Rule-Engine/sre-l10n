@@ -1,7 +1,7 @@
 da:
   dram:  #dr, dr.
     one: dram
-    other: drams
+    other: dram
   oz:  #oz, oz.
     one: ounce
     other: ounces
@@ -9,26 +9,26 @@ da:
     one: pund
     other: pund
   st:  #st, st.
-    one: s
-    other: stones
+    one: stone
+    other: stone
   qtr:  #qtr, qtr.
-    one: s
+    one: quarter
     other: quarters
   cwt:  #cwt, cwt.
-    one: hundredweight
-    other: hundredweight
+    one: hektokilogram
+    other: hektokilogram
   LT:  #LT, L.T.
-    one: s
-    other: long tons
+    one: long ton
+    other: long ton
   gr:  #gr
-    one: grain
-    other: grains
+    one: gram
+    other: gram
   g:  #g
     one: gram
     other: gram
   mcg:  #mcg
-    one: s
-    other: micrograms
+    one: mikrogram
+    other: mikrogram
   t:  #t, T
     one: ton
-    other: tons
+    other: ton
