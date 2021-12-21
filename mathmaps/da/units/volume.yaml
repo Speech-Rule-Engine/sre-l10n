@@ -1,25 +1,25 @@
 da:
   cu:  #cu, cu.
-    one: s
-    other: cubic
+    one: kubik
+    other: kubik
   cu_inch:  #cu in, cu. in.
-    one: cubic inch
-    other: cubic inches
+    one: kubiktomme
+    other: kubiktommer
   cu_ft:  #cu ft, cu. ft.
-    one: kubik fod
-    other: kubik fod
+    one: kubikfod
+    other: kubikfod
   cu_yd:  #cu yd, cu. yd.
-    one: kubik yard
-    other: kubik yards
+    one: kubikyard
+    other: kubikyards
   bbl:  #bbl., bbl
     one: tønde
     other: tønder
   fl._oz.:  #fl. oz., fl oz
-    one: fluid ounce
-    other: fluid ounces
+    one: flydende ounce
+    other: flydende ounces
   gal:  #gal, gal.
     one: gallon
-    other: galloner
+    other: gallons
   pt:  #pt, pt.
     one: pint
     other: pints
@@ -30,17 +30,17 @@ da:
     one: fluid dram
     other: fluid drams
   tbsp:  #tbsp, tbsp., Tbsp, Tbsp.
-    one: ske
-    other: skeer
+    one: spiseske
+    other: spiseskeer
   tsp:  #tsp, tsp.
-    one: te ske
-    other: te skeer
+    one: teske
+    other: teskeer
   cup:  #cp, cp.
-    one: cup
-    other: cups
+    one: kop
+    other: kopper
   cc:  #cc, ccm
-    one: s
-    other: cubic centimeters
+    one: kubikcentimeter
+    other: kubikcentimeter
   l:  #l
     one: liter
     other: liter
