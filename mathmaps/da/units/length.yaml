@@ -3,11 +3,11 @@ da:
     one: fod
     other: fod
   in:  #in, in.
-    one: inch
-    other: inches
+    one: tomme
+    other: tommer
   mi:  #mi, mi.
     one: mil
-    other: mile
+    other: mil
   yd:  #yd, yd.
     one: yard
     other: yards
@@ -15,17 +15,17 @@ da:
     one: link
     other: links
   rod:  #rd, rd.
-    one: rod
-    other: rods
+    one: stang
+    other: stænger
   chain:  #ch, ch.
-    one: chain
-    other: chains
+    one: kæde
+    other: kæder
   furlong:  #fur, fur.
-    one: s
-    other: furlongs
+    one: furlong
+    other: furlong
   n.m.:  #n.m.
-    one: s
-    other: nautical miles
+    one: sømil
+    other: sømil
   m:  #m
     one: meter
     other: meter
