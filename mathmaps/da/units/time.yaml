@@ -3,14 +3,14 @@ da:
     one: sekund
     other: sekunder
   ″:  #″
-    one: s
-    other: seconds
+    one: sekund
+    other: sekunder
   min:  #min, ′
-    one: s
-    other: minutes
+    one: minut
+    other: minutter
   °:  #°
-    one: s
-    other: degrees
+    one: grad
+    other: grader
   h:  #h, hr
-    one: s
-    other: hours
+    one: time
+    other: timer
