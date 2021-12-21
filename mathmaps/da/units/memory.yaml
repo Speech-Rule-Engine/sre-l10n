@@ -1,10 +1,10 @@
 da:
   b:  #b
-    one: s
-    other: bits
+    one: bit
+    other: bit
   B:  #B
-    one: s
-    other: bytes
+    one: byte
+    other: byte
   KB:  #KB
-    one: s
-    other: kilobytes
+    one: kilobyte
+    other: kilobyte
