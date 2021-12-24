@@ -1,10 +1,10 @@
-se:
-  b: #b
-    one: 
-    other: 
-  B: #B
-    one: 
-    other: 
-  KB: #KB
-    one: 
-    other: 
+sv:
+  b:  #b
+    one: bit
+    other: bits
+  B:  #B
+    one: byte
+    other: bytes
+  KB:  #KB
+    one: kilobyte
+    other: kilobytes

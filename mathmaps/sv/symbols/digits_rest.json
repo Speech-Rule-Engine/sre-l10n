@@ -4,6 +4,9 @@
   "¼": "rationella talet en fjärdedel",
   "½": "rationella talet en halv",
   "¾": "rationella talet tre fjärdedelar",
+  "⅐": "one seventh",
+  "⅑": "one ninth",
+  "⅒": "one tenth",
   "⅓": "vulgar fraction one third",
   "⅔": "vulgar fraction two thirds",
   "⅕": "vulgar fraction one fifth",
@@ -15,5 +18,15 @@
   "⅛": "vulgar fraction one eighth",
   "⅜": "vulgar fraction three eighths",
   "⅝": "vulgar fraction five eighths",
-  "⅞": "vulgar fraction seven eighths"
+  "⅞": "vulgar fraction seven eighths",
+  "⅟": "numerator one",
+  "↉": "zero thirds",
+  "㉈": "circled ten on black square",
+  "㉉": "circled twenty on black square",
+  "㉊": "circled thirty on black square",
+  "㉋": "circled forty on black square",
+  "㉌": "circled fifty on black square",
+  "㉍": "circled sixty on black square",
+  "㉎": "circled seventy on black square",
+  "㉏": "circled eighty on black square"
 }

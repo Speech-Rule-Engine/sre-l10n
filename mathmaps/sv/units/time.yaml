@@ -1,16 +1,16 @@
-se:
-  s: #s
+sv:
+  s:  #s
     one: sekund
     other: sekunder
-  ″: #″
-    one: 
-    other: 
-  min: #min, ′
-    one: 
-    other: 
-  °: #°
-    one: 
-    other: 
-  h: #h, hr
-    one: 
-    other: 
+  ″:  #″
+    one: second
+    other: seconds
+  min:  #min, ′
+    one: minute
+    other: minutes
+  °:  #°
+    one: degree
+    other: degrees
+  h:  #h, hr
+    one: hour
+    other: hours

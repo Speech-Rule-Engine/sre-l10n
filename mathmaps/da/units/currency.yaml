@@ -1,76 +1,91 @@
 da:
-  $: #$, 💲, ＄, ﹩, USD
+  $:  #$, 💲, ＄, ﹩, USD
     one: dollar
     other: dollars
-  £: #£, ￡, GBP
+  £:  #£, ￡, GBP
     one: pund
     other: pund
-  ¥: #¥, ￥, JPY
+  ¥:  #¥, ￥, JPY
     one: yen
     other: yen
-  €: #€, EUR
+  €:  #€, EUR
     one: euro
     other: euro
-  ₡: #₡, CRC
+  ₡:  #₡, CRC
     one: colons
-    other: colons
-  ₢: #₢
+    other: colonss
+  ₢:  #₢
     one: cruzeiro
     other: cruzeiro
-  ₣: #₣
+  ₣:  #₣
     one: franc
-    other: francs
-  ₤: #₤
-    one: lira
-    other: lira
-  ₥: #₥
+    other: franc
+  ₤:  #₤
+    one: lire
+    other: lire
+  ₥:  #₥
     one: mills
-    other: mills
-  ₦: #₦, NGN
+    other: millss
+  ₦:  #₦, NGN
     one: naira
     other: naira
-  ₧: #₧
+  ₧:  #₧
     one: peseta
     other: peseta
-  ₨: #₨, ₹, INR, NPR, PKR, LKR
+  ₨:  #₨, ₹, INR, NPR, PKR, LKR
     one: rupees
-    other: rupees
-  ₩: #₩, ￦, KRW
+    other: rupeess
+  ₩:  #₩, ￦, KRW
     one: won
     other: won
-  ₪: #₪
-    one: sheqel
-    other: sheqels
-  ₫: #₫
+  ₪:  #₪
+    one: shekel
+    other: shekel
+  ₫:  #₫
     one: dong
     other: dong
-  ₭: #₭
+  ₭:  #₭
     one: kip
     other: kip
-  ₮: #₮
+  ₮:  #₮
     one: tugrik
     other: tugrik
-  ₯: #₯
-    one: drachma
-    other: drachma
-  ₰: #₰
+  ₯:  #₯
+    one: drakme
+    other: drakmer
+  ₰:  #₰
     one: tyske pennies
     other: tyske pennies
-  ₱: #₱
+  ₱:  #₱
     one: pesos
-    other: pesos
-  ₲: #₲
+    other: pesoss
+  ₲:  #₲
     one: guaranis
     other: guaranis
-  ₳: #₳
+  ₳:  #₳
     one: australs
-    other: australs
-  ₴: #₴, UAH
+    other: australss
+  ₴:  #₴, UAH
     one: hryvnias
-    other: hryvnias
-  ₵: #₵, GHS
-    one: cedis
-    other: cedis
-  元: #元
+    other: hryvniass
+  ₵:  #₵, GHS
+    one: cedi
+    other: cedi
+  ₶:  #₶
+    one: livre tournois
+    other: livre tournois
+  ₷:  #₷
+    one: spesmilo
+    other: spesmilo
+  ₸:  #₸, KZT
+    one: tenge
+    other: tenge
+  ₺:  #₺, TRY
+    one: tyrkisk lira
+    other: tyrkiske lira
+  元:  #元
     one: yuan
     other: yuan
+  ¢:  #￠, ¢
+    one: cent
+    other: cent

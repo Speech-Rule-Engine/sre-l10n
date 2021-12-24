@@ -1,1 +1,7 @@
 da:
+  deg: grad #Abbreviations: deg
+  det: determinant #Abbreviations: det
+  dim: dimension #Abbreviations: dim
+  hom: homomorfi #Abbreviations: hom, Hom
+  ker: kerne #Abbreviations: ker
+  Tr: spor #Abbreviations: Tr, tr
