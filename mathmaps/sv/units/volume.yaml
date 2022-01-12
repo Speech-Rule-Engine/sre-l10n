@@ -15,11 +15,11 @@ sv:
     one: fat
     other: fat
   fl._oz.:  #fl. oz., fl oz
-    one: fluid ounce
-    other: fluid ounces
+    one: flytande uns
+    other: flytande uns
   gal:  #gal, gal.
-    one: gallon
-    other: gallons
+    one: gallons
+    other: gallon
   pt:  #pt, pt.
     one: pint
     other: pints
