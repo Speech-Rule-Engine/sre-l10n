@@ -12,8 +12,8 @@ sv:
     one: yard
     other: yards
   link:  #li, li.
-    one: länk
-    other: länkar
+    one: link
+    other: links
   rod:  #rd, rd.
     one: rod
     other: rods
@@ -24,8 +24,8 @@ sv:
     one: furlong
     other: furlongs
   n.m.:  #n.m.
-    one: nautical mile
-    other: nautical miles
+    one: nautisk mil
+    other: nautiska mil
   m:  #m
     one: meter
     other: meter
