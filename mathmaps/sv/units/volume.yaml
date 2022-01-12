@@ -3,8 +3,8 @@ sv:
     one: cubic
     other: cubic
   cu_inch:  #cu in, cu. in.
-    one: cubic inch
-    other: cubic inches
+    one: kubiktum
+    other: kubiktum
   cu_ft:  #cu ft, cu. ft.
     one: kubik fot
     other: kubik fot
