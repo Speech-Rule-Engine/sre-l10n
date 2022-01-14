@@ -1,14 +1,14 @@
 {
-  "ᴦ": "small cap Gamma",
-  "ᴧ": "small cap Lamda",
-  "ᴨ": "small cap Pi",
-  "ᴩ": "small cap Rho",
-  "ᴪ": "small cap Psi",
-  "ᵞ": "superscript gamma",
-  "ᵠ": "superscript phi",
-  "ᵦ": "subscript beta",
-  "ᵧ": "subscript gamma",
-  "ᵨ": "subscript rho",
-  "ᵩ": "subscript phi",
-  "ᵪ": "subscript chi"
+  "ᴦ": "gemen gamma",
+  "ᴧ": "gemen lambda",
+  "ᴨ": "gemen pi",
+  "ᴩ": "gemen rho",
+  "ᴪ": "gemen psi",
+  "ᵞ": "upphöjt gamma",
+  "ᵠ": "upphöjt fi",
+  "ᵦ": "nedsänkt beta",
+  "ᵧ": "nedsänkt gamma",
+  "ᵨ": "upphöjt rho",
+  "ᵩ": "nedsänkt fi",
+  "ᵪ": "nedsänkt chi"
 }
