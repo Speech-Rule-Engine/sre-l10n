@@ -18,8 +18,8 @@ sv:
     one: rod
     other: rods
   chain:  #ch, ch.
-    one: chain
-    other: chains
+    one: kedja
+    other: kejdor
   furlong:  #fur, fur.
     one: furlong
     other: furlongs
