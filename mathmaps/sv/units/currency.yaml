@@ -12,8 +12,8 @@ sv:
     one: euro
     other: euro
   ₡:  #₡, CRC
-    one: colons
-    other: colons
+    one: colón
+    other: colón
   ₢:  #₢
     one: cruzeiro
     other: cruzeiro
@@ -24,14 +24,14 @@ sv:
     one: lire
     other: lire
   ₥:  #₥
-    one: mills
-    other: mills
+    one: mill
+    other: mill
   ₦:  #₦, NGN
     one: naira
     other: naira
   ₧:  #₧
     one: peseta
-    other: peseta
+    other: pesetas
   ₨:  #₨, ₹, INR, NPR, PKR, LKR
     one: rupis
     other: rupis
@@ -39,8 +39,8 @@ sv:
     one: won
     other: won
   ₪:  #₪
-    one: sheqel
-    other: sheqels
+    one: shekel
+    other: shekel
   ₫:  #₫
     one: dong
     other: dong
@@ -51,41 +51,41 @@ sv:
     one: tugrik
     other: tugrik
   ₯:  #₯
-    one: drachma
-    other: drachma
+    one: drakma
+    other: drakmer
   ₰:  #₰
     one: tyska pennis
     other: tyska pennis
   ₱:  #₱
-    one: pesos
+    one: peso
     other: pesos
   ₲:  #₲
-    one: guaranis
-    other: guaranis
+    one: guarani
+    other: guarani
   ₳:  #₳
-    one: australs
-    other: australs
+    one: austral
+    other: austral
   ₴:  #₴, UAH
-    one: hryvnias
-    other: hryvnias
+    one: hryvnia
+    other: hryvnia
   ₵:  #₵, GHS
-    one: cedis
-    other: cedis
+    one: cedi
+    other: cedi
   ₶:  #₶
     one: livre tournois
     other: livre tournois
   ₷:  #₷
     one: spesmilo
-    other: spesmilos
+    other: spesmilo
   ₸:  #₸, KZT
     one: tenge
-    other: tenges
+    other: tenge
   ₺:  #₺, TRY
-    one: turkish lira
-    other: turkish liras
+    one: turkisk lira
+    other: turkisk lira
   元:  #元
     one: yuan
     other: yuan
   ¢:  #￠, ¢
     one: cent
-    other: cents
+    other: cent
