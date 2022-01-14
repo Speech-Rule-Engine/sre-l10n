@@ -18,8 +18,8 @@ sv:
     one: flytande uns
     other: flytande uns
   gal:  #gal, gal.
-    one: gallons
-    other: gallon
+    one: gallon
+    other: gallons
   pt:  #pt, pt.
     one: pint
     other: pints
