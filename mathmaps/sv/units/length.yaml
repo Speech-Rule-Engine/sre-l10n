@@ -12,8 +12,8 @@ sv:
     one: yard
     other: yards
   link:  #li, li.
-    one: link
-    other: links
+    one: länk
+    other: länkar
   rod:  #rd, rd.
     one: rod
     other: rods
