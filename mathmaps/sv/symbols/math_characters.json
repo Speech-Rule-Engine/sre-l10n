@@ -1,16 +1,16 @@
 {
   "ℓ": "skript l",
   "℘": "weierstrass p",
-  "ℼ": "double struck pi",
-  "ℽ": "double struck gamma",
-  "ℾ": "double struck cap Gamma",
-  "ℿ": "double struck cap Pi",
-  "⅀": "double struck sum",
+  "ℼ": "pi med dubbelkontur",
+  "ℽ": "gamma med dubbelkontur",
+  "ℾ": "stort Gamma med dubbelkontur",
+  "ℿ": "stort Pi med dubbelkontur",
+  "⅀": "summatecken med dubbelkontur",
   "ⅅ": "stort d",
   "ⅆ": "d",
   "ⅇ": "e",
   "ⅈ": "i",
-  "ⅉ": "double struck italic j",
-  "𝚤": "italic dotless i",
-  "𝚥": "italic dotless j"
+  "ⅉ": "kursivt j med dubbelkontur",
+  "𝚤": "kursivt i utan prick",
+  "𝚥": "kursivt j utan prick"
 }
