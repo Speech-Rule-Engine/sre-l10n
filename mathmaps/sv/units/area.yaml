@@ -6,8 +6,8 @@ sv:
     one: kvadrattum
     other: kvadrattum
   sq_rd:  #sq rd, sq. rd.
-    one: kvadratrod
-    other: kvadratrods
+    one: kvadrat-rod
+    other: kvadrat-rods
   sq_ft:  #sq ft, sq. ft.
     one: kvadrat fot
     other: kvadrat fot
