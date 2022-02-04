@@ -1,10 +1,10 @@
-se:
-  F: #F, F., °F
+sv:
+  F:  #F, F., °F
     one: farad
     other: farader
-  C: #C, °C
+  C:  #C, °C
     one: coulomb
     other: coulomb
-  K: #K, °K
+  K:  #K, °K
     one: kelvin
     other: kelvin

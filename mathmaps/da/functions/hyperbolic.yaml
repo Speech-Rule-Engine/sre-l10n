@@ -1,7 +1,13 @@
 da:
-  cosh: cosinus hyperbolsk #Abbreviations: cosh
-  coth: co-tangent hyperbolsk #Abbreviations: coth
-  csch: co-sekant hyperbolsk #Abbreviations: csch
-  sech: sekant hyperbolsk #Abbreviations: sech
-  sinh: sinus hyperbolsk  #Abbreviations: sinh
-  tanh: tangens hyperbolsk #Abbreviations: tanh
+  cosh: hyperbolsk cosinus #Abbreviations: cosh
+  coth: hyperbolsk cotangens #Abbreviations: coth
+  csch: hyperbolsk cosecans #Abbreviations: csch
+  sech: hyperbolsk sekans #Abbreviations: sech
+  sinh: sinus hyperbolsk #Abbreviations: sinh
+  tanh: hyperbolsk tangens #Abbreviations: tanh
+  arcosh: area cosinus hyperbolsk #Abbreviations: arcosh, arccosh
+  arcoth: area cotangens hyperbolsk #Abbreviations: arcoth, arccoth
+  arcsch: area cosecans hyperbolsk #Abbreviations: arcsch, arccsch
+  arsech: area secans hyperbolsk #Abbreviations: arsech, arcsech
+  arsinh: area sinus hyperbolsk #Abbreviations: arsinh, arcsinh
+  artanh: area tangens hyperbolsk #Abbreviations: artanh, arctanh

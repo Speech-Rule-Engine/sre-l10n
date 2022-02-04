@@ -16,8 +16,9 @@
  * @author volker.sorge@gmail.com (Volker Sorge)
  */
 
-import {loadMaps, saveMaps, saveMapsYaml} from './util';
+import {loadMaps, loadMapsYaml, saveUnicodeMaps, saveMaps, saveMapsYaml} from './util';
 
+// Forward conversion
 export function convertSymbols(iso: string) {
   let maps = loadMaps(iso, 'symbols');
   for (let [file, map] of Object.entries(maps)) {
@@ -120,4 +121,75 @@ function convertSimpleMap(json: {[key: string]: string}) {
     yaml.push(`  ${key}: ${value}`);
   }
   return yaml.join('\n');
+}
+
+
+// Backward conversion
+let CrowdInSrc = `${__dirname}/../../mathmaps`;
+
+export function retrieveSymbols(iso: string) {
+  let srcs = loadMaps(iso, 'symbols', CrowdInSrc);
+  let dsts = loadMaps(iso, 'symbols');
+  for (let file of Object.keys(srcs)) {
+    let src = srcs[file];
+    let dst = dsts[file];
+    for (let entry of dst) {
+      if (!entry.key) continue;
+      let lookup = src[entry.key];
+      if (lookup) {
+        if (entry.mappings.default.default !== lookup) {
+          console.info(`New entry found for ${entry.key}: ${lookup}`);
+          entry.mappings.default.default = lookup;
+        }
+      }
+      saveUnicodeMaps(iso, 'symbols', file, dst);
+    }
+  }
+}
+
+export function retrieveFunctions(iso: string) {
+  let srcs = loadMapsYaml(iso, 'functions');
+  let dsts = loadMaps(iso, 'functions');
+  for (let [yaml, src] of Object.entries(srcs)) {
+    let file = yaml.replace(/\.yaml$/, '.json');
+    let dst = dsts[file];
+    for (let entry of dst) {
+      if (!entry.key) continue;
+      let lookup = src[entry.key];
+      if (lookup) {
+        if (entry.mappings.default.default !== lookup) {
+          console.info(`New entry found for ${entry.key}: ${lookup}`);
+          entry.mappings.default.default = lookup;
+        }
+      }
+      saveUnicodeMaps(iso, 'functions', file, dst);
+    }
+  }
+}
+
+export function retrieveUnits(iso: string) {
+  let srcs = loadMapsYaml(iso, 'units');
+  let dsts = loadMaps(iso, 'units');
+  for (let [yaml, src] of Object.entries(srcs)) {
+    let file = yaml.replace(/\.yaml$/, '.json');
+    let dst = dsts[file];
+    for (let entry of dst) {
+      if (!entry.key) continue;
+      let lookup = src[entry.key];
+      if (lookup) {
+        // one is default
+        if (entry.mappings.default.default !== lookup.one) {
+          console.info(`New entry found for ${entry.key} singular: ${lookup.one}`);
+          entry.mappings.default.default = lookup.one;
+        }
+        // other is plural
+        if (!entry.mappings.default.plural ||
+          (entry.mappings.default.plural !== lookup.other)) {
+          console.info(`New entry found for ${entry.key} plural: ${lookup.other}`);
+          entry.mappings.default.plural = lookup.other;
+        }
+      }
+      saveUnicodeMaps(iso, 'units', file, dst);
+    }
+  }
 }

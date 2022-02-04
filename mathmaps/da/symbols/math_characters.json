@@ -1,10 +1,16 @@
 {
-  "ℓ": "skrevet l",
-  "℘": "weierstrass p",
-  "ⅅ": "stort d",
-  "ⅆ": "d",
-  "ⅇ": "e",
-  "ⅈ": "i",
-  "𝚤": "i uden prik",
-  "𝚥": "j uden prik"
+  "ℓ": "håndskrevet l",
+  "℘": "håndskrevet stort P",
+  "ℼ": "pi med dobbelt streg",
+  "ℽ": "gamma med dobbelt streg",
+  "ℾ": "Gamma med stort bogstav og dobbelt streg",
+  "ℿ": "Pi med stort bogstav og dobbelt streg",
+  "⅀": "sum med dobbelt streg",
+  "ⅅ": "stort D med dobbelt streg og kursiv",
+  "ⅆ": "d med dobbelt streg og kursiv",
+  "ⅇ": "e med dobbelt streg og kursiv",
+  "ⅈ": "i med dobbelt streg og kursiv",
+  "ⅉ": "j med kursiv og dobbelt streg",
+  "𝚤": "prikløst i med kursiv",
+  "𝚥": "prikløst j med kursiv"
 }

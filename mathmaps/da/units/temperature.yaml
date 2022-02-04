@@ -1,10 +1,10 @@
 da:
-  F: #F, F., °F
-    one: farad
-    other: farad
-  C: #C, °C
-    one: coulomb
-    other: coulombs
-  K: #K, °K
-    one: kelvin
-    other: kelvin
+  F:  #F, F., °F
+    one: Fahrenheit
+    other: Fahrenheit
+  C:  #C, °C
+    one: Celsius
+    other: Celsius
+  K:  #K, °K
+    one: Kelvin
+    other: Kelvin
