@@ -27,3 +27,6 @@ let trans = require('./js/base/translate');
 trans.translateBackwardAll();
 ```
 
+## Localisation Workflow
+
+
