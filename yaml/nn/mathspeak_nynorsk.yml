@@ -23,18 +23,6 @@ font:
   - %1
   - %2
 
-# A character in fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.
-# %1: The character in fraktur font
-german-font:
-  - $1: "gotisk"
-  - %1
-
-# A character in bold fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.
-# %1: The character in bold fraktur font
-german-font-bold:
-  - $1: "feit gotisk"
-  - %1
-
 # Mixed numbers
 # Example: Two and one third
 # LaTeX Example: $2 \frac{1}{3}$

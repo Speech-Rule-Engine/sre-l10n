@@ -1,0 +1,31 @@
+da:
+  W:  #W, w
+    one: watt
+    other: watt
+  kwh:  #kwh, kWh
+    one: kilowatttime
+    other: kilowatttimer
+  J:  #J
+    one: joule
+    other: joule
+  N:  #N
+    one: Newton
+    other: Newton
+  A:  #A
+    one: ampere
+    other: ampere
+  V:  #V
+    one: volt
+    other: volt
+  ohm:  #Ohm, ohm
+    one: ohm
+    other: ohm
+  Ω:  #Ω
+    one: ohm
+    other: ohm
+  MΩ:  #MΩ
+    one: megohm
+    other: megohm
+  kΩ:  #kΩ
+    one: kilohm
+    other: kilohm

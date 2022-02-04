@@ -14,7 +14,7 @@
     "noLib": false,
     "alwaysStrict": true,
     "sourceMap": false,
-    "lib": ["es6", "dom", "es2017"],
+    "lib": ["es6", "dom", "es2020"],
     "typeRoots": [
       "./node_modules/@types"
     ],

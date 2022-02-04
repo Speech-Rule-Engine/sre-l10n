@@ -1,0 +1,46 @@
+en:
+  cu: #cu, cu.
+    one: cubic
+    other: cubic
+  cu_inch: #cu in, cu. in.
+    one: cubic inch
+    other: cubic inches
+  cu_ft: #cu ft, cu. ft.
+    one: cubic foot
+    other: cubic feet
+  cu_yd: #cu yd, cu. yd.
+    one: cubic yard
+    other: cubic yards
+  bbl: #bbl., bbl
+    one: barrel
+    other: barrels
+  fl._oz.: #fl. oz., fl oz
+    one: fluid ounce
+    other: fluid ounces
+  gal: #gal, gal.
+    one: gallon
+    other: gallons
+  pt: #pt, pt.
+    one: pint
+    other: pints
+  qt: #qt, qt.
+    one: quart
+    other: quarts
+  fluid_dram: #fl dr, fl. dr.
+    one: fluid dram
+    other: fluid drams
+  tbsp: #tbsp, tbsp., Tbsp, Tbsp.
+    one: tablespoon
+    other: tablespoons
+  tsp: #tsp, tsp.
+    one: teaspoon
+    other: teaspoons
+  cup: #cp, cp.
+    one: cup
+    other: cups
+  cc: #cc, ccm
+    one: cubic centimeter
+    other: cubic centimeters
+  l: #l
+    one: liter
+    other: liters

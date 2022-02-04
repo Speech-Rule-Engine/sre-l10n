@@ -12,7 +12,7 @@
 // limitations under the License.
 
 /**
- * @fileoverview Utillities for file handing, etc.
+ * @fileoverview Utilities for file handing, etc.
  * @author volker.sorge@gmail.com (Volker Sorge)
  */
 
@@ -53,8 +53,8 @@ export const sreLocales: {[iso: string]: string} = {
   'fr': 'french',
   'hi': 'hindi',
   'it': 'italian',
-  'nb': 'bokmal',
-  'nn': 'nynorsk'
+  'nn': 'nynorsk',
+  'nb': 'bokmal'
 };
 
 // Maps abstract locale name to directory name
@@ -143,6 +143,18 @@ export function saveMathmaps(
   iso: string, domain: string, json: any, kind: string = '') {
   let [dir, file] = constructFilename(iso, domain, kind);
   saveJson(`${SreDir}/${dir}/rules/${file}.json`, json);
+}
+
+
+/**
+ * Saves Rules Json to a mathmaps.
+ * @param {string} file The filename.
+ * @param {any} json The JSON structure.
+ * @param {string = ''} dir An optional directory prefix.
+ */
+export function saveUnicodeMaps(
+  iso: string, kind: string, file: string, json: any) {
+  saveJson(`${SreDir}/${iso}/${kind}/${file}`, json);
 }
 
 
@@ -266,4 +278,50 @@ export function loadCommentsYaml(domain: string) {
     throw new Error('Bad filename for yaml');
   }
   return yjs.parse(str);
+}
+
+
+// Below is for Unicode mappings etc.
+export function loadMaps(iso: string, kind: string, dir: string = SreDir) {
+  let files = fs.readdirSync(`${dir}/${iso}/${kind}/`);
+  let maps: {[file: string]: any} = {};
+  for (let file of files) {
+    if (!file.match(/\.json$/)) {
+      continue;
+    }
+    maps[file] = loadJson(`${dir}/${iso}/${kind}/` + file);
+  }
+  return maps
+}
+
+export function saveMaps(iso: string, kind: string, file: string, json: any) {
+  fs.mkdirSync(`${SreL10n}/mathmaps/${iso}/${kind}`, {recursive: true});
+  saveJson(`${SreL10n}/mathmaps/${iso}/${kind}/${file}`, json);
+}
+
+export function saveMapsYaml(iso: string, kind: string, file: string, yaml: string) {
+  fs.mkdirSync(`${SreL10n}/mathmaps/${iso}/${kind}`, {recursive: true});
+  let yml = file.replace(/\.json$/, '.yaml');
+  fs.writeFileSync(`${SreL10n}/mathmaps/${iso}/${kind}/${yml}`, yaml);
+}
+
+/**
+ * Loads a yaml file for a locale and domain.
+ * @param iso The iso code of the locale.
+ * @param domain The domain to load.
+ */
+export function loadMapsYaml(iso: string, kind: string) {
+  const files = fs.readdirSync(`${SreL10n}/mathmaps/${iso}/${kind}/`)
+    .filter(x => x.match(/\.yaml$/));
+  let result: {[key: string]: any} = {};
+  for (let file of files) {
+    let str = '';
+    try {
+      str = fs.readFileSync(`${SreL10n}/mathmaps/${iso}/${kind}/${file}`, 'utf8');
+    } catch (e) {
+      throw new Error('Bad filename for yaml');
+    }
+    result[file] = yjs.parse(str)[iso];
+  }
+  return result;
 }

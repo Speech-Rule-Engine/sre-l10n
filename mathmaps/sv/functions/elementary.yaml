@@ -1,0 +1,21 @@
+sv:
+  log: logaritmen #Abbreviations: log
+  ln: naturliga logaritmen #Abbreviations: ln
+  lg: tiologaritmen #Abbreviations: lg
+  exp: exponentiell #Abbreviations: exp, expt
+  gcd: största gemensamma nämnare #Abbreviations: gcd
+  lcm: minsta gemensamma multipel #Abbreviations: lcm
+  arg: argument #Abbreviations: arg
+  im: imaginär del #Abbreviations: im
+  re: reell del #Abbreviations: re
+  inf: infimum #Abbreviations: inf
+  lim: gränsvärde #Abbreviations: lim
+  liminf: nedre gränsvärde #Abbreviations: lim inf, liminf
+  limsup: övre gränsvärde #Abbreviations: lim sup, limsup
+  max: maximum #Abbreviations: max
+  min: minimum #Abbreviations: min
+  sup: supremum #Abbreviations: sup
+  injlim: kolimes #Abbreviations: injlim, inj lim
+  projlim: inverterat gränsvärde #Abbreviations: projlim, proj lim
+  mod: modulo #Abbreviations: mod
+  Pr: sannolikhet #Abbreviations: Pr

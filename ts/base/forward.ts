@@ -81,7 +81,11 @@ abstract class BaseSet {
     this.json = util.loadMathmaps(locale, domain, 'actions');
     for (let rule of this.json.rules) {
       this.order.push(rule[1]);
-      this.makeAction(rule);
+      try {
+        this.makeAction(rule);
+      } catch (e) {
+        console.error(`Failed to make actions for rule ${rule[1]} in locale ${locale} and domain ${domain}`);
+      }
     }
     referenceSets[locale] = this;
   }

@@ -1,0 +1,21 @@
+da:
+  log: logaritme #Abbreviations: log
+  ln: naturlig logaritme #Abbreviations: ln
+  lg: 10tals-logaritme #Abbreviations: lg
+  exp: eksponentiel #Abbreviations: exp, expt
+  gcd: største fælles divisor #Abbreviations: gcd
+  lcm: mindste fælles multiplum #Abbreviations: lcm
+  arg: argument #Abbreviations: arg
+  im: imaginær del #Abbreviations: im
+  re: reel del #Abbreviations: re
+  inf: infimum #Abbreviations: inf
+  lim: grænseværdi #Abbreviations: lim
+  liminf: limes inferior #Abbreviations: lim inf, liminf
+  limsup: limes superior #Abbreviations: lim sup, limsup
+  max: maksimum #Abbreviations: max
+  min: minimum #Abbreviations: min
+  sup: supremum #Abbreviations: sup
+  injlim: kolimes #Abbreviations: injlim, inj lim
+  projlim: projektiv grænseværdi #Abbreviations: projlim, proj lim
+  mod: modulo #Abbreviations: mod
+  Pr: sandsynlighed #Abbreviations: Pr

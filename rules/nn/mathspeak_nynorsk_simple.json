@@ -1,1 +1,448 @@
-{}
+{
+  "collapsed": [
+    "$1: \"kollapsa\"",
+    "%1"
+  ],
+  "blank-cell-empty": [
+    "$1: \"tom\""
+  ],
+  "blank-line-empty": [
+    "$1: \"tom\""
+  ],
+  "font": [
+    "%1",
+    "%2"
+  ],
+  "mixed-number": [
+    "%1",
+    "$1: \"og\"",
+    "%2"
+  ],
+  "number-with-chars": [
+    "$1: \"nummer\"",
+    "%1"
+  ],
+  "number-with-chars-brief": [
+    "$1: \"num\"",
+    "%1"
+  ],
+  "number-as-upper-word": [
+    "$1: \"ord stor\"",
+    "%1"
+  ],
+  "number-baseline": [
+    "$1: \"grunnlinje\"",
+    "%1"
+  ],
+  "number-baseline-brief": [
+    "$1: \"basis\"",
+    "%1"
+  ],
+  "number-baseline-font": [
+    "$1: \"grunnlinje\"",
+    "%1",
+    "%2"
+  ],
+  "number-baseline-font-brief": [
+    "$1: \"basis\"",
+    "%1",
+    "%2"
+  ],
+  "negative-number": [
+    "$1: \"negativ\"",
+    "%1"
+  ],
+  "negative": [
+    "$1: \"minus\"",
+    "%1"
+  ],
+  "division": [
+    "%1",
+    "$1: \"delt på\"",
+    "%2"
+  ],
+  "subtraction": [
+    "%1 (separator:\"minus\")"
+  ],
+  "fences-neutral": [
+    "$1: \"StartAbsoluttVerdi\"",
+    "%1",
+    "$2: \"StoppAbsoluttVerdi\""
+  ],
+  "fences-neutral-sbrief": [
+    "$1: \"AbsoluttVerdi\"",
+    "%1",
+    "$2: \"StoppAbsoluttVerdi\""
+  ],
+  "fences-metric": [
+    "$1: \"StartMetrisk\"",
+    "%1",
+    "$2: \"StoppMetrisk\""
+  ],
+  "fences-metric-sbrief": [
+    "$1: \"Metrisk\"",
+    "%1",
+    "$2: \"StoppMetrisk\""
+  ],
+  "empty-set": [
+    "$1: \"tomt sett\""
+  ],
+  "fences-set": [
+    "$1: \"StartSett\"",
+    "%1",
+    "$2: \"StoppSett\""
+  ],
+  "fences-set-sbrief": [
+    "$1: \"Sett\"",
+    "%1",
+    "$2: \"StoppSet\""
+  ],
+  "factorial": [
+    "$1: \"faktorisk\""
+  ],
+  "minus": [
+    "$1: \"minus\""
+  ],
+  "continued-fraction-outer": [
+    "$1: \"KontinuerligBrøk\"",
+    "%1",
+    "$2: \"Over\"",
+    "%2"
+  ],
+  "continued-fraction-outer-brief": [
+    "$1: \"KontinuerligBrøk\"",
+    "%1",
+    "$2: \"Over\"",
+    "%2"
+  ],
+  "continued-fraction-inner": [
+    "$1: \"StartBrøk\"",
+    "%1",
+    "$2: \"Over\"",
+    "%2"
+  ],
+  "continued-fraction-inner-brief": [
+    "$1: \"StartBrøk\"",
+    "%1",
+    "$2: \"Over\"",
+    "%2"
+  ],
+  "continued-fraction-inner-sbrief": [
+    "$1: \"Brøk\"",
+    "%1",
+    "$2: \"Over\"",
+    "%2"
+  ],
+  "integral": [
+    "%1",
+    "$1: \"subskript\"",
+    "%2",
+    "$2: \"superskript\"",
+    "%3",
+    "$3: \"grunnlinje\""
+  ],
+  "integral-brief": [
+    "%1",
+    "$1: \"sub\"",
+    "%2",
+    "$2: \"super\"",
+    "%3",
+    "$3: \"grunn\""
+  ],
+  "square": [
+    "%1",
+    "$1: \"i andre potens\""
+  ],
+  "cube": [
+    "%1",
+    "$1: \"i tredje potens\""
+  ],
+  "prime": [
+    "%1",
+    "%2"
+  ],
+  "counted-prime": [
+    "%1",
+    "$1: \"prim\""
+  ],
+  "counted-prime-multichar": [
+    "%1",
+    "$1: \"prim\""
+  ],
+  "overscore": [
+    "$1: \"ModifiserOver\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2"
+  ],
+  "overscore-brief": [
+    "$1: \"ModOver\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2"
+  ],
+  "double-overscore": [
+    "$1: \"ModifiserOver Over\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2"
+  ],
+  "double-overscore-brief": [
+    "$1: \"ModOver Over\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2"
+  ],
+  "underscore": [
+    "$1: \"ModifiserUnder\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2"
+  ],
+  "underscore-brief": [
+    "$1: \"ModUnder\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2"
+  ],
+  "double-underscore": [
+    "$1: \"ModifiserUnder Under\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2"
+  ],
+  "double-underscore-brief": [
+    "$1: \"ModUnder Under\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2"
+  ],
+  "overbar": [
+    "%1",
+    "$1: \"overstrek\""
+  ],
+  "underbar": [
+    "%1",
+    "$1: \"understrek\""
+  ],
+  "overtilde": [
+    "%1",
+    "$1: \"overtilde\""
+  ],
+  "undertilde": [
+    "%1",
+    "$1: \"undertilde\""
+  ],
+  "matrix": [
+    "$1: \"Start\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2",
+    "$3: \"Matrise\"",
+    "%3 (context:\"rad \")",
+    "$4: \"Stopp matrise\""
+  ],
+  "matrix-sbrief": [
+    "%1",
+    "$1: \"Med\"",
+    "%2",
+    "$2: \"Matrise\"",
+    "%3 (context:\"rad \")",
+    "$3: \"Stopp matrise\""
+  ],
+  "matrix-row": [
+    "%1 (context:\"Kolonne\", pause:200)"
+  ],
+  "row-with-label": [
+    "$1: \"med etikett\"",
+    "%1",
+    "$2: \"StoppEtikett\" (pause:200)",
+    "%2 (context:\"kolonne\")"
+  ],
+  "row-with-label-brief": [
+    "$1: \"Etikett\"",
+    "%1",
+    "%2 (context:\"kolonne\")"
+  ],
+  "row-with-text-label": [
+    "$1: \"Etikett\"",
+    "%1",
+    "%2 (context:\"kolonne\")"
+  ],
+  "empty-row": [
+    "$1: \"Tom\""
+  ],
+  "empty-cell": [
+    "$1: \"Tom\" (pause:300)"
+  ],
+  "determinant": [
+    "$1: \"Start\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2",
+    "$3: \"Determinant\"",
+    "%3 (context:\"rad \")",
+    "$4: \"StoppDeterminant\""
+  ],
+  "determinant-sbrief": [
+    "%1",
+    "$1: \"Med\"",
+    "%2",
+    "$2: \"Determinant\"",
+    "%3 (context:\"rad \")",
+    "$3: \"StoppDeterminant\""
+  ],
+  "determinant-simple": [
+    "$1: \"Start\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2",
+    "$3: \"Determinant\"",
+    "%3 (context:\"Rad\")",
+    "$4: \"StoppDeterminant\""
+  ],
+  "determinant-simple-sbrief": [
+    "%1",
+    "$1: \"Med\"",
+    "%2",
+    "$2: \"Determinant\"",
+    "%3 (context:\"rad\")",
+    "$3: \"StoppDeterminant\""
+  ],
+  "layout": [
+    "$1: \"StartOppsett\"",
+    "%1 (context:\"rad \")",
+    "$2: \"StoppOppsett\""
+  ],
+  "layout-sbrief": [
+    "$1: \"Oppsett\"",
+    "%1 (context:\"rad \")",
+    "$2: \"StoppOppsett\""
+  ],
+  "binomial": [
+    "$1: \"StartBinomialEllerMatrise\"",
+    "%1",
+    "$2: \"Velg\"",
+    "%2",
+    "$3: \"StoppBinomialEllerMatrise\""
+  ],
+  "binomial-sbrief": [
+    "$1: \"BinomialEllerMatrise\"",
+    "%1",
+    "$2: \"Velg\"",
+    "%2",
+    "$3: \"StoppBinomialEllerMatrise\""
+  ],
+  "cases": [
+    "$1: \"StartOppsett\"",
+    "$2: \"Forstørra\"",
+    "%1",
+    "%2 (context:\"rad\")",
+    "$3: \"StoppOppsett\""
+  ],
+  "cases-sbrief": [
+    "$1: \"Oppsett\"",
+    "$2: \"Forstørra\"",
+    "%1",
+    "%2 (context:\"rad \")",
+    "$3: \"StoppOppsett\""
+  ],
+  "line-with-label": [
+    "$1: \"med etikett\"",
+    "%1",
+    "$2: \"StoppEtikett\" (pause:200)",
+    "%2"
+  ],
+  "line-with-label-brief": [
+    "$1: \"Etikett\"",
+    "%1 (pause:200)",
+    "%2"
+  ],
+  "line-with-text-label": [
+    "$1: \"Etikett\"",
+    "%1",
+    "%2"
+  ],
+  "empty-line": [
+    "$1: \"Tom\""
+  ],
+  "empty-line-with-label": [
+    "$1: \"med etikett\"",
+    "%1",
+    "$2: \"StoppEtikett\" (pause:200)",
+    "$3: \"Tom\""
+  ],
+  "empty-line-with-label-brief": [
+    "$1: \"Etikett\"",
+    "%1 (pause:200)",
+    "$2: \"Tom\""
+  ],
+  "enclose": [
+    "$1: \"StartOmslutting\"",
+    "%1",
+    "%2",
+    "$2: \"StoppOmslutting\""
+  ],
+  "leftbar": [
+    "$1: \"vertikal strek\"",
+    "%1"
+  ],
+  "rightbar": [
+    "%1",
+    "$1: \"vertikal strek\""
+  ],
+  "crossout": [
+    "$1: \"Utkryssing\"",
+    "%1",
+    "$2: \"StoppUtkryssing\""
+  ],
+  "cancel": [
+    "$1: \"Utkryssing\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2",
+    "$3: \"StoppUtkryssing\""
+  ],
+  "cancel-reverse": [
+    "$1: \"Utkryssing\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2",
+    "$3: \"StoppUtkryssing\""
+  ],
+  "multi-inference": [
+    "$1: \"slutningsregel\"",
+    "%1",
+    "$2: \"med konklusjon\"",
+    "%2",
+    "$3: \"og\"",
+    "%3",
+    "$4: \"premissar\""
+  ],
+  "inference": [
+    "$1: \"slutningsregel\"",
+    "%1",
+    "$2: \"med konklusjon\"",
+    "%2",
+    "$3: \"og\"",
+    "%3",
+    "$4: \"premiss\""
+  ],
+  "premise": [
+    "%1 (context:\"premiss \")"
+  ],
+  "conclusion": [
+    "%1"
+  ],
+  "label": [
+    "$1: \"etikett\"",
+    "%1"
+  ],
+  "axiom": [
+    "$1: \"aksiom\"",
+    "%1"
+  ],
+  "empty-axiom": [
+    "$1: \"tomt aksiom\""
+  ]
+}

@@ -1,0 +1,16 @@
+da:
+  s:  #s
+    one: sekund
+    other: sekunder
+  ″:  #″
+    one: sekund
+    other: sekunder
+  min:  #min, ′
+    one: minut
+    other: minutter
+  °:  #°
+    one: grad
+    other: grader
+  h:  #h, hr
+    one: time
+    other: timer
