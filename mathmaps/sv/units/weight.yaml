@@ -1,7 +1,7 @@
 sv:
   dram:  #dr, dr.
-    one: dram
-    other: drams
+    one: dirham
+    other: dirham
   oz:  #oz, oz.
     one: uns
     other: uns
@@ -18,8 +18,8 @@ sv:
     one: centner
     other: centner
   LT:  #LT, L.T.
-    one: long ton
-    other: long tons
+    one: engelskt ton
+    other: engelska ton
   gr:  #gr
     one: grain
     other: grains
@@ -27,8 +27,8 @@ sv:
     one: gram
     other: gram
   mcg:  #mcg
-    one: microgram
-    other: micrograms
+    one: mikrogram
+    other: mikrogram
   t:  #t, T
     one: ton
     other: ton

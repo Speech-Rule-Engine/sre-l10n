@@ -1,10 +1,10 @@
 sv:
   b:  #b
     one: bit
-    other: bits
+    other: bitar
   B:  #B
     one: byte
     other: bytes
   KB:  #KB
     one: kilobyte
-    other: kilobytes
+    other: kilobyte

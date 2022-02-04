@@ -12,20 +12,20 @@ sv:
     one: yard
     other: yards
   link:  #li, li.
-    one: link
-    other: links
+    one: länk
+    other: länkar
   rod:  #rd, rd.
     one: rod
     other: rods
   chain:  #ch, ch.
-    one: chain
-    other: chains
+    one: kedja
+    other: kejdor
   furlong:  #fur, fur.
     one: furlong
     other: furlongs
   n.m.:  #n.m.
-    one: nautical mile
-    other: nautical miles
+    one: nautisk mil
+    other: nautiska mil
   m:  #m
     one: meter
     other: meter

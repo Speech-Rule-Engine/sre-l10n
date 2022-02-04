@@ -1,10 +1,10 @@
 sv:
   cu:  #cu, cu.
-    one: cubic
-    other: cubic
+    one: kubik
+    other: kubik
   cu_inch:  #cu in, cu. in.
-    one: cubic inch
-    other: cubic inches
+    one: kubiktum
+    other: kubiktum
   cu_ft:  #cu ft, cu. ft.
     one: kubik fot
     other: kubik fot
@@ -15,8 +15,8 @@ sv:
     one: fat
     other: fat
   fl._oz.:  #fl. oz., fl oz
-    one: fluid ounce
-    other: fluid ounces
+    one: flytande uns
+    other: flytande uns
   gal:  #gal, gal.
     one: gallon
     other: gallons
@@ -27,8 +27,8 @@ sv:
     one: quart
     other: quarts
   fluid_dram:  #fl dr, fl. dr.
-    one: fluid dram
-    other: fluid drams
+    one: flytande drakma
+    other: flytande drakmer
   tbsp:  #tbsp, tbsp., Tbsp, Tbsp.
     one: matsked
     other: matskedar
@@ -36,11 +36,11 @@ sv:
     one: tesked
     other: teskedar
   cup:  #cp, cp.
-    one: cup
-    other: cups
+    one: kopp
+    other: koppar
   cc:  #cc, ccm
-    one: cubic centimeter
-    other: cubic centimeters
+    one: kubikcentimeter
+    other: kubikcentimeter
   l:  #l
     one: liter
     other: liter

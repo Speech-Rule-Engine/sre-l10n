@@ -3,14 +3,14 @@ sv:
     one: sekund
     other: sekunder
   ″:  #″
-    one: second
-    other: seconds
+    one: sekund
+    other: sekunder
   min:  #min, ′
-    one: minute
-    other: minutes
+    one: minut
+    other: minuter
   °:  #°
-    one: degree
-    other: degrees
+    one: grad
+    other: grader
   h:  #h, hr
-    one: hour
-    other: hours
+    one: timme
+    other: timmar
