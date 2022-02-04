@@ -13,12 +13,17 @@
 // limitations under the License.
 
 /**
- * @fileoverview Modification of SRE data structures for splitting.
- *
+ * @file Modification of SRE data structures for splitting.
  * @author volker.sorge@gmail.com (Volker Sorge)
  */
 
-import {Action, ActionType, Component, Precondition, SpeechRule} from '../../speech-rule-engine/js/rule_engine/speech_rule';
+import {
+  Action,
+  ActionType,
+  Component,
+  Precondition,
+  SpeechRule
+} from '../../speech-rule-engine/js/rule_engine/speech_rule';
 
 declare module '../../speech-rule-engine/js/rule_engine/speech_rule' {
   interface SpeechRule {
@@ -26,7 +31,7 @@ declare module '../../speech-rule-engine/js/rule_engine/speech_rule' {
     localizable(): boolean;
     hasType(type: string): boolean;
   }
-  
+
   interface Action {
     components: Component[];
     toString(): string;
@@ -49,32 +54,30 @@ declare module '../../speech-rule-engine/js/rule_engine/speech_rule' {
     toString(): string;
     hasDisjunctive(): boolean;
   }
-
 }
 
-Action.prototype.localizable = function() {
+Action.prototype.localizable = function () {
   return this.components.some((x: SpeechRule) => x.localizable());
 };
 
-Action.prototype.hasType = function(type: string) {
+Action.prototype.hasType = function (type: string) {
   return this.components.some((x: SpeechRule) => x.hasType(type));
 };
 
-Precondition.prototype.hasDisjunctive = function() {
+Precondition.prototype.hasDisjunctive = function () {
   return this.constraints.some((x: string) => x.match(/ or /));
 };
 
-Component.prototype.localizable = function(){
-  return this.hasType(ActionType.TEXT) &&
-    this.content.match(/^".*"$/);
+Component.prototype.localizable = function () {
+  return this.hasType(ActionType.TEXT) && this.content.match(/^".*"$/);
 };
 
-Component.prototype.hasType = function(type: string){
+Component.prototype.hasType = function (type: string) {
   return this.type === type;
 };
 
-Component.prototype.clone = function() {
+Component.prototype.clone = function () {
   return Component.fromString(this.toString());
 };
 
-export {Action, Component};
+export { Action, Component };

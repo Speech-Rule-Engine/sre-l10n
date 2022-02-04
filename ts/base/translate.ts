@@ -13,48 +13,56 @@
 // limitations under the License.
 
 /**
- * @fileoverview Machinery for forward translating of rule sets.
- *
+ * @file Machinery for forward translating of rule sets.
  * @author volker.sorge@gmail.com (Volker Sorge)
  */
 
-import {readComments, writeComments} from './comment';
-import {ActionSet, ReturnSet} from './forward';
+import { readComments, writeComments } from './comment';
+import { ActionSet, ReturnSet } from './forward';
 import * as util from './util';
 
-export let verbose = false;
-export let update = false;
+export const verbose = false;
+export const update = false;
 
+/**
+ *
+ */
 export function translateForwardAll() {
   readComments();
-  for (let domain of util.sreDomains) {
-    for (let loc of Object.keys(util.sreLocales)) {
+  for (const domain of util.sreDomains) {
+    for (const loc of Object.keys(util.sreLocales)) {
       try {
-        let acs = new ActionSet(loc, domain);
+        const acs = new ActionSet(loc, domain);
         acs.outputFiles();
       } catch (e) {
         if (verbose) {
           console.error(e);
         }
-        console.error(`Something went wrong for domain ${domain} in locale ${loc}`);
+        console.error(
+          `Something went wrong for domain ${domain} in locale ${loc}`
+        );
       }
     }
     writeComments(domain);
   }
 }
 
-
+/**
+ *
+ */
 export function translateBackwardAll() {
-  for (let domain of util.sreDomains) {
-    for (let loc of Object.keys(util.sreLocales)) {
+  for (const domain of util.sreDomains) {
+    for (const loc of Object.keys(util.sreLocales)) {
       try {
-        let acs = new ReturnSet(loc, domain);
+        const acs = new ReturnSet(loc, domain);
         acs.outputFiles();
       } catch (e) {
         if (verbose) {
           console.error(e);
         }
-        console.error(`Something went wrong for domain ${domain} in locale ${loc}`);
+        console.error(
+          `Something went wrong for domain ${domain} in locale ${loc}`
+        );
       }
     }
   }

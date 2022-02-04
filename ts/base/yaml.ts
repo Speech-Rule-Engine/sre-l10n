@@ -13,27 +13,31 @@
 // limitations under the License.
 
 /**
- * @fileoverview Simplistic YAML writer and parser tailor made for rule sets.
- *
+ * @file Simplistic YAML writer and parser tailor made for rule sets.
  * @author volker.sorge@gmail.com (Volker Sorge)
  */
 
 import * as fs from 'fs';
 // import {Action} from './rules';
-let yjs = require('yamljs');
+const yjs = require('yamljs');
 
-
-export function toYaml(file: string, actions: {[name: string]: string[]},
-                       comments: {[name: string]: {[key: string]: string}}) {
-  let output = [];
-  for (let [name, components] of Object.entries(actions)) {
-    let out = [];
-    let comment = comments[name];
-    for (let [param, str] of Object.entries(comment)) {
+/**
+ * @param file
+ */
+export function toYaml(
+  file: string,
+  actions: { [name: string]: string[] },
+  comments: { [name: string]: { [key: string]: string } }
+) {
+  const output = [];
+  for (const [name, components] of Object.entries(actions)) {
+    const out = [];
+    const comment = comments[name];
+    for (const [param, str] of Object.entries(comment)) {
       out.push(`# ${param}: ${str}`);
     }
     out.push(`${name}:`);
-    for (let comp of components) {
+    for (const comp of components) {
       out.push(`  - ${comp}`);
     }
     output.push(out.join('\n'));
@@ -41,14 +45,16 @@ export function toYaml(file: string, actions: {[name: string]: string[]},
   fs.writeFileSync(file, output.join('\n\n') + '\n');
 }
 
-
+/**
+ * @param file
+ */
 export function fromYaml(file: string) {
-  let str = fs.readFileSync(file, 'utf8');
-  let lines = str.split('\n');
-  let result = [];
-  for (let line of lines) {
+  const str = fs.readFileSync(file, 'utf8');
+  const lines = str.split('\n');
+  const result = [];
+  for (const line of lines) {
     if (line.match(/^\s+- /)) {
-      result.push(line.replace(/^(\s+- )/, '$1\'') + '\'');
+      result.push(line.replace(/^(\s+- )/, "$1'") + "'");
     } else {
       result.push(line);
     }

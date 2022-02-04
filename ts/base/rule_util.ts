@@ -13,18 +13,27 @@
 // limitations under the License.
 
 /**
- * @fileoverview Utility working on modified SRE rule structures.
- *
+ * @file Utility working on modified SRE rule structures.
  * @author volker.sorge@gmail.com (Volker Sorge)
  */
 
-import {Action} from './rules';
-import {getRuleSet, JsonRule, JsonRules, loadMathmaps, LocaleRules, saveMathmaps} from './util';
+import { Action } from './rules';
+import {
+  getRuleSet,
+  JsonRule,
+  JsonRules,
+  loadMathmaps,
+  LocaleRules,
+  saveMathmaps
+} from './util';
 
-
+/**
+ * @param act1
+ * @param act2
+ */
 export function compareActions(act1: string, act2: string) {
-  let comp1 = Action.fromString(act1).components;
-  let comp2 = Action.fromString(act2).components;
+  const comp1 = Action.fromString(act1).components;
+  const comp2 = Action.fromString(act2).components;
   if (comp1.length !== comp2.length) {
     return false;
   }
@@ -36,36 +45,40 @@ export function compareActions(act1: string, act2: string) {
   return true;
 }
 
-
 /**
  * Selects a named rule from one locale.
+ *
  * @param {LocaleRules} rules The set of all rules.
  * @param {string} rule The rule name to select.
  */
 export function selectRule(rules: JsonRules, rule: string) {
-  return rules.rules.find((a: JsonRule)  => a[1] === rule);
+  return rules.rules.find((a: JsonRule) => a[1] === rule);
 }
 
 /**
  * Selects a named rule from all locales.
+ *
  * @param {LocaleRules} rules The set of all rules.
+ * @param locale
  * @param {string} rule The rule name to select.
  */
 export function selectRules(locale: LocaleRules, rule: string) {
-  let results: {[iso: string]: JsonRule} = {};
-  for (let [iso, rules] of Object.entries(locale)) {
-    let localeRule = selectRule(rules, rule);
-      if (localeRule) {
-        results[iso] = localeRule;
-      } else {
-        console.info(`Entry ${rule} does not exist in locale ${iso}`);
-      }
+  const results: { [iso: string]: JsonRule } = {};
+  for (const [iso, rules] of Object.entries(locale)) {
+    const localeRule = selectRule(rules, rule);
+    if (localeRule) {
+      results[iso] = localeRule;
+    } else {
+      console.info(`Entry ${rule} does not exist in locale ${iso}`);
+    }
   }
   return results;
 }
 
-
-let domainActions: {[domain: string]: LocaleRules} = {};
+const domainActions: { [domain: string]: LocaleRules } = {};
+/**
+ * @param domain
+ */
 export function allActions(domain: string) {
   if (domainActions[domain]) {
     return domainActions[domain];
@@ -74,29 +87,31 @@ export function allActions(domain: string) {
   return domainActions[domain];
 }
 
-
 /**
- * Print a comparison table for an action in all locales. 
+ * Print a comparison table for an action in all locales.
+ *
  * @param {string} domain The domain.
  * @param {string} action The action.
  */
 export function showActions(domain: string, action: string) {
-  let actions = selectRules(allActions(domain), action);
-  for (let [iso, action] of Object.entries(actions)) {
+  const actions = selectRules(allActions(domain), action);
+  for (const [iso, action] of Object.entries(actions)) {
     console.log(`${iso}: ${action}`);
   }
 }
 
-
+/**
+ * @param domain
+ */
 export function actionsComparison(domain: string) {
-  let actions = allActions(domain);
-  let first = Object.values(actions)[0];
-  let result: string[] = [];
-  for (let action of first.rules) {
-    let name = action[1];
+  const actions = allActions(domain);
+  const first = Object.values(actions)[0];
+  const result: string[] = [];
+  for (const action of first.rules) {
+    const name = action[1];
     let comp = true;
-    for (let act of Object.values(actions)) {
-      let comparing = selectRule(act, name);
+    for (const act of Object.values(actions)) {
+      const comparing = selectRule(act, name);
       if (!comparing) {
         comp = false;
         break;
@@ -113,11 +128,14 @@ export function actionsComparison(domain: string) {
   return result;
 }
 
-
+/**
+ * @param rules
+ * @param names
+ */
 function removeRules(rules: JsonRule[], names: string[]) {
-  let restRules = [];
-  let baseRules = [];
-  for (let rule of rules) {
+  const restRules = [];
+  const baseRules = [];
+  for (const rule of rules) {
     if (names.includes(rule[1])) {
       baseRules.push(rule);
     } else {
@@ -127,17 +145,20 @@ function removeRules(rules: JsonRule[], names: string[]) {
   return [baseRules, restRules];
 }
 
-
+/**
+ * @param domain
+ * @param names
+ */
 export function moveRules(domain: string, names: string[]) {
-  let actions = allActions(domain);
+  const actions = allActions(domain);
   let baseActions = null;
-  for (let [iso, rule] of Object.entries(actions)) {
-    let [base, rest] = removeRules(rule.rules, names);
+  for (const [iso, rule] of Object.entries(actions)) {
+    const [base, rest] = removeRules(rule.rules, names);
     rule.rules = rest;
     saveMathmaps(iso, domain, rule, 'actions');
     baseActions = base;
   }
-  let baseActionsSet = loadMathmaps('base', domain, 'actions');
+  const baseActionsSet = loadMathmaps('base', domain, 'actions');
   baseActionsSet.rules = baseActionsSet.rules.concat(baseActions);
   saveMathmaps('base', domain, baseActionsSet, 'actions');
 }

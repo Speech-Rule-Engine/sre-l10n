@@ -12,26 +12,38 @@
 // limitations under the License.
 
 /**
- * @fileoverview Maps for CrowdIn
+ * @file Maps for CrowdIn
  * @author volker.sorge@gmail.com (Volker Sorge)
  */
 
-import {loadMaps, loadMapsYaml, saveUnicodeMaps, saveMaps, saveMapsYaml} from './util';
+import {
+  loadMaps,
+  loadMapsYaml,
+  saveUnicodeMaps,
+  saveMaps,
+  saveMapsYaml
+} from './util';
 
 // Forward conversion
+/**
+ * @param iso
+ */
 export function convertSymbols(iso: string) {
-  let maps = loadMaps(iso, 'symbols');
-  for (let [file, map] of Object.entries(maps)) {
-    let newMap = convertSymbolMap(map);
+  const maps = loadMaps(iso, 'symbols');
+  for (const [file, map] of Object.entries(maps)) {
+    const newMap = convertSymbolMap(map);
     saveMaps(iso, 'symbols', file, newMap);
   }
 }
 
+/**
+ * @param json
+ */
 function convertSymbolMap(json: any[]) {
-  let result: {[key: string]: string} = {};
-  for (let entry of json) {
+  const result: { [key: string]: string } = {};
+  for (const entry of json) {
     if (!entry.key) continue;
-    let key = String.fromCodePoint(parseInt(entry.key, 16));
+    const key = String.fromCodePoint(parseInt(entry.key, 16));
     if (entry.mappings?.default?.default) {
       result[key] = entry.mappings.default.default;
     } else if (entry.mappings?.clearspeak?.default) {
@@ -43,22 +55,26 @@ function convertSymbolMap(json: any[]) {
   return result;
 }
 
-
+/**
+ * @param iso
+ */
 export function convertFunctions(iso: string) {
-  let maps = loadMaps(iso, 'functions');
-  for (let [file, map] of Object.entries(maps)) {
-    let newMap = convertFunctionMap(map);
+  const maps = loadMaps(iso, 'functions');
+  for (const [file, map] of Object.entries(maps)) {
+    const newMap = convertFunctionMap(map);
     saveMapsYaml(iso, 'functions', file, `${iso}:\n${newMap}`);
   }
 }
 
-
+/**
+ * @param json
+ */
 function convertFunctionMap(json: any[]) {
   let result = '';
-  for (let entry of json) {
+  for (const entry of json) {
     if (!entry.key) continue;
-    let key = entry.key;
-    let comment = `Abbreviations: ${entry.names.join(', ')}`
+    const key = entry.key;
+    const comment = `Abbreviations: ${entry.names.join(', ')}`;
     if (entry.mappings?.default?.default) {
       result += `  ${key}: ${entry.mappings.default.default} #${comment}\n`;
     } else if (entry.mappings?.clearspeak?.default) {
@@ -70,72 +86,101 @@ function convertFunctionMap(json: any[]) {
   return result;
 }
 
-
+/**
+ * @param iso
+ */
 export function convertUnits(iso: string) {
-  let maps = loadMaps(iso, 'units');
-  for (let [file, map] of Object.entries(maps)) {
-    let newMap = convertUnitMap(map, iso);
+  const maps = loadMaps(iso, 'units');
+  for (const [file, map] of Object.entries(maps)) {
+    const newMap = convertUnitMap(map, iso);
     saveMapsYaml(iso, 'units', file, `${iso}:\n${newMap}`);
   }
 }
 
-
 // Currently no dual.
+/**
+ * @param json
+ * @param iso
+ */
 function convertUnitMap(json: any[], iso: string) {
   let result = '';
-  for (let entry of json) {
+  for (const entry of json) {
     if (!entry.key) continue;
-    let key = entry.key.replace(/ /g, '_');
-    let comment = `${entry.names.join(', ')}`
+    const key = entry.key.replace(/ /g, '_');
+    const comment = `${entry.names.join(', ')}`;
     result += `  ${key}: #${comment}\n`;
     result += `    one: ${entry.mappings.default.default}\n`;
     if (entry.mappings?.default?.plural) {
       result += `    other: ${entry.mappings.default.plural}\n`;
     } else {
-      result += `    other: ${entry.mappings.default.default}${iso === 'en' ? 's' : ''}\n`;
+      result += `    other: ${entry.mappings.default.default}${
+        iso === 'en' ? 's' : ''
+      }\n`;
     }
   }
   return result;
 }
 
-
+/**
+ * @param iso
+ */
 export function convertMessages(iso: string) {
-  let maps = loadMaps(iso, 'messages');
-  let messages = maps['messages.json']['messages'];
+  const maps = loadMaps(iso, 'messages');
+  const messages = maps['messages.json']['messages'];
   console.log(messages);
   console.log(messages['navigate']);
-  saveMapsYaml(iso, 'messages', 'navigation.yaml',
-               `${iso}:\n${convertSimpleMap(messages['navigate'])}`);
-  saveMapsYaml(iso, 'messages', 'roles.yaml',
-               `${iso}:\n${convertSimpleMap(messages['role'])}`);
-  saveMapsYaml(iso, 'messages', 'enclose.yaml',
-               `${iso}:\n${convertSimpleMap(messages['enclose'])}`);
-  saveMapsYaml(iso, 'messages', 'mathspeak.yaml',
-               `${iso}:\n${convertSimpleMap(messages['MS'])}`);
+  saveMapsYaml(
+    iso,
+    'messages',
+    'navigation.yaml',
+    `${iso}:\n${convertSimpleMap(messages['navigate'])}`
+  );
+  saveMapsYaml(
+    iso,
+    'messages',
+    'roles.yaml',
+    `${iso}:\n${convertSimpleMap(messages['role'])}`
+  );
+  saveMapsYaml(
+    iso,
+    'messages',
+    'enclose.yaml',
+    `${iso}:\n${convertSimpleMap(messages['enclose'])}`
+  );
+  saveMapsYaml(
+    iso,
+    'messages',
+    'mathspeak.yaml',
+    `${iso}:\n${convertSimpleMap(messages['MS'])}`
+  );
 }
 
-
-function convertSimpleMap(json: {[key: string]: string}) {
-  let yaml = [];
-  for (let [key, value] of Object.entries(json)) {
+/**
+ *
+ */
+function convertSimpleMap(json: { [key: string]: string }) {
+  const yaml = [];
+  for (const [key, value] of Object.entries(json)) {
     yaml.push(`  ${key}: ${value}`);
   }
   return yaml.join('\n');
 }
 
-
 // Backward conversion
-let CrowdInSrc = `${__dirname}/../../mathmaps`;
+const CrowdInSrc = `${__dirname}/../../mathmaps`;
 
+/**
+ * @param iso
+ */
 export function retrieveSymbols(iso: string) {
-  let srcs = loadMaps(iso, 'symbols', CrowdInSrc);
-  let dsts = loadMaps(iso, 'symbols');
-  for (let file of Object.keys(srcs)) {
-    let src = srcs[file];
-    let dst = dsts[file];
-    for (let entry of dst) {
+  const srcs = loadMaps(iso, 'symbols', CrowdInSrc);
+  const dsts = loadMaps(iso, 'symbols');
+  for (const file of Object.keys(srcs)) {
+    const src = srcs[file];
+    const dst = dsts[file];
+    for (const entry of dst) {
       if (!entry.key) continue;
-      let lookup = src[entry.key];
+      const lookup = src[entry.key];
       if (lookup) {
         if (entry.mappings.default.default !== lookup) {
           console.info(`New entry found for ${entry.key}: ${lookup}`);
@@ -147,15 +192,18 @@ export function retrieveSymbols(iso: string) {
   }
 }
 
+/**
+ * @param iso
+ */
 export function retrieveFunctions(iso: string) {
-  let srcs = loadMapsYaml(iso, 'functions');
-  let dsts = loadMaps(iso, 'functions');
-  for (let [yaml, src] of Object.entries(srcs)) {
-    let file = yaml.replace(/\.yaml$/, '.json');
-    let dst = dsts[file];
-    for (let entry of dst) {
+  const srcs = loadMapsYaml(iso, 'functions');
+  const dsts = loadMaps(iso, 'functions');
+  for (const [yaml, src] of Object.entries(srcs)) {
+    const file = yaml.replace(/\.yaml$/, '.json');
+    const dst = dsts[file];
+    for (const entry of dst) {
       if (!entry.key) continue;
-      let lookup = src[entry.key];
+      const lookup = src[entry.key];
       if (lookup) {
         if (entry.mappings.default.default !== lookup) {
           console.info(`New entry found for ${entry.key}: ${lookup}`);
@@ -167,25 +215,34 @@ export function retrieveFunctions(iso: string) {
   }
 }
 
+/**
+ * @param iso
+ */
 export function retrieveUnits(iso: string) {
-  let srcs = loadMapsYaml(iso, 'units');
-  let dsts = loadMaps(iso, 'units');
-  for (let [yaml, src] of Object.entries(srcs)) {
-    let file = yaml.replace(/\.yaml$/, '.json');
-    let dst = dsts[file];
-    for (let entry of dst) {
+  const srcs = loadMapsYaml(iso, 'units');
+  const dsts = loadMaps(iso, 'units');
+  for (const [yaml, src] of Object.entries(srcs)) {
+    const file = yaml.replace(/\.yaml$/, '.json');
+    const dst = dsts[file];
+    for (const entry of dst) {
       if (!entry.key) continue;
-      let lookup = src[entry.key];
+      const lookup = src[entry.key];
       if (lookup) {
         // one is default
         if (entry.mappings.default.default !== lookup.one) {
-          console.info(`New entry found for ${entry.key} singular: ${lookup.one}`);
+          console.info(
+            `New entry found for ${entry.key} singular: ${lookup.one}`
+          );
           entry.mappings.default.default = lookup.one;
         }
         // other is plural
-        if (!entry.mappings.default.plural ||
-          (entry.mappings.default.plural !== lookup.other)) {
-          console.info(`New entry found for ${entry.key} plural: ${lookup.other}`);
+        if (
+          !entry.mappings.default.plural ||
+          entry.mappings.default.plural !== lookup.other
+        ) {
+          console.info(
+            `New entry found for ${entry.key} plural: ${lookup.other}`
+          );
           entry.mappings.default.plural = lookup.other;
         }
       }

@@ -11,10 +11,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import {ActionSet as AS} from './base/forward';
-import {translateForwardAll} from './base/translate';
+import { ActionSet as AS } from './base/forward';
+import { translateForwardAll } from './base/translate';
 import * as util from './base/util';
 
-export let loadRules = util.loadRules;
-export let ActionSet = AS;
-export let forward = translateForwardAll;
+export const loadRules = util.loadRules;
+export const ActionSet = AS;
+export const forward = translateForwardAll;

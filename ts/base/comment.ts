@@ -13,59 +13,62 @@
 // limitations under the License.
 
 /**
- * @fileoverview Data structures for comments.
- *
+ * @file Data structures for comments.
  * @author volker.sorge@gmail.com (Volker Sorge)
  */
 
-import {referenceSets} from './forward';
-import {Component} from './rules';
-import {loadComments, loadCommentsYaml,
-        saveComments, saveCommentsYaml, sreDomains} from './util';
+import { referenceSets } from './forward';
+import { Component } from './rules';
+import {
+  loadComments,
+  loadCommentsYaml,
+  saveComments,
+  saveCommentsYaml,
+  sreDomains
+} from './util';
 
 export class Comment {
-
   /**
    * Comments for each parameter.
    */
-  public parameters: {[para: string]: string} = {};
+  public parameters: { [para: string]: string } = {};
 
   /**
    * The locales a rule belongs to together with the number of parameters for
    * that locale.
    */
-  public locales: {[loc: string]: number} = {};
+  public locales: { [loc: string]: number } = {};
 
   /**
    * The overall rule description
    */
-  public description: string = '';
+  public description = '';
 
   /**
    * A latex example.
    */
-  public latex: string = '';
+  public latex = '';
 
   /**
    * A latex example.
    */
-  public example: string = '';
+  public example = '';
 
   /**
    * The reference locale.
    */
-  public reference: string = '';
+  public reference = '';
 
   /**
    * The ordering of the parameters.
    */
-  public order: {[loc: string]: {[param: string]: string}} = {};
+  public order: { [loc: string]: { [param: string]: string } } = {};
 
   /**
    * Maximum number of parameters for locales. If this is smaller than the
    * number of parameters, they will be pruned on saving.
    */
-  private maximum: number = 0;
+  private maximum = 0;
 
   /**
    * Checks if two components match. That is it removes successively attributes
@@ -76,8 +79,8 @@ export class Comment {
    */
   private static matchComponents(comp1: Component, comp2: Component) {
     // Decreasing strength, in case of testing or if something goes wrong.
-    let c1 = comp1.clone();
-    let c2 = comp2.clone();
+    const c1 = comp1.clone();
+    const c2 = comp2.clone();
     if (c1.toString() === c2.toString()) {
       return true;
     }
@@ -96,6 +99,7 @@ export class Comment {
 
   /**
    * Cleans a parameter map by removing everything that is not of the for %1-n.
+   *
    * @param map The map to clean.
    */
   private static cleanParameters(map: string[]) {
@@ -113,17 +117,20 @@ export class Comment {
 
   /**
    * @param rule The name of the rule the comment is for.
+   * @param parameters
    */
   constructor(public rule: string, parameters: string[] = []) {
-    Comment.cleanParameters(parameters).forEach(p => this.parameters[p] = '');
+    Comment.cleanParameters(parameters).forEach(
+      (p) => (this.parameters[p] = '')
+    );
   }
 
   /**
    * @param locale The locale for which the comment is produced.
-   * @return The Yaml format for this comment.
+   * @returns The Yaml format for this comment.
    */
   public toYaml(locale: string): string {
-    let out = [`# ${this.description}`];
+    const out = [`# ${this.description}`];
     if (this.example) {
       out.push(`# Example: ${this.example}`);
     }
@@ -141,41 +148,41 @@ export class Comment {
         order[param] = param;
       }
     }
-    for (let [dom, cod] of Object.entries(order)) {
+    for (const [dom, cod] of Object.entries(order)) {
       out.push(`# ${dom}: ${this.parameters[cod]}`);
     }
     return out.join('\n');
   }
 
   public toSimpleYaml(): string {
-    let out = [`${this.rule}:`];
+    const out = [`${this.rule}:`];
     out.push('  description: ' + JSON.stringify(this.description));
     out.push('  example:     ' + JSON.stringify(this.example));
     out.push('  latex:       ' + JSON.stringify(this.latex));
     out.push('  parameters:');
-    for (let [dom, cod] of Object.entries(this.parameters)) {
+    for (const [dom, cod] of Object.entries(this.parameters)) {
       out.push(`    ${dom}: ${JSON.stringify(cod)}`);
     }
     return out.join('\n');
   }
 
-
   /**
    * Updates the comment from a yaml structure.
+   *
    * @param {any} yaml The parsed yaml structure.
    */
   public fromYaml(yaml: any) {
     this.description = yaml.description || '';
     this.latex = yaml.latex || '';
     this.example = yaml.example || '';
-    for (let [param, com] of Object.entries(yaml.parameters || {})) {
+    for (const [param, com] of Object.entries(yaml.parameters || {})) {
       this.parameters[param] = com as string;
     }
   }
 
-
   /**
    * Reads a comment from its JSON representation.
+   *
    * @param json The JSON input.
    */
   public fromJson(json: any) {
@@ -186,16 +193,20 @@ export class Comment {
     this.latex = json.latex || '';
     this.example = json.example || '';
     this.order = json.order || {};
-    this.reference = (json.reference !== undefined) ? json.reference :
-      (Object.keys(this.locales).includes('en') ?
-        'en' : Object.keys(this.locales)[0]);
-    this.maximum = Object.values(this.locales).
-      reduce((x, y) => Math.max(x, y), 0);
+    this.reference =
+      json.reference !== undefined
+        ? json.reference
+        : Object.keys(this.locales).includes('en')
+        ? 'en'
+        : Object.keys(this.locales)[0];
+    this.maximum = Object.values(this.locales).reduce(
+      (x, y) => Math.max(x, y),
+      0
+    );
     if (this.maximum !== json.maximum) {
       console.warn(`Incorrect max value in comment ${this.rule}`);
     }
   }
-
 
   /**
    * Updates the comment for a locale and the keys needed for that locale. This
@@ -209,21 +220,20 @@ export class Comment {
    */
   public update(locale: string, keys: string[]) {
     keys = Comment.cleanParameters(keys);
-    let length = keys.length;
+    const length = keys.length;
     this.locales[locale] = length;
     if (length <= this.maximum) {
       return;
     }
-    keys.slice(this.maximum).forEach(x => this.parameters[x] = '');
+    keys.slice(this.maximum).forEach((x) => (this.parameters[x] = ''));
     this.maximum = length;
   }
-
 
   /**
    * Removes all parameters that exceed the maximum of needed parameters.
    */
   public prune() {
-    let length = Object.keys(this.parameters).length;
+    const length = Object.keys(this.parameters).length;
     if (this.maximum > length) {
       console.error(`Not enough parameters in ${this.rule}!`);
       return;
@@ -236,22 +246,21 @@ export class Comment {
     }
   }
 
-
   public getOrder() {
-    let ref = referenceSets[this.reference].parameters[this.rule];
-    for (let [loc, max] of Object.entries(this.locales)) {
-      let ordering: {[key: string]: string} = {};
+    const ref = referenceSets[this.reference].parameters[this.rule];
+    for (const [loc, max] of Object.entries(this.locales)) {
+      const ordering: { [key: string]: string } = {};
       this.order[loc] = ordering;
-      let orig = referenceSets[loc].parameters[this.rule];
+      const orig = referenceSets[loc].parameters[this.rule];
       if (!orig) {
         delete this.locales[loc];
         delete this.order[loc];
         continue;
       }
-      let used = [];
-      for (let [okey, ocomp] of Object.entries(orig)) {
+      const used = [];
+      for (const [okey, ocomp] of Object.entries(orig)) {
         if (!Comment.isParameter(okey)) continue;
-        for (let [rkey, rcomp] of Object.entries(ref)) {
+        for (const [rkey, rcomp] of Object.entries(ref)) {
           if (!Comment.isParameter(rkey)) continue;
           if (Comment.matchComponents(ocomp, rcomp)) {
             ordering[okey] = rkey;
@@ -261,11 +270,13 @@ export class Comment {
         }
       }
       if (Object.keys(ordering).length === max) continue;
-      console.info(`Extra parameters in comments of rule ${this.rule} for locale ${loc}`);
-      for (let okey of Object.keys(orig)) {
+      console.info(
+        `Extra parameters in comments of rule ${this.rule} for locale ${loc}`
+      );
+      for (const okey of Object.keys(orig)) {
         if (!Comment.isParameter(okey)) continue;
         if (ordering[okey]) continue;
-        for (let rkey of Object.keys(this.parameters)) {
+        for (const rkey of Object.keys(this.parameters)) {
           if (used.includes(rkey)) continue;
           ordering[okey] = rkey;
           used.push(rkey);
@@ -273,52 +284,50 @@ export class Comment {
       }
     }
   }
-
 }
 
-declare type CommentSet = {[name: string]: Comment};
-let commentSet: {[domain: string]: CommentSet} = {};
-
+declare type CommentSet = { [name: string]: Comment };
+const commentSet: { [domain: string]: CommentSet } = {};
 
 /**
  * Retrieves a comment set for the given domain.
+ *
  * @param domain The domain.
  */
 export function getComments(domain: string) {
-  let comments = commentSet[domain];
+  const comments = commentSet[domain];
   if (comments) {
     return comments;
   }
-  let newSet = {};
+  const newSet = {};
   commentSet[domain] = newSet;
   return newSet;
 }
 
-
 /**
  * Saves comments for a particular domain to a file.
+ *
  * @param file The filename.
  * @param domain The domain to save.
  */
 export function writeComments(domain: string) {
-  let comments = getComments(domain);
-  for (let comment of Object.values(comments)) {
+  const comments = getComments(domain);
+  for (const comment of Object.values(comments)) {
     comment.getOrder();
     comment.prune();
   }
   saveComments(domain, comments);
 }
 
-
 /**
  * Populates the global comment set structure.
  */
 export function readComments() {
-  for (let domain of sreDomains) {
-    let json = loadComments(domain);
-    let cset: CommentSet = {};
-    for (let [rule, jcom] of Object.entries(json)) {
-      let comment = new Comment(rule);
+  for (const domain of sreDomains) {
+    const json = loadComments(domain);
+    const cset: CommentSet = {};
+    for (const [rule, jcom] of Object.entries(json)) {
+      const comment = new Comment(rule);
       comment.fromJson(jcom);
       cset[rule] = comment;
     }
@@ -326,31 +335,29 @@ export function readComments() {
   }
 }
 
-
 /**
  * Saves all comments in yaml format.
  */
 export function writeCommentsYaml() {
-  for (let domain of sreDomains) {
-    let comments = getComments(domain);
-    let yaml: string[] = [];
-    for (let comment of Object.values(comments)) {
+  for (const domain of sreDomains) {
+    const comments = getComments(domain);
+    const yaml: string[] = [];
+    for (const comment of Object.values(comments)) {
       yaml.push(comment.toSimpleYaml());
     }
     saveCommentsYaml(domain, yaml.join('\n\n'));
   }
 }
 
-
 /**
  * Reads and updates comments from the yaml file.
  */
 export function readCommentsYaml() {
-  for (let domain of sreDomains) {
-    let comments = getComments(domain);
-    let yaml = loadCommentsYaml(domain);
-    for (let [rule, com] of Object.entries(yaml)) {
-      let comment = comments[rule];
+  for (const domain of sreDomains) {
+    const comments = getComments(domain);
+    const yaml = loadCommentsYaml(domain);
+    for (const [rule, com] of Object.entries(yaml)) {
+      const comment = comments[rule];
       if (!comment) {
         console.warn(`Cannot create new comment for rule ${rule} from Yaml.`);
         continue;
@@ -360,11 +367,13 @@ export function readCommentsYaml() {
   }
 }
 
-
+/**
+ *
+ */
 export function updateComments() {
   readComments();
   readCommentsYaml();
-  for (let domain of sreDomains) {
+  for (const domain of sreDomains) {
     saveComments(domain, getComments(domain));
   }
 }

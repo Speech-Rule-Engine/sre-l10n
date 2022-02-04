@@ -13,18 +13,17 @@
 // limitations under the License.
 
 /**
- * @fileoverview Machinery for forward translations of rule sets.
- *
+ * @file Machinery for forward translations of rule sets.
  * @author volker.sorge@gmail.com (Volker Sorge)
  */
 
-import {Comment, getComments} from './comment';
-import {Action, Component} from './rules';
+import { Comment, getComments } from './comment';
+import { Action, Component } from './rules';
 import * as util from './util';
 
-export let referenceSets: {[locale: string]: BaseSet} = {};
+export const referenceSets: { [locale: string]: BaseSet } = {};
 
-let grammar: {[attr: string]: boolean} = {
+const grammar: { [attr: string]: boolean } = {
   singular: true,
   plural: true,
   dual: true,
@@ -34,18 +33,17 @@ let grammar: {[attr: string]: boolean} = {
   addArticle: true
 };
 
-let attributes: {[attr: string]: boolean} = {
+const attributes: { [attr: string]: boolean } = {
   context: true,
   pause: true,
   separator: true,
   join: true
 };
 
-
-let yamlPrefix = '# For details on the format see https:///speechruleengine.org/yaml.md';
+const yamlPrefix =
+  '# For details on the format see https:///speechruleengine.org/yaml.md';
 
 abstract class BaseSet {
-
   /**
    * Original JSON rules.
    */
@@ -54,22 +52,22 @@ abstract class BaseSet {
   /**
    * The actions for each rule.
    */
-  public actions: {[name: string]: Action} = {};
+  public actions: { [name: string]: Action } = {};
 
   /**
    * The parameter mappings.
    */
-  public parameters: {[name: string]: {[key: string]: Component}} = {};
+  public parameters: { [name: string]: { [key: string]: Component } } = {};
 
   /**
    * The simplified actions.
    */
-  public simple: {[name: string]: Component[]} = {};
+  public simple: { [name: string]: Component[] } = {};
 
   /**
    * The simplified actions as reduced strings.
    */
-  public simplified: {[name: string]: string[]} = {};
+  public simplified: { [name: string]: string[] } = {};
 
   /**
    * The order of the rules in the original set. This is to be able to reproduce
@@ -79,12 +77,14 @@ abstract class BaseSet {
 
   constructor(public locale: string, public domain: string) {
     this.json = util.loadMathmaps(locale, domain, 'actions');
-    for (let rule of this.json.rules) {
+    for (const rule of this.json.rules) {
       this.order.push(rule[1]);
       try {
         this.makeAction(rule);
       } catch (e) {
-        console.error(`Failed to make actions for rule ${rule[1]} in locale ${locale} and domain ${domain}`);
+        console.error(
+          `Failed to make actions for rule ${rule[1]} in locale ${locale} and domain ${domain}`
+        );
       }
     }
     referenceSets[locale] = this;
@@ -94,18 +94,16 @@ abstract class BaseSet {
     if (kind !== 'Action') {
       throw new Error('Illegal rule type: ' + kind);
     }
-    let act = Action.fromString(action);
+    const act = Action.fromString(action);
     this.actions[name] = act;
   }
-
 }
 
 export class ActionSet extends BaseSet {
-
   /**
    * The comments for this domain.
    */
-  public comments: {[name: string]: Comment};
+  public comments: { [name: string]: Comment };
 
   /**
    * @override
@@ -113,7 +111,7 @@ export class ActionSet extends BaseSet {
   constructor(public locale: string, public domain: string) {
     super(locale, domain);
     this.comments = getComments(domain);
-    for (let rule of this.order) {
+    for (const rule of this.order) {
       this.makeParams(rule);
     }
   }
@@ -126,11 +124,11 @@ export class ActionSet extends BaseSet {
   }
 
   public toYaml(): string {
-    let output = [yamlPrefix];
-    for (let [name, components] of Object.entries(this.simplified)) {
-      let out = [this.comments[name].toYaml(this.locale)];
+    const output = [yamlPrefix];
+    for (const [name, components] of Object.entries(this.simplified)) {
+      const out = [this.comments[name].toYaml(this.locale)];
       out.push(`${name}:`);
-      for (let comp of components) {
+      for (const comp of components) {
         out.push(`  - ${comp}`);
       }
       output.push(out.join('\n'));
@@ -139,18 +137,19 @@ export class ActionSet extends BaseSet {
   }
 
   private makeParams(name: string) {
-    let act = this.actions[name];
-    let [simple, map] = this.makeSimple(act);
+    const act = this.actions[name];
+    const [simple, map] = this.makeSimple(act);
     this.parameters[name] = map;
     this.makeComments(name);
     this.simple[name] = simple;
-    this.simplified[name] = simple.map(
-      x => x.toString().replace(/^\[[a-z]\] /, ''));
+    this.simplified[name] = simple.map((x) =>
+      x.toString().replace(/^\[[a-z]\] /, '')
+    );
   }
 
   private makeComments(name: string) {
     let comment = this.comments[name];
-    let keys = Object.keys(this.parameters[name]);
+    const keys = Object.keys(this.parameters[name]);
     if (!comment) {
       comment = new Comment(name, keys);
       this.comments[name] = comment;
@@ -159,15 +158,15 @@ export class ActionSet extends BaseSet {
     comment.update(this.locale, keys);
   }
 
-
   private makeSimple(
-      action: Action): [Component[], {[key: string]: Component}] {
-    let simple = [];
-    let map: {[key: string]: Component} = {};
+    action: Action
+  ): [Component[], { [key: string]: Component }] {
+    const simple = [];
+    const map: { [key: string]: Component } = {};
     let ncount = 1;
     let tcount = 1;
     let position = 0;
-    for (let comp of action.components) {
+    for (const comp of action.components) {
       if (comp.type === 'PERSONALITY') {
         if (position !== 0) {
           console.warn('WARNING: Non-leading personality annotation!');
@@ -176,7 +175,7 @@ export class ActionSet extends BaseSet {
           continue;
         }
       } else {
-        let newComp = comp.clone();
+        const newComp = comp.clone();
         let param = '';
         if (comp.localizable()) {
           param = `$${tcount++}`;
@@ -196,18 +195,20 @@ export class ActionSet extends BaseSet {
   private cleanComp(component: Component): Component {
     // separator case
     if (component.attributes) {
-      if (component?.attributes['separator'] &&
-        component.attributes['sepFunc']) {
+      if (
+        component?.attributes['separator'] &&
+        component.attributes['sepFunc']
+      ) {
         delete component.attributes['separator'];
       }
-      for (let key of Object.keys(component.attributes)) {
+      for (const key of Object.keys(component.attributes)) {
         if (!attributes[key]) {
           delete component.attributes[key];
         }
       }
     }
     if (component.grammar) {
-      for (let key of Object.keys(component.grammar)) {
+      for (const key of Object.keys(component.grammar)) {
         if (!grammar[key]) {
           delete component.grammar[key];
         }
@@ -215,12 +216,9 @@ export class ActionSet extends BaseSet {
     }
     return component;
   }
-
 }
 
-
 export class ReturnSet extends BaseSet {
-
   constructor(locale: string, domain: string) {
     super(locale, domain);
     this.simplified = util.loadYaml(locale, domain);
@@ -232,9 +230,9 @@ export class ReturnSet extends BaseSet {
    * Updates the actions from the yaml input.
    */
   public updateActions() {
-    let simpOrder = Object.keys(this.simplified);
-    for (let rule of this.order) {
-      let simple = this.simplified[rule];
+    const simpOrder = Object.keys(this.simplified);
+    for (const rule of this.order) {
+      const simple = this.simplified[rule];
       delete this.simplified[rule];
       if (!simple) {
         delete this.actions[rule];
@@ -242,7 +240,7 @@ export class ReturnSet extends BaseSet {
       }
       this.actions[rule] = this.updateAction(simple, this.parameters[rule]);
     }
-    for (let [name, rule] of Object.entries(this.simplified)) {
+    for (const [name, rule] of Object.entries(this.simplified)) {
       if (this.findPrecondition(name)) {
         // Check backwards for new rules preconditions.
         //
@@ -251,7 +249,7 @@ export class ReturnSet extends BaseSet {
         //
         // Lookup in default actions (currently english, later add base once
         // everything is fully commented).
-        let def = this.findDefaultAction(name);
+        const def = this.findDefaultAction(name);
         if (def) {
           this.actions[name] = this.updateAction(rule, def);
         } else {
@@ -275,15 +273,15 @@ export class ReturnSet extends BaseSet {
     return this.defActions[rule];
   }
 
-  private preconds: {[rule: string]: boolean} = null;
+  private preconds: { [rule: string]: boolean } = null;
 
   private findPrecondition(rule: string) {
     if (!this.preconds) {
       this.preconds = {};
       let inherits = this.locale;
       while (inherits) {
-        let precs = util.loadMathmaps(inherits, this.domain);
-        precs.rules.forEach(x => this.preconds[x[1]] = true);
+        const precs = util.loadMathmaps(inherits, this.domain);
+        precs.rules.forEach((x) => (this.preconds[x[1]] = true));
         inherits = precs.inherits;
       }
     }
@@ -291,16 +289,16 @@ export class ReturnSet extends BaseSet {
   }
 
   private updateAction(simple: any, map: any): Action {
-    let comps = [];
+    const comps = [];
     if (map['%0']) {
       comps.push(new Component(map['%0']));
     }
-    for (let cstr of simple) {
-      let comp = Component.fromString('[t] ' + cstr);
+    for (const cstr of simple) {
+      const comp = Component.fromString('[t] ' + cstr);
       let real = map[comp.content];
       if (!real) {
         // We have a textual component.
-        let match = comp.content.match(/^\s*(\$\d+)\s*:{0,1}\s*/);
+        const match = comp.content.match(/^\s*(\$\d+)\s*:{0,1}\s*/);
         if (!match) {
           // New textual component. Push as given.
           comps.push(comp);
@@ -319,23 +317,31 @@ export class ReturnSet extends BaseSet {
       }
       // Merge old and new attributes
       real.attributes = this.syncAttributes(
-        comp.attributes, real.attributes, Object.keys(attributes));
+        comp.attributes,
+        real.attributes,
+        Object.keys(attributes)
+      );
       // Merge old and new grammar
       real.grammar = this.syncAttributes(
-        comp.grammar, real.grammar, Object.keys(grammar));
+        comp.grammar,
+        real.grammar,
+        Object.keys(grammar)
+      );
       comps.push(new Component(real));
     }
     return new Action(comps);
   }
 
   // Sync the first into the second, wrt. keys
-  private syncAttributes(src: {[key: string]: (string | boolean)},
-                         dst: {[key: string]: (string | boolean)},
-                         keys: string[]) {
+  private syncAttributes(
+    src: { [key: string]: string | boolean },
+    dst: { [key: string]: string | boolean },
+    keys: string[]
+  ) {
     src = src || {};
     dst = dst || {};
     Object.assign(dst, src);
-    for (let key of keys) {
+    for (const key of keys) {
       // separator case
       if (key === 'separator' && dst['sepFunc']) {
         continue;
@@ -351,9 +357,9 @@ export class ReturnSet extends BaseSet {
    * @override
    */
   public outputFiles() {
-    let rules: util.JsonRule[] = [];
-    for (let rule of this.order) {
-      let action = this.actions[rule];
+    const rules: util.JsonRule[] = [];
+    for (const rule of this.order) {
+      const action = this.actions[rule];
       if (action) {
         rules.push(['Action', rule, action.toString()]);
       }
@@ -361,5 +367,4 @@ export class ReturnSet extends BaseSet {
     this.json.rules = rules;
     util.saveMathmaps(this.locale, this.domain, this.json, 'actions');
   }
-
 }
