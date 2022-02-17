@@ -180,7 +180,8 @@ export function retrieveSymbols(iso: string) {
     const dst = dsts[file];
     for (const entry of dst) {
       if (!entry.key) continue;
-      const lookup = src[entry.key];
+      const symb = String.fromCodePoint(parseInt(entry.key, 16));
+      const lookup = src[symb];
       if (lookup) {
         if (entry.mappings.default.default !== lookup) {
           console.info(`New entry found for ${entry.key}: ${lookup}`);

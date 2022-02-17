@@ -11,7 +11,7 @@ your language, [see here for details](yaml.md).
 
 ## Usage
 
-### Full translation
+### Full translation of Speech Rules
 
 Forward translation of all locales:
 
@@ -27,6 +27,30 @@ let trans = require('./js/base/translate');
 trans.translateBackwardAll();
 ```
 
-## Localisation Workflow
+### Translating MathMaps
 
+Translation of mathmaps is done with the functions in `maps.ts`.
+
+```
+let maps = require('./js/base/maps');
+```
+
+Forward translation is done with the `convert` methods.
+
+``` javascript
+maps.convertSymbols(iso);
+maps.convertFunctions(iso);
+maps.convertUnits(iso);
+```
+
+Backward translation is done with the `retrieve` methods.
+
+``` javascript
+maps.retrieveSymbols(iso);
+maps.retrieveFunctions(iso);
+maps.retrieveUnits(iso);
+```
+
+
+## Localisation Workflow
 
