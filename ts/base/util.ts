@@ -46,6 +46,8 @@ export type LocaleRules = { [key: string]: JsonRules };
 export const sreDomains = ['clearspeak', 'mathspeak', 'prefix', 'summary'];
 
 export const sreLocales: { [iso: string]: string } = {
+  ca: 'catalan',
+  da: 'danish',
   de: 'german',
   en: 'english',
   es: 'spanish',

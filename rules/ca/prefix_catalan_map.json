@@ -1,0 +1,253 @@
+{
+  "numerator": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"numerador\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "denominator": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"denominador\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "base": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"base\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "exponent": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"exponent\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "subscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"subíndex\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "overscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"superíndex\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "underscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"subíndex\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "radicand": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"radicand\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "index": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"índex\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "leftsub": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"subíndex esquerre\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "leftsub-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"subíndex esquerre\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "leftsuper": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"superíndex esquerre\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "leftsuper-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"superíndex esquerre\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "rightsub": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"subíndex dret\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "rightsub-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"subíndex dret\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "rightsuper": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"superíndex dret\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "rightsuper-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition",
+      "grammar": {
+        "gender": "\"m\""
+      }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"superíndex dret\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "choice": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"quantitat d'elecció\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "select": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"quantitat de selecció\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "row": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fila\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "cell": {
+    "%1": {
+      "type": "NODE",
+      "content": "../.."
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"columna\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "cell-simple": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition",
+      "grammar": {
+        "gender": "\"f\""
+      }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"columna\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  }
+}

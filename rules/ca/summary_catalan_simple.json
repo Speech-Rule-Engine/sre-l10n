@@ -1,0 +1,260 @@
+{
+  "abstr-identifier-long": [
+    "$1: \"identificador llarg\""
+  ],
+  "abstr-identifier": [
+    "$1: \"identificador\""
+  ],
+  "abstr-number-long": [
+    "$1: \"nombre llarg\""
+  ],
+  "abstr-number": [
+    "$1: \"nombre\""
+  ],
+  "abstr-mixed-number-long": [
+    "$1: \"nombre llarg mixt\""
+  ],
+  "abstr-mixed-number": [
+    "$1: \"nombre mixt\""
+  ],
+  "abstr-text": [
+    "$1: \"text\""
+  ],
+  "abstr-function": [
+    "$1: \"expressió funcional\""
+  ],
+  "abstr-function-brief": [
+    "$1: \"funció\""
+  ],
+  "abstr-lim": [
+    "$1: \"funció de límit\""
+  ],
+  "abstr-lim-brief": [
+    "$1: \"límit\""
+  ],
+  "abstr-fraction": [
+    "$1: \"fracció\""
+  ],
+  "abstr-fraction-brief": [
+    "$1: \"frac\""
+  ],
+  "abstr-continued-fraction": [
+    "$1: \"fracció contínua\""
+  ],
+  "abstr-continued-fraction-brief": [
+    "$1: \"frac contínua\""
+  ],
+  "abstr-sqrt": [
+    "$1: \"arrel quadrada\""
+  ],
+  "abstr-sqrt-nested": [
+    "$1: \"arrel quadrada jerarquitzada\""
+  ],
+  "abstr-root-end": [
+    "$1: \"arrel de l'índex\"",
+    "%1",
+    "$2: \"finalitzar índex\""
+  ],
+  "abstr-root": [
+    "$1: \"arrel de l'índex\"",
+    "%1"
+  ],
+  "abstr-root-brief": [
+    "$1: \"arrel\""
+  ],
+  "abstr-root-nested-end": [
+    "$1: \"arrel jerarquitzada de l'índex\"",
+    "%1",
+    "$2: \"finalitzar índex\""
+  ],
+  "abstr-root-nested": [
+    "$1: \"arrel jerarquitzada de l'índex\"",
+    "%1"
+  ],
+  "abstr-root-nested-brief": [
+    "$1: \"arrel jerarquitzada\""
+  ],
+  "abstr-superscript": [
+    "$1: \"potència\""
+  ],
+  "abstr-subscript": [
+    "$1: \"subíndex\""
+  ],
+  "abstr-subsup": [
+    "$1: \"potència amb subíndex\""
+  ],
+  "abstr-infixop": [
+    "%1",
+    "$1: \"amb\"",
+    "%2",
+    "$2: \"elements\""
+  ],
+  "abstr-infixop-var": [
+    "%1",
+    "$1: \"amb una quantitat variable d'elements\""
+  ],
+  "abstr-infixop-brief": [
+    "%1"
+  ],
+  "abstr-addition": [
+    "$1: \"suma amb\"",
+    "%1",
+    "$2: \"sumands\""
+  ],
+  "abstr-addition-brief": [
+    "$1: \"suma\""
+  ],
+  "abstr-addition-var": [
+    "$1: \"suma amb nombre variable de sumands\""
+  ],
+  "abstr-multiplication": [
+    "$1: \"producte amb\"",
+    "%1",
+    "$2: \"factors\""
+  ],
+  "abstr-multiplication-brief": [
+    "$1: \"producte\""
+  ],
+  "abstr-multiplication-var": [
+    "$1: \"producte amb una quantitat variable de factors\""
+  ],
+  "abstr-vector": [
+    "$1: \"vector de dimensió\"",
+    "%1"
+  ],
+  "abstr-vector-brief": [
+    "$1: \"vector\""
+  ],
+  "abstr-vector-var": [
+    "$1: \"vector de dimensió n\""
+  ],
+  "abstr-binomial": [
+    "$1: \"binomi\""
+  ],
+  "abstr-determinant": [
+    "$1: \"determinant de dimensió\"",
+    "%1"
+  ],
+  "abstr-determinant-brief": [
+    "$1: \"determinant\""
+  ],
+  "abstr-determinant-var": [
+    "$1: \"determinant de dimensió n\""
+  ],
+  "abstr-squarematrix": [
+    "$1: \"matriu quadrada de dimensió\"",
+    "%1"
+  ],
+  "abstr-squarematrix-brief": [
+    "$1: \"matriu quadrada\""
+  ],
+  "abstr-rowvector": [
+    "$1: \"vector fila de dimensió\"",
+    "%1"
+  ],
+  "abstr-rowvector-brief": [
+    "$1: \"vector fila\""
+  ],
+  "abstr-rowvector-var": [
+    "$1: \"vector fila de dimensió n\""
+  ],
+  "abstr-matrix": [
+    "%1",
+    "$1: \"per\"",
+    "%2",
+    "$2: \"matriu\""
+  ],
+  "abstr-matrix-brief": [
+    "$1: \"matriu\""
+  ],
+  "abstr-matrix-var": [
+    "$1: \"matriu de dimensió n per m\""
+  ],
+  "abstr-cases": [
+    "$1: \"declaració de cas\"",
+    "$2: \"amb\"",
+    "%1",
+    "$3: \"casos\""
+  ],
+  "abstr-cases-brief": [
+    "$1: \"declaració de cas\""
+  ],
+  "abstr-cases-var": [
+    "$1: \"declaració de cas amb nombre variable de casos\""
+  ],
+  "abstr-punctuated": [
+    "$1: \"llista separada per\"",
+    "%1 (grammar:plural)",
+    "$2: \"de longitud\"",
+    "%2"
+  ],
+  "abstr-punctuated-brief": [
+    "$1: \"llista separada per\"",
+    "%1 (grammar:plural)"
+  ],
+  "abstr-punctuated-var": [
+    "$1: \"llista separada per\"",
+    "%1 (grammar:plural)",
+    "$2: \"de longitud variable\""
+  ],
+  "abstr-bigop": [
+    "%1"
+  ],
+  "abstr-integral": [
+    "$1: \"integral\""
+  ],
+  "abstr-relation": [
+    "%1"
+  ],
+  "abstr-relation-seq": [
+    "$1: \"seqüència de\"",
+    "%1",
+    "$2: \"amb\"",
+    "%2",
+    "$3: \"elements\""
+  ],
+  "abstr-relation-seq-brief": [
+    "$1: \"seqüència de\"",
+    "%1"
+  ],
+  "abstr-relation-var": [
+    "$1: \"seqüència de\"",
+    "%1",
+    "$2: \"amb una quantitat variable d'elements\""
+  ],
+  "abstr-multirel": [
+    "$1: \"seqüència de relació\"",
+    "$2: \"amb\"",
+    "%1",
+    "$3: \"elements\""
+  ],
+  "abstr-multirel-brief": [
+    "$1: \"seqüència de relació\""
+  ],
+  "abstr-multirel-var": [
+    "$1: \"seqüència de relació amb nombre variable d'elements\""
+  ],
+  "abstr-table": [
+    "$1: \"taula amb\"",
+    "%1",
+    "$2: \"files i\"",
+    "%2",
+    "$3: \"columnes\""
+  ],
+  "abstr-line": [
+    "$1: \"en\"",
+    "%1"
+  ],
+  "abstr-row": [
+    "$1: \"en\"",
+    "%1",
+    "%2",
+    "$2: \"amb\"",
+    "%3",
+    "$3: \"columnes\""
+  ],
+  "abstr-cell": [
+    "$1: \"en\"",
+    "%1"
+  ]
+}

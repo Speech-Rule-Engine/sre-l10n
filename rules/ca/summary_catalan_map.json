@@ -1,0 +1,671 @@
+{
+  "abstr-identifier-long": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"identificador llarg\""
+    }
+  },
+  "abstr-identifier": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"identificador\""
+    }
+  },
+  "abstr-number-long": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"nombre llarg\""
+    }
+  },
+  "abstr-number": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"nombre\""
+    }
+  },
+  "abstr-mixed-number-long": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"nombre llarg mixt\""
+    }
+  },
+  "abstr-mixed-number": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"nombre mixt\""
+    }
+  },
+  "abstr-text": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"text\""
+    }
+  },
+  "abstr-function": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"expressió funcional\""
+    }
+  },
+  "abstr-function-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"funció\""
+    }
+  },
+  "abstr-lim": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"funció de límit\""
+    }
+  },
+  "abstr-lim-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"límit\""
+    }
+  },
+  "abstr-fraction": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fracció\""
+    }
+  },
+  "abstr-fraction-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"frac\""
+    }
+  },
+  "abstr-continued-fraction": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"fracció contínua\""
+    }
+  },
+  "abstr-continued-fraction-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"frac contínua\""
+    }
+  },
+  "abstr-sqrt": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"arrel quadrada\""
+    }
+  },
+  "abstr-sqrt-nested": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"arrel quadrada jerarquitzada\""
+    }
+  },
+  "abstr-root-end": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"arrel de l'índex\""
+    },
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "attributes": {
+        "engine": "modality=speech"
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"finalitzar índex\""
+    }
+  },
+  "abstr-root": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"arrel de l'índex\""
+    },
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "attributes": {
+        "engine": "modality=speech"
+      }
+    }
+  },
+  "abstr-root-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"arrel\""
+    }
+  },
+  "abstr-root-nested-end": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"arrel jerarquitzada de l'índex\""
+    },
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "attributes": {
+        "engine": "modality=speech"
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"finalitzar índex\""
+    }
+  },
+  "abstr-root-nested": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"arrel jerarquitzada de l'índex\""
+    },
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "attributes": {
+        "engine": "modality=speech"
+      }
+    }
+  },
+  "abstr-root-nested-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"arrel jerarquitzada\""
+    }
+  },
+  "abstr-superscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"potència\""
+    }
+  },
+  "abstr-subscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"subíndex\""
+    }
+  },
+  "abstr-subsup": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"potència amb subíndex\""
+    }
+  },
+  "abstr-infixop": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"amb\""
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"elements\""
+    }
+  },
+  "abstr-infixop-var": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"amb una quantitat variable d'elements\""
+    }
+  },
+  "abstr-infixop-brief": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    }
+  },
+  "abstr-addition": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"suma amb\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"sumands\""
+    }
+  },
+  "abstr-addition-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"suma\""
+    }
+  },
+  "abstr-addition-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"suma amb nombre variable de sumands\""
+    }
+  },
+  "abstr-multiplication": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"producte amb\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"factors\""
+    }
+  },
+  "abstr-multiplication-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"producte\""
+    }
+  },
+  "abstr-multiplication-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"producte amb una quantitat variable de factors\""
+    }
+  },
+  "abstr-vector": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vector de dimensió\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    }
+  },
+  "abstr-vector-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vector\""
+    }
+  },
+  "abstr-vector-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vector de dimensió n\""
+    }
+  },
+  "abstr-binomial": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"binomi\""
+    }
+  },
+  "abstr-determinant": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"determinant de dimensió\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    }
+  },
+  "abstr-determinant-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"determinant\""
+    }
+  },
+  "abstr-determinant-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"determinant de dimensió n\""
+    }
+  },
+  "abstr-squarematrix": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"matriu quadrada de dimensió\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    }
+  },
+  "abstr-squarematrix-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"matriu quadrada\""
+    }
+  },
+  "abstr-rowvector": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vector fila de dimensió\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/row/children/*)"
+    }
+  },
+  "abstr-rowvector-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vector fila\""
+    }
+  },
+  "abstr-rowvector-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vector fila de dimensió n\""
+    }
+  },
+  "abstr-matrix": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"per\""
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(children/*[1]/children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"matriu\""
+    }
+  },
+  "abstr-matrix-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"matriu\""
+    }
+  },
+  "abstr-matrix-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"matriu de dimensió n per m\""
+    }
+  },
+  "abstr-cases": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"declaració de cas\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"amb\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "count(children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"casos\""
+    }
+  },
+  "abstr-cases-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"declaració de cas\""
+    }
+  },
+  "abstr-cases-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"declaració de cas amb nombre variable de casos\""
+    }
+  },
+  "abstr-punctuated": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"llista separada per\""
+    },
+    "%1": {
+      "type": "NODE",
+      "content": "content/*[1]",
+      "grammar": {
+        "plural": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"de longitud\""
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(children/*) - count(content/*)"
+    }
+  },
+  "abstr-punctuated-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"llista separada per\""
+    },
+    "%1": {
+      "type": "NODE",
+      "content": "content/*[1]",
+      "grammar": {
+        "plural": true
+      }
+    }
+  },
+  "abstr-punctuated-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"llista separada per\""
+    },
+    "%1": {
+      "type": "NODE",
+      "content": "content/*[1]",
+      "grammar": {
+        "plural": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"de longitud variable\""
+    }
+  },
+  "abstr-bigop": {
+    "%1": {
+      "type": "NODE",
+      "content": "content/*[1]"
+    }
+  },
+  "abstr-integral": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"integral\""
+    }
+  },
+  "abstr-relation": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    }
+  },
+  "abstr-relation-seq": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"seqüència de\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"amb\""
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"elements\""
+    }
+  },
+  "abstr-relation-seq-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"seqüència de\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    }
+  },
+  "abstr-relation-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"seqüència de\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"amb una quantitat variable d'elements\""
+    }
+  },
+  "abstr-multirel": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"seqüència de relació\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"amb\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"elements\""
+    }
+  },
+  "abstr-multirel-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"seqüència de relació\""
+    }
+  },
+  "abstr-multirel-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"seqüència de relació amb nombre variable d'elements\""
+    }
+  },
+  "abstr-table": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"taula amb\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"files i\""
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(children/*[1]/children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"columnes\""
+    }
+  },
+  "abstr-line": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"en\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    }
+  },
+  "abstr-row": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"en\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(preceding-sibling::..)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"amb\""
+    },
+    "%3": {
+      "type": "TEXT",
+      "content": "count(children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"columnes\""
+    }
+  },
+  "abstr-cell": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"en\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    }
+  }
+}

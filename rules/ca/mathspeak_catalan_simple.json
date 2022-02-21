@@ -1,0 +1,462 @@
+{
+  "collapsed": [
+    "%1",
+    "$1: \"plegat\""
+  ],
+  "blank-cell-empty": [
+    "$1: \"espai\""
+  ],
+  "blank-line-empty": [
+    "$1: \"espai\""
+  ],
+  "font": [
+    "%1",
+    "%2"
+  ],
+  "mixed-number": [
+    "%1",
+    "$1: \"més\"",
+    "%2"
+  ],
+  "number-with-chars": [
+    "$1: \"número\"",
+    "%1"
+  ],
+  "number-with-chars-brief": [
+    "$1: \"núm\"",
+    "%1"
+  ],
+  "number-as-upper-word": [
+    "$1: \"majúscula\"",
+    "%1"
+  ],
+  "number-baseline": [
+    "$1: \"línia base\"",
+    "%1"
+  ],
+  "number-baseline-brief": [
+    "$1: \"base\"",
+    "%1"
+  ],
+  "number-baseline-font": [
+    "$1: \"línia base\"",
+    "%1",
+    "%2"
+  ],
+  "number-baseline-font-brief": [
+    "$1: \"base\"",
+    "%1",
+    "%2"
+  ],
+  "negative-number": [
+    "$1: \"menys\"",
+    "%1"
+  ],
+  "negative": [
+    "$1: \"menys\"",
+    "%1"
+  ],
+  "division": [
+    "%1",
+    "$1: \"dividit\"",
+    "%2"
+  ],
+  "subtraction": [
+    "%1 (separator:\"menos\")"
+  ],
+  "fences-neutral": [
+    "$1: \"començar valor absolut\"",
+    "%1",
+    "$2: \"finalitzar valor absolut\""
+  ],
+  "fences-neutral-sbrief": [
+    "$1: \"valor absolut\"",
+    "%1",
+    "$2: \"finalitzar valor absolut\""
+  ],
+  "fences-metric": [
+    "$1: \"començar mètrica\"",
+    "%1",
+    "$2: \"finalitzar mètrica\""
+  ],
+  "fences-metric-sbrief": [
+    "$1: \"mètrica\"",
+    "%1",
+    "$2: \"finalitzar mètrica\""
+  ],
+  "empty-set": [
+    "$1: \"conjunt buit\""
+  ],
+  "fences-set": [
+    "$1: \"començar clau\"",
+    "%1",
+    "$2: \"finalitzar clau\""
+  ],
+  "fences-set-sbrief": [
+    "$1: \"clau\"",
+    "%1",
+    "$2: \"finalitzar clau\""
+  ],
+  "text": [
+    "%1"
+  ],
+  "factorial": [
+    "$1: \"factorial\""
+  ],
+  "minus": [
+    "$1: \"menys\""
+  ],
+  "continued-fraction-outer": [
+    "$1: \"fracció contínua\"",
+    "%1",
+    "$2: \"entre\"",
+    "%2"
+  ],
+  "continued-fraction-outer-brief": [
+    "$1: \"frac contínua\"",
+    "%1",
+    "$2: \"entre\"",
+    "%2"
+  ],
+  "continued-fraction-inner": [
+    "$1: \"començar fracció\"",
+    "%1",
+    "$2: \"entre\"",
+    "%2"
+  ],
+  "continued-fraction-inner-brief": [
+    "$1: \"començar frac\"",
+    "%1",
+    "$2: \"entre\"",
+    "%2"
+  ],
+  "continued-fraction-inner-sbrief": [
+    "$1: \"frac\"",
+    "%1",
+    "$2: \"entre\"",
+    "%2"
+  ],
+  "integral": [
+    "%1",
+    "$1: \"definida\"",
+    "$2: \"subíndex\"",
+    "%2",
+    "$3: \"superíndex\"",
+    "%3",
+    "$4: \"línia base\""
+  ],
+  "integral-brief": [
+    "%1",
+    "$1: \"Sub\"",
+    "%2",
+    "$2: \"Sup\"",
+    "%3",
+    "$3: \"Base\""
+  ],
+  "square": [
+    "%1",
+    "$1: \"al quadrat\""
+  ],
+  "cube": [
+    "%1",
+    "$1: \"al cub\""
+  ],
+  "prime": [
+    "%1",
+    "%2"
+  ],
+  "counted-prime": [
+    "%1",
+    "$1: \"prima\""
+  ],
+  "counted-prime-multichar": [
+    "%1",
+    "$1: \"prima\""
+  ],
+  "overscore": [
+    "$1: \"modificand superior\"",
+    "%1",
+    "$2: \"amb\"",
+    "%2"
+  ],
+  "overscore-brief": [
+    "$1: \"mod superior\"",
+    "%1",
+    "$2: \"amb\"",
+    "%2"
+  ],
+  "double-overscore": [
+    "$1: \"modificand superior superior\"",
+    "%1",
+    "$2: \"amb\"",
+    "%2"
+  ],
+  "double-overscore-brief": [
+    "$1: \"mod superior superior\"",
+    "%1",
+    "$2: \"amb\"",
+    "%2"
+  ],
+  "underscore": [
+    "$1: \"modificand inferior\"",
+    "%1",
+    "$2: \"amb\"",
+    "%2"
+  ],
+  "underscore-brief": [
+    "$1: \"mod inferior\"",
+    "%1",
+    "$2: \"amb\"",
+    "%2"
+  ],
+  "double-underscore": [
+    "$1: \"modificand inferior inferior\"",
+    "%1",
+    "$2: \"amb\"",
+    "%2"
+  ],
+  "double-underscore-brief": [
+    "$1: \"mod inferior inferior\"",
+    "%1",
+    "$2: \"amb\"",
+    "%2"
+  ],
+  "overbar": [
+    "%1",
+    "$1: \"barra\""
+  ],
+  "underbar": [
+    "%1",
+    "$1: \"subbarra\""
+  ],
+  "overtilde": [
+    "%1",
+    "$1: \"titlla\""
+  ],
+  "undertilde": [
+    "%1",
+    "$1: \"subtitlla\""
+  ],
+  "matrix": [
+    "$1: \"començar matriu\"",
+    "%1",
+    "$2: \"per\"",
+    "%2",
+    "%3 (context:\"fila \")",
+    "$3: \"finalitzar matriu\""
+  ],
+  "matrix-sbrief": [
+    "$1: \"matriu\"",
+    "%1",
+    "$2: \"per\"",
+    "%2",
+    "%3 (context:\" \")",
+    "$3: \"finalitzar matriu\""
+  ],
+  "matrix-row": [
+    "%1 (context:\"columna\", pause:200)"
+  ],
+  "row-with-label": [
+    "$1: \"amb etiqueta\"",
+    "%1",
+    "$2: \"finalitzar etiqueta\" (pause:200)",
+    "%2 (context:\"columna\")"
+  ],
+  "row-with-label-brief": [
+    "$1: \"etiqueta\"",
+    "%1",
+    "%2 (context:\"columna\")"
+  ],
+  "row-with-text-label": [
+    "$1: \"etiqueta\"",
+    "%1",
+    "%2 (context:\"columna\")"
+  ],
+  "empty-row": [
+    "$1: \"espai\""
+  ],
+  "empty-cell": [
+    "$1: \"espai\" (pause:300)"
+  ],
+  "determinant": [
+    "$1: \"començar determinant\"",
+    "%1",
+    "$2: \"per\"",
+    "%2",
+    "%3 (context:\"fila \")",
+    "$3: \"finalitzar determinant\""
+  ],
+  "determinant-sbrief": [
+    "$1: \"determinant\"",
+    "%1",
+    "$2: \"per\"",
+    "%2",
+    "%3 (context:\"fila \")",
+    "$3: \"finalitzar determinant\""
+  ],
+  "determinant-simple": [
+    "$1: \"començar determinant\"",
+    "%1",
+    "$2: \"per\"",
+    "%2",
+    "%3 (context:\"fila\")",
+    "$3: \"finalitzar determinant\""
+  ],
+  "determinant-simple-sbrief": [
+    "$1: \"determinant\"",
+    "%1",
+    "$2: \"per\"",
+    "%2",
+    "%3 (context:\"fila\")",
+    "$3: \"finalitzar determinant\""
+  ],
+  "layout": [
+    "$1: \"començar esquema\"",
+    "%1 (context:\"fila \")",
+    "$2: \"finalitzar esquema\""
+  ],
+  "layout-sbrief": [
+    "$1: \"esquema\"",
+    "%1 (context:\"fila \")",
+    "$2: \"finalitzar esquema\""
+  ],
+  "binomial": [
+    "$1: \"començar binomial\"",
+    "%1",
+    "$2: \"en\"",
+    "%2",
+    "$3: \"finalitzar binomial\""
+  ],
+  "binomial-sbrief": [
+    "$1: \"binomial\"",
+    "%1",
+    "$2: \"en\"",
+    "%2",
+    "$3: \"finalitzar binomial\""
+  ],
+  "cases": [
+    "$1: \"començar esquema\"",
+    "%1",
+    "$2: \"allargada\"",
+    "%2 (context:\"fila \")",
+    "$3: \"finalitzar esquema\""
+  ],
+  "cases-sbrief": [
+    "$1: \"esquema\"",
+    "%1",
+    "$2: \"allargada\"",
+    "%2 (context:\"fila \")",
+    "$3: \"finalitzar esquema\""
+  ],
+  "line-with-label": [
+    "$1: \"amb etiqueta\"",
+    "%1",
+    "$2: \"finalitzar etiqueta\" (pause:200)",
+    "%2"
+  ],
+  "line-with-label-brief": [
+    "$1: \"etiqueta\"",
+    "%1 (pause:200)",
+    "%2"
+  ],
+  "line-with-text-label": [
+    "$1: \"etiqueta\"",
+    "%1",
+    "%2"
+  ],
+  "empty-line": [
+    "$1: \"espai\""
+  ],
+  "empty-line-with-label": [
+    "$1: \"amb etiqueta\"",
+    "%1",
+    "$2: \"finalitzar etiqueta\" (pause:200)",
+    "$3: \"espai\""
+  ],
+  "empty-line-with-label-brief": [
+    "$1: \"etiqueta\"",
+    "%1 (pause:200)",
+    "$2: \"espai\""
+  ],
+  "enclose": [
+    "$1: \"començar a encerclar\"",
+    "%1",
+    "%2",
+    "$2: \"finalitzar encerclar\""
+  ],
+  "leftbar": [
+    "$1: \"barra vertical\"",
+    "%1"
+  ],
+  "rightbar": [
+    "%1",
+    "$1: \"barra vertical\""
+  ],
+  "crossout": [
+    "$1: \"ratllada\"",
+    "%1",
+    "$2: \"finalitzar ratllada\""
+  ],
+  "cancel": [
+    "$1: \"ratllada\"",
+    "%1",
+    "$2: \"amb\"",
+    "%2",
+    "$3: \"finalitzar ratllada\""
+  ],
+  "cancel-reverse": [
+    "$1: \"ratllada\"",
+    "%1",
+    "$2: \"amb\"",
+    "%2",
+    "$3: \"finalitzar ratllada\""
+  ],
+  "unit-singular": [
+    "%1"
+  ],
+  "unit-plural": [
+    "%1 (grammar:plural)"
+  ],
+  "unit-square": [
+    "%1",
+    "$1: \"quadrat\""
+  ],
+  "unit-cubic": [
+    "%1",
+    "$1: \"cúbic\""
+  ],
+  "reciprocal": [
+    "$1: \"recíproc\"",
+    "%1"
+  ],
+  "per": [
+    "$1: \"per\"",
+    "%1"
+  ],
+  "unit-combine": [
+    "%1"
+  ],
+  "unit-combine-mult": [
+    "%1"
+  ],
+  "unit-combine-singular": [
+    "%1",
+    "$1: \"per\"",
+    "%2 (grammar:!singular)"
+  ],
+  "unit-combine-singular-first": [
+    "%1",
+    "%2 (grammar:singular)",
+    "$1: \"per\"",
+    "%3"
+  ],
+  "unit-combine-singular-final": [
+    "%1",
+    "%2 (grammar:singular)"
+  ],
+  "unit-divide": [
+    "%1",
+    "$1: \"per\"",
+    "%2 (grammar:singular)"
+  ]
+}

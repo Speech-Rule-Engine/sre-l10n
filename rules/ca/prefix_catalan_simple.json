@@ -1,0 +1,76 @@
+{
+  "numerator": [
+    "$1: \"numerador\" (pause:200)"
+  ],
+  "denominator": [
+    "$1: \"denominador\" (pause:200)"
+  ],
+  "base": [
+    "$1: \"base\" (pause:200)"
+  ],
+  "exponent": [
+    "$1: \"exponent\" (pause:200)"
+  ],
+  "subscript": [
+    "$1: \"subíndex\" (pause:200)"
+  ],
+  "overscript": [
+    "$1: \"superíndex\" (pause:200)"
+  ],
+  "underscript": [
+    "$1: \"subíndex\" (pause:200)"
+  ],
+  "radicand": [
+    "$1: \"radicand\" (pause:200)"
+  ],
+  "index": [
+    "$1: \"índex\" (pause:200)"
+  ],
+  "leftsub": [
+    "$1: \"subíndex esquerre\" (pause:200)"
+  ],
+  "leftsub-counted": [
+    "%1 (grammar:gender=\"m\")",
+    "$1: \"subíndex esquerre\" (pause:200)"
+  ],
+  "leftsuper": [
+    "$1: \"superíndex esquerre\" (pause:200)"
+  ],
+  "leftsuper-counted": [
+    "%1 (grammar:gender=\"m\")",
+    "$1: \"superíndex esquerre\" (pause:200)"
+  ],
+  "rightsub": [
+    "$1: \"subíndex dret\" (pause:200)"
+  ],
+  "rightsub-counted": [
+    "%1 (grammar:gender=\"m\")",
+    "$1: \"subíndex dret\" (pause:200)"
+  ],
+  "rightsuper": [
+    "$1: \"superíndex dret\" (pause:200)"
+  ],
+  "rightsuper-counted": [
+    "%1 (grammar:gender=\"m\")",
+    "$1: \"superíndex dret\" (pause:200)"
+  ],
+  "choice": [
+    "$1: \"quantitat d'elecció\" (pause:200)"
+  ],
+  "select": [
+    "$1: \"quantitat de selecció\" (pause:200)"
+  ],
+  "row": [
+    "%1 (grammar:gender=\"f\")",
+    "$1: \"fila\" (pause:200)"
+  ],
+  "cell": [
+    "%1",
+    "%2 (grammar:gender=\"f\")",
+    "$1: \"columna\" (pause:200)"
+  ],
+  "cell-simple": [
+    "%1 (grammar:gender=\"f\")",
+    "$1: \"columna\" (pause:200)"
+  ]
+}

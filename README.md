@@ -59,8 +59,23 @@ This is currently still done with the `SplitJson` module from the
 
 
 
+## Adding a new Locale
 
+### Symbol Maps
 
+Use the convert methods to do the initial conversion of the (potentially empty)
+mathmaps. Merge into `crowdin` branch and push to crowdin.
 
-## Localisation Workflow
+### Rules
 
+* Add new locale to variable in `util.ts`.
+* Generate basic rules files from English with forward translation.
+* Replace the corresponding yaml files with the translated ones.
+* Translate backwards, this will result in the correct rule files in SRE.
+* Translate forwards once more to update comment files, json files, etc. in the `l10n` repository.
+
+## Things to Pay Attention to
+
+* When making changes in the rule files in SRE, run
+  `trans.translateForwardAll();` twice to also update the comments files
+  correctly.
