@@ -1,76 +1,76 @@
 {
   "numerator": [
-    "$1: \"Numerator\" (pause:200)"
+    "$1: \"Tæller\" (pause:200)"
   ],
   "denominator": [
-    "$1: \"Denominator\" (pause:200)"
+    "$1: \"Nævner\" (pause:200)"
   ],
   "base": [
-    "$1: \"Base\" (pause:200)"
+    "$1: \"Grundtal\" (pause:200)"
   ],
   "exponent": [
-    "$1: \"Exponent\" (pause:200)"
+    "$1: \"Eksponent\" (pause:200)"
   ],
   "subscript": [
-    "$1: \"Subscript\" (pause:200)"
+    "$1: \"Sænket\" (pause:200)"
   ],
   "overscript": [
-    "$1: \"Overscript\" (pause:200)"
+    "$1: \"Overtekst\" (pause:200)"
   ],
   "underscript": [
-    "$1: \"Underscript\" (pause:200)"
+    "$1: \"Undertekst\" (pause:200)"
   ],
   "radicand": [
-    "$1: \"Radicand\" (pause:200)"
+    "$1: \"Radikand\" (pause:200)"
   ],
   "index": [
-    "$1: \"Index\" (pause:200)"
+    "$1: \"Rodeksponent\" (pause:200)"
   ],
   "leftsub": [
-    "$1: \"Left Subscript\" (pause:200)"
+    "$1: \"Venstre Sænket\" (pause:200)"
   ],
   "leftsub-counted": [
     "%1",
-    "$1: \"Left Subscript\" (pause:200)"
+    "$1: \"Venstre Sænket\" (pause:200)"
   ],
   "leftsuper": [
-    "$1: \"Left Superscript\" (pause:200)"
+    "$1: \"Venstre Hævet\" (pause:200)"
   ],
   "leftsuper-counted": [
     "%1",
-    "$1: \"Left Superscript\" (pause:200)"
+    "$1: \"Venstre Hævet\" (pause:200)"
   ],
   "rightsub": [
-    "$1: \"Right Subscript\" (pause:200)"
+    "$1: \"Højre Sænket\" (pause:200)"
   ],
   "rightsub-counted": [
     "%1",
-    "$1: \"Right Subscript\" (pause:200)"
+    "$1: \"Højre Sænket\" (pause:200)"
   ],
   "rightsuper": [
-    "$1: \"Right Superscript\" (pause:200)"
+    "$1: \"Højre Hævet\" (pause:200)"
   ],
   "rightsuper-counted": [
     "%1",
-    "$1: \"Right Superscript\" (pause:200)"
+    "$1: \"Højre Sænket\" (pause:200)"
   ],
   "choice": [
-    "$1: \"Choice Quantity\" (pause:200)"
+    "$1: \"Puljemændge\" (pause:200)"
   ],
   "select": [
-    "$1: \"Selection Quantity\" (pause:200)"
+    "$1: \"Valgmængde\" (pause:200)"
   ],
   "row": [
     "%1",
-    "$1: \"Row\" (pause:200)"
+    "$1: \"Række\" (pause:200)"
   ],
   "cell": [
     "%1",
     "%2",
-    "$1: \"Column\" (pause:200)"
+    "$1: \"Kolonne\" (pause:200)"
   ],
   "cell-simple": [
     "%1",
-    "$1: \"Column\" (pause:200)"
+    "$1: \"Kolonne\" (pause:200)"
   ]
 }

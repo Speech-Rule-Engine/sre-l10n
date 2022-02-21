@@ -2,7 +2,7 @@
   "numerator": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Numerator\"",
+      "content": "\"Tæller\"",
       "attributes": {
         "pause": "200"
       }
@@ -11,7 +11,7 @@
   "denominator": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Denominator\"",
+      "content": "\"Nævner\"",
       "attributes": {
         "pause": "200"
       }
@@ -20,7 +20,7 @@
   "base": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Base\"",
+      "content": "\"Grundtal\"",
       "attributes": {
         "pause": "200"
       }
@@ -29,7 +29,7 @@
   "exponent": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Exponent\"",
+      "content": "\"Eksponent\"",
       "attributes": {
         "pause": "200"
       }
@@ -38,7 +38,7 @@
   "subscript": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Subscript\"",
+      "content": "\"Sænket\"",
       "attributes": {
         "pause": "200"
       }
@@ -47,7 +47,7 @@
   "overscript": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Overscript\"",
+      "content": "\"Overtekst\"",
       "attributes": {
         "pause": "200"
       }
@@ -56,7 +56,7 @@
   "underscript": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Underscript\"",
+      "content": "\"Undertekst\"",
       "attributes": {
         "pause": "200"
       }
@@ -65,7 +65,7 @@
   "radicand": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Radicand\"",
+      "content": "\"Radikand\"",
       "attributes": {
         "pause": "200"
       }
@@ -74,7 +74,7 @@
   "index": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Index\"",
+      "content": "\"Rodeksponent\"",
       "attributes": {
         "pause": "200"
       }
@@ -83,7 +83,7 @@
   "leftsub": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Left Subscript\"",
+      "content": "\"Venstre Sænket\"",
       "attributes": {
         "pause": "200"
       }
@@ -96,7 +96,7 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"Left Subscript\"",
+      "content": "\"Venstre Sænket\"",
       "attributes": {
         "pause": "200"
       }
@@ -105,7 +105,7 @@
   "leftsuper": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Left Superscript\"",
+      "content": "\"Venstre Hævet\"",
       "attributes": {
         "pause": "200"
       }
@@ -118,7 +118,7 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"Left Superscript\"",
+      "content": "\"Venstre Hævet\"",
       "attributes": {
         "pause": "200"
       }
@@ -127,7 +127,7 @@
   "rightsub": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Right Subscript\"",
+      "content": "\"Højre Sænket\"",
       "attributes": {
         "pause": "200"
       }
@@ -140,7 +140,7 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"Right Subscript\"",
+      "content": "\"Højre Sænket\"",
       "attributes": {
         "pause": "200"
       }
@@ -149,7 +149,7 @@
   "rightsuper": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Right Superscript\"",
+      "content": "\"Højre Hævet\"",
       "attributes": {
         "pause": "200"
       }
@@ -162,7 +162,7 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"Right Superscript\"",
+      "content": "\"Højre Sænket\"",
       "attributes": {
         "pause": "200"
       }
@@ -171,7 +171,7 @@
   "choice": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Choice Quantity\"",
+      "content": "\"Puljemændge\"",
       "attributes": {
         "pause": "200"
       }
@@ -180,7 +180,7 @@
   "select": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Selection Quantity\"",
+      "content": "\"Valgmængde\"",
       "attributes": {
         "pause": "200"
       }
@@ -193,7 +193,7 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"Row\"",
+      "content": "\"Række\"",
       "attributes": {
         "pause": "200"
       }
@@ -210,7 +210,7 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"Column\"",
+      "content": "\"Kolonne\"",
       "attributes": {
         "pause": "200"
       }
@@ -223,7 +223,7 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"Column\"",
+      "content": "\"Kolonne\"",
       "attributes": {
         "pause": "200"
       }

@@ -1,132 +1,132 @@
 {
   "abstr-identifier-long": [
-    "$1: \"long identifier\""
+    "$1: \"stor identifikator\""
   ],
   "abstr-identifier": [
-    "$1: \"identifier\""
+    "$1: \"identifikator\""
   ],
   "abstr-number-long": [
-    "$1: \"long number\""
+    "$1: \"stort tal\""
   ],
   "abstr-number": [
-    "$1: \"number\""
+    "$1: \"tal\""
   ],
   "abstr-mixed-number-long": [
-    "$1: \"long mixed number\""
+    "$1: \"stort blandet tal\""
   ],
   "abstr-mixed-number": [
-    "$1: \"mixed number\""
+    "$1: \"blandet tal\""
   ],
   "abstr-text": [
-    "$1: \"text\""
+    "$1: \"tekst\""
   ],
   "abstr-function": [
-    "$1: \"functional expression\""
+    "$1: \"funktionsudtryk\""
   ],
   "abstr-function-brief": [
-    "$1: \"function\""
+    "$1: \"funktion\""
   ],
   "abstr-lim": [
-    "$1: \"limit function\""
+    "$1: \"grænseværdifunktion\""
   ],
   "abstr-lim-brief": [
     "$1: \"lim\""
   ],
   "abstr-fraction": [
-    "$1: \"fraction\""
+    "$1: \"brøk\""
   ],
   "abstr-fraction-brief": [
-    "$1: \"frac\""
+    "$1: \"brøk\""
   ],
   "abstr-continued-fraction": [
-    "$1: \"continued fraction\""
+    "$1: \"kædebrøk\""
   ],
   "abstr-continued-fraction-brief": [
-    "$1: \"continued frac\""
+    "$1: \"kædebrøk\""
   ],
   "abstr-sqrt": [
-    "$1: \"square root\""
+    "$1: \"kvadratrod\""
   ],
   "abstr-sqrt-nested": [
-    "$1: \"nested square root\""
+    "$1: \"indlejret kvadratrod\""
   ],
   "abstr-root-end": [
-    "$1: \"root of index\"",
+    "$1: \"rod med rodeksponent\"",
     "%1",
-    "$2: \"endindex\""
+    "$2: \"slut rodeksponent\""
   ],
   "abstr-root": [
-    "$1: \"root of index\"",
+    "$1: \"rod med rodeksponent\"",
     "%1"
   ],
   "abstr-root-brief": [
-    "$1: \"root\""
+    "$1: \"rod\""
   ],
   "abstr-root-nested-end": [
-    "$1: \"nested root of index\"",
+    "$1: \"indlejret rod med rodeksponent\"",
     "%1",
-    "$2: \"endindex\""
+    "$2: \"slut rodeksponent\""
   ],
   "abstr-root-nested": [
-    "$1: \"nested root of index\"",
+    "$1: \"indlejret rod med rodeksponent\"",
     "%1"
   ],
   "abstr-root-nested-brief": [
-    "$1: \"nested root\""
+    "$1: \"indlejret rod\""
   ],
   "abstr-superscript": [
-    "$1: \"power\""
+    "$1: \"potens\""
   ],
   "abstr-subscript": [
-    "$1: \"subscript\""
+    "$1: \"sænket\""
   ],
   "abstr-subsup": [
-    "$1: \"power with subscript\""
+    "$1: \"potens med sænket\""
   ],
   "abstr-infixop": [
     "%1",
-    "$1: \"with\"",
+    "$1: \"med\"",
     "%2",
-    "$2: \"elements\""
+    "$2: \"elementer\""
   ],
   "abstr-infixop-var": [
     "%1",
-    "$1: \"with variable number of elements\""
+    "$1: \"med variabelt antal elementer\""
   ],
   "abstr-infixop-brief": [
     "%1"
   ],
   "abstr-addition": [
-    "$1: \"sum with\"",
+    "$1: \"sum med\"",
     "%1",
-    "$2: \"summands\""
+    "$2: \"addender\""
   ],
   "abstr-addition-brief": [
     "$1: \"sum\""
   ],
   "abstr-addition-var": [
-    "$1: \"sum with variable number of summands\""
+    "$1: \"sum med variabelt antal addender\""
   ],
   "abstr-multiplication": [
-    "$1: \"product with\"",
+    "$1: \"produkt med\"",
     "%1",
-    "$2: \"factors\""
+    "$2: \"faktorer\""
   ],
   "abstr-multiplication-brief": [
-    "$1: \"product\""
+    "$1: \"produkt\""
   ],
   "abstr-multiplication-var": [
-    "$1: \"product with variable number of factors\""
+    "$1: \"produkt med variabelt antal faktorer\""
   ],
   "abstr-vector": [
     "%1",
-    "$1: \"dimensional vector\""
+    "$1: \"dimensional vektor\""
   ],
   "abstr-vector-brief": [
-    "$1: \"vector\""
+    "$1: \"vektor\""
   ],
   "abstr-vector-var": [
-    "$1: \"n dimensional vector\""
+    "$1: \"n dimensional vektor\""
   ],
   "abstr-binomial": [
     "$1: \"binomial\""
@@ -143,24 +143,24 @@
   ],
   "abstr-squarematrix": [
     "%1",
-    "$1: \"dimensional square matrix\""
+    "$1: \"dimensional kvadratisk matrix\""
   ],
   "abstr-squarematrix-brief": [
-    "$1: \"square matrix\""
+    "$1: \"kvadratisk matrix\""
   ],
   "abstr-rowvector": [
     "%1",
-    "$1: \"dimensional row vector\""
+    "$1: \"dimensional rækkevektor\""
   ],
   "abstr-rowvector-brief": [
-    "$1: \"row vector\""
+    "$1: \"rækkevektor\""
   ],
   "abstr-rowvector-var": [
-    "$1: \"n dimensional row vector\""
+    "$1: \"n dimensional rækkevektor\""
   ],
   "abstr-matrix": [
     "%1",
-    "$1: \"by\"",
+    "$1: \"gange\"",
     "%2",
     "$2: \"matrix\""
   ],
@@ -168,34 +168,34 @@
     "$1: \"matrix\""
   ],
   "abstr-matrix-var": [
-    "$1: \"n by m dimensional matrix\""
+    "$1: \"n gange m dimensional matrix\""
   ],
   "abstr-cases": [
-    "$1: \"case statement\"",
-    "$2: \"with\"",
+    "$1: \"akkolade\"",
+    "$2: \"med\"",
     "%1",
-    "$3: \"cases\""
+    "$3: \"udtryk\""
   ],
   "abstr-cases-brief": [
-    "$1: \"case statement\""
+    "$1: \"akkolade\""
   ],
   "abstr-cases-var": [
-    "$1: \"case statement with variable number of cases\""
+    "$1: \"akkolade med variabelt antal udtryk\""
   ],
   "abstr-punctuated": [
     "%1",
-    "$1: \"separated list\"",
-    "$2: \"of length\"",
+    "$1: \"separeret liste\"",
+    "$2: \"med længde\"",
     "%2"
   ],
   "abstr-punctuated-brief": [
     "%1",
-    "$1: \"separated list\""
+    "$1: \"separeret liste\""
   ],
   "abstr-punctuated-var": [
     "%1",
-    "$1: \"separated list\"",
-    "$2: \"of variable length\""
+    "$1: \"separeret liste\"",
+    "$2: \"med variabel længde\""
   ],
   "abstr-bigop": [
     "%1"
@@ -208,53 +208,53 @@
   ],
   "abstr-relation-seq": [
     "%1",
-    "$1: \"sequence\"",
-    "$2: \"with\"",
+    "$1: \"sekvens\"",
+    "$2: \"men\"",
     "%2",
-    "$3: \"elements\""
+    "$3: \"elementer\""
   ],
   "abstr-relation-seq-brief": [
     "%1",
-    "$1: \"sequence\""
+    "$1: \"sekvens\""
   ],
   "abstr-relation-var": [
     "%1",
-    "$1: \"sequence\"",
-    "$2: \"with variable number of elements\""
+    "$1: \"sekvens\"",
+    "$2: \"med variabelt antal elementer\""
   ],
   "abstr-multirel": [
-    "$1: \"relation sequence\"",
-    "$2: \"with\"",
+    "$1: \"sammenligningssekvens\"",
+    "$2: \"med\"",
     "%1",
-    "$3: \"elements\""
+    "$3: \"elementer\""
   ],
   "abstr-multirel-brief": [
-    "$1: \"relation sequence\""
+    "$1: \"sammenligningssekvens\""
   ],
   "abstr-multirel-var": [
-    "$1: \"relation sequence with variable number of elements\""
+    "$1: \"sammenligningssekvens med variabelt antal elementer\""
   ],
   "abstr-table": [
-    "$1: \"table with\"",
+    "$1: \"tabel med\"",
     "%1",
-    "$2: \"rows and\"",
+    "$2: \"rækker og\"",
     "%2",
-    "$3: \"columns\""
+    "$3: \"kolonner\""
   ],
   "abstr-line": [
-    "$1: \"in\"",
+    "$1: \"i\"",
     "%1"
   ],
   "abstr-row": [
-    "$1: \"in\"",
+    "$1: \"i\"",
     "%1",
     "%2",
-    "$2: \"with\"",
+    "$2: \"med\"",
     "%3",
-    "$3: \"columns\""
+    "$3: \"kolonner\""
   ],
   "abstr-cell": [
-    "$1: \"in\"",
+    "$1: \"i\"",
     "%1"
   ]
 }

@@ -2,61 +2,61 @@
   "abstr-identifier-long": {
     "$1": {
       "type": "TEXT",
-      "content": "\"long identifier\""
+      "content": "\"stor identifikator\""
     }
   },
   "abstr-identifier": {
     "$1": {
       "type": "TEXT",
-      "content": "\"identifier\""
+      "content": "\"identifikator\""
     }
   },
   "abstr-number-long": {
     "$1": {
       "type": "TEXT",
-      "content": "\"long number\""
+      "content": "\"stort tal\""
     }
   },
   "abstr-number": {
     "$1": {
       "type": "TEXT",
-      "content": "\"number\""
+      "content": "\"tal\""
     }
   },
   "abstr-mixed-number-long": {
     "$1": {
       "type": "TEXT",
-      "content": "\"long mixed number\""
+      "content": "\"stort blandet tal\""
     }
   },
   "abstr-mixed-number": {
     "$1": {
       "type": "TEXT",
-      "content": "\"mixed number\""
+      "content": "\"blandet tal\""
     }
   },
   "abstr-text": {
     "$1": {
       "type": "TEXT",
-      "content": "\"text\""
+      "content": "\"tekst\""
     }
   },
   "abstr-function": {
     "$1": {
       "type": "TEXT",
-      "content": "\"functional expression\""
+      "content": "\"funktionsudtryk\""
     }
   },
   "abstr-function-brief": {
     "$1": {
       "type": "TEXT",
-      "content": "\"function\""
+      "content": "\"funktion\""
     }
   },
   "abstr-lim": {
     "$1": {
       "type": "TEXT",
-      "content": "\"limit function\""
+      "content": "\"grænseværdifunktion\""
     }
   },
   "abstr-lim-brief": {
@@ -68,43 +68,43 @@
   "abstr-fraction": {
     "$1": {
       "type": "TEXT",
-      "content": "\"fraction\""
+      "content": "\"brøk\""
     }
   },
   "abstr-fraction-brief": {
     "$1": {
       "type": "TEXT",
-      "content": "\"frac\""
+      "content": "\"brøk\""
     }
   },
   "abstr-continued-fraction": {
     "$1": {
       "type": "TEXT",
-      "content": "\"continued fraction\""
+      "content": "\"kædebrøk\""
     }
   },
   "abstr-continued-fraction-brief": {
     "$1": {
       "type": "TEXT",
-      "content": "\"continued frac\""
+      "content": "\"kædebrøk\""
     }
   },
   "abstr-sqrt": {
     "$1": {
       "type": "TEXT",
-      "content": "\"square root\""
+      "content": "\"kvadratrod\""
     }
   },
   "abstr-sqrt-nested": {
     "$1": {
       "type": "TEXT",
-      "content": "\"nested square root\""
+      "content": "\"indlejret kvadratrod\""
     }
   },
   "abstr-root-end": {
     "$1": {
       "type": "TEXT",
-      "content": "\"root of index\""
+      "content": "\"rod med rodeksponent\""
     },
     "%1": {
       "type": "NODE",
@@ -115,13 +115,13 @@
     },
     "$2": {
       "type": "TEXT",
-      "content": "\"endindex\""
+      "content": "\"slut rodeksponent\""
     }
   },
   "abstr-root": {
     "$1": {
       "type": "TEXT",
-      "content": "\"root of index\""
+      "content": "\"rod med rodeksponent\""
     },
     "%1": {
       "type": "NODE",
@@ -134,13 +134,13 @@
   "abstr-root-brief": {
     "$1": {
       "type": "TEXT",
-      "content": "\"root\""
+      "content": "\"rod\""
     }
   },
   "abstr-root-nested-end": {
     "$1": {
       "type": "TEXT",
-      "content": "\"nested root of index\""
+      "content": "\"indlejret rod med rodeksponent\""
     },
     "%1": {
       "type": "NODE",
@@ -151,13 +151,13 @@
     },
     "$2": {
       "type": "TEXT",
-      "content": "\"endindex\""
+      "content": "\"slut rodeksponent\""
     }
   },
   "abstr-root-nested": {
     "$1": {
       "type": "TEXT",
-      "content": "\"nested root of index\""
+      "content": "\"indlejret rod med rodeksponent\""
     },
     "%1": {
       "type": "NODE",
@@ -170,25 +170,25 @@
   "abstr-root-nested-brief": {
     "$1": {
       "type": "TEXT",
-      "content": "\"nested root\""
+      "content": "\"indlejret rod\""
     }
   },
   "abstr-superscript": {
     "$1": {
       "type": "TEXT",
-      "content": "\"power\""
+      "content": "\"potens\""
     }
   },
   "abstr-subscript": {
     "$1": {
       "type": "TEXT",
-      "content": "\"subscript\""
+      "content": "\"sænket\""
     }
   },
   "abstr-subsup": {
     "$1": {
       "type": "TEXT",
-      "content": "\"power with subscript\""
+      "content": "\"potens med sænket\""
     }
   },
   "abstr-infixop": {
@@ -201,7 +201,7 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"with\""
+      "content": "\"med\""
     },
     "%2": {
       "type": "TEXT",
@@ -209,7 +209,7 @@
     },
     "$2": {
       "type": "TEXT",
-      "content": "\"elements\""
+      "content": "\"elementer\""
     }
   },
   "abstr-infixop-var": {
@@ -222,7 +222,7 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"with variable number of elements\""
+      "content": "\"med variabelt antal elementer\""
     }
   },
   "abstr-infixop-brief": {
@@ -237,7 +237,7 @@
   "abstr-addition": {
     "$1": {
       "type": "TEXT",
-      "content": "\"sum with\""
+      "content": "\"sum med\""
     },
     "%1": {
       "type": "TEXT",
@@ -245,7 +245,7 @@
     },
     "$2": {
       "type": "TEXT",
-      "content": "\"summands\""
+      "content": "\"addender\""
     }
   },
   "abstr-addition-brief": {
@@ -257,13 +257,13 @@
   "abstr-addition-var": {
     "$1": {
       "type": "TEXT",
-      "content": "\"sum with variable number of summands\""
+      "content": "\"sum med variabelt antal addender\""
     }
   },
   "abstr-multiplication": {
     "$1": {
       "type": "TEXT",
-      "content": "\"product with\""
+      "content": "\"produkt med\""
     },
     "%1": {
       "type": "TEXT",
@@ -271,19 +271,19 @@
     },
     "$2": {
       "type": "TEXT",
-      "content": "\"factors\""
+      "content": "\"faktorer\""
     }
   },
   "abstr-multiplication-brief": {
     "$1": {
       "type": "TEXT",
-      "content": "\"product\""
+      "content": "\"produkt\""
     }
   },
   "abstr-multiplication-var": {
     "$1": {
       "type": "TEXT",
-      "content": "\"product with variable number of factors\""
+      "content": "\"produkt med variabelt antal faktorer\""
     }
   },
   "abstr-vector": {
@@ -293,19 +293,19 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"dimensional vector\""
+      "content": "\"dimensional vektor\""
     }
   },
   "abstr-vector-brief": {
     "$1": {
       "type": "TEXT",
-      "content": "\"vector\""
+      "content": "\"vektor\""
     }
   },
   "abstr-vector-var": {
     "$1": {
       "type": "TEXT",
-      "content": "\"n dimensional vector\""
+      "content": "\"n dimensional vektor\""
     }
   },
   "abstr-binomial": {
@@ -343,13 +343,13 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"dimensional square matrix\""
+      "content": "\"dimensional kvadratisk matrix\""
     }
   },
   "abstr-squarematrix-brief": {
     "$1": {
       "type": "TEXT",
-      "content": "\"square matrix\""
+      "content": "\"kvadratisk matrix\""
     }
   },
   "abstr-rowvector": {
@@ -359,19 +359,19 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"dimensional row vector\""
+      "content": "\"dimensional rækkevektor\""
     }
   },
   "abstr-rowvector-brief": {
     "$1": {
       "type": "TEXT",
-      "content": "\"row vector\""
+      "content": "\"rækkevektor\""
     }
   },
   "abstr-rowvector-var": {
     "$1": {
       "type": "TEXT",
-      "content": "\"n dimensional row vector\""
+      "content": "\"n dimensional rækkevektor\""
     }
   },
   "abstr-matrix": {
@@ -381,7 +381,7 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"by\""
+      "content": "\"gange\""
     },
     "%2": {
       "type": "TEXT",
@@ -401,17 +401,17 @@
   "abstr-matrix-var": {
     "$1": {
       "type": "TEXT",
-      "content": "\"n by m dimensional matrix\""
+      "content": "\"n gange m dimensional matrix\""
     }
   },
   "abstr-cases": {
     "$1": {
       "type": "TEXT",
-      "content": "\"case statement\""
+      "content": "\"akkolade\""
     },
     "$2": {
       "type": "TEXT",
-      "content": "\"with\""
+      "content": "\"med\""
     },
     "%1": {
       "type": "TEXT",
@@ -419,19 +419,19 @@
     },
     "$3": {
       "type": "TEXT",
-      "content": "\"cases\""
+      "content": "\"udtryk\""
     }
   },
   "abstr-cases-brief": {
     "$1": {
       "type": "TEXT",
-      "content": "\"case statement\""
+      "content": "\"akkolade\""
     }
   },
   "abstr-cases-var": {
     "$1": {
       "type": "TEXT",
-      "content": "\"case statement with variable number of cases\""
+      "content": "\"akkolade med variabelt antal udtryk\""
     }
   },
   "abstr-punctuated": {
@@ -441,11 +441,11 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"separated list\""
+      "content": "\"separeret liste\""
     },
     "$2": {
       "type": "TEXT",
-      "content": "\"of length\""
+      "content": "\"med længde\""
     },
     "%2": {
       "type": "TEXT",
@@ -459,7 +459,7 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"separated list\""
+      "content": "\"separeret liste\""
     }
   },
   "abstr-punctuated-var": {
@@ -469,11 +469,11 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"separated list\""
+      "content": "\"separeret liste\""
     },
     "$2": {
       "type": "TEXT",
-      "content": "\"of variable length\""
+      "content": "\"med variabel længde\""
     }
   },
   "abstr-bigop": {
@@ -507,11 +507,11 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"sequence\""
+      "content": "\"sekvens\""
     },
     "$2": {
       "type": "TEXT",
-      "content": "\"with\""
+      "content": "\"men\""
     },
     "%2": {
       "type": "TEXT",
@@ -519,7 +519,7 @@
     },
     "$3": {
       "type": "TEXT",
-      "content": "\"elements\""
+      "content": "\"elementer\""
     }
   },
   "abstr-relation-seq-brief": {
@@ -532,7 +532,7 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"sequence\""
+      "content": "\"sekvens\""
     }
   },
   "abstr-relation-var": {
@@ -545,21 +545,21 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"sequence\""
+      "content": "\"sekvens\""
     },
     "$2": {
       "type": "TEXT",
-      "content": "\"with variable number of elements\""
+      "content": "\"med variabelt antal elementer\""
     }
   },
   "abstr-multirel": {
     "$1": {
       "type": "TEXT",
-      "content": "\"relation sequence\""
+      "content": "\"sammenligningssekvens\""
     },
     "$2": {
       "type": "TEXT",
-      "content": "\"with\""
+      "content": "\"med\""
     },
     "%1": {
       "type": "TEXT",
@@ -567,25 +567,25 @@
     },
     "$3": {
       "type": "TEXT",
-      "content": "\"elements\""
+      "content": "\"elementer\""
     }
   },
   "abstr-multirel-brief": {
     "$1": {
       "type": "TEXT",
-      "content": "\"relation sequence\""
+      "content": "\"sammenligningssekvens\""
     }
   },
   "abstr-multirel-var": {
     "$1": {
       "type": "TEXT",
-      "content": "\"relation sequence with variable number of elements\""
+      "content": "\"sammenligningssekvens med variabelt antal elementer\""
     }
   },
   "abstr-table": {
     "$1": {
       "type": "TEXT",
-      "content": "\"table with\""
+      "content": "\"tabel med\""
     },
     "%1": {
       "type": "TEXT",
@@ -593,7 +593,7 @@
     },
     "$2": {
       "type": "TEXT",
-      "content": "\"rows and\""
+      "content": "\"rækker og\""
     },
     "%2": {
       "type": "TEXT",
@@ -601,13 +601,13 @@
     },
     "$3": {
       "type": "TEXT",
-      "content": "\"columns\""
+      "content": "\"kolonner\""
     }
   },
   "abstr-line": {
     "$1": {
       "type": "TEXT",
-      "content": "\"in\""
+      "content": "\"i\""
     },
     "%1": {
       "type": "TEXT",
@@ -620,7 +620,7 @@
   "abstr-row": {
     "$1": {
       "type": "TEXT",
-      "content": "\"in\""
+      "content": "\"i\""
     },
     "%1": {
       "type": "TEXT",
@@ -635,7 +635,7 @@
     },
     "$2": {
       "type": "TEXT",
-      "content": "\"with\""
+      "content": "\"med\""
     },
     "%3": {
       "type": "TEXT",
@@ -643,13 +643,13 @@
     },
     "$3": {
       "type": "TEXT",
-      "content": "\"columns\""
+      "content": "\"kolonner\""
     }
   },
   "abstr-cell": {
     "$1": {
       "type": "TEXT",
-      "content": "\"in\""
+      "content": "\"i\""
     },
     "%1": {
       "type": "TEXT",

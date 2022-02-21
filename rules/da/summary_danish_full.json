@@ -3,7 +3,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"long identifier\""
+        "content": "\"stor identifikator\""
       }
     ]
   },
@@ -11,7 +11,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"identifier\""
+        "content": "\"identifikator\""
       }
     ]
   },
@@ -19,7 +19,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"long number\""
+        "content": "\"stort tal\""
       }
     ]
   },
@@ -27,7 +27,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"number\""
+        "content": "\"tal\""
       }
     ]
   },
@@ -35,7 +35,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"long mixed number\""
+        "content": "\"stort blandet tal\""
       }
     ]
   },
@@ -43,7 +43,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"mixed number\""
+        "content": "\"blandet tal\""
       }
     ]
   },
@@ -51,7 +51,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"text\""
+        "content": "\"tekst\""
       }
     ]
   },
@@ -59,7 +59,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"functional expression\""
+        "content": "\"funktionsudtryk\""
       }
     ]
   },
@@ -67,7 +67,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"function\""
+        "content": "\"funktion\""
       }
     ]
   },
@@ -75,7 +75,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"limit function\""
+        "content": "\"grænseværdifunktion\""
       }
     ]
   },
@@ -91,7 +91,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"fraction\""
+        "content": "\"brøk\""
       }
     ]
   },
@@ -99,7 +99,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"frac\""
+        "content": "\"brøk\""
       }
     ]
   },
@@ -107,7 +107,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"continued fraction\""
+        "content": "\"kædebrøk\""
       }
     ]
   },
@@ -115,7 +115,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"continued frac\""
+        "content": "\"kædebrøk\""
       }
     ]
   },
@@ -123,7 +123,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"square root\""
+        "content": "\"kvadratrod\""
       }
     ]
   },
@@ -131,7 +131,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"nested square root\""
+        "content": "\"indlejret kvadratrod\""
       }
     ]
   },
@@ -139,7 +139,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"root of index\""
+        "content": "\"rod med rodeksponent\""
       },
       {
         "type": "NODE",
@@ -150,7 +150,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"endindex\""
+        "content": "\"slut rodeksponent\""
       }
     ]
   },
@@ -158,7 +158,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"root of index\""
+        "content": "\"rod med rodeksponent\""
       },
       {
         "type": "NODE",
@@ -173,7 +173,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"root\""
+        "content": "\"rod\""
       }
     ]
   },
@@ -181,7 +181,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"nested root of index\""
+        "content": "\"indlejret rod med rodeksponent\""
       },
       {
         "type": "NODE",
@@ -192,7 +192,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"endindex\""
+        "content": "\"slut rodeksponent\""
       }
     ]
   },
@@ -200,7 +200,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"nested root of index\""
+        "content": "\"indlejret rod med rodeksponent\""
       },
       {
         "type": "NODE",
@@ -215,7 +215,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"nested root\""
+        "content": "\"indlejret rod\""
       }
     ]
   },
@@ -223,7 +223,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"power\""
+        "content": "\"potens\""
       }
     ]
   },
@@ -231,7 +231,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"subscript\""
+        "content": "\"sænket\""
       }
     ]
   },
@@ -239,7 +239,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"power with subscript\""
+        "content": "\"potens med sænket\""
       }
     ]
   },
@@ -254,7 +254,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"with\""
+        "content": "\"med\""
       },
       {
         "type": "TEXT",
@@ -262,7 +262,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"elements\""
+        "content": "\"elementer\""
       }
     ]
   },
@@ -277,7 +277,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"with variable number of elements\""
+        "content": "\"med variabelt antal elementer\""
       }
     ]
   },
@@ -296,7 +296,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"sum with\""
+        "content": "\"sum med\""
       },
       {
         "type": "TEXT",
@@ -304,7 +304,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"summands\""
+        "content": "\"addender\""
       }
     ]
   },
@@ -320,7 +320,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"sum with variable number of summands\""
+        "content": "\"sum med variabelt antal addender\""
       }
     ]
   },
@@ -328,7 +328,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"product with\""
+        "content": "\"produkt med\""
       },
       {
         "type": "TEXT",
@@ -336,7 +336,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"factors\""
+        "content": "\"faktorer\""
       }
     ]
   },
@@ -344,7 +344,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"product\""
+        "content": "\"produkt\""
       }
     ]
   },
@@ -352,7 +352,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"product with variable number of factors\""
+        "content": "\"produkt med variabelt antal faktorer\""
       }
     ]
   },
@@ -364,7 +364,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"dimensional vector\""
+        "content": "\"dimensional vektor\""
       }
     ]
   },
@@ -372,7 +372,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"vector\""
+        "content": "\"vektor\""
       }
     ]
   },
@@ -380,7 +380,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"n dimensional vector\""
+        "content": "\"n dimensional vektor\""
       }
     ]
   },
@@ -428,7 +428,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"dimensional square matrix\""
+        "content": "\"dimensional kvadratisk matrix\""
       }
     ]
   },
@@ -436,7 +436,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"square matrix\""
+        "content": "\"kvadratisk matrix\""
       }
     ]
   },
@@ -448,7 +448,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"dimensional row vector\""
+        "content": "\"dimensional rækkevektor\""
       }
     ]
   },
@@ -456,7 +456,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"row vector\""
+        "content": "\"rækkevektor\""
       }
     ]
   },
@@ -464,7 +464,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"n dimensional row vector\""
+        "content": "\"n dimensional rækkevektor\""
       }
     ]
   },
@@ -476,7 +476,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"by\""
+        "content": "\"gange\""
       },
       {
         "type": "TEXT",
@@ -500,7 +500,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"n by m dimensional matrix\""
+        "content": "\"n gange m dimensional matrix\""
       }
     ]
   },
@@ -508,11 +508,11 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"case statement\""
+        "content": "\"akkolade\""
       },
       {
         "type": "TEXT",
-        "content": "\"with\""
+        "content": "\"med\""
       },
       {
         "type": "TEXT",
@@ -520,7 +520,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"cases\""
+        "content": "\"udtryk\""
       }
     ]
   },
@@ -528,7 +528,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"case statement\""
+        "content": "\"akkolade\""
       }
     ]
   },
@@ -536,7 +536,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"case statement with variable number of cases\""
+        "content": "\"akkolade med variabelt antal udtryk\""
       }
     ]
   },
@@ -548,11 +548,11 @@
       },
       {
         "type": "TEXT",
-        "content": "\"separated list\""
+        "content": "\"separeret liste\""
       },
       {
         "type": "TEXT",
-        "content": "\"of length\""
+        "content": "\"med længde\""
       },
       {
         "type": "TEXT",
@@ -568,7 +568,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"separated list\""
+        "content": "\"separeret liste\""
       }
     ]
   },
@@ -580,11 +580,11 @@
       },
       {
         "type": "TEXT",
-        "content": "\"separated list\""
+        "content": "\"separeret liste\""
       },
       {
         "type": "TEXT",
-        "content": "\"of variable length\""
+        "content": "\"med variabel længde\""
       }
     ]
   },
@@ -626,11 +626,11 @@
       },
       {
         "type": "TEXT",
-        "content": "\"sequence\""
+        "content": "\"sekvens\""
       },
       {
         "type": "TEXT",
-        "content": "\"with\""
+        "content": "\"men\""
       },
       {
         "type": "TEXT",
@@ -638,7 +638,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"elements\""
+        "content": "\"elementer\""
       }
     ]
   },
@@ -653,7 +653,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"sequence\""
+        "content": "\"sekvens\""
       }
     ]
   },
@@ -668,11 +668,11 @@
       },
       {
         "type": "TEXT",
-        "content": "\"sequence\""
+        "content": "\"sekvens\""
       },
       {
         "type": "TEXT",
-        "content": "\"with variable number of elements\""
+        "content": "\"med variabelt antal elementer\""
       }
     ]
   },
@@ -680,11 +680,11 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"relation sequence\""
+        "content": "\"sammenligningssekvens\""
       },
       {
         "type": "TEXT",
-        "content": "\"with\""
+        "content": "\"med\""
       },
       {
         "type": "TEXT",
@@ -692,7 +692,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"elements\""
+        "content": "\"elementer\""
       }
     ]
   },
@@ -700,7 +700,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"relation sequence\""
+        "content": "\"sammenligningssekvens\""
       }
     ]
   },
@@ -708,7 +708,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"relation sequence with variable number of elements\""
+        "content": "\"sammenligningssekvens med variabelt antal elementer\""
       }
     ]
   },
@@ -716,7 +716,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"table with\""
+        "content": "\"tabel med\""
       },
       {
         "type": "TEXT",
@@ -724,7 +724,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"rows and\""
+        "content": "\"rækker og\""
       },
       {
         "type": "TEXT",
@@ -732,7 +732,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"columns\""
+        "content": "\"kolonner\""
       }
     ]
   },
@@ -740,7 +740,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"in\""
+        "content": "\"i\""
       },
       {
         "type": "TEXT",
@@ -755,7 +755,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"in\""
+        "content": "\"i\""
       },
       {
         "type": "TEXT",
@@ -770,7 +770,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"with\""
+        "content": "\"med\""
       },
       {
         "type": "TEXT",
@@ -778,7 +778,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"columns\""
+        "content": "\"kolonner\""
       }
     ]
   },
@@ -786,7 +786,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"in\""
+        "content": "\"i\""
       },
       {
         "type": "TEXT",
