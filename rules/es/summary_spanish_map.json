@@ -441,7 +441,10 @@
     },
     "%1": {
       "type": "NODE",
-      "content": "content/*[1]"
+      "content": "content/*[1]",
+      "grammar": {
+        "plural": true
+      }
     },
     "$2": {
       "type": "TEXT",
@@ -459,7 +462,10 @@
     },
     "%1": {
       "type": "NODE",
-      "content": "content/*[1]"
+      "content": "content/*[1]",
+      "grammar": {
+        "plural": true
+      }
     }
   },
   "abstr-punctuated-var": {
@@ -469,7 +475,10 @@
     },
     "%1": {
       "type": "NODE",
-      "content": "content/*[1]"
+      "content": "content/*[1]",
+      "grammar": {
+        "plural": true
+      }
     },
     "$2": {
       "type": "TEXT",

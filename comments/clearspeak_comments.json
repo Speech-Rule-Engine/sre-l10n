@@ -4679,8 +4679,8 @@
       "fr": 2,
       "hi": 2,
       "it": 2,
-      "nn": 1,
-      "nb": 1
+      "nn": 2,
+      "nb": 2
     },
     "description": "An root with explicit index. Speaking the index as ordinal when possible.",
     "latex": "\\sqrt[4]{a}",
@@ -4708,10 +4708,12 @@
         "%2": "%2"
       },
       "nn": {
-        "%1": "%2"
+        "%1": "%1",
+        "%2": "%2"
       },
       "nb": {
-        "%1": "%2"
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -4728,8 +4730,8 @@
       "fr": 2,
       "hi": 2,
       "it": 2,
-      "nn": 1,
-      "nb": 1
+      "nn": 2,
+      "nb": 2
     },
     "description": "An nested root with explicit index. Never spoken with `end root` announcement.",
     "latex": "",
@@ -4757,10 +4759,12 @@
         "%2": "%2"
       },
       "nn": {
-        "%1": "%2"
+        "%1": "%1",
+        "%2": "%2"
       },
       "nb": {
-        "%1": "%2"
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -9258,8 +9262,8 @@
       "fr": 1,
       "hi": 2,
       "it": 1,
-      "nn": 1,
-      "nb": 1
+      "nn": 2,
+      "nb": 2
     },
     "description": "Simple function (i.e., single letter f, g, ...) with superscript",
     "latex": "",
@@ -9281,10 +9285,12 @@
         "%1": "%2"
       },
       "nn": {
-        "%1": "%2"
+        "%1": "%2",
+        "%2": "%2"
       },
       "nb": {
-        "%1": "%2"
+        "%1": "%2",
+        "%2": "%2"
       }
     },
     "maximum": 2

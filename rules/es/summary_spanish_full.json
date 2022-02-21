@@ -548,7 +548,10 @@
       },
       {
         "type": "NODE",
-        "content": "content/*[1]"
+        "content": "content/*[1]",
+        "grammar": {
+          "plural": true
+        }
       },
       {
         "type": "TEXT",
@@ -568,7 +571,10 @@
       },
       {
         "type": "NODE",
-        "content": "content/*[1]"
+        "content": "content/*[1]",
+        "grammar": {
+          "plural": true
+        }
       }
     ]
   },
@@ -580,7 +586,10 @@
       },
       {
         "type": "NODE",
-        "content": "content/*[1]"
+        "content": "content/*[1]",
+        "grammar": {
+          "plural": true
+        }
       },
       {
         "type": "TEXT",

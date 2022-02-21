@@ -901,6 +901,10 @@
   "superscript-simple-function": {
     "components": [
       {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
         "type": "TEXT",
         "content": "\"med eksponent\"",
         "attributes": {
@@ -2203,6 +2207,13 @@
   "root": {
     "components": [
       {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "grammar": {
+          "ordinal": true
+        }
+      },
+      {
         "type": "TEXT",
         "content": "\"roten av\""
       },
@@ -2224,6 +2235,13 @@
         "type": "PERSONALITY",
         "attributes": {
           "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "grammar": {
+          "ordinal": true
         }
       },
       {

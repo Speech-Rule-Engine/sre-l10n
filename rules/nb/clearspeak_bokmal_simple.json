@@ -231,8 +231,9 @@
     "%2 (pause:short)"
   ],
   "superscript-simple-function": [
+    "%1",
     "$1: \"med eksponent\" (pause:short)",
-    "%1"
+    "%2"
   ],
   "superscript-simple-function-none": [
     "%1"
@@ -534,12 +535,14 @@
     "%1 (pause:short)"
   ],
   "root": [
+    "%1",
     "$1: \"roten av\"",
-    "%1 (pause:short)"
+    "%2 (pause:short)"
   ],
   "root-nested": [
+    "%1",
     "$1: \"roten av\"",
-    "%1 (pause:short)"
+    "%2 (pause:short)"
   ],
   "root-endroot": [
     "%1",

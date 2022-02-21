@@ -51,6 +51,16 @@ maps.retrieveFunctions(iso);
 maps.retrieveUnits(iso);
 ```
 
+### Message Localisations
+
+This is currently still done with the `SplitJson` module from the
+`sre-resources` repository using the spreadsheets split into single `csv` files.
+
+
+
+
+
+
 
 ## Localisation Workflow
 

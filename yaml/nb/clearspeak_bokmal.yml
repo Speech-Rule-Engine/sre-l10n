@@ -452,11 +452,11 @@ superscript-non-ordinal:
   - %2 (pause:short)
 
 # Simple function (i.e., single letter f, g, ...) with superscript
-# %1: The function symbol
-# %2: The exponent
+# %1: The exponent
 superscript-simple-function:
-  - $1: "med eksponent" (pause:short)
   - %1
+  - $1: "med eksponent" (pause:short)
+  - %2
 
 # Simple letter function (e.g., f, g, h) with exponent explicitly not spoken as a function. Usually does not need to be localised.
 # %1: The single letter function with exponent
@@ -991,18 +991,18 @@ cubic-nested:
 # An root with explicit index. Speaking the index as ordinal when possible.
 # Example: the fourth root of a
 # LaTeX Example: $\sqrt[4]{a}$
-# %1: Index of the root
-# %2: Content of the radical
+# %1: Content of the radical
 root:
+  - %1
   - $1: "roten av"
-  - %1 (pause:short)
+  - %2 (pause:short)
 
 # An nested root with explicit index. Never spoken with `end root` announcement.
-# %1: Index of the root
-# %2: Content of the radical
+# %1: Content of the radical
 root-nested:
+  - %1
   - $1: "roten av"
-  - %1 (pause:short)
+  - %2 (pause:short)
 
 # Adds a end root announcement if necessary.
 # %1: The root

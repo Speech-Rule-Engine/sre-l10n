@@ -350,7 +350,7 @@ abstr-cases-var:
 # %2: The number of separated elements
 abstr-punctuated:
   - $1: "lista separada por"
-  - %1
+  - %1 (grammar:plural)
   - $2: "de longitud"
   - %2
 
@@ -360,7 +360,7 @@ abstr-punctuated:
 # %1: The separating punctuation
 abstr-punctuated-brief:
   - $1: "lista separada por"
-  - %1
+  - %1 (grammar:plural)
 
 # Summary of a list of elements separated by a punctuation that contains elliptic elements (...)
 # Example: comma separated list of variable length
@@ -368,7 +368,7 @@ abstr-punctuated-brief:
 # %1: The separating punctuation
 abstr-punctuated-var:
   - $1: "lista separada por"
-  - %1
+  - %1 (grammar:plural)
   - $2: "de longitud variable"
 
 # Summary of a big operation, like a sum or a product

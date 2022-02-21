@@ -785,6 +785,10 @@
     }
   },
   "superscript-simple-function": {
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]"
+    },
     "$1": {
       "type": "TEXT",
       "content": "\"med eksponent\"",
@@ -792,7 +796,7 @@
         "pause": "short"
       }
     },
-    "%1": {
+    "%2": {
       "type": "NODE",
       "content": "children/*[1]"
     }
@@ -1955,11 +1959,18 @@
     }
   },
   "root": {
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "grammar": {
+        "ordinal": true
+      }
+    },
     "$1": {
       "type": "TEXT",
       "content": "\"roten av\""
     },
-    "%1": {
+    "%2": {
       "type": "NODE",
       "content": "children/*[2]",
       "attributes": {
@@ -1977,11 +1988,18 @@
         "pause": "short"
       }
     },
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "grammar": {
+        "ordinal": true
+      }
+    },
     "$1": {
       "type": "TEXT",
       "content": "\"roten av\""
     },
-    "%1": {
+    "%2": {
       "type": "NODE",
       "content": "children/*[2]",
       "attributes": {
