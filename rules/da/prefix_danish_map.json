@@ -1,0 +1,232 @@
+{
+  "numerator": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Numerator\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "denominator": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Denominator\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "base": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Base\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "exponent": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Exponent\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "subscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Subscript\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "overscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Overscript\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "underscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Underscript\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "radicand": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Radicand\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "index": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Index\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "leftsub": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Left Subscript\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "leftsub-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Left Subscript\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "leftsuper": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Left Superscript\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "leftsuper-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Left Superscript\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "rightsub": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Right Subscript\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "rightsub-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Right Subscript\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "rightsuper": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Right Superscript\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "rightsuper-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Right Superscript\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "choice": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Choice Quantity\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "select": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Selection Quantity\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "row": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Row\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "cell": {
+    "%1": {
+      "type": "NODE",
+      "content": "../.."
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Column\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "cell-simple": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Column\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  }
+}
