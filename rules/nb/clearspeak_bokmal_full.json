@@ -913,7 +913,7 @@
       },
       {
         "type": "NODE",
-        "content": "children/*[1]"
+        "content": "children/*[2]"
       }
     ]
   },
