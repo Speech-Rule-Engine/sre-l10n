@@ -69,7 +69,8 @@ mathmaps. Merge into `crowdin` branch and push to crowdin.
 ### Rules
 
 * Add new locale to variable in `util.ts`.
-* OPTIONAL: Generate basic rules files from English with forward translation.
+* Prepare empty rule and actions files for new locale.
+* Generate basic rules files with forward translation.
 * Replace the corresponding yaml files with the translated ones or create them new.
 * Translate backwards, this will result in the correct rule files in SRE.
 * Translate forwards once more to update comment files, json files, etc. in the `l10n` repository.
