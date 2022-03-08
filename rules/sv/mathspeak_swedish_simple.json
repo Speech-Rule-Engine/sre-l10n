@@ -1,0 +1,448 @@
+{
+  "collapsed": [
+    "$1: \"kollapsad\"",
+    "%1"
+  ],
+  "blank-cell-empty": [
+    "$1: \"Tom\""
+  ],
+  "blank-line-empty": [
+    "$1: \"Tom\""
+  ],
+  "font": [
+    "%1",
+    "%2"
+  ],
+  "mixed-number": [
+    "%1",
+    "$1: \"och\"",
+    "%2"
+  ],
+  "number-with-chars": [
+    "$1: \"Nummer\"",
+    "%1"
+  ],
+  "number-with-chars-brief": [
+    "$1: \"Num\"",
+    "%1"
+  ],
+  "number-as-upper-word": [
+    "$1: \"Ord stort\"",
+    "%1"
+  ],
+  "number-baseline": [
+    "$1: \"Basnivå\"",
+    "%1"
+  ],
+  "number-baseline-brief": [
+    "$1: \"Bas\"",
+    "%1"
+  ],
+  "number-baseline-font": [
+    "$1: \"Basnivå\"",
+    "%1",
+    "%2"
+  ],
+  "number-baseline-font-brief": [
+    "$1: \"Bas\"",
+    "%1",
+    "%2"
+  ],
+  "negative-number": [
+    "$1: \"minus\"",
+    "%1"
+  ],
+  "negative": [
+    "$1: \"minus\"",
+    "%1"
+  ],
+  "division": [
+    "%1",
+    "$1: \"delat med\"",
+    "%2"
+  ],
+  "subtraction": [
+    "%1 (separator:\"minus\")"
+  ],
+  "fences-neutral": [
+    "$1: \"StartAbsolutVärde\"",
+    "%1",
+    "$2: \"SlutAbsolutVärde\""
+  ],
+  "fences-neutral-sbrief": [
+    "$1: \"AbsolutVärde\"",
+    "%1",
+    "$2: \"SlutAbsolutVärde\""
+  ],
+  "fences-metric": [
+    "$1: \"StartMetrisk\"",
+    "%1",
+    "$2: \"SlutMetrisk\""
+  ],
+  "fences-metric-sbrief": [
+    "$1: \"Metrisk\"",
+    "%1",
+    "$2: \"SlutMetrisk\""
+  ],
+  "empty-set": [
+    "$1: \"tomma mängden\""
+  ],
+  "fences-set": [
+    "$1: \"StartMängd\"",
+    "%1",
+    "$2: \"SlutMängd\""
+  ],
+  "fences-set-sbrief": [
+    "$1: \"Mängds\"",
+    "%1",
+    "$2: \"SlutMängd\""
+  ],
+  "factorial": [
+    "$1: \"-fakultet\""
+  ],
+  "minus": [
+    "$1: \"minus\""
+  ],
+  "continued-fraction-outer": [
+    "$1: \"KedjeBråk\"",
+    "%1",
+    "$2: \"genom\"",
+    "%2"
+  ],
+  "continued-fraction-outer-brief": [
+    "$1: \"KedjeBråk\"",
+    "%1",
+    "$2: \"genom\"",
+    "%2"
+  ],
+  "continued-fraction-inner": [
+    "$1: \"StartBråk\"",
+    "%1",
+    "$2: \"genom\"",
+    "%2"
+  ],
+  "continued-fraction-inner-brief": [
+    "$1: \"StartBråk\"",
+    "%1",
+    "$2: \"genom\"",
+    "%2"
+  ],
+  "continued-fraction-inner-sbrief": [
+    "$1: \"Bråk\"",
+    "%1",
+    "$2: \"genom\"",
+    "%2"
+  ],
+  "integral": [
+    "%1",
+    "$1: \"undre gräns\"",
+    "%2",
+    "$2: \"övre gräns\"",
+    "%3",
+    "$3: \"Basnivå\""
+  ],
+  "integral-brief": [
+    "%1",
+    "$1: \"Undre\"",
+    "%2",
+    "$2: \"Övre\"",
+    "%3",
+    "$3: \"Bas\""
+  ],
+  "square": [
+    "%1",
+    "$1: \"kvadrat\""
+  ],
+  "cube": [
+    "%1",
+    "$1: \"kubik\""
+  ],
+  "prime": [
+    "%1",
+    "%2"
+  ],
+  "counted-prime": [
+    "%1",
+    "$1: \"prim\""
+  ],
+  "counted-prime-multichar": [
+    "%1",
+    "$1: \"prim\""
+  ],
+  "overscore": [
+    "$1: \"ModifieradÖver\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2"
+  ],
+  "overscore-brief": [
+    "$1: \"ModÖver\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2"
+  ],
+  "double-overscore": [
+    "$1: \"ModifieradÖver Över\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2"
+  ],
+  "double-overscore-brief": [
+    "$1: \"ModÖver Över\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2"
+  ],
+  "underscore": [
+    "$1: \"ModifieradUnder\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2"
+  ],
+  "underscore-brief": [
+    "$1: \"ModUnder\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2"
+  ],
+  "double-underscore": [
+    "$1: \"ModifieradÖver Under\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2"
+  ],
+  "double-underscore-brief": [
+    "$1: \"ModUnder Under\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2"
+  ],
+  "overbar": [
+    "%1",
+    "$1: \"överstreck\""
+  ],
+  "underbar": [
+    "%1",
+    "$1: \"understreck\""
+  ],
+  "overtilde": [
+    "%1",
+    "$1: \"övertilde\""
+  ],
+  "undertilde": [
+    "%1",
+    "$1: \"undetilde\""
+  ],
+  "matrix": [
+    "$1: \"Start\"",
+    "%1",
+    "$2: \"Gånger\"",
+    "%2",
+    "$3: \"Matris\"",
+    "%3 (context:\"Rad \")",
+    "$4: \"SlutMatris\""
+  ],
+  "matrix-sbrief": [
+    "%1",
+    "$1: \"Gånger\"",
+    "%2",
+    "$2: \"Matris\"",
+    "%3 (context:\"Rad \")",
+    "$3: \"SlutMatris\""
+  ],
+  "matrix-row": [
+    "%1 (context:\"Kolumn\", pause:200)"
+  ],
+  "row-with-label": [
+    "$1: \"med Etikett\"",
+    "%1",
+    "$2: \"SlutEtikett\" (pause:200)",
+    "%2 (context:\"Kolumn\")"
+  ],
+  "row-with-label-brief": [
+    "$1: \"Etikett\"",
+    "%1",
+    "%2 (context:\"Kolumn\")"
+  ],
+  "row-with-text-label": [
+    "$1: \"Etikett\"",
+    "%1",
+    "%2 (context:\"Kolumn\")"
+  ],
+  "empty-row": [
+    "$1: \"Tom\""
+  ],
+  "empty-cell": [
+    "$1: \"Tom\" (pause:300)"
+  ],
+  "determinant": [
+    "$1: \"Start\"",
+    "%1",
+    "$2: \"Gånger\"",
+    "%2",
+    "$3: \"Determinant\"",
+    "%3 (context:\"Rad \")",
+    "$4: \"SlutDeterminant\""
+  ],
+  "determinant-sbrief": [
+    "%1",
+    "$1: \"Gånger\"",
+    "%2",
+    "$2: \"Determinant\"",
+    "%3 (context:\"Rad \")",
+    "$3: \"SlutDeterminant\""
+  ],
+  "determinant-simple": [
+    "$1: \"Start\"",
+    "%1",
+    "$2: \"Gånger\"",
+    "%2",
+    "$3: \"Determinant\"",
+    "%3 (context:\"Rad\")",
+    "$4: \"SlutDeterminant\""
+  ],
+  "determinant-simple-sbrief": [
+    "%1",
+    "$1: \"Gånger\"",
+    "%2",
+    "$2: \"Determinant\"",
+    "%3 (context:\"Rad\")",
+    "$3: \"SlutDeterminant\""
+  ],
+  "layout": [
+    "$1: \"StartLayout\"",
+    "%1 (context:\"Rad \")",
+    "$2: \"SlutLayout\""
+  ],
+  "layout-sbrief": [
+    "$1: \"Layout\"",
+    "%1 (context:\"Rad \")",
+    "$2: \"SlutLayout\""
+  ],
+  "binomial": [
+    "$1: \"StartBinomEllerMatris\"",
+    "%1",
+    "$2: \"Välj\"",
+    "%2",
+    "$3: \"SlutBinomEllerMatris\""
+  ],
+  "binomial-sbrief": [
+    "$1: \"BinomEllerMatris\"",
+    "%1",
+    "$2: \"Välj\"",
+    "%2",
+    "$3: \"SlutBinomEllerMatris\""
+  ],
+  "cases": [
+    "$1: \"StartLayout\"",
+    "$2: \"Förstorad\"",
+    "%1",
+    "%2 (context:\"Rad \")",
+    "$3: \"SlutLayout\""
+  ],
+  "cases-sbrief": [
+    "$1: \"Layout\"",
+    "$2: \"Förstorad\"",
+    "%1",
+    "%2 (context:\"Rad \")",
+    "$3: \"SlutLayout\""
+  ],
+  "line-with-label": [
+    "$1: \"med Etikett\"",
+    "%1",
+    "$2: \"SlutEtikett\" (pause:200)",
+    "%2"
+  ],
+  "line-with-label-brief": [
+    "$1: \"Etikett\"",
+    "%1 (pause:200)",
+    "%2"
+  ],
+  "line-with-text-label": [
+    "$1: \"Etikett\"",
+    "%1",
+    "%2"
+  ],
+  "empty-line": [
+    "$1: \"Tom\""
+  ],
+  "empty-line-with-label": [
+    "$1: \"med Etikett\"",
+    "%1",
+    "$2: \"SlutEtikett\" (pause:200)",
+    "$3: \"Tom\""
+  ],
+  "empty-line-with-label-brief": [
+    "$1: \"Etikett\"",
+    "%1 (pause:200)",
+    "$2: \"Tom\""
+  ],
+  "enclose": [
+    "$1: \"StartInnesluten\"",
+    "%1",
+    "%2",
+    "$2: \"SlutInnesluten\""
+  ],
+  "leftbar": [
+    "$1: \"vertikalt streck\"",
+    "%1"
+  ],
+  "rightbar": [
+    "%1",
+    "$1: \"vertikalt streck\""
+  ],
+  "crossout": [
+    "$1: \"Genomstruken\"",
+    "%1",
+    "$2: \"SlutGenomstruken\""
+  ],
+  "cancel": [
+    "$1: \"Genomstruken\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2",
+    "$3: \"SlutGenomstruken\""
+  ],
+  "cancel-reverse": [
+    "$1: \"GenomStruken\"",
+    "%1",
+    "$2: \"Med\"",
+    "%2",
+    "$3: \"SlutGenomstruken\""
+  ],
+  "multi-inference": [
+    "$1: \"slutledningsregel\"",
+    "%1",
+    "$2: \"med slutsats\"",
+    "%2",
+    "$3: \"och\"",
+    "%3",
+    "$4: \"premisser\""
+  ],
+  "inference": [
+    "$1: \"slutledningsregel\"",
+    "%1",
+    "$2: \"med slutsats\"",
+    "%2",
+    "$3: \"och\"",
+    "%3",
+    "$4: \"premisser\""
+  ],
+  "premise": [
+    "%1 (context:\"premiss \")"
+  ],
+  "conclusion": [
+    "%1"
+  ],
+  "label": [
+    "$1: \"etikett\"",
+    "%1"
+  ],
+  "axiom": [
+    "$1: \"axiom\"",
+    "%1"
+  ],
+  "empty-axiom": [
+    "$1: \"tomt axiom\""
+  ]
+}

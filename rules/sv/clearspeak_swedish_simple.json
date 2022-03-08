@@ -1,0 +1,1068 @@
+{
+  "collapsed": [
+    "$1: \"kollapsad\"",
+    "%1"
+  ],
+  "font": [
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "ellipsis": [
+    "$1: \"och så vidare\""
+  ],
+  "ellipsis-andsoon": [
+    "$1: \"och så vidare till och med\""
+  ],
+  "vbar-evaluated": [
+    "%1 (pause:short)",
+    "$1: \"evaluerad vid\"",
+    "%2 (pause:short)"
+  ],
+  "vbar-evaluated-both": [
+    "%1 (pause:short)",
+    "$1: \"evaluerad vid\"",
+    "%2 (pause:short)",
+    "$2: \"minus samma uttryck evaluerat vid\"",
+    "%3 (pause:short)"
+  ],
+  "vbar-such-that": [
+    "$1: \"sådan att\""
+  ],
+  "vbar-divides": [
+    "$1: \"delar\""
+  ],
+  "vbar-always-divides": [
+    "$1: \"delar\""
+  ],
+  "vbar-given": [
+    "$1: \"givet\""
+  ],
+  "member": [
+    "$1: \"är medlem av\""
+  ],
+  "member-member": [
+    "$1: \"är medlem av\""
+  ],
+  "member-element": [
+    "$1: \"är ett element av\""
+  ],
+  "member-in": [
+    "$1: \"är i\""
+  ],
+  "member-belongs": [
+    "$1: \"tillhör\""
+  ],
+  "not-member": [
+    "$1: \"är inte medlem av\""
+  ],
+  "not-member-member": [
+    "$1: \"är inte medlem av\""
+  ],
+  "not-member-element": [
+    "$1: \"är inte ett element av\""
+  ],
+  "not-member-in": [
+    "$1: \"är inte i\""
+  ],
+  "not-member-belongs": [
+    "$1: \"tillhör inte\""
+  ],
+  "set-member": [
+    "$1: \"i\""
+  ],
+  "set-member-member": [
+    "$1: \"medlem av\""
+  ],
+  "set-member-element": [
+    "$1: \"element av\""
+  ],
+  "set-member-in": [
+    "$1: \"i\""
+  ],
+  "set-member-belongs": [
+    "$1: \"tillhörande\""
+  ],
+  "set-not-member": [
+    "$1: \"inte i\""
+  ],
+  "set-not-member-member": [
+    "$1: \"inte medlem av\""
+  ],
+  "set-not-member-element": [
+    "$1: \"inte ett element av\""
+  ],
+  "set-not-member-in": [
+    "$1: \"inte i\""
+  ],
+  "set-not-member-belongs": [
+    "$1: \"inte tillhörande\""
+  ],
+  "appl": [
+    "%1",
+    "$1: \"av\"",
+    "%2 (pause:short)"
+  ],
+  "appl-simple": [
+    "%1",
+    "$1: \"av\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "appl-simple-fenced": [
+    "%1",
+    "$1: \"av\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "appl-times": [
+    "%1",
+    "$1: \"gånger\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix": [
+    "%1",
+    "%2"
+  ],
+  "function-prefix-simple-arg": [
+    "%1",
+    "%2"
+  ],
+  "function-prefix-embell": [
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-fenced-or-frac-arg": [
+    "%1",
+    "$1: \"av\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-subscript": [
+    "%1 (grammar:addArticle)",
+    "$1: \"av\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "function-ln": [
+    "%1",
+    "%2"
+  ],
+  "function-ln-pause": [
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "function-ln-of": [
+    "%1",
+    "$1: \"av\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-as-exp": [
+    "%1",
+    "$1: \"av\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-subscript-as-exp": [
+    "%1",
+    "$1: \"av\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-hyper": [
+    "%1",
+    "$1: \"av\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-inverse": [
+    "$1: \"inversen\"",
+    "%1",
+    "$2: \"av\"",
+    "%2 (pause:short)"
+  ],
+  "appl-triginverse": [
+    "%1",
+    "$1: \"av\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-arc-simple": [
+    "$1: \"arcus\"",
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-arc-simple-fenced": [
+    "$1: \"arcus\"",
+    "%1 (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-arc": [
+    "$1: \"arcus\"",
+    "%1",
+    "$2: \"av\"",
+    "%2 (pause:short)"
+  ],
+  "function-inverse": [
+    "%1",
+    "$1: \"invers\""
+  ],
+  "superscript-prefix-function": [
+    "%1",
+    "$1: \"upphöjt till\"",
+    "%2"
+  ],
+  "superscript": [
+    "%1",
+    "$1: \"upphöjt till exponenten\" (pause:short)",
+    "%2 (pause:short)",
+    "$2: \"slut exponent\" (pause:short)"
+  ],
+  "superscript-simple-exponent": [
+    "%1",
+    "$1: \"upphöjt till\"",
+    "%2"
+  ],
+  "superscript-simple-exponent-end": [
+    "%1",
+    "$1: \"upphöjt till\"",
+    "%2"
+  ],
+  "superscript-ordinal": [
+    "%1",
+    "$1: \"upphöjt till\"",
+    "%2 (pause:short)"
+  ],
+  "superscript-non-ordinal": [
+    "%1",
+    "$1: \"upphöjt till\"",
+    "%2 (pause:short)"
+  ],
+  "superscript-simple-function": [
+    "%1",
+    "$1: \"upphöjt till\" (pause:short)",
+    "%2"
+  ],
+  "superscript-simple-function-none": [
+    "%1"
+  ],
+  "superscript-ordinal-number": [
+    "%1",
+    "$1: \"upphöjt till\"",
+    "%2 (pause:short)"
+  ],
+  "superscript-ordinal-negative": [
+    "%1",
+    "$1: \"upphöjt till\"",
+    "%2 (pause:short)"
+  ],
+  "superscript-ordinal-default": [
+    "%1",
+    "$1: \"upphöjt till exponenten\" (pause:short)",
+    "%2 (pause:short)",
+    "$2: \"slut exponent\" (pause:short)"
+  ],
+  "superscript-ordinal-power-number": [
+    "%1",
+    "$1: \"upphöjt till\"",
+    "%2 (pause:short)"
+  ],
+  "superscript-ordinal-power-negative": [
+    "%1",
+    "$1: \"upphöjt till\"",
+    "%2 (pause:short)"
+  ],
+  "superscript-ordinal-power-identifier": [
+    "%1",
+    "$1: \"upphöjt till\"",
+    "%2 (pause:short)"
+  ],
+  "superscript-ordinal-power-default": [
+    "%1",
+    "$1: \"upphöjt till exponenten\" (pause:short)",
+    "%2 (pause:short)",
+    "$2: \"slut exponent\" (pause:short)"
+  ],
+  "superscript-power": [
+    "%1",
+    "$1: \"upphöjt till exponenten\"",
+    "%2 (pause:short)"
+  ],
+  "superscript-power-default": [
+    "%1",
+    "$1: \"upphöjt till exponenten\" (pause:short)",
+    "%2 (pause:short)",
+    "$2: \"slut exponent\" (pause:short)"
+  ],
+  "exponent": [
+    "%1 (join:\"-\")",
+    "$1: \"te\""
+  ],
+  "exponent-number": [
+    "%1"
+  ],
+  "exponent-ordinal": [
+    "%1"
+  ],
+  "exponent-ordinal-zero": [
+    "$1: \"noll\""
+  ],
+  "exponent-ordinalpower": [
+    "%1"
+  ],
+  "exponent-ordinalpower-zero": [
+    "$1: \"noll\""
+  ],
+  "square": [
+    "%1",
+    "$1: \"kvadrat\""
+  ],
+  "cube": [
+    "%1",
+    "$1: \"kubik\""
+  ],
+  "fences-points": [
+    "$1: \"Punkten med koordinaterna\"",
+    "%1"
+  ],
+  "fences-interval": [
+    "$1: \"intervallet från\"",
+    "%1",
+    "$2: \"till\"",
+    "%2 (pause:short)",
+    "%3"
+  ],
+  "interval-open": [
+    "$1: \"utan\"",
+    "%1",
+    "$2: \"eller\"",
+    "%2"
+  ],
+  "interval-closed-open": [
+    "$1: \"inkluderat\"",
+    "%1 (pause:short)",
+    "$2: \"men utan\"",
+    "%2"
+  ],
+  "interval-open-closed": [
+    "$1: \"utan\"",
+    "%1 (pause:short)",
+    "$2: \"men inkluderat\"",
+    "%2"
+  ],
+  "interval-closed": [
+    "$1: \"inkluderat\"",
+    "%1",
+    "$2: \"och\"",
+    "%2"
+  ],
+  "interval-open-inf-r": [
+    "$1: \"utan\"",
+    "%1"
+  ],
+  "interval-open-inf-l": [
+    "$1: \"utan\"",
+    "%1"
+  ],
+  "interval-closed-open-inf": [
+    "$1: \"inkluderat\"",
+    "%1"
+  ],
+  "interval-open-closed-inf": [
+    "$1: \"inkluderat\"",
+    "%1"
+  ],
+  "set-empty": [
+    "$1: \"den tomma mängden\""
+  ],
+  "set-extended": [
+    "$1: \"hela mängden\"",
+    "%1",
+    "$2: \"med\"",
+    "%2"
+  ],
+  "set-collection": [
+    "$1: \"mängden\"",
+    "%1"
+  ],
+  "set-extended-woall": [
+    "$1: \"mängden av\"",
+    "%1",
+    "$2: \"med\"",
+    "%2"
+  ],
+  "subscript": [
+    "%1",
+    "$1: \"index\"",
+    "%2 (pause:short)"
+  ],
+  "logarithm-base": [
+    "%1",
+    "$1: \"bas\"",
+    "%2"
+  ],
+  "subscript-index": [
+    "%1",
+    "$1: \"index\"",
+    "%2"
+  ],
+  "fraction": [
+    "$1: \"bråket med täljare\"",
+    "%1 (pause:short)",
+    "$2: \"och nämnare\"",
+    "%2 (pause:short)"
+  ],
+  "fraction-none": [
+    "$1: \"bråket med täljare\"",
+    "%1 (pause:short)",
+    "$2: \"och nämnare\"",
+    "%2 (pause:short)"
+  ],
+  "simple-fraction": [
+    "%1",
+    "$1: \"delat med\"",
+    "%2 (pause:short)"
+  ],
+  "simple-vulgar-fraction": [
+    "%1",
+    "$1: \"delat med\"",
+    "%2 (pause:short)"
+  ],
+  "simple-text-fraction": [
+    "%1",
+    "$1: \"delat med\"",
+    "%2 (pause:short)"
+  ],
+  "vulgar-fraction": [
+    "%1"
+  ],
+  "fraction-over": [
+    "%1",
+    "$1: \"delat med\"",
+    "%2 (pause:short)"
+  ],
+  "fraction-overendfrac": [
+    "%1",
+    "$1: \"delat med\"",
+    "%2 (pause:short)",
+    "$2: \"slut bråk\" (pause:short)"
+  ],
+  "fraction-fracover": [
+    "$1: \"bråket\"",
+    "%1",
+    "$2: \"delat med\"",
+    "%2 (pause:short)"
+  ],
+  "fraction-per": [
+    "%1",
+    "$1: \"per\"",
+    "%2 (pause:short)"
+  ],
+  "fraction-generalendfrac": [
+    "$1: \"bråket med täljare\"",
+    "%1 (pause:short)",
+    "$2: \"och nämnare\"",
+    "%2 (pause:short)",
+    "$3: \"slut bråk\" (pause:short)"
+  ],
+  "fraction-general": [
+    "$1: \"bråket med täljare\"",
+    "%1 (pause:short)",
+    "$2: \"och nämnare\"",
+    "%2 (pause:short)"
+  ],
+  "simple-vulgar-fraction-ordinal": [
+    "%1"
+  ],
+  "fraction-endfrac": [
+    "%1",
+    "$1: \"slut bråk\" (pause:short)"
+  ],
+  "vulgar-fraction-endfrac": [
+    "%1",
+    "$1: \"delat med\"",
+    "%2 (pause:short)"
+  ],
+  "simple-vulgar-fraction-endfrac": [
+    "%1"
+  ],
+  "sqrt": [
+    "$1: \"kvadratroten av\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-nested": [
+    "$1: \"kvadratroten av\"",
+    "%1 (pause:short)"
+  ],
+  "negative-sqrt": [
+    "$1: \"den negativa kvadratroten av\"",
+    "%1 (pause:short)"
+  ],
+  "negative-sqrt-default": [
+    "$1: \"den negativa kvadratroten av\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-plus-minus": [
+    "$1: \"den positiva kvadratroten av\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-nested-plus-minus": [
+    "$1: \"den positiva kvadratroten av\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-plus-minus-posnegsqrootend": [
+    "$1: \"den positiva kvadratroten av\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-nested-plus-minus-posnegsqrootend": [
+    "$1: \"den positiva kvadratroten av\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-endroot": [
+    "%1",
+    "$1: \"slut rot\" (pause:short)"
+  ],
+  "negative-sqrt-endroot": [
+    "%1",
+    "$1: \"slut rot\" (pause:short)"
+  ],
+  "sqrt-posnegsqrootend": [
+    "%1",
+    "$1: \"slut rot\" (pause:short)"
+  ],
+  "negative-sqrt-posnegsqrootend": [
+    "%1",
+    "$1: \"slut rot\" (pause:short)"
+  ],
+  "cubic": [
+    "$1: \"kubikroten av\"",
+    "%1 (pause:short)"
+  ],
+  "cubic-nested": [
+    "$1: \"kubikroten av\"",
+    "%1 (pause:short)"
+  ],
+  "root": [
+    "%1",
+    "$1: \"roten av\"",
+    "%2 (pause:short)"
+  ],
+  "root-nested": [
+    "%1",
+    "$1: \"roten av\"",
+    "%2 (pause:short)"
+  ],
+  "root-endroot": [
+    "%1",
+    "$1: \"slut rot\" (pause:short)"
+  ],
+  "root-posnegsqrootend": [
+    "%1",
+    "$1: \"slut rot\" (pause:short)"
+  ],
+  "negative": [
+    "$1: \"minus\"",
+    "%1"
+  ],
+  "positive": [
+    "$1: \"plus\"",
+    "%1"
+  ],
+  "angle-measure": [
+    "$1: \"vinkelmåttet av\"",
+    "%1",
+    "%2"
+  ],
+  "set-prefix-operators": [
+    "%1",
+    "$1: \"av\""
+  ],
+  "division": [
+    "%1",
+    "$1: \"delat med\"",
+    "%2"
+  ],
+  "operators-after-power": [
+    "%1"
+  ],
+  "natural-numbers": [
+    "$1: \"de naturliga talen\""
+  ],
+  "integers": [
+    "$1: \"heltalen\""
+  ],
+  "rational-numbers": [
+    "$1: \"de rationella talen\""
+  ],
+  "real-numbers": [
+    "$1: \"de reella talen\""
+  ],
+  "complex-numbers": [
+    "$1: \"de komplexa talen\""
+  ],
+  "natural-numbers-with-zero": [
+    "$1: \"de naturliga talen med noll\""
+  ],
+  "positive-integers": [
+    "$1: \"de positiva heltalen\""
+  ],
+  "negative-integers": [
+    "$1: \"de negativa heltalen\""
+  ],
+  "positive-rational-numbers": [
+    "$1: \"de positiva rationella talen\""
+  ],
+  "negative-rational-numbers": [
+    "$1: \"de negativa rationella talen\""
+  ],
+  "fences-neutral": [
+    "$1: \"absolutvärdet av\"",
+    "%1 (pause:short)"
+  ],
+  "fences-neutral-absend": [
+    "$1: \"absolutvärdet av\"",
+    "%1 (pause:short)",
+    "$2: \"slut absolutvärde\" (pause:short)"
+  ],
+  "fences-neutral-cardinality": [
+    "$1: \"kardinaliteten av\"",
+    "%1 (pause:short)"
+  ],
+  "fences-neutral-determinant": [
+    "$1: \"determinanten av\"",
+    "%1 (pause:short)"
+  ],
+  "fences-metric": [
+    "$1: \"beloppet av\"",
+    "%1 (pause:short)"
+  ],
+  "fences-metric-absend": [
+    "$1: \"beloppet av\"",
+    "%1 (pause:short)",
+    "$2: \"slutbelopp\" (pause:short)"
+  ],
+  "matrix": [
+    "%1",
+    "$1: \"gånger\"",
+    "%2",
+    "$2: \"matrisen\" (pause:long)",
+    "%3 (context:\"rad-:\", pause:long)"
+  ],
+  "matrix-simple": [
+    "%1",
+    "$1: \"gånger\"",
+    "%2",
+    "$2: \"matrisen\" (pause:long)",
+    "%3 (context:\"rad-:\", pause:long)"
+  ],
+  "matrix-trivial": [
+    "$1: \"en gånger en matrisen med element\"",
+    "%1 (pause:long)"
+  ],
+  "determinant": [
+    "$1: \"determinanten av\"",
+    "%1",
+    "$2: \"gånger\"",
+    "%2",
+    "$3: \"matrisen\" (pause:long)",
+    "%3 (context:\"rad-:\", pause:long)"
+  ],
+  "determinant-simple": [
+    "$1: \"determinanten av\"",
+    "%1",
+    "$2: \"gånger\"",
+    "%2",
+    "$3: \"matrisen\" (pause:long)",
+    "%3 (context:\"rad-:\", pause:long)"
+  ],
+  "matrix-vector": [
+    "%1",
+    "$1: \"gånger\"",
+    "%2",
+    "$2: \"kolumnmatrisen\" (pause:long)",
+    "%3 (context:\"rad-:\", pause:long)"
+  ],
+  "matrix-vector-simple": [
+    "%1",
+    "$1: \"gånger\"",
+    "%2",
+    "$2: \"kolumnmatrisen\" (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "matrix-vector-simple-silentcolnum": [
+    "%1",
+    "$1: \"gånger\"",
+    "%2",
+    "$2: \"kolumnmatrisen\" (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "matrix-row-vector": [
+    "%1",
+    "$1: \"gånger\"",
+    "%2",
+    "$2: \"radmatrisen\" (pause:long)",
+    "%3 (context:\"kolumn-:\", pause:long)"
+  ],
+  "matrix-row-vector-simple": [
+    "%1",
+    "$1: \"gånger\"",
+    "%2",
+    "$2: \"radmatrisen\" (pause:long)",
+    "%3"
+  ],
+  "matrix-row-vector-simple-silentcolnum": [
+    "%1",
+    "$1: \"gånger\"",
+    "%2",
+    "$2: \"radmatrisen\" (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "matrix-row": [
+    "%1 (context:\"kolumn-,- \", pause:long)"
+  ],
+  "matrix-end-matrix": [
+    "%1",
+    "$1: \"slut matris\""
+  ],
+  "matrix-end-vector": [
+    "%1",
+    "$1: \"slut matris\""
+  ],
+  "matrix-end-determinant": [
+    "%1",
+    "$1: \"slut determinant\""
+  ],
+  "vector": [
+    "%1",
+    "$1: \"gånger\"",
+    "%2",
+    "$2: \"kolumnvektorn\" (pause:long)",
+    "%3 (context:\"rad-:\", pause:long)"
+  ],
+  "vector-simple": [
+    "%1",
+    "$1: \"gånger\"",
+    "%2",
+    "$2: \"kolumnvektorn\" (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "row-vector": [
+    "%1",
+    "$1: \"gånger\"",
+    "%2",
+    "$2: \"radvektorn\" (pause:long)",
+    "%3 (context:\"kolumn-:\", pause:long)"
+  ],
+  "row-vector-simple": [
+    "%1",
+    "$1: \"gånger\"",
+    "%2",
+    "$2: \"radvektorn\" (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "vector-end-matrix": [
+    "%1",
+    "$1: \"slut matris\""
+  ],
+  "vector-end-vector": [
+    "%1",
+    "$1: \"slut vektor\""
+  ],
+  "vector-end-vector-endvector": [
+    "%1",
+    "$1: \"slut vektor\""
+  ],
+  "vector-end-determinant": [
+    "%1",
+    "$1: \"slut determinant\""
+  ],
+  "binomial": [
+    "%1",
+    "$1: \"över\"",
+    "%2"
+  ],
+  "lines-summary": [
+    "%1",
+    "$1: \"rader\"",
+    "%2"
+  ],
+  "cases-summary": [
+    "%1",
+    "$1: \"fall\"",
+    "%2"
+  ],
+  "lines": [
+    "%1 (context:\"rad-:\", pause:long)"
+  ],
+  "blank-cell": [
+    "$1: \"tom\""
+  ],
+  "blank-line": [
+    "$1: \"tom\""
+  ],
+  "blank-cell-empty": [
+    "$1: \"tom\""
+  ],
+  "blank-line-empty": [
+    "$1: \"tom\""
+  ],
+  "cases": [
+    "%1 (context:\"fall-:\", pause:long)"
+  ],
+  "lines-cases-summary": [
+    "%1",
+    "$1: \"fall\"",
+    "%2"
+  ],
+  "lines-cases": [
+    "%1 (context:\"fall-:\", pause:long)"
+  ],
+  "lines-equations-summary": [
+    "%1",
+    "$1: \"ekvationer\"",
+    "%2"
+  ],
+  "lines-equations": [
+    "%1 (context:\"Equation-:\", pause:long)"
+  ],
+  "lines-steps-summary": [
+    "%1",
+    "$1: \"steg\"",
+    "%2"
+  ],
+  "lines-steps": [
+    "%1 (context:\"steg-:\", pause:long)"
+  ],
+  "lines-rows-summary": [
+    "%1",
+    "$1: \"rader\"",
+    "%2"
+  ],
+  "lines-rows": [
+    "%1 (context:\"rad-:\", pause:long)"
+  ],
+  "lines-constraints-summary": [
+    "%1",
+    "$1: \"begränsning\"",
+    "%2"
+  ],
+  "lines-constraints": [
+    "%1 (context:\"begränsning-:\", pause:long)"
+  ],
+  "bigop": [
+    "%1",
+    "$1: \"av\"",
+    "%2 (pause:short)"
+  ],
+  "limboth": [
+    "%1",
+    "$1: \"från\"",
+    "%2",
+    "$2: \"till\"",
+    "%3"
+  ],
+  "limlower": [
+    "%1",
+    "$1: \"över\"",
+    "%2 (pause:short)"
+  ],
+  "limupper": [
+    "%1",
+    "$1: \"under\"",
+    "%2 (pause:short)"
+  ],
+  "integral": [
+    "%1",
+    "$1: \"av\"",
+    "%2 (pause:short)"
+  ],
+  "overscript": [
+    "%1",
+    "$1: \"under\"",
+    "%2 (pause:short)"
+  ],
+  "overscript-limits": [
+    "%1",
+    "$1: \"till\"",
+    "%2"
+  ],
+  "underscript": [
+    "%1",
+    "$1: \"över\"",
+    "%2 (pause:short)"
+  ],
+  "underscript-limits": [
+    "%1",
+    "$1: \"från\"",
+    "%2"
+  ],
+  "mixed-number": [
+    "%1",
+    "$1: \"och\"",
+    "%2"
+  ],
+  "number-with-chars": [
+    "$1: \"tal\"",
+    "%1"
+  ],
+  "decimal-period": [
+    "$1: \"decimalbråk\"",
+    "%1",
+    "$2: \"komma följt av upprepande siffra\"",
+    "%2"
+  ],
+  "decimal-period-float": [
+    "$1: \"decimalbråk\"",
+    "%1",
+    "$2: \"följt av upprepande siffra\"",
+    "%2"
+  ],
+  "decimal-period-singular": [
+    "$1: \"decimalbråk\"",
+    "%1",
+    "$2: \"komma följt av upprepande siffra\"",
+    "%2"
+  ],
+  "decimal-period-singular-float": [
+    "$1: \"decimalbråk\"",
+    "%1",
+    "$2: \"följt av upprepande siffra\"",
+    "%2"
+  ],
+  "decimal-point": [
+    "$1: \"komma\""
+  ],
+  "line-segment": [
+    "$1: \"linjesegmentet\"",
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "conjugate": [
+    "$1: \"komplexkonjugatet av\"",
+    "%1"
+  ],
+  "defined-by": [
+    "$1: \"är definierat som\" (pause:short)"
+  ],
+  "adorned-sign": [
+    "%1",
+    "$1: \"tecken med\"",
+    "%2",
+    "$2: \"över\""
+  ],
+  "factorial": [
+    "$1: \"fakultet\""
+  ],
+  "left-super": [
+    "$1: \"vänster övre index\"",
+    "%1"
+  ],
+  "left-super-list": [
+    "$1: \"vänster övre index\"",
+    "%1"
+  ],
+  "left-sub": [
+    "$1: \"vänster nedre index\"",
+    "%1"
+  ],
+  "left-sub-list": [
+    "$1: \"vänster nedre index\"",
+    "%1"
+  ],
+  "right-super": [
+    "$1: \"höger övre index\"",
+    "%1"
+  ],
+  "right-super-list": [
+    "$1: \"höger övre index\"",
+    "%1"
+  ],
+  "right-sub": [
+    "$1: \"höger nedre index\"",
+    "%1"
+  ],
+  "right-sub-list": [
+    "$1: \"höger nedre index\"",
+    "%1"
+  ],
+  "choose": [
+    "%1",
+    "$1: \"över\"",
+    "%2"
+  ],
+  "permute": [
+    "%1",
+    "$1: \"permutation av\"",
+    "%2"
+  ],
+  "unit-square": [
+    "$1: \"kvadrat\"",
+    "%1"
+  ],
+  "unit-cubic": [
+    "$1: \"kubik\"",
+    "%1"
+  ],
+  "unit-reciprocal": [
+    "$1: \"invers\"",
+    "%1"
+  ],
+  "unit-reciprocal-singular": [
+    "$1: \"per\"",
+    "%1 (grammar:singular)"
+  ],
+  "unit-divide": [
+    "%1",
+    "$1: \"per\"",
+    "%2 (grammar:singular)"
+  ],
+  "enclose": [
+    "$1: \"omsluten av\"",
+    "%1",
+    "%2"
+  ],
+  "enclose-end": [
+    "$1: \"omsluten av\"",
+    "%1",
+    "%2",
+    "$2: \"slut omsluten\""
+  ],
+  "overbar": [
+    "%1",
+    "$1: \"horisontellt sträck\""
+  ],
+  "underbar": [
+    "%1",
+    "$1: \"över horisontellt sträck\""
+  ],
+  "leftbar": [
+    "$1: \"vertikalt sträck\"",
+    "%1"
+  ],
+  "rightbar": [
+    "%1",
+    "$1: \"vertikalt sträck\""
+  ],
+  "crossout": [
+    "$1: \"överstruket\"",
+    "%1"
+  ],
+  "crossout-end": [
+    "$1: \"överstruket\"",
+    "%1",
+    "$2: \"slut överstrykning\""
+  ],
+  "cancel-over": [
+    "%1",
+    "$1: \"överstruket med\"",
+    "%2"
+  ],
+  "cancel-under": [
+    "%1",
+    "$1: \"överstruket med\"",
+    "%2"
+  ],
+  "cancel-over-end": [
+    "%1",
+    "$1: \"överstruket med\"",
+    "%2",
+    "$2: \"slut överstrykning\""
+  ],
+  "cancel-under-end": [
+    "%1",
+    "$1: \"överstruket med\"",
+    "%2",
+    "$2: \"slut överstrykning\""
+  ]
+}
