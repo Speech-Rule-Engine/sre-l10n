@@ -29,43 +29,17 @@
   },
   "font": {
     "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "ignoreFont": "@font"
+      }
+    },
+    "%2": {
       "type": "TEXT",
       "content": "@font",
       "grammar": {
         "localFont": true
-      }
-    },
-    "%2": {
-      "type": "NODE",
-      "content": ".",
-      "grammar": {
-        "ignoreFont": "@font"
-      }
-    }
-  },
-  "german-font": {
-    "$1": {
-      "type": "TEXT",
-      "content": "\"fraktur\""
-    },
-    "%1": {
-      "type": "NODE",
-      "content": ".",
-      "grammar": {
-        "ignoreFont": "@font"
-      }
-    }
-  },
-  "german-font-bold": {
-    "$1": {
-      "type": "TEXT",
-      "content": "\"fed fraktur\""
-    },
-    "%1": {
-      "type": "NODE",
-      "content": ".",
-      "grammar": {
-        "ignoreFont": "@font"
       }
     }
   },

@@ -36,47 +36,17 @@
   "font": {
     "components": [
       {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "ignoreFont": "@font"
+        }
+      },
+      {
         "type": "TEXT",
         "content": "@font",
         "grammar": {
           "localFont": true
-        }
-      },
-      {
-        "type": "NODE",
-        "content": ".",
-        "grammar": {
-          "ignoreFont": "@font"
-        }
-      }
-    ]
-  },
-  "german-font": {
-    "components": [
-      {
-        "type": "TEXT",
-        "content": "\"fraktur\""
-      },
-      {
-        "type": "NODE",
-        "content": ".",
-        "grammar": {
-          "ignoreFont": "@font"
-        }
-      }
-    ]
-  },
-  "german-font-bold": {
-    "components": [
-      {
-        "type": "TEXT",
-        "content": "\"fed fraktur\""
-      },
-      {
-        "type": "NODE",
-        "content": ".",
-        "grammar": {
-          "ignoreFont": "@font"
         }
       }
     ]

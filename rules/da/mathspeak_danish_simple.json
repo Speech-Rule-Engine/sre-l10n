@@ -13,14 +13,6 @@
     "%1",
     "%2"
   ],
-  "german-font": [
-    "$1: \"fraktur\"",
-    "%1"
-  ],
-  "german-font-bold": [
-    "$1: \"fed fraktur\"",
-    "%1"
-  ],
   "mixed-number": [
     "%1",
     "%2"

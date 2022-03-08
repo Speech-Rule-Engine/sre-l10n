@@ -17,23 +17,11 @@ blank-line-empty:
 
 # Explicit speaking of font
 # Example: bold alpha
-# %1: The font
-# %2: The expression
+# %1: The expression
+# %2: The font
 font:
   - %1
   - %2
-
-# A character in fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.
-# %1: The character in fraktur font
-german-font:
-  - $1: "fraktur"
-  - %1
-
-# A character in bold fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.
-# %1: The character in bold fraktur font
-german-font-bold:
-  - $1: "fed fraktur"
-  - %1
 
 # Mixed numbers
 # Example: Two and one third

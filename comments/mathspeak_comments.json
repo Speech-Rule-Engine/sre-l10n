@@ -180,8 +180,8 @@
         "%2": "%2"
       },
       "da": {
-        "%1": "%1",
-        "%2": "%2"
+        "%1": "%2",
+        "%2": "%1"
       }
     },
     "maximum": 2
@@ -5095,8 +5095,7 @@
       "%1": "The character in fraktur font"
     },
     "locales": {
-      "en": 1,
-      "da": 1
+      "en": 1
     },
     "description": "A character in fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.",
     "latex": "",
@@ -5104,9 +5103,6 @@
     "reference": "en",
     "order": {
       "en": {
-        "%1": "%1"
-      },
-      "da": {
         "%1": "%1"
       }
     },
@@ -5118,8 +5114,7 @@
       "%1": "The character in bold fraktur font"
     },
     "locales": {
-      "en": 1,
-      "da": 1
+      "en": 1
     },
     "description": "A character in bold fraktur font. Fraktur is sometimes also called blackletter or gothic. In English it is called German rather then the font name. Most other locales do not need this rule.",
     "latex": "",
@@ -5127,9 +5122,6 @@
     "reference": "en",
     "order": {
       "en": {
-        "%1": "%1"
-      },
-      "da": {
         "%1": "%1"
       }
     },
