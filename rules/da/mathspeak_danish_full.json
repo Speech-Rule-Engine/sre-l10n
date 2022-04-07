@@ -1,0 +1,1565 @@
+{
+  "collapsed": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"sammenfoldet\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "attributes": {
+          "engine": "modality=summary"
+        },
+        "grammar": {
+          "collapsed": true
+        }
+      }
+    ]
+  },
+  "blank-cell-empty": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Blank\""
+      }
+    ]
+  },
+  "blank-line-empty": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Blank\""
+      }
+    ]
+  },
+  "font": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "ignoreFont": "@font"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "@font",
+        "grammar": {
+          "localFont": true
+        }
+      }
+    ]
+  },
+  "mixed-number": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "number-with-chars": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Tal\""
+      },
+      {
+        "type": "MULTI",
+        "content": "CQFspaceoutNumber",
+        "grammar": {
+          "protected": true
+        }
+      }
+    ]
+  },
+  "number-with-chars-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Tal\""
+      },
+      {
+        "type": "MULTI",
+        "content": "CQFspaceoutNumber",
+        "grammar": {
+          "protected": true
+        }
+      }
+    ]
+  },
+  "number-as-upper-word": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"VersalOrd\""
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFspaceoutText"
+      }
+    ]
+  },
+  "number-baseline": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Grundlinje\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "baseline": true
+        }
+      }
+    ]
+  },
+  "number-baseline-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Grund\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "baseline": true
+        }
+      }
+    ]
+  },
+  "number-baseline-font": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Grundlinje\""
+      },
+      {
+        "type": "TEXT",
+        "content": "@font"
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "ignoreFont": "@font"
+        }
+      }
+    ]
+  },
+  "number-baseline-font-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Grund\""
+      },
+      {
+        "type": "TEXT",
+        "content": "@font"
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "ignoreFont": "@font"
+        }
+      }
+    ]
+  },
+  "negative-number": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"negativ\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "negative": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"minus\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "division": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"divideret med\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "subtraction": {
+    "components": [
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "separator": "\"minus\""
+        }
+      }
+    ]
+  },
+  "fences-neutral": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"StartNumeriskVærdi\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutNumeriskVærdi\""
+      }
+    ]
+  },
+  "fences-neutral-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"NumeriskVærdi\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutNumeriskVærdi\""
+      }
+    ]
+  },
+  "fences-metric": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"StartDobbeltLodretStreg\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutDobbeltLodretStreg\""
+      }
+    ]
+  },
+  "fences-metric-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"DobbeltLodretStreg\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutDobbeltLodretStreg\""
+      }
+    ]
+  },
+  "empty-set": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"den tomme mængde\""
+      }
+    ]
+  },
+  "fences-set": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"StartMængde\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutMængde\""
+      }
+    ]
+  },
+  "fences-set-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Mængde\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutMængde\""
+      }
+    ]
+  },
+  "factorial": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"fakultet\""
+      }
+    ]
+  },
+  "minus": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"minus\""
+      }
+    ]
+  },
+  "continued-fraction-outer": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Kædebrøk\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Over\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "continued-fraction-outer-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Kædebrøk\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Over\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "continued-fraction-inner": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"StartBrøk\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Over\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "continued-fraction-inner-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"StartBrøk\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Over\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "continued-fraction-inner-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Brøk\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Over\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "integral": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Sænket\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Hævet\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[3]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Grundlinje\""
+      }
+    ]
+  },
+  "integral-brief": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Sænk\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Hæv\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[3]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Grund\""
+      }
+    ]
+  },
+  "square": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"kvadreret\""
+      }
+    ]
+  },
+  "cube": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"i tredje\""
+      }
+    ]
+  },
+  "prime": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "counted-prime": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "count(children/*)",
+        "grammar": {
+          "numbers2alpha": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"primtegn\""
+      }
+    ]
+  },
+  "counted-prime-multichar": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "string-length(text())",
+        "grammar": {
+          "numbers2alpha": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"primtegn\""
+      }
+    ]
+  },
+  "overscore": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"SymbolOver\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Med\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "overscore-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"SymbolOver\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Med\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "double-overscore": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"SymbolOver Over\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Med\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "double-overscore-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"SymbolOver Over\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Med\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "underscore": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"SymbolUnder\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Med\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "underscore-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"SymbolUnder\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Med\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "double-underscore": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"SymbolUnder Under\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Med\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "double-underscore-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"SymbolUnder Under\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Med\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "overbar": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"overstreg\""
+      }
+    ]
+  },
+  "underbar": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"understreg\""
+      }
+    ]
+  },
+  "overtilde": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"overtilde\""
+      }
+    ]
+  },
+  "undertilde": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"undertilde\""
+      }
+    ]
+  },
+  "matrix": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Start\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Gange\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Matrix\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"Række \""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutMatrix\""
+      }
+    ]
+  },
+  "matrix-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Gange\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Matrix\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"Række \""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"EndMatrix\""
+      }
+    ]
+  },
+  "matrix-row": {
+    "components": [
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"Kolonne\"",
+          "pause": "200"
+        }
+      }
+    ]
+  },
+  "row-with-label": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"med Label\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutLabel\"",
+        "attributes": {
+          "pause": "200"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"Kolonne\""
+        }
+      }
+    ]
+  },
+  "row-with-label-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Label\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"Kolonne\""
+        }
+      }
+    ]
+  },
+  "row-with-text-label": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Label\""
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFRemoveParens"
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"Kolonne\""
+        }
+      }
+    ]
+  },
+  "empty-row": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Blank\""
+      }
+    ]
+  },
+  "empty-cell": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Blank\"",
+        "attributes": {
+          "pause": "300"
+        }
+      }
+    ]
+  },
+  "determinant": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Start\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Gange\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Determinant\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"Række \""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutDeterminant\""
+      }
+    ]
+  },
+  "determinant-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Gange\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Determinant\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"Række \""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutDeterminant\""
+      }
+    ]
+  },
+  "determinant-simple": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Start\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Gange\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Determinant\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"Række\""
+        },
+        "grammar": {
+          "simpleDet": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutDeterminant\""
+      }
+    ]
+  },
+  "determinant-simple-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Gange\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Determinant\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"Række\""
+        },
+        "grammar": {
+          "simpleDet": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutDeterminant\""
+      }
+    ]
+  },
+  "layout": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"StartLayout\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"Række \""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutLayout\""
+      }
+    ]
+  },
+  "layout-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Layout\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"Række \""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutLayout\""
+      }
+    ]
+  },
+  "binomial": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"StartBinomialEllerMatrix\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Vælg\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutBinomialEllerMatrix\""
+      }
+    ]
+  },
+  "binomial-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"BinomialEllerMatrix\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Vælg\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutBinomialEllerMatrix\""
+      }
+    ]
+  },
+  "cases": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"StartLayout\""
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Forstørret\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"Række \""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutLayout\""
+      }
+    ]
+  },
+  "cases-sbrief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Layout\""
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Forstørret\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"Række \""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutLayout\""
+      }
+    ]
+  },
+  "line-with-label": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"med Label\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutLabel\"",
+        "attributes": {
+          "pause": "200"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*"
+      }
+    ]
+  },
+  "line-with-label-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Label\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]",
+        "attributes": {
+          "pause": "200"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*"
+      }
+    ]
+  },
+  "line-with-text-label": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Label\""
+      },
+      {
+        "type": "TEXT",
+        "content": "CSFRemoveParens"
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*"
+      }
+    ]
+  },
+  "empty-line": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Blank\""
+      }
+    ]
+  },
+  "empty-line-with-label": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"med Label\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutLabel\"",
+        "attributes": {
+          "pause": "200"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Blank\""
+      }
+    ]
+  },
+  "empty-line-with-label-brief": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Label\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]",
+        "attributes": {
+          "pause": "200"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Blank\""
+      }
+    ]
+  },
+  "enclose": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"StartOmsluttet\""
+      },
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localEnclose": true
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutOmsluttet\""
+      }
+    ]
+  },
+  "leftbar": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"lodret streg\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "rightbar": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"lodret streg\""
+      }
+    ]
+  },
+  "crossout": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Gennemstreg\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutGennemstreg\""
+      }
+    ]
+  },
+  "cancel": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Gennemstreg\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Med\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutGennemstreg\""
+      }
+    ]
+  },
+  "cancel-reverse": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"Gennemstreg\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"Med\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"SlutGennemstreg\""
+      }
+    ]
+  },
+  "multi-inference": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"inferensregel\""
+      },
+      {
+        "type": "MULTI",
+        "content": "content/*"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"med konklusion\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"og\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[2]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"præmisser\""
+      }
+    ]
+  },
+  "inference": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"inferensregel\""
+      },
+      {
+        "type": "MULTI",
+        "content": "content/*"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"med konklusion\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"og\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[2]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"præmis\""
+      }
+    ]
+  },
+  "premise": {
+    "components": [
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFordinalCounter",
+          "context": "\"præmis \""
+        }
+      }
+    ]
+  },
+  "conclusion": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "label": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"label\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "axiom": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"aksiom\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "empty-axiom": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"tom aksiom\""
+      }
+    ]
+  }
+}

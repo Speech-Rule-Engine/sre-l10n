@@ -12,7 +12,8 @@
       "nb": 0,
       "nn": 0,
       "ca": 0,
-      "da": 0
+      "da": 0,
+      "sv": 0
     },
     "description": "The numerator of a fraction",
     "latex": "\\frac{a}{b}",
@@ -28,7 +29,8 @@
       "nb": {},
       "nn": {},
       "ca": {},
-      "da": {}
+      "da": {},
+      "sv": {}
     },
     "maximum": 0
   },
@@ -45,7 +47,8 @@
       "nb": 0,
       "nn": 0,
       "ca": 0,
-      "da": 0
+      "da": 0,
+      "sv": 0
     },
     "description": "The denominator of a fraction",
     "latex": "\\frac{a}{b}",
@@ -61,7 +64,8 @@
       "nb": {},
       "nn": {},
       "ca": {},
-      "da": {}
+      "da": {},
+      "sv": {}
     },
     "maximum": 0
   },
@@ -78,7 +82,8 @@
       "nb": 0,
       "nn": 0,
       "ca": 0,
-      "da": 0
+      "da": 0,
+      "sv": 0
     },
     "description": "The base of an exponentiation or indexed expression",
     "latex": "a^b",
@@ -94,7 +99,8 @@
       "nb": {},
       "nn": {},
       "ca": {},
-      "da": {}
+      "da": {},
+      "sv": {}
     },
     "maximum": 0
   },
@@ -111,7 +117,8 @@
       "nb": 0,
       "nn": 0,
       "ca": 0,
-      "da": 0
+      "da": 0,
+      "sv": 0
     },
     "description": "The exponent in an exponentiation",
     "latex": "a^b",
@@ -127,7 +134,8 @@
       "nb": {},
       "nn": {},
       "ca": {},
-      "da": {}
+      "da": {},
+      "sv": {}
     },
     "maximum": 0
   },
@@ -144,7 +152,8 @@
       "nb": 0,
       "nn": 0,
       "ca": 0,
-      "da": 0
+      "da": 0,
+      "sv": 0
     },
     "description": "Subscript or index",
     "latex": "a_i",
@@ -160,7 +169,8 @@
       "nb": {},
       "nn": {},
       "ca": {},
-      "da": {}
+      "da": {},
+      "sv": {}
     },
     "maximum": 0
   },
@@ -177,7 +187,8 @@
       "nb": 0,
       "nn": 0,
       "ca": 0,
-      "da": 0
+      "da": 0,
+      "sv": 0
     },
     "description": "The overscript above an operator or expression",
     "latex": "\\sum_{n=0}^{\\infty}",
@@ -193,7 +204,8 @@
       "nb": {},
       "nn": {},
       "ca": {},
-      "da": {}
+      "da": {},
+      "sv": {}
     },
     "maximum": 0
   },
@@ -210,7 +222,8 @@
       "nb": 0,
       "nn": 0,
       "ca": 0,
-      "da": 0
+      "da": 0,
+      "sv": 0
     },
     "description": "The underscript under an operator or expression",
     "latex": "\\sum_{n=0}^{\\infty}",
@@ -226,7 +239,8 @@
       "nb": {},
       "nn": {},
       "ca": {},
-      "da": {}
+      "da": {},
+      "sv": {}
     },
     "maximum": 0
   },
@@ -243,7 +257,8 @@
       "nb": 0,
       "nn": 0,
       "ca": 0,
-      "da": 0
+      "da": 0,
+      "sv": 0
     },
     "description": "The content of a root or square root",
     "latex": "\\sqrt{A}",
@@ -259,7 +274,8 @@
       "nb": {},
       "nn": {},
       "ca": {},
-      "da": {}
+      "da": {},
+      "sv": {}
     },
     "maximum": 0
   },
@@ -276,7 +292,8 @@
       "nb": 0,
       "nn": 0,
       "ca": 0,
-      "da": 0
+      "da": 0,
+      "sv": 0
     },
     "description": "The index of a root",
     "latex": "\\sqrt[4]{a}",
@@ -292,7 +309,8 @@
       "nb": {},
       "nn": {},
       "ca": {},
-      "da": {}
+      "da": {},
+      "sv": {}
     },
     "maximum": 0
   },
@@ -309,7 +327,8 @@
       "nb": 0,
       "nn": 0,
       "ca": 0,
-      "da": 0
+      "da": 0,
+      "sv": 0
     },
     "description": "Left subscript or index of a tensor-like structure",
     "latex": "\\tensor{M}{^a_b^c_d}",
@@ -325,7 +344,8 @@
       "nb": {},
       "nn": {},
       "ca": {},
-      "da": {}
+      "da": {},
+      "sv": {}
     },
     "maximum": 0
   },
@@ -344,7 +364,8 @@
       "nb": 1,
       "nn": 1,
       "ca": 1,
-      "da": 1
+      "da": 1,
+      "sv": 1
     },
     "description": "Counted left subscript or index of a tensor-like structure",
     "latex": "\\tensor{M}{^{ae}_b^c_d}",
@@ -380,6 +401,9 @@
       },
       "da": {
         "%1": "%1"
+      },
+      "sv": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -397,7 +421,8 @@
       "nb": 0,
       "nn": 0,
       "ca": 0,
-      "da": 0
+      "da": 0,
+      "sv": 0
     },
     "description": "Left superscript or index of a tensor-like structure",
     "latex": "\\tensor{M}{^a_b^c_d}",
@@ -413,7 +438,8 @@
       "nb": {},
       "nn": {},
       "ca": {},
-      "da": {}
+      "da": {},
+      "sv": {}
     },
     "maximum": 0
   },
@@ -432,7 +458,8 @@
       "nb": 1,
       "nn": 1,
       "ca": 1,
-      "da": 1
+      "da": 1,
+      "sv": 1
     },
     "description": "Counted left superscript or index of a tensor-like structure",
     "latex": "\\tensor{M}{^a_{be}^c_d}",
@@ -468,6 +495,9 @@
       },
       "da": {
         "%1": "%1"
+      },
+      "sv": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -485,7 +515,8 @@
       "nb": 0,
       "nn": 0,
       "ca": 0,
-      "da": 0
+      "da": 0,
+      "sv": 0
     },
     "description": "Right subscript or index of a tensor-like structure",
     "latex": "\\tensor{M}{^a_b^c_d}",
@@ -501,7 +532,8 @@
       "nb": {},
       "nn": {},
       "ca": {},
-      "da": {}
+      "da": {},
+      "sv": {}
     },
     "maximum": 0
   },
@@ -520,7 +552,8 @@
       "nb": 1,
       "nn": 1,
       "ca": 1,
-      "da": 1
+      "da": 1,
+      "sv": 1
     },
     "description": "Counted right subscript or index of a tensor-like structure",
     "latex": "\\tensor{M}{^a_b^c_{de}}",
@@ -556,6 +589,9 @@
       },
       "da": {
         "%1": "%1"
+      },
+      "sv": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -573,7 +609,8 @@
       "nb": 0,
       "nn": 0,
       "ca": 0,
-      "da": 0
+      "da": 0,
+      "sv": 0
     },
     "description": "Right superscript or exponent of a tensor-like structure",
     "latex": "\\tensor{M}{^a_b^c_d}",
@@ -589,7 +626,8 @@
       "nb": {},
       "nn": {},
       "ca": {},
-      "da": {}
+      "da": {},
+      "sv": {}
     },
     "maximum": 0
   },
@@ -608,7 +646,8 @@
       "nb": 1,
       "nn": 1,
       "ca": 1,
-      "da": 1
+      "da": 1,
+      "sv": 1
     },
     "description": "Counted right superscript or exponent of a tensor-like structure",
     "latex": "\\tensor{M}{^a_b^{ce}_d}",
@@ -644,6 +683,9 @@
       },
       "da": {
         "%1": "%1"
+      },
+      "sv": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -661,7 +703,8 @@
       "nb": 0,
       "nn": 0,
       "ca": 0,
-      "da": 0
+      "da": 0,
+      "sv": 0
     },
     "description": "The choice quantity in a binomial coefficient. I.e., the n in 'n choose k'",
     "latex": "(n \\\\ k)",
@@ -677,7 +720,8 @@
       "nb": {},
       "nn": {},
       "ca": {},
-      "da": {}
+      "da": {},
+      "sv": {}
     },
     "maximum": 0
   },
@@ -694,7 +738,8 @@
       "nb": 0,
       "nn": 0,
       "ca": 0,
-      "da": 0
+      "da": 0,
+      "sv": 0
     },
     "description": "The selection quantity in a binomial coefficient. I.e., the k in 'n choose k'",
     "latex": "\\begin{pmatrix}n \\\\k \\end{pmatrix}",
@@ -710,7 +755,8 @@
       "nb": {},
       "nn": {},
       "ca": {},
-      "da": {}
+      "da": {},
+      "sv": {}
     },
     "maximum": 0
   },
@@ -729,7 +775,8 @@
       "nb": 1,
       "nn": 1,
       "ca": 1,
-      "da": 1
+      "da": 1,
+      "sv": 1
     },
     "description": "A row in a multiline equation, case statement or matrix",
     "latex": "\\begin{pmatrix}a & b \\\\c & d\\end{pmatrix}",
@@ -765,6 +812,9 @@
       },
       "da": {
         "%1": "%1"
+      },
+      "sv": {
+        "%1": "%1"
       }
     },
     "maximum": 1
@@ -785,7 +835,8 @@
       "nb": 2,
       "nn": 2,
       "ca": 2,
-      "da": 2
+      "da": 2,
+      "sv": 2
     },
     "description": "A cell of a matrix or layout expression in full context (i.e., with row number)",
     "latex": "\\begin{pmatrix}a & b \\\\c & d\\end{pmatrix}",
@@ -831,6 +882,10 @@
       "da": {
         "%1": "%1",
         "%2": "%2"
+      },
+      "sv": {
+        "%1": "%1",
+        "%2": "%2"
       }
     },
     "maximum": 2
@@ -850,7 +905,8 @@
       "nb": 1,
       "nn": 1,
       "ca": 1,
-      "da": 1
+      "da": 1,
+      "sv": 1
     },
     "description": "A cell of a matrix or layout expression in its row context only",
     "latex": "\\begin{pmatrix}a & b \\\\c & d\\end{pmatrix}",
@@ -885,6 +941,9 @@
         "%1": "%1"
       },
       "da": {
+        "%1": "%1"
+      },
+      "sv": {
         "%1": "%1"
       }
     },
