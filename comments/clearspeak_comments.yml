@@ -1359,10 +1359,19 @@ limupper:
 
 integral:
   description: "Integral rule"
-  example:     "the integral from 0 to infinity of 1 over x"
+  example:     "the integral from 0 to infinity of 1 over x dx"
   latex:       "\\int_{0}^\\infty \\frac{1}{x}dx"
   parameters:
-    %1: "The integral"
+    %1: "The integral including limits"
+    %2: "The argument of the integral"
+    %3: "The integration variable, e.g. dx"
+
+integral-novar:
+  description: "Integral rule for integrals without explicit integral variable"
+  example:     "the integral from 0 to infinity of 1 over x"
+  latex:       "\\int_{0}^\\infty \\frac{1}{x}"
+  parameters:
+    %1: "The integral including limits"
     %2: "The argument of the integral"
 
 overscript:

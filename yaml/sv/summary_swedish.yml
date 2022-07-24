@@ -357,7 +357,7 @@ abstr-punctuated:
 # Brief summary of a list of elements separated by a punctuation like comma, semi-colon, etc.
 # Example: comma separated list
 # LaTeX Example: $a, b, c$
-# %1: The summarized term. If collapsed will trigger the grammatically correct adjective.
+# %1: The separating punctuation
 abstr-punctuated-brief:
   - %1 (join:"")
   - $1: "separerad lista"
