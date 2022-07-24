@@ -368,7 +368,7 @@ export function readCommentsYaml() {
 }
 
 /**
- *
+ * Updates comments when additions in the YAML file have been made.
  */
 export function updateComments() {
   readComments();

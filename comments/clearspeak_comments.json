@@ -8481,9 +8481,9 @@
   "integral": {
     "rule": "integral",
     "parameters": {
-      "%1": "The integral",
+      "%1": "The integral including limits",
       "%2": "The argument of the integral",
-      "%3": ""
+      "%3": "The integration variable, e.g. dx"
     },
     "locales": {
       "de": 3,
@@ -8497,7 +8497,7 @@
     },
     "description": "Integral rule",
     "latex": "\\int_{0}^\\infty \\frac{1}{x}dx",
-    "example": "the integral from 0 to infinity of 1 over x",
+    "example": "the integral from 0 to infinity of 1 over x dx",
     "reference": "en",
     "order": {
       "de": {
@@ -11906,8 +11906,8 @@
   "integral-novar": {
     "rule": "integral-novar",
     "parameters": {
-      "%1": "",
-      "%2": ""
+      "%1": "The integral including limits",
+      "%2": "The argument of the integral"
     },
     "locales": {
       "de": 2,
@@ -11919,9 +11919,9 @@
       "nn": 2,
       "sv": 2
     },
-    "description": "",
-    "latex": "",
-    "example": "",
+    "description": "Integral rule for integrals without explicit integral variable",
+    "latex": "\\int_{0}^\\infty \\frac{1}{x}",
+    "example": "the integral from 0 to infinity of 1 over x",
     "reference": "de",
     "order": {
       "de": {

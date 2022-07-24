@@ -1595,19 +1595,22 @@ limupper:
   - %2 (pause:short)
 
 # Integral rule
-# Example: the integral from 0 to infinity of 1 over x
+# Example: the integral from 0 to infinity of 1 over x dx
 # LaTeX Example: $\int_{0}^\infty \frac{1}{x}dx$
-# %1: The integral
+# %1: The integral including limits
 # %2: The argument of the integral
+# %3: The integration variable, e.g. dx
 integral:
   - %1 (grammar:addArticle)
   - $1: "of"
   - %2 (pause:short)
   - %3 (pause:short)
 
-# 
-# %1: 
-# %2: 
+# Integral rule for integrals without explicit integral variable
+# Example: the integral from 0 to infinity of 1 over x
+# LaTeX Example: $\int_{0}^\infty \frac{1}{x}$
+# %1: The integral including limits
+# %2: The argument of the integral
 integral-novar:
   - %1 (grammar:addArticle)
   - $1: "of"
