@@ -893,6 +893,13 @@
     "$1: \"il\"",
     "%1",
     "$2: \"di\"",
+    "%2 (pause:short)",
+    "%3 (pause:short)"
+  ],
+  "integral-novar": [
+    "$1: \"il\"",
+    "%1",
+    "$2: \"di\"",
     "%2 (pause:short)"
   ],
   "overscript": [

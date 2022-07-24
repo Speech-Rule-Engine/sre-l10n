@@ -3567,6 +3567,34 @@
       "attributes": {
         "pause": "short"
       }
+    },
+    "%3": {
+      "type": "NODE",
+      "content": "children/*[3]",
+      "attributes": {
+        "pause": "short"
+      }
+    }
+  },
+  "integral-novar": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"das\""
+    },
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"über\""
+    },
+    "%2": {
+      "type": "NODE",
+      "content": "children/*[2]",
+      "attributes": {
+        "pause": "short"
+      }
     }
   },
   "overscript": {

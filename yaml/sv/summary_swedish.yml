@@ -225,7 +225,7 @@ abstr-multiplication-var:
 # LaTeX Example: $\begin{pmatrix} a \\ b \\ c \end{pmatrix}$
 # %1: Number of dimensions
 abstr-vector:
-  - %1 (join:"")
+  - %1 (join:"-")
   - $1: "dimensionell vektor"
 
 # Brief summary of a column vector
@@ -249,7 +249,7 @@ abstr-binomial:
 # LaTeX Example: $\begin{vmatrix} a & b \\ c & d \end{vmatrix}$
 # %1: The dimension of the determinant.
 abstr-determinant:
-  - %1 (join:"")
+  - %1 (join:"-")
   - $1: "dimensionell determinant"
 
 # Brief summary of a determinant
@@ -269,7 +269,7 @@ abstr-determinant-var:
 # LaTeX Example: $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$
 # %1: The dimension of the square matrix.
 abstr-squarematrix:
-  - %1 (join:"")
+  - %1 (join:"-")
   - $1: "dimensionell kvadratisk matris"
 
 # Brief summary of a square matrix
@@ -283,20 +283,20 @@ abstr-squarematrix-brief:
 # LaTeX Example: $\begin{pmatrix} a & b & c \end{pmatrix}$
 # %1: Number of dimensions
 abstr-rowvector:
-  - %1 (join:"")
+  - %1 (join:"-")
   - $1: "dimensionell radvektor"
 
 # Brief summary of a row vector
 # Example: row vector
 # LaTeX Example: $\begin{pmatrix} a & b & c \end{pmatrix}$
 abstr-rowvector-brief:
-  - $1: "rad vektor"
+  - $1: "radvektor"
 
 # Summary of an abstract row vector
 # Example: n dimensional row vector
 # LaTeX Example: $\begin{pmatrix} a & \vdots & c \end{pmatrix}$
 abstr-rowvector-var:
-  - $1: "n-dimensionell rad vektor"
+  - $1: "n-dimensionell radvektor"
 
 # Summary of a non-square matrix
 # Example: 2 by 3 matrix

@@ -868,6 +868,12 @@
   "integral": [
     "%1",
     "$1: \"का फलन\"",
+    "%2 (pause:short)",
+    "%3 (pause:short)"
+  ],
+  "integral-novar": [
+    "%1",
+    "$1: \"का फलन\"",
     "%2 (pause:short)"
   ],
   "overscript": [

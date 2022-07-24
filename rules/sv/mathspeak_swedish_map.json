@@ -43,6 +43,22 @@
       }
     }
   },
+  "font-double-struck": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "ignoreFont": "@font"
+      }
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "@font",
+      "grammar": {
+        "localFont": true
+      }
+    }
+  },
   "mixed-number": {
     "%1": {
       "type": "NODE",
@@ -86,7 +102,7 @@
   "number-as-upper-word": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Ord stort\""
+      "content": "\"StortOrd\""
     },
     "%1": {
       "type": "TEXT",
@@ -227,7 +243,7 @@
   "fences-metric": {
     "$1": {
       "type": "TEXT",
-      "content": "\"StartMetrisk\""
+      "content": "\"StartBelopp\""
     },
     "%1": {
       "type": "NODE",
@@ -235,13 +251,13 @@
     },
     "$2": {
       "type": "TEXT",
-      "content": "\"SlutMetrisk\""
+      "content": "\"SlutBelopp\""
     }
   },
   "fences-metric-sbrief": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Metrisk\""
+      "content": "\"Belopp\""
     },
     "%1": {
       "type": "NODE",
@@ -249,7 +265,7 @@
     },
     "$2": {
       "type": "TEXT",
-      "content": "\"SlutMetrisk\""
+      "content": "\"SlutBelopp\""
     }
   },
   "empty-set": {
@@ -296,6 +312,15 @@
     "$1": {
       "type": "TEXT",
       "content": "\"minus\""
+    }
+  },
+  "vulgar-fraction": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFvulgarFraction",
+      "grammar": {
+        "correctOne": true
+      }
     }
   },
   "continued-fraction-outer": {

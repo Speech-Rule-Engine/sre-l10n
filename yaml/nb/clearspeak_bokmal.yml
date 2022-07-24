@@ -1565,6 +1565,15 @@ integral:
   - %1 (grammar:addArticle)
   - $1: "over"
   - %2 (pause:short)
+  - %3 (pause:short)
+
+# 
+# %1: 
+# %2: 
+integral-novar:
+  - %1 (grammar:addArticle)
+  - $1: "over"
+  - %2 (pause:short)
 
 # Element with simple overscript or accent
 # %1: The element

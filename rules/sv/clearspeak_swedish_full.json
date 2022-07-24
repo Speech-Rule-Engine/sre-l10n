@@ -38,6 +38,24 @@
       }
     ]
   },
+  "font-double-struck": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "ignoreFont": "@font"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "@font",
+        "grammar": {
+          "localFont": true
+        }
+      }
+    ]
+  },
   "ellipsis": {
     "components": [
       {
@@ -1143,14 +1161,7 @@
     "components": [
       {
         "type": "NODE",
-        "content": "text()",
-        "attributes": {
-          "join": "\"-\""
-        }
-      },
-      {
-        "type": "TEXT",
-        "content": "\"te\""
+        "content": "text()"
       }
     ]
   },
@@ -1660,7 +1671,10 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "CSFvulgarFraction"
+        "content": "CSFvulgarFraction",
+        "grammar": {
+          "correctOne": true
+        }
       }
     ]
   },
@@ -2968,8 +2982,16 @@
         }
       },
       {
-        "type": "TEXT",
-        "content": "%3  pause:long)"
+        "type": "MULTI",
+        "content": "children/*[1]/children/*",
+        "attributes": {
+          "sepFunc": "CTFpauseSeparator",
+          "separator": "\"short\"",
+          "pause": "long"
+        },
+        "grammar": {
+          "simpleDet": true
+        }
       }
     ]
   },
@@ -3492,7 +3514,7 @@
         "content": "children/*",
         "attributes": {
           "ctxtFunc": "CTFnodeCounter",
-          "context": "\"Equation-:\"",
+          "context": "\"Ekvation-:\"",
           "sepFunc": "CTFpauseSeparator",
           "separator": "\"long\"",
           "pause": "long"
@@ -3735,6 +3757,32 @@
         "attributes": {
           "pause": "short"
         }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[3]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "integral-novar": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"av\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
       }
     ]
   },
@@ -3854,7 +3902,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"komma följt av upprepande siffra\""
+        "content": "\"komma följt av upprepande siffror\""
       },
       {
         "type": "NODE",
@@ -3880,7 +3928,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"följt av upprepande siffra\""
+        "content": "\"följt av upprepande siffror\""
       },
       {
         "type": "NODE",
@@ -4165,7 +4213,10 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"kvadrat\""
+        "content": "\"kvadrat\"",
+        "attributes": {
+          "join": "\"\""
+        }
       },
       {
         "type": "NODE",
@@ -4177,7 +4228,10 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"kubik\""
+        "content": "\"kubik\"",
+        "attributes": {
+          "join": "\"\""
+        }
       },
       {
         "type": "NODE",
@@ -4281,7 +4335,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"horisontellt sträck\""
+        "content": "\"horisontellt streck\""
       }
     ]
   },
@@ -4293,7 +4347,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"över horisontellt sträck\""
+        "content": "\"över horisontellt streck\""
       }
     ]
   },
@@ -4301,7 +4355,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"vertikalt sträck\""
+        "content": "\"vertikalt streck\""
       },
       {
         "type": "NODE",
@@ -4317,7 +4371,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"vertikalt sträck\""
+        "content": "\"vertikalt streck\""
       }
     ]
   },

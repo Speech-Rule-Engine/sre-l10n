@@ -34,6 +34,22 @@
       }
     }
   },
+  "font-double-struck": {
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "ignoreFont": "@font"
+      }
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "@font",
+      "grammar": {
+        "localFont": true
+      }
+    }
+  },
   "ellipsis": {
     "$1": {
       "type": "TEXT",
@@ -1006,14 +1022,7 @@
   "exponent": {
     "%1": {
       "type": "NODE",
-      "content": "text()",
-      "attributes": {
-        "join": "\"-\""
-      }
-    },
-    "$1": {
-      "type": "TEXT",
-      "content": "\"te\""
+      "content": "text()"
     }
   },
   "exponent-number": {
@@ -1463,7 +1472,10 @@
   "vulgar-fraction": {
     "%1": {
       "type": "TEXT",
-      "content": "CSFvulgarFraction"
+      "content": "CSFvulgarFraction",
+      "grammar": {
+        "correctOne": true
+      }
     }
   },
   "fraction-over": {
@@ -3131,7 +3143,7 @@
       "content": "children/*",
       "attributes": {
         "ctxtFunc": "CTFnodeCounter",
-        "context": "\"Equation-:\"",
+        "context": "\"Ekvation-:\"",
         "sepFunc": "CTFpauseSeparator",
         "separator": "\"long\"",
         "pause": "long"
@@ -3352,6 +3364,30 @@
       "attributes": {
         "pause": "short"
       }
+    },
+    "%3": {
+      "type": "NODE",
+      "content": "children/*[3]",
+      "attributes": {
+        "pause": "short"
+      }
+    }
+  },
+  "integral-novar": {
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"av\""
+    },
+    "%2": {
+      "type": "NODE",
+      "content": "children/*[2]",
+      "attributes": {
+        "pause": "short"
+      }
     }
   },
   "overscript": {
@@ -3457,7 +3493,7 @@
     },
     "$2": {
       "type": "TEXT",
-      "content": "\"komma följt av upprepande siffra\""
+      "content": "\"komma följt av upprepande siffror\""
     },
     "%2": {
       "type": "NODE",
@@ -3481,7 +3517,7 @@
     },
     "$2": {
       "type": "TEXT",
-      "content": "\"följt av upprepande siffra\""
+      "content": "\"följt av upprepande siffror\""
     },
     "%2": {
       "type": "NODE",
@@ -3728,7 +3764,10 @@
   "unit-square": {
     "$1": {
       "type": "TEXT",
-      "content": "\"kvadrat\""
+      "content": "\"kvadrat\"",
+      "attributes": {
+        "join": "\"\""
+      }
     },
     "%1": {
       "type": "NODE",
@@ -3738,7 +3777,10 @@
   "unit-cubic": {
     "$1": {
       "type": "TEXT",
-      "content": "\"kubik\""
+      "content": "\"kubik\"",
+      "attributes": {
+        "join": "\"\""
+      }
     },
     "%1": {
       "type": "NODE",
@@ -3830,7 +3872,7 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"horisontellt sträck\""
+      "content": "\"horisontellt streck\""
     }
   },
   "underbar": {
@@ -3840,13 +3882,13 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"över horisontellt sträck\""
+      "content": "\"över horisontellt streck\""
     }
   },
   "leftbar": {
     "$1": {
       "type": "TEXT",
-      "content": "\"vertikalt sträck\""
+      "content": "\"vertikalt streck\""
     },
     "%1": {
       "type": "NODE",
@@ -3860,7 +3902,7 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"vertikalt sträck\""
+      "content": "\"vertikalt streck\""
     }
   },
   "crossout": {

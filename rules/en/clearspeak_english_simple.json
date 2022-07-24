@@ -898,6 +898,12 @@
   "integral": [
     "%1 (grammar:addArticle)",
     "$1: \"of\"",
+    "%2 (pause:short)",
+    "%3 (pause:short)"
+  ],
+  "integral-novar": [
+    "%1 (grammar:addArticle)",
+    "$1: \"of\"",
     "%2 (pause:short)"
   ],
   "overscript": [

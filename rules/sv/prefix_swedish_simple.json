@@ -62,12 +62,12 @@
   ],
   "row": [
     "%1",
-    "$1: \"Rad\" (pause:200)"
+    "$1: \"Raden\" (pause:200)"
   ],
   "cell": [
     "%1",
     "%2",
-    "$1: \"Kolumn\" (pause:200)"
+    "$1: \"Kolumnen\" (pause:200)"
   ],
   "cell-simple": [
     "%1",

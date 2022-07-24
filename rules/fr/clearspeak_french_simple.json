@@ -833,6 +833,13 @@
     "$1: \"le\"",
     "%1",
     "$2: \"de\"",
+    "%2 (pause:short)",
+    "%3 (pause:short)"
+  ],
+  "integral-novar": [
+    "$1: \"le\"",
+    "%1",
+    "$2: \"de\"",
     "%2 (pause:short)"
   ],
   "overscript": [

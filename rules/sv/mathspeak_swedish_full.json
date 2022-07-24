@@ -51,6 +51,24 @@
       }
     ]
   },
+  "font-double-struck": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "ignoreFont": "@font"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "@font",
+        "grammar": {
+          "localFont": true
+        }
+      }
+    ]
+  },
   "mixed-number": {
     "components": [
       {
@@ -101,7 +119,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"Ord stort\""
+        "content": "\"StortOrd\""
       },
       {
         "type": "TEXT",
@@ -264,7 +282,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"StartMetrisk\""
+        "content": "\"StartBelopp\""
       },
       {
         "type": "NODE",
@@ -272,7 +290,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"SlutMetrisk\""
+        "content": "\"SlutBelopp\""
       }
     ]
   },
@@ -280,7 +298,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"Metrisk\""
+        "content": "\"Belopp\""
       },
       {
         "type": "NODE",
@@ -288,7 +306,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"SlutMetrisk\""
+        "content": "\"SlutBelopp\""
       }
     ]
   },
@@ -345,6 +363,17 @@
       {
         "type": "TEXT",
         "content": "\"minus\""
+      }
+    ]
+  },
+  "vulgar-fraction": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFvulgarFraction",
+        "grammar": {
+          "correctOne": true
+        }
       }
     ]
   },

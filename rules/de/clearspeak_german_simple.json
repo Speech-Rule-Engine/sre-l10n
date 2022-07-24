@@ -886,6 +886,13 @@
     "$1: \"das\"",
     "%1",
     "$2: \"über\"",
+    "%2 (pause:short)",
+    "%3 (pause:short)"
+  ],
+  "integral-novar": [
+    "$1: \"das\"",
+    "%1",
+    "$2: \"über\"",
     "%2 (pause:short)"
   ],
   "overscript": [

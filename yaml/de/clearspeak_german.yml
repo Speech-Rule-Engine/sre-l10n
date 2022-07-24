@@ -1556,6 +1556,16 @@ integral:
   - %1
   - $2: "über"
   - %2 (pause:short)
+  - %3 (pause:short)
+
+# 
+# %1: 
+# %2: 
+integral-novar:
+  - $1: "das"
+  - %1
+  - $2: "über"
+  - %2 (pause:short)
 
 # Element with simple overscript or accent
 # %1: The element

@@ -362,7 +362,7 @@
         "type": "TEXT",
         "content": "count(./children/*)",
         "attributes": {
-          "join": "\"\""
+          "join": "\"-\""
         }
       },
       {
@@ -401,7 +401,7 @@
         "type": "TEXT",
         "content": "count(./children/*)",
         "attributes": {
-          "join": "\"\""
+          "join": "\"-\""
         }
       },
       {
@@ -432,7 +432,7 @@
         "type": "TEXT",
         "content": "count(./children/*)",
         "attributes": {
-          "join": "\"\""
+          "join": "\"-\""
         }
       },
       {
@@ -455,7 +455,7 @@
         "type": "TEXT",
         "content": "count(./children/row/children/*)",
         "attributes": {
-          "join": "\"\""
+          "join": "\"-\""
         }
       },
       {
@@ -468,7 +468,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"rad vektor\""
+        "content": "\"radvektor\""
       }
     ]
   },
@@ -476,7 +476,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"n-dimensionell rad vektor\""
+        "content": "\"n-dimensionell radvektor\""
       }
     ]
   },
@@ -578,8 +578,11 @@
   "abstr-punctuated-brief": {
     "components": [
       {
-        "type": "TEXT",
-        "content": "%1(join:\"\")"
+        "type": "NODE",
+        "content": "content/*[1]",
+        "attributes": {
+          "join": "\"\""
+        }
       },
       {
         "type": "TEXT",

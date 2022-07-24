@@ -1482,6 +1482,16 @@ integral:
   - %1
   - $2: "de"
   - %2 (pause:short)
+  - %3 (pause:short)
+
+# 
+# %1: 
+# %2: 
+integral-novar:
+  - $1: "le"
+  - %1
+  - $2: "de"
+  - %2 (pause:short)
 
 # Element with simple overscript or accent
 # %1: The element
