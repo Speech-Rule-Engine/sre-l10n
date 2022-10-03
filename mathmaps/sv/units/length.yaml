@@ -1,31 +1,31 @@
 sv:
-  ft:  #ft, ft.
+  ft: #ft, ft.
     one: fot
     other: fot
-  in:  #in, in.
+  in: #in, in.
     one: tum
     other: tum
-  mi:  #mi, mi.
+  mi: #mi, mi.
     one: mile
     other: miles
-  yd:  #yd, yd.
+  yd: #yd, yd.
     one: yard
     other: yards
-  link:  #li, li.
+  link: #li, li.
     one: länk
     other: länkar
-  rod:  #rd, rd.
+  rod: #rd, rd.
     one: rod
     other: rods
-  chain:  #ch, ch.
+  chain: #ch, ch.
     one: kedja
     other: kejdor
-  furlong:  #fur, fur.
+  furlong: #fur, fur.
     one: furlong
     other: furlongs
-  n.m.:  #n.m.
+  n.m.: #n.m.
     one: nautisk mil
     other: nautiska mil
-  m:  #m
+  m: #m
     one: meter
     other: meter

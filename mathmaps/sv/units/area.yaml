@@ -1,25 +1,25 @@
 sv:
-  sq:  #sq, sq.
+  sq: #sq, sq.
     one: kvadrat
     other: kvadrat
-  sq_inch:  #sq in, sq. in., sq inch, sq. inch
+  sq_inch: #sq in, sq. in., sq inch, sq. inch
     one: kvadrattum
     other: kvadrattum
-  sq_rd:  #sq rd, sq. rd.
+  sq_rd: #sq rd, sq. rd.
     one: kvadrat-rod
     other: kvadrat-rods
-  sq_ft:  #sq ft, sq. ft.
+  sq_ft: #sq ft, sq. ft.
     one: kvadrat fot
     other: kvadrat fot
-  sq_yd:  #sq yd, sq. yd.
+  sq_yd: #sq yd, sq. yd.
     one: kvadrat yard
     other: kvadrat yards
-  sq_mi:  #sq mi, sq. mi.
+  sq_mi: #sq mi, sq. mi.
     one: kvadrat mile
     other: kvadrat miles
-  acr:  #ac, ac., acr, acr.
+  acr: #ac, ac., acr, acr.
     one: tunnland
     other: tunnland
-  ha:  #ha
+  ha: #ha
     one: hektar
     other: hektar

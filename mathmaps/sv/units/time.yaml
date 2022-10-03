@@ -1,16 +1,16 @@
 sv:
-  s:  #s
+  s: #s
     one: sekund
     other: sekunder
-  ″:  #″
+  ″: #″
     one: sekund
     other: sekunder
-  min:  #min, ′
+  min: #min, ′
     one: minut
     other: minuter
-  °:  #°
+  °: #°
     one: grad
     other: grader
-  h:  #h, hr
+  h: #h, hr
     one: timme
     other: timmar

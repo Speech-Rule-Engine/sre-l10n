@@ -1,91 +1,91 @@
 sv:
-  $:  #$, 💲, ＄, ﹩, USD
+  $: #$, 💲, ＄, ﹩, USD
     one: dollar
     other: dollar
-  £:  #£, ￡, GBP
+  £: #£, ￡, GBP
     one: pund
     other: pund
-  ¥:  #¥, ￥, JPY
+  ¥: #¥, ￥, JPY
     one: yen
     other: yen
-  €:  #€, EUR
+  €: #€, EUR
     one: euro
     other: euro
-  ₡:  #₡, CRC
+  ₡: #₡, CRC
     one: colón
     other: colón
-  ₢:  #₢
+  ₢: #₢
     one: cruzeiro
     other: cruzeiro
-  ₣:  #₣
+  ₣: #₣
     one: franc
     other: franc
-  ₤:  #₤
+  ₤: #₤
     one: lire
     other: lire
-  ₥:  #₥
+  ₥: #₥
     one: mill
     other: mill
-  ₦:  #₦, NGN
+  ₦: #₦, NGN
     one: naira
     other: naira
-  ₧:  #₧
+  ₧: #₧
     one: peseta
     other: pesetas
-  ₨:  #₨, ₹, INR, NPR, PKR, LKR
+  ₨: #₨, ₹, INR, NPR, PKR, LKR
     one: rupis
     other: rupis
-  ₩:  #₩, ￦, KRW
+  ₩: #₩, ￦, KRW
     one: won
     other: won
-  ₪:  #₪
+  ₪: #₪
     one: shekel
     other: shekel
-  ₫:  #₫
+  ₫: #₫
     one: dong
     other: dong
-  ₭:  #₭
+  ₭: #₭
     one: kip
     other: kip
-  ₮:  #₮
+  ₮: #₮
     one: tugrik
     other: tugrik
-  ₯:  #₯
+  ₯: #₯
     one: drakma
     other: drakmer
-  ₰:  #₰
+  ₰: #₰
     one: tyska pennis
     other: tyska pennis
-  ₱:  #₱
+  ₱: #₱
     one: peso
     other: pesos
-  ₲:  #₲
+  ₲: #₲
     one: guarani
     other: guarani
-  ₳:  #₳
+  ₳: #₳
     one: austral
     other: austral
-  ₴:  #₴, UAH
+  ₴: #₴, UAH
     one: hryvnia
     other: hryvnia
-  ₵:  #₵, GHS
+  ₵: #₵, GHS
     one: cedi
     other: cedi
-  ₶:  #₶
+  ₶: #₶
     one: livre tournois
     other: livre tournois
-  ₷:  #₷
+  ₷: #₷
     one: spesmilo
     other: spesmilo
-  ₸:  #₸, KZT
+  ₸: #₸, KZT
     one: tenge
     other: tenge
-  ₺:  #₺, TRY
+  ₺: #₺, TRY
     one: turkisk lira
     other: turkiska lira
-  元:  #元
+  元: #元
     one: yuan
     other: yuan
-  ¢:  #￠, ¢
+  ¢: #￠, ¢
     one: cent
     other: cent

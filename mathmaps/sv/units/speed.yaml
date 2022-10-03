@@ -1,13 +1,13 @@
 sv:
-  kt:  #kt, kt.
+  kt: #kt, kt.
     one: knop
     other: knop
-  mph:  #mph
+  mph: #mph
     one: mile per timme
     other: miles per timme
-  rpm:  #rpm
+  rpm: #rpm
     one: varv per minut
     other: varv per minut
-  kmh:  #kmh
+  kmh: #kmh
     one: kilometer per timme
     other: kilometer per timme

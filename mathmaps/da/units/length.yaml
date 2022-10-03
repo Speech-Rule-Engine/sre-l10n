@@ -1,31 +1,31 @@
 da:
-  ft:  #ft, ft.
+  ft: #ft, ft.
     one: fod
     other: fod
-  in:  #in, in.
+  in: #in, in.
     one: tomme
     other: tommer
-  mi:  #mi, mi.
+  mi: #mi, mi.
     one: mil
     other: mil
-  yd:  #yd, yd.
+  yd: #yd, yd.
     one: yard
     other: yards
-  link:  #li, li.
+  link: #li, li.
     one: link
     other: links
-  rod:  #rd, rd.
+  rod: #rd, rd.
     one: stang
     other: stænger
-  chain:  #ch, ch.
+  chain: #ch, ch.
     one: kæde
     other: kæder
-  furlong:  #fur, fur.
+  furlong: #fur, fur.
     one: furlong
     other: furlong
-  n.m.:  #n.m.
+  n.m.: #n.m.
     one: sømil
     other: sømil
-  m:  #m
+  m: #m
     one: meter
     other: meter
