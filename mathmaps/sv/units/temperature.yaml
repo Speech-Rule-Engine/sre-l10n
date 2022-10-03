@@ -1,10 +1,10 @@
 sv:
   F: #F, F., °F
-    one: farad
-    other: farader
+    one: Fahrenheit
+    other: Fahrenheit
   C: #C, °C
-    one: coulomb
-    other: coulomb
+    one: Celsius
+    other: Celsius
   K: #K, °K
     one: kelvin
     other: kelvin
