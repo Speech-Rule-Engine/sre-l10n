@@ -251,3 +251,20 @@ export function retrieveUnits(iso: string) {
     }
   }
 }
+
+/**
+ * Reformats the mathmap files.
+ * @param {string} iso 
+ */
+export function cleanMaps(iso: string) {
+  cleanMaps_(iso, 'symbols');
+  cleanMaps_(iso, 'functions');
+  cleanMaps_(iso, 'units');
+}
+
+function cleanMaps_(iso: string, kind: string) {
+  let maps = loadMaps(iso, kind);
+  for (let [file, map] of Object.entries(maps)) {
+    saveUnicodeMaps(iso, kind, file, map);
+  }
+}
