@@ -23,9 +23,3 @@ sv:
   Ω: #Ω
     one: ohm
     other: ohm
-  MΩ: #MΩ
-    one: megaohm
-    other: megaohm
-  kΩ: #kΩ
-    one: kiloohm
-    other: kiloohm

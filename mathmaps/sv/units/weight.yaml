@@ -1,7 +1,7 @@
 sv:
   dram: #dr, dr.
-    one: dirham
-    other: dirham
+    one: dram
+    other: dram
   oz: #oz, oz.
     one: uns
     other: uns

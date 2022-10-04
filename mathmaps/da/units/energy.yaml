@@ -23,9 +23,3 @@ da:
   Ω: #Ω
     one: ohm
     other: ohm
-  MΩ: #MΩ
-    one: megohm
-    other: megohm
-  kΩ: #kΩ
-    one: kilohm
-    other: kilohm
