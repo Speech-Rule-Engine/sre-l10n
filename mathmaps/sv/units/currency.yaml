@@ -71,12 +71,6 @@ sv:
   ₵: #₵, GHS
     one: cedi
     other: cedi
-  ₶: #₶
-    one: livre tournois
-    other: livre tournois
-  ₷: #₷
-    one: spesmilo
-    other: spesmilo
   ₸: #₸, KZT
     one: tenge
     other: tenge
