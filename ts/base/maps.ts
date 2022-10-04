@@ -24,6 +24,7 @@ import {
   saveMapsYaml,
   sreLocales
 } from './util';
+import { locales } from '../../speech-rule-engine/js/l10n/l10n';
 
 // Forward conversion
 /**
@@ -105,6 +106,7 @@ export function convertUnits(iso: string) {
  */
 function convertUnitMap(json: any[], iso: string) {
   let result = '';
+  let locale = locales[iso]();
   for (const entry of json) {
     if (!entry.key) continue;
     const key = yamlKey(entry.key);
@@ -114,9 +116,7 @@ function convertUnitMap(json: any[], iso: string) {
     if (entry.mappings?.default?.plural) {
       result += `    other: ${entry.mappings.default.plural}\n`;
     } else {
-      result += `    other: ${entry.mappings.default.default}${
-        iso === 'en' ? 's' : ''  // Correct this!
-      }\n`;
+      result += `    other: ${locale.FUNCTIONS.plural(entry.mappings.default.default)}\n`;
     }
   }
   return result;
