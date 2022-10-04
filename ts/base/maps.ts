@@ -73,7 +73,7 @@ function convertFunctionMap(json: any[]) {
   let result = '';
   for (const entry of json) {
     if (!entry.key) continue;
-    const key = entry.key;
+    const key = yamlKey(entry.key);
     const comment = `Abbreviations: ${entry.names.join(', ')}`;
     if (entry.mappings?.default?.default) {
       result += `  ${key}: ${entry.mappings.default.default} #${comment}\n`;
@@ -106,7 +106,7 @@ function convertUnitMap(json: any[], iso: string) {
   let result = '';
   for (const entry of json) {
     if (!entry.key) continue;
-    const key = entry.key.replace(/ /g, '_');
+    const key = yamlKey(entry.key);
     const comment = `${entry.names.join(', ')}`;
     result += `  ${key}: #${comment}\n`;
     result += `    one: ${entry.mappings.default.default}\n`;
@@ -204,7 +204,8 @@ export function retrieveFunctions(iso: string) {
     const dst = dsts[file];
     for (const entry of dst) {
       if (!entry.key) continue;
-      const lookup = src[entry.key];
+      const key = yamlKey(entry.key);
+      const lookup = src[key];
       if (lookup) {
         if (entry.mappings.default.default !== lookup) {
           console.info(`New entry found for ${entry.key}: ${lookup}`);
@@ -227,7 +228,8 @@ export function retrieveUnits(iso: string) {
     const dst = dsts[file];
     for (const entry of dst) {
       if (!entry.key) continue;
-      const lookup = src[entry.key];
+      const key = yamlKey(entry.key);
+      const lookup = src[key];
       if (lookup) {
         // one is default
         if (entry.mappings.default.default !== lookup.one) {
@@ -250,6 +252,14 @@ export function retrieveUnits(iso: string) {
       saveUnicodeMaps(iso, 'units', file, dst);
     }
   }
+}
+
+/**
+ * Make a yaml compatible key by replacing spaces with underscores.
+ * @param {string} key The key to rewrite.
+ */
+function yamlKey(key: string) {
+  return key.replace(/ /g, '_');
 }
 
 /**
