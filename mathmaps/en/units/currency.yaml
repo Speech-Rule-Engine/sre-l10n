@@ -69,20 +69,14 @@ en:
     one: hryvnia
     other: hryvnias
   ₵: #₵, GHS
-    one: cedis
+    one: cedi
     other: cedis
-  ₶: #₶
-    one: livre tournois
-    other: livre tournois
-  ₷: #₷
-    one: spesmilo
-    other: spesmilos
   ₸: #₸, KZT
     one: tenge
-    other: tenges
+    other: tenge
   ₺: #₺, TRY
     one: turkish lira
-    other: turkish liras
+    other: turkish lira
   元: #元
     one: yuan
     other: yuans

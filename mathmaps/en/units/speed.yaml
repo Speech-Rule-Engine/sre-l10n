@@ -3,11 +3,11 @@ en:
     one: knot
     other: knots
   mph: #mph
-    one: miles per hour
-    other: miles per hours
+    one: mile per hour
+    other: miles per hour
   rpm: #rpm
-    one: revolutions per minute
-    other: revolutions per minutes
-  kmh: #kmh
-    one: kilometers per hour
-    other: kilometers per hours
+    one: revolution per minute
+    other: revolutions per minute
+  kmh: #kmh, kph
+    one: kilometer per hour
+    other: kilometers per hour
