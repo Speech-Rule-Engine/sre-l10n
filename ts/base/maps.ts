@@ -21,7 +21,8 @@ import {
   loadMapsYaml,
   saveUnicodeMaps,
   saveMaps,
-  saveMapsYaml
+  saveMapsYaml,
+  sreLocales
 } from './util';
 
 // Forward conversion
@@ -114,7 +115,7 @@ function convertUnitMap(json: any[], iso: string) {
       result += `    other: ${entry.mappings.default.plural}\n`;
     } else {
       result += `    other: ${entry.mappings.default.default}${
-        iso === 'en' ? 's' : ''
+        iso === 'en' ? 's' : ''  // Correct this!
       }\n`;
     }
   }
@@ -277,4 +278,43 @@ function cleanMaps_(iso: string, kind: string) {
   for (let [file, map] of Object.entries(maps)) {
     saveUnicodeMaps(iso, kind, file, map);
   }
+}
+
+/**
+ * Key comparison for all locales.
+ */
+export function compareMaps(kind: string = 'symbols') {
+  let files: {[key: string]: string[]} = {};
+  let result: {[key: string]: string[]} = {};
+  for (let iso of Object.keys(sreLocales)) {
+    let maps = loadMaps(iso, kind);
+    for (let file of Object.keys(maps)) {
+      if (files[file]) {
+        files[file].push(iso);
+      } else {
+        files[file] = [iso];
+      }
+      for (let obj of maps[file]) {
+        let key = obj.key;
+        if (!key) continue;
+        if (result[key]) {
+          result[key].push(iso);
+        } else {
+          result[key] = [iso];
+        }
+      }
+    }
+  }
+  return [filterComparison(files), filterComparison(result)];
+}
+
+function filterComparison(list: {[key: string]: string[]}) {
+  let expected = Object.keys(sreLocales).length;
+  let result: {[key: string]: string[]} = {};
+  for (let [key, value] of Object.entries(list)) {
+    if (value.length !== expected) {
+      result[key] = value;
+    }
+  }
+  return result;
 }
