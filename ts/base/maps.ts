@@ -106,7 +106,7 @@ export function convertUnits(iso: string) {
  */
 function convertUnitMap(json: any[], iso: string) {
   let result = '';
-  let locale = locales[iso]();
+  const locale = locales[iso]();
   for (const entry of json) {
     if (!entry.key) continue;
     const key = yamlKey(entry.key);
@@ -224,6 +224,7 @@ export function retrieveFunctions(iso: string) {
 export function retrieveUnits(iso: string) {
   const srcs = loadMapsYaml(iso, 'units');
   const dsts = loadMaps(iso, 'units');
+  const locale = locales[iso]();
   for (const [yaml, src] of Object.entries(srcs)) {
     const file = yaml.replace(/\.yaml$/, '.json');
     const dst = dsts[file];
@@ -241,8 +242,9 @@ export function retrieveUnits(iso: string) {
         }
         // other is plural
         if (
-          !entry.mappings.default.plural ||
-          entry.mappings.default.plural !== lookup.other
+          (!entry.mappings.default.plural ||
+            entry.mappings.default.plural !== lookup.other) &&
+            locale.FUNCTIONS.plural(entry.mappings.default.default) !== lookup.other
         ) {
           console.info(
             `New entry found for ${entry.key} plural: ${lookup.other}`
