@@ -3,11 +3,11 @@ sv:
     one: knop
     other: knop
   mph:  #mph
-    one: mile per timme
-    other: miles per timme
+    one: mile per hour
+    other: miles per hour
   rpm:  #rpm
-    one: varv per minut
-    other: varv per minut
-  kmh:  #kmh
-    one: kilometer per timme
-    other: kilometer per timme
+    one: revolution per minute
+    other: revolutions per minute
+  kmh:  #kmh, kph
+    one: kilometer per hour
+    other: kilometers per hour
