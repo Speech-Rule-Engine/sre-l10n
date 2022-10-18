@@ -232,7 +232,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"Rad\"",
+        "content": "\"Raden\"",
         "attributes": {
           "pause": "200"
         }
@@ -251,7 +251,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"Kolumn\"",
+        "content": "\"Kolumnen\"",
         "attributes": {
           "pause": "200"
         }

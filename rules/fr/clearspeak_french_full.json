@@ -3586,6 +3586,36 @@
         "attributes": {
           "pause": "short"
         }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[3]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "integral-novar": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"le\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"de\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
       }
     ]
   },

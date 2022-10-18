@@ -15,6 +15,14 @@ font:
   - %1
   - %2 (pause:short)
 
+# Explicit speaking of doublstruck/blackboard font
+# Example: R mit Doppelstrich
+# %1: The expression
+# %2: The font
+font-double-struck:
+  - %1
+  - %2
+
 # Speaking an open ended ellipsis in AndSoOn preference
 # Example: a comma b comma and so on
 # LaTeX Example: $a, b, \ldots$
@@ -561,8 +569,7 @@ superscript-power-default:
 # LaTeX Example: $y$
 # %1: The letter
 exponent:
-  - %1 (join:"-")
-  - $1: "te"
+  - %1
 
 # A number spoken as an ordinal. Note that the rule might need adjustment of the join attribute.
 # Example: fourth as in x to the fourth
@@ -1462,7 +1469,7 @@ lines-equations-summary:
 # Example: 2 equations Equation 1: a equals b Equation 2: c equals d
 # %1: The list of lines.
 lines-equations:
-  - %1 (context:"Equation-:", pause:long)
+  - %1 (context:"Ekvation-:", pause:long)
 
 # MultiLineLabel_Step preference rule for speaking regular multiline equations as steps. Summary rule.
 # Example: 2 steps Step 1: a equals b Step 2: c equals d
@@ -1556,11 +1563,23 @@ limupper:
   - %2 (pause:short)
 
 # Integral rule
-# Example: the integral from 0 to infinity of 1 over x
+# Example: the integral from 0 to infinity of 1 over x dx
 # LaTeX Example: $\int_{0}^\infty \frac{1}{x}dx$
-# %1: The integral
+# %1: The integral including limits
 # %2: The argument of the integral
+# %3: The integration variable, e.g. dx
 integral:
+  - %1
+  - $1: "av"
+  - %2 (pause:short)
+  - %3 (pause:short)
+
+# Integral rule for integrals without explicit integral variable
+# Example: the integral from 0 to infinity of 1 over x
+# LaTeX Example: $\int_{0}^\infty \frac{1}{x}$
+# %1: The integral including limits
+# %2: The argument of the integral
+integral-novar:
   - %1
   - $1: "av"
   - %2 (pause:short)
@@ -1624,7 +1643,7 @@ number-with-chars:
 decimal-period:
   - $1: "decimalbråk"
   - %1
-  - $2: "komma följt av upprepande siffra"
+  - $2: "komma följt av upprepande siffror"
   - %2
 
 # Repeating decimals where point is part of the number
@@ -1635,7 +1654,7 @@ decimal-period:
 decimal-period-float:
   - $1: "decimalbråk"
   - %1
-  - $2: "följt av upprepande siffra"
+  - $2: "följt av upprepande siffror"
   - %2
 
 # Repeating single decimal where point is explicitly spoken
@@ -1771,13 +1790,13 @@ permute:
 # A unit that is squared
 # %1: The unit
 unit-square:
-  - $1: "kvadrat"
+  - $1: "kvadrat" (join:"")
   - %1
 
 # A unit that is cubed
 # %1: The unit
 unit-cubic:
-  - $1: "kubik"
+  - $1: "kubik" (join:"")
   - %1
 
 # A unit to the power of negative one
@@ -1828,21 +1847,21 @@ enclose-end:
 # %1: The expression under the bar
 overbar:
   - %1
-  - $1: "horisontellt sträck"
+  - $1: "horisontellt streck"
 
 # Expression with a spanning bar under it.
 # Example: a plus b over horizontal bar
 # %1: The expression over the bar
 underbar:
   - %1
-  - $1: "över horisontellt sträck"
+  - $1: "över horisontellt streck"
 
 # Expression with a bar to its left.
 # Example: vertical bar a plus b
 # LaTeX Example: $| a + b$
 # %1: The expression right of the bar
 leftbar:
-  - $1: "vertikalt sträck"
+  - $1: "vertikalt streck"
   - %1
 
 # Expression with a bar to its right.
@@ -1851,7 +1870,7 @@ leftbar:
 # %1: The expression left of the bar
 rightbar:
   - %1
-  - $1: "vertikalt sträck"
+  - $1: "vertikalt streck"
 
 # A crossed out expression
 # Example: crossed out x

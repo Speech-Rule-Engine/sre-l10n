@@ -7,6 +7,10 @@
     "%1",
     "%2 (pause:short)"
   ],
+  "font-double-struck": [
+    "%1",
+    "%2"
+  ],
   "ellipsis": [
     "$1: \"och så vidare\""
   ],
@@ -286,8 +290,7 @@
     "$2: \"slut exponent\" (pause:short)"
   ],
   "exponent": [
-    "%1 (join:\"-\")",
-    "$1: \"te\""
+    "%1"
   ],
   "exponent-number": [
     "%1"
@@ -699,7 +702,7 @@
     "$1: \"gånger\"",
     "%2",
     "$2: \"radmatrisen\" (pause:long)",
-    "%3"
+    "%3 (pause:long)"
   ],
   "matrix-row-vector-simple-silentcolnum": [
     "%1",
@@ -814,7 +817,7 @@
     "%2"
   ],
   "lines-equations": [
-    "%1 (context:\"Equation-:\", pause:long)"
+    "%1 (context:\"Ekvation-:\", pause:long)"
   ],
   "lines-steps-summary": [
     "%1",
@@ -865,6 +868,12 @@
   "integral": [
     "%1",
     "$1: \"av\"",
+    "%2 (pause:short)",
+    "%3 (pause:short)"
+  ],
+  "integral-novar": [
+    "%1",
+    "$1: \"av\"",
     "%2 (pause:short)"
   ],
   "overscript": [
@@ -899,13 +908,13 @@
   "decimal-period": [
     "$1: \"decimalbråk\"",
     "%1",
-    "$2: \"komma följt av upprepande siffra\"",
+    "$2: \"komma följt av upprepande siffror\"",
     "%2"
   ],
   "decimal-period-float": [
     "$1: \"decimalbråk\"",
     "%1",
-    "$2: \"följt av upprepande siffra\"",
+    "$2: \"följt av upprepande siffror\"",
     "%2"
   ],
   "decimal-period-singular": [
@@ -987,11 +996,11 @@
     "%2"
   ],
   "unit-square": [
-    "$1: \"kvadrat\"",
+    "$1: \"kvadrat\" (join:\"\")",
     "%1"
   ],
   "unit-cubic": [
-    "$1: \"kubik\"",
+    "$1: \"kubik\" (join:\"\")",
     "%1"
   ],
   "unit-reciprocal": [
@@ -1020,19 +1029,19 @@
   ],
   "overbar": [
     "%1",
-    "$1: \"horisontellt sträck\""
+    "$1: \"horisontellt streck\""
   ],
   "underbar": [
     "%1",
-    "$1: \"över horisontellt sträck\""
+    "$1: \"över horisontellt streck\""
   ],
   "leftbar": [
-    "$1: \"vertikalt sträck\"",
+    "$1: \"vertikalt streck\"",
     "%1"
   ],
   "rightbar": [
     "%1",
-    "$1: \"vertikalt sträck\""
+    "$1: \"vertikalt streck\""
   ],
   "crossout": [
     "$1: \"överstruket\"",

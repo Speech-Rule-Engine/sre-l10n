@@ -119,7 +119,7 @@
     "$1: \"produkt med varierande antal faktorer\""
   ],
   "abstr-vector": [
-    "%1 (join:\"\")",
+    "%1 (join:\"-\")",
     "$1: \"dimensionell vektor\""
   ],
   "abstr-vector-brief": [
@@ -132,7 +132,7 @@
     "$1: \"binom\""
   ],
   "abstr-determinant": [
-    "%1 (join:\"\")",
+    "%1 (join:\"-\")",
     "$1: \"dimensionell determinant\""
   ],
   "abstr-determinant-brief": [
@@ -142,21 +142,21 @@
     "$1: \"n-dimensionell determinant\""
   ],
   "abstr-squarematrix": [
-    "%1 (join:\"\")",
+    "%1 (join:\"-\")",
     "$1: \"dimensionell kvadratisk matris\""
   ],
   "abstr-squarematrix-brief": [
     "$1: \"kvadratisk matris\""
   ],
   "abstr-rowvector": [
-    "%1 (join:\"\")",
+    "%1 (join:\"-\")",
     "$1: \"dimensionell radvektor\""
   ],
   "abstr-rowvector-brief": [
-    "$1: \"rad vektor\""
+    "$1: \"radvektor\""
   ],
   "abstr-rowvector-var": [
-    "$1: \"n-dimensionell rad vektor\""
+    "$1: \"n-dimensionell radvektor\""
   ],
   "abstr-matrix": [
     "%1",
@@ -189,7 +189,7 @@
     "%2"
   ],
   "abstr-punctuated-brief": [
-    "%1",
+    "%1 (join:\"\")",
     "$1: \"separerad lista\""
   ],
   "abstr-punctuated-var": [

@@ -80,3 +80,9 @@ mathmaps. Merge into `crowdin` branch and push to crowdin.
 * When making changes in the rule files in SRE, run
   `trans.translateForwardAll();` twice to also update the comments files
   correctly.
+* When making changes in the comment yaml file, update comments file and rerun translation:
+  ```javascript
+  let comment = require('./js/base/comment');
+  comment.updateComments();
+  trans.translateForwardAll();
+  ```

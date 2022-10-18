@@ -3948,6 +3948,36 @@
         "attributes": {
           "pause": "short"
         }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[3]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "integral-novar": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"das\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"über\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
       }
     ]
   },

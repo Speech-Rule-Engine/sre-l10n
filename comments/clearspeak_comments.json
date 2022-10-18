@@ -130,7 +130,8 @@
       "%2": "The font"
     },
     "locales": {
-      "de": 2
+      "de": 2,
+      "sv": 2
     },
     "description": "Explicit speaking of doublstruck/blackboard font",
     "latex": "",
@@ -138,6 +139,10 @@
     "reference": "de",
     "order": {
       "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "sv": {
         "%1": "%1",
         "%2": "%2"
       }
@@ -8476,58 +8481,67 @@
   "integral": {
     "rule": "integral",
     "parameters": {
-      "%1": "The integral",
-      "%2": "The argument of the integral"
+      "%1": "The integral including limits",
+      "%2": "The argument of the integral",
+      "%3": "The integration variable, e.g. dx"
     },
     "locales": {
-      "de": 2,
-      "en": 2,
-      "fr": 2,
-      "hi": 2,
-      "it": 2,
-      "nn": 2,
-      "nb": 2,
-      "sv": 2
+      "de": 3,
+      "en": 3,
+      "fr": 3,
+      "hi": 3,
+      "it": 3,
+      "nn": 3,
+      "nb": 3,
+      "sv": 3
     },
     "description": "Integral rule",
     "latex": "\\int_{0}^\\infty \\frac{1}{x}dx",
-    "example": "the integral from 0 to infinity of 1 over x",
+    "example": "the integral from 0 to infinity of 1 over x dx",
     "reference": "en",
     "order": {
       "de": {
         "%1": "%1",
-        "%2": "%2"
+        "%2": "%2",
+        "%3": "%3"
       },
       "en": {
         "%1": "%1",
-        "%2": "%2"
+        "%2": "%2",
+        "%3": "%3"
       },
       "fr": {
         "%1": "%1",
-        "%2": "%2"
+        "%2": "%2",
+        "%3": "%3"
       },
       "hi": {
         "%1": "%1",
-        "%2": "%2"
+        "%2": "%2",
+        "%3": "%3"
       },
       "it": {
         "%1": "%1",
-        "%2": "%2"
+        "%2": "%2",
+        "%3": "%3"
       },
       "nn": {
         "%1": "%1",
-        "%2": "%2"
+        "%2": "%2",
+        "%3": "%3"
       },
       "nb": {
         "%1": "%1",
-        "%2": "%2"
+        "%2": "%2",
+        "%3": "%3"
       },
       "sv": {
         "%1": "%1",
-        "%2": "%2"
+        "%2": "%2",
+        "%3": "%3"
       }
     },
-    "maximum": 2
+    "maximum": 3
   },
   "overscript": {
     "rule": "overscript",
@@ -11888,5 +11902,61 @@
       }
     },
     "maximum": 3
+  },
+  "integral-novar": {
+    "rule": "integral-novar",
+    "parameters": {
+      "%1": "The integral including limits",
+      "%2": "The argument of the integral"
+    },
+    "locales": {
+      "de": 2,
+      "en": 2,
+      "fr": 2,
+      "hi": 2,
+      "it": 2,
+      "nb": 2,
+      "nn": 2,
+      "sv": 2
+    },
+    "description": "Integral rule for integrals without explicit integral variable",
+    "latex": "\\int_{0}^\\infty \\frac{1}{x}",
+    "example": "the integral from 0 to infinity of 1 over x",
+    "reference": "de",
+    "order": {
+      "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "en": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "fr": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "hi": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "it": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nb": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "nn": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "sv": {
+        "%1": "%1",
+        "%2": "%2"
+      }
+    },
+    "maximum": 2
   }
 }

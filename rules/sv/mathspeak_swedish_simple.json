@@ -13,6 +13,10 @@
     "%1",
     "%2"
   ],
+  "font-double-struck": [
+    "%1",
+    "%2"
+  ],
   "mixed-number": [
     "%1",
     "$1: \"och\"",
@@ -27,7 +31,7 @@
     "%1"
   ],
   "number-as-upper-word": [
-    "$1: \"Ord stort\"",
+    "$1: \"StortOrd\"",
     "%1"
   ],
   "number-baseline": [
@@ -75,14 +79,14 @@
     "$2: \"SlutAbsolutVärde\""
   ],
   "fences-metric": [
-    "$1: \"StartMetrisk\"",
+    "$1: \"StartBelopp\"",
     "%1",
-    "$2: \"SlutMetrisk\""
+    "$2: \"SlutBelopp\""
   ],
   "fences-metric-sbrief": [
-    "$1: \"Metrisk\"",
+    "$1: \"Belopp\"",
     "%1",
-    "$2: \"SlutMetrisk\""
+    "$2: \"SlutBelopp\""
   ],
   "empty-set": [
     "$1: \"tomma mängden\""
@@ -102,6 +106,9 @@
   ],
   "minus": [
     "$1: \"minus\""
+  ],
+  "vulgar-fraction": [
+    "%1"
   ],
   "continued-fraction-outer": [
     "$1: \"KedjeBråk\"",

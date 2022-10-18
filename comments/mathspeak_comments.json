@@ -227,7 +227,8 @@
       "%2": "The font"
     },
     "locales": {
-      "de": 2
+      "de": 2,
+      "sv": 2
     },
     "description": "Explicit speaking of doublstruck/blackboard font",
     "latex": "",
@@ -235,6 +236,10 @@
     "reference": "de",
     "order": {
       "de": {
+        "%1": "%1",
+        "%2": "%2"
+      },
+      "sv": {
         "%1": "%1",
         "%2": "%2"
       }
@@ -1476,7 +1481,8 @@
     },
     "locales": {
       "de": 1,
-      "it": 1
+      "it": 1,
+      "sv": 1
     },
     "description": "Rule for speaking a vulgar fraction in words",
     "latex": "",
@@ -1487,6 +1493,9 @@
         "%1": "%1"
       },
       "it": {
+        "%1": "%1"
+      },
+      "sv": {
         "%1": "%1"
       }
     },

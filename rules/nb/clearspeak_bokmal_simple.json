@@ -866,6 +866,12 @@
   "integral": [
     "%1 (grammar:addArticle)",
     "$1: \"over\"",
+    "%2 (pause:short)",
+    "%3 (pause:short)"
+  ],
+  "integral-novar": [
+    "%1 (grammar:addArticle)",
+    "$1: \"over\"",
     "%2 (pause:short)"
   ],
   "overscript": [

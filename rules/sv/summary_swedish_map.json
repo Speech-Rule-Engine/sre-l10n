@@ -291,7 +291,7 @@
       "type": "TEXT",
       "content": "count(./children/*)",
       "attributes": {
-        "join": "\"\""
+        "join": "\"-\""
       }
     },
     "$1": {
@@ -322,7 +322,7 @@
       "type": "TEXT",
       "content": "count(./children/*)",
       "attributes": {
-        "join": "\"\""
+        "join": "\"-\""
       }
     },
     "$1": {
@@ -347,7 +347,7 @@
       "type": "TEXT",
       "content": "count(./children/*)",
       "attributes": {
-        "join": "\"\""
+        "join": "\"-\""
       }
     },
     "$1": {
@@ -366,7 +366,7 @@
       "type": "TEXT",
       "content": "count(./children/row/children/*)",
       "attributes": {
-        "join": "\"\""
+        "join": "\"-\""
       }
     },
     "$1": {
@@ -377,13 +377,13 @@
   "abstr-rowvector-brief": {
     "$1": {
       "type": "TEXT",
-      "content": "\"rad vektor\""
+      "content": "\"radvektor\""
     }
   },
   "abstr-rowvector-var": {
     "$1": {
       "type": "TEXT",
-      "content": "\"n-dimensionell rad vektor\""
+      "content": "\"n-dimensionell radvektor\""
     }
   },
   "abstr-matrix": {
