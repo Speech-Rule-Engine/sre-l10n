@@ -3,11 +3,11 @@ da:
     one: knob
     other: knob
   mph:  #mph
-    one: mil i timen
-    other: mil i timen
+    one: mile per hour
+    other: miles per hour
   rpm:  #rpm
-    one: omdrejninger pr. minut
-    other: omdrejning pr. minut
-  kmh:  #kmh
-    one: kilometer i timen
-    other: kilometer i timen
+    one: revolution per minute
+    other: revolutions per minute
+  kmh:  #kmh, kph
+    one: kilometer per hour
+    other: kilometers per hour
