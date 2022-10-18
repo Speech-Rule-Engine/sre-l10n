@@ -1,0 +1,25 @@
+es:
+  sq: #sq, sq.
+    one: cuadrado
+    other: cuadrado
+  sq_inch: #sq in, sq. in., sq inch, sq. inch
+    one: pulgada cuadrada
+    other: pulgadas cuadrada
+  sq_rd: #sq rd, sq. rd.
+    one: rod cuadrado
+    other: rods cuadrado
+  sq_ft: #sq ft, sq. ft.
+    one: pie cuadrado
+    other: pies cuadrado
+  sq_yd: #sq yd, sq. yd.
+    one: yarda cuadrada
+    other: yardas cuadrada
+  sq_mi: #sq mi, sq. mi.
+    one: milla cuadrada
+    other: milla cuadrada
+  acr: #ac, ac., acr, acr.
+    one: acre
+    other: acre
+  ha: #ha
+    one: hectarea
+    other: hectarea

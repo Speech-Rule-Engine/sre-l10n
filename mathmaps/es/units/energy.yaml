@@ -1,0 +1,25 @@
+es:
+  W: #W, w
+    one: vatio
+    other: vatio
+  kwh: #kwh, kWh
+    one: kilovatio hora
+    other: kilovatio hora
+  J: #J
+    one: Joule
+    other: Joule
+  N: #N
+    one: Newton
+    other: Newton
+  A: #A
+    one: Ampere
+    other: Ampere
+  V: #V
+    one: Voltio
+    other: Voltio
+  Ohm: #Ohm, ohm
+    one: ohmio
+    other: ohmio
+  Ω: #Ω
+    one: ohmio
+    other: ohmio

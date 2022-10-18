@@ -1,0 +1,16 @@
+es:
+  s: #s
+    one: segundo
+    other: segundo
+  ″: #″
+    one: segundo
+    other: segundo
+  min: #min, ′
+    one: minuto
+    other: minuto
+  °: #°
+    one: grado
+    other: grado
+  h: #h, hr
+    one: hora
+    other: hora

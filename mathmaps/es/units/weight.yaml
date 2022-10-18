@@ -1,0 +1,34 @@
+es:
+  lb: #lb, lb.
+    one: libra
+    other: libra
+  LT: #LT, L.T.
+    one: libra imperiale
+    other: libras imperiales
+  oz: #oz, oz.
+    one: onza
+    other: onza
+  mcg: #mcg
+    one: microgramo
+    other: microgramo
+  gr: #gr
+    one: gramo
+    other: gramo
+  g: #g
+    one: gramo
+    other: gramo
+  t: #t, T
+    one: tonelada
+    other: tonelada
+  dram: #dr, dr.
+    one: dracma
+    other: dracma
+  st: #st, st.
+    one: stone
+    other: stones
+  qtr: #qtr, qtr.
+    one: cuarto corto
+    other: cuarto corto
+  cwt: #cwt, cwt.
+    one: centena
+    other: centena

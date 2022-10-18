@@ -1,0 +1,34 @@
+de:
+  lb: #lb, lb.
+    one: Pfund
+    other: Pfund
+  oz: #oz, oz.
+    one: Unze
+    other: Unzen
+  LT: #LT, L.T.
+    one: Long ton
+    other: Long ton
+  gr: #gr
+    one: Gramm
+    other: Gramm
+  g: #g
+    one: Gramm
+    other: Gramm
+  mcg: #mcg
+    one: Mikrogramm
+    other: Mikrogramm
+  t: #t, T
+    one: Tonne
+    other: Tonnen
+  dram: #dr, dr.
+    one: Drachme
+    other: Drachmen
+  st: #st, st.
+    one: Stone
+    other: Stone
+  qtr: #qtr, qtr.
+    one: Viertelzentner
+    other: Viertelzentner
+  cwt: #cwt, cwt., Ztr., Ctr.
+    one: Zentner
+    other: Zentner

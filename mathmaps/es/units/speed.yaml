@@ -1,0 +1,13 @@
+es:
+  kt: #kt, kt.
+    one: nudo
+    other: nudo
+  mph: #mph
+    one: milla por hora
+    other: millas por hora
+  rpm: #rpm
+    one: revoluciones por minuto
+    other: revoluciones por minuto
+  kmh: #kmh
+    one: kilómetro por hora
+    other: kilómetros por hora

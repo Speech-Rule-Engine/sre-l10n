@@ -1,0 +1,25 @@
+de:
+  sq: #sq, sq.
+    one: Quadrat
+    other: Quadrat
+  sq_inch: #sq in, sq. in., sq inch, sq. inch
+    one: Quadratzoll
+    other: Quadratzoll
+  sq_rd: #sq rd, sq. rd.
+    one: Quadratrute
+    other: Quadratruten
+  sq_ft: #sq ft, sq. ft.
+    one: Quadratfuß
+    other: Quadratfuß
+  sq_yd: #sq yd, sq. yd.
+    one: Quadratyard
+    other: Quadratyards
+  sq_mi: #sq mi, sq. mi.
+    one: Quadratmeile
+    other: Quadratmeilen
+  acr: #ac, ac., acr, acr.
+    one: Morgen
+    other: Morgen
+  ha: #ha
+    one: Hektar
+    other: Hektar

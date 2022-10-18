@@ -1,0 +1,31 @@
+es:
+  m: #m
+    one: metro
+    other: metro
+  ft: #ft, ft.
+    one: pies
+    other: pies
+  in: #in, in.
+    one: pulgada
+    other: pulgada
+  mi: #mi, mi.
+    one: milla
+    other: milla
+  yd: #yd, yd.
+    one: yarda
+    other: yarda
+  link: #li, li.
+    one: link
+    other: link
+  rod: #rd, rd.
+    one: rod
+    other: rod
+  chain: #ch, ch.
+    one: cadena
+    other: cadena
+  furlong: #fur, fur.
+    one: furlong
+    other: furlong
+  n.m.: #n.m.
+    one: milla náutica
+    other: millas náuticas

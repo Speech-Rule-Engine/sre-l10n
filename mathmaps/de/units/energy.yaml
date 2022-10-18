@@ -1,0 +1,25 @@
+de:
+  W: #W, w
+    one: Watt
+    other: Watt
+  kwh: #kwh, kWh
+    one: Kilowattstunde
+    other: Kilowattstunden
+  J: #J
+    one: Joule
+    other: Joule
+  N: #N
+    one: Newton
+    other: Newton
+  A: #A
+    one: Ampere
+    other: Ampere
+  V: #V
+    one: Volt
+    other: Volt
+  ohm: #Ohm, ohm
+    one: Ohm
+    other: Ohm
+  Ω: #Ω
+    one: Ohm
+    other: Ohm

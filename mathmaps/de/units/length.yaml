@@ -1,0 +1,31 @@
+de:
+  m: #m
+    one: Meter
+    other: Meter
+  ft: #ft, ft.
+    one: Fuß
+    other: Fuß
+  in: #in, in.
+    one: Zoll
+    other: Zoll
+  mi: #mi, mi.
+    one: Meile
+    other: Meilen
+  yd: #yd, yd.
+    one: Yard
+    other: Yards
+  n.m.: #n.m.
+    one: nautische Meile
+    other: nautische Meilen
+  link: #li, li.
+    one: Kettenglied
+    other: Kettenglieder
+  rod: #rd, rd.
+    one: Rute
+    other: Ruten
+  chain: #ch, ch.
+    one: Kette
+    other: Ketten
+  furlong: #fur, fur.
+    one: Furchenlänge
+    other: Furchenlängen

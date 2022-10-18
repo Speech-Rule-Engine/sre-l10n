@@ -1,0 +1,13 @@
+de:
+  kt: #kt, kt.
+    one: Knoten
+    other: Knoten
+  mph: #mph
+    one: Meile pro Stunde
+    other: Meilen pro Stunde
+  kmh: #kmh
+    one: Kilometer pro Stunde
+    other: Kilometer pro Stunde
+  rpm: #rpm
+    one: Umdrehung pro Minute
+    other: Umdrehungen pro Minute

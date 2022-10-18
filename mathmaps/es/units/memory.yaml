@@ -1,0 +1,10 @@
+es:
+  b: #b
+    one: bit
+    other: bit
+  B: #B
+    one: byte
+    other: byte
+  KB: #KB
+    one: kilobyte
+    other: kilobyte

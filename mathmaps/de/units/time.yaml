@@ -1,0 +1,16 @@
+de:
+  s: #s
+    one: Sekunde
+    other: Sekunden
+  ″: #″
+    one: Sekunde
+    other: Sekunden
+  min: #min, ′
+    one: Minute
+    other: Minuten
+  °: #°
+    one: Grad
+    other: Grad
+  h: #h, hr
+    one: Stunde
+    other: Stunden

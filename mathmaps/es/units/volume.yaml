@@ -1,0 +1,46 @@
+es:
+  bbl: #bbl., bbl
+    one: barrile
+    other: barrile
+  cu: #cu, cu.
+    one: cúbico
+    other: cúbico
+  fl._oz.: #fl. oz., fl oz
+    one: onza líquida
+    other: onzas líquidas
+  gal: #gal, gal.
+    one: galone
+    other: galone
+  pt: #pt, pt.
+    one: pinta
+    other: pinta
+  qt: #qt, qt.
+    one: quart
+    other: quart
+  tbsp: #tbsp, tbsp., Tbsp, Tbsp.
+    one: cuchara
+    other: cuchara
+  tsp: #tsp, tsp.
+    one: cucharilla
+    other: cucharilla
+  cc: #cc, ccm
+    one: centímetro cúbico
+    other: centímetros cúbicos
+  l: #l
+    one: litro
+    other: litro
+  cu_inch: #cu in, cu. in.
+    one: pulgada cúbica
+    other: pulgadas cúbicas
+  cu_ft: #cu ft, cu. ft.
+    one: pie cúbico
+    other: pies cúbicos
+  cu_yd: #cu yd, cu. yd.
+    one: yarda cúbica
+    other: yardas cúbicas
+  fluid_dram: #fl dr, fl. dr.
+    one: dracma líquida
+    other: dracma líquidas
+  cup: #cp, cp.
+    one: taza
+    other: taza

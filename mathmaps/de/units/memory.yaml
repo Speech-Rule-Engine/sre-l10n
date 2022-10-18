@@ -1,0 +1,10 @@
+de:
+  b: #b
+    one: Bit
+    other: Bits
+  B: #B
+    one: Byte
+    other: Bytes
+  KB: #KB
+    one: Kilobyte
+    other: Kilobytes
