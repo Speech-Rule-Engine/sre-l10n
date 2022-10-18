@@ -70,13 +70,7 @@ da:
     other: hryvniass
   ₵:  #₵, GHS
     one: cedi
-    other: cedi
-  ₶:  #₶
-    one: livre tournois
-    other: livre tournois
-  ₷:  #₷
-    one: spesmilo
-    other: spesmilo
+    other: cedis
   ₸:  #₸, KZT
     one: tenge
     other: tenge
