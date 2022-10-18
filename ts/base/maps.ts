@@ -26,6 +26,19 @@ import {
 } from './util';
 import { locales } from '../../speech-rule-engine/js/l10n/l10n';
 
+
+export type SetupRule = {
+  locale: string
+}
+
+export type UnicodeRule = {
+  key: string,
+  category: string,
+  mappings: {[domain: string]: {[style: string]: string}},
+  si?: boolean,
+  names?: string[]
+}
+
 // Forward conversion
 /**
  * @param iso
@@ -277,9 +290,37 @@ export function cleanMaps(iso: string) {
 
 function cleanMaps_(iso: string, kind: string) {
   let maps = loadMaps(iso, kind);
-  for (let [file, map] of Object.entries(maps)) {
-    saveUnicodeMaps(iso, kind, file, map);
+  for (const [file, map] of Object.entries(maps)) {
+    let newMap = orderEntries(map.slice(1));
+    newMap.unshift(map[0]);
+    saveUnicodeMaps(iso, kind, file, newMap);
   }
+}
+
+function orderEntries(map: UnicodeRule[], names: boolean = false) {
+  const newMap = [];
+  for (const entry of map) {
+    const newEntry: UnicodeRule = {
+      key: entry.key,
+      category: entry.category,
+      mappings: entry.mappings
+    };
+    if (entry.si) {
+      newEntry.si = entry.si
+    }
+    if (names) {
+      if (entry.names &&
+        (entry.names.length !== 1 || entry.names[0] !== entry.key)) {
+        newEntry.names = entry.names
+      }
+    } else {
+      if (entry.names) {
+        newEntry.names = entry.names
+      }
+    }
+    newMap.push(newEntry);
+  }
+  return newMap;
 }
 
 /**
