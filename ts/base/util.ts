@@ -381,3 +381,59 @@ export function loadMapsYaml(iso: string, kind: string) {
   }
   return result;
 }
+
+
+export namespace Aux {
+
+  export function cleanBaseFunctions(kind: string = 'functions') {
+    let funcs = loadMaps('en', kind);
+    for (let [file, list] of Object.entries(funcs)) {
+      for (let entry of list) {
+        if (entry.locale) entry.locale = 'base';
+        delete entry.mappings;
+      }
+      saveUnicodeMaps('base', kind, file, list);
+    }
+  }
+
+  export function cleanLocaleFunctions(iso: string, kind: string = 'functions') {
+    let base = listToKeyMap(
+      [].concat(...Object.values(loadMaps('base', kind))));
+    // Here we have to load base!
+    let funcs = loadMaps(iso, kind);
+    for (let [file, list] of Object.entries(funcs)) {
+      for (let entry of list) {
+        delete entry.category;
+        delete entry.si;
+        if (!entry.names) continue;
+        let baseNames = base[entry.key]?.names;
+        if (!baseNames) continue;
+        let newNames: string[] = [];
+        for (let name of entry.names) {
+          if (baseNames.indexOf(name) === -1) {
+            newNames.push(name);
+          }
+        }
+        if (newNames.length) {
+          console.log(entry.key);
+          console.log(newNames);
+          entry.names = newNames;
+        } else {
+          delete entry.names;
+        }
+      }
+      saveUnicodeMaps(iso, kind, file, list);
+    }
+  }
+
+  function listToKeyMap(list: any[]) {
+    const result: {[key: string]: any} = {};
+    list.forEach(x => {
+      if (x.key) {
+        result[x.key] = x;
+      }
+    });
+    return result;
+  }
+
+}
