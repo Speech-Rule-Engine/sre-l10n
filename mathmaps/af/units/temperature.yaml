@@ -1,0 +1,10 @@
+af:
+  F: #F, F., °F
+    one: Fahrenheit
+    other: Fahrenheit
+  C: #C, °C
+    one: Selsius
+    other: Selsius
+  K: #K, °K
+    one: Kelvin
+    other: Kelvin

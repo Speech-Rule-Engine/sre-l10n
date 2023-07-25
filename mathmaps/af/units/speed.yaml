@@ -1,0 +1,13 @@
+af:
+  kt: #kt, kt.
+    one: knoop
+    other: knope
+  mph: #mph
+    one: myl per uur
+    other: myl per uur
+  rpm: #rpm
+    one: revolusie per minuut
+    other: revolusies per minuut
+  kmh: #kmh, kph
+    one: kilometer per uur
+    other: kilometer per uur

@@ -1,0 +1,85 @@
+af:
+  $: #$, 💲, ＄, ﹩, USD
+    one: doller
+    other: dollers
+  £: #£, ￡, GBP
+    one: pond
+    other: ponde
+  ¥: #¥, ￥, JPY
+    one: jen
+    other: jen
+  €: #€, EUR
+    one: euro
+    other: euros
+  ₡: #₡, CRC
+    one: dubbelpunt
+    other: dubbelpunte
+  ₢: #₢
+    one: cruzeiro
+    other: cruzeiros
+  ₣: #₣
+    one: frank
+    other: franke
+  ₤: #₤
+    one: lier
+    other: liere
+  ₥: #₥
+    one: mill
+    other: mills
+  ₦: #₦, NGN
+    one: naira
+    other: nairas
+  ₧: #₧
+    one: peseta
+    other: pesetas
+  ₨: #₨, ₹, INR, NPR, PKR, LKR
+    one: rupee
+    other: rupees
+  ₩: #₩, ￦, KRW
+    one: won
+    other: wons
+  ₪: #₪
+    one: sheqel
+    other: sheqels
+  ₫: #₫
+    one: dong
+    other: dongs
+  ₭: #₭
+    one: kip
+    other: kips
+  ₮: #₮
+    one: tugrik
+    other: tugriks
+  ₯: #₯
+    one: dragma
+    other: dragmas
+  ₰: #₰
+    one: Pfennig
+    other: Pfennigs
+  ₱: #₱
+    one: peso
+    other: pesos
+  ₲: #₲
+    one: guaranis
+    other: guaranis
+  ₳: #₳
+    one: austral
+    other: australs
+  ₴: #₴, UAH
+    one: hryvnia
+    other: hryvnias
+  ₵: #₵, GHS
+    one: cedi
+    other: cedis
+  ₸: #₸, KZT
+    one: tenge
+    other: tenge
+  ₺: #₺, TRY
+    one: turkse lier
+    other: turkse liere
+  元: #元
+    one: yuan
+    other: yuans
+  ¢: #￠, ¢
+    one: sent
+    other: sente
