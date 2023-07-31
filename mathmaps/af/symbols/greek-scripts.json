@@ -1,14 +1,14 @@
 {
-  "ᴦ": "small cap Gamma",
-  "ᴧ": "small cap Lamda",
-  "ᴨ": "small cap Pi",
-  "ᴩ": "small cap Rho",
-  "ᴪ": "small cap Psi",
-  "ᵞ": "superscript gamma",
-  "ᵠ": "superscript phi",
-  "ᵦ": "subscript beta",
-  "ᵧ": "subscript gamma",
-  "ᵨ": "subscript rho",
-  "ᵩ": "subscript phi",
-  "ᵪ": "subscript chi"
+  "ᴦ": "kleinletter Gamma",
+  "ᴧ": "kleinletter Lamda",
+  "ᴨ": "kleinletter Pi",
+  "ᴩ": "kleinletter Rho",
+  "ᴪ": "kleinletter Psi",
+  "ᵞ": "boskrif gamma",
+  "ᵠ": "boskrif phi",
+  "ᵦ": "onderskrif beta",
+  "ᵧ": "onderskrif gamma",
+  "ᵨ": "onderskrif rho",
+  "ᵩ": "onderskrif phi",
+  "ᵪ": "onderskrif chi"
 }
