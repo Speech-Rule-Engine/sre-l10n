@@ -1,8 +1,11 @@
-const path = require('path');
-const TerserPlugin = require('terser-webpack-plugin');
+import * as path from 'path';
+import TerserPlugin from 'terser-webpack-plugin';
+import { fileURLToPath } from 'url';
 
-module.exports = {
-  entry: './ts/index.ts',
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+let config = {
+  entry: path.resolve(__dirname, './js/index.js'),
   mode: 'development',
   target: 'node',
   output: {
@@ -36,3 +39,5 @@ module.exports = {
     })]
   }
 };
+
+export default [config];

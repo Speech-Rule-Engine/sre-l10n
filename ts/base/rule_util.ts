@@ -17,7 +17,7 @@
  * @author volker.sorge@gmail.com (Volker Sorge)
  */
 
-import { Action } from './rules';
+import { Action } from './rules.js';
 import {
   getRuleSet,
   JsonRule,
@@ -25,7 +25,7 @@ import {
   loadMathmaps,
   LocaleRules,
   saveMathmaps
-} from './util';
+} from './util.js';
 
 /**
  * @param act1

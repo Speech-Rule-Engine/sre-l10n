@@ -18,7 +18,7 @@
  */
 
 import * as fs from 'fs';
-// import {Action} from './rules';
+// import {Action} from './rules.js';
 const yjs = require('yamljs');
 
 /**
