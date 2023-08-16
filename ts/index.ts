@@ -11,9 +11,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import { ActionSet as AS } from './base/forward';
-import { translateForwardAll } from './base/translate';
-import * as util from './base/util';
+import { ActionSet as AS } from './base/forward.js';
+import { translateForwardAll } from './base/translate.js';
+import * as util from './base/util.js';
 
 export const loadRules = util.loadRules;
 export const ActionSet = AS;

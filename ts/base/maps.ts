@@ -23,8 +23,8 @@ import {
   saveMaps,
   saveMapsYaml,
   sreLocales
-} from './util';
-import { locales } from '../../speech-rule-engine/js/l10n/l10n';
+} from './util.js';
+import { locales } from '../../speech-rule-engine/js/l10n/l10n.js';
 
 
 export type SetupRule = {
