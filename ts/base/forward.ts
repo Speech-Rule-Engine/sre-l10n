@@ -17,9 +17,9 @@
  * @author volker.sorge@gmail.com (Volker Sorge)
  */
 
-import { Comment, getComments } from './comment';
-import { Action, Component } from './rules';
-import * as util from './util';
+import { Comment, getComments } from './comment.js';
+import { Action, Component } from './rules.js';
+import * as util from './util.js';
 
 export const referenceSets: { [locale: string]: BaseSet } = {};
 

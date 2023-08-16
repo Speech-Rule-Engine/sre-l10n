@@ -17,9 +17,9 @@
  * @author volker.sorge@gmail.com (Volker Sorge)
  */
 
-import { readComments, writeComments } from './comment';
-import { ActionSet, ReturnSet } from './forward';
-import * as util from './util';
+import { readComments, writeComments } from './comment.js';
+import { ActionSet, ReturnSet } from './forward.js';
+import * as util from './util.js';
 
 export const verbose = false;
 export const update = false;

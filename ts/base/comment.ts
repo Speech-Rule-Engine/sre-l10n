@@ -17,15 +17,15 @@
  * @author volker.sorge@gmail.com (Volker Sorge)
  */
 
-import { referenceSets } from './forward';
-import { Component } from './rules';
+import { referenceSets } from './forward.js';
+import { Component } from './rules.js';
 import {
   loadComments,
   loadCommentsYaml,
   saveComments,
   saveCommentsYaml,
   sreDomains
-} from './util';
+} from './util.js';
 
 export class Comment {
   /**
@@ -294,7 +294,7 @@ const commentSet: { [domain: string]: CommentSet } = {};
  *
  * @param domain The domain.
  */
-export function getComments(domain: string) {
+export function getComments(domain: string): CommentSet {
   const comments = commentSet[domain];
   if (comments) {
     return comments;

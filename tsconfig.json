@@ -1,12 +1,12 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "ES5",
-    "module": "commonjs",
+    "target": "ES6",
+    "module": "es2022",
+    "moduleResolution": "nodenext",
     "declaration": false,
     "noImplicitAny": true,
     "noImplicitReturns": true,
-    "moduleResolution": "node",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "removeComments": true,
