@@ -66,6 +66,11 @@ This is currently still done with the `SplitJson` module from the
 Use the convert methods to do the initial conversion of the (potentially empty)
 mathmaps. Merge into `crowdin` branch and push to crowdin.
 
+
+#### Possible cleanup needed:
+
+`greek-rest`, `digits_rest`
+
 ### Rules
 
 * Add new locale to variable in `util.ts`.
