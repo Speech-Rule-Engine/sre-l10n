@@ -22,7 +22,8 @@ import {
   saveUnicodeMaps,
   saveMaps,
   saveMapsYaml,
-  sreLocales
+  sreLocales,
+  SreL10n
 } from './util.js';
 import { locales } from '../../speech-rule-engine/js/l10n/l10n.js';
 
@@ -181,7 +182,7 @@ function convertSimpleMap(json: { [key: string]: string }) {
 }
 
 // Backward conversion
-const CrowdInSrc = `${__dirname}/../../mathmaps`;
+const CrowdInSrc = `${SreL10n}/mathmaps`;
 
 /**
  * @param iso
@@ -193,13 +194,22 @@ export function retrieveSymbols(iso: string) {
     const src = srcs[file];
     const dst = dsts[file];
     for (const entry of dst) {
+      if (entry.locale) {
+        entry.locale = iso;
+        continue;
+      }
       if (!entry.key) continue;
       const symb = String.fromCodePoint(parseInt(entry.key, 16));
       const lookup = src[symb];
       if (lookup) {
-        if (entry.mappings.default.default !== lookup) {
-          console.info(`New entry found for ${entry.key}: ${lookup}`);
-          entry.mappings.default.default = lookup;
+        if (entry.mappings.default) {
+          if (entry.mappings.default.default !== lookup) {
+            console.info(`New entry found for ${entry.key}: ${lookup}`);
+            entry.mappings.default.default = lookup;
+          }
+        } else if (entry.mappings.clearspeak.default !== lookup) {
+          console.info(`New entry found for clearspeak ${entry.key}: ${lookup}`);
+          entry.mappings.clearspeak.default = lookup;
         }
       }
       saveUnicodeMaps(iso, 'symbols', file, dst);
@@ -217,6 +227,10 @@ export function retrieveFunctions(iso: string) {
     const file = yaml.replace(/\.yaml$/, '.json');
     const dst = dsts[file];
     for (const entry of dst) {
+      if (entry.locale) {
+        entry.locale = iso;
+        continue;
+      }
       if (!entry.key) continue;
       const key = yamlKey(entry.key);
       const lookup = src[key];
@@ -242,6 +256,10 @@ export function retrieveUnits(iso: string) {
     const file = yaml.replace(/\.yaml$/, '.json');
     const dst = dsts[file];
     for (const entry of dst) {
+      if (entry.locale) {
+        entry.locale = iso;
+        continue;
+      }
       if (!entry.key) continue;
       const key = yamlKey(entry.key);
       const lookup = src[key];
