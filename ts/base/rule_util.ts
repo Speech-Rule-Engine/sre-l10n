@@ -24,7 +24,9 @@ import {
   JsonRules,
   loadMathmaps,
   LocaleRules,
-  saveMathmaps
+  saveJson,
+  saveMathmaps,
+  SreDir
 } from './util.js';
 
 /**
@@ -161,4 +163,51 @@ export function moveRules(domain: string, names: string[]) {
   const baseActionsSet = loadMathmaps('base', domain, 'actions');
   baseActionsSet.rules = baseActionsSet.rules.concat(baseActions);
   saveMathmaps('base', domain, baseActionsSet, 'actions');
+}
+
+/**
+ * Adds an empty rule set to the original mathmaps for new locales.
+ *
+ * @param {string} iso The iso code.
+ * @param {string} lang The language string.
+ */
+export function emptyRules(iso: string, lang: string) {
+  const baseJson = [
+    {
+      'modality': 'summary'
+    },
+    {
+      'modality': 'prefix'
+    },
+    {
+      'modality': 'speech',
+      'domain': 'mathspeak'
+    },
+    {
+      'modality': 'speech',
+      'domain': 'clearspeak'
+    }
+  ]
+  for (let json of baseJson) {
+    let newBase = Object.assign({
+      'locale': iso
+    }, json, {
+      'inherits': 'base',
+      'rules': []
+    });
+    saveJson(
+      `${json.domain || json.modality}_${lang}.json`,
+      newBase,
+      `${SreDir}/${iso}/rules/`);
+    let newActions = Object.assign({
+      'locale': iso
+    }, json, {
+      'kind': 'actions',
+      'rules': []
+    });
+    saveJson(
+      `${json.domain || json.modality}_${lang}_actions.json`,
+      newActions,
+      `${SreDir}/${iso}/rules/`);
+  }
 }
