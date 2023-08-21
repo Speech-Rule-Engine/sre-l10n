@@ -99,15 +99,17 @@ abstract class BaseSet {
   }
 
   private cleanAction(action: Action) {
-    for (let component of action.components) {
+    for (let i = 0, component; component = action.components[i]; i++) {
       if (
         component?.attributes?.['span'] &&
           component.attributes['span'] === 'LAST'
       ) {
         delete component.attributes['span'];
       }
-      if (component?.attributes?.['span']) {
-        console.log(component?.attributes?.['span']);
+      if (component?.attributes?.['span'] &&
+        action.components[i + 1] &&
+        component?.attributes?.['span'] === action.components[i + 1].content) {
+        delete component.attributes['span'];
       }
       if (component.attributes && !Object.keys(component.attributes).length) {
         delete component.attributes;
