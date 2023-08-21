@@ -1933,9 +1933,6 @@
         "content": "children/*[1]",
         "attributes": {
           "pause": "short"
-        },
-        "grammar": {
-          "EndRoot": false
         }
       }
     ]
@@ -1957,9 +1954,6 @@
         "content": "children/*[1]",
         "attributes": {
           "pause": "short"
-        },
-        "grammar": {
-          "EndRoot": false
         }
       }
     ]
@@ -1975,9 +1969,6 @@
         "content": "children/*[1]/children/*[1]",
         "attributes": {
           "pause": "short"
-        },
-        "grammar": {
-          "EndRoot": false
         }
       }
     ]
@@ -1999,9 +1990,6 @@
         "content": "children/*[1]/children/*[1]",
         "attributes": {
           "pause": "short"
-        },
-        "grammar": {
-          "EndRoot": false
         }
       }
     ]
@@ -2017,9 +2005,6 @@
         "content": "children/*[1]",
         "attributes": {
           "pause": "short"
-        },
-        "grammar": {
-          "EndRoot": false
         }
       }
     ]
@@ -2041,9 +2026,6 @@
         "content": "children/*[1]",
         "attributes": {
           "pause": "short"
-        },
-        "grammar": {
-          "EndRoot": false
         }
       }
     ]
@@ -2059,9 +2041,6 @@
         "content": "children/*[1]",
         "attributes": {
           "pause": "short"
-        },
-        "grammar": {
-          "EndRoot": false
         }
       }
     ]
@@ -2083,9 +2062,6 @@
         "content": "children/*[1]",
         "attributes": {
           "pause": "short"
-        },
-        "grammar": {
-          "EndRoot": false
         }
       }
     ]
@@ -2096,7 +2072,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "EndRoot": true
+          "?EndRoot": true
         }
       },
       {
@@ -2114,7 +2090,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "EndRoot": true
+          "?EndRoot": true
         }
       },
       {
@@ -2132,7 +2108,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "EndRoot": true
+          "?EndRoot": true
         }
       },
       {
@@ -2150,7 +2126,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "EndRoot": true
+          "?EndRoot": true
         }
       },
       {
@@ -2173,9 +2149,6 @@
         "content": "children/*[2]",
         "attributes": {
           "pause": "short"
-        },
-        "grammar": {
-          "EndRoot": false
         }
       }
     ]
@@ -2197,9 +2170,6 @@
         "content": "children/*[2]",
         "attributes": {
           "pause": "short"
-        },
-        "grammar": {
-          "EndRoot": false
         }
       }
     ]
@@ -2222,9 +2192,6 @@
         "content": "children/*[2]",
         "attributes": {
           "pause": "short"
-        },
-        "grammar": {
-          "EndRoot": false
         }
       }
     ]
@@ -2253,9 +2220,6 @@
         "content": "children/*[2]",
         "attributes": {
           "pause": "short"
-        },
-        "grammar": {
-          "EndRoot": false
         }
       }
     ]
@@ -2266,7 +2230,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "EndRoot": true
+          "?EndRoot": true
         }
       },
       {
@@ -2284,7 +2248,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "EndRoot": true
+          "?EndRoot": true
         }
       },
       {
@@ -2351,7 +2315,6 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "prefix": false,
           "addArticle": true
         }
       },
@@ -3049,7 +3012,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "EndMatrix": true
+          "?EndMatrix": true
         }
       },
       {
@@ -3064,7 +3027,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "EndMatrix": true
+          "?EndMatrix": true
         }
       },
       {
@@ -3079,7 +3042,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "EndMatrix": true
+          "?EndMatrix": true
         }
       },
       {
@@ -3234,7 +3197,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "EndMatrix": true
+          "?EndMatrix": true
         }
       },
       {
@@ -3249,7 +3212,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "EndMatrix": true
+          "?EndMatrix": true
         }
       },
       {
@@ -3264,7 +3227,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "EndMatrix": true
+          "?EndMatrix": true
         }
       },
       {
@@ -3279,7 +3242,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "EndMatrix": true
+          "?EndMatrix": true
         }
       },
       {
@@ -3324,7 +3287,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "layoutSummary": true
+          "?layoutSummary": true
         }
       }
     ]
@@ -3349,7 +3312,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "layoutSummary": true
+          "?layoutSummary": true
         }
       }
     ]
@@ -3448,7 +3411,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "layoutSummary": true
+          "?layoutSummary": true
         }
       }
     ]
@@ -3494,7 +3457,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "layoutSummary": true
+          "?layoutSummary": true
         }
       }
     ]
@@ -3540,7 +3503,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "layoutSummary": true
+          "?layoutSummary": true
         }
       }
     ]
@@ -3586,7 +3549,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "layoutSummary": true
+          "?layoutSummary": true
         }
       }
     ]
@@ -3632,7 +3595,7 @@
         "type": "NODE",
         "content": ".",
         "grammar": {
-          "layoutSummary": true
+          "?layoutSummary": true
         }
       }
     ]

@@ -473,7 +473,10 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"squared\""
+      "content": "\"squared\"",
+      "attributes": {
+        "span": "children/*[2]"
+      }
     }
   },
   "cube": {
@@ -483,7 +486,10 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"cubed\""
+      "content": "\"cubed\"",
+      "attributes": {
+        "span": "children/*[2]"
+      }
     }
   },
   "prime": {
