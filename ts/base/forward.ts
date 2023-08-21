@@ -94,8 +94,26 @@ abstract class BaseSet {
     if (kind !== 'Action') {
       throw new Error('Illegal rule type: ' + kind);
     }
-    const act = Action.fromString(action);
+    const act = this.cleanAction(Action.fromString(action));
     this.actions[name] = act;
+  }
+
+  private cleanAction(action: Action) {
+    for (let component of action.components) {
+      if (
+        component?.attributes?.['span'] &&
+          component.attributes['span'] === 'LAST'
+      ) {
+        delete component.attributes['span'];
+      }
+      if (component?.attributes?.['span']) {
+        console.log(component?.attributes?.['span']);
+      }
+      if (component.attributes && !Object.keys(component.attributes).length) {
+        delete component.attributes;
+      }
+    }
+    return action;
   }
 }
 
