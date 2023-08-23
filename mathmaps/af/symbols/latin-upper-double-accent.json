@@ -43,7 +43,9 @@
  "Ệ": "hoofletter e hoed onderpunt",
  "Ố": "hoofletter o hoed akkuut",
  "Ồ": "hoofletter o hoed gravis",
+ "Ổ": "hoofletter o hoed haak",
  "Ỗ": "hoofletter o hoed tilde",
+ "Ộ": "hoofletter o hoed onderpunt",
  "Ớ": "hoofletter o akkuut priem",
  "Ờ": "hoofletter o gravis priem",
  "Ở": "hoofletter o haak priem",
@@ -51,5 +53,7 @@
  "Ợ": "hoofletter o onderpunt priem",
  "Ứ": "hoofletter u akkuut priem",
  "Ừ": "hoofletter u gravis priem",
- "Ữ": "hoofletter u tilde priem"
+ "Ử": "hoofletter u haak priem",
+ "Ữ": "hoofletter u tilde priem",
+ "Ự": "hoofletter u onderpunt priem"
 }
