@@ -1070,7 +1070,7 @@ positive:
 # %2: The points of the angle, i.e., the right hand side of the angle symbol
 angle-measure:
 #vertaal
-  - $1: "the measure of"
+  - $1: "die hoekmaat"
   - %1
   - %2
 
@@ -1170,7 +1170,7 @@ fences-neutral-cardinality:
 # %1: The content between the neutral fences
 fences-neutral-determinant:
 #vertaal
-  - $1: "the determinant of"
+  - $1: "die determinant van"
   - %1 (pause:short)
 
 # Fences spoken as metrics.
@@ -1179,7 +1179,7 @@ fences-neutral-determinant:
 # %1: 
 fences-metric:
 #vertaal
-  - $1: "the metric of"
+  - $1: "die norm van"
   - %1 (pause:short)
 
 # Fences spoken as metrics with end indicator (AbsoluteValue_AbsEnd preference)
@@ -1188,7 +1188,7 @@ fences-metric:
 # %1: 
 fences-metric-absend:
 #vertaal
-  - $1: "the metric of"
+  - $1: "die norm van"  
   - %1 (pause:short)
   - $2: "end metric" (pause:short)
 
@@ -1234,7 +1234,7 @@ matrix-trivial:
 # %3: The determinant
 determinant:
 #vertaal
-  - $1: "the determinant of the"
+  - $1: "die determinant van die"  
   - %1
   - $2: "by"
   - %2
@@ -1249,7 +1249,7 @@ determinant:
 # %3: The determinant
 determinant-simple:
 #vertaal
-  - $1: "the determinant of the"
+  - $1: "die determinant van die"
   - %1
   - $2: "by"
   - %2
@@ -1350,7 +1350,7 @@ matrix-end-vector:
 matrix-end-determinant:
   - %1
 #vertaal
-  - $1: "end determinant"
+  - $1: "sluit determinant"
 
 # Base vector rule speaking dimensions and content of the vector with row indicators.
 # %1: The row number
@@ -1423,7 +1423,7 @@ vector-end-vector-endvector:
 vector-end-determinant:
   - %1
 #vertaal
-  - $1: "end determinant"
+  - $1: "sluit determinant"
 
 # Binomial coefficient.
 # %1: Sample quantity
@@ -1741,7 +1741,7 @@ line-segment:
 # %1: The element under the line
 conjugate:
 #vertaal
-  - $1: "the complex conjugate of"
+  - $1: "die komplekse toegevoegde van" 
   - %1
 
 # Equality with `def` as overscript
@@ -1818,7 +1818,8 @@ right-sub-list:
 # %2: Right hand side of the C
 choose:
   - %1
-  - $1: "kies"
+#vertaal  
+  - $1: "kombinasie"
   - %2
 
 # Permute operation given as letters with left and right superscripts
@@ -1828,7 +1829,7 @@ choose:
 permute:
   - %1
 #vertaal
-  - $1: "permute"
+  - $1: "permutasie"  
   - %2
 
 # A unit that is squared
@@ -1847,7 +1848,7 @@ unit-cubic:
 # %1: The unit
 unit-reciprocal:
 #vertaal
-  - $1: "reciprocal"
+  - $1: "resiprook"
   - %1
 
 # A reciprocal in singular

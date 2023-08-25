@@ -47,7 +47,7 @@ underscript:
 # LaTeX Example: $\sqrt{A}$
 radicand:
 #vertaal
-  - $1: "Radicand" (pause:200)
+  - $1: "Radikant" (pause:200) 
 
 # The index of a root
 # Example: Index 4
@@ -116,14 +116,14 @@ rightsuper-counted:
 # LaTeX Example: $(n \\ k)$
 choice:
 #vertaal
-  - $1: "Choice Quantity" (pause:200)
+  - $1: "Beskikbare Hoeveelheid" (pause:200)
 
 # The selection quantity in a binomial coefficient. I.e., the k in 'n choose k'
 # Example: Selection quantity k
 # LaTeX Example: $\begin{pmatrix}n \\k \end{pmatrix}$
 select:
 #vertaal
-  - $1: "Selection Quantity" (pause:200)
+  - $1: "Gekose Hoeveelheid" (pause:200
 
 # A row in a multiline equation, case statement or matrix
 # Example: 1st Row ...

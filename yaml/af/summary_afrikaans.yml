@@ -52,14 +52,14 @@ abstr-function-brief:
 # LaTeX Example: $\lim_{x\to \infty}$
 abstr-lim:
 #vertaal
-  - $1: "limit function"
+  - $1: "limiet funksie
 
 # Brief summary of limit function
 # Example: limit
 # LaTeX Example: $\lim_{x\to \infty}$
 abstr-lim-brief:
 #vertaal
-  - $1: "lim"
+  - $1: "limïet"
 
 # Summary of a fraction
 # Example: fraction
@@ -188,7 +188,7 @@ abstr-addition:
   - $1: "som met"
   - %1
 #vertaal
-  - $2: "summands"
+  - $2: "terme"  
 
 # Brief summary of an addition, regardless of fixed or variable number of elements 
 # Example: sum
@@ -202,7 +202,7 @@ abstr-addition-brief:
 abstr-addition-var:
 
 #vertaal
-  - $1: "sum with variable number of summands"
+  - $1: "som met wisselende aantal terme" 
 
 # Summary of a product with a fixed number of terms.
 # Example: product with three factors
@@ -248,7 +248,7 @@ abstr-vector-var:
 # Summary of binomial coefficient
 abstr-binomial:
 #vertaal
-  - $1: "binomial"
+  - $1: "binomiaal" 
 
 # Summary of a determinant
 # Example: 2 dimensional determinant
@@ -257,7 +257,7 @@ abstr-binomial:
 abstr-determinant:
   - %1
 #vertaal
-  - $1: "dimensional determinant"
+  - $1: "dimensionele determinant"  
 
 # Brief summary of a determinant
 # Example: determinant
@@ -408,10 +408,10 @@ abstr-relation:
 abstr-relation-seq:
   - %1
 #vertaal
-  - $1: "sequence"
+  - $1: "ketting"
   - $2: "met"
   - %2
-  - $3: "elemente"
+  - $3: "elemente"  
 
 # Brief summary of a relation sequence with three or more elements
 # Example: equality sequence
@@ -420,7 +420,7 @@ abstr-relation-seq:
 abstr-relation-seq-brief:
   - %1
 #vertaal
-  - $1: "sequence"
+  - $1: "ketting"  
 
 # Summary of a relation sequence with three or more elements containing at least one ellispis (...)
 # Example: equality sequence with variable number of elements elements
@@ -429,7 +429,7 @@ abstr-relation-seq-brief:
 abstr-relation-var:
   - %1
 #vertaal
-  - $1: "sequence"
+  - $1: "ketting"  
   - $2: "met wisselende hoeveelheid elemente"
 
 # Summary of a relation sequence with different relations
@@ -438,24 +438,23 @@ abstr-relation-var:
 # %1: Number of elements in the relation sequence
 abstr-multirel:
 #vertaal
-  - $1: "relation sequence"
+  - $1: "verwantskapsketting"
   - $2: "met"
   - %1
-  - $3: "elemente"
+  - $3: "elemente"  
 
 # Brief summary of a relation sequence with different relations
 # Example: Relation sequence
 # LaTeX Example: $a < b = c > d$
 abstr-multirel-brief:
 #vertaal
-  - $1: "relation sequence"
+  - $1: "verwantskapsketting" 
 
 # Summary of a relation sequence with different relations containing at least one ellispis (...)
 # Example: Relation sequence with variable number of elements
 # LaTeX Example: $a > b_0 = \ldots = b_n > c$
 abstr-multirel-var:
-#vertaal
-  - $1: "relation sequence with variable number of elements"
+  - $1: "verwantskapsketting met 'n wisselende aantal elemente" 
 
 # Summary of a table
 # Example: table with 2 rows and 3 columns
