@@ -1069,7 +1069,6 @@ positive:
 # %1: The angle symbol
 # %2: The points of the angle, i.e., the right hand side of the angle symbol
 angle-measure:
-#vertaal
   - $1: "die hoekmaat"
   - %1
   - %2
@@ -1169,7 +1168,6 @@ fences-neutral-cardinality:
 # LaTeX Example: $|A|$
 # %1: The content between the neutral fences
 fences-neutral-determinant:
-#vertaal
   - $1: "die determinant van"
   - %1 (pause:short)
 
@@ -1178,7 +1176,6 @@ fences-neutral-determinant:
 # LaTeX Example: $||a||$
 # %1: 
 fences-metric:
-#vertaal
   - $1: "die norm van"
   - %1 (pause:short)
 
@@ -1187,7 +1184,6 @@ fences-metric:
 # LaTeX Example: $||a||$
 # %1: 
 fences-metric-absend:
-#vertaal
   - $1: "die norm van"  
   - %1 (pause:short)
   - $2: "end metric" (pause:short)
@@ -1233,7 +1229,6 @@ matrix-trivial:
 # %2: The column number
 # %3: The determinant
 determinant:
-#vertaal
   - $1: "die determinant van die"  
   - %1
   - $2: "by"
@@ -1248,7 +1243,6 @@ determinant:
 # %2: The column number
 # %3: The determinant
 determinant-simple:
-#vertaal
   - $1: "die determinant van die"
   - %1
   - $2: "by"
@@ -1349,7 +1343,6 @@ matrix-end-vector:
 # %1: The matrix
 matrix-end-determinant:
   - %1
-#vertaal
   - $1: "sluit determinant"
 
 # Base vector rule speaking dimensions and content of the vector with row indicators.
@@ -1422,7 +1415,6 @@ vector-end-vector-endvector:
 # %1: The determinant
 vector-end-determinant:
   - %1
-#vertaal
   - $1: "sluit determinant"
 
 # Binomial coefficient.
@@ -1740,7 +1732,6 @@ line-segment:
 # LaTeX Example: $\overline{z}$
 # %1: The element under the line
 conjugate:
-#vertaal
   - $1: "die komplekse toegevoegde van" 
   - %1
 
@@ -1818,7 +1809,6 @@ right-sub-list:
 # %2: Right hand side of the C
 choose:
   - %1
-#vertaal  
   - $1: "kombinasie"
   - %2
 
@@ -1828,7 +1818,6 @@ choose:
 # %2: Right hand side of the P
 permute:
   - %1
-#vertaal
   - $1: "permutasie"  
   - %2
 
@@ -1847,7 +1836,6 @@ unit-cubic:
 # A unit to the power of negative one
 # %1: The unit
 unit-reciprocal:
-#vertaal
   - $1: "resiprook"
   - %1
 

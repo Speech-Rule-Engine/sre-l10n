@@ -51,14 +51,12 @@ abstr-function-brief:
 # Example: limit function
 # LaTeX Example: $\lim_{x\to \infty}$
 abstr-lim:
-#vertaal
   - $1: "limiet funksie
 
 # Brief summary of limit function
 # Example: limit
 # LaTeX Example: $\lim_{x\to \infty}$
 abstr-lim-brief:
-#vertaal
   - $1: "limïet"
 
 # Summary of a fraction
@@ -187,7 +185,6 @@ abstr-infixop-brief:
 abstr-addition:
   - $1: "som met"
   - %1
-#vertaal
   - $2: "terme"  
 
 # Brief summary of an addition, regardless of fixed or variable number of elements 
@@ -201,7 +198,6 @@ abstr-addition-brief:
 # LaTeX Example: $a + \ldots + c$
 abstr-addition-var:
 
-#vertaal
   - $1: "som met wisselende aantal terme" 
 
 # Summary of a product with a fixed number of terms.
@@ -247,7 +243,6 @@ abstr-vector-var:
 
 # Summary of binomial coefficient
 abstr-binomial:
-#vertaal
   - $1: "binomiaal" 
 
 # Summary of a determinant
@@ -256,21 +251,18 @@ abstr-binomial:
 # %1: The dimension of the determinant.
 abstr-determinant:
   - %1
-#vertaal
   - $1: "dimensionele determinant"  
 
 # Brief summary of a determinant
 # Example: determinant
 # LaTeX Example: $\begin{vmatrix} a & b \\ c & d \end{vmatrix}$
 abstr-determinant-brief:
-#vertaal
   - $1: "determinant"
 
 # Summary of a determinant with elliptic elements ( ...). Has to be recognisably square and in bar fences.
 # Example: n dimensional determinant
 # LaTeX Example: $\begin{vmatrix} a & \cdots & b \\ & \ddots & \\ c & \cdots & d \end{vmatrix}$
 abstr-determinant-var:
-#vertaal
   - $1: "n dimensional determinant"
 
 # Summary of a square matrix
@@ -407,7 +399,6 @@ abstr-relation:
 # %2: The number of elements in the sequence
 abstr-relation-seq:
   - %1
-#vertaal
   - $1: "ketting"
   - $2: "met"
   - %2
@@ -419,7 +410,6 @@ abstr-relation-seq:
 # %1: The separating relation symbol
 abstr-relation-seq-brief:
   - %1
-#vertaal
   - $1: "ketting"  
 
 # Summary of a relation sequence with three or more elements containing at least one ellispis (...)
@@ -428,7 +418,6 @@ abstr-relation-seq-brief:
 # %1: The separating relation symbol
 abstr-relation-var:
   - %1
-#vertaal
   - $1: "ketting"  
   - $2: "met wisselende hoeveelheid elemente"
 
@@ -437,7 +426,6 @@ abstr-relation-var:
 # LaTeX Example: $a < b = c > d$
 # %1: Number of elements in the relation sequence
 abstr-multirel:
-#vertaal
   - $1: "verwantskapsketting"
   - $2: "met"
   - %1
@@ -447,7 +435,6 @@ abstr-multirel:
 # Example: Relation sequence
 # LaTeX Example: $a < b = c > d$
 abstr-multirel-brief:
-#vertaal
   - $1: "verwantskapsketting" 
 
 # Summary of a relation sequence with different relations containing at least one ellispis (...)
