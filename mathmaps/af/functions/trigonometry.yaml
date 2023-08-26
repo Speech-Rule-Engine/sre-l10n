@@ -1,13 +1,13 @@
-en:
-  cos: cosine #Abbreviations: cos, cosine
-  cot: cotangent #Abbreviations: cot
-  csc: cosecant #Abbreviations: csc
-  sec: secant #Abbreviations: sec
-  sin: sine #Abbreviations: sin, sine
-  tan: tangent #Abbreviations: tan
-  arccos: arc cosine #Abbreviations: arccos
-  arccot: arc cotangent #Abbreviations: arccot
-  arccsc: arc cosecant #Abbreviations: arccsc
-  arcsec: arc secant #Abbreviations: arcsec
-  arcsin: arc sine #Abbreviations: arcsin
-  arctan: arc tangent #Abbreviations: arctan
+af:
+  cos: kosinus #Abbreviations: cos, cosine
+  cot: kotangens #Abbreviations: cot
+  csc: kosekans #Abbreviations: csc
+  sec: sekans #Abbreviations: sec
+  sin: sinus #Abbreviations: sin, sine
+  tan: tangens #Abbreviations: tan
+  arccos: boog kosinus #Abbreviations: arccos
+  arccot: boog kotangens #Abbreviations: arccot
+  arccsc: boog kosekans #Abbreviations: arccsc
+  arcsec: boog sekans #Abbreviations: arcsec
+  arcsin: boog sinus #Abbreviations: arcsin
+  arctan: boog tangens #Abbreviations: arctan
