@@ -221,8 +221,8 @@ continued-fraction-outer-brief:
   - %2
 
 # The inner part of a continuous fraction
-# %1: 
-# %2: 
+# %1:
+# %2:
 continued-fraction-inner:
   - $1: "StartFraction"
   - %1
@@ -230,8 +230,8 @@ continued-fraction-inner:
   - %2
 
 # The inner part of a continuous fraction in brief style
-# %1: 
-# %2: 
+# %1:
+# %2:
 continued-fraction-inner-brief:
   - $1: "StartFrac"
   - %1
@@ -239,8 +239,8 @@ continued-fraction-inner-brief:
   - %2
 
 # The inner part of a continuous fraction in super brief style
-# %1: 
-# %2: 
+# %1:
+# %2:
 continued-fraction-inner-sbrief:
   - $1: "Frac"
   - %1
@@ -315,7 +315,7 @@ counted-prime-multichar:
   - $1: "prime"
 
 # Expression modified above with an accent-like symbol
-# Example: modifying above b with right arrow 
+# Example: modifying above b with right arrow
 # LaTeX Example: $\stackrel{\rightarrow}{b}$
 # %1: The base element
 # %2: The modifying accent
@@ -326,7 +326,7 @@ overscore:
   - %2
 
 # Expression modified above with an accent-like symbol in brief and super brief style
-# Example: mod above b with right arrow 
+# Example: mod above b with right arrow
 # LaTeX Example: $\stackrel{\rightarrow}{b}$
 # %1: The base element
 # %2: The modifying accent
@@ -735,12 +735,12 @@ label:
   - $1: "label"
   - %1
 
-# An axiom, that is 
+# An axiom, that is
 # %1: The conclusions
 axiom:
   - $1: "axiom"
   - %1
 
-# 
+#
 empty-axiom:
   - $1: "empty axiom"

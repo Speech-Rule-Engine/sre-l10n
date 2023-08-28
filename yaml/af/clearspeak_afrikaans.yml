@@ -283,8 +283,8 @@ function-prefix-embell:
 # Application of a prefix functions to a non-simple argument.
 # Example: the sine of a over b
 # LaTeX Example: $\sine(\frac{a}{b})$
-# %1: 
-# %2: The 
+# %1:
+# %2: The
 function-prefix-fenced-or-frac-arg:
   - %1 (grammar:addArticle)
   - $1: "van"
@@ -897,8 +897,8 @@ fraction-generalendfrac:
 # Fallback rule for all fractions. This is for the general preference, where all fractions are announced the same.
 # Example: the fraction with numerator a and denominator c
 # LaTeX Example: $\frac{a}{c}$
-# %1: 
-# %2: 
+# %1:
+# %2:
 fraction-general:
   - $1: "die breuk met teller"
   - %1 (pause:short)
@@ -1084,8 +1084,8 @@ set-prefix-operators:
 # An inline division with forward slash or division sign
 # Example: a divided by b
 # LaTeX Example: $a/b$
-# %1: 
-# %2: 
+# %1:
+# %2:
 division:
   - %1
   - $1: "gedeel deur"
@@ -1174,7 +1174,7 @@ fences-neutral-determinant:
 # Fences spoken as metrics.
 # Example: the metric of a
 # LaTeX Example: $||a||$
-# %1: 
+# %1:
 fences-metric:
   - $1: "die norm van"
   - %1 (pause:short)
@@ -1182,9 +1182,9 @@ fences-metric:
 # Fences spoken as metrics with end indicator (AbsoluteValue_AbsEnd preference)
 # Example: the metric of a end metric
 # LaTeX Example: $||a||$
-# %1: 
+# %1:
 fences-metric-absend:
-  - $1: "die norm van"  
+  - $1: "die norm van"
   - %1 (pause:short)
   - $2: "end metric" (pause:short)
 
@@ -1229,7 +1229,7 @@ matrix-trivial:
 # %2: The column number
 # %3: The determinant
 determinant:
-  - $1: "die determinant van die"  
+  - $1: "die determinant van die"
   - %1
   - $2: "by"
   - %2
@@ -1732,7 +1732,7 @@ line-segment:
 # LaTeX Example: $\overline{z}$
 # %1: The element under the line
 conjugate:
-  - $1: "die komplekse toegevoegde van" 
+  - $1: "die komplekse toegevoegde van"
   - %1
 
 # Equality with `def` as overscript
@@ -1818,7 +1818,7 @@ choose:
 # %2: Right hand side of the P
 permute:
   - %1
-  - $1: "permutasie"  
+  - $1: "permutasie"
   - %2
 
 # A unit that is squared

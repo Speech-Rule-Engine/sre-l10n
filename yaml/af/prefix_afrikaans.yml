@@ -46,7 +46,7 @@ underscript:
 # Example: Radicand A
 # LaTeX Example: $\sqrt{A}$
 radicand:
-  - $1: "Radikant" (pause:200) 
+  - $1: "Radikant" (pause:200)
 
 # The index of a root
 # Example: Index 4
@@ -133,8 +133,8 @@ row:
 # A cell of a matrix or layout expression in full context (i.e., with row number)
 # Example: 2nd Row 1st Column c
 # LaTeX Example: $\begin{pmatrix}a & b \\c & d\end{pmatrix}$
-# %1: 
-# %2: 
+# %1:
+# %2:
 cell:
   - %1
   - %2
@@ -143,7 +143,7 @@ cell:
 # A cell of a matrix or layout expression in its row context only
 # Example: 1st Column c
 # LaTeX Example: $\begin{pmatrix}a & b \\c & d\end{pmatrix}$
-# %1: 
+# %1:
 cell-simple:
   - %1
   - $1: "Kolom" (pause:200)
