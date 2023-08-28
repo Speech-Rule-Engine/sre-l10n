@@ -80,7 +80,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"Radicand\"",
+        "content": "\"Radikant\"",
         "attributes": {
           "pause": "200"
         }
@@ -206,7 +206,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"Choice Quantity\"",
+        "content": "\"Beskikbare Hoeveelheid\"",
         "attributes": {
           "pause": "200"
         }
@@ -217,7 +217,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"Selection Quantity\"",
+        "content": "\"Gekose Hoeveelheid\"",
         "attributes": {
           "pause": "200"
         }

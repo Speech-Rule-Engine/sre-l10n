@@ -21,7 +21,7 @@
     "$1: \"Onderskrif\" (pause:200)"
   ],
   "radicand": [
-    "$1: \"Radicand\" (pause:200)"
+    "$1: \"Radikant\" (pause:200)"
   ],
   "index": [
     "$1: \"Indeks\" (pause:200)"
@@ -55,10 +55,10 @@
     "$1: \"Regter Boskrif\" (pause:200)"
   ],
   "choice": [
-    "$1: \"Choice Quantity\" (pause:200)"
+    "$1: \"Beskikbare Hoeveelheid\" (pause:200)"
   ],
   "select": [
-    "$1: \"Selection Quantity\" (pause:200)"
+    "$1: \"Gekose Hoeveelheid\" (pause:200)"
   ],
   "row": [
     "%1",

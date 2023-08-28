@@ -65,7 +65,7 @@
   "radicand": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Radicand\"",
+      "content": "\"Radikant\"",
       "attributes": {
         "pause": "200"
       }
@@ -171,7 +171,7 @@
   "choice": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Choice Quantity\"",
+      "content": "\"Beskikbare Hoeveelheid\"",
       "attributes": {
         "pause": "200"
       }
@@ -180,7 +180,7 @@
   "select": {
     "$1": {
       "type": "TEXT",
-      "content": "\"Selection Quantity\"",
+      "content": "\"Gekose Hoeveelheid\"",
       "attributes": {
         "pause": "200"
       }
