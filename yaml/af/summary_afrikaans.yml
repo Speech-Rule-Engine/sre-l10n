@@ -51,7 +51,7 @@ abstr-function-brief:
 # Example: limit function
 # LaTeX Example: $\lim_{x\to \infty}$
 abstr-lim:
-  - $1: "limiet funksie
+  - $1: "limiet funksie"
 
 # Brief summary of limit function
 # Example: limit
