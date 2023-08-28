@@ -135,7 +135,7 @@ abstr-root-nested-end:
 # %1: The index of the root
 abstr-root-nested:
   - $1: "genesde wortel van indeks"
-    - %1
+  - %1
 
 # Brief summary of a nested root, irrespective of whether the inner roots are square roots or other indexed roots
 # Example: nested root
