@@ -3,7 +3,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"collapsed\""
+        "content": "\"opgesom\""
       },
       {
         "type": "NODE",
@@ -42,7 +42,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"German\""
+        "content": "\"Duits\""
       },
       {
         "type": "NODE",
@@ -57,7 +57,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"bold German\""
+        "content": "\"kursief Duits\""
       },
       {
         "type": "NODE",
@@ -72,7 +72,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"and so on\""
+        "content": "\"en so voorts\""
       }
     ]
   },
@@ -80,7 +80,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"and so on up to\""
+        "content": "\"en so voorts tot by\""
       }
     ]
   },
@@ -95,7 +95,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"evaluated at\""
+        "content": "\"geëvalueer by\""
       },
       {
         "type": "NODE",
@@ -117,7 +117,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"evaluated at\""
+        "content": "\"geëvalueer by\""
       },
       {
         "type": "NODE",
@@ -128,7 +128,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"minus the same expression evaluated at\""
+        "content": "\"minus dieselfde uitdrukking geëvalueer by\""
       },
       {
         "type": "NODE",
@@ -143,7 +143,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"such that\""
+        "content": "\"sodat\""
       }
     ]
   },
@@ -151,7 +151,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"divides\""
+        "content": "\"gedeel deur\""
       }
     ]
   },
@@ -159,7 +159,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"divides\""
+        "content": "\"gedeel deur\""
       }
     ]
   },
@@ -167,7 +167,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"given\""
+        "content": "\"gegee\""
       }
     ]
   },
@@ -175,7 +175,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"is a member of\""
+        "content": "\"is 'n element van\""
       }
     ]
   },
@@ -183,7 +183,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"is a member of\""
+        "content": "\"is 'n element van\""
       }
     ]
   },
@@ -191,7 +191,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"is an element of\""
+        "content": "\"is 'n element van\""
       }
     ]
   },
@@ -207,7 +207,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"belongs to\""
+        "content": "\"behoord aan\""
       }
     ]
   },
@@ -215,7 +215,15 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"is not a member of\""
+        "content": "\"is nie 'n element van\""
+      },
+      {
+        "type": "TEXT",
+        "content": "%1:"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"nie\""
       }
     ]
   },
@@ -223,7 +231,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"is not a member of\""
+        "content": "\"is nie 'n element vanf\""
       }
     ]
   },
@@ -231,7 +239,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"is not an element of\""
+        "content": "\"is nie 'n element van\""
       }
     ]
   },
@@ -239,7 +247,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"is not in\""
+        "content": "\"is nie in\""
       }
     ]
   },
@@ -247,7 +255,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"does not belong to\""
+        "content": "\"behoord nie aan\""
       }
     ]
   },
@@ -263,7 +271,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"member of\""
+        "content": "\"element van\""
       }
     ]
   },
@@ -271,7 +279,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"element of\""
+        "content": "\"element van\""
       }
     ]
   },
@@ -287,7 +295,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"belonging to\""
+        "content": "\"behoord aan\""
       }
     ]
   },
@@ -295,7 +303,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"not in\""
+        "content": "\"nie in\""
       }
     ]
   },
@@ -303,7 +311,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"not a member of\""
+        "content": "\"nie 'n element van\""
       }
     ]
   },
@@ -311,7 +319,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"not an element of\""
+        "content": "\"nie 'n element van\""
       }
     ]
   },
@@ -319,7 +327,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"not in\""
+        "content": "\"nie in\""
       }
     ]
   },
@@ -327,7 +335,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"not belonging to\""
+        "content": "\"behoordnie aan\""
       }
     ]
   },
@@ -335,7 +343,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the\""
+        "content": "\"die\""
       },
       {
         "type": "NODE",
@@ -354,7 +362,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"of\""
+        "content": "\"van\""
       },
       {
         "type": "NODE",
@@ -373,7 +381,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"of\"",
+        "content": "\"van\"",
         "attributes": {
           "pause": "short"
         }
@@ -395,7 +403,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"of\"",
+        "content": "\"van\"",
         "attributes": {
           "pause": "short"
         }
@@ -423,7 +431,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"times\""
+        "content": "\"maal\""
       },
       {
         "type": "NODE",
@@ -496,7 +504,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"of\""
+        "content": "\"van\""
       },
       {
         "type": "NODE",
@@ -524,7 +532,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"of\"",
+        "content": "\"van\"",
         "attributes": {
           "pause": "short"
         }
@@ -573,7 +581,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"of\""
+        "content": "\"van\""
       },
       {
         "type": "NODE",
@@ -592,7 +600,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"of\"",
+        "content": "\"van\"",
         "attributes": {
           "pause": "short"
         }
@@ -614,7 +622,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"of\"",
+        "content": "\"van\"",
         "attributes": {
           "pause": "short"
         }
@@ -642,7 +650,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"of\""
+        "content": "\"van\""
       },
       {
         "type": "NODE",
@@ -663,7 +671,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"the inverse\""
+        "content": "\"die inverse\""
       },
       {
         "type": "NODE",
@@ -671,7 +679,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"of\""
+        "content": "\"van\""
       },
       {
         "type": "NODE",
@@ -696,7 +704,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"of\""
+        "content": "\"van\""
       },
       {
         "type": "NODE",
@@ -717,7 +725,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"arc\""
+        "content": "\"boog\""
       },
       {
         "type": "NODE",
@@ -742,7 +750,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"arc\""
+        "content": "\"boog\""
       },
       {
         "type": "NODE",
@@ -770,7 +778,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"arc\""
+        "content": "\"boog\""
       },
       {
         "type": "NODE",
@@ -778,7 +786,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"of\""
+        "content": "\"van\""
       },
       {
         "type": "NODE",
@@ -813,7 +821,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"power of\""
+        "content": "\"mag van\""
       },
       {
         "type": "NODE",
@@ -829,7 +837,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"raised to the exponent\"",
+        "content": "\"verhef tot die eksponent\"",
         "attributes": {
           "pause": "short"
         }
@@ -843,7 +851,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end exponent\"",
+        "content": "\"end eksponent\"",
         "attributes": {
           "pause": "short"
         }
@@ -858,7 +866,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"raised to the\""
+        "content": "\"verhef tot die\""
       },
       {
         "type": "NODE",
@@ -869,7 +877,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"power\"",
+        "content": "\"mag\"",
         "attributes": {
           "pause": "short"
         }
@@ -884,7 +892,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"raised to the\""
+        "content": "\"verhef tot die\""
       },
       {
         "type": "NODE",
@@ -895,7 +903,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"power\""
+        "content": "\"mag\""
       }
     ]
   },
@@ -907,7 +915,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"to the\""
+        "content": "\"tot die\""
       },
       {
         "type": "NODE",
@@ -919,7 +927,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"power\"",
+        "content": "\"mag\"",
         "attributes": {
           "pause": "short"
         }
@@ -934,7 +942,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"to the\""
+        "content": "\"tot die\""
       },
       {
         "type": "NODE",
@@ -945,7 +953,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"power\"",
+        "content": "\"mag\"",
         "attributes": {
           "pause": "short"
         }
@@ -964,7 +972,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"power of\"",
+        "content": "\"mag van\"",
         "attributes": {
           "pause": "short"
         }
@@ -994,7 +1002,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"to the\""
+        "content": "\"tot die\""
       },
       {
         "type": "NODE",
@@ -1017,7 +1025,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"to the\""
+        "content": "\"tot die\""
       },
       {
         "type": "NODE",
@@ -1039,7 +1047,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"raised to the exponent\"",
+        "content": "\"verhef tot die eksponent\"",
         "attributes": {
           "pause": "short"
         }
@@ -1053,7 +1061,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end exponent\"",
+        "content": "\"end eksponent\"",
         "attributes": {
           "pause": "short"
         }
@@ -1068,7 +1076,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"to the\""
+        "content": "\"tot die\""
       },
       {
         "type": "NODE",
@@ -1080,7 +1088,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"power\"",
+        "content": "\"mag\"",
         "attributes": {
           "pause": "short"
         }
@@ -1095,7 +1103,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"to the\""
+        "content": "\"tot die\""
       },
       {
         "type": "NODE",
@@ -1106,7 +1114,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"power\"",
+        "content": "\"mag\"",
         "attributes": {
           "pause": "short"
         }
@@ -1121,7 +1129,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"to the\""
+        "content": "\"tot die\""
       },
       {
         "type": "NODE",
@@ -1133,7 +1141,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"power\"",
+        "content": "\"mag\"",
         "attributes": {
           "pause": "short"
         }
@@ -1148,7 +1156,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"raised to the exponent\"",
+        "content": "\"verhef tot die eksponent\"",
         "attributes": {
           "pause": "short"
         }
@@ -1162,7 +1170,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end exponent\"",
+        "content": "\"end eksponent\"",
         "attributes": {
           "pause": "short"
         }
@@ -1177,7 +1185,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"raised to the power\""
+        "content": "\"verhef tot die mag\""
       },
       {
         "type": "NODE",
@@ -1199,7 +1207,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"raised to the exponent\"",
+        "content": "\"verhef tot die eksponent\"",
         "attributes": {
           "pause": "short"
         }
@@ -1213,7 +1221,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end exponent\"",
+        "content": "\"end eksponent\"",
         "attributes": {
           "pause": "short"
         }
@@ -1231,7 +1239,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"th\""
+        "content": "\"de\""
       }
     ]
   },
@@ -1255,7 +1263,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"zero\""
+        "content": "\"nul\""
       }
     ]
   },
@@ -1271,7 +1279,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"zero\""
+        "content": "\"nul\""
       }
     ]
   },
@@ -1283,7 +1291,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"squared\"",
+        "content": "\"kwadraat\"",
         "attributes": {
           "span": "children/*[2]"
         }
@@ -1298,7 +1306,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"cubed\"",
+        "content": "\"tot die mag drie\"",
         "attributes": {
           "span": "children/*[2]"
         }
@@ -1309,7 +1317,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the point with coordinates\""
+        "content": "\"die punt met koördinate\""
       },
       {
         "type": "NODE",
@@ -1321,7 +1329,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the interval from\""
+        "content": "\"die interval van\""
       },
       {
         "type": "NODE",
@@ -1329,7 +1337,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"to\""
+        "content": "\"tot\""
       },
       {
         "type": "NODE",
@@ -1351,7 +1359,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"not including\""
+        "content": "\"nie insluitend\""
       },
       {
         "type": "NODE",
@@ -1359,7 +1367,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"or\""
+        "content": "\"of\""
       },
       {
         "type": "NODE",
@@ -1371,7 +1379,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"including\""
+        "content": "\"insluitend\""
       },
       {
         "type": "NODE",
@@ -1382,7 +1390,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"but not including\""
+        "content": "\"maar nie insluitend\""
       },
       {
         "type": "NODE",
@@ -1394,7 +1402,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"not including\""
+        "content": "\"nie insluitend\""
       },
       {
         "type": "NODE",
@@ -1405,7 +1413,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"but including\""
+        "content": "\"maar insluitend\""
       },
       {
         "type": "NODE",
@@ -1417,7 +1425,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"including\""
+        "content": "\"insluitend\""
       },
       {
         "type": "NODE",
@@ -1425,7 +1433,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"and\""
+        "content": "\"en\""
       },
       {
         "type": "NODE",
@@ -1437,7 +1445,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"not including\""
+        "content": "\"nie insluitend\""
       },
       {
         "type": "NODE",
@@ -1449,7 +1457,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"not including\""
+        "content": "\"nie insluitend\""
       },
       {
         "type": "NODE",
@@ -1461,7 +1469,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"including\""
+        "content": "\"insluitend\""
       },
       {
         "type": "NODE",
@@ -1473,7 +1481,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"including\""
+        "content": "\"insluitend\""
       },
       {
         "type": "NODE",
@@ -1485,7 +1493,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the empty set\""
+        "content": "\"die leë versameling\""
       }
     ]
   },
@@ -1493,7 +1501,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the set of all\""
+        "content": "\"die versameling van alle\""
       },
       {
         "type": "NODE",
@@ -1501,7 +1509,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"such that\""
+        "content": "\"sodat\""
       },
       {
         "type": "NODE",
@@ -1513,7 +1521,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the set\""
+        "content": "\"die versameling\""
       },
       {
         "type": "NODE",
@@ -1525,7 +1533,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the set of\""
+        "content": "\"die versameling van\""
       },
       {
         "type": "NODE",
@@ -1533,7 +1541,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"such that\""
+        "content": "\"sodat\""
       },
       {
         "type": "NODE",
@@ -1555,7 +1563,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"sub\""
+        "content": "\"onderskrif\""
       },
       {
         "type": "NODE",
@@ -1574,7 +1582,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"base\""
+        "content": "\"basis\""
       },
       {
         "type": "NODE",
@@ -1590,7 +1598,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"sub\""
+        "content": "\"onderskrif\""
       },
       {
         "type": "NODE",
@@ -1608,14 +1616,14 @@
       },
       {
         "type": "TEXT",
-        "content": "\"the\"",
+        "content": "\"die\"",
         "grammar": {
           "article": true
         }
       },
       {
         "type": "TEXT",
-        "content": "\"fraction with numerator\""
+        "content": "\"breuk met teller\""
       },
       {
         "type": "NODE",
@@ -1626,7 +1634,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"and denominator\""
+        "content": "\"en noemer\""
       },
       {
         "type": "NODE",
@@ -1647,14 +1655,14 @@
       },
       {
         "type": "TEXT",
-        "content": "\"the\"",
+        "content": "\"die\"",
         "grammar": {
           "article": true
         }
       },
       {
         "type": "TEXT",
-        "content": "\"fraction with numerator\""
+        "content": "\"breuk met teller\""
       },
       {
         "type": "NODE",
@@ -1665,7 +1673,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"and denominator\""
+        "content": "\"en noemer\""
       },
       {
         "type": "NODE",
@@ -1690,7 +1698,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"over\""
+        "content": "\"oor\""
       },
       {
         "type": "NODE",
@@ -1715,7 +1723,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"over\""
+        "content": "\"oor\""
       },
       {
         "type": "NODE",
@@ -1740,7 +1748,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"over\""
+        "content": "\"oor\""
       },
       {
         "type": "NODE",
@@ -1773,7 +1781,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"over\""
+        "content": "\"oor\""
       },
       {
         "type": "NODE",
@@ -1798,7 +1806,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"over\""
+        "content": "\"oor\""
       },
       {
         "type": "NODE",
@@ -1809,7 +1817,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end fraction\"",
+        "content": "\"end breuk\"",
         "attributes": {
           "pause": "short"
         }
@@ -1826,7 +1834,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"the fraction\""
+        "content": "\"die breuk\""
       },
       {
         "type": "NODE",
@@ -1834,7 +1842,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"over\""
+        "content": "\"oor\""
       },
       {
         "type": "NODE",
@@ -1880,7 +1888,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"the fraction with numerator\""
+        "content": "\"die breuk met teller\""
       },
       {
         "type": "NODE",
@@ -1891,7 +1899,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"and denominator\""
+        "content": "\"en noemer\""
       },
       {
         "type": "NODE",
@@ -1902,7 +1910,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end fraction\"",
+        "content": "\"end breuk\"",
         "attributes": {
           "pause": "short"
         }
@@ -1919,7 +1927,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"the fraction with numerator\""
+        "content": "\"die breuk met teller\""
       },
       {
         "type": "NODE",
@@ -1930,7 +1938,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"and denominator\""
+        "content": "\"en noemer\""
       },
       {
         "type": "NODE",
@@ -1966,7 +1974,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end fraction\"",
+        "content": "\"end breuk\"",
         "attributes": {
           "pause": "short"
         }
@@ -1987,7 +1995,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"over\""
+        "content": "\"oor\""
       },
       {
         "type": "NODE",
@@ -2010,7 +2018,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the square root of\""
+        "content": "\"die vierkantswortel van\""
       },
       {
         "type": "NODE",
@@ -2031,7 +2039,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"the square root of\""
+        "content": "\"die vierkantswortel van\""
       },
       {
         "type": "NODE",
@@ -2067,7 +2075,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"the negative square root of\""
+        "content": "\"die negatiewe vierkantswortel van\""
       },
       {
         "type": "NODE",
@@ -2082,7 +2090,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the positive square root of\""
+        "content": "\"die positiewe vierkantswortel van\""
       },
       {
         "type": "NODE",
@@ -2103,7 +2111,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"the positive square root of\""
+        "content": "\"die positiewe vierkantswortel van\""
       },
       {
         "type": "NODE",
@@ -2118,7 +2126,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the positive square root of\""
+        "content": "\"die positiewe vierkantswortel van\""
       },
       {
         "type": "NODE",
@@ -2139,7 +2147,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"the positive square root of\""
+        "content": "\"die positiewe vierkantswortel van\""
       },
       {
         "type": "NODE",
@@ -2161,7 +2169,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end root\"",
+        "content": "\"end wortel\"",
         "attributes": {
           "pause": "short"
         }
@@ -2179,7 +2187,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end root\"",
+        "content": "\"end wortel\"",
         "attributes": {
           "pause": "short"
         }
@@ -2197,7 +2205,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end root\"",
+        "content": "\"end wortel\"",
         "attributes": {
           "pause": "short"
         }
@@ -2215,7 +2223,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end root\"",
+        "content": "\"end wortel\"",
         "attributes": {
           "pause": "short"
         }
@@ -2226,7 +2234,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the cube root of\""
+        "content": "\"die derdemagswortel van\""
       },
       {
         "type": "NODE",
@@ -2247,7 +2255,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"the cube root of\""
+        "content": "\"die derdemagswortel van\""
       },
       {
         "type": "NODE",
@@ -2270,7 +2278,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"root of\""
+        "content": "\"wortel van\""
       },
       {
         "type": "NODE",
@@ -2299,7 +2307,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"root of\""
+        "content": "\"wortel van\""
       },
       {
         "type": "NODE",
@@ -2321,7 +2329,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end root\"",
+        "content": "\"end wortel\"",
         "attributes": {
           "pause": "short"
         }
@@ -2339,7 +2347,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end root\"",
+        "content": "\"end wortel\"",
         "attributes": {
           "pause": "short"
         }
@@ -2350,7 +2358,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"negative\"",
+        "content": "\"negatiewe\"",
         "attributes": {
           "span": "content/*[1]"
         }
@@ -2365,7 +2373,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"positive\"",
+        "content": "\"positief\"",
         "attributes": {
           "span": "content/*[1]"
         }
@@ -2380,7 +2388,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the measure of\""
+        "content": "\"die hoekmaat\""
       },
       {
         "type": "NODE",
@@ -2406,7 +2414,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"of\""
+        "content": "\"van\""
       }
     ]
   },
@@ -2418,7 +2426,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"divided by\"",
+        "content": "\"gedeel deur\"",
         "attributes": {
           "span": "content/*[1]"
         }
@@ -2444,7 +2452,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the natural numbers\""
+        "content": "\"die natuurlike getalle\""
       }
     ]
   },
@@ -2452,7 +2460,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the integers\""
+        "content": "\"die heelgetalle\""
       }
     ]
   },
@@ -2460,7 +2468,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the rational numbers\""
+        "content": "\"die rasionele getalle\""
       }
     ]
   },
@@ -2468,7 +2476,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the real numbers\""
+        "content": "\"die riële getalle\""
       }
     ]
   },
@@ -2476,7 +2484,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the complex numbers\""
+        "content": "\"die komplekse getalle\""
       }
     ]
   },
@@ -2484,7 +2492,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the natural numbers with zero\""
+        "content": "\"die natuurlike getalle met nul\""
       }
     ]
   },
@@ -2492,7 +2500,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the positive integers\""
+        "content": "\"die positiewe heelgetalle\""
       }
     ]
   },
@@ -2500,7 +2508,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the negative integers\""
+        "content": "\"die negatiewe heelgetalle\""
       }
     ]
   },
@@ -2508,7 +2516,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the positive rational numbers\""
+        "content": "\"die positiewe rasionele getalle\""
       }
     ]
   },
@@ -2516,7 +2524,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the negative rational numbers\""
+        "content": "\"die negatiewe rasionele getalle\""
       }
     ]
   },
@@ -2530,7 +2538,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"the absolute value of\""
+        "content": "\"die absolute waarde van\""
       },
       {
         "type": "NODE",
@@ -2551,7 +2559,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"the absolute value of\"",
+        "content": "\"die absolute waarde van\"",
         "attributes": {
           "span": "content/*[1]"
         }
@@ -2565,7 +2573,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end absolute value\"",
+        "content": "\"end absolute waarde van\"",
         "attributes": {
           "span": "content/*[1]",
           "pause": "short"
@@ -2583,7 +2591,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"the cardinality of\""
+        "content": "\"die kardinaliteit van\""
       },
       {
         "type": "NODE",
@@ -2604,7 +2612,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"the determinant of\""
+        "content": "\"die determinant van\""
       },
       {
         "type": "NODE",
@@ -2625,7 +2633,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"the metric of\""
+        "content": "\"die norm van\""
       },
       {
         "type": "NODE",
@@ -2646,7 +2654,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"the metric of\"",
+        "content": "\"die norm van\"",
         "attributes": {
           "span": "content/*[1]"
         }
@@ -2672,7 +2680,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the\""
+        "content": "\"die\""
       },
       {
         "type": "TEXT",
@@ -2688,7 +2696,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"matrix\"",
+        "content": "\"matriks\"",
         "attributes": {
           "pause": "long"
         }
@@ -2708,7 +2716,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the\""
+        "content": "\"die\""
       },
       {
         "type": "TEXT",
@@ -2724,7 +2732,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"matrix\"",
+        "content": "\"matriks\"",
         "attributes": {
           "pause": "long"
         }
@@ -2747,7 +2755,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the 1 by 1 matrix with entry\""
+        "content": "\"die 1 by 1 matriks met waarde\""
       },
       {
         "type": "NODE",
@@ -2762,7 +2770,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the determinant of the\""
+        "content": "\"die determinant van die\""
       },
       {
         "type": "TEXT",
@@ -2778,7 +2786,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"matrix\"",
+        "content": "\"matriks\"",
         "attributes": {
           "pause": "long"
         }
@@ -2801,7 +2809,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the determinant of the\""
+        "content": "\"die determinant van die\""
       },
       {
         "type": "TEXT",
@@ -2817,7 +2825,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"matrix\"",
+        "content": "\"matriks\"",
         "attributes": {
           "pause": "long"
         }
@@ -2837,7 +2845,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the\""
+        "content": "\"die\""
       },
       {
         "type": "TEXT",
@@ -2853,7 +2861,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"column matrix\"",
+        "content": "\"kolom matriks\"",
         "attributes": {
           "pause": "long"
         }
@@ -2876,7 +2884,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the\""
+        "content": "\"die\""
       },
       {
         "type": "TEXT",
@@ -2892,7 +2900,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"column matrix\"",
+        "content": "\"kolom matriks\"",
         "attributes": {
           "pause": "long"
         }
@@ -2915,7 +2923,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the\""
+        "content": "\"die\""
       },
       {
         "type": "TEXT",
@@ -2931,7 +2939,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"column matrix\"",
+        "content": "\"kolom matriks\"",
         "attributes": {
           "pause": "long"
         }
@@ -2954,7 +2962,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the\""
+        "content": "\"die\""
       },
       {
         "type": "TEXT",
@@ -2970,7 +2978,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"row matrix\"",
+        "content": "\"ry matriks\"",
         "attributes": {
           "pause": "long"
         }
@@ -2993,7 +3001,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the\""
+        "content": "\"die\""
       },
       {
         "type": "TEXT",
@@ -3009,7 +3017,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"row matrix\"",
+        "content": "\"ry matriks\"",
         "attributes": {
           "pause": "long"
         }
@@ -3032,7 +3040,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the\""
+        "content": "\"die\""
       },
       {
         "type": "TEXT",
@@ -3048,7 +3056,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"row matrix\"",
+        "content": "\"ry matriks\"",
         "attributes": {
           "pause": "long"
         }
@@ -3093,7 +3101,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end matrix\""
+        "content": "\"end matriks\""
       }
     ]
   },
@@ -3108,7 +3116,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end matrix\""
+        "content": "\"end matriks\""
       }
     ]
   },
@@ -3123,7 +3131,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end determinant\""
+        "content": "\"sluit determinant\""
       }
     ]
   },
@@ -3131,7 +3139,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the\""
+        "content": "\"die\""
       },
       {
         "type": "TEXT",
@@ -3147,7 +3155,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"column vector\"",
+        "content": "\"kolom vektor\"",
         "attributes": {
           "pause": "long"
         }
@@ -3170,7 +3178,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the\""
+        "content": "\"die\""
       },
       {
         "type": "TEXT",
@@ -3186,7 +3194,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"column vector\"",
+        "content": "\"kolom vektor\"",
         "attributes": {
           "pause": "long"
         }
@@ -3209,7 +3217,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the\""
+        "content": "\"die\""
       },
       {
         "type": "TEXT",
@@ -3225,7 +3233,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"row vector\"",
+        "content": "\"ry vektor\"",
         "attributes": {
           "pause": "long"
         }
@@ -3248,7 +3256,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the\""
+        "content": "\"die\""
       },
       {
         "type": "TEXT",
@@ -3264,7 +3272,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"row vector\"",
+        "content": "\"ry vektor\"",
         "attributes": {
           "pause": "long"
         }
@@ -3294,7 +3302,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end matrix\""
+        "content": "\"end matriks\""
       }
     ]
   },
@@ -3309,7 +3317,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end vector\""
+        "content": "\"end vektor\""
       }
     ]
   },
@@ -3324,7 +3332,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end vector\""
+        "content": "\"end vektor\""
       }
     ]
   },
@@ -3339,7 +3347,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end determinant\""
+        "content": "\"sluit determinant\""
       }
     ]
   },
@@ -3351,7 +3359,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"choose\""
+        "content": "\"kies\""
       },
       {
         "type": "NODE",
@@ -3373,7 +3381,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"lines\""
+        "content": "\"lyne\""
       },
       {
         "type": "NODE",
@@ -3398,7 +3406,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"cases\""
+        "content": "\"gevalle\""
       },
       {
         "type": "NODE",
@@ -3434,7 +3442,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"blank\""
+        "content": "\"leeg\""
       }
     ]
   },
@@ -3442,7 +3450,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"blank\""
+        "content": "\"leeg\""
       }
     ]
   },
@@ -3450,7 +3458,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"blank\""
+        "content": "\"leeg\""
       }
     ]
   },
@@ -3458,7 +3466,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"blank\""
+        "content": "\"leeg\""
       }
     ]
   },
@@ -3497,7 +3505,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"cases\""
+        "content": "\"gevalle\""
       },
       {
         "type": "NODE",
@@ -3543,7 +3551,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"equations\""
+        "content": "\"vergelykings\""
       },
       {
         "type": "NODE",
@@ -3589,7 +3597,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"steps\""
+        "content": "\"stappe\""
       },
       {
         "type": "NODE",
@@ -3635,7 +3643,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"rows\""
+        "content": "\"rye\""
       },
       {
         "type": "NODE",
@@ -3681,7 +3689,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"constraints\""
+        "content": "\"beperkings\""
       },
       {
         "type": "NODE",
@@ -3724,7 +3732,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"of\""
+        "content": "\"van\""
       },
       {
         "type": "NODE",
@@ -3743,7 +3751,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"from\""
+        "content": "\"vanaf\""
       },
       {
         "type": "NODE",
@@ -3751,7 +3759,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"to\""
+        "content": "\"tot\""
       },
       {
         "type": "NODE",
@@ -3767,7 +3775,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"over\""
+        "content": "\"oor\""
       },
       {
         "type": "NODE",
@@ -3786,7 +3794,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"under\""
+        "content": "\"onder\""
       },
       {
         "type": "NODE",
@@ -3808,7 +3816,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"of\""
+        "content": "\"van\""
       },
       {
         "type": "NODE",
@@ -3837,7 +3845,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"of\""
+        "content": "\"van\""
       },
       {
         "type": "NODE",
@@ -3856,7 +3864,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"under\""
+        "content": "\"onder\""
       },
       {
         "type": "NODE",
@@ -3875,7 +3883,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"to\""
+        "content": "\"tot\""
       },
       {
         "type": "NODE",
@@ -3891,7 +3899,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"over\""
+        "content": "\"oor\""
       },
       {
         "type": "NODE",
@@ -3910,7 +3918,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"from\""
+        "content": "\"vanaf\""
       },
       {
         "type": "NODE",
@@ -3926,7 +3934,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"and\""
+        "content": "\"en\""
       },
       {
         "type": "NODE",
@@ -3938,7 +3946,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"number\""
+        "content": "\"getal\""
       },
       {
         "type": "MULTI",
@@ -3953,7 +3961,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the repeating decimal\""
+        "content": "\"die herhalende dessimaal\""
       },
       {
         "type": "NODE",
@@ -3964,7 +3972,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"point followed by repeating digits\""
+        "content": "\"punt gevolg deur herhalende syfers\""
       },
       {
         "type": "NODE",
@@ -3979,7 +3987,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the repeating decimal\""
+        "content": "\"die herhalende dessimaal\""
       },
       {
         "type": "NODE",
@@ -3990,7 +3998,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"followed by repeating digits\""
+        "content": "\"gevolg deur herhalende syfers\""
       },
       {
         "type": "NODE",
@@ -4005,7 +4013,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the repeating decimal\""
+        "content": "\"die herhalende dessimaal\""
       },
       {
         "type": "NODE",
@@ -4016,7 +4024,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"point followed by repeating digit\""
+        "content": "\"punt gevolg deur herhalende syfer\""
       },
       {
         "type": "NODE",
@@ -4031,7 +4039,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the repeating decimal\""
+        "content": "\"die herhalende dessimaal\""
       },
       {
         "type": "NODE",
@@ -4042,7 +4050,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"followed by repeating digit\""
+        "content": "\"gevolg deur herhalende syfer\""
       },
       {
         "type": "NODE",
@@ -4057,7 +4065,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"point\""
+        "content": "\"punt\""
       }
     ]
   },
@@ -4065,7 +4073,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the line segment\""
+        "content": "\"die lynsegment\""
       },
       {
         "type": "NODE",
@@ -4084,7 +4092,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"the complex conjugate of\""
+        "content": "\"die komplekse toegevoegde van\""
       },
       {
         "type": "NODE",
@@ -4096,7 +4104,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"is defined to be\"",
+        "content": "\"is gedeffiniëer as\"",
         "attributes": {
           "pause": "short"
         }
@@ -4111,7 +4119,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"sign with\""
+        "content": "\"teken met\""
       },
       {
         "type": "NODE",
@@ -4119,7 +4127,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"over it\""
+        "content": "\"oor hom\""
       }
     ]
   },
@@ -4127,7 +4135,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"factorial\""
+        "content": "\"faktoriaal\""
       }
     ]
   },
@@ -4135,7 +4143,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"left super\""
+        "content": "\"linker boskrif\""
       },
       {
         "type": "NODE",
@@ -4147,7 +4155,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"left super\""
+        "content": "\"linker boskrif\""
       },
       {
         "type": "MULTI",
@@ -4159,7 +4167,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"left sub\""
+        "content": "\"linker onderskrif\""
       },
       {
         "type": "NODE",
@@ -4171,7 +4179,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"left sub\""
+        "content": "\"linker onderskrif\""
       },
       {
         "type": "MULTI",
@@ -4183,7 +4191,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"right super\""
+        "content": "\"regter boskrif\""
       },
       {
         "type": "NODE",
@@ -4195,7 +4203,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"right super\""
+        "content": "\"regter boskrif\""
       },
       {
         "type": "MULTI",
@@ -4207,7 +4215,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"right sub\""
+        "content": "\"regter onderskrif\""
       },
       {
         "type": "NODE",
@@ -4219,7 +4227,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"right sub\""
+        "content": "\"regter onderskrif\""
       },
       {
         "type": "MULTI",
@@ -4238,7 +4246,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"choose\""
+        "content": "\"kombinasie\""
       },
       {
         "type": "NODE",
@@ -4260,7 +4268,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"permute\""
+        "content": "\"permutasie\""
       },
       {
         "type": "NODE",
@@ -4275,7 +4283,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"square\""
+        "content": "\"kwadraat\""
       },
       {
         "type": "NODE",
@@ -4287,7 +4295,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"cubic\""
+        "content": "\"kubiek\""
       },
       {
         "type": "NODE",
@@ -4299,7 +4307,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"reciprocal\""
+        "content": "\"resiprook\""
       },
       {
         "type": "NODE",
@@ -4345,7 +4353,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"enclosed with\""
+        "content": "\"omring deur\""
       },
       {
         "type": "TEXT",
@@ -4364,7 +4372,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"enclosed with\""
+        "content": "\"omring deur\""
       },
       {
         "type": "TEXT",
@@ -4379,7 +4387,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end enclosed\""
+        "content": "\"end omring deur\""
       }
     ]
   },
@@ -4391,7 +4399,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"horizontal bar\""
+        "content": "\"horisontale lyn\""
       }
     ]
   },
@@ -4403,7 +4411,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"over horizontal bar\""
+        "content": "\"oor horisontale lyn\""
       }
     ]
   },
@@ -4411,7 +4419,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"vertical bar\""
+        "content": "\"vertikale lyn\""
       },
       {
         "type": "NODE",
@@ -4427,7 +4435,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"vertical bar\""
+        "content": "\"vertikale lyn\""
       }
     ]
   },
@@ -4435,7 +4443,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"crossed out\""
+        "content": "\"doodgetrek\""
       },
       {
         "type": "NODE",
@@ -4447,7 +4455,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"crossed out\""
+        "content": "\"doodgetrek\""
       },
       {
         "type": "NODE",
@@ -4455,7 +4463,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end crossout\""
+        "content": "\"end \""
       }
     ]
   },
@@ -4467,7 +4475,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"crossed out with\""
+        "content": "\"oorskryf met\""
       },
       {
         "type": "NODE",
@@ -4483,7 +4491,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"crossed out with\""
+        "content": "\"oorskryf met\""
       },
       {
         "type": "NODE",
@@ -4495,7 +4503,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"crossed out\""
+        "content": "\"oorskryf\""
       },
       {
         "type": "NODE",
@@ -4503,7 +4511,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"with\""
+        "content": "\"met\""
       },
       {
         "type": "NODE",
@@ -4511,7 +4519,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end crossout\""
+        "content": "\"end oorskryf\""
       }
     ]
   },
@@ -4519,7 +4527,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"crossed out\""
+        "content": "\"oorskryf\""
       },
       {
         "type": "NODE",
@@ -4527,7 +4535,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"with\""
+        "content": "\"met\""
       },
       {
         "type": "NODE",
@@ -4535,7 +4543,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"end crossout\""
+        "content": "\"end oorskryf\""
       }
     ]
   }

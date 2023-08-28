@@ -12747,7 +12747,9 @@
   },
   "not-member": {
     "rule": "not-member",
-    "parameters": {},
+    "parameters": {
+      "%1": ""
+    },
     "locales": {
       "en": 0,
       "de": 0,
@@ -12756,7 +12758,7 @@
       "nn": 0,
       "nb": 0,
       "sv": 0,
-      "af": 0
+      "af": 1
     },
     "description": "Set membership symbol not within a set expression. Interpreted as not member of. Fallback rule",
     "latex": "a\\not\\in A",
@@ -12770,9 +12772,11 @@
       "nn": {},
       "nb": {},
       "sv": {},
-      "af": {}
+      "af": {
+        "%1": "%1"
+      }
     },
-    "maximum": 0
+    "maximum": 1
   },
   "not-member-member": {
     "rule": "not-member-member",

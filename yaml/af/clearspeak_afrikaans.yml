@@ -121,8 +121,9 @@ member-belongs:
 # LaTeX Example: $a\not\in A$
 not-member:
   - $1: "is nie 'n element van"
-  - %1:
+  - %1
   - $2: "nie"
+
 # Set membership symbol not within a set expression. Interpreted as not member of
 # Example: a is not a member of A
 # LaTeX Example: $a\not\in A$
@@ -283,8 +284,8 @@ function-prefix-embell:
 # Application of a prefix functions to a non-simple argument.
 # Example: the sine of a over b
 # LaTeX Example: $\sine(\frac{a}{b})$
-# %1:
-# %2: The
+# %1: 
+# %2: The 
 function-prefix-fenced-or-frac-arg:
   - %1 (grammar:addArticle)
   - $1: "van"
@@ -781,7 +782,6 @@ logarithm-base:
 # %2: The index
 subscript-index:
   - %1
-
   - $1: "onderskrif"
   - %2
 
@@ -897,8 +897,8 @@ fraction-generalendfrac:
 # Fallback rule for all fractions. This is for the general preference, where all fractions are announced the same.
 # Example: the fraction with numerator a and denominator c
 # LaTeX Example: $\frac{a}{c}$
-# %1:
-# %2:
+# %1: 
+# %2: 
 fraction-general:
   - $1: "die breuk met teller"
   - %1 (pause:short)
@@ -1084,8 +1084,8 @@ set-prefix-operators:
 # An inline division with forward slash or division sign
 # Example: a divided by b
 # LaTeX Example: $a/b$
-# %1:
-# %2:
+# %1: 
+# %2: 
 division:
   - %1
   - $1: "gedeel deur"
@@ -1174,7 +1174,7 @@ fences-neutral-determinant:
 # Fences spoken as metrics.
 # Example: the metric of a
 # LaTeX Example: $||a||$
-# %1:
+# %1: 
 fences-metric:
   - $1: "die norm van"
   - %1 (pause:short)
@@ -1182,7 +1182,7 @@ fences-metric:
 # Fences spoken as metrics with end indicator (AbsoluteValue_AbsEnd preference)
 # Example: the metric of a end metric
 # LaTeX Example: $||a||$
-# %1:
+# %1: 
 fences-metric-absend:
   - $1: "die norm van"
   - %1 (pause:short)

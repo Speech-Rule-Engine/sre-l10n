@@ -1,6 +1,6 @@
 {
   "collapsed": [
-    "$1: \"collapsed\"",
+    "$1: \"opgesom\"",
     "%1"
   ],
   "font": [
@@ -8,125 +8,127 @@
     "%2 (pause:short)"
   ],
   "german-font": [
-    "$1: \"German\"",
+    "$1: \"Duits\"",
     "%1"
   ],
   "german-font-bold": [
-    "$1: \"bold German\"",
+    "$1: \"kursief Duits\"",
     "%1"
   ],
   "ellipsis": [
-    "$1: \"and so on\""
+    "$1: \"en so voorts\""
   ],
   "ellipsis-andsoon": [
-    "$1: \"and so on up to\""
+    "$1: \"en so voorts tot by\""
   ],
   "vbar-evaluated": [
     "%1 (pause:short)",
-    "$1: \"evaluated at\"",
+    "$1: \"geëvalueer by\"",
     "%2 (pause:short)"
   ],
   "vbar-evaluated-both": [
     "%1 (pause:short)",
-    "$1: \"evaluated at\"",
+    "$1: \"geëvalueer by\"",
     "%2 (pause:short)",
-    "$2: \"minus the same expression evaluated at\"",
+    "$2: \"minus dieselfde uitdrukking geëvalueer by\"",
     "%3 (pause:short)"
   ],
   "vbar-such-that": [
-    "$1: \"such that\""
+    "$1: \"sodat\""
   ],
   "vbar-divides": [
-    "$1: \"divides\""
+    "$1: \"gedeel deur\""
   ],
   "vbar-always-divides": [
-    "$1: \"divides\""
+    "$1: \"gedeel deur\""
   ],
   "vbar-given": [
-    "$1: \"given\""
+    "$1: \"gegee\""
   ],
   "member": [
-    "$1: \"is a member of\""
+    "$1: \"is 'n element van\""
   ],
   "member-member": [
-    "$1: \"is a member of\""
+    "$1: \"is 'n element van\""
   ],
   "member-element": [
-    "$1: \"is an element of\""
+    "$1: \"is 'n element van\""
   ],
   "member-in": [
     "$1: \"is in\""
   ],
   "member-belongs": [
-    "$1: \"belongs to\""
+    "$1: \"behoord aan\""
   ],
   "not-member": [
-    "$1: \"is not a member of\""
+    "$1: \"is nie 'n element van\"",
+    "%1",
+    "$2: \"nie\""
   ],
   "not-member-member": [
-    "$1: \"is not a member of\""
+    "$1: \"is nie 'n element vanf\""
   ],
   "not-member-element": [
-    "$1: \"is not an element of\""
+    "$1: \"is nie 'n element van\""
   ],
   "not-member-in": [
-    "$1: \"is not in\""
+    "$1: \"is nie in\""
   ],
   "not-member-belongs": [
-    "$1: \"does not belong to\""
+    "$1: \"behoord nie aan\""
   ],
   "set-member": [
     "$1: \"in\""
   ],
   "set-member-member": [
-    "$1: \"member of\""
+    "$1: \"element van\""
   ],
   "set-member-element": [
-    "$1: \"element of\""
+    "$1: \"element van\""
   ],
   "set-member-in": [
     "$1: \"in\""
   ],
   "set-member-belongs": [
-    "$1: \"belonging to\""
+    "$1: \"behoord aan\""
   ],
   "set-not-member": [
-    "$1: \"not in\""
+    "$1: \"nie in\""
   ],
   "set-not-member-member": [
-    "$1: \"not a member of\""
+    "$1: \"nie 'n element van\""
   ],
   "set-not-member-element": [
-    "$1: \"not an element of\""
+    "$1: \"nie 'n element van\""
   ],
   "set-not-member-in": [
-    "$1: \"not in\""
+    "$1: \"nie in\""
   ],
   "set-not-member-belongs": [
-    "$1: \"not belonging to\""
+    "$1: \"behoordnie aan\""
   ],
   "article": [
-    "$1: \"the\"",
+    "$1: \"die\"",
     "%1"
   ],
   "appl": [
     "%1",
-    "$1: \"of\"",
+    "$1: \"van\"",
     "%2 (pause:short)"
   ],
   "appl-simple": [
     "%1",
-    "$1: \"of\" (pause:short)",
+    "$1: \"van\" (pause:short)",
     "%2 (pause:short)"
   ],
   "appl-simple-fenced": [
     "%1",
-    "$1: \"of\" (pause:short)",
+    "$1: \"van\" (pause:short)",
     "%2 (pause:short)"
   ],
   "appl-times": [
     "%1",
-    "$1: \"times\"",
+    "$1: \"maal\"",
     "%2 (pause:short)"
   ],
   "function-prefix": [
@@ -143,12 +145,12 @@
   ],
   "function-prefix-fenced-or-frac-arg": [
     "%1 (grammar:addArticle)",
-    "$1: \"of\"",
+    "$1: \"van\"",
     "%2 (pause:short)"
   ],
   "function-prefix-subscript": [
     "%1 (grammar:addArticle)",
-    "$1: \"of\" (pause:short)",
+    "$1: \"van\" (pause:short)",
     "%2 (pause:short)"
   ],
   "function-ln": [
@@ -161,49 +163,49 @@
   ],
   "function-ln-of": [
     "%1",
-    "$1: \"of\"",
+    "$1: \"van\"",
     "%2 (pause:short)"
   ],
   "function-prefix-as-exp": [
     "%1",
-    "$1: \"of\" (pause:short)",
+    "$1: \"van\" (pause:short)",
     "%2 (pause:short)"
   ],
   "function-prefix-subscript-as-exp": [
     "%1",
-    "$1: \"of\" (pause:short)",
+    "$1: \"van\" (pause:short)",
     "%2 (pause:short)"
   ],
   "function-prefix-hyper": [
     "%1",
-    "$1: \"of\"",
+    "$1: \"van\"",
     "%2 (pause:short)"
   ],
   "function-prefix-inverse": [
-    "$1: \"the inverse\"",
+    "$1: \"die inverse\"",
     "%1",
-    "$2: \"of\"",
+    "$2: \"van\"",
     "%2 (pause:short)"
   ],
   "appl-triginverse": [
     "%1",
-    "$1: \"of\"",
+    "$1: \"van\"",
     "%2 (pause:short)"
   ],
   "function-prefix-arc-simple": [
-    "$1: \"arc\"",
+    "$1: \"boog\"",
     "%1",
     "%2 (pause:short)"
   ],
   "function-prefix-arc-simple-fenced": [
-    "$1: \"arc\"",
+    "$1: \"boog\"",
     "%1 (pause:short)",
     "%2 (pause:short)"
   ],
   "function-prefix-arc": [
-    "$1: \"arc\"",
+    "$1: \"boog\"",
     "%1",
-    "$2: \"of\"",
+    "$2: \"van\"",
     "%2 (pause:short)"
   ],
   "function-inverse": [
@@ -212,42 +214,42 @@
   ],
   "superscript-prefix-function": [
     "%1 (grammar:addArticle)",
-    "$1: \"power of\"",
+    "$1: \"mag van\"",
     "%2"
   ],
   "superscript": [
     "%1",
-    "$1: \"raised to the exponent\" (pause:short)",
+    "$1: \"verhef tot die eksponent\" (pause:short)",
     "%2 (pause:short)",
-    "$2: \"end exponent\" (pause:short)"
+    "$2: \"end eksponent\" (pause:short)"
   ],
   "superscript-simple-exponent": [
     "%1",
-    "$1: \"raised to the\"",
+    "$1: \"verhef tot die\"",
     "%2",
-    "$2: \"power\" (pause:short)"
+    "$2: \"mag\" (pause:short)"
   ],
   "superscript-simple-exponent-end": [
     "%1",
-    "$1: \"raised to the\"",
+    "$1: \"verhef tot die\"",
     "%2",
-    "$2: \"power\""
+    "$2: \"mag\""
   ],
   "superscript-ordinal": [
     "%1",
-    "$1: \"to the\"",
+    "$1: \"tot die\"",
     "%2",
-    "$2: \"power\" (pause:short)"
+    "$2: \"mag\" (pause:short)"
   ],
   "superscript-non-ordinal": [
     "%1",
-    "$1: \"to the\"",
+    "$1: \"tot die\"",
     "%2",
-    "$2: \"power\" (pause:short)"
+    "$2: \"mag\" (pause:short)"
   ],
   "superscript-simple-function": [
     "%1 (grammar:addArticle)",
-    "$1: \"power of\" (pause:short)",
+    "$1: \"mag van\" (pause:short)",
     "%2"
   ],
   "superscript-simple-function-none": [
@@ -255,58 +257,58 @@
   ],
   "superscript-ordinal-number": [
     "%1",
-    "$1: \"to the\"",
+    "$1: \"tot die\"",
     "%2 (pause:short)"
   ],
   "superscript-ordinal-negative": [
     "%1",
-    "$1: \"to the\"",
+    "$1: \"tot die\"",
     "%2 (pause:short)"
   ],
   "superscript-ordinal-default": [
     "%1",
-    "$1: \"raised to the exponent\" (pause:short)",
+    "$1: \"verhef tot die eksponent\" (pause:short)",
     "%2 (pause:short)",
-    "$2: \"end exponent\" (pause:short)"
+    "$2: \"end eksponent\" (pause:short)"
   ],
   "superscript-ordinal-power-number": [
     "%1",
-    "$1: \"to the\"",
+    "$1: \"tot die\"",
     "%2",
-    "$2: \"power\" (pause:short)"
+    "$2: \"mag\" (pause:short)"
   ],
   "superscript-ordinal-power-negative": [
     "%1",
-    "$1: \"to the\"",
+    "$1: \"tot die\"",
     "%2",
-    "$2: \"power\" (pause:short)"
+    "$2: \"mag\" (pause:short)"
   ],
   "superscript-ordinal-power-identifier": [
     "%1",
-    "$1: \"to the\"",
+    "$1: \"tot die\"",
     "%2",
-    "$2: \"power\" (pause:short)"
+    "$2: \"mag\" (pause:short)"
   ],
   "superscript-ordinal-power-default": [
     "%1",
-    "$1: \"raised to the exponent\" (pause:short)",
+    "$1: \"verhef tot die eksponent\" (pause:short)",
     "%2 (pause:short)",
-    "$2: \"end exponent\" (pause:short)"
+    "$2: \"end eksponent\" (pause:short)"
   ],
   "superscript-power": [
     "%1",
-    "$1: \"raised to the power\"",
+    "$1: \"verhef tot die mag\"",
     "%2 (pause:short)"
   ],
   "superscript-power-default": [
     "%1",
-    "$1: \"raised to the exponent\" (pause:short)",
+    "$1: \"verhef tot die eksponent\" (pause:short)",
     "%2 (pause:short)",
-    "$2: \"end exponent\" (pause:short)"
+    "$2: \"end eksponent\" (pause:short)"
   ],
   "exponent": [
     "%1 (join:\"-\")",
-    "$1: \"th\""
+    "$1: \"de\""
   ],
   "exponent-number": [
     "%1"
@@ -315,134 +317,134 @@
     "%1"
   ],
   "exponent-ordinal-zero": [
-    "$1: \"zero\""
+    "$1: \"nul\""
   ],
   "exponent-ordinalpower": [
     "%1"
   ],
   "exponent-ordinalpower-zero": [
-    "$1: \"zero\""
+    "$1: \"nul\""
   ],
   "square": [
     "%1",
-    "$1: \"squared\""
+    "$1: \"kwadraat\""
   ],
   "cube": [
     "%1",
-    "$1: \"cubed\""
+    "$1: \"tot die mag drie\""
   ],
   "fences-points": [
-    "$1: \"the point with coordinates\"",
+    "$1: \"die punt met koördinate\"",
     "%1"
   ],
   "fences-interval": [
-    "$1: \"the interval from\"",
+    "$1: \"die interval van\"",
     "%1",
-    "$2: \"to\"",
+    "$2: \"tot\"",
     "%2 (pause:short)",
     "%3"
   ],
   "interval-open": [
-    "$1: \"not including\"",
+    "$1: \"nie insluitend\"",
     "%1",
-    "$2: \"or\"",
+    "$2: \"of\"",
     "%2"
   ],
   "interval-closed-open": [
-    "$1: \"including\"",
+    "$1: \"insluitend\"",
     "%1 (pause:short)",
-    "$2: \"but not including\"",
+    "$2: \"maar nie insluitend\"",
     "%2"
   ],
   "interval-open-closed": [
-    "$1: \"not including\"",
+    "$1: \"nie insluitend\"",
     "%1 (pause:short)",
-    "$2: \"but including\"",
+    "$2: \"maar insluitend\"",
     "%2"
   ],
   "interval-closed": [
-    "$1: \"including\"",
+    "$1: \"insluitend\"",
     "%1",
-    "$2: \"and\"",
+    "$2: \"en\"",
     "%2"
   ],
   "interval-open-inf-r": [
-    "$1: \"not including\"",
+    "$1: \"nie insluitend\"",
     "%1"
   ],
   "interval-open-inf-l": [
-    "$1: \"not including\"",
+    "$1: \"nie insluitend\"",
     "%1"
   ],
   "interval-closed-open-inf": [
-    "$1: \"including\"",
+    "$1: \"insluitend\"",
     "%1"
   ],
   "interval-open-closed-inf": [
-    "$1: \"including\"",
+    "$1: \"insluitend\"",
     "%1"
   ],
   "set-empty": [
-    "$1: \"the empty set\""
+    "$1: \"die leë versameling\""
   ],
   "set-extended": [
-    "$1: \"the set of all\"",
+    "$1: \"die versameling van alle\"",
     "%1",
-    "$2: \"such that\"",
+    "$2: \"sodat\"",
     "%2"
   ],
   "set-collection": [
-    "$1: \"the set\"",
+    "$1: \"die versameling\"",
     "%1"
   ],
   "set-extended-woall": [
-    "$1: \"the set of\"",
+    "$1: \"die versameling van\"",
     "%1",
-    "$2: \"such that\"",
+    "$2: \"sodat\"",
     "%2"
   ],
   "subscript": [
     "%1",
-    "$1: \"sub\"",
+    "$1: \"onderskrif\"",
     "%2 (pause:short)"
   ],
   "logarithm-base": [
     "%1",
-    "$1: \"base\"",
+    "$1: \"basis\"",
     "%2"
   ],
   "subscript-index": [
     "%1",
-    "$1: \"sub\"",
+    "$1: \"onderskrif\"",
     "%2"
   ],
   "fraction": [
-    "$1: \"the\" (grammar:article)",
-    "$2: \"fraction with numerator\"",
+    "$1: \"die\" (grammar:article)",
+    "$2: \"breuk met teller\"",
     "%1 (pause:short)",
-    "$3: \"and denominator\"",
+    "$3: \"en noemer\"",
     "%2 (pause:short)"
   ],
   "fraction-none": [
-    "$1: \"the\" (grammar:article)",
-    "$2: \"fraction with numerator\"",
+    "$1: \"die\" (grammar:article)",
+    "$2: \"breuk met teller\"",
     "%1 (pause:short)",
-    "$3: \"and denominator\"",
+    "$3: \"en noemer\"",
     "%2 (pause:short)"
   ],
   "simple-fraction": [
     "%1",
-    "$1: \"over\"",
+    "$1: \"oor\"",
     "%2 (pause:short)"
   ],
   "simple-vulgar-fraction": [
     "%1",
-    "$1: \"over\"",
+    "$1: \"oor\"",
     "%2 (pause:short)"
   ],
   "simple-text-fraction": [
     "%1",
-    "$1: \"over\"",
+    "$1: \"oor\"",
     "%2 (pause:short)"
   ],
   "vulgar-fraction": [
@@ -450,19 +452,19 @@
   ],
   "fraction-over": [
     "%1",
-    "$1: \"over\"",
+    "$1: \"oor\"",
     "%2 (pause:short)"
   ],
   "fraction-overendfrac": [
     "%1",
-    "$1: \"over\"",
+    "$1: \"oor\"",
     "%2 (pause:short)",
-    "$2: \"end fraction\" (pause:short)"
+    "$2: \"end breuk\" (pause:short)"
   ],
   "fraction-fracover": [
-    "$1: \"the fraction\"",
+    "$1: \"die breuk\"",
     "%1",
-    "$2: \"over\"",
+    "$2: \"oor\"",
     "%2 (pause:short)"
   ],
   "fraction-per": [
@@ -471,16 +473,16 @@
     "%2 (pause:short)"
   ],
   "fraction-generalendfrac": [
-    "$1: \"the fraction with numerator\"",
+    "$1: \"die breuk met teller\"",
     "%1 (pause:short)",
-    "$2: \"and denominator\"",
+    "$2: \"en noemer\"",
     "%2 (pause:short)",
-    "$3: \"end fraction\" (pause:short)"
+    "$3: \"end breuk\" (pause:short)"
   ],
   "fraction-general": [
-    "$1: \"the fraction with numerator\"",
+    "$1: \"die breuk met teller\"",
     "%1 (pause:short)",
-    "$2: \"and denominator\"",
+    "$2: \"en noemer\"",
     "%2 (pause:short)"
   ],
   "simple-vulgar-fraction-ordinal": [
@@ -488,22 +490,22 @@
   ],
   "fraction-endfrac": [
     "%1",
-    "$1: \"end fraction\" (pause:short)"
+    "$1: \"end breuk\" (pause:short)"
   ],
   "vulgar-fraction-endfrac": [
     "%1",
-    "$1: \"over\"",
+    "$1: \"oor\"",
     "%2 (pause:short)"
   ],
   "simple-vulgar-fraction-endfrac": [
     "%1"
   ],
   "sqrt": [
-    "$1: \"the square root of\"",
+    "$1: \"die vierkantswortel van\"",
     "%1 (pause:short)"
   ],
   "sqrt-nested": [
-    "$1: \"the square root of\"",
+    "$1: \"die vierkantswortel van\"",
     "%1 (pause:short)"
   ],
   "negative-sqrt": [
@@ -511,230 +513,230 @@
     "%1 (pause:short)"
   ],
   "negative-sqrt-default": [
-    "$1: \"the negative square root of\"",
+    "$1: \"die negatiewe vierkantswortel van\"",
     "%1 (pause:short)"
   ],
   "sqrt-plus-minus": [
-    "$1: \"the positive square root of\"",
+    "$1: \"die positiewe vierkantswortel van\"",
     "%1 (pause:short)"
   ],
   "sqrt-nested-plus-minus": [
-    "$1: \"the positive square root of\"",
+    "$1: \"die positiewe vierkantswortel van\"",
     "%1 (pause:short)"
   ],
   "sqrt-plus-minus-posnegsqrootend": [
-    "$1: \"the positive square root of\"",
+    "$1: \"die positiewe vierkantswortel van\"",
     "%1 (pause:short)"
   ],
   "sqrt-nested-plus-minus-posnegsqrootend": [
-    "$1: \"the positive square root of\"",
+    "$1: \"die positiewe vierkantswortel van\"",
     "%1 (pause:short)"
   ],
   "sqrt-endroot": [
     "%1",
-    "$1: \"end root\" (pause:short)"
+    "$1: \"end wortel\" (pause:short)"
   ],
   "negative-sqrt-endroot": [
     "%1",
-    "$1: \"end root\" (pause:short)"
+    "$1: \"end wortel\" (pause:short)"
   ],
   "sqrt-posnegsqrootend": [
     "%1",
-    "$1: \"end root\" (pause:short)"
+    "$1: \"end wortel\" (pause:short)"
   ],
   "negative-sqrt-posnegsqrootend": [
     "%1",
-    "$1: \"end root\" (pause:short)"
+    "$1: \"end wortel\" (pause:short)"
   ],
   "cubic": [
-    "$1: \"the cube root of\"",
+    "$1: \"die derdemagswortel van\"",
     "%1 (pause:short)"
   ],
   "cubic-nested": [
-    "$1: \"the cube root of\"",
+    "$1: \"die derdemagswortel van\"",
     "%1 (pause:short)"
   ],
   "root": [
     "%1 (grammar:addArticle)",
-    "$1: \"root of\"",
+    "$1: \"wortel van\"",
     "%2 (pause:short)"
   ],
   "root-nested": [
     "%1 (grammar:addArticle)",
-    "$1: \"root of\"",
+    "$1: \"wortel van\"",
     "%2 (pause:short)"
   ],
   "root-endroot": [
     "%1",
-    "$1: \"end root\" (pause:short)"
+    "$1: \"end wortel\" (pause:short)"
   ],
   "root-posnegsqrootend": [
     "%1",
-    "$1: \"end root\" (pause:short)"
+    "$1: \"end wortel\" (pause:short)"
   ],
   "negative": [
-    "$1: \"negative\"",
+    "$1: \"negatiewe\"",
     "%1"
   ],
   "positive": [
-    "$1: \"positive\"",
+    "$1: \"positief\"",
     "%1"
   ],
   "angle-measure": [
-    "$1: \"the measure of\"",
+    "$1: \"die hoekmaat\"",
     "%1",
     "%2"
   ],
   "set-prefix-operators": [
     "%1 (grammar:addArticle)",
-    "$1: \"of\""
+    "$1: \"van\""
   ],
   "division": [
     "%1",
-    "$1: \"divided by\"",
+    "$1: \"gedeel deur\"",
     "%2"
   ],
   "operators-after-power": [
     "%1"
   ],
   "natural-numbers": [
-    "$1: \"the natural numbers\""
+    "$1: \"die natuurlike getalle\""
   ],
   "integers": [
-    "$1: \"the integers\""
+    "$1: \"die heelgetalle\""
   ],
   "rational-numbers": [
-    "$1: \"the rational numbers\""
+    "$1: \"die rasionele getalle\""
   ],
   "real-numbers": [
-    "$1: \"the real numbers\""
+    "$1: \"die riële getalle\""
   ],
   "complex-numbers": [
-    "$1: \"the complex numbers\""
+    "$1: \"die komplekse getalle\""
   ],
   "natural-numbers-with-zero": [
-    "$1: \"the natural numbers with zero\""
+    "$1: \"die natuurlike getalle met nul\""
   ],
   "positive-integers": [
-    "$1: \"the positive integers\""
+    "$1: \"die positiewe heelgetalle\""
   ],
   "negative-integers": [
-    "$1: \"the negative integers\""
+    "$1: \"die negatiewe heelgetalle\""
   ],
   "positive-rational-numbers": [
-    "$1: \"the positive rational numbers\""
+    "$1: \"die positiewe rasionele getalle\""
   ],
   "negative-rational-numbers": [
-    "$1: \"the negative rational numbers\""
+    "$1: \"die negatiewe rasionele getalle\""
   ],
   "fences-neutral": [
-    "$1: \"the absolute value of\"",
+    "$1: \"die absolute waarde van\"",
     "%1 (pause:short)"
   ],
   "fences-neutral-absend": [
-    "$1: \"the absolute value of\"",
+    "$1: \"die absolute waarde van\"",
     "%1 (pause:short)",
-    "$2: \"end absolute value\" (pause:short)"
+    "$2: \"end absolute waarde van\" (pause:short)"
   ],
   "fences-neutral-cardinality": [
-    "$1: \"the cardinality of\"",
+    "$1: \"die kardinaliteit van\"",
     "%1 (pause:short)"
   ],
   "fences-neutral-determinant": [
-    "$1: \"the determinant of\"",
+    "$1: \"die determinant van\"",
     "%1 (pause:short)"
   ],
   "fences-metric": [
-    "$1: \"the metric of\"",
+    "$1: \"die norm van\"",
     "%1 (pause:short)"
   ],
   "fences-metric-absend": [
-    "$1: \"the metric of\"",
+    "$1: \"die norm van\"",
     "%1 (pause:short)",
     "$2: \"end metric\" (pause:short)"
   ],
   "matrix": [
-    "$1: \"the\"",
+    "$1: \"die\"",
     "%1",
     "$2: \"by\"",
     "%2",
-    "$3: \"matrix\" (pause:long)",
+    "$3: \"matriks\" (pause:long)",
     "%3 (context:\"Row-:\", pause:long)"
   ],
   "matrix-simple": [
-    "$1: \"the\"",
+    "$1: \"die\"",
     "%1",
     "$2: \"by\"",
     "%2",
-    "$3: \"matrix\" (pause:long)",
+    "$3: \"matriks\" (pause:long)",
     "%3 (context:\"Row-:\", pause:long)"
   ],
   "matrix-trivial": [
-    "$1: \"the 1 by 1 matrix with entry\"",
+    "$1: \"die 1 by 1 matriks met waarde\"",
     "%1 (pause:long)"
   ],
   "determinant": [
-    "$1: \"the determinant of the\"",
+    "$1: \"die determinant van die\"",
     "%1",
     "$2: \"by\"",
     "%2",
-    "$3: \"matrix\" (pause:long)",
+    "$3: \"matriks\" (pause:long)",
     "%3 (context:\"Row-:\", pause:long)"
   ],
   "determinant-simple": [
-    "$1: \"the determinant of the\"",
+    "$1: \"die determinant van die\"",
     "%1",
     "$2: \"by\"",
     "%2",
-    "$3: \"matrix\" (pause:long)",
+    "$3: \"matriks\" (pause:long)",
     "%3 (context:\"Row-:\", pause:long)"
   ],
   "matrix-vector": [
-    "$1: \"the\"",
+    "$1: \"die\"",
     "%1",
     "$2: \"by\"",
     "%2",
-    "$3: \"column matrix\" (pause:long)",
+    "$3: \"kolom matriks\" (pause:long)",
     "%3 (context:\"Row-:\", pause:long)"
   ],
   "matrix-vector-simple": [
-    "$1: \"the\"",
+    "$1: \"die\"",
     "%1",
     "$2: \"by\"",
     "%2",
-    "$3: \"column matrix\" (pause:long)",
+    "$3: \"kolom matriks\" (pause:long)",
     "%3 (pause:long)"
   ],
   "matrix-vector-simple-silentcolnum": [
-    "$1: \"the\"",
+    "$1: \"die\"",
     "%1",
     "$2: \"by\"",
     "%2",
-    "$3: \"column matrix\" (pause:long)",
+    "$3: \"kolom matriks\" (pause:long)",
     "%3 (pause:long)"
   ],
   "matrix-row-vector": [
-    "$1: \"the\"",
+    "$1: \"die\"",
     "%1",
     "$2: \"by\"",
     "%2",
-    "$3: \"row matrix\" (pause:long)",
+    "$3: \"ry matriks\" (pause:long)",
     "%3 (context:\"Column-:\", pause:long)"
   ],
   "matrix-row-vector-simple": [
-    "$1: \"the\"",
+    "$1: \"die\"",
     "%1",
     "$2: \"by\"",
     "%2",
-    "$3: \"row matrix\" (pause:long)",
+    "$3: \"ry matriks\" (pause:long)",
     "%3 (pause:long)"
   ],
   "matrix-row-vector-simple-silentcolnum": [
-    "$1: \"the\"",
+    "$1: \"die\"",
     "%1",
     "$2: \"by\"",
     "%2",
-    "$3: \"row matrix\" (pause:long)",
+    "$3: \"ry matriks\" (pause:long)",
     "%3 (pause:long)"
   ],
   "matrix-row": [
@@ -742,100 +744,100 @@
   ],
   "matrix-end-matrix": [
     "%1",
-    "$1: \"end matrix\""
+    "$1: \"end matriks\""
   ],
   "matrix-end-vector": [
     "%1",
-    "$1: \"end matrix\""
+    "$1: \"end matriks\""
   ],
   "matrix-end-determinant": [
     "%1",
-    "$1: \"end determinant\""
+    "$1: \"sluit determinant\""
   ],
   "vector": [
-    "$1: \"the\"",
+    "$1: \"die\"",
     "%1",
     "$2: \"by\"",
     "%2",
-    "$3: \"column vector\" (pause:long)",
+    "$3: \"kolom vektor\" (pause:long)",
     "%3 (context:\"Row-:\", pause:long)"
   ],
   "vector-simple": [
-    "$1: \"the\"",
+    "$1: \"die\"",
     "%1",
     "$2: \"by\"",
     "%2",
-    "$3: \"column vector\" (pause:long)",
+    "$3: \"kolom vektor\" (pause:long)",
     "%3 (pause:long)"
   ],
   "row-vector": [
-    "$1: \"the\"",
+    "$1: \"die\"",
     "%1",
     "$2: \"by\"",
     "%2",
-    "$3: \"row vector\" (pause:long)",
+    "$3: \"ry vektor\" (pause:long)",
     "%3 (context:\"Column-:\", pause:long)"
   ],
   "row-vector-simple": [
-    "$1: \"the\"",
+    "$1: \"die\"",
     "%1",
     "$2: \"by\"",
     "%2",
-    "$3: \"row vector\" (pause:long)",
+    "$3: \"ry vektor\" (pause:long)",
     "%3 (pause:long)"
   ],
   "vector-end-matrix": [
     "%1",
-    "$1: \"end matrix\""
+    "$1: \"end matriks\""
   ],
   "vector-end-vector": [
     "%1",
-    "$1: \"end vector\""
+    "$1: \"end vektor\""
   ],
   "vector-end-vector-endvector": [
     "%1",
-    "$1: \"end vector\""
+    "$1: \"end vektor\""
   ],
   "vector-end-determinant": [
     "%1",
-    "$1: \"end determinant\""
+    "$1: \"sluit determinant\""
   ],
   "binomial": [
     "%1",
-    "$1: \"choose\"",
+    "$1: \"kies\"",
     "%2"
   ],
   "lines-summary": [
     "%1",
-    "$1: \"lines\"",
+    "$1: \"lyne\"",
     "%2"
   ],
   "cases-summary": [
     "%1",
-    "$1: \"cases\"",
+    "$1: \"gevalle\"",
     "%2"
   ],
   "lines": [
     "%1 (context:\"Line-:\", pause:long)"
   ],
   "blank-cell": [
-    "$1: \"blank\""
+    "$1: \"leeg\""
   ],
   "blank-line": [
-    "$1: \"blank\""
+    "$1: \"leeg\""
   ],
   "blank-cell-empty": [
-    "$1: \"blank\""
+    "$1: \"leeg\""
   ],
   "blank-line-empty": [
-    "$1: \"blank\""
+    "$1: \"leeg\""
   ],
   "cases": [
     "%1 (context:\"Case-:\", pause:long)"
   ],
   "lines-cases-summary": [
     "%1",
-    "$1: \"cases\"",
+    "$1: \"gevalle\"",
     "%2"
   ],
   "lines-cases": [
@@ -843,7 +845,7 @@
   ],
   "lines-equations-summary": [
     "%1",
-    "$1: \"equations\"",
+    "$1: \"vergelykings\"",
     "%2"
   ],
   "lines-equations": [
@@ -851,7 +853,7 @@
   ],
   "lines-steps-summary": [
     "%1",
-    "$1: \"steps\"",
+    "$1: \"stappe\"",
     "%2"
   ],
   "lines-steps": [
@@ -859,7 +861,7 @@
   ],
   "lines-rows-summary": [
     "%1",
-    "$1: \"rows\"",
+    "$1: \"rye\"",
     "%2"
   ],
   "lines-rows": [
@@ -867,7 +869,7 @@
   ],
   "lines-constraints-summary": [
     "%1",
-    "$1: \"constraints\"",
+    "$1: \"beperkings\"",
     "%2"
   ],
   "lines-constraints": [
@@ -875,166 +877,166 @@
   ],
   "bigop": [
     "%1 (grammar:addArticle)",
-    "$1: \"of\"",
+    "$1: \"van\"",
     "%2 (pause:short)"
   ],
   "limboth": [
     "%1",
-    "$1: \"from\"",
+    "$1: \"vanaf\"",
     "%2",
-    "$2: \"to\"",
+    "$2: \"tot\"",
     "%3"
   ],
   "limlower": [
     "%1",
-    "$1: \"over\"",
+    "$1: \"oor\"",
     "%2 (pause:short)"
   ],
   "limupper": [
     "%1",
-    "$1: \"under\"",
+    "$1: \"onder\"",
     "%2 (pause:short)"
   ],
   "integral": [
     "%1 (grammar:addArticle)",
-    "$1: \"of\"",
+    "$1: \"van\"",
     "%2 (pause:short)",
     "%3 (pause:short)"
   ],
   "integral-novar": [
     "%1 (grammar:addArticle)",
-    "$1: \"of\"",
+    "$1: \"van\"",
     "%2 (pause:short)"
   ],
   "overscript": [
     "%1",
-    "$1: \"under\"",
+    "$1: \"onder\"",
     "%2 (pause:short)"
   ],
   "overscript-limits": [
     "%1",
-    "$1: \"to\"",
+    "$1: \"tot\"",
     "%2"
   ],
   "underscript": [
     "%1",
-    "$1: \"over\"",
+    "$1: \"oor\"",
     "%2 (pause:short)"
   ],
   "underscript-limits": [
     "%1",
-    "$1: \"from\"",
+    "$1: \"vanaf\"",
     "%2"
   ],
   "mixed-number": [
     "%1",
-    "$1: \"and\"",
+    "$1: \"en\"",
     "%2"
   ],
   "number-with-chars": [
-    "$1: \"number\"",
+    "$1: \"getal\"",
     "%1"
   ],
   "decimal-period": [
-    "$1: \"the repeating decimal\"",
+    "$1: \"die herhalende dessimaal\"",
     "%1",
-    "$2: \"point followed by repeating digits\"",
+    "$2: \"punt gevolg deur herhalende syfers\"",
     "%2"
   ],
   "decimal-period-float": [
-    "$1: \"the repeating decimal\"",
+    "$1: \"die herhalende dessimaal\"",
     "%1",
-    "$2: \"followed by repeating digits\"",
+    "$2: \"gevolg deur herhalende syfers\"",
     "%2"
   ],
   "decimal-period-singular": [
-    "$1: \"the repeating decimal\"",
+    "$1: \"die herhalende dessimaal\"",
     "%1",
-    "$2: \"point followed by repeating digit\"",
+    "$2: \"punt gevolg deur herhalende syfer\"",
     "%2"
   ],
   "decimal-period-singular-float": [
-    "$1: \"the repeating decimal\"",
+    "$1: \"die herhalende dessimaal\"",
     "%1",
-    "$2: \"followed by repeating digit\"",
+    "$2: \"gevolg deur herhalende syfer\"",
     "%2"
   ],
   "decimal-point": [
-    "$1: \"point\""
+    "$1: \"punt\""
   ],
   "line-segment": [
-    "$1: \"the line segment\"",
+    "$1: \"die lynsegment\"",
     "%1",
     "%2 (pause:short)"
   ],
   "conjugate": [
-    "$1: \"the complex conjugate of\"",
+    "$1: \"die komplekse toegevoegde van\"",
     "%1"
   ],
   "defined-by": [
-    "$1: \"is defined to be\" (pause:short)"
+    "$1: \"is gedeffiniëer as\" (pause:short)"
   ],
   "adorned-sign": [
     "%1",
-    "$1: \"sign with\"",
+    "$1: \"teken met\"",
     "%2",
-    "$2: \"over it\""
+    "$2: \"oor hom\""
   ],
   "factorial": [
-    "$1: \"factorial\""
+    "$1: \"faktoriaal\""
   ],
   "left-super": [
-    "$1: \"left super\"",
+    "$1: \"linker boskrif\"",
     "%1"
   ],
   "left-super-list": [
-    "$1: \"left super\"",
+    "$1: \"linker boskrif\"",
     "%1"
   ],
   "left-sub": [
-    "$1: \"left sub\"",
+    "$1: \"linker onderskrif\"",
     "%1"
   ],
   "left-sub-list": [
-    "$1: \"left sub\"",
+    "$1: \"linker onderskrif\"",
     "%1"
   ],
   "right-super": [
-    "$1: \"right super\"",
+    "$1: \"regter boskrif\"",
     "%1"
   ],
   "right-super-list": [
-    "$1: \"right super\"",
+    "$1: \"regter boskrif\"",
     "%1"
   ],
   "right-sub": [
-    "$1: \"right sub\"",
+    "$1: \"regter onderskrif\"",
     "%1"
   ],
   "right-sub-list": [
-    "$1: \"right sub\"",
+    "$1: \"regter onderskrif\"",
     "%1"
   ],
   "choose": [
     "%1",
-    "$1: \"choose\"",
+    "$1: \"kombinasie\"",
     "%2"
   ],
   "permute": [
     "%1",
-    "$1: \"permute\"",
+    "$1: \"permutasie\"",
     "%2"
   ],
   "unit-square": [
-    "$1: \"square\"",
+    "$1: \"kwadraat\"",
     "%1"
   ],
   "unit-cubic": [
-    "$1: \"cubic\"",
+    "$1: \"kubiek\"",
     "%1"
   ],
   "unit-reciprocal": [
-    "$1: \"reciprocal\"",
+    "$1: \"resiprook\"",
     "%1"
   ],
   "unit-reciprocal-singular": [
@@ -1047,63 +1049,63 @@
     "%2 (grammar:singular)"
   ],
   "enclose": [
-    "$1: \"enclosed with\"",
+    "$1: \"omring deur\"",
     "%1",
     "%2"
   ],
   "enclose-end": [
-    "$1: \"enclosed with\"",
+    "$1: \"omring deur\"",
     "%1",
     "%2",
-    "$2: \"end enclosed\""
+    "$2: \"end omring deur\""
   ],
   "overbar": [
     "%1",
-    "$1: \"horizontal bar\""
+    "$1: \"horisontale lyn\""
   ],
   "underbar": [
     "%1",
-    "$1: \"over horizontal bar\""
+    "$1: \"oor horisontale lyn\""
   ],
   "leftbar": [
-    "$1: \"vertical bar\"",
+    "$1: \"vertikale lyn\"",
     "%1"
   ],
   "rightbar": [
     "%1",
-    "$1: \"vertical bar\""
+    "$1: \"vertikale lyn\""
   ],
   "crossout": [
-    "$1: \"crossed out\"",
+    "$1: \"doodgetrek\"",
     "%1"
   ],
   "crossout-end": [
-    "$1: \"crossed out\"",
+    "$1: \"doodgetrek\"",
     "%1",
-    "$2: \"end crossout\""
+    "$2: \"end \""
   ],
   "cancel-over": [
     "%1",
-    "$1: \"crossed out with\"",
+    "$1: \"oorskryf met\"",
     "%2"
   ],
   "cancel-under": [
     "%1",
-    "$1: \"crossed out with\"",
+    "$1: \"oorskryf met\"",
     "%2"
   ],
   "cancel-over-end": [
-    "$1: \"crossed out\"",
+    "$1: \"oorskryf\"",
     "%1",
-    "$2: \"with\"",
+    "$2: \"met\"",
     "%2",
-    "$3: \"end crossout\""
+    "$3: \"end oorskryf\""
   ],
   "cancel-under-end": [
-    "$1: \"crossed out\"",
+    "$1: \"oorskryf\"",
     "%1",
-    "$2: \"with\"",
+    "$2: \"met\"",
     "%2",
-    "$3: \"end crossout\""
+    "$3: \"end oorskryf\""
   ]
 }
