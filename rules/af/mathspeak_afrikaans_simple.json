@@ -13,6 +13,14 @@
     "%1",
     "%2"
   ],
+  "german-font": [
+    "$1: \"German\"",
+    "%1"
+  ],
+  "german-font-bold": [
+    "$1: \"bold German\"",
+    "%1"
+  ],
   "mixed-number": [
     "%1",
     "$1: \"and\"",

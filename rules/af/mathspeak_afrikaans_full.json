@@ -51,6 +51,36 @@
       }
     ]
   },
+  "german-font": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"German\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "ignoreFont": "@font"
+        }
+      }
+    ]
+  },
+  "german-font-bold": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"bold German\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "ignoreFont": "@font"
+        }
+      }
+    ]
+  },
   "mixed-number": {
     "components": [
       {

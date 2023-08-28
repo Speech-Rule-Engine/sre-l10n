@@ -43,6 +43,32 @@
       }
     }
   },
+  "german-font": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"German\""
+    },
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "ignoreFont": "@font"
+      }
+    }
+  },
+  "german-font-bold": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"bold German\""
+    },
+    "%1": {
+      "type": "NODE",
+      "content": ".",
+      "grammar": {
+        "ignoreFont": "@font"
+      }
+    }
+  },
   "mixed-number": {
     "%1": {
       "type": "NODE",
