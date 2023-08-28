@@ -56,13 +56,13 @@
   "abstr-lim": {
     "$1": {
       "type": "TEXT",
-      "content": "\"limit function\""
+      "content": "\"limiet funksie\""
     }
   },
   "abstr-lim-brief": {
     "$1": {
       "type": "TEXT",
-      "content": "\"lim\""
+      "content": "\"limïet\""
     }
   },
   "abstr-fraction": {
@@ -245,7 +245,7 @@
     },
     "$2": {
       "type": "TEXT",
-      "content": "\"summands\""
+      "content": "\"terme\""
     }
   },
   "abstr-addition-brief": {
@@ -257,7 +257,7 @@
   "abstr-addition-var": {
     "$1": {
       "type": "TEXT",
-      "content": "\"sum with variable number of summands\""
+      "content": "\"som met wisselende aantal terme\""
     }
   },
   "abstr-multiplication": {
@@ -311,7 +311,7 @@
   "abstr-binomial": {
     "$1": {
       "type": "TEXT",
-      "content": "\"binomial\""
+      "content": "\"binomiaal\""
     }
   },
   "abstr-determinant": {
@@ -321,7 +321,7 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"dimensional determinant\""
+      "content": "\"dimensionele determinant\""
     }
   },
   "abstr-determinant-brief": {
@@ -507,7 +507,7 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"sequence\""
+      "content": "\"ketting\""
     },
     "$2": {
       "type": "TEXT",
@@ -532,7 +532,7 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"sequence\""
+      "content": "\"ketting\""
     }
   },
   "abstr-relation-var": {
@@ -545,7 +545,7 @@
     },
     "$1": {
       "type": "TEXT",
-      "content": "\"sequence\""
+      "content": "\"ketting\""
     },
     "$2": {
       "type": "TEXT",
@@ -555,7 +555,7 @@
   "abstr-multirel": {
     "$1": {
       "type": "TEXT",
-      "content": "\"relation sequence\""
+      "content": "\"verwantskapsketting\""
     },
     "$2": {
       "type": "TEXT",
@@ -573,13 +573,13 @@
   "abstr-multirel-brief": {
     "$1": {
       "type": "TEXT",
-      "content": "\"relation sequence\""
+      "content": "\"verwantskapsketting\""
     }
   },
   "abstr-multirel-var": {
     "$1": {
       "type": "TEXT",
-      "content": "\"relation sequence with variable number of elements\""
+      "content": "\"verwantskapsketting met 'n wisselende aantal elemente\""
     }
   },
   "abstr-table": {

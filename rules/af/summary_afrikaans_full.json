@@ -75,7 +75,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"limit function\""
+        "content": "\"limiet funksie\""
       }
     ]
   },
@@ -83,7 +83,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"lim\""
+        "content": "\"limïet\""
       }
     ]
   },
@@ -304,7 +304,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"summands\""
+        "content": "\"terme\""
       }
     ]
   },
@@ -320,7 +320,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"sum with variable number of summands\""
+        "content": "\"som met wisselende aantal terme\""
       }
     ]
   },
@@ -388,7 +388,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"binomial\""
+        "content": "\"binomiaal\""
       }
     ]
   },
@@ -400,7 +400,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"dimensional determinant\""
+        "content": "\"dimensionele determinant\""
       }
     ]
   },
@@ -626,7 +626,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"sequence\""
+        "content": "\"ketting\""
       },
       {
         "type": "TEXT",
@@ -653,7 +653,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"sequence\""
+        "content": "\"ketting\""
       }
     ]
   },
@@ -668,7 +668,7 @@
       },
       {
         "type": "TEXT",
-        "content": "\"sequence\""
+        "content": "\"ketting\""
       },
       {
         "type": "TEXT",
@@ -680,7 +680,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"relation sequence\""
+        "content": "\"verwantskapsketting\""
       },
       {
         "type": "TEXT",
@@ -700,7 +700,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"relation sequence\""
+        "content": "\"verwantskapsketting\""
       }
     ]
   },
@@ -708,7 +708,7 @@
     "components": [
       {
         "type": "TEXT",
-        "content": "\"relation sequence with variable number of elements\""
+        "content": "\"verwantskapsketting met 'n wisselende aantal elemente\""
       }
     ]
   },
