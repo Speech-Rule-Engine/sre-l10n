@@ -1,1 +1,1109 @@
-{}
+{
+  "collapsed": [
+    "$1: \"collapsed\"",
+    "%1"
+  ],
+  "font": [
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "german-font": [
+    "$1: \"German\"",
+    "%1"
+  ],
+  "german-font-bold": [
+    "$1: \"bold German\"",
+    "%1"
+  ],
+  "ellipsis": [
+    "$1: \"and so on\""
+  ],
+  "ellipsis-andsoon": [
+    "$1: \"and so on up to\""
+  ],
+  "vbar-evaluated": [
+    "%1 (pause:short)",
+    "$1: \"evaluated at\"",
+    "%2 (pause:short)"
+  ],
+  "vbar-evaluated-both": [
+    "%1 (pause:short)",
+    "$1: \"evaluated at\"",
+    "%2 (pause:short)",
+    "$2: \"minus the same expression evaluated at\"",
+    "%3 (pause:short)"
+  ],
+  "vbar-such-that": [
+    "$1: \"such that\""
+  ],
+  "vbar-divides": [
+    "$1: \"divides\""
+  ],
+  "vbar-always-divides": [
+    "$1: \"divides\""
+  ],
+  "vbar-given": [
+    "$1: \"given\""
+  ],
+  "member": [
+    "$1: \"is a member of\""
+  ],
+  "member-member": [
+    "$1: \"is a member of\""
+  ],
+  "member-element": [
+    "$1: \"is an element of\""
+  ],
+  "member-in": [
+    "$1: \"is in\""
+  ],
+  "member-belongs": [
+    "$1: \"belongs to\""
+  ],
+  "not-member": [
+    "$1: \"is not a member of\""
+  ],
+  "not-member-member": [
+    "$1: \"is not a member of\""
+  ],
+  "not-member-element": [
+    "$1: \"is not an element of\""
+  ],
+  "not-member-in": [
+    "$1: \"is not in\""
+  ],
+  "not-member-belongs": [
+    "$1: \"does not belong to\""
+  ],
+  "set-member": [
+    "$1: \"in\""
+  ],
+  "set-member-member": [
+    "$1: \"member of\""
+  ],
+  "set-member-element": [
+    "$1: \"element of\""
+  ],
+  "set-member-in": [
+    "$1: \"in\""
+  ],
+  "set-member-belongs": [
+    "$1: \"belonging to\""
+  ],
+  "set-not-member": [
+    "$1: \"not in\""
+  ],
+  "set-not-member-member": [
+    "$1: \"not a member of\""
+  ],
+  "set-not-member-element": [
+    "$1: \"not an element of\""
+  ],
+  "set-not-member-in": [
+    "$1: \"not in\""
+  ],
+  "set-not-member-belongs": [
+    "$1: \"not belonging to\""
+  ],
+  "article": [
+    "$1: \"the\"",
+    "%1"
+  ],
+  "appl": [
+    "%1",
+    "$1: \"of\"",
+    "%2 (pause:short)"
+  ],
+  "appl-simple": [
+    "%1",
+    "$1: \"of\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "appl-simple-fenced": [
+    "%1",
+    "$1: \"of\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "appl-times": [
+    "%1",
+    "$1: \"times\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix": [
+    "%1",
+    "%2"
+  ],
+  "function-prefix-simple-arg": [
+    "%1",
+    "%2"
+  ],
+  "function-prefix-embell": [
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-fenced-or-frac-arg": [
+    "%1 (grammar:addArticle)",
+    "$1: \"of\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-subscript": [
+    "%1 (grammar:addArticle)",
+    "$1: \"of\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "function-ln": [
+    "%1",
+    "%2"
+  ],
+  "function-ln-pause": [
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "function-ln-of": [
+    "%1",
+    "$1: \"of\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-as-exp": [
+    "%1",
+    "$1: \"of\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-subscript-as-exp": [
+    "%1",
+    "$1: \"of\" (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-hyper": [
+    "%1",
+    "$1: \"of\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-inverse": [
+    "$1: \"the inverse\"",
+    "%1",
+    "$2: \"of\"",
+    "%2 (pause:short)"
+  ],
+  "appl-triginverse": [
+    "%1",
+    "$1: \"of\"",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-arc-simple": [
+    "$1: \"arc\"",
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-arc-simple-fenced": [
+    "$1: \"arc\"",
+    "%1 (pause:short)",
+    "%2 (pause:short)"
+  ],
+  "function-prefix-arc": [
+    "$1: \"arc\"",
+    "%1",
+    "$2: \"of\"",
+    "%2 (pause:short)"
+  ],
+  "function-inverse": [
+    "%1",
+    "$1: \"inverse\""
+  ],
+  "superscript-prefix-function": [
+    "%1 (grammar:addArticle)",
+    "$1: \"power of\"",
+    "%2"
+  ],
+  "superscript": [
+    "%1",
+    "$1: \"raised to the exponent\" (pause:short)",
+    "%2 (pause:short)",
+    "$2: \"end exponent\" (pause:short)"
+  ],
+  "superscript-simple-exponent": [
+    "%1",
+    "$1: \"raised to the\"",
+    "%2",
+    "$2: \"power\" (pause:short)"
+  ],
+  "superscript-simple-exponent-end": [
+    "%1",
+    "$1: \"raised to the\"",
+    "%2",
+    "$2: \"power\""
+  ],
+  "superscript-ordinal": [
+    "%1",
+    "$1: \"to the\"",
+    "%2",
+    "$2: \"power\" (pause:short)"
+  ],
+  "superscript-non-ordinal": [
+    "%1",
+    "$1: \"to the\"",
+    "%2",
+    "$2: \"power\" (pause:short)"
+  ],
+  "superscript-simple-function": [
+    "%1 (grammar:addArticle)",
+    "$1: \"power of\" (pause:short)",
+    "%2"
+  ],
+  "superscript-simple-function-none": [
+    "%1"
+  ],
+  "superscript-ordinal-number": [
+    "%1",
+    "$1: \"to the\"",
+    "%2 (pause:short)"
+  ],
+  "superscript-ordinal-negative": [
+    "%1",
+    "$1: \"to the\"",
+    "%2 (pause:short)"
+  ],
+  "superscript-ordinal-default": [
+    "%1",
+    "$1: \"raised to the exponent\" (pause:short)",
+    "%2 (pause:short)",
+    "$2: \"end exponent\" (pause:short)"
+  ],
+  "superscript-ordinal-power-number": [
+    "%1",
+    "$1: \"to the\"",
+    "%2",
+    "$2: \"power\" (pause:short)"
+  ],
+  "superscript-ordinal-power-negative": [
+    "%1",
+    "$1: \"to the\"",
+    "%2",
+    "$2: \"power\" (pause:short)"
+  ],
+  "superscript-ordinal-power-identifier": [
+    "%1",
+    "$1: \"to the\"",
+    "%2",
+    "$2: \"power\" (pause:short)"
+  ],
+  "superscript-ordinal-power-default": [
+    "%1",
+    "$1: \"raised to the exponent\" (pause:short)",
+    "%2 (pause:short)",
+    "$2: \"end exponent\" (pause:short)"
+  ],
+  "superscript-power": [
+    "%1",
+    "$1: \"raised to the power\"",
+    "%2 (pause:short)"
+  ],
+  "superscript-power-default": [
+    "%1",
+    "$1: \"raised to the exponent\" (pause:short)",
+    "%2 (pause:short)",
+    "$2: \"end exponent\" (pause:short)"
+  ],
+  "exponent": [
+    "%1 (join:\"-\")",
+    "$1: \"th\""
+  ],
+  "exponent-number": [
+    "%1"
+  ],
+  "exponent-ordinal": [
+    "%1"
+  ],
+  "exponent-ordinal-zero": [
+    "$1: \"zero\""
+  ],
+  "exponent-ordinalpower": [
+    "%1"
+  ],
+  "exponent-ordinalpower-zero": [
+    "$1: \"zero\""
+  ],
+  "square": [
+    "%1",
+    "$1: \"squared\""
+  ],
+  "cube": [
+    "%1",
+    "$1: \"cubed\""
+  ],
+  "fences-points": [
+    "$1: \"the point with coordinates\"",
+    "%1"
+  ],
+  "fences-interval": [
+    "$1: \"the interval from\"",
+    "%1",
+    "$2: \"to\"",
+    "%2 (pause:short)",
+    "%3"
+  ],
+  "interval-open": [
+    "$1: \"not including\"",
+    "%1",
+    "$2: \"or\"",
+    "%2"
+  ],
+  "interval-closed-open": [
+    "$1: \"including\"",
+    "%1 (pause:short)",
+    "$2: \"but not including\"",
+    "%2"
+  ],
+  "interval-open-closed": [
+    "$1: \"not including\"",
+    "%1 (pause:short)",
+    "$2: \"but including\"",
+    "%2"
+  ],
+  "interval-closed": [
+    "$1: \"including\"",
+    "%1",
+    "$2: \"and\"",
+    "%2"
+  ],
+  "interval-open-inf-r": [
+    "$1: \"not including\"",
+    "%1"
+  ],
+  "interval-open-inf-l": [
+    "$1: \"not including\"",
+    "%1"
+  ],
+  "interval-closed-open-inf": [
+    "$1: \"including\"",
+    "%1"
+  ],
+  "interval-open-closed-inf": [
+    "$1: \"including\"",
+    "%1"
+  ],
+  "set-empty": [
+    "$1: \"the empty set\""
+  ],
+  "set-extended": [
+    "$1: \"the set of all\"",
+    "%1",
+    "$2: \"such that\"",
+    "%2"
+  ],
+  "set-collection": [
+    "$1: \"the set\"",
+    "%1"
+  ],
+  "set-extended-woall": [
+    "$1: \"the set of\"",
+    "%1",
+    "$2: \"such that\"",
+    "%2"
+  ],
+  "subscript": [
+    "%1",
+    "$1: \"sub\"",
+    "%2 (pause:short)"
+  ],
+  "logarithm-base": [
+    "%1",
+    "$1: \"base\"",
+    "%2"
+  ],
+  "subscript-index": [
+    "%1",
+    "$1: \"sub\"",
+    "%2"
+  ],
+  "fraction": [
+    "$1: \"the\" (grammar:article)",
+    "$2: \"fraction with numerator\"",
+    "%1 (pause:short)",
+    "$3: \"and denominator\"",
+    "%2 (pause:short)"
+  ],
+  "fraction-none": [
+    "$1: \"the\" (grammar:article)",
+    "$2: \"fraction with numerator\"",
+    "%1 (pause:short)",
+    "$3: \"and denominator\"",
+    "%2 (pause:short)"
+  ],
+  "simple-fraction": [
+    "%1",
+    "$1: \"over\"",
+    "%2 (pause:short)"
+  ],
+  "simple-vulgar-fraction": [
+    "%1",
+    "$1: \"over\"",
+    "%2 (pause:short)"
+  ],
+  "simple-text-fraction": [
+    "%1",
+    "$1: \"over\"",
+    "%2 (pause:short)"
+  ],
+  "vulgar-fraction": [
+    "%1"
+  ],
+  "fraction-over": [
+    "%1",
+    "$1: \"over\"",
+    "%2 (pause:short)"
+  ],
+  "fraction-overendfrac": [
+    "%1",
+    "$1: \"over\"",
+    "%2 (pause:short)",
+    "$2: \"end fraction\" (pause:short)"
+  ],
+  "fraction-fracover": [
+    "$1: \"the fraction\"",
+    "%1",
+    "$2: \"over\"",
+    "%2 (pause:short)"
+  ],
+  "fraction-per": [
+    "%1",
+    "$1: \"per\"",
+    "%2 (pause:short)"
+  ],
+  "fraction-generalendfrac": [
+    "$1: \"the fraction with numerator\"",
+    "%1 (pause:short)",
+    "$2: \"and denominator\"",
+    "%2 (pause:short)",
+    "$3: \"end fraction\" (pause:short)"
+  ],
+  "fraction-general": [
+    "$1: \"the fraction with numerator\"",
+    "%1 (pause:short)",
+    "$2: \"and denominator\"",
+    "%2 (pause:short)"
+  ],
+  "simple-vulgar-fraction-ordinal": [
+    "%1"
+  ],
+  "fraction-endfrac": [
+    "%1",
+    "$1: \"end fraction\" (pause:short)"
+  ],
+  "vulgar-fraction-endfrac": [
+    "%1",
+    "$1: \"over\"",
+    "%2 (pause:short)"
+  ],
+  "simple-vulgar-fraction-endfrac": [
+    "%1"
+  ],
+  "sqrt": [
+    "$1: \"the square root of\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-nested": [
+    "$1: \"the square root of\"",
+    "%1 (pause:short)"
+  ],
+  "negative-sqrt": [
+    "$1: \"the negative square root of\"",
+    "%1 (pause:short)"
+  ],
+  "negative-sqrt-default": [
+    "$1: \"the negative square root of\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-plus-minus": [
+    "$1: \"the positive square root of\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-nested-plus-minus": [
+    "$1: \"the positive square root of\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-plus-minus-posnegsqrootend": [
+    "$1: \"the positive square root of\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-nested-plus-minus-posnegsqrootend": [
+    "$1: \"the positive square root of\"",
+    "%1 (pause:short)"
+  ],
+  "sqrt-endroot": [
+    "%1",
+    "$1: \"end root\" (pause:short)"
+  ],
+  "negative-sqrt-endroot": [
+    "%1",
+    "$1: \"end root\" (pause:short)"
+  ],
+  "sqrt-posnegsqrootend": [
+    "%1",
+    "$1: \"end root\" (pause:short)"
+  ],
+  "negative-sqrt-posnegsqrootend": [
+    "%1",
+    "$1: \"end root\" (pause:short)"
+  ],
+  "cubic": [
+    "$1: \"the cube root of\"",
+    "%1 (pause:short)"
+  ],
+  "cubic-nested": [
+    "$1: \"the cube root of\"",
+    "%1 (pause:short)"
+  ],
+  "root": [
+    "%1 (grammar:addArticle)",
+    "$1: \"root of\"",
+    "%2 (pause:short)"
+  ],
+  "root-nested": [
+    "%1 (grammar:addArticle)",
+    "$1: \"root of\"",
+    "%2 (pause:short)"
+  ],
+  "root-endroot": [
+    "%1",
+    "$1: \"end root\" (pause:short)"
+  ],
+  "root-posnegsqrootend": [
+    "%1",
+    "$1: \"end root\" (pause:short)"
+  ],
+  "negative": [
+    "$1: \"negative\"",
+    "%1"
+  ],
+  "positive": [
+    "$1: \"positive\"",
+    "%1"
+  ],
+  "angle-measure": [
+    "$1: \"the measure of\"",
+    "%1",
+    "%2"
+  ],
+  "set-prefix-operators": [
+    "%1 (grammar:addArticle)",
+    "$1: \"of\""
+  ],
+  "division": [
+    "%1",
+    "$1: \"divided by\"",
+    "%2"
+  ],
+  "operators-after-power": [
+    "%1"
+  ],
+  "natural-numbers": [
+    "$1: \"the natural numbers\""
+  ],
+  "integers": [
+    "$1: \"the integers\""
+  ],
+  "rational-numbers": [
+    "$1: \"the rational numbers\""
+  ],
+  "real-numbers": [
+    "$1: \"the real numbers\""
+  ],
+  "complex-numbers": [
+    "$1: \"the complex numbers\""
+  ],
+  "natural-numbers-with-zero": [
+    "$1: \"the natural numbers with zero\""
+  ],
+  "positive-integers": [
+    "$1: \"the positive integers\""
+  ],
+  "negative-integers": [
+    "$1: \"the negative integers\""
+  ],
+  "positive-rational-numbers": [
+    "$1: \"the positive rational numbers\""
+  ],
+  "negative-rational-numbers": [
+    "$1: \"the negative rational numbers\""
+  ],
+  "fences-neutral": [
+    "$1: \"the absolute value of\"",
+    "%1 (pause:short)"
+  ],
+  "fences-neutral-absend": [
+    "$1: \"the absolute value of\"",
+    "%1 (pause:short)",
+    "$2: \"end absolute value\" (pause:short)"
+  ],
+  "fences-neutral-cardinality": [
+    "$1: \"the cardinality of\"",
+    "%1 (pause:short)"
+  ],
+  "fences-neutral-determinant": [
+    "$1: \"the determinant of\"",
+    "%1 (pause:short)"
+  ],
+  "fences-metric": [
+    "$1: \"the metric of\"",
+    "%1 (pause:short)"
+  ],
+  "fences-metric-absend": [
+    "$1: \"the metric of\"",
+    "%1 (pause:short)",
+    "$2: \"end metric\" (pause:short)"
+  ],
+  "matrix": [
+    "$1: \"the\"",
+    "%1",
+    "$2: \"by\"",
+    "%2",
+    "$3: \"matrix\" (pause:long)",
+    "%3 (context:\"Row-:\", pause:long)"
+  ],
+  "matrix-simple": [
+    "$1: \"the\"",
+    "%1",
+    "$2: \"by\"",
+    "%2",
+    "$3: \"matrix\" (pause:long)",
+    "%3 (context:\"Row-:\", pause:long)"
+  ],
+  "matrix-trivial": [
+    "$1: \"the 1 by 1 matrix with entry\"",
+    "%1 (pause:long)"
+  ],
+  "determinant": [
+    "$1: \"the determinant of the\"",
+    "%1",
+    "$2: \"by\"",
+    "%2",
+    "$3: \"matrix\" (pause:long)",
+    "%3 (context:\"Row-:\", pause:long)"
+  ],
+  "determinant-simple": [
+    "$1: \"the determinant of the\"",
+    "%1",
+    "$2: \"by\"",
+    "%2",
+    "$3: \"matrix\" (pause:long)",
+    "%3 (context:\"Row-:\", pause:long)"
+  ],
+  "matrix-vector": [
+    "$1: \"the\"",
+    "%1",
+    "$2: \"by\"",
+    "%2",
+    "$3: \"column matrix\" (pause:long)",
+    "%3 (context:\"Row-:\", pause:long)"
+  ],
+  "matrix-vector-simple": [
+    "$1: \"the\"",
+    "%1",
+    "$2: \"by\"",
+    "%2",
+    "$3: \"column matrix\" (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "matrix-vector-simple-silentcolnum": [
+    "$1: \"the\"",
+    "%1",
+    "$2: \"by\"",
+    "%2",
+    "$3: \"column matrix\" (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "matrix-row-vector": [
+    "$1: \"the\"",
+    "%1",
+    "$2: \"by\"",
+    "%2",
+    "$3: \"row matrix\" (pause:long)",
+    "%3 (context:\"Column-:\", pause:long)"
+  ],
+  "matrix-row-vector-simple": [
+    "$1: \"the\"",
+    "%1",
+    "$2: \"by\"",
+    "%2",
+    "$3: \"row matrix\" (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "matrix-row-vector-simple-silentcolnum": [
+    "$1: \"the\"",
+    "%1",
+    "$2: \"by\"",
+    "%2",
+    "$3: \"row matrix\" (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "matrix-row": [
+    "%1 (context:\"Column-,- \", pause:long)"
+  ],
+  "matrix-end-matrix": [
+    "%1",
+    "$1: \"end matrix\""
+  ],
+  "matrix-end-vector": [
+    "%1",
+    "$1: \"end matrix\""
+  ],
+  "matrix-end-determinant": [
+    "%1",
+    "$1: \"end determinant\""
+  ],
+  "vector": [
+    "$1: \"the\"",
+    "%1",
+    "$2: \"by\"",
+    "%2",
+    "$3: \"column vector\" (pause:long)",
+    "%3 (context:\"Row-:\", pause:long)"
+  ],
+  "vector-simple": [
+    "$1: \"the\"",
+    "%1",
+    "$2: \"by\"",
+    "%2",
+    "$3: \"column vector\" (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "row-vector": [
+    "$1: \"the\"",
+    "%1",
+    "$2: \"by\"",
+    "%2",
+    "$3: \"row vector\" (pause:long)",
+    "%3 (context:\"Column-:\", pause:long)"
+  ],
+  "row-vector-simple": [
+    "$1: \"the\"",
+    "%1",
+    "$2: \"by\"",
+    "%2",
+    "$3: \"row vector\" (pause:long)",
+    "%3 (pause:long)"
+  ],
+  "vector-end-matrix": [
+    "%1",
+    "$1: \"end matrix\""
+  ],
+  "vector-end-vector": [
+    "%1",
+    "$1: \"end vector\""
+  ],
+  "vector-end-vector-endvector": [
+    "%1",
+    "$1: \"end vector\""
+  ],
+  "vector-end-determinant": [
+    "%1",
+    "$1: \"end determinant\""
+  ],
+  "binomial": [
+    "%1",
+    "$1: \"choose\"",
+    "%2"
+  ],
+  "lines-summary": [
+    "%1",
+    "$1: \"lines\"",
+    "%2"
+  ],
+  "cases-summary": [
+    "%1",
+    "$1: \"cases\"",
+    "%2"
+  ],
+  "lines": [
+    "%1 (context:\"Line-:\", pause:long)"
+  ],
+  "blank-cell": [
+    "$1: \"blank\""
+  ],
+  "blank-line": [
+    "$1: \"blank\""
+  ],
+  "blank-cell-empty": [
+    "$1: \"blank\""
+  ],
+  "blank-line-empty": [
+    "$1: \"blank\""
+  ],
+  "cases": [
+    "%1 (context:\"Case-:\", pause:long)"
+  ],
+  "lines-cases-summary": [
+    "%1",
+    "$1: \"cases\"",
+    "%2"
+  ],
+  "lines-cases": [
+    "%1 (context:\"Case-:\", pause:long)"
+  ],
+  "lines-equations-summary": [
+    "%1",
+    "$1: \"equations\"",
+    "%2"
+  ],
+  "lines-equations": [
+    "%1 (context:\"Equation-:\", pause:long)"
+  ],
+  "lines-steps-summary": [
+    "%1",
+    "$1: \"steps\"",
+    "%2"
+  ],
+  "lines-steps": [
+    "%1 (context:\"Step-:\", pause:long)"
+  ],
+  "lines-rows-summary": [
+    "%1",
+    "$1: \"rows\"",
+    "%2"
+  ],
+  "lines-rows": [
+    "%1 (context:\"Row-:\", pause:long)"
+  ],
+  "lines-constraints-summary": [
+    "%1",
+    "$1: \"constraints\"",
+    "%2"
+  ],
+  "lines-constraints": [
+    "%1 (context:\"Constraint-:\", pause:long)"
+  ],
+  "bigop": [
+    "%1 (grammar:addArticle)",
+    "$1: \"of\"",
+    "%2 (pause:short)"
+  ],
+  "limboth": [
+    "%1",
+    "$1: \"from\"",
+    "%2",
+    "$2: \"to\"",
+    "%3"
+  ],
+  "limlower": [
+    "%1",
+    "$1: \"over\"",
+    "%2 (pause:short)"
+  ],
+  "limupper": [
+    "%1",
+    "$1: \"under\"",
+    "%2 (pause:short)"
+  ],
+  "integral": [
+    "%1 (grammar:addArticle)",
+    "$1: \"of\"",
+    "%2 (pause:short)",
+    "%3 (pause:short)"
+  ],
+  "integral-novar": [
+    "%1 (grammar:addArticle)",
+    "$1: \"of\"",
+    "%2 (pause:short)"
+  ],
+  "overscript": [
+    "%1",
+    "$1: \"under\"",
+    "%2 (pause:short)"
+  ],
+  "overscript-limits": [
+    "%1",
+    "$1: \"to\"",
+    "%2"
+  ],
+  "underscript": [
+    "%1",
+    "$1: \"over\"",
+    "%2 (pause:short)"
+  ],
+  "underscript-limits": [
+    "%1",
+    "$1: \"from\"",
+    "%2"
+  ],
+  "mixed-number": [
+    "%1",
+    "$1: \"and\"",
+    "%2"
+  ],
+  "number-with-chars": [
+    "$1: \"number\"",
+    "%1"
+  ],
+  "decimal-period": [
+    "$1: \"the repeating decimal\"",
+    "%1",
+    "$2: \"point followed by repeating digits\"",
+    "%2"
+  ],
+  "decimal-period-float": [
+    "$1: \"the repeating decimal\"",
+    "%1",
+    "$2: \"followed by repeating digits\"",
+    "%2"
+  ],
+  "decimal-period-singular": [
+    "$1: \"the repeating decimal\"",
+    "%1",
+    "$2: \"point followed by repeating digit\"",
+    "%2"
+  ],
+  "decimal-period-singular-float": [
+    "$1: \"the repeating decimal\"",
+    "%1",
+    "$2: \"followed by repeating digit\"",
+    "%2"
+  ],
+  "decimal-point": [
+    "$1: \"point\""
+  ],
+  "line-segment": [
+    "$1: \"the line segment\"",
+    "%1",
+    "%2 (pause:short)"
+  ],
+  "conjugate": [
+    "$1: \"the complex conjugate of\"",
+    "%1"
+  ],
+  "defined-by": [
+    "$1: \"is defined to be\" (pause:short)"
+  ],
+  "adorned-sign": [
+    "%1",
+    "$1: \"sign with\"",
+    "%2",
+    "$2: \"over it\""
+  ],
+  "factorial": [
+    "$1: \"factorial\""
+  ],
+  "left-super": [
+    "$1: \"left super\"",
+    "%1"
+  ],
+  "left-super-list": [
+    "$1: \"left super\"",
+    "%1"
+  ],
+  "left-sub": [
+    "$1: \"left sub\"",
+    "%1"
+  ],
+  "left-sub-list": [
+    "$1: \"left sub\"",
+    "%1"
+  ],
+  "right-super": [
+    "$1: \"right super\"",
+    "%1"
+  ],
+  "right-super-list": [
+    "$1: \"right super\"",
+    "%1"
+  ],
+  "right-sub": [
+    "$1: \"right sub\"",
+    "%1"
+  ],
+  "right-sub-list": [
+    "$1: \"right sub\"",
+    "%1"
+  ],
+  "choose": [
+    "%1",
+    "$1: \"choose\"",
+    "%2"
+  ],
+  "permute": [
+    "%1",
+    "$1: \"permute\"",
+    "%2"
+  ],
+  "unit-square": [
+    "$1: \"square\"",
+    "%1"
+  ],
+  "unit-cubic": [
+    "$1: \"cubic\"",
+    "%1"
+  ],
+  "unit-reciprocal": [
+    "$1: \"reciprocal\"",
+    "%1"
+  ],
+  "unit-reciprocal-singular": [
+    "$1: \"per\"",
+    "%1 (grammar:singular)"
+  ],
+  "unit-divide": [
+    "%1",
+    "$1: \"per\"",
+    "%2 (grammar:singular)"
+  ],
+  "enclose": [
+    "$1: \"enclosed with\"",
+    "%1",
+    "%2"
+  ],
+  "enclose-end": [
+    "$1: \"enclosed with\"",
+    "%1",
+    "%2",
+    "$2: \"end enclosed\""
+  ],
+  "overbar": [
+    "%1",
+    "$1: \"horizontal bar\""
+  ],
+  "underbar": [
+    "%1",
+    "$1: \"over horizontal bar\""
+  ],
+  "leftbar": [
+    "$1: \"vertical bar\"",
+    "%1"
+  ],
+  "rightbar": [
+    "%1",
+    "$1: \"vertical bar\""
+  ],
+  "crossout": [
+    "$1: \"crossed out\"",
+    "%1"
+  ],
+  "crossout-end": [
+    "$1: \"crossed out\"",
+    "%1",
+    "$2: \"end crossout\""
+  ],
+  "cancel-over": [
+    "%1",
+    "$1: \"crossed out with\"",
+    "%2"
+  ],
+  "cancel-under": [
+    "%1",
+    "$1: \"crossed out with\"",
+    "%2"
+  ],
+  "cancel-over-end": [
+    "$1: \"crossed out\"",
+    "%1",
+    "$2: \"with\"",
+    "%2",
+    "$3: \"end crossout\""
+  ],
+  "cancel-under-end": [
+    "$1: \"crossed out\"",
+    "%1",
+    "$2: \"with\"",
+    "%2",
+    "$3: \"end crossout\""
+  ]
+}

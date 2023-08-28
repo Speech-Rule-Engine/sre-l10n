@@ -1,1 +1,4542 @@
-{}
+{
+  "collapsed": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"collapsed\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "attributes": {
+          "engine": "modality=summary"
+        },
+        "grammar": {
+          "collapsed": true
+        }
+      }
+    ]
+  },
+  "font": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "@font",
+        "grammar": {
+          "localFont": true
+        }
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "attributes": {
+          "pause": "short"
+        },
+        "grammar": {
+          "ignoreFont": "@font"
+        }
+      }
+    ]
+  },
+  "german-font": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"German\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "ignoreFont": "@font"
+        }
+      }
+    ]
+  },
+  "german-font-bold": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"bold German\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "ignoreFont": "@font"
+        }
+      }
+    ]
+  },
+  "ellipsis": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"and so on\""
+      }
+    ]
+  },
+  "ellipsis-andsoon": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"and so on up to\""
+      }
+    ]
+  },
+  "vbar-evaluated": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"evaluated at\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]/children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "vbar-evaluated-both": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"evaluated at\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]/children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"minus the same expression evaluated at\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]/children/*[1]/children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "vbar-such-that": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"such that\""
+      }
+    ]
+  },
+  "vbar-divides": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"divides\""
+      }
+    ]
+  },
+  "vbar-always-divides": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"divides\""
+      }
+    ]
+  },
+  "vbar-given": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"given\""
+      }
+    ]
+  },
+  "member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"is a member of\""
+      }
+    ]
+  },
+  "member-member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"is a member of\""
+      }
+    ]
+  },
+  "member-element": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"is an element of\""
+      }
+    ]
+  },
+  "member-in": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"is in\""
+      }
+    ]
+  },
+  "member-belongs": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"belongs to\""
+      }
+    ]
+  },
+  "not-member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"is not a member of\""
+      }
+    ]
+  },
+  "not-member-member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"is not a member of\""
+      }
+    ]
+  },
+  "not-member-element": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"is not an element of\""
+      }
+    ]
+  },
+  "not-member-in": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"is not in\""
+      }
+    ]
+  },
+  "not-member-belongs": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"does not belong to\""
+      }
+    ]
+  },
+  "set-member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"in\""
+      }
+    ]
+  },
+  "set-member-member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"member of\""
+      }
+    ]
+  },
+  "set-member-element": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"element of\""
+      }
+    ]
+  },
+  "set-member-in": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"in\""
+      }
+    ]
+  },
+  "set-member-belongs": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"belonging to\""
+      }
+    ]
+  },
+  "set-not-member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"not in\""
+      }
+    ]
+  },
+  "set-not-member-member": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"not a member of\""
+      }
+    ]
+  },
+  "set-not-member-element": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"not an element of\""
+      }
+    ]
+  },
+  "set-not-member-in": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"not in\""
+      }
+    ]
+  },
+  "set-not-member-belongs": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"not belonging to\""
+      }
+    ]
+  },
+  "article": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "noArticle": true
+        }
+      }
+    ]
+  },
+  "appl": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "appl-simple": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"of\"",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "appl-simple-fenced": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"of\"",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "appl-times": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"times\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "function-prefix": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "function-prefix-simple-arg": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "function-prefix-embell": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "function-prefix-fenced-or-frac-arg": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "grammar": {
+          "addArticle": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "function-prefix-subscript": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "grammar": {
+          "addArticle": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"of\"",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "function-ln": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "function-ln-pause": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "function-ln-of": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "function-prefix-as-exp": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"of\"",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "function-prefix-subscript-as-exp": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"of\"",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "function-prefix-hyper": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "function-prefix-inverse": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"the inverse\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "appl-triginverse": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "function-prefix-arc-simple": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"arc\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "function-prefix-arc-simple-fenced": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"arc\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "function-prefix-arc": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"arc\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "function-inverse": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"inverse\""
+      }
+    ]
+  },
+  "superscript-prefix-function": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "grammar": {
+          "ordinal": true,
+          "addArticle": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"power of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "superscript": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"raised to the exponent\"",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end exponent\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "superscript-simple-exponent": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"raised to the\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "grammar": {
+          "noArticle": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"power\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "superscript-simple-exponent-end": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"raised to the\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "grammar": {
+          "noArticle": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"power\""
+      }
+    ]
+  },
+  "superscript-ordinal": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"to the\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "grammar": {
+          "ordinal": true,
+          "noArticle": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"power\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "superscript-non-ordinal": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"to the\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "grammar": {
+          "noArticle": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"power\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "superscript-simple-function": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "grammar": {
+          "ordinal": true,
+          "addArticle": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"power of\"",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "superscript-simple-function-none": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "functions_none": true
+        }
+      }
+    ]
+  },
+  "superscript-ordinal-number": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"to the\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        },
+        "grammar": {
+          "ordinal": true,
+          "noArticle": true
+        }
+      }
+    ]
+  },
+  "superscript-ordinal-negative": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"to the\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        },
+        "grammar": {
+          "noArticle": true
+        }
+      }
+    ]
+  },
+  "superscript-ordinal-default": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"raised to the exponent\"",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end exponent\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "superscript-ordinal-power-number": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"to the\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "grammar": {
+          "ordinal": true,
+          "noArticle": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"power\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "superscript-ordinal-power-negative": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"to the\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "grammar": {
+          "noArticle": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"power\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "superscript-ordinal-power-identifier": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"to the\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "grammar": {
+          "ordinal": true,
+          "noArticle": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"power\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "superscript-ordinal-power-default": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"raised to the exponent\"",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end exponent\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "superscript-power": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"raised to the power\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        },
+        "grammar": {
+          "afterPower": true
+        }
+      }
+    ]
+  },
+  "superscript-power-default": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"raised to the exponent\"",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end exponent\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "exponent": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "text()",
+        "attributes": {
+          "join": "\"-\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"th\""
+      }
+    ]
+  },
+  "exponent-number": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFordinalExponent"
+      }
+    ]
+  },
+  "exponent-ordinal": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFwordOrdinal"
+      }
+    ]
+  },
+  "exponent-ordinal-zero": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"zero\""
+      }
+    ]
+  },
+  "exponent-ordinalpower": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFwordOrdinal"
+      }
+    ]
+  },
+  "exponent-ordinalpower-zero": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"zero\""
+      }
+    ]
+  },
+  "square": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"squared\"",
+        "attributes": {
+          "span": "children/*[2]"
+        }
+      }
+    ]
+  },
+  "cube": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"cubed\"",
+        "attributes": {
+          "span": "children/*[2]"
+        }
+      }
+    ]
+  },
+  "fences-points": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the point with coordinates\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "fences-interval": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the interval from\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"to\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[3]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "interval": true
+        }
+      }
+    ]
+  },
+  "interval-open": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"not including\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"or\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[3]"
+      }
+    ]
+  },
+  "interval-closed-open": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"including\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"but not including\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[3]"
+      }
+    ]
+  },
+  "interval-open-closed": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"not including\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"but including\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[3]"
+      }
+    ]
+  },
+  "interval-closed": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"including\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"and\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[3]"
+      }
+    ]
+  },
+  "interval-open-inf-r": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"not including\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      }
+    ]
+  },
+  "interval-open-inf-l": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"not including\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[3]"
+      }
+    ]
+  },
+  "interval-closed-open-inf": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"including\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      }
+    ]
+  },
+  "interval-open-closed-inf": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"including\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[3]"
+      }
+    ]
+  },
+  "set-empty": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the empty set\""
+      }
+    ]
+  },
+  "set-extended": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the set of all\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"such that\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[3]"
+      }
+    ]
+  },
+  "set-collection": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the set\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "set-extended-woall": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the set of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"such that\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[3]"
+      }
+    ]
+  },
+  "subscript": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"sub\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "logarithm-base": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"base\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "subscript-index": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"sub\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "fraction": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"the\"",
+        "grammar": {
+          "article": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"fraction with numerator\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"and denominator\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "fraction-none": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"the\"",
+        "grammar": {
+          "article": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"fraction with numerator\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"and denominator\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "simple-fraction": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"over\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "simple-vulgar-fraction": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"over\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "simple-text-fraction": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"over\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "vulgar-fraction": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFvulgarFraction"
+      }
+    ]
+  },
+  "fraction-over": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"over\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "fraction-overendfrac": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"over\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end fraction\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "fraction-fracover": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"the fraction\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"over\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "fraction-per": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"per\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "fraction-generalendfrac": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"the fraction with numerator\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"and denominator\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end fraction\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "fraction-general": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"the fraction with numerator\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"and denominator\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "simple-vulgar-fraction-ordinal": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFvulgarFraction"
+      }
+    ]
+  },
+  "fraction-endfrac": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "endfrac": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end fraction\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "vulgar-fraction-endfrac": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"over\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "simple-vulgar-fraction-endfrac": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "CSFvulgarFraction"
+      }
+    ]
+  },
+  "sqrt": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the square root of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "sqrt-nested": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "\"short\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"the square root of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "negative-sqrt": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the negative square root of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "negative-sqrt-default": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "\"short\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"the negative square root of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "sqrt-plus-minus": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the positive square root of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "sqrt-nested-plus-minus": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "\"short\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"the positive square root of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "sqrt-plus-minus-posnegsqrootend": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the positive square root of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "sqrt-nested-plus-minus-posnegsqrootend": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "\"short\""
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"the positive square root of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "sqrt-endroot": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?EndRoot": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end root\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "negative-sqrt-endroot": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?EndRoot": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end root\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "sqrt-posnegsqrootend": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?EndRoot": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end root\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "negative-sqrt-posnegsqrootend": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?EndRoot": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end root\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "cubic": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the cube root of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "cubic-nested": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"the cube root of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "root": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "grammar": {
+          "ordinal": true,
+          "addArticle": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"root of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "root-nested": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "grammar": {
+          "ordinal": true,
+          "addArticle": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"root of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "root-endroot": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?EndRoot": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end root\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "root-posnegsqrootend": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?EndRoot": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end root\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "negative": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"negative\"",
+        "attributes": {
+          "span": "content/*[1]"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "positive": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"positive\"",
+        "attributes": {
+          "span": "content/*[1]"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "angle-measure": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the measure of\""
+      },
+      {
+        "type": "NODE",
+        "content": "content/*[1]"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "grammar": {
+          "angle": true
+        }
+      }
+    ]
+  },
+  "set-prefix-operators": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "addArticle": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"of\""
+      }
+    ]
+  },
+  "division": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"divided by\"",
+        "attributes": {
+          "span": "content/*[1]"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "operators-after-power": {
+    "components": [
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "rate": "\"0.5\""
+        }
+      }
+    ]
+  },
+  "natural-numbers": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the natural numbers\""
+      }
+    ]
+  },
+  "integers": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the integers\""
+      }
+    ]
+  },
+  "rational-numbers": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the rational numbers\""
+      }
+    ]
+  },
+  "real-numbers": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the real numbers\""
+      }
+    ]
+  },
+  "complex-numbers": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the complex numbers\""
+      }
+    ]
+  },
+  "natural-numbers-with-zero": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the natural numbers with zero\""
+      }
+    ]
+  },
+  "positive-integers": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the positive integers\""
+      }
+    ]
+  },
+  "negative-integers": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the negative integers\""
+      }
+    ]
+  },
+  "positive-rational-numbers": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the positive rational numbers\""
+      }
+    ]
+  },
+  "negative-rational-numbers": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the negative rational numbers\""
+      }
+    ]
+  },
+  "fences-neutral": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"the absolute value of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "fences-neutral-absend": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"the absolute value of\"",
+        "attributes": {
+          "span": "content/*[1]"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end absolute value\"",
+        "attributes": {
+          "span": "content/*[1]",
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "fences-neutral-cardinality": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"the cardinality of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "fences-neutral-determinant": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"the determinant of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "fences-metric": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"the metric of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "fences-metric-absend": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"the metric of\"",
+        "attributes": {
+          "span": "content/*[1]"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end metric\"",
+        "attributes": {
+          "span": "content/*[1]",
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "matrix": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"by\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"matrix\"",
+        "attributes": {
+          "pause": "long"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFnodeCounter",
+          "context": "\"Row-:\"",
+          "pause": "long"
+        }
+      }
+    ]
+  },
+  "matrix-simple": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"by\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"matrix\"",
+        "attributes": {
+          "pause": "long"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFnodeCounter",
+          "context": "\"Row-:\"",
+          "pause": "long"
+        },
+        "grammar": {
+          "simpleDet": true
+        }
+      }
+    ]
+  },
+  "matrix-trivial": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the 1 by 1 matrix with entry\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "attributes": {
+          "pause": "long"
+        }
+      }
+    ]
+  },
+  "determinant": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the determinant of the\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"by\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"matrix\"",
+        "attributes": {
+          "pause": "long"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFnodeCounter",
+          "context": "\"Row-:\"",
+          "pause": "long"
+        },
+        "grammar": {
+          "simpleDet": true
+        }
+      }
+    ]
+  },
+  "determinant-simple": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the determinant of the\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"by\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"matrix\"",
+        "attributes": {
+          "pause": "long"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFnodeCounter",
+          "context": "\"Row-:\"",
+          "pause": "long"
+        }
+      }
+    ]
+  },
+  "matrix-vector": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"by\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"column matrix\"",
+        "attributes": {
+          "pause": "long"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFnodeCounter",
+          "context": "\"Row-:\"",
+          "pause": "long"
+        },
+        "grammar": {
+          "simpleDet": true
+        }
+      }
+    ]
+  },
+  "matrix-vector-simple": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"by\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"column matrix\"",
+        "attributes": {
+          "pause": "long"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "sepFunc": "CTFpauseSeparator",
+          "separator": "\"short\"",
+          "pause": "long"
+        },
+        "grammar": {
+          "simpleDet": true
+        }
+      }
+    ]
+  },
+  "matrix-vector-simple-silentcolnum": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"by\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"column matrix\"",
+        "attributes": {
+          "pause": "long"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "sepFunc": "CTFpauseSeparator",
+          "separator": "\"short\"",
+          "pause": "long"
+        },
+        "grammar": {
+          "simpleDet": true
+        }
+      }
+    ]
+  },
+  "matrix-row-vector": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"by\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"row matrix\"",
+        "attributes": {
+          "pause": "long"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*[1]/children/*",
+        "attributes": {
+          "ctxtFunc": "CTFnodeCounter",
+          "context": "\"Column-:\"",
+          "pause": "long"
+        },
+        "grammar": {
+          "simpleDet": true
+        }
+      }
+    ]
+  },
+  "matrix-row-vector-simple": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"by\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"row matrix\"",
+        "attributes": {
+          "pause": "long"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*[1]/children/*",
+        "attributes": {
+          "sepFunc": "CTFpauseSeparator",
+          "separator": "\"short\"",
+          "pause": "long"
+        },
+        "grammar": {
+          "simpleDet": true
+        }
+      }
+    ]
+  },
+  "matrix-row-vector-simple-silentcolnum": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"by\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"row matrix\"",
+        "attributes": {
+          "pause": "long"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*[1]/children/*",
+        "attributes": {
+          "sepFunc": "CTFpauseSeparator",
+          "separator": "\"short\"",
+          "pause": "long"
+        },
+        "grammar": {
+          "simpleDet": true
+        }
+      }
+    ]
+  },
+  "matrix-row": {
+    "components": [
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFnodeCounter",
+          "context": "\"Column-,- \"",
+          "sepFunc": "CTFpauseSeparator",
+          "separator": "\"medium\"",
+          "pause": "long"
+        }
+      }
+    ]
+  },
+  "matrix-end-matrix": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?EndMatrix": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end matrix\""
+      }
+    ]
+  },
+  "matrix-end-vector": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?EndMatrix": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end matrix\""
+      }
+    ]
+  },
+  "matrix-end-determinant": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?EndMatrix": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end determinant\""
+      }
+    ]
+  },
+  "vector": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"by\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"column vector\"",
+        "attributes": {
+          "pause": "long"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFnodeCounter",
+          "context": "\"Row-:\"",
+          "pause": "long"
+        },
+        "grammar": {
+          "simpleDet": true
+        }
+      }
+    ]
+  },
+  "vector-simple": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"by\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"column vector\"",
+        "attributes": {
+          "pause": "long"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "sepFunc": "CTFpauseSeparator",
+          "separator": "\"short\"",
+          "pause": "long"
+        },
+        "grammar": {
+          "simpleDet": true
+        }
+      }
+    ]
+  },
+  "row-vector": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"by\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"row vector\"",
+        "attributes": {
+          "pause": "long"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*[1]/children/*",
+        "attributes": {
+          "ctxtFunc": "CTFnodeCounter",
+          "context": "\"Column-:\"",
+          "pause": "long"
+        },
+        "grammar": {
+          "simpleDet": true
+        }
+      }
+    ]
+  },
+  "row-vector-simple": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"by\""
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*[1]/children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"row vector\"",
+        "attributes": {
+          "pause": "long"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*[1]/children/*",
+        "attributes": {
+          "sepFunc": "CTFpauseSeparator",
+          "separator": "\"short\"",
+          "pause": "long"
+        },
+        "grammar": {
+          "simpleDet": true
+        }
+      }
+    ]
+  },
+  "vector-end-matrix": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?EndMatrix": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end matrix\""
+      }
+    ]
+  },
+  "vector-end-vector": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?EndMatrix": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end vector\""
+      }
+    ]
+  },
+  "vector-end-vector-endvector": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?EndMatrix": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end vector\""
+      }
+    ]
+  },
+  "vector-end-determinant": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?EndMatrix": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end determinant\""
+      }
+    ]
+  },
+  "binomial": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"choose\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]/children/*[1]"
+      }
+    ]
+  },
+  "lines-summary": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"lines\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?layoutSummary": true
+        }
+      }
+    ]
+  },
+  "cases-summary": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"cases\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?layoutSummary": true
+        }
+      }
+    ]
+  },
+  "lines": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFnodeCounter",
+          "context": "\"Line-:\"",
+          "sepFunc": "CTFpauseSeparator",
+          "separator": "\"long\"",
+          "pause": "long"
+        }
+      }
+    ]
+  },
+  "blank-cell": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"blank\""
+      }
+    ]
+  },
+  "blank-line": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"blank\""
+      }
+    ]
+  },
+  "blank-cell-empty": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"blank\""
+      }
+    ]
+  },
+  "blank-line-empty": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"blank\""
+      }
+    ]
+  },
+  "cases": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFnodeCounter",
+          "context": "\"Case-:\"",
+          "sepFunc": "CTFpauseSeparator",
+          "separator": "\"long\"",
+          "pause": "long"
+        }
+      }
+    ]
+  },
+  "lines-cases-summary": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"cases\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?layoutSummary": true
+        }
+      }
+    ]
+  },
+  "lines-cases": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFnodeCounter",
+          "context": "\"Case-:\"",
+          "sepFunc": "CTFpauseSeparator",
+          "separator": "\"long\"",
+          "pause": "long"
+        }
+      }
+    ]
+  },
+  "lines-equations-summary": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"equations\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?layoutSummary": true
+        }
+      }
+    ]
+  },
+  "lines-equations": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFnodeCounter",
+          "context": "\"Equation-:\"",
+          "sepFunc": "CTFpauseSeparator",
+          "separator": "\"long\"",
+          "pause": "long"
+        }
+      }
+    ]
+  },
+  "lines-steps-summary": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"steps\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?layoutSummary": true
+        }
+      }
+    ]
+  },
+  "lines-steps": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFnodeCounter",
+          "context": "\"Step-:\"",
+          "sepFunc": "CTFpauseSeparator",
+          "separator": "\"long\"",
+          "pause": "long"
+        }
+      }
+    ]
+  },
+  "lines-rows-summary": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"rows\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?layoutSummary": true
+        }
+      }
+    ]
+  },
+  "lines-rows": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFnodeCounter",
+          "context": "\"Row-:\"",
+          "sepFunc": "CTFpauseSeparator",
+          "separator": "\"long\"",
+          "pause": "long"
+        }
+      }
+    ]
+  },
+  "lines-constraints-summary": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "count(children/*)"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"constraints\""
+      },
+      {
+        "type": "NODE",
+        "content": ".",
+        "grammar": {
+          "?layoutSummary": true
+        }
+      }
+    ]
+  },
+  "lines-constraints": {
+    "components": [
+      {
+        "type": "PERSONALITY",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*",
+        "attributes": {
+          "ctxtFunc": "CTFnodeCounter",
+          "context": "\"Constraint-:\"",
+          "sepFunc": "CTFpauseSeparator",
+          "separator": "\"long\"",
+          "pause": "long"
+        }
+      }
+    ]
+  },
+  "bigop": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "grammar": {
+          "addArticle": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "limboth": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"from\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"to\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[3]"
+      }
+    ]
+  },
+  "limlower": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"over\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "limupper": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"under\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "integral": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "grammar": {
+          "addArticle": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[3]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "integral-novar": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "grammar": {
+          "addArticle": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "overscript": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"under\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "overscript-limits": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"to\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "underscript": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"over\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "underscript-limits": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"from\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "mixed-number": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"and\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "number-with-chars": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"number\""
+      },
+      {
+        "type": "MULTI",
+        "content": "CQFspaceoutNumber",
+        "grammar": {
+          "protected": true
+        }
+      }
+    ]
+  },
+  "decimal-period": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the repeating decimal\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "grammar": {
+          "spaceout": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"point followed by repeating digits\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[3]/children/*[1]",
+        "grammar": {
+          "spaceout": true
+        }
+      }
+    ]
+  },
+  "decimal-period-float": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the repeating decimal\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "grammar": {
+          "spaceout": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"followed by repeating digits\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]/children/*[1]",
+        "grammar": {
+          "spaceout": true
+        }
+      }
+    ]
+  },
+  "decimal-period-singular": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the repeating decimal\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "grammar": {
+          "spaceout": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"point followed by repeating digit\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[3]/children/*[1]",
+        "grammar": {
+          "spaceout": true
+        }
+      }
+    ]
+  },
+  "decimal-period-singular-float": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the repeating decimal\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "grammar": {
+          "spaceout": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"followed by repeating digit\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]/children/*[1]",
+        "grammar": {
+          "spaceout": true
+        }
+      }
+    ]
+  },
+  "decimal-point": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"point\""
+      }
+    ]
+  },
+  "line-segment": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the line segment\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[2]",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "conjugate": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"the complex conjugate of\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "defined-by": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"is defined to be\"",
+        "attributes": {
+          "pause": "short"
+        }
+      }
+    ]
+  },
+  "adorned-sign": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"sign with\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"over it\""
+      }
+    ]
+  },
+  "factorial": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"factorial\""
+      }
+    ]
+  },
+  "left-super": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"left super\""
+      },
+      {
+        "type": "NODE",
+        "content": "text()"
+      }
+    ]
+  },
+  "left-super-list": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"left super\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*"
+      }
+    ]
+  },
+  "left-sub": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"left sub\""
+      },
+      {
+        "type": "NODE",
+        "content": "text()"
+      }
+    ]
+  },
+  "left-sub-list": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"left sub\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*"
+      }
+    ]
+  },
+  "right-super": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"right super\""
+      },
+      {
+        "type": "NODE",
+        "content": "text()"
+      }
+    ]
+  },
+  "right-super-list": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"right super\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*"
+      }
+    ]
+  },
+  "right-sub": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"right sub\""
+      },
+      {
+        "type": "NODE",
+        "content": "text()"
+      }
+    ]
+  },
+  "right-sub-list": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"right sub\""
+      },
+      {
+        "type": "MULTI",
+        "content": "children/*"
+      }
+    ]
+  },
+  "choose": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "grammar": {
+          "combinatorics": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"choose\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[4]",
+        "grammar": {
+          "combinatorics": true
+        }
+      }
+    ]
+  },
+  "permute": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "grammar": {
+          "combinatorics": true
+        }
+      },
+      {
+        "type": "TEXT",
+        "content": "\"permute\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[4]",
+        "grammar": {
+          "combinatorics": true
+        }
+      }
+    ]
+  },
+  "unit-square": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"square\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "unit-cubic": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"cubic\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "unit-reciprocal": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"reciprocal\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "unit-reciprocal-singular": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"per\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]",
+        "grammar": {
+          "singular": true
+        }
+      }
+    ]
+  },
+  "unit-divide": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"per\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]",
+        "grammar": {
+          "singular": true
+        }
+      }
+    ]
+  },
+  "enclose": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"enclosed with\""
+      },
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localEnclose": true
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "enclose-end": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"enclosed with\""
+      },
+      {
+        "type": "TEXT",
+        "content": "@role",
+        "grammar": {
+          "localEnclose": true
+        }
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end enclosed\""
+      }
+    ]
+  },
+  "overbar": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"horizontal bar\""
+      }
+    ]
+  },
+  "underbar": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"over horizontal bar\""
+      }
+    ]
+  },
+  "leftbar": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"vertical bar\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "rightbar": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"vertical bar\""
+      }
+    ]
+  },
+  "crossout": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"crossed out\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "crossout-end": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"crossed out\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end crossout\""
+      }
+    ]
+  },
+  "cancel-over": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"crossed out with\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      }
+    ]
+  },
+  "cancel-under": {
+    "components": [
+      {
+        "type": "NODE",
+        "content": "children/*[2]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"crossed out with\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      }
+    ]
+  },
+  "cancel-over-end": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"crossed out\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"with\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end crossout\""
+      }
+    ]
+  },
+  "cancel-under-end": {
+    "components": [
+      {
+        "type": "TEXT",
+        "content": "\"crossed out\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[2]/children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"with\""
+      },
+      {
+        "type": "NODE",
+        "content": "children/*[1]"
+      },
+      {
+        "type": "TEXT",
+        "content": "\"end crossout\""
+      }
+    ]
+  }
+}

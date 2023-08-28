@@ -1,1 +1,260 @@
-{}
+{
+  "abstr-identifier-long": [
+    "$1: \"lang identifiseerder\""
+  ],
+  "abstr-identifier": [
+    "$1: \"identifiseerder\""
+  ],
+  "abstr-number-long": [
+    "$1: \"lang getal\""
+  ],
+  "abstr-number": [
+    "$1: \"getal\""
+  ],
+  "abstr-mixed-number-long": [
+    "$1: \"lang gemengde getal\""
+  ],
+  "abstr-mixed-number": [
+    "$1: \"gemengde getal\""
+  ],
+  "abstr-text": [
+    "$1: \"teks\""
+  ],
+  "abstr-function": [
+    "$1: \"funksionele uitdrukking\""
+  ],
+  "abstr-function-brief": [
+    "$1: \"funksie\""
+  ],
+  "abstr-lim": [
+    "$1: \"limit function\""
+  ],
+  "abstr-lim-brief": [
+    "$1: \"lim\""
+  ],
+  "abstr-fraction": [
+    "$1: \"breuk\""
+  ],
+  "abstr-fraction-brief": [
+    "$1: \"breuk\""
+  ],
+  "abstr-continued-fraction": [
+    "$1: \"voortgesette breuk\""
+  ],
+  "abstr-continued-fraction-brief": [
+    "$1: \"voortgesette breuk\""
+  ],
+  "abstr-sqrt": [
+    "$1: \"vierkantswortel\""
+  ],
+  "abstr-sqrt-nested": [
+    "$1: \"genesde vierkantswortel\""
+  ],
+  "abstr-root-end": [
+    "$1: \"wortel van indeks\"",
+    "%1",
+    "$2: \"endindeks\""
+  ],
+  "abstr-root": [
+    "$1: \"wortel van indeks\"",
+    "%1"
+  ],
+  "abstr-root-brief": [
+    "$1: \"wortel\""
+  ],
+  "abstr-root-nested-end": [
+    "$1: \"genesde wortel van indeks\"",
+    "%1",
+    "$2: \"end indeks\""
+  ],
+  "abstr-root-nested": [
+    "$1: \"genesde wortel van indeks\"",
+    "%1"
+  ],
+  "abstr-root-nested-brief": [
+    "$1: \"genesde wortel\""
+  ],
+  "abstr-superscript": [
+    "$1: \"mag\""
+  ],
+  "abstr-subscript": [
+    "$1: \"onderskrif\""
+  ],
+  "abstr-subsup": [
+    "$1: \"mag met onderskrif\""
+  ],
+  "abstr-infixop": [
+    "%1",
+    "$1: \"met\"",
+    "%2",
+    "$2: \"elemente\""
+  ],
+  "abstr-infixop-var": [
+    "%1",
+    "$1: \"met wisselende hoeveelheid elemente\""
+  ],
+  "abstr-infixop-brief": [
+    "%1"
+  ],
+  "abstr-addition": [
+    "$1: \"som met\"",
+    "%1",
+    "$2: \"summands\""
+  ],
+  "abstr-addition-brief": [
+    "$1: \"som\""
+  ],
+  "abstr-addition-var": [
+    "$1: \"sum with variable number of summands\""
+  ],
+  "abstr-multiplication": [
+    "$1: \"produk met\"",
+    "%1",
+    "$2: \"faktore\""
+  ],
+  "abstr-multiplication-brief": [
+    "$1: \"produk\""
+  ],
+  "abstr-multiplication-var": [
+    "$1: \"produk met wisselende hoeveelheid faktore\""
+  ],
+  "abstr-vector": [
+    "%1",
+    "$1: \"dimensionele vektor\""
+  ],
+  "abstr-vector-brief": [
+    "$1: \"vektor\""
+  ],
+  "abstr-vector-var": [
+    "$1: \"n dimensionele vektor\""
+  ],
+  "abstr-binomial": [
+    "$1: \"binomial\""
+  ],
+  "abstr-determinant": [
+    "%1",
+    "$1: \"dimensional determinant\""
+  ],
+  "abstr-determinant-brief": [
+    "$1: \"determinant\""
+  ],
+  "abstr-determinant-var": [
+    "$1: \"n dimensional determinant\""
+  ],
+  "abstr-squarematrix": [
+    "%1",
+    "$1: \"dimensionele vierkant matriks\""
+  ],
+  "abstr-squarematrix-brief": [
+    "$1: \"vierkant matriks\""
+  ],
+  "abstr-rowvector": [
+    "%1",
+    "$1: \"dimensionele ry vektor\""
+  ],
+  "abstr-rowvector-brief": [
+    "$1: \"ry vektor\""
+  ],
+  "abstr-rowvector-var": [
+    "$1: \"n dimensionele ry vektor\""
+  ],
+  "abstr-matrix": [
+    "%1",
+    "$1: \"by\"",
+    "%2",
+    "$2: \"matriks\""
+  ],
+  "abstr-matrix-brief": [
+    "$1: \"matriks\""
+  ],
+  "abstr-matrix-var": [
+    "$1: \"n by m dimensionele matriks\""
+  ],
+  "abstr-cases": [
+    "$1: \"gevalstelling\"",
+    "$2: \"met\"",
+    "%1",
+    "$3: \"gevalle\""
+  ],
+  "abstr-cases-brief": [
+    "$1: \"gevalstelling\""
+  ],
+  "abstr-cases-var": [
+    "$1: \"gevalstelling met wisselende hoeveelheid gevalle\""
+  ],
+  "abstr-punctuated": [
+    "%1",
+    "$1: \"opgebreekte lys\"",
+    "$2: \"met lengte\"",
+    "%2"
+  ],
+  "abstr-punctuated-brief": [
+    "%1",
+    "$1: \"opgebreekte lys\""
+  ],
+  "abstr-punctuated-var": [
+    "%1",
+    "$1: \"opgebreekte lys\"",
+    "$2: \"met wisselende lengte\""
+  ],
+  "abstr-bigop": [
+    "%1"
+  ],
+  "abstr-integral": [
+    "$1: \"integraal\""
+  ],
+  "abstr-relation": [
+    "%1"
+  ],
+  "abstr-relation-seq": [
+    "%1",
+    "$1: \"sequence\"",
+    "$2: \"met\"",
+    "%2",
+    "$3: \"elemente\""
+  ],
+  "abstr-relation-seq-brief": [
+    "%1",
+    "$1: \"sequence\""
+  ],
+  "abstr-relation-var": [
+    "%1",
+    "$1: \"sequence\"",
+    "$2: \"met wisselende hoeveelheid elemente\""
+  ],
+  "abstr-multirel": [
+    "$1: \"relation sequence\"",
+    "$2: \"met\"",
+    "%1",
+    "$3: \"elemente\""
+  ],
+  "abstr-multirel-brief": [
+    "$1: \"relation sequence\""
+  ],
+  "abstr-multirel-var": [
+    "$1: \"relation sequence with variable number of elements\""
+  ],
+  "abstr-table": [
+    "$1: \"tabêl met\"",
+    "%1",
+    "$2: \"rye en\"",
+    "%2",
+    "$3: \"kolomme\""
+  ],
+  "abstr-line": [
+    "$1: \"in\"",
+    "%1"
+  ],
+  "abstr-row": [
+    "$1: \"in\"",
+    "%1",
+    "%2",
+    "$2: \"met\"",
+    "%3",
+    "$3: \"kolomme\""
+  ],
+  "abstr-cell": [
+    "$1: \"in\"",
+    "%1"
+  ]
+}

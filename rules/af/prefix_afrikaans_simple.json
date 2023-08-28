@@ -1,1 +1,76 @@
-{}
+{
+  "numerator": [
+    "$1: \"teller\" (pause:200)"
+  ],
+  "denominator": [
+    "$1: \"noemer\" (pause:200)"
+  ],
+  "base": [
+    "$1: \"Basis\" (pause:200)"
+  ],
+  "exponent": [
+    "$1: \"Eksponent\" (pause:200)"
+  ],
+  "subscript": [
+    "$1: \"indeks\" (pause:200)"
+  ],
+  "overscript": [
+    "$1: \"boskrif\" (pause:200)"
+  ],
+  "underscript": [
+    "$1: \"Onderskrif\" (pause:200)"
+  ],
+  "radicand": [
+    "$1: \"Radicand\" (pause:200)"
+  ],
+  "index": [
+    "$1: \"Indeks\" (pause:200)"
+  ],
+  "leftsub": [
+    "$1: \"Linker Onderskrif\" (pause:200)"
+  ],
+  "leftsub-counted": [
+    "%1",
+    "$1: \"Linker Onderskrif\" (pause:200)"
+  ],
+  "leftsuper": [
+    "$1: \"Linker Boskrif\" (pause:200)"
+  ],
+  "leftsuper-counted": [
+    "%1",
+    "$1: \"Linker Boskrif\" (pause:200)"
+  ],
+  "rightsub": [
+    "$1: \"Regter Onderskrif\" (pause:200)"
+  ],
+  "rightsub-counted": [
+    "%1",
+    "$1: \"Regter Onderskrif\" (pause:200)"
+  ],
+  "rightsuper": [
+    "$1: \"Regter Boskrif\" (pause:200)"
+  ],
+  "rightsuper-counted": [
+    "%1",
+    "$1: \"Regter Boskrif\" (pause:200)"
+  ],
+  "choice": [
+    "$1: \"Choice Quantity\" (pause:200)"
+  ],
+  "select": [
+    "$1: \"Selection Quantity\" (pause:200)"
+  ],
+  "row": [
+    "%1",
+    "$1: \"Ry\" (pause:200)"
+  ],
+  "cell": [
+    "%1",
+    "%2",
+    "$1: \"kolom\" (pause:200)"
+  ],
+  "cell-simple": [
+    "%1",
+    "$1: \"Kolom\" (pause:200)"
+  ]
+}

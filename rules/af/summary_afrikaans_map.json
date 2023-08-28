@@ -1,1 +1,662 @@
-{}
+{
+  "abstr-identifier-long": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"lang identifiseerder\""
+    }
+  },
+  "abstr-identifier": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"identifiseerder\""
+    }
+  },
+  "abstr-number-long": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"lang getal\""
+    }
+  },
+  "abstr-number": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"getal\""
+    }
+  },
+  "abstr-mixed-number-long": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"lang gemengde getal\""
+    }
+  },
+  "abstr-mixed-number": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"gemengde getal\""
+    }
+  },
+  "abstr-text": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"teks\""
+    }
+  },
+  "abstr-function": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"funksionele uitdrukking\""
+    }
+  },
+  "abstr-function-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"funksie\""
+    }
+  },
+  "abstr-lim": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"limit function\""
+    }
+  },
+  "abstr-lim-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"lim\""
+    }
+  },
+  "abstr-fraction": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"breuk\""
+    }
+  },
+  "abstr-fraction-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"breuk\""
+    }
+  },
+  "abstr-continued-fraction": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"voortgesette breuk\""
+    }
+  },
+  "abstr-continued-fraction-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"voortgesette breuk\""
+    }
+  },
+  "abstr-sqrt": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vierkantswortel\""
+    }
+  },
+  "abstr-sqrt-nested": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"genesde vierkantswortel\""
+    }
+  },
+  "abstr-root-end": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"wortel van indeks\""
+    },
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "attributes": {
+        "engine": "modality=speech"
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"endindeks\""
+    }
+  },
+  "abstr-root": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"wortel van indeks\""
+    },
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "attributes": {
+        "engine": "modality=speech"
+      }
+    }
+  },
+  "abstr-root-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"wortel\""
+    }
+  },
+  "abstr-root-nested-end": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"genesde wortel van indeks\""
+    },
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "attributes": {
+        "engine": "modality=speech"
+      }
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"end indeks\""
+    }
+  },
+  "abstr-root-nested": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"genesde wortel van indeks\""
+    },
+    "%1": {
+      "type": "NODE",
+      "content": "children/*[1]",
+      "attributes": {
+        "engine": "modality=speech"
+      }
+    }
+  },
+  "abstr-root-nested-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"genesde wortel\""
+    }
+  },
+  "abstr-superscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mag\""
+    }
+  },
+  "abstr-subscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"onderskrif\""
+    }
+  },
+  "abstr-subsup": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"mag met onderskrif\""
+    }
+  },
+  "abstr-infixop": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"met\""
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"elemente\""
+    }
+  },
+  "abstr-infixop-var": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"met wisselende hoeveelheid elemente\""
+    }
+  },
+  "abstr-infixop-brief": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    }
+  },
+  "abstr-addition": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"som met\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"summands\""
+    }
+  },
+  "abstr-addition-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"som\""
+    }
+  },
+  "abstr-addition-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sum with variable number of summands\""
+    }
+  },
+  "abstr-multiplication": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"produk met\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"faktore\""
+    }
+  },
+  "abstr-multiplication-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"produk\""
+    }
+  },
+  "abstr-multiplication-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"produk met wisselende hoeveelheid faktore\""
+    }
+  },
+  "abstr-vector": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"dimensionele vektor\""
+    }
+  },
+  "abstr-vector-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vektor\""
+    }
+  },
+  "abstr-vector-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n dimensionele vektor\""
+    }
+  },
+  "abstr-binomial": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"binomial\""
+    }
+  },
+  "abstr-determinant": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"dimensional determinant\""
+    }
+  },
+  "abstr-determinant-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"determinant\""
+    }
+  },
+  "abstr-determinant-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n dimensional determinant\""
+    }
+  },
+  "abstr-squarematrix": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"dimensionele vierkant matriks\""
+    }
+  },
+  "abstr-squarematrix-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"vierkant matriks\""
+    }
+  },
+  "abstr-rowvector": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/row/children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"dimensionele ry vektor\""
+    }
+  },
+  "abstr-rowvector-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"ry vektor\""
+    }
+  },
+  "abstr-rowvector-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n dimensionele ry vektor\""
+    }
+  },
+  "abstr-matrix": {
+    "%1": {
+      "type": "TEXT",
+      "content": "count(children/*)"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"by\""
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(children/*[1]/children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"matriks\""
+    }
+  },
+  "abstr-matrix-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"matriks\""
+    }
+  },
+  "abstr-matrix-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"n by m dimensionele matriks\""
+    }
+  },
+  "abstr-cases": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"gevalstelling\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"met\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "count(children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"gevalle\""
+    }
+  },
+  "abstr-cases-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"gevalstelling\""
+    }
+  },
+  "abstr-cases-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"gevalstelling met wisselende hoeveelheid gevalle\""
+    }
+  },
+  "abstr-punctuated": {
+    "%1": {
+      "type": "NODE",
+      "content": "content/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"opgebreekte lys\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"met lengte\""
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(children/*) - count(content/*)"
+    }
+  },
+  "abstr-punctuated-brief": {
+    "%1": {
+      "type": "NODE",
+      "content": "content/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"opgebreekte lys\""
+    }
+  },
+  "abstr-punctuated-var": {
+    "%1": {
+      "type": "NODE",
+      "content": "content/*[1]"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"opgebreekte lys\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"met wisselende lengte\""
+    }
+  },
+  "abstr-bigop": {
+    "%1": {
+      "type": "NODE",
+      "content": "content/*[1]"
+    }
+  },
+  "abstr-integral": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"integraal\""
+    }
+  },
+  "abstr-relation": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    }
+  },
+  "abstr-relation-seq": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sequence\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"met\""
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"elemente\""
+    }
+  },
+  "abstr-relation-seq-brief": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sequence\""
+    }
+  },
+  "abstr-relation-var": {
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"sequence\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"met wisselende hoeveelheid elemente\""
+    }
+  },
+  "abstr-multirel": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"relation sequence\""
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"met\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "count(./children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"elemente\""
+    }
+  },
+  "abstr-multirel-brief": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"relation sequence\""
+    }
+  },
+  "abstr-multirel-var": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"relation sequence with variable number of elements\""
+    }
+  },
+  "abstr-table": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"tabêl met\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "count(children/*)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"rye en\""
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(children/*[1]/children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"kolomme\""
+    }
+  },
+  "abstr-line": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"in\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    }
+  },
+  "abstr-row": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"in\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "count(preceding-sibling::..)"
+    },
+    "$2": {
+      "type": "TEXT",
+      "content": "\"met\""
+    },
+    "%3": {
+      "type": "TEXT",
+      "content": "count(children/*)"
+    },
+    "$3": {
+      "type": "TEXT",
+      "content": "\"kolomme\""
+    }
+  },
+  "abstr-cell": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"in\""
+    },
+    "%1": {
+      "type": "TEXT",
+      "content": "@role",
+      "grammar": {
+        "localRole": true
+      }
+    }
+  }
+}

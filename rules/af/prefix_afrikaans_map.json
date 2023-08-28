@@ -1,1 +1,232 @@
-{}
+{
+  "numerator": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"teller\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "denominator": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"noemer\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "base": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Basis\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "exponent": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Eksponent\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "subscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"indeks\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "overscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"boskrif\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "underscript": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Onderskrif\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "radicand": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Radicand\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "index": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Indeks\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "leftsub": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Linker Onderskrif\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "leftsub-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Linker Onderskrif\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "leftsuper": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Linker Boskrif\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "leftsuper-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Linker Boskrif\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "rightsub": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Regter Onderskrif\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "rightsub-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Regter Onderskrif\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "rightsuper": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Regter Boskrif\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "rightsuper-counted": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Regter Boskrif\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "choice": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Choice Quantity\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "select": {
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Selection Quantity\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "row": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Ry\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "cell": {
+    "%1": {
+      "type": "NODE",
+      "content": "../.."
+    },
+    "%2": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"kolom\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  },
+  "cell-simple": {
+    "%1": {
+      "type": "TEXT",
+      "content": "CSFordinalPosition"
+    },
+    "$1": {
+      "type": "TEXT",
+      "content": "\"Kolom\"",
+      "attributes": {
+        "pause": "200"
+      }
+    }
+  }
+}
