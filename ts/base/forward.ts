@@ -17,9 +17,9 @@
  * @author volker.sorge@gmail.com (Volker Sorge)
  */
 
-import { Comment, getComments } from './comment';
-import { Action, Component } from './rules';
-import * as util from './util';
+import { Comment, getComments } from './comment.js';
+import { Action, Component } from './rules.js';
+import * as util from './util.js';
 
 export const referenceSets: { [locale: string]: BaseSet } = {};
 
@@ -94,8 +94,28 @@ abstract class BaseSet {
     if (kind !== 'Action') {
       throw new Error('Illegal rule type: ' + kind);
     }
-    const act = Action.fromString(action);
+    const act = this.cleanAction(Action.fromString(action));
     this.actions[name] = act;
+  }
+
+  private cleanAction(action: Action) {
+    for (let i = 0, component; component = action.components[i]; i++) {
+      if (
+        component?.attributes?.['span'] &&
+          component.attributes['span'] === 'LAST'
+      ) {
+        delete component.attributes['span'];
+      }
+      if (component?.attributes?.['span'] &&
+        action.components[i + 1] &&
+        component?.attributes?.['span'] === action.components[i + 1].content) {
+        delete component.attributes['span'];
+      }
+      if (component.attributes && !Object.keys(component.attributes).length) {
+        delete component.attributes;
+      }
+    }
+    return action;
   }
 }
 

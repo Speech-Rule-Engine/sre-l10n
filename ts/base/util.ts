@@ -19,13 +19,16 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import * as process from 'process';
+import { fileURLToPath } from 'url';
 const yjs = require('yamljs');
 
-const SreDir = process.env['SRE_JSON_PATH']
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+export const SreDir = process.env['SRE_JSON_PATH']
   ? path.join(process.env['SRE_JSON_PATH'], '../..', 'mathmaps')
   : 'speech-rule-engine/mathmaps';
 
-const SreL10n = path.join(__dirname, '..', '..');
+export const SreL10n = path.join(__dirname, '..', '..');
 const SreL10nComments = path.join(SreL10n, 'comments');
 const SreL10nLocales = path.join(SreL10n, 'rules');
 const SreL10nYaml = path.join(SreL10n, 'yaml');
@@ -46,6 +49,7 @@ export type LocaleRules = { [key: string]: JsonRules };
 export const sreDomains = ['clearspeak', 'mathspeak', 'prefix', 'summary'];
 
 export const sreLocales: { [iso: string]: string } = {
+  af: 'afrikaans',
   ca: 'catalan',
   da: 'danish',
   de: 'german',

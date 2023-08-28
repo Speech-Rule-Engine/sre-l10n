@@ -17,9 +17,9 @@
  * @author volker.sorge@gmail.com (Volker Sorge)
  */
 
-import { readComments, writeComments } from './comment';
-import { ActionSet, ReturnSet } from './forward';
-import * as util from './util';
+import { readComments, writeComments } from './comment.js';
+import { ActionSet, ReturnSet } from './forward.js';
+import * as util from './util.js';
 
 export const verbose = false;
 export const update = false;
@@ -27,13 +27,15 @@ export const update = false;
 /**
  *
  */
-export function translateForwardAll() {
+export function translateForwardAll(locales = Object.keys(util.sreLocales)) {
   readComments();
   for (const domain of util.sreDomains) {
     for (const loc of Object.keys(util.sreLocales)) {
       try {
         const acs = new ActionSet(loc, domain);
-        acs.outputFiles();
+        if (locales.indexOf(loc) !== -1) {
+          acs.outputFiles();
+        }
       } catch (e) {
         if (verbose) {
           console.error(e);
@@ -50,12 +52,14 @@ export function translateForwardAll() {
 /**
  *
  */
-export function translateBackwardAll() {
+export function translateBackwardAll(locales = Object.keys(util.sreLocales)) {
   for (const domain of util.sreDomains) {
     for (const loc of Object.keys(util.sreLocales)) {
       try {
         const acs = new ReturnSet(loc, domain);
-        acs.outputFiles();
+        if (locales.indexOf(loc) !== -1) {
+          acs.outputFiles();
+        }
       } catch (e) {
         if (verbose) {
           console.error(e);

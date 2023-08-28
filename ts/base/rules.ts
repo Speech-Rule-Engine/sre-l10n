@@ -23,9 +23,9 @@ import {
   Component,
   Precondition,
   SpeechRule
-} from '../../speech-rule-engine/js/rule_engine/speech_rule';
+} from '../../speech-rule-engine/js/rule_engine/speech_rule.js';
 
-declare module '../../speech-rule-engine/js/rule_engine/speech_rule' {
+declare module '../../speech-rule-engine/js/rule_engine/speech_rule.js' {
   interface SpeechRule {
     toString(): string;
     localizable(): boolean;
