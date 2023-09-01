@@ -1,0 +1,25 @@
+af:
+  sq: #sq, sq.
+    one: vierkant 'n
+    other: vierkant 'n
+  sq_inch: #sq in, sq. in., sq inch, sq. inch
+    one: vierkant 'n duim
+    other: vierkant 'n duim
+  sq_rd: #sq rd, sq. rd.
+    one: vierkant 'n staaf
+    other: vierkant 'n staaf
+  sq_ft: #sq ft, sq. ft.
+    one: vierkant 'n voet
+    other: vierkant 'n voet
+  sq_yd: #sq yd, sq. yd.
+    one: vierkant 'n jaart
+    other: vierkant 'n jaart
+  sq_mi: #sq mi, sq. mi.
+    one: vierkant 'n myl
+    other: vierkant 'n myl
+  acr: #ac, ac., acr, acr.
+    one: akker
+    other: akker
+  ha: #ha
+    one: hektaar
+    other: hektaar

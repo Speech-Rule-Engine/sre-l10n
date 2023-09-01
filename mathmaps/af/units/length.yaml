@@ -1,0 +1,31 @@
+af:
+  ft: #ft, ft.
+    one: voet
+    other: voet
+  in: #in, in.
+    one: duim
+    other: duim
+  mi: #mi, mi.
+    one: myl
+    other: myl
+  yd: #yd, yd.
+    one: jaart
+    other: jaart
+  link: #li, li.
+    one: link
+    other: links
+  rod: #rd, rd.
+    one: staaf
+    other: stawe
+  chain: #ch, ch.
+    one: ketting
+    other: kettings
+  furlong: #fur, fur.
+    one: furlong
+    other: furlong
+  n.m.: #n.m.
+    one: seemyl
+    other: seemyl
+  m: #m
+    one: meter
+    other: meter

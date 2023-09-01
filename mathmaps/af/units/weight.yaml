@@ -1,0 +1,34 @@
+af:
+  dram: #dr, dr.
+    one: dragme
+    other: dragmes
+  oz: #oz, oz.
+    one: ons
+    other: onse
+  lb: #lb, lb.
+    one: pond
+    other: pond
+  st: #st, st.
+    one: klip
+    other: klippe
+  qtr: #qtr, qtr.
+    one: kwart
+    other: kwarte
+  cwt: #cwt, cwt.
+    one: honderdgewig
+    other: honderdgewigte
+  LT: #LT, L.T.
+    one: lang ton
+    other: lang ton
+  gr: #gr
+    one: gram
+    other: gram
+  g: #g
+    one: gram
+    other: gram
+  mcg: #mcg
+    one: mikrogram
+    other: mikrogram
+  t: #t, T
+    one: ton
+    other: ton

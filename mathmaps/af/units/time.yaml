@@ -1,0 +1,16 @@
+af:
+  s: #s
+    one: sekonde
+    other: sekondes
+  ″: #″
+    one: sekonde
+    other: sekondes
+  min: #min, ′
+    one: minuut
+    other: minute
+  °: #°
+    one: graad
+    other: grade
+  h: #h, hr
+    one: uur
+    other: ure

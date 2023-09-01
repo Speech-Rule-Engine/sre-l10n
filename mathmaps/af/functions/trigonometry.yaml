@@ -1,0 +1,13 @@
+af:
+  cos: kosinus #Abbreviations: cos, cosine
+  cot: kotangens #Abbreviations: cot
+  csc: kosekans #Abbreviations: csc
+  sec: sekans #Abbreviations: sec
+  sin: sinus #Abbreviations: sin, sine
+  tan: tangens #Abbreviations: tan
+  arccos: boog kosinus #Abbreviations: arccos
+  arccot: boog kotangens #Abbreviations: arccot
+  arccsc: boog kosekans #Abbreviations: arccsc
+  arcsec: boog sekans #Abbreviations: arcsec
+  arcsin: boog sinus #Abbreviations: arcsin
+  arctan: boog tangens #Abbreviations: arctan

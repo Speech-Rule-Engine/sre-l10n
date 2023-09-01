@@ -1,0 +1,24 @@
+af:
+  log: logaritme #Abbreviations: log
+  ln: natuurlike logaritme #Abbreviations: ln
+  lg: logaritme met grondtal 10 #Abbreviations: lg
+  #ook mags
+  exp: exponensiaal #Abbreviations: exp, expt 
+  gcd: grootste gemene deler #Abbreviations: gcd
+  lcm: kleinste gemene veelvoud #Abbreviations: lcm
+  arg: argument #Abbreviations: arg
+  im: imaginere gedeelte #Abbreviations: im
+  re: reele gedeelte #Abbreviations: re
+  inf: infimum #Abbreviations: inf
+  lim: limiet #Abbreviations: lim
+  liminf: grootste ondergrens #Abbreviations: lim inf, liminf
+  limsup: kleinste bogrens #Abbreviations: lim sup, limsup
+  max: maksimum #Abbreviations: max
+  min: minimum #Abbreviations: min
+  sup: supremum #Abbreviations: sup
+  # specialized category theory _NOT_ elementary!!
+  injlim: direkte limiet #Abbreviations: injlim, inj lim 
+  # specialized category theory _NOT_ elementary!!  
+  projlim: inverse limiet #Abbreviations: projlim, proj lim
+  mod: modulo #Abbreviations: mod
+  Pr: waarskynlikheid #Abbreviations: Pr

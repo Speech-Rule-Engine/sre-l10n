@@ -1,0 +1,46 @@
+af:
+  cu: #cu, cu.
+    one: kubiek
+    other: kubiek
+  cu_inch: #cu in, cu. in.
+    one: kubieke duim
+    other: kubieke duim
+  cu_ft: #cu ft, cu. ft.
+    one: kubieke voet
+    other: kubieke voet
+  cu_yd: #cu yd, cu. yd.
+    one: kubieke jaart
+    other: kubieke jaart
+  bbl: #bbl., bbl
+    one: vat
+    other: vate
+  fl._oz.: #fl. oz., fl oz
+    one: vloeibare ons
+    other: vloeibare onse
+  gal: #gal, gal.
+    one: galon
+    other: galon
+  pt: #pt, pt.
+    one: pint
+    other: pinte
+  qt: #qt, qt.
+    one: kwart
+    other: kwarte
+  fluid_dram: #fl dr, fl. dr.
+    one: vloeibare dragme
+    other: vloeibare dragmes
+  tbsp: #tbsp, tbsp., Tbsp, Tbsp.
+    one: eetlepel
+    other: eetlepels
+  tsp: #tsp, tsp.
+    one: teelepel
+    other: teelepels
+  cup: #cp, cp.
+    one: koppie
+    other: koppies
+  cc: #cc, ccm
+    one: kubieke sentimeter
+    other: kubieke sentimeters
+  l: #l
+    one: lieter
+    other: lieters
