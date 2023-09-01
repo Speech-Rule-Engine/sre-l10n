@@ -1200,7 +1200,7 @@ matrix:
   - $2: "by"
   - %2
   - $3: "matriks" (pause:long)
-  - %3 (context:"Row-:", pause:long)
+  - %3 (context:"Ry-:", pause:long)
 
 # Rule for matrices with only simple entries, speaking dimensions and content of the matrix with row indicators only.
 # Example: the 2 by 2 matrix Row 1: 1 2 Row 2: 3 4
@@ -1214,7 +1214,7 @@ matrix-simple:
   - $2: "by"
   - %2
   - $3: "matriks" (pause:long)
-  - %3 (context:"Row-:", pause:long)
+  - %3 (context:"Ry-:", pause:long)
 
 # Rule for a one by one matrix.
 # %1: The matrix content
@@ -1234,7 +1234,7 @@ determinant:
   - $2: "by"
   - %2
   - $3: "matriks" (pause:long)
-  - %3 (context:"Row-:", pause:long)
+  - %3 (context:"Ry-:", pause:long)
 
 # Rule for determinants (matrix with vertical bar fences) with only simple entries, speaking dimensions and content of the matrix with row indicators only.
 # Example: the determinant of the 2 by 2 matrix Row 1: 1 2 Row 2: 3 4
@@ -1248,7 +1248,7 @@ determinant-simple:
   - $2: "by"
   - %2
   - $3: "matriks" (pause:long)
-  - %3 (context:"Row-:", pause:long)
+  - %3 (context:"Ry-:", pause:long)
 
 # Rule for speaking column vectors as matrices.
 # %1: The row number
@@ -1260,7 +1260,7 @@ matrix-vector:
   - $2: "by"
   - %2
   - $3: "kolom matriks" (pause:long)
-  - %3 (context:"Row-:", pause:long)
+  - %3 (context:"Ry-:", pause:long)
 
 # Rule for speaking column vectors as matrices with simple element not indicating rows. Vectors of up to dimension 3.
 # %1: The row number
@@ -1296,7 +1296,7 @@ matrix-row-vector:
   - $2: "by"
   - %2
   - $3: "ry matriks" (pause:long)
-  - %3 (context:"Column-:", pause:long)
+  - %3 (context:"kolom-:", pause:long)
 
 # Rule for speaking row vectors as matrices with simple element not indicating rows. Vectors of up to dimension 3.
 # %1: The row number
@@ -1325,7 +1325,7 @@ matrix-row-vector-simple-silentcolnum:
 # Iterates over each cell of a matrix row adding the prefix Column
 # %1: The elements of the row
 matrix-row:
-  - %1 (context:"Column-,- ", pause:long)
+  - %1 (context:"Kolom-,- ", pause:long)
 
 # Adds an explicit 'end matrix' after the matrix.
 # %1: The matrix
@@ -1355,7 +1355,7 @@ vector:
   - $2: "by"
   - %2
   - $3: "kolom vektor" (pause:long)
-  - %3 (context:"Row-:", pause:long)
+  - %3 (context:"Ry-:", pause:long)
 
 # Vector with simple elements and dimension at most 3. Content is spoken without row indicators.
 # %1: The row number
@@ -1379,7 +1379,7 @@ row-vector:
   - $2: "by"
   - %2
   - $3: "ry vektor" (pause:long)
-  - %3 (context:"Column-:", pause:long)
+  - %3 (context:"Kolom-:", pause:long)
 
 # Row vector with simple elements. Content is spoken without column indicators.
 # %1: The row number
@@ -1449,7 +1449,7 @@ cases-summary:
 # Example: 2 lines Line 1: a equals b Line 2: c equals d
 # %1: The list of lines
 lines:
-  - %1 (context:"Line-:", pause:long)
+  - %1 (context:"Lyn-:", pause:long)
 
 # Blank cell (e.g. in a matrix)
 blank-cell:
@@ -1471,7 +1471,7 @@ blank-line-empty:
 # Example: 2 cases Case 1: a equals b Case 2: c equals d
 # %1: The list of lines in the case statement.
 cases:
-  - %1 (context:"Case-:", pause:long)
+  - %1 (context:"Geval-:", pause:long)
 
 # MultiLineLabel_Case preference rule for speaking regular multiline equations as cases. Summary rule.
 # Example: 2 cases Case 1: a equals b Case 2: c equals d
@@ -1487,7 +1487,7 @@ lines-cases-summary:
 # Example: 2 cases Case 1: a equals b Case 2: c equals d
 # %1: The list of lines.
 lines-cases:
-  - %1 (context:"Case-:", pause:long)
+  - %1 (context:"Geval-:", pause:long)
 
 # MultiLineLabel_Equation preference rule for speaking regular multiline equations as equations. Summary rule.
 # Example: 2 equations Equation 1: a equals b Equation 2: c equals d
@@ -1503,7 +1503,7 @@ lines-equations-summary:
 # Example: 2 equations Equation 1: a equals b Equation 2: c equals d
 # %1: The list of lines.
 lines-equations:
-  - %1 (context:"Equation-:", pause:long)
+  - %1 (context:"Vergelyking-:", pause:long)
 
 # MultiLineLabel_Step preference rule for speaking regular multiline equations as steps. Summary rule.
 # Example: 2 steps Step 1: a equals b Step 2: c equals d
@@ -1519,7 +1519,7 @@ lines-steps-summary:
 # Example: 2 steps Step 1: a equals b Step 2: c equals d
 # %1: The list of lines.
 lines-steps:
-  - %1 (context:"Step-:", pause:long)
+  - %1 (context:"Stap-:", pause:long)
 
 # MultiLineLabel_Row preference rule for speaking regular multiline equations as rows. Summary rule.
 # Example: 2 rows Row 1: a equals b Row 2: c equals d
@@ -1535,7 +1535,7 @@ lines-rows-summary:
 # Example: 2 rows Row 1: a equals b Row 2: c equals d
 # %1: The list of lines.
 lines-rows:
-  - %1 (context:"Row-:", pause:long)
+  - %1 (context:"Ry-:", pause:long)
 
 # MultiLineLabel_Constraint preference rule for speaking regular multiline equations as constraints. Summary rule.
 # Example: 2 constraints Constraint 1: a equals b Constraint 2: c equals d
@@ -1551,7 +1551,7 @@ lines-constraints-summary:
 # Example: 2 constraints Constraint 1: a equals b Constraint 2: c equals d
 # %1: The list of lines.
 lines-constraints:
-  - %1 (context:"Constraint-:", pause:long)
+  - %1 (context:"beperking-:", pause:long)
 
 # Large operator like sum, product etc.
 # Example: the sum from n equals 0 to infinity of 1 over n
