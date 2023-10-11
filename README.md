@@ -16,7 +16,7 @@ your language, [see here for details](yaml.md).
 Forward translation of all locales:
 
 ``` javascript
-let trans = require('./js/base/translate');
+let trans = await import('./js/base/translate.js');
 trans.translateForwardAll();
 ```
 
@@ -32,7 +32,7 @@ trans.translateBackwardAll();
 Translation of mathmaps is done with the functions in `maps.ts`.
 
 ```
-let maps = require('./js/base/maps');
+let maps = await import('./js/base/maps.js');
 ```
 
 Forward translation is done with the `convert` methods.
@@ -87,7 +87,7 @@ mathmaps. Merge into `crowdin` branch and push to crowdin.
   correctly.
 * When making changes in the comment yaml file, update comments file and rerun translation:
   ```javascript
-  let comment = require('./js/base/comment');
+  let comment = await import('./js/base/comment.js');
   comment.updateComments();
   trans.translateForwardAll();
   ```
